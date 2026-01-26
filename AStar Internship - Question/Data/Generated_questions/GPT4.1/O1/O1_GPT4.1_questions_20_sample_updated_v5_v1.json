@@ -1,0 +1,262 @@
+{
+  "O1-RoRepDc_O1-RoSmpDc_GPT4.1_Farming_01": {
+    "Primary_kc": "RATIO | Representation and concept | ratios involving decimals",
+    "Secondary_kc": "RATIO | Simplifying | converting a ratio involving decimals to its simplest form",
+    "Topic": "Farming \u2013 Scenarios involving agriculture, livestock, crop production, or farm work",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-RoRepDc_O1-RoSmpDc_GPT4.1_Farming_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A vegetable farm in Singapore harvested 36.5 kg of carrots and 14.6 kg of radishes one morning.\n\n(a) What is the ratio of the mass of carrots to the mass of radishes, in decimal form?\n\n(b) Express this ratio in its simplest form.",
+      "solution": "Let the mass of carrots be 36.5 kg and the mass of radishes be 14.6 kg.\n\n(a) The ratio of carrots to radishes in decimal form is:\n\n$$\n\\text{Ratio} = 36.5 : 14.6\n$$\n\n(b) To simplify, divide both numbers by 14.6:\n\n$$\n36.5 \\div 14.6 = 2.5 \\\\\n14.6 \\div 14.6 = 1\n$$\n\nSo the simplest ratio is:\n\n$$\n2.5 : 1\n$$\n\n**Final Answer:**\n(a) 36.5 : 14.6\n\n(b) 2.5 : 1",
+      "response_time": 4.340659856796265
+    }
+  },
+  "O1-AgRepExSq_O1-AgEvlEx_GPT4.1_Services_01": {
+    "Primary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into quadratic algebraic expressions",
+    "Secondary_kc": "ALGEBRA | Evaluation | evaluation of algebraic expressions and formulae",
+    "Topic": "Services \u2013 Situations involving service jobs or industries like healthcare, retail, hospitality, or repair",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-AgRepExSq_O1-AgEvlEx_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A hotel charges $x$ dollars per night for a standard room. During the school holidays, they offer a special deal: if a guest books $n$ consecutive nights, the total cost includes a one-time discount of $10n^2$ dollars to attract families. \n\n(a) Write an algebraic expression in terms of $x$ and $n$ to represent the total cost for booking $n$ consecutive nights during the holiday promotion.\n\n(b) If the standard rate is $80$ dollars per night and a family stays for $5$ nights, evaluate the total cost using your expression from part (a).",
+      "solution": "(a) The total cost before the discount is $x \\times n$ dollars. The special discount is $10n^2$ dollars. So, the total cost after the discount is:\n\n\\[ \\text{Total Cost} = x \\times n - 10n^2 \\]\n\n(b) Substitute $x = 80$ and $n = 5$ into the expression:\n\n\\[\n\\begin{align*}\n\\text{Total Cost} &= 80 \\times 5 - 10 \\times 5^2 \\\\\n&= 400 - 10 \\times 25 \\\\\n&= 400 - 250 \\\\\n&= 150\n\\end{align*}\n\\]\n\nSo, the total cost for the family is \\$150.",
+      "response_time": 2.854501724243164
+    }
+  },
+  "O1-RoRepFr_P5-FrMulMixN_GPT4.1_Household Finance_01": {
+    "Primary_kc": "RATIO | Representation and concept | ratios involving fractions",
+    "Secondary_kc": "FRACTIONS | Multiplication | multiplying a mixed number and a whole number",
+    "Topic": "Household Finance \u2013 Contexts related to saving, spending, budgeting, bills, or personal/family expenses",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-RoRepFr_P5-FrMulMixN_GPT4.1_Household Finance_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A family spends $\\frac{3}{4}$ of their monthly food budget on groceries and the rest on eating out. Last month, the ratio of the money spent on groceries to the money spent on eating out was $\\frac{3}{4}:1$. If the family\u2019s total food budget for last month was $2\\frac{1}{2}$ times larger than $\\$200$, how much money did the family spend on eating out?",
+      "solution": "First, let's calculate the total food budget for last month:\n\n$2\\frac{1}{2} = \\frac{5}{2}$\n\nTotal food budget $= \\frac{5}{2} \\times 200 = 5 \\times 100 = \\$500$\n\nLet the amount spent on groceries be $G$ and the amount spent on eating out be $E$.\n\nIt is given that the ratio is $\\frac{3}{4}:1$, so:\n\n$\\frac{G}{E} = \\frac{3}{4}:1 = \\frac{3}{4} \\div 1 = \\frac{3}{4}$\n\nSo,\n\n$G = \\frac{3}{4}E$\n\nBut:\n\n$G + E = 500$\n\nSubstitute $G$:\n\n$\\frac{3}{4}E + E = 500$\n\n$\\left(\\frac{3}{4} + 1\\right)E = 500$\n\n$\\left(\\frac{3}{4} + \\frac{4}{4}\\right)E = 500$\n\n$\\frac{7}{4}E = 500$\n\nMultiply both sides by 4:\n\n$7E = 2000$\n\n$E = \\frac{2000}{7} \\approx \\$285.71$\n\nTherefore, the family spent roughly $\\$285.71$ on eating out last month.",
+      "response_time": 3.3580451011657715
+    }
+  },
+  "O1-FDMul_O1-FDSub_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "FRACTIONS AND DECIMALS | Multiplication | Multiplication involving one fraction and one decimal number",
+    "Secondary_kc": "FRACTIONS AND DECIMALS | Subtraction | Subtraction involving one fraction and one decimal number",
+    "Topic": "Manufacturing \u2013 Contexts related to production, factories, machinery, or goods creation",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-FDMul_O1-FDSub_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A factory produces 0.75 metres of fabric for each shirt. In one day, they use $\\frac{2}{3}$ of the fabric produced for making a new type of jacket. \n\n(a) How many metres of fabric are used for making jackets in one day?\n\n(b) After making the jackets, the factory has 0.4 metres of fabric left unused. How much fabric did the factory have at the start of the day?",
+      "solution": "(a) Amount of fabric used for jackets = $0.75 \\times \\frac{2}{3}$\n\nFirst, convert $0.75$ to a fraction: $0.75 = \\frac{3}{4}$.\n\nSo, $\\frac{3}{4} \\times \\frac{2}{3} = \\frac{6}{12} = 0.5$ metres.\n\n(b) Let $F$ be the total fabric at the start of the day.\n\nAfter making jackets and leaving 0.4 metres unused:\n\n$F - 0.5 = 0.4$\n\n$\\Rightarrow F = 0.4 + 0.5 = 0.9$ metres.\n\n**Answers:**\n(a) $0.5$ metres of fabric are used for making jackets in one day.\n\n(b) The factory had $0.9$ metres of fabric at the start of the day.",
+      "response_time": 3.912712335586548
+    }
+  },
+  "O1-AgSlvFrLr_O1-AgRepEq_GPT4.1_Services_01": {
+    "Primary_kc": "ALGEBRA | Solving | solving simple fractional equations that can be reduced to linear equations",
+    "Secondary_kc": "ALGEBRA | Representation and concept | concept of equation",
+    "Topic": "Services \u2013 Situations involving service jobs or industries like healthcare, retail, hospitality, or repair",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-AgSlvFrLr_O1-AgRepEq_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A mobile phone repair shop charges a fixed service fee and a fraction of the total repair cost as a handling charge. For a particular repair, the total cost (in dollars) is given by the equation:\n\n\\[\n\\frac{1}{3}x + 18 = 50\n\\]\n\nwhere $x$ is the cost of the parts used in the repair and $18$ is the fixed service fee. What is the cost of the parts used in this repair?",
+      "solution": "To find the cost of the parts $x$, we start with the equation:\n\\[\n\\frac{1}{3}x + 18 = 50\n\\]\nSubtract $18$ from both sides:\n\\[\n\\frac{1}{3}x = 50 - 18\n\\]\n\\[\n\\frac{1}{3}x = 32\n\\]\nMultiply both sides by $3$ to solve for $x$:\n\\[\nx = 32 \\times 3\n\\]\n\\[\nx = 96\n\\]\n\n**Therefore, the cost of the parts used in this repair is $\\boxed{96}$ dollars.**",
+      "response_time": 3.5338146686553955
+    }
+  },
+  "O1-PcFndRslt_P3-WNAdd4d_GPT4.1_Food_01": {
+    "Primary_kc": "PERCENTAGE | Finding result after change | increasing/decreasing a quantity by a given percentage (including concept of percentage point)",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | addition up to 4 digits",
+    "Topic": "Food \u2013 Situations involving meals, groceries, ingredients, or food preparation and consumption",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-PcFndRslt_P3-WNAdd4d_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A bakery sold 2,150 loaves of bread in January. In February, the bakery increased its sales by 12\\%. \n\n(a) How many loaves of bread did the bakery sell in February?\n\nIn March, the bakery sold 1,365 more loaves of bread than in February.\n\n(b) How many loaves of bread did the bakery sell altogether in January, February, and March?\n\nGive your answers in whole numbers.",
+      "solution": "Let us solve each part step by step.\n\n\\textbf{(a) Number of loaves sold in February}\n\nThe bakery increased its January sales (2,150 loaves) by 12\\%.\n\nIncrease = 12\\% of 2,150 = \\frac{12}{100} \\times 2,150 = 0.12 \\times 2,150 = 258.\n\nNumber of loaves sold in February = 2,150 + 258 = 2,408.\n\n\\textbf{(b) Total number of loaves sold in January, February, and March}\n\nThe number of loaves sold in March = Number sold in February + 1,365 = 2,408 + 1,365 = 3,773\n\nTotal number of loaves sold in all three months = January + February + March\n\n= 2,150 + 2,408 + 3,773\n\n= 2,150 + 2,408 = 4,558\n\n= 4,558 + 3,773 = 8,331\n\n\\boxed{2,408} loaves were sold in February. \\quad \\boxed{8,331} loaves were sold altogether in January, February, and March.",
+      "response_time": 4.490500211715698
+    }
+  },
+  "O1-RoRepFr_P6-FrDivPP_GPT4.1_Sports_01": {
+    "Primary_kc": "RATIO | Representation and concept | ratios involving fractions",
+    "Secondary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Topic": "Sports \u2013 Activities involving games, training, competitions, or physical performance",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-RoRepFr_P6-FrDivPP_GPT4.1_Sports_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "During a basketball training session, Coach Lim prepares a sports drink by mixing two types of fruit juice. The ratio of apple juice to orange juice used is $\\dfrac{3}{4} : 1$. If he has 6 litres of orange juice and uses all of it,\n\n(a) How many litres of apple juice does Coach Lim need to use?\n\n(b) If the total amount of sports drink is then divided equally among bottles, and each bottle holds $\\dfrac{3}{5}$ litres, how many bottles can be filled completely?",
+      "solution": "(a) Let the quantity of apple juice be $x$ litres. According to the ratio $\\dfrac{3}{4} : 1$, for every $1$ part of orange juice, there are $\\dfrac{3}{4}$ parts of apple juice.\n\nGiven: Orange juice = 6 litres\n\nSo,\n$\\dfrac{x}{6} = \\dfrac{3}{4} \\implies x = 6 \\times \\dfrac{3}{4} = \\dfrac{18}{4} = 4.5$ litres\n\nCoach Lim needs to use $4.5$ litres of apple juice.\n\n(b) Total sports drink = $6$ litres (orange juice) + $4.5$ litres (apple juice) = $10.5$ litres\n\nEach bottle holds $\\dfrac{3}{5}$ litres.\n\nNumber of bottles $= \\dfrac{10.5}{\\dfrac{3}{5}} = 10.5 \\times \\dfrac{5}{3} = \\dfrac{52.5}{3} = 17.5$\n\nCoach Lim can fill $\\boxed{17}$ bottles completely.\n",
+      "response_time": 3.516983985900879
+    }
+  },
+  "O1-RoRepFr_P6-FrDivPP_GPT4.1_Education_01": {
+    "Primary_kc": "RATIO | Representation and concept | ratios involving fractions",
+    "Secondary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Topic": "Education \u2013 Scenarios related to schools, learning, teachers, students, exams, or classroom settings",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-RoRepFr_P6-FrDivPP_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A class is preparing materials for an art project. The teacher distributes glitter into containers such that the ratio of blue glitter to silver glitter is $\\frac{3}{4} : \\frac{5}{6}$. If there are $24$ grams of blue glitter given out in total, \n\n(a) What is the total mass of silver glitter distributed?\n\n(b) If each container of silver glitter must have $\\frac{5}{12}$ grams, how many containers of silver glitter did the class prepare?",
+      "solution": "(a) First, express the ratio as fractions:\n\\[\n\\text{Blue} : \\text{Silver} = \\frac{3}{4} : \\frac{5}{6}\n\\]\nTo work with the ratio, divide both terms by $\\frac{3}{4}$, setting blue as 1 part:\n\\[\n1 : \\frac{5}{6} \\div \\frac{3}{4} = 1 : \\left(\\frac{5}{6} \\times \\frac{4}{3}\\right) = 1 : \\frac{20}{18} = 1 : \\frac{10}{9}\n\\]\nAlternate approach: express both parts over a common denominator.\n\nLet the ratio be $\\frac{3}{4} : \\frac{5}{6}$. The common denominator is 12.\n\\[\n\\frac{3}{4}=\\frac{9}{12},\\qquad \\frac{5}{6}=\\frac{10}{12}\n\\]\nSo blue : silver = 9 : 10.\n\nGiven 24 grams of blue glitter corresponds to '9 parts', so each part is:\n\\[\n24\\div 9 = \\frac{24}{9}=2\\frac{2}{3} \n\\]\nSilver (10 parts):\n\\[\n10\\times \\frac{24}{9} = \\frac{240}{9} = 26\\frac{6}{9} = 26\\frac{2}{3}\\text{ grams}\n\\]\n\n**Answer to (a):** The total mass of silver glitter distributed is $26 \\frac{2}{3}$ grams.\n\n(b) Each container has $\\frac{5}{12}$ grams. Number of containers:\n\\[\n\\text{Number of containers} = \\frac{26\\frac{2}{3}}{\\frac{5}{12}}\n\\]\nConvert $26\\frac{2}{3}$ to improper fraction:\n\\[\n26\\frac{2}{3} = \\frac{80}{3}\n\\]\n\\[\n\\text{Number} = \\frac{80}{3} \\div \\frac{5}{12} = \\frac{80}{3} \\times \\frac{12}{5}=\\frac{80\\times 12}{3\\times 5}=\\frac{960}{15}=64\n\\]\n\n**Answer to (b):** The class prepared \\boxed{64} containers of silver glitter.",
+      "response_time": 6.321914911270142
+    }
+  },
+  "O1-FDMul_O1-FDAdd_GPT4.1_Farming_01": {
+    "Primary_kc": "FRACTIONS AND DECIMALS | Multiplication | Multiplication involving one fraction and one decimal number",
+    "Secondary_kc": "FRACTIONS AND DECIMALS | Addition | Addition involving one fraction and one decimal number",
+    "Topic": "Farming \u2013 Scenarios involving agriculture, livestock, crop production, or farm work",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-FDMul_O1-FDAdd_GPT4.1_Farming_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "On a farm, a farmer uses $\\frac{3}{4}$ of a field to plant corn. Each square metre of the field produces $2.5$ kg of corn. What is the total mass of corn produced from the corn-planted area if the field is $1200$ square metres in size? \n\nAfter harvesting, $140.5$ kg of corn from another section is added to the harvested corn. What is the total mass of corn the farmer has now?",
+      "solution": "First, we find the area used to plant corn:\n\n$$\n\\text{Corn-planted area} = \\frac{3}{4} \\times 1200 = 900\\ \\text{square metres}\n$$\n\nEach square metre gives $2.5$ kg of corn:\n\n$$\n\\text{Mass of corn from main area} = 900 \\times 2.5 = 2250\\ \\text{kg}\n$$\n\nNext, $140.5$ kg of corn from another section is added:\n\n$$\n\\text{Total mass of corn} = 2250 + 140.5 = 2390.5\\ \\text{kg}\n$$\n\n\\textbf{Final Answer:} The farmer has $2390.5$ kg of corn in total.",
+      "response_time": 3.5544140338897705
+    }
+  },
+  "O1-AgRepExSq_O1-AgEvlEx_GPT4.1_Transportation_01": {
+    "Primary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into quadratic algebraic expressions",
+    "Secondary_kc": "ALGEBRA | Evaluation | evaluation of algebraic expressions and formulae",
+    "Topic": "Transportation \u2013 Problems involving travel, vehicles, routes, distances, or commuting",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-AgRepExSq_O1-AgEvlEx_GPT4.1_Transportation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A car travels from Jurong to Tampines. The distance between the two locations is 60 km. Let the speed of the car be $x$ km/h. On the way back, due to traffic, the speed decreases by 10 km/h. \n\n(a) Write an algebraic expression, in terms of $x$, for the total time (in hours) taken for the round trip.\n\n(b) If $x = 40$, evaluate the total time taken for the round trip. \n\nProvide your answers correct to 2 decimal places where necessary.",
+      "solution": "(a) Time taken from Jurong to Tampines at $x$ km/h = $\\dfrac{60}{x}$ hours. \n\nTime taken from Tampines to Jurong at $(x - 10)$ km/h = $\\dfrac{60}{x-10}$ hours. \n\nTotal time for the round trip = $\\dfrac{60}{x} + \\dfrac{60}{x-10}$ hours.\n\n(b) When $x = 40$:\n\nTotal time $= \\dfrac{60}{40} + \\dfrac{60}{30} = 1.5 + 2 = 3.5$ hours.\n\nTherefore, the total time taken for the round trip at $x = 40$ km/h is $3.5$ hours.",
+      "response_time": 4.043736696243286
+    }
+  },
+  "O1-PcFndRslt_P3-WNAdd4d_GPT4.1_Digital Economy_01": {
+    "Primary_kc": "PERCENTAGE | Finding result after change | increasing/decreasing a quantity by a given percentage (including concept of percentage point)",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | addition up to 4 digits",
+    "Topic": "Digital Economy \u2013 Scenarios involving online platforms, digital products, virtual services, or e-commerce",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-PcFndRslt_P3-WNAdd4d_GPT4.1_Digital Economy_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "An online store had 1,250 customers purchasing its digital subscription last month. This month, the number of customers increased by 12\\%. After the increase, the store also sold an additional 260 single-use digital passes. \n\nWhat is the total number of digital products (subscriptions and single-use passes) that the store sold this month?",
+      "solution": "First, calculate the number of customers after a 12\\% increase:\n\nNumber of customers increased = 1,250 \\times \\frac{12}{100} = 1,250 \\times 0.12 = 150\n\nTotal number of subscription customers this month = 1,250 + 150 = 1,400\n\nNow, add the number of single-use digital passes sold:\n\nTotal digital products sold = 1,400 + 260 = 1,660\n\n\\boxed{1,660}\n\nThus, the total number of digital products sold this month is 1,660.",
+      "response_time": 2.782731771469116
+    }
+  },
+  "O1-PcFndRslt_P3-WNSub4d_GPT4.1_Sports_01": {
+    "Primary_kc": "PERCENTAGE | Finding result after change | increasing/decreasing a quantity by a given percentage (including concept of percentage point)",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtraction up to 4 digits",
+    "Topic": "Sports \u2013 Activities involving games, training, competitions, or physical performance",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-PcFndRslt_P3-WNSub4d_GPT4.1_Sports_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A school's basketball team scored 1,200 points in the last season. This year, their coach set a target to increase their total score by 15\\%. However, due to some tough matches, the team only managed to improve their score by 12\\% from last year's total. \n\n(a) How many points did the team actually score this year?\n\n(b) By how many points did the team's actual score fall short of the coach's target?\n\n(Express your answers as whole numbers.)",
+      "solution": "Let last year's score = 1,200 points.\n\n(a) Actual percentage increase = 12\\%.\n\nIncrease in points = 12\\% of 1,200 = \\( \\frac{12}{100} \\times 1,200 = 144 \\)\n\nActual score this year = 1,200 + 144 = 1,344 points\n\n(b) Target percentage increase = 15\\%.\nTarget score = 1,200 + (15\\% of 1,200) \n= 1,200 + 0.15 \\times 1,200 \n= 1,200 + 180 \n= 1,380 points\n\nShortfall = Target score - Actual score = 1,380 - 1,344 = 36 points\n\n\\textbf{Answers:}\n\n(a) The team actually scored 1,344 points this year.\n\n(b) The team's score fell short of the target by 36 points.",
+      "response_time": 3.218817949295044
+    }
+  },
+  "O1-RoRepFr_P5-FrAddMix_GPT4.1_Farming_01": {
+    "Primary_kc": "RATIO | Representation and concept | ratios involving fractions",
+    "Secondary_kc": "FRACTIONS | Addition | adding mixed numbers",
+    "Topic": "Farming \u2013 Scenarios involving agriculture, livestock, crop production, or farm work",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-RoRepFr_P5-FrAddMix_GPT4.1_Farming_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "On a farm, the ratio of the amount of wheat harvested to the amount of corn harvested is $\\dfrac{3}{4} : 2$. If the farmer harvested $3\\dfrac{1}{2}$ tonnes of wheat, how much corn did the farmer harvest? Later, the farmer harvested an additional $1\\dfrac{1}{4}$ tonnes of corn. Find the new total amount of corn harvested, giving your answer as a mixed number.",
+      "solution": "Let the amount of wheat be $W$ tonnes and the amount of corn be $C$ tonnes.\n\nThe ratio is $\\dfrac{3}{4} : 2$,\nso:\n\n\\[\\frac{W}{C} = \\frac{3/4}{2} = \\frac{3/4}{2/1} = \\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}\\]\n\nGiven $W = 3\\dfrac{1}{2} = \\frac{7}{2}$ tonnes.\n\nUsing the ratio:\n\\[\\frac{W}{C} = \\frac{3}{8}\\]\n\\[\\frac{7}{2C} = \\frac{3}{8}\\]\n\\[7 \\times 8 = 2C \\times 3\\]\n\\[56 = 6C\\]\n\\[C = \\frac{56}{6} = \\frac{28}{3} = 9\\dfrac{1}{3}\\text{ tonnes}\\]\n\nWhen the farmer harvested an extra $1\\dfrac{1}{4} = \\frac{5}{4}$ tonnes of corn,\n\nNew total corn = $9\\dfrac{1}{3} + 1\\dfrac{1}{4}$\nConvert to improper fractions:\n$9\\dfrac{1}{3} = \\frac{28}{3}$\n$1\\dfrac{1}{4} = \\frac{5}{4}$\n\nFind common denominator (LCM of 3 and 4 is 12):\n$\\frac{28}{3} = \\frac{112}{12}$\n$\\frac{5}{4} = \\frac{15}{12}$\n\nAdd:\n$\\frac{112}{12} + \\frac{15}{12} = \\frac{127}{12}$\n\nConvert to mixed number:\n$127 \\div 12 = 10$ remainder 7\nSo, $\\frac{127}{12} = 10\\dfrac{7}{12}$\n\n**Final answers:**\n- The farmer originally harvested $9\\dfrac{1}{3}$ tonnes of corn.\n- After harvesting more, the total amount of corn is $10\\dfrac{7}{12}$ tonnes.",
+      "response_time": 5.1954345703125
+    }
+  },
+  "O1-PcRepRvs_O1-PcCnv2Dc_GPT4.1_Farming_01": {
+    "Primary_kc": "PERCENTAGE | Representation and concept | reverse percentages",
+    "Secondary_kc": "PERCENTAGE | Conversion to decimals | expressing percentage as a decimal",
+    "Topic": "Farming \u2013 Scenarios involving agriculture, livestock, crop production, or farm work",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-PcRepRvs_O1-PcCnv2Dc_GPT4.1_Farming_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A farmer harvested a field of corn and later found that, due to a counting error, he had recorded 20\\% less corn than he actually harvested. The incorrect record shows that he harvested 1,200 kilograms of corn. Express 20\\% as a decimal, and calculate the actual amount of corn, in kilograms, that he really harvested.",
+      "solution": "First, we express 20\\% as a decimal:\\\\\n20\\% = \\frac{20}{100} = 0.2\\\\\nLet the actual harvested corn be $x$ kg.\\\\\nSince the farmer recorded 20\\% less than what was actually harvested, the recorded amount is 80\\% of the actual amount.\\\\\nExpressing 80\\% as a decimal: 80\\% = 0.8\\\\\nSo,\\\\\n0.8x = 1,200\\\\\nx = \\frac{1,200}{0.8} = 1,500\\\\\nTherefore, the actual amount of corn harvested was 1,500 kilograms.",
+      "response_time": 2.295611619949341
+    }
+  },
+  "O1-PcFndRslt_P4-WNMul4d1d_GPT4.1_Digital Economy_01": {
+    "Primary_kc": "PERCENTAGE | Finding result after change | increasing/decreasing a quantity by a given percentage (including concept of percentage point)",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplication up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Topic": "Digital Economy \u2013 Scenarios involving online platforms, digital products, virtual services, or e-commerce",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-PcFndRslt_P4-WNMul4d1d_GPT4.1_Digital Economy_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A local business sells digital art prints online. In January, it sold 135 digital prints each at a price of \\$12. In February, the company decided to increase the price of each digital print by 15% to keep up with rising costs. \n\n(a) What is the new price of each digital print in February, after the 15% increase?\n\n(b) If the business sells the same number of prints (135) in February at the new price, what is the total revenue for February?\n\n(c) By how much did the total revenue increase from January to February?",
+      "solution": "(a) The price increase is 15% of \\$12.\n\nIncrease = $0.15 \\times 12 = \\$1.80$\n\nNew price = $12 + 1.80 = \\$13.80$\n\n(b) Total revenue in February = number of prints \\( \\times \\) new price\n\n= $135 \\times 13.80$\n\n= $1,863$\n\n(c) Total revenue in January = $135 \\times 12 =\\$1,620$\n\nIncrease in revenue = $1,863 - 1,620 = \\$243$\n\nThus:\n\n(a) The new price of each digital print is \\$13.80.\n\n(b) The total revenue for February is \\$1,863.\n\n(c) The total revenue increased by \\$243 from January to February.",
+      "response_time": 3.4099111557006836
+    }
+  },
+  "O1-RoRepDc_P4-DcAdd2d_GPT4.1_Transportation_01": {
+    "Primary_kc": "RATIO | Representation and concept | ratios involving decimals",
+    "Secondary_kc": "DECIMALS | Addition | adding decimals (up to 2 decimal places)",
+    "Topic": "Transportation \u2013 Problems involving travel, vehicles, routes, distances, or commuting",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-RoRepDc_P4-DcAdd2d_GPT4.1_Transportation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Amir and Siti decided to take a taxi to the airport. The taxi fare is calculated based on the distance travelled. Amir\u2019s journey to the airport is 8.40 km, while Siti's journey is 12.60 km. \n\n(a) The ratio of the distance travelled by Amir to the distance travelled by Siti can be written in the form of decimals. What is the ratio of Amir\u2019s distance to Siti\u2019s distance, in its simplest form using decimals?\n\n(b) If the taxi charges $0.65 per kilometre, what is the total fare (in dollars) for both Amir and Siti, if they travel separately to the airport? (Give your answer correct to 2 decimal places.)",
+      "solution": "(a) Amir\u2019s distance = 8.40 km\nSiti\u2019s distance = 12.60 km\n\nThe ratio (in decimals) = 8.40 : 12.60\nTo simplify, divide both numbers by 8.40:\n\n8.40 / 8.40 = 1  \n12.60 / 8.40 = 1.5\n\nSo, the ratio in decimals is 1 : 1.5.\n\nAlternatively, express as decimals: 8.40 : 12.60 = 0.67 : 1 (dividing both by 12.60),\nwhich is also correct, but '1 : 1.5' matches the direct decimal form.\n\n(b) Total fare for Amir = 8.40 \u00d7 $0.65 = $5.46  \nTotal fare for Siti = 12.60 \u00d7 $0.65 = $8.19\n\nTotal taxi fare = $5.46 + $8.19 = $13.65\n\nFinal Answers:\n(a) Ratio of Amir\u2019s distance to Siti\u2019s distance is 1 : 1.5 in decimal form.\n(b) The total taxi fare for both is $13.65.",
+      "response_time": 4.02642297744751
+    }
+  },
+  "O1-PcFndRslt_P4-WNDiv4d1d_GPT4.1_Food_01": {
+    "Primary_kc": "PERCENTAGE | Finding result after change | increasing/decreasing a quantity by a given percentage (including concept of percentage point)",
+    "Secondary_kc": "WHOLE NUMBERS | Division | division up to 4 digits by 1 digit",
+    "Topic": "Food \u2013 Situations involving meals, groceries, ingredients, or food preparation and consumption",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-PcFndRslt_P4-WNDiv4d1d_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A restaurant had 1,824 bowls of noodles in stock at the beginning of the month. Due to an ongoing food festival, the manager decided to increase the number of noodle bowls by 25\\%. After the increase, the restaurant wants to divide the total number of bowls equally among 8 outlets. \n\n(a) What is the new number of noodle bowls after the 25\\% increase?\n\n(b) How many bowls will each outlet receive?\n",
+      "solution": "(a) First, calculate the 25\\% increase:\n\nNumber of bowls increased = 25\\% of 1,824 = \\frac{25}{100} \\times 1,824 = 456\n\nNew number of bowls = 1,824 + 456 = 2,280\n\n(b) Divide the new total number of bowls equally among 8 outlets:\n\nNumber of bowls per outlet = 2,280 \\div 8 = 285\n\n\\boxed{285} bowls will be allocated to each outlet.",
+      "response_time": 2.3568837642669678
+    }
+  },
+  "O1-PcFndRslt_P4-WNDiv4d1d_GPT4.1_Sports_01": {
+    "Primary_kc": "PERCENTAGE | Finding result after change | increasing/decreasing a quantity by a given percentage (including concept of percentage point)",
+    "Secondary_kc": "WHOLE NUMBERS | Division | division up to 4 digits by 1 digit",
+    "Topic": "Sports \u2013 Activities involving games, training, competitions, or physical performance",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-PcFndRslt_P4-WNDiv4d1d_GPT4.1_Sports_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A basketball coach had 1248 basketballs for training last year. This year, the coach increased the number of basketballs by 15\\%. After the increase, the coach wants to divide the new total number of basketballs equally among 8 teams for their training sessions.\n\n(a) How many basketballs does the coach have this year after the increase?\n\n(b) How many basketballs will each team get, and how many basketballs will be left undistributed, if any?",
+      "solution": "(a) First, find 15\\% of 1248:\n\n15\\% of 1248 = \\frac{15}{100} \\times 1248 = 0.15 \\times 1248 = 187.2\n\nSo, the increase is 187.2 basketballs. Add this to the original number:\n\n1248 + 187.2 = 1435.2\n\nSince the number of basketballs must be a whole number, the coach now has 1435 basketballs (if we round down to the nearest whole number).\n\n(b) Divide 1435 basketballs equally among 8 teams:\n\n1435 \\div 8 = 179 \\;\\text{R}\\;3\n\nSo, each team gets 179 basketballs. 3 basketballs will be left undistributed.",
+      "response_time": 21.945567846298218
+    }
+  },
+  "O1-AgRepExSq_O1-AgEvlEx_GPT4.1_Food_01": {
+    "Primary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into quadratic algebraic expressions",
+    "Secondary_kc": "ALGEBRA | Evaluation | evaluation of algebraic expressions and formulae",
+    "Topic": "Food \u2013 Situations involving meals, groceries, ingredients, or food preparation and consumption",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-AgRepExSq_O1-AgEvlEx_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "James is preparing a fruit punch for a school event. He knows that the amount of punch, $V$ (in litres), he can make depends on the number of fruit juice cartons $n$ he uses, according to the expression $V = n^2 + 4n$. \n\n(a) Write a quadratic algebraic expression to represent the amount of punch James can make if he uses $n$ cartons.\n\n(b) If James wants to prepare punch using 3 cartons of fruit juice, evaluate the amount of punch he can make.",
+      "solution": "(a) The amount of punch James can make is given by the quadratic expression: $V = n^2 + 4n$, where $n$ is the number of fruit juice cartons.\n\n(b) By substituting $n = 3$ into the expression:\n\n$V = (3)^2 + 4 \\times 3 = 9 + 12 = 21$\n\nTherefore, if James uses 3 cartons of fruit juice, he can make 21 litres of punch.",
+      "response_time": 2.3079750537872314
+    }
+  },
+  "O1-FDDiv_O1-FDAdd_GPT4.1_Digital Economy_01": {
+    "Primary_kc": "FRACTIONS AND DECIMALS | Division | Division involving one fraction and one decimal number",
+    "Secondary_kc": "FRACTIONS AND DECIMALS | Addition | Addition involving one fraction and one decimal number",
+    "Topic": "Digital Economy \u2013 Scenarios involving online platforms, digital products, virtual services, or e-commerce",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-FDDiv_O1-FDAdd_GPT4.1_Digital Economy_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Sarah is shopping for e-books on an online platform. She purchases one e-book for $\\frac{3}{4}$ of the regular price, which is $6.8. She also adds another e-book costing $2.5$ to her cart.\\\n\\\n(a) What is the regular price of the first e-book?\\\n\\\n(b) What is the total cost (in dollars) of both e-books that Sarah has to pay?\\\n\\\nGive your answer in decimals up to 2 decimal places where necessary.",
+      "solution": "(a) Let the regular price be $x$.\\\n\\\nSarah paid $\\frac{3}{4}$ of this regular price, which equals $6.8.$\\\n\\[\n\\frac{3}{4}x = 6.8\n\\]\nTo find $x$, divide both sides by $\\frac{3}{4}$ (which is equivalent to multiplying by $\\frac{4}{3}$):\\\n\\[\nx = 6.8 \\div \\frac{3}{4} = 6.8 \\times \\frac{4}{3} = \\frac{6.8 \\times 4}{3} = \\frac{27.2}{3} = 9.07\\\n\\]\nSo, the regular price of the first e-book is $9.07.\\$\n\\\n(b) The amount Sarah pays for the first e-book is $6.8. She also buys another e-book for $2.5$.\\\n\\[\n\\text{Total cost} = 6.8 + 2.5 = 9.3\n\\]\nSarah has to pay $9.30 in total for both e-books.",
+      "response_time": 3.274794101715088
+    }
+  }
+}

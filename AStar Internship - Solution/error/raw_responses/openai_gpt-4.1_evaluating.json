@@ -1,0 +1,19 @@
+{
+    "openai/gpt-4.1": {
+        "P6ratio": {},
+        "O3NumOps": {},
+        "P5Deci4Op": {},
+        "P5rate": {},
+        "P2FracW": {},
+        "P4FctorM": {},
+        "P3N10k": {},
+        "P5FracDv": {},
+        "O1AgbrEF": {},
+        "O1NumOps": {},
+        "P4Deci3d": {},
+        "P4N100k": {},
+        "O1EqIneq": {},
+        "P1Money": {},
+        "P4FracMI": {}
+    }
+}

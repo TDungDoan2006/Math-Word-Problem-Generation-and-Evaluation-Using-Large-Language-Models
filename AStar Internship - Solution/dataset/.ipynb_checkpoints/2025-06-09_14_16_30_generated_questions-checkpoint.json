@@ -1,0 +1,194 @@
+{
+    "P1N100": {
+        "ID": "P1N100",
+        "Grade": "Primary 1",
+        "KC": "Numbers up to 100",
+        "Question": "Sarah has 37 stickers and Ben has 48 stickers. How many stickers do they have altogether?"
+    },
+    "P1AddSub": {
+        "ID": "P1AddSub",
+        "Grade": "Primary 1",
+        "KC": "Addition and Subtraction",
+        "Question": "Amir has 8 toy cars. His friend gives him 6 more toy cars. How many toy cars does Amir have now?"
+    },
+    "P1MulDiv": {
+        "ID": "P1MulDiv",
+        "Grade": "Primary 1",
+        "KC": "Multiplication and Division",
+        "Question": "Each packet contains 4 apples. Mrs Lim bought 3 packets of apples. How many apples did she buy altogether?"
+    },
+    "P1Money": {
+        "ID": "P1Money",
+        "Grade": "Primary 1",
+        "KC": "Money",
+        "Question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?"
+    },
+    "P2N1000": {
+        "ID": "P2N1000",
+        "Grade": "Primary 2",
+        "KC": "Numbers up to 1000",
+        "Question": "Maya has 325 stickers. Her brother gives her 250 more stickers. How many stickers does Maya have in total now?"
+    },
+    "P2FracW": {
+        "ID": "P2FracW",
+        "Grade": "Primary 2",
+        "KC": "Fraction of a Whole",
+        "Question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?"
+    },
+    "P2FracAS": {
+        "ID": "P2FracAS",
+        "Grade": "Primary 2",
+        "KC": "Addition and Subtraction",
+        "Question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?"
+    },
+    "P3N10k": {
+        "ID": "P3N10k",
+        "Grade": "Primary 3",
+        "KC": "Numbers up to 10000",
+        "Question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?"
+    },
+    "P3FracEq": {
+        "ID": "P3FracEq",
+        "Grade": "Primary 3",
+        "KC": "Equivalent fractions",
+        "Question": "Nina ate two out of six pieces of watermelon. Her brother said that she ate one out of three pieces. Are these two fractions equivalent? Show your answer."
+    },
+    "P4N100k": {
+        "ID": "P4N100k",
+        "Grade": "Primary 4",
+        "KC": "Numbers up to 100000",
+        "Question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?"
+    },
+    "P4FctorM": {
+        "ID": "P4FctorM",
+        "Grade": "Primary 4",
+        "KC": "Factors and Multiples",
+        "Question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?"
+    },
+    "P44Op": {
+        "ID": "P44Op",
+        "Grade": "Primary 4",
+        "KC": "Four Operations",
+        "Question": "A box contains 248 bookmarks. Sarah bought 3 such boxes and then gave away 95 bookmarks to her friends. How many bookmarks does Sarah have left?"
+    },
+    "P4FracMI": {
+        "ID": "P4FracMI",
+        "Grade": "Primary 4",
+        "KC": "Mixed Numbers and Improper Fractions",
+        "Question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction."
+    },
+    "P4FracSet": {
+        "ID": "P4FracSet",
+        "Grade": "Primary 4",
+        "KC": "Fraction of a Set",
+        "Question": "There are 24 apples in a box. If one third of the apples are green, how many green apples are there?"
+    },
+    "P4Deci3d": {
+        "ID": "P4Deci3d",
+        "Grade": "Primary 4",
+        "KC": "Decimals up to 3 decimal places",
+        "Question": "Muthu bought a pencil for $2.450 and an eraser for $0.650. How much did he spend altogether?"
+    },
+    "P4DeciAS": {
+        "ID": "P4DeciAS",
+        "Grade": "Primary 4",
+        "KC": "Addition and Subtraction",
+        "Question": "Farhan bought a sandwich for $3.85 and a drink for $1.60. He paid with a $10 note. How much change did he receive?"
+    },
+    "P4DeciMD": {
+        "ID": "P4DeciMD",
+        "Grade": "Primary 4",
+        "KC": "Multiplication and Division",
+        "Question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?"
+    },
+    "P5N1m": {
+        "ID": "P5N1m",
+        "Grade": "Primary 5",
+        "KC": "Numbers up to 10 million",
+        "Question": "A library in Singapore has 6,250,430 books. If 2,317,549 books are borrowed, how many books are left in the library?"
+    },
+    "P5FracDv": {
+        "ID": "P5FracDv",
+        "Grade": "Primary 5",
+        "KC": "Fraction and Division",
+        "Question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?"
+    },
+    "P5Frac4Op": {
+        "ID": "P5Frac4Op",
+        "Grade": "Primary 5",
+        "KC": "Four Operations",
+        "Question": "Mrs Lim baked 2 and 1/4 trays of cookies. She divided the cookies equally among her 3 children. How much of a tray of cookies did each child get?"
+    },
+    "P5Deci4Op": {
+        "ID": "P5Deci4Op",
+        "Grade": "Primary 5",
+        "KC": "Four Operations",
+        "Question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?"
+    },
+    "P5perctg": {
+        "ID": "P5perctg",
+        "Grade": "Primary 5",
+        "KC": "Percentage",
+        "Question": "A shirt usually costs \\$48. During a sale, the price of the shirt is reduced by 25 percent. What is the sale price of the shirt?"
+    },
+    "P5rate": {
+        "ID": "P5rate",
+        "Grade": "Primary 5",
+        "KC": "Rate",
+        "Question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?"
+    },
+    "P6ratio": {
+        "ID": "P6ratio",
+        "Grade": "Primary 6",
+        "KC": "Ratio",
+        "Question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?"
+    },
+    "P6algebr": {
+        "ID": "P6algebr",
+        "Grade": "Primary 6",
+        "KC": "Algebra",
+        "Question": "Tom has $3m + 8$ marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?"
+    },
+    "O1NumOps": {
+        "ID": "O1NumOps",
+        "Grade": "O-Level 1",
+        "KC": "Numbers and their operations",
+        "Question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form."
+    },
+    "O1RioPro": {
+        "ID": "O1RioPro",
+        "Grade": "O1",
+        "KC": "Ratio and proportion",
+        "Question": "The ratio of the number of blue pens to red pens in a box is 5 : 3. If there are 60 blue pens, how many red pens are there?"
+    },
+    "O1RatSpd": {
+        "ID": "O1RatSpd",
+        "Grade": "O1",
+        "KC": "Rate and Speed",
+        "Question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?"
+    },
+    "O1AgbrEF": {
+        "ID": "O1AgbrEF",
+        "Grade": "O1",
+        "KC": "Algebraic expressions and formulae",
+        "Question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle."
+    },
+    "O1EqIneq": {
+        "ID": "O1EqIneq",
+        "Grade": "O1",
+        "KC": "Equations and inequalities",
+        "Question": "A mobile phone usually costs $x. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x."
+    },
+    "O2Prob": {
+        "ID": "O2Prob",
+        "Grade": "Secondary 2",
+        "KC": "Probability",
+        "Question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?"
+    },
+    "O3NumOps": {
+        "ID": "O3NumOps",
+        "Grade": "O3",
+        "KC": "Numbers and their operations",
+        "Question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?"
+    }
+}

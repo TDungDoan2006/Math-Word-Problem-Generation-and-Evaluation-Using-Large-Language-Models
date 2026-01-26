@@ -1,0 +1,1112 @@
+{
+    "P1N100": {
+        "Place Value Error": {
+            "question": "Sarah has 37 stickers and Ben has 48 stickers. How many stickers do they have altogether?",
+            "type_of_error": "Place Value Error",
+            "wrong_solution": {
+                "Step 1": "We need to find the total number of stickers Sarah and Ben have. We do this by adding the number of stickers Sarah has to the number of stickers Ben has.",
+                "Step 2": "Sarah has 37 stickers. Ben has 48 stickers.",
+                "Step 3": "Add the two numbers by adding each digit:\nOnes place: 7 + 8 = 15, write 15 in the ones place.\nTens place: 3 + 4 = 7.",
+                "Step 4": "So, I write the answer as 715.",
+                "Step 5": "Sarah and Ben have 715 stickers altogether."
+            },
+            "wrong_steps": {
+                "Step 3": "Place Value Error"
+            },
+            "error_explanation": {
+                "Step 3": "The student added the ones place digits to get 15 and directly wrote 15 in the ones place instead of carrying over 1 to the tens place. This shows misunderstanding of how place value works during addition."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Place Value Error"
+            }
+        }
+    },
+    "P1AddSub": {},
+    "P1MulDiv": {},
+    "P1Money": {
+        "Miscounting or Omitting Coins": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Miscounting or Omitting Coins",
+            "wrong_solution": {
+                "Step 1": "First, add the value of only the 50-cent coin and one 20-cent coin.\n\n\\[\n50\\text{ cents} + 20\\text{ cents} = 70\\text{ cents}\n\\]",
+                "Step 2": "So, Shawn has 70 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Miscounting or Omitting Coins"
+            },
+            "error_explanation": {
+                "Step 1": "In this step, only one of the two 20-cent coins was included in the calculation. The other 20-cent coin was omitted, resulting in an incorrect total."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Miscounting or Omitting Coins"
+            }
+        },
+        "Misunderstanding Coin Value": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Misunderstanding Coin Value",
+            "wrong_solution": {
+                "Step 1": "First, find the total value of the two 20-cent coins.\n\n\\[\n20\\text{ cents} + 20\\text{ cents} = 40\\text{ cents}\n\\]",
+                "Step 2": "Next, add the value of the 50-cent coin, but mistakenly think it is worth 5 cents, to the 40 cents from the two 20-cent coins.\n\n\\[\n5\\text{ cents} + 40\\text{ cents} = 45\\text{ cents}\n\\]",
+                "Step 3": "So, Shawn has 45 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Misunderstanding Coin Value"
+            },
+            "error_explanation": {
+                "Step 2": "The value of the 50-cent coin was misunderstood as 5 cents instead of 50 cents. This leads to an incorrect total because the actual value should be added."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misunderstanding Coin Value"
+            }
+        }
+    },
+    "P2N1000": {
+        "Place Value Misalignment": {
+            "question": "Maya has 325 stickers. Her brother gives her 250 more stickers. How many stickers does Maya have in total now?",
+            "type_of_error": "Place Value Misalignment",
+            "wrong_solution": {
+                "Step 1": "First, add the number of stickers Maya had at first to the number of stickers her brother gave her.",
+                "Step 2": "Maya's original stickers: \n\\[ 325 \\]",
+                "Step 3": "Stickers given by her brother: \n\\[ 250 \\]",
+                "Step 4": "Add the numbers without properly aligning the place values: \n\\[ 325 + 250 = 475 \\]",
+                "Step 5": "So, Maya has \n\\[ 475 \\] stickers in total now."
+            },
+            "wrong_steps": {
+                "Step 4": "Place Value Misalignment"
+            },
+            "error_explanation": {
+                "Step 4": "The digits were not lined up by place value when adding 325 and 250, resulting in an incorrect sum. Instead of adding ones to ones, tens to tens, and hundreds to hundreds, the addition was done incorrectly."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Place Value Misalignment"
+            }
+        }
+    },
+    "P2FracW": {
+        "Wrong Fraction Representation": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Wrong Fraction Representation",
+            "wrong_solution": {
+                "Step 1": "The cake was divided into 8 equal pieces, so there are 8 pieces in total.",
+                "Step 2": "Mdm Lim gave 3 pieces to her neighbour.",
+                "Step 3": "The fraction of the cake given away is represented as the total pieces over the number of pieces given away: \\[ \\frac{8}{3} \\].",
+                "Step 4": "Therefore, Mdm Lim gave away \\( \\frac{8}{3} \\) of the cake to her neighbour."
+            },
+            "wrong_steps": {
+                "Step 3": "Wrong Fraction Representation"
+            },
+            "error_explanation": {
+                "Step 3": "The student wrote the fraction as \\( \\frac{8}{3} \\), using the total number of pieces as the numerator and the number given away as the denominator. The correct way is to put the number given away over the total: \\( \\frac{3}{8} \\)."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Wrong Fraction Representation"
+            }
+        },
+        "Incorrect Denominator": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Incorrect Denominator",
+            "wrong_solution": {
+                "Step 1": "The cake was cut into 8 equal pieces. Mdm Lim gave away 3 pieces to her neighbour.",
+                "Step 2": "After giving away 3 pieces, there are 5 pieces left.",
+                "Step 3": "The fraction of the cake she gave away is \\[ \\frac{3}{5} \\] because 3 pieces out of the remaining 5 pieces were given away.",
+                "Step 4": "Therefore, Mdm Lim gave away \\( \\frac{3}{5} \\) of the cake."
+            },
+            "wrong_steps": {
+                "Step 3": "Incorrect Denominator"
+            },
+            "error_explanation": {
+                "Step 3": "The student used the number of pieces left (5) as the denominator instead of the total number of pieces (8). The denominator should represent the total number of equal parts the cake was cut into, not the number remaining."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Incorrect Denominator"
+            }
+        }
+    },
+    "P2FracAS": {
+        "Arithmetic Error in Fraction Addition": {
+            "question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?",
+            "type_of_error": "Arithmetic Error in Fraction Addition",
+            "wrong_solution": {
+                "Step 1": "First, we need to find out how much cake Siti ate in total. She ate one quarter in the morning and another one quarter in the afternoon. We can write this as: \n\\[ \\frac{1}{4} + \\frac{1}{4} \\]",
+                "Step 2": "Since the denominators are the same, we add the numerators incorrectly:\n\\[ \\frac{1+1}{4} = \\frac{1}{4} \\]",
+                "Step 3": "So, Siti ate one quarter of the cake altogether.\n\\[ \\boxed{\\frac{1}{4}} \\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Arithmetic Error in Fraction Addition"
+            },
+            "error_explanation": {
+                "Step 2": "The student made an arithmetic error by adding the numerators incorrectly. Instead of 1+1=2, the student incorrectly wrote 1+1=1, so the answer stays at \\( \\frac{1}{4} \\) instead of \\( \\frac{2}{4} \\)."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Arithmetic Error in Fraction Addition"
+            }
+        }
+    },
+    "P3N10k": {
+        "Misalignment of Digits": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Misalignment of Digits",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823\nNumber of reference books = 2,156",
+                "Step 2": "Add the number of storybooks and reference books to find the total number of books, but do not align the digits correctly:\n\\[\n7823\n+ 2156\n------\n90279\n\\]",
+                "Step 3": "So, the total number of books in the library is \\( 90,279 \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Misalignment of Digits"
+            },
+            "error_explanation": {
+                "Step 2": "The addition in Step 2 was done without properly aligning the digits according to their place values. As a result, the ones, tens, hundreds, and thousands places were not added correctly, leading to an incorrect total."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misalignment of Digits"
+            }
+        },
+        "Place Value Misinterpretation": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Place Value Misinterpretation",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823\nNumber of reference books = 2,156",
+                "Step 2": "Add the number of storybooks and reference books, but mistakenly add each digit without considering the correct place value:\n\n\\[\n7,823 + 2,156 =\n\\]\n\nAdd each digit separately:\nThousands: 7 + 2 = 9\nHundreds: 8 + 1 = 9\nTens: 2 + 5 = 7\nOnes: 3 + 6 = 9\nSo, write the answer as 9,979.",
+                "Step 3": "So, the total number of books in the library is \\( 9,979 \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Place Value Misinterpretation"
+            },
+            "error_explanation": {
+                "Step 2": "The digits in the same place value were added individually and each result was used as a new digit, which is not correct for multi-digit addition. Proper column addition should carry over if the sum exceeds 9 in any column, but here carries were ignored."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Place Value Misinterpretation"
+            }
+        }
+    },
+    "P3FracEq": {
+        "Misunderstanding Equivalent Fractions": {
+            "question": "Nina ate two out of six pieces of watermelon. Her brother said that she ate one out of three pieces. Are these two fractions equivalent? Show your answer.",
+            "type_of_error": "Misunderstanding Equivalent Fractions",
+            "wrong_solution": {
+                "Step 1": "Let's write the two fractions. Nina ate two out of six pieces, so the fraction is \\( \\frac{2}{6} \\). Her brother said she ate one out of three pieces, so the fraction is \\( \\frac{1}{3} \\).",
+                "Step 2": "Since the numerators and denominators are different (2 is not equal to 1 and 6 is not equal to 3), the two fractions are not equivalent.",
+                "Step 3": "Therefore, \\( \\frac{2}{6} \\) is not equivalent to \\( \\frac{1}{3} \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Misunderstanding Equivalent Fractions"
+            },
+            "error_explanation": {
+                "Step 2": "This is incorrect because different fractions can be equivalent if they represent the same value. The student mistakenly thinks that just because the numerators and denominators are not the same, the fractions cannot be equal, showing a misunderstanding of how to check for equivalent fractions."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misunderstanding Equivalent Fractions"
+            }
+        },
+        "Arithmetic Error in Fraction Conversion": {
+            "question": "Nina ate two out of six pieces of watermelon. Her brother said that she ate one out of three pieces. Are these two fractions equivalent? Show your answer.",
+            "type_of_error": "Arithmetic Error in Fraction Conversion",
+            "wrong_solution": {
+                "Step 1": "Let's write the two fractions. Nina ate two out of six pieces, so the fraction is \\( \\frac{2}{6} \\). Her brother said she ate one out of three pieces, so the fraction is \\( \\frac{1}{3} \\).",
+                "Step 2": "To check if these two fractions are equivalent, we can try to simplify \\( \\frac{2}{6} \\) to its simplest form. Let's divide both the numerator and denominator by 3.",
+                "Step 3": "\\[ \\frac{2 \\div 3}{6 \\div 3} = \\frac{2}{2} \\]",
+                "Step 4": "The simplified form of \\( \\frac{2}{6} \\) is \\( \\frac{2}{2} \\).",
+                "Step 5": "Since \\( \\frac{2}{2} \\) is not the same as \\( \\frac{1}{3} \\), the two fractions are not equivalent."
+            },
+            "wrong_steps": {
+                "Step 3": "Arithmetic Error in Fraction Conversion"
+            },
+            "error_explanation": {
+                "Step 3": "In this step, the numerator and denominator of \\( \\frac{2}{6} \\) were divided by 3, but 2 cannot be divided evenly by 3, resulting in an incorrect fraction. The correct simplification should divide both terms by their greatest common factor, which is 2, not 3. The error leads to an incorrect equivalent fraction and a wrong conclusion."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Arithmetic Error in Fraction Conversion"
+            }
+        },
+        "Incorrect Comparison of Numerators or Denominators": {
+            "question": "Nina ate two out of six pieces of watermelon. Her brother said that she ate one out of three pieces. Are these two fractions equivalent? Show your answer.",
+            "type_of_error": "Incorrect Comparison of Numerators or Denominators",
+            "wrong_solution": {
+                "Step 1": "Nina ate two out of six pieces, so the fraction is \\( \\frac{2}{6} \\). Her brother said she ate one out of three pieces, so the fraction is \\( \\frac{1}{3} \\).",
+                "Step 2": "If we compare the numerators and denominators, we see that 2 is greater than 1 and 6 is greater than 3. Therefore, \\( \\frac{2}{6} \\) is greater than \\( \\frac{1}{3} \\), so they are not equivalent."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Comparison of Numerators or Denominators"
+            },
+            "error_explanation": {
+                "Step 2": "This solution wrongly compares the numerators and denominators separately without simplifying the fractions or comparing their values. Fractions must be compared using equivalence or by finding a common denominator, not just by looking at the numbers themselves."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Comparison of Numerators or Denominators"
+            }
+        }
+    },
+    "P4N100k": {
+        "Misalignment of Digits": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Misalignment of Digits",
+            "wrong_solution": {
+                "Step 1": "First, we need to add 85,960 and 9,380 to find the total number of books.",
+                "Step 2": "Let us write the numbers for addition (not properly aligning the digits):\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n+   9,380 \\\\\n\\hline\n\\end{array}\n\\]\n(Here, 9,380 is written starting under the hundreds place of 85,960.)",
+                "Step 3": "Now, add the numbers as they are misaligned:\n\nUnits: 0 + 8 = 8\n\nTens: 6 + 0 = 6\n\nHundreds: 9 + 3 = 12 (write 2, carry over 1)\n\nThousands: 5 + 9 = 14, plus 1 carried over = 15 (write 5, carry over 1)\n\nTen Thousands: 8 + 0 = 8, plus 1 carried over = 9",
+                "Step 4": "So, the total will be:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n+   9,380 \\\\\n\\hline\n  95,628\n\\end{array}\n\\]",
+                "Step 5": "The library will have 95,628 books in total after adding the new books."
+            },
+            "wrong_steps": {
+                "Step 2": "Misalignment of Digits"
+            },
+            "error_explanation": {
+                "Step 2": "The error occurred because the digits of 9,380 were not properly aligned with those of 85,960 according to their place values. The student started writing 9,380 under the hundreds column of 85,960, causing all subsequent addition to be incorrect."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misalignment of Digits"
+            }
+        }
+    },
+    "P4FctorM": {
+        "Misunderstanding the Concept of Factors": {
+            "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+            "type_of_error": "Misunderstanding the Concept of Factors",
+            "wrong_solution": {
+                "Step 1": "To solve this problem, we need to find all the possible numbers of chairs that can be in each row. I will look for numbers that can be multiplied by 28 to get a bigger number.",
+                "Step 2": "These are called multiples. So, the multiples of 28 are 28, 56, 84, and so on.",
+                "Step 3": "Therefore, the possible numbers of chairs that can be in each row are: \\[ 28,\\ 56,\\ 84,\\ 112,\\ 140, ... \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Misunderstanding the Concept of Factors"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of finding the factors of 28 (numbers that divide 28 exactly), the student listed multiples of 28 (numbers that are the result of 28 multiplied by whole numbers). The question asks for factors (possible equal rows), not multiples."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misunderstanding the Concept of Factors"
+            }
+        },
+        "Incorrectly Listing Factors": {
+            "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+            "type_of_error": "Incorrectly Listing Factors",
+            "wrong_solution": {
+                "Step 1": "To solve this problem, we need to find all the possible numbers of chairs that can be in each row. This means we need to find all the factors of 28.",
+                "Step 2": "A factor is a number that divides exactly into another number with no remainder.",
+                "Step 3": "Let us start by dividing 28 by numbers starting from 1.",
+                "Step 4": "28 \\div 1 = 28 \\quad \\Rightarrow 1 \\text{ and } 28 \\text{ are factors.}",
+                "Step 5": "28 \\div 2 = 14 \\quad \\Rightarrow 2 \\text{ and } 14 \\text{ are factors.}",
+                "Step 6": "28 \\div 3 = 9\\text{ remainder }1 \\quad \\Rightarrow 3 \\text{ is not a factor.}",
+                "Step 7": "28 \\div 4 = 7 \\quad \\Rightarrow 4 \\text{ and } 7 \\text{ are factors.}",
+                "Step 8": "28 \\div 5 = 5\\text{ remainder }3 \\quad \\Rightarrow 5 \\text{ is not a factor.}",
+                "Step 9": "Now we have checked all numbers from 1 to 7 (since 7 \\times 4 = 28).",
+                "Step 10": "So, the factors of 28 are: 1, 2, 4, 7, and 28.",
+                "Step 11": "Therefore, all the possible numbers of chairs that can be in each row are: \\[ 1,\\ 2,\\ 4,\\ 7,\\ 28 \\]"
+            },
+            "wrong_steps": {
+                "Step 10": "Incorrectly Listing Factors"
+            },
+            "error_explanation": {
+                "Step 10": "The student missed the factor 14 when listing out the factors of 28. 14 is also a factor of 28 (since 28 divided by 14 equals 2 with no remainder)."
+            },
+            "all_wrong_steps": {
+                "Step 10": "Incorrectly Listing Factors"
+            }
+        }
+    },
+    "P44Op": {},
+    "P4FracMI": {
+        "Misunderstanding Mixed Numbers": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Misunderstanding Mixed Numbers",
+            "wrong_solution": {
+                "Step 1": "First, write the 2 whole cakes and three quarters as two separate values: \n\n\\[ 2 + \\frac{3}{4} \\]",
+                "Step 2": "Add the whole number to the fraction directly:\n\n\\[ 2 + \\frac{3}{4} = \\frac{2}{4} + \\frac{3}{4} = \\frac{5}{4} \\]",
+                "Step 3": "So, Mrs Lee baked \\( \\frac{5}{4} \\) cakes in total."
+            },
+            "wrong_steps": {
+                "Step 2": "Misunderstanding Mixed Numbers"
+            },
+            "error_explanation": {
+                "Step 2": "The error occurs because the student treats the whole number 2 as if it had a denominator of 4 and adds it directly to \\( \\frac{3}{4} \\) as \\( \\frac{2}{4} + \\frac{3}{4} = \\frac{5}{4} \\). This is incorrect because 2 is equal to \\( \\frac{8}{4} \\), not \\( \\frac{2}{4} \\). The student misunderstands how to combine a whole number with a fraction to form an improper fraction."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misunderstanding Mixed Numbers"
+            }
+        },
+        "Missing or Mismanaging Denominator": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Missing or Mismanaging Denominator",
+            "wrong_solution": {
+                "Step 1": "First, we write the total amount of cake as a mixed number: \n\n\\[ 2 \\frac{3}{4} \\]",
+                "Step 2": "To change the mixed number to an improper fraction, we multiply the whole number by the denominator and add the numerator, but use denominator 3 by mistake:\n\n\\[ (2 \\times 3) + 3 = 6 + 3 = 9 \\]",
+                "Step 3": "So, the improper fraction is:\n\n\\[ \\frac{9}{3} \\]",
+                "Step 4": "Mrs Lee baked \\( \\frac{9}{3} \\) cakes in total."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing or Mismanaging Denominator"
+            },
+            "error_explanation": {
+                "Step 2": "The denominator was changed from 4 to 3 when converting the mixed number to an improper fraction. The denominator should remain 4 when converting. Changing the denominator leads to an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing or Mismanaging Denominator"
+            }
+        }
+    },
+    "P4FracSet": {
+        "Misunderstanding the Fraction of a Set": {
+            "question": "There are 24 apples in a box. If one third of the apples are green, how many green apples are there?",
+            "type_of_error": "Misunderstanding the Fraction of a Set",
+            "wrong_solution": {
+                "Step 1": "First, I need to find one third of the total number of apples. The total number of apples is 24.",
+                "Step 2": "To find one third, I will multiply 24 by 3: \n\\[ 24 \\times 3 = 72 \\]",
+                "Step 3": "So, there are 72 green apples in the box."
+            },
+            "wrong_steps": {
+                "Step 2": "Misunderstanding the Fraction of a Set"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of dividing 24 by 3 to find one-third, the student multiplied 24 by 3. This shows a misunderstanding of how to find a fraction of a set, leading to an answer that is much greater than the total number of apples."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misunderstanding the Fraction of a Set"
+            }
+        },
+        "Inversion Error": {
+            "question": "There are 24 apples in a box. If one third of the apples are green, how many green apples are there?",
+            "type_of_error": "Inversion Error",
+            "wrong_solution": {
+                "Step 1": "First, we need to find one third of the total number of apples. The total number of apples is 24.",
+                "Step 2": "To find one third of 24, we divide 3 by 24:\n\\[ 3 \\div 24 = 0.125 \\]",
+                "Step 3": "So, there are 0.125 green apples in the box."
+            },
+            "wrong_steps": {
+                "Step 2": "Inversion Error"
+            },
+            "error_explanation": {
+                "Step 2": "The division was done in the wrong order. Instead of dividing 24 by 3, the student divided 3 by 24, which gives a much smaller and incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Inversion Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "There are 24 apples in a box. If one third of the apples are green, how many green apples are there?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "To find how many green apples there are, we look at the fraction given in the question, which is one third.",
+                "Step 2": "Since one third means 3, there are 3 green apples."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The student ignored the total number of apples (24) and just used the denominator in the fraction as the answer, misunderstanding that one third means there are 3 green apples, which is incorrect. The correct way is to calculate one third of 24, not just use the number 3."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        }
+    },
+    "P4Deci3d": {
+        "Decimal Misalignment": {
+            "question": "Muthu bought a pencil for \\$2.450 and an eraser for \\$0.650. How much did he spend altogether?",
+            "type_of_error": "Decimal Misalignment",
+            "wrong_solution": {
+                "Step 1": "Write down the cost of the pencil and the eraser as whole numbers:\n\\[\n\\text{Cost of pencil} = 2450\n\\]\n\\[\n\\text{Cost of eraser} = 650\n\\]",
+                "Step 2": "Add the two amounts as whole numbers directly:\n\\[\n2450 + 650\n\\]",
+                "Step 3": "Add the digits:\n\\[\n\\begin{align*}\n&2450 \\\\\n+\\ &650 \\\\\n\\hline\n&3100\n\\end{align*}\n\\]",
+                "Step 4": "So, Muthu spent \\(3100\\) altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Decimal Misalignment"
+            },
+            "error_explanation": {
+                "Step 1": "The decimal points were not aligned before adding the numbers, so the values were treated as whole numbers (2450 and 650), inflating the answer. The decimal part is crucial in money-related sums."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Decimal Misalignment"
+            }
+        },
+        "Place Value Confusion": {
+            "question": "Muthu bought a pencil for \\$2.450 and an eraser for \\$0.650. How much did he spend altogether?",
+            "type_of_error": "Place Value Confusion",
+            "wrong_solution": {
+                "Step 1": "First, write down the cost of the pencil and the eraser:\n\\[\n\\text{Cost of pencil} = 2.450\n\\]\n\\[\n\\text{Cost of eraser} = 0.650\n\\]",
+                "Step 2": "Add the two amounts together. Do not line up the decimal points correctly:\n\\[\n2.450 + 0.650 = 2.450 + 0.65\n\\]",
+                "Step 3": "Add as if there are only two decimal places:\n\\[\n2.45 + 0.65 = 3.10\n\\]",
+                "Step 4": "So, Muthu spent \\(3.10\\) altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Place Value Confusion"
+            },
+            "error_explanation": {
+                "Step 2": "The mistake here is ignoring the thousandths place when adding the decimals. The digits were not properly aligned according to their place values, which led to dropping the '0' in 0.650, treating it as 0.65. This affects the accuracy of the answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Place Value Confusion"
+            }
+        },
+        "Borrowing/Regrouping Error": {
+            "question": "Muthu bought a pencil for \\$2.450 and an eraser for \\$0.650. How much did he spend altogether?",
+            "type_of_error": "Borrowing/Regrouping Error",
+            "wrong_solution": {
+                "Step 1": "First, write down the cost of the pencil and the eraser:\n\\[\n\\text{Cost of pencil} = 2.450\n\\]\n\\[\n\\text{Cost of eraser} = 0.650\n\\]",
+                "Step 2": "Add the two amounts together. Line up the decimal points:\n\\[\n2.450 + 0.650\n\\]",
+                "Step 3": "Add the digits in each place value, but make a regrouping error in the hundredths place:\n\\[\n\\begin{align*}\n&\\phantom{+}2.450 \\\\\n+\\ &0.650 \\\\\n\\hline\n&2.1100\n\\end{align*}\n\\]",
+                "Step 4": "So, Muthu spent \\(2.1100\\) altogether."
+            },
+            "wrong_steps": {
+                "Step 3": "Borrowing/Regrouping Error"
+            },
+            "error_explanation": {
+                "Step 3": "The student incorrectly added the hundredths place (5 + 5 = 10) but placed '10' in the hundredths place, which is not correct. Instead, proper regrouping should be done: put 0 in the hundredths and carry 1 to the tenths."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Borrowing/Regrouping Error"
+            }
+        }
+    },
+    "P4DeciAS": {
+        "Place Value Misunderstanding": {
+            "question": "Farhan bought a sandwich for \\$3.85 and a drink for \\$1.60. He paid with a \\$10 note. How much change did he receive?",
+            "type_of_error": "Place Value Misunderstanding",
+            "wrong_solution": {
+                "Step 1": "First, add the cost of the sandwich and the drink, but ignore the decimal places:\n\n\\[ 385 + 160 = 545 \\]\n\nSo, the total is 545 (incorrectly not recognising this should be $5.45).",
+                "Step 2": "Next, subtract the total (545) from 10, ignoring decimal values:\n\n\\[ 10 - 545 = -535 \\]\n\nSo, the change is -535 (nonsensical, but a result of place value misunderstanding).",
+                "Step 3": "Final Answer:\n\nFarhan received -$535 in change."
+            },
+            "wrong_steps": {
+                "Step 1": "Place Value Misunderstanding"
+            },
+            "error_explanation": {
+                "Step 1": "The student ignored the decimal places in the amounts $3.85 and $1.60, treating them as whole numbers (385 and 160), causing a major calculation error. This is a misunderstanding of place value and decimals."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Place Value Misunderstanding"
+            }
+        },
+        "Misinterpreting Comparison Order": {
+            "question": "Farhan bought a sandwich for \\$3.85 and a drink for \\$1.60. He paid with a \\$10 note. How much change did he receive?",
+            "type_of_error": "Misinterpreting Comparison Order",
+            "wrong_solution": {
+                "Step 1": "First, we find the total amount Farhan spent on the sandwich and the drink. \n\n\\[ 3.85 + 1.60 = 5.45 \\]\n\nSo, Farhan spent \\$5.45 in total.",
+                "Step 2": "Next, we subtract the amount Farhan paid from the total amount spent. \n\n\\[ 5.45 - 10.00 = -4.55 \\]\n\nSo, the change Farhan received is \\$-4.55.",
+                "Step 3": "Final Answer:\n\nFarhan received \\$-4.55 in change."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting Comparison Order"
+            },
+            "error_explanation": {
+                "Step 2": "The student subtracted the amount paid from the total amount spent (5.45 - 10.00), instead of subtracting the total spent from the amount paid (10.00 - 5.45). This reverses the comparison and results in a negative value, which does not make sense in the context of change received."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting Comparison Order"
+            }
+        }
+    },
+    "P4DeciMD": {
+        "Incorrect Division Order": {
+            "question": "A packet of biscuits weighs 0.45 \\ kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Incorrect Division Order",
+            "wrong_solution": {
+                "Step 1": "First, we want the total weight, but I will divide the weight of one packet by the number of packets instead.",
+                "Step 2": "Weight of one packet = 0.45 \\ kg",
+                "Step 3": "Number of packets = 6",
+                "Step 4": "Total weight = 0.45 \\div 6",
+                "Step 5": "0.45 \\div 6 = 0.075",
+                "Step 6": "So, the total weight of 6 packets is \\boxed{0.075 \\ kg}"
+            },
+            "wrong_steps": {
+                "Step 4": "Incorrect Division Order"
+            },
+            "error_explanation": {
+                "Step 4": "The student divided 0.45 by 6, which gives the weight of one packet shared among 6, not the total weight for 6 packets. The correct operation should be multiplication, not division."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Incorrect Division Order"
+            }
+        },
+        "Decimal Misconception": {
+            "question": "A packet of biscuits weighs 0.45 \\ kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Decimal Misconception",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total weight by multiplying the weight of one packet by the number of packets.",
+                "Step 2": "Weight of one packet = 0.45 \\ kg",
+                "Step 3": "Number of packets = 6",
+                "Step 4": "Total weight = 0.45 \\times 6",
+                "Step 5": "Let us multiply 0.45 by 6. \\newline \\ 0.45 \\times 6 = 0.270",
+                "Step 6": "So, the total weight of 6 packets is \\boxed{0.270 \\ kg}"
+            },
+            "wrong_steps": {
+                "Step 5": "Decimal Misconception"
+            },
+            "error_explanation": {
+                "Step 5": "The decimal place was not handled correctly. 0.45 \\times 6 is not 0.270; the student mistakenly shifted the decimal point or misunderstood how to multiply decimals."
+            },
+            "all_wrong_steps": {
+                "Step 5": "Decimal Misconception"
+            }
+        },
+        "Misinterpreting Result": {
+            "question": "A packet of biscuits weighs 0.45 \\ kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Misinterpreting Result",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total weight by multiplying the weight of one packet by the number of packets.",
+                "Step 2": "Weight of one packet = 0.45 \\ kg",
+                "Step 3": "Number of packets = 6",
+                "Step 4": "Total weight = 0.45 \\times 6",
+                "Step 5": "Let us multiply 0.45 by 6. \\newline \\ 0.45 \\times 6 = 2.70",
+                "Step 6": "So, the total weight of 6 packets is \\boxed{2.70 \\ g}"
+            },
+            "wrong_steps": {
+                "Step 6": "Misinterpreting Result"
+            },
+            "error_explanation": {
+                "Step 6": "The student calculated the total correctly as 2.70, but wrote the answer in grams (g) instead of kilograms (kg). 2.70 kg is 2700 g, so '2.70 g' is not correct. This shows the student misunderstood the meaning of the answer and its units."
+            },
+            "all_wrong_steps": {
+                "Step 6": "Misinterpreting Result"
+            }
+        }
+    },
+    "P5N1m": {
+        "Place Value and Alignment Error": {
+            "question": "A library in Singapore has 6,250,430 books. If 2,317,549 books are borrowed, how many books are left in the library?",
+            "type_of_error": "Place Value and Alignment Error",
+            "wrong_solution": {
+                "Step 1": "To find out how many books are left in the library, we need to subtract the number of books borrowed from the total number of books.",
+                "Step 2": "Let us write the numbers for subtraction:\n\n\\[\n\\begin{array}{r}\n6\\ 250\\ 430 \\\\\n-2\\ 317\\ 549 \\\\\n\\hline\n\\end{array}\n\\]\nBut mistakenly align the digits from the leftmost digit instead of the rightmost (ones place):\n\n\\[\n\\begin{array}{ccccccc}\n6 & 2 & 5 & 0 & 4 & 3 & 0 \\\\\n- & 2 & 3 & 1 & 7 & 5 & 4 & 9 \\\\\n\\end{array}\n\\]\n",
+                "Step 3": "Now, subtracting each digit from left to right as they appear:\n\n\\[\n6 - 2 = 4 \\\\\n2 - 3 = -1 \\\\\n5 - 1 = 4 \\\\\n0 - 7 = -7 \\\\\n4 - 5 = -1 \\\\\n3 - 4 = -1 \\\\\n0 - 9 = -9 \n\\]\nSo, the answer is: 4\\,-1\\,4\\,-7\\,-1\\,-1\\,-9\n",
+                "Step 4": "After borrowing 2,317,549 books, there are 4, -1, 4, -7, -1, -1, -9 books left in the library (which is a wrong answer)."
+            },
+            "wrong_steps": {
+                "Step 2": "Place Value and Alignment Error"
+            },
+            "error_explanation": {
+                "Step 2": "The student aligned the numbers incorrectly by starting from the leftmost digit instead of the right (ones place). This caused subtraction across mismatched place values, leading to completely wrong results, including negative numbers in columns where the digit on top was smaller."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Place Value and Alignment Error"
+            }
+        },
+        "Misinterpretation of Thousand Separators": {
+            "question": "A library in Singapore has 6,250,430 books. If 2,317,549 books are borrowed, how many books are left in the library?",
+            "type_of_error": "Misinterpretation of Thousand Separators",
+            "wrong_solution": {
+                "Step 1": "To find out how many books are left in the library, we need to subtract the number of books borrowed from the total number of books.",
+                "Step 2": "Misread the total number of books as 62,50430 (sixty-two thousand, five hundred forty and thirty), and the number borrowed as 231,7549 (two hundred thirty-one thousand, seven thousand five hundred forty-nine).",
+                "Step 3": "Set up the numbers for subtraction:\n\n\\[\n\\begin{array}{r}\n62\\,50430 \\\\\n-231\\,7549 \\\\\n\\hline\n\\end{array}\n\\]",
+                "Step 4": "Subtract:\n\n\\[\n62,50430 - 231,7549 = 39,32881\n\\]",
+                "Step 5": "So, after 2,317,549 books are borrowed, there are \\(39,32881\\) books left in the library."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpretation of Thousand Separators"
+            },
+            "error_explanation": {
+                "Step 2": "In this step, the student misread the numbers by interpreting the thousand separators incorrectly, leading to subtraction with entirely different values. Instead of understanding 6,250,430 as six million two hundred fifty thousand four hundred thirty, the student read it as sixty-two thousand five hundred forty and thirty, causing an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpretation of Thousand Separators"
+            }
+        },
+        "Omission of Trailing Zeros": {
+            "question": "A library in Singapore has 6,250,430 books. If 2,317,549 books are borrowed, how many books are left in the library?",
+            "type_of_error": "Omission of Trailing Zeros",
+            "wrong_solution": {
+                "Step 1": "To find out how many books are left in the library, we need to subtract the number of books borrowed from the total number of books.",
+                "Step 2": "Write the numbers in columns, but accidentally omit the trailing zeros:\n\n\\[\n\\begin{array}{r}\n625043 \\\\\n-2317549 \\\\\n\\hline\n\\end{array}\n\\]",
+                "Step 3": "Let us subtract starting from the rightmost digit (ones place):\n\n\\[\n625043 - 2317549 = -1692506\n\\]",
+                "Step 4": "So, after 2,317,549 books are borrowed, there are \\(-1,692,506\\) books left in the library."
+            },
+            "wrong_steps": {
+                "Step 2": "Omission of Trailing Zeros"
+            },
+            "error_explanation": {
+                "Step 2": "The student mistakenly omitted the trailing zeros in the numbers, so instead of subtracting 2,317,549 from 6,250,430, they subtracted 2,317,549 from 625,043. This significantly changed the values being calculated and led to an incorrect (and even negative) answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Omission of Trailing Zeros"
+            }
+        }
+    },
+    "P5FracDv": {
+        "Misinterpreting the Division Order": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Misinterpreting the Division Order",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends.",
+                "Step 2": "To find out how much pizza each friend gets, I will divide the number of friends by the number of pizzas.",
+                "Step 3": "So, I calculate:",
+                "Step 4": "\\[ \\text{Amount each friend gets} = \\frac{5}{3} \\]",
+                "Step 5": "Each friend will get \\( \\frac{5}{3} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting the Division Order"
+            },
+            "error_explanation": {
+                "Step 2": "The student divided the number of friends by the number of pizzas, which gives how many friends per pizza, not how much pizza each friend gets. The correct division should be pizzas divided by friends (\\( 3 \\div 5 \\)), not friends divided by pizzas (\\( 5 \\div 3 \\))."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting the Division Order"
+            }
+        },
+        "Misunderstanding the Concept of Sharing": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Misunderstanding the Concept of Sharing",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas and 5 friends.",
+                "Step 2": "Since there are 5 friends, each friend will get 1 whole pizza.",
+                "Step 3": "Each friend will get 1 pizza."
+            },
+            "wrong_steps": {
+                "Step 2": "Misunderstanding the Concept of Sharing"
+            },
+            "error_explanation": {
+                "Step 2": "The student wrongly assumes that each friend gets one whole pizza, ignoring the fact that there are not enough pizzas for everyone to get one. The correct approach is to divide the total number of pizzas by the number of friends to find the share for each person."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misunderstanding the Concept of Sharing"
+            }
+        },
+        "Whole Number Misconception": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Whole Number Misconception",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends.",
+                "Step 2": "Since there are only 3 pizzas and 5 friends, each friend can get 1 pizza, but only 3 friends will get a pizza.",
+                "Step 3": "So, each friend gets 1 pizza."
+            },
+            "wrong_steps": {
+                "Step 2": "Whole Number Misconception"
+            },
+            "error_explanation": {
+                "Step 2": "The solution incorrectly assumes that pizzas cannot be divided into fractions and that only whole pizzas can be given out, resulting in some friends not getting any at all. The correct approach should use fractions to represent equal sharing when the total is not a multiple of the number of people."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Whole Number Misconception"
+            }
+        }
+    },
+    "P5Frac4Op": {
+        "Incorrect Subtraction of Fractions": {
+            "question": "Mrs Lim baked \\( 2 \\frac{1}{4} \\) trays of cookies. She divided the cookies equally among her 3 children. How much of a tray of cookies did each child get?",
+            "type_of_error": "Incorrect Subtraction of Fractions",
+            "wrong_solution": {
+                "Step 1": "Change the mixed number \\( 2 \\frac{1}{4} \\) to improper fraction: \n\\[ 2\\frac{1}{4} = \\frac{9}{4} \\]",
+                "Step 2": "Try to find how much each child gets by subtracting instead of dividing: \n\\[ \\frac{9}{4} - 3 = \\frac{9 - 3}{4 - 1} = \\frac{6}{3} = 2 \\]",
+                "Step 3": "Each child gets 2 trays of cookies."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Subtraction of Fractions"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of dividing the total number of trays among the 3 children, the solution subtracts 3 from the numerator and 1 from the denominator, which is not a valid way to distribute or subtract fractions."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Subtraction of Fractions"
+            }
+        },
+        "Incorrect Division of Fractions": {
+            "question": "Mrs Lim baked 2 and \\( \\frac{1}{4} \\) trays of cookies. She divided the cookies equally among her 3 children. How much of a tray of cookies did each child get?",
+            "type_of_error": "Incorrect Division of Fractions",
+            "wrong_solution": {
+                "Step 1": "First, change the mixed number 2 and \\( \\frac{1}{4} \\) to an improper fraction. \n\\[ 2\\frac{1}{4} = \\frac{2 \\times 4 + 1}{4} = \\frac{8 + 1}{4} = \\frac{9}{4} \\]",
+                "Step 2": "Now, divide \\( \\frac{9}{4} \\) by 3 by dividing the numerator: \n\\[ \\frac{9}{4} \\div 3 = \\frac{9 \\div 3}{4} = \\frac{3}{4} \\]",
+                "Step 3": "So, each child gets \\( \\frac{3}{4} \\) of a tray of cookies."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Division of Fractions"
+            },
+            "error_explanation": {
+                "Step 2": "The student divided only the numerator by 3 instead of multiplying by the reciprocal of 3 (which is \\( \\frac{1}{3} \\)). Division of fractions must be done by multiplying by the reciprocal, not by dividing the numerator directly. This could sometimes lead to a coincidentally correct answer but is a wrong method."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Division of Fractions"
+            }
+        },
+        "Procedural Error": {
+            "question": "Mrs Lim baked 2 and \\( \\frac{1}{4} \\) trays of cookies. She divided the cookies equally among her 3 children. How much of a tray of cookies did each child get?",
+            "type_of_error": "Procedural Error",
+            "wrong_solution": {
+                "Step 1": "First, change the mixed number 2 and \\( \\frac{1}{4} \\) to an improper fraction. \n\\[ 2\\frac{1}{4} = \\frac{2 \\times 4 + 1}{4} = \\frac{8 + 1}{4} = \\frac{9}{4} \\]",
+                "Step 2": "Each child gets \\( \\frac{9}{4} \\) trays of cookies."
+            },
+            "wrong_steps": {
+                "Step 2": "Procedural Error"
+            },
+            "error_explanation": {
+                "Step 2": "The solution stops after converting the mixed number to an improper fraction but does not divide the total trays among the 3 children. The division step is missing, so the answer is not the amount each child should get."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Procedural Error"
+            }
+        }
+    },
+    "P5Deci4Op": {},
+    "P5perctg": {
+        "Incorrect Conversion of Percentage": {
+            "question": "A shirt usually costs \\$48. During a sale, the price of the shirt is reduced by 25 percent. What is the sale price of the shirt?",
+            "type_of_error": "Incorrect Conversion of Percentage",
+            "wrong_solution": {
+                "Step 1": "First, find out how much 25 percent of \\$48 is. \\[ 25\\% \\times 48 = 25 \\times 48 = 1200 \\]",
+                "Step 2": "This means the price is reduced by \\$1200.",
+                "Step 3": "Now, subtract the discount from the usual price to find the sale price. \\[ 48 - 1200 = -1152 \\]",
+                "Step 4": "So, the sale price of the shirt is \\$-1152."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Conversion of Percentage"
+            },
+            "error_explanation": {
+                "Step 1": "The error is in converting 25% to a numerical value. 25% should be written as 0.25 (or \\frac{25}{100}), but here, it was used directly as 25, leading to an incorrect calculation and unrealistic discount amount."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Conversion of Percentage"
+            }
+        },
+        "Missing Simplification": {
+            "question": "A shirt usually costs \\$48. During a sale, the price of the shirt is reduced by 25 percent. What is the sale price of the shirt?",
+            "type_of_error": "Missing Simplification",
+            "wrong_solution": {
+                "Step 1": "First, we need to find out how much 25 percent of $48 is. \n\n\\[ \\frac{25}{100} \\times 48 = \\frac{25 \\times 48}{100} = \\frac{1200}{100} = 12 \\]",
+                "Step 2": "Now, subtract the discount from the original price: \n\n\\[ 48 - 12 = 36 \\]",
+                "Step 3": "So, the sale price of the shirt is $36."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Simplification"
+            },
+            "error_explanation": {
+                "Step 1": "The student did not simplify the fraction \\( \\frac{25}{100} \\) to \\( \\frac{1}{4} \\) before multiplying. While the answer is numerically correct, the solution skips the simplification, making the calculation unnecessarily complicated and increasing the chance for mistakes with more complex numbers."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Simplification"
+            }
+        }
+    },
+    "P5rate": {},
+    "P6ratio": {
+        "Misreading or Misunderstanding the Ratio": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Misreading or Misunderstanding the Ratio",
+            "wrong_solution": {
+                "Step 1": "The ratio apples to oranges is given as 3 : 5. That means for every 5 apples, there are 3 oranges.",
+                "Step 2": "There are 18 apples, so we find how many groups of 5 apples in 18.",
+                "Step 3": "\\[ 18 \\div 5 = 3.6 \\]",
+                "Step 4": "There are 3.6 groups.",
+                "Step 5": "Each group has 3 oranges, so total oranges = 3.6 \\times 3.",
+                "Step 6": "\\[ 3.6 \\times 3 = 10.8 \\]",
+                "Step 7": "Therefore, there are 10.8 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 1": "Misreading or Misunderstanding the Ratio"
+            },
+            "error_explanation": {
+                "Step 1": "The ratio of apples to oranges is 3:5, meaning for every 3 apples there are 5 oranges. The solution incorrectly swaps the numbers and treats 5 as apples and 3 as oranges, which reverses the intended comparison."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misreading or Misunderstanding the Ratio"
+            }
+        },
+        "Incorrect Application of Ratio": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Incorrect Application of Ratio",
+            "wrong_solution": {
+                "Step 1": "The ratio of apples to oranges is 3 : 5. There are 18 apples.",
+                "Step 2": "Since there are 18 apples, I will multiply 18 by 5 to find the number of oranges.",
+                "Step 3": "\\[ 18 \\times 5 = 90 \\]",
+                "Step 4": "Therefore, there are 90 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Application of Ratio"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of finding the number of groups first by dividing 18 by 3, the student directly multiplied the total number of apples by the orange part of the ratio, which does not correctly apply the concept of ratio."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Application of Ratio"
+            }
+        }
+    },
+    "P6algebr": {
+        "Misunderstanding Total Boxes": {
+            "question": "Tom has \\(3m + 8\\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of \\(m\\)?",
+            "type_of_error": "Misunderstanding Total Boxes",
+            "wrong_solution": {
+                "Step 1": "Tom gives away 5 marbles and now has 20 marbles, so before giving away, he had \\(20 + 5 = 25\\) marbles.",
+                "Step 2": "So, \\(3m + 8 = 25\\).",
+                "Step 3": "Subtract 8 from both sides: \\(3m = 25 - 8\\)",
+                "Step 4": "\\(3m = 17\\)",
+                "Step 5": "Divide both sides by 3: \\(m = \\frac{17}{3}\\)"
+            },
+            "wrong_steps": {
+                "Step 1": "Misunderstanding Total Boxes"
+            },
+            "error_explanation": {
+                "Step 1": "The student assumed Tom's total number of marbles before giving away the 5 was just the current marbles plus the 5 given, not recognizing that the expression \\(3m+8\\) already represents Tom's starting amount. This mixes up which quantity to treat as the total and leads to setting up the wrong equation."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misunderstanding Total Boxes"
+            }
+        },
+        "Incorrect Equation Setup": {
+            "question": "Tom has \\(3m + 8\\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of \\(m\\)?",
+            "type_of_error": "Incorrect Equation Setup",
+            "wrong_solution": {
+                "Step 1": "Tom had \\(3m + 8\\) marbles at first.",
+                "Step 2": "After giving away 5 marbles, he has 20 marbles.",
+                "Step 3": "Set up the equation: \\[ 3m + 8 + 5 = 20 \\]",
+                "Step 4": "Simplify the equation: \\[ 3m + 13 = 20 \\]",
+                "Step 5": "Subtract 13 from both sides: \\[ 3m = 20 - 13 \\] \\[ 3m = 7 \\]",
+                "Step 6": "Divide both sides by 3: \\[ m = \\frac{7}{3} \\]",
+                "Step 7": "So, the value of \\( m \\) is \\( \\frac{7}{3} \\)."
+            },
+            "wrong_steps": {
+                "Step 3": "Incorrect Equation Setup"
+            },
+            "error_explanation": {
+                "Step 3": "The equation was set up incorrectly by adding 5 instead of subtracting 5, which does not represent Tom giving away marbles. This mistake leads to solving for the wrong value of \\(m\\)."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Incorrect Equation Setup"
+            }
+        }
+    },
+    "O1NumOps": {
+        "Place Value Misalignment": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Place Value Misalignment",
+            "wrong_solution": {
+                "Step 1": "First, find the total number of marbles in the bag.\n\n\\[\n\\text{Total number of marbles} = 80 + 120 = 80120\n\\]",
+                "Step 2": "Next, write the fraction of marbles that are blue.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{80120}\n\\]",
+                "Step 3": "Now, simplify the fraction. Divide both numerator and denominator by 40.\n\n\\[\n\\frac{120 \\div 40}{80120 \\div 40} = \\frac{3}{2003}\n\\]",
+                "Step 4": "So, the fraction of marbles that are blue is \\( \\frac{3}{2003} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Place Value Misalignment"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of adding 80 and 120 correctly, the numbers were placed side by side as 80120. This is a place value misalignment error, as each digit must be added according to its correct place value."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Place Value Misalignment"
+            }
+        }
+    },
+    "O1RioPro": {
+        "Misunderstanding Ratio Direction": {
+            "question": "The ratio of the number of blue pens to red pens in a box is 5 : 3. If there are 60 blue pens, how many red pens are there?",
+            "type_of_error": "Misunderstanding Ratio Direction",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of blue pens to red pens as 5 : 3. This means for every 5 blue pens, there are 3 red pens.",
+                "Step 2": "Let the number of red pens be x.",
+                "Step 3": "We can write the ratio as a fraction: \n\\[\n\\frac{\\text{Number of red pens}}{\\text{Number of blue pens}} = \\frac{5}{3}\n\\]\n",
+                "Step 4": "We know there are 60 blue pens. So, \n\\[\n\\frac{x}{60} = \\frac{5}{3}\n\\]",
+                "Step 5": "Now, we solve for x by cross-multiplying: \n\\[\nx \\times 3 = 60 \\times 5\n\\]",
+                "Step 6": "Calculate 60 times 5: \n\\[\nx \\times 3 = 300\n\\]",
+                "Step 7": "Now, divide both sides by 3 to find x: \n\\[\nx = \\frac{300}{3}\n\\]",
+                "Step 8": "Calculate \\frac{300}{3}: \n\\[\nx = 100\n\\]",
+                "Step 9": "Therefore, there are 100 red pens in the box."
+            },
+            "wrong_steps": {
+                "Step 3": "Misunderstanding Ratio Direction"
+            },
+            "error_explanation": {
+                "Step 3": "The student incorrectly wrote the fraction as \\frac{\\text{Number of red pens}}{\\text{Number of blue pens}} = \\frac{5}{3} instead of \\frac{\\text{Number of blue pens}}{\\text{Number of red pens}} = \\frac{5}{3}. This reverses the direction of the ratio and leads to the wrong answer."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Misunderstanding Ratio Direction"
+            }
+        },
+        "Incorrect Application of Ratio/Proportion": {
+            "question": "The ratio of the number of blue pens to red pens in a box is 5 : 3. If there are 60 blue pens, how many red pens are there?",
+            "type_of_error": "Incorrect Application of Ratio/Proportion",
+            "wrong_solution": {
+                "Step 1": "The ratio of blue pens to red pens is 5 : 3. The sum of the ratio parts is 5 + 3 = 8.",
+                "Step 2": "There are 60 blue pens. To find the number of red pens, divide 60 by 8 to find the value of 1 part: \\[ \\frac{60}{8} = 7.5 \\]",
+                "Step 3": "Since red pens are 3 parts, multiply 7.5 by 3: \\[ 7.5 \\times 3 = 22.5 \\]",
+                "Step 4": "There are 22.5 red pens in the box."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Application of Ratio/Proportion"
+            },
+            "error_explanation": {
+                "Step 2": "The error here is dividing the number of blue pens by the total number of ratio parts (8) instead of just the blue part (5). This does not correctly apply the concept of ratios, because the 60 blue pens represent only the blue part of the ratio, not the total."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Application of Ratio/Proportion"
+            }
+        }
+    },
+    "O1RatSpd": {},
+    "O1AgbrEF": {
+        "Substitution Error": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Substitution Error",
+            "wrong_solution": {
+                "Step 1": "Recall that the perimeter of a rectangle is found by adding up all the sides. A rectangle has two lengths and two widths.",
+                "Step 2": "So, the perimeter is: \n\\[ \\text{Perimeter} = \\text{length} + \\text{width} + \\text{length} + \\text{width} \\]",
+                "Step 3": "Using x for width and y for length (swapping their usual meanings), we can write: \n\\[ \\text{Perimeter} = y + x + y + x \\]",
+                "Step 4": "Combine like terms: \n\\[ \\text{Perimeter} = 2y + 2x \\]",
+                "Step 5": "So, the expression for the perimeter of the rectangle, in terms of x and y, is: \n\\[ 2y + 2x \\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Substitution Error"
+            },
+            "error_explanation": {
+                "Step 3": "The student swapped x and y, using x as the width and y as the length, instead of the correct assignment. Although the final expression \\(2y + 2x\\) is mathematically equivalent to \\(2x + 2y\\), the substitution step shows the incorrect assignment, which would lead to confusion in other contexts or if further substitutions are required."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Substitution Error"
+            }
+        },
+        "Misinterpretation of the Algebraic Expression": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Misinterpretation of the Algebraic Expression",
+            "wrong_solution": {
+                "Step 1": "Recall that the perimeter of a rectangle is found by adding up all the sides. A rectangle has two lengths and two widths.",
+                "Step 2": "So, the perimeter is: \n\\[ \\text{Perimeter} = \\text{length} + \\text{width} + \\text{length} + \\text{width} \\]",
+                "Step 3": "Using x for length and y for width, we can write: \n\\[ \\text{Perimeter} = x + y + x + y \\]",
+                "Step 4": "Combine only the x terms incorrectly: \n\\[ \\text{Perimeter} = 2x + y \\]",
+                "Step 5": "So, the expression for the perimeter of the rectangle, in terms of x and y, is: \n\\[ 2x + y \\]"
+            },
+            "wrong_steps": {
+                "Step 4": "Misinterpretation of the Algebraic Expression"
+            },
+            "error_explanation": {
+                "Step 4": "The student only combined the x terms and forgot to combine the y terms as well. The correct algebraic simplification should result in \\(2x + 2y\\), not \\(2x + y\\)."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Misinterpretation of the Algebraic Expression"
+            }
+        },
+        "Order of Operations Error": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Order of Operations Error",
+            "wrong_solution": {
+                "Step 1": "Recall that the perimeter of a rectangle is found by adding up all the sides. A rectangle has two lengths and two widths.",
+                "Step 2": "So, the perimeter is: \n\\[ \\text{Perimeter} = \\text{length} + \\text{width} + \\text{length} + \\text{width} \\]",
+                "Step 3": "Using x for length and y for width, we can write: \n\\[ \\text{Perimeter} = x + y + x + y \\]",
+                "Step 4": "Add all the variables together first before multiplying: \n\\[ x + y + x + y = 2x + 2y \\]",
+                "Step 5": "Incorrectly apply multiplication to the sum: \n\\[ \\text{Perimeter} = (x + y) \\times 2 \\]",
+                "Step 6": "So, the (incorrect) expression for the perimeter is: \n\\[ 2(x + y) \\]"
+            },
+            "wrong_steps": {
+                "Step 5": "Order of Operations Error"
+            },
+            "error_explanation": {
+                "Step 5": "The error is that the student combined x and y first and then multiplied by 2, thinking it is equivalent to adding up the sides. However, while 2(x + y) is mathematically equivalent to 2x + 2y, the error lies in not showing the proper expansion and combining like terms. This method can cause mistakes in more complex expressions, especially if signs or additional variables are involved."
+            },
+            "all_wrong_steps": {
+                "Step 5": "Order of Operations Error"
+            }
+        }
+    },
+    "O1EqIneq": {
+        "Wrong Equation Formed (Incorrect Translation or Grouping)": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of \\( x \\).",
+            "type_of_error": "Wrong Equation Formed (Incorrect Translation or Grouping)",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "Since the phone is reduced by 50 dollars, write the equation as:\n\\[\n50 - x = 320\n\\]",
+                "Step 3": "To find the value of \\( x \\), subtract 50 from both sides:\n\\[\n-x = 320 - 50\n\\]",
+                "Step 4": "Calculate the value:\n\\[\n-x = 270\n\\]",
+                "Step 5": "Multiply both sides by -1:\n\\[\nx = -270\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( -270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Equation Formed (Incorrect Translation)"
+            },
+            "error_explanation": {
+                "Step 2": "The equation formed is incorrect because it puts the reduction before the original price (50 - x = 320), which does not represent the situation described. The correct translation should be the usual price minus 50 dollars equals the new price: \\( x - 50 = 320 \\)."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Equation Formed (Incorrect Translation)"
+            }
+        },
+        "Incorrect Algebraic Manipulation": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of \\( x \\).",
+            "type_of_error": "Incorrect Algebraic Manipulation",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50 dollars, so the new price is \\( x - 50 \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\nx - 50 = 320\n\\]",
+                "Step 4": "To find the value of \\( x \\), subtract 50 from both sides of the equation:\n\\[\nx = 320 - 50\n\\]",
+                "Step 5": "Calculate the value:\n\\[\nx = 270\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( 270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 4": "Incorrect Algebraic Manipulation"
+            },
+            "error_explanation": {
+                "Step 4": "Instead of adding 50 to both sides to isolate \\( x \\), 50 was incorrectly subtracted from 320. This leads to an incorrect value for \\( x \\)."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Incorrect Algebraic Manipulation"
+            }
+        },
+        "Forgetting to Use a Variable": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Forgetting to Use a Variable",
+            "wrong_solution": {
+                "Step 1": "The usual price is reduced by 50 dollars, so the new price becomes 320 dollars.",
+                "Step 2": "320 + 50 = 370",
+                "Step 3": "The usual price of the mobile phone is 370 dollars."
+            },
+            "wrong_steps": {
+                "Step 1": "Forgetting to Use a Variable"
+            },
+            "error_explanation": {
+                "Step 1": "The solution does not introduce a variable to represent the usual price, which is required by the question. It skips properly forming an equation with a variable, making the logical process incomplete and unsystematic."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Forgetting to Use a Variable"
+            }
+        }
+    },
+    "O2Prob": {},
+    "O3NumOps": {
+        "Confusing HCF with LCM": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Confusing HCF with LCM",
+            "wrong_solution": {
+                "Step 1": "First, we find the Least Common Multiple (LCM) of 3 and 25:\n\n\\[ \\text{LCM of } 3 \\text{ and } 25 = 75 \\]\nSo, the starting number is 75.",
+                "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. We subtract 18 from the LCM value.\n\n\\[ 75 - 18 = 57 \\]\nSo, Shaun has 57 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Confusing HCF with LCM"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of multiplying the number of boxes by the number of oranges per box, the solution incorrectly calculates the LCM of 3 and 25, which is not necessary or relevant to the problem."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Confusing HCF with LCM"
+            }
+        },
+        "Incorrect Listing of Factors or Factorization": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Incorrect Listing of Factors or Factorization",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has 25 oranges.\n\n\\[ 3 + 25 = 28 \\]\nSo, Shaun had 28 oranges at first.",
+                "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. We subtract the number of oranges he gave away from the total.\n\n\\[ 28 - 18 = 10 \\]\nSo, Shaun has 10 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Listing of Factors or Factorization"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of multiplying to find the total number of oranges (because there are 3 boxes of 25 each), the solution adds the numbers together. This is similar to incorrectly listing factors or not understanding the correct operation, leading to the wrong total from which further steps are based."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Listing of Factors or Factorization"
+            }
+        },
+        "Misinterpreting or Missing Packet Requirements": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Misinterpreting or Missing Packet Requirements",
+            "wrong_solution": {
+                "Step 1": "First, calculate how many oranges Shaun has after giving away 18 oranges from one box of 25.\\[ 25 - 18 = 7 \\]So, there are 7 oranges left in that box.",
+                "Step 2": "Add the oranges in the two other boxes, which are untouched.\\[ 7 + 25 + 25 = 57 \\]So, Shaun has 57 oranges left."
+            },
+            "wrong_steps": {
+                "Step 1": "Misinterpreting or Missing Packet Requirements"
+            },
+            "error_explanation": {
+                "Step 1": "The mistake here is that the student only subtracted 18 oranges from one box instead of the total number of oranges Shaun had. The problem says 18 oranges are given away from the total, not just from one box, so subtracting from a single box and then adding all the oranges from other boxes is wrong."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misinterpreting or Missing Packet Requirements"
+            }
+        }
+    }
+}

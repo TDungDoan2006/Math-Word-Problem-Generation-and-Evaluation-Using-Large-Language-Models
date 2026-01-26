@@ -1,0 +1,164 @@
+{
+    "O1NR": {
+        "question_id": "A bus travels a distance of 120 km from Woodlands to Jurong in 2 hours. What is the average speed of the bus in km/h?",
+        "kc": "Finding average speed using the formula: Average speed = Total distance \u00f7 Total time",
+        "solution": "To find the average speed, we use the formula:\n\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]\n\nThe total distance travelled by the bus is 120 km.\n\nThe total time taken is 2 hours.\n\nSubstitute the values into the formula:\n\n\\[\n\\text{Average speed} = \\frac{120\\ \\text{km}}{2\\ \\text{h}} = 60\\ \\text{km/h}\n\\]\n\n\\textbf{Answer:} The average speed of the bus is \\(60\\) km/h."
+    },
+    "O2NA": {
+        "question_id": "A delivery company charges a basic fee of $8 and an additional $3 for every parcel delivered. Write an algebraic expression for the total cost, in dollars, if n parcels are delivered.",
+        "kc": [
+            "Algebraic expressions",
+            "Variables and coefficients",
+            "Writing expressions for word problems"
+        ],
+        "solution": "Let \\( n \\) be the number of parcels delivered.\\newline\\text{The basic fee is } \\$8.\\newline\\text{The additional charge for each parcel is } \\$3.\\newline\\text{So, the total cost is:}\\newline\\boxed{8 + 3n}\\newline\\text{This means:}\\newline\\text{Total cost} = \\text{Basic fee} + (\\text{Cost per parcel} \\times \\text{Number of parcels})\\newline\\text{Total cost} = 8 + 3n"
+    },
+    "O2NE": {
+        "question_id": "Ben bought a shirt and a pair of trousers. The shirt costs $12 more than the trousers. The total cost is $78. Form an equation and find the cost of the shirt.",
+        "kc": [
+            "Forming equations from word problems",
+            "Solving linear equations",
+            "Addition and subtraction of whole numbers"
+        ],
+        "solution": "Let the cost of the trousers be $x$.\n\nThe shirt costs $12 more than the trousers, so the cost of the shirt is $x + 12$.\n\nThe total cost of both items is $78$.\n\nSo, we can form the equation:\n\\[\nx + (x + 12) = 78\n\\]\n\nCombine like terms:\n\\[\n2x + 12 = 78\n\\]\n\nSubtract $12$ from both sides:\n\\[\n2x = 78 - 12\n\\]\n\\[\n2x = 66\n\\]\n\nDivide both sides by $2$:\n\\[\nx = \\frac{66}{2}\n\\]\n\\[\nx = 33\n\\]\n\nSo, the cost of the trousers is $33.\n\nThe cost of the shirt is:\n\\[\nx + 12 = 33 + 12 = 45\n\\]\n\n\\textbf{Answer:} The cost of the shirt is \\$45."
+    },
+    "O2NR": {
+        "question_id": "The ratio of the number of boys to the number of girls in a class is 3 : 5. If there are 24 girls in the class, how many boys are there?",
+        "kc": [
+            "Ratio",
+            "Proportion",
+            "Multiplication",
+            "Division"
+        ],
+        "solution": "Let us first understand the ratio given: Boys : Girls = 3 : 5.\n\nThis means for every 3 boys, there are 5 girls.\n\nWe are told there are 24 girls in the class.\n\nLet's find out how many 'groups' of 5 girls are in 24 girls:\n\n\\[\n\\text{Number of groups} = \\frac{24}{5} = 4.8\n\\]\n\nBut since the ratio must use whole numbers, let's check how many boys there would be if the number of girls is exactly a multiple of 5.\n\nBut 24 is a multiple of 5's ratio part:\n\nLet each 'group' of 5 girls corresponds to 3 boys.\n\nNumber of groups = \\frac{24}{5} = 4.8\n\nHowever, usually in such questions, the number of girls is a multiple of 5. But 24 is not a multiple of 5.\n\nLet us check the scaling method:\n\nIf 5 parts = 24 girls,\n\nThen 1 part = \\frac{24}{5} = 4.8\n\nNumber of boys = 3 parts = 3 \\times 4.8 = 14.4\n\nBut the number of boys must be a whole number. So let's check the question again.\n\nIf the ratio is 3:5 and there are 24 girls, then:\n\nGirls = 5 units = 24\n\n1 unit = \\frac{24}{5} = 4.8\n\nBoys = 3 units = 3 \\times 4.8 = 14.4\n\nSince the answer must be a whole number, but the ratio does not fit perfectly with 24 girls, perhaps the question expects us to use the decimal value.\n\nBut in primary school questions, usually, the number of girls is a multiple of 5.\n\nIf we proceed as above:\n\n\\boxed{14.4} boys\n\nBut since the number of boys must be a whole number, perhaps the question expects us to round off.\n\nBut if not, the answer is:\n\n\\[\n\\text{Number of boys} = 3 \\times \\frac{24}{5} = 14.4\n\\]\n\nIf the question expects a whole number, then perhaps there is a mistake in the question. But following the method:\n\n\\textbf{Step-by-step solution:}\n\n1. The ratio of boys to girls is 3 : 5.\n2. Let the number of boys be 3 units and the number of girls be 5 units.\n3. 5 units = 24 girls\n4. 1 unit = \\frac{24}{5} = 4.8\n5. 3 units = 3 \\times 4.8 = 14.4\n\n\\textbf{So, there are 14.4 boys in the class.}\n\nBut since the number of boys cannot be a decimal, please check the question.\n\nIf the question had 25 girls instead of 24, then:\n\n1 unit = \\frac{25}{5} = 5\n3 units = 3 \\times 5 = 15\n\nSo, if there are 24 girls, the answer is 14.4 boys, but in real life, the answer should be a whole number. Please check if the number of girls is correct in the question."
+    },
+    "O2SP": {
+        "question_id": "A bag contains 5 blue balls, 3 red balls, and 2 green balls. If one ball is picked at random from the bag, what is the probability that the ball is blue?",
+        "kc": [
+            "Probability",
+            "Counting",
+            "Fractions"
+        ],
+        "solution": "First, we need to find the total number of balls in the bag.\n\n\\[\n\\text{Total number of balls} = 5 \\text{ (blue)} + 3 \\text{ (red)} + 2 \\text{ (green)} = 10\n\\]\n\nNext, we want to find the probability of picking a blue ball. The number of blue balls is 5.\n\nProbability is given by:\n\n\\[\n\\text{Probability} = \\frac{\\text{Number of blue balls}}{\\text{Total number of balls}}\n\\]\n\nSo,\n\n\\[\n\\text{Probability} = \\frac{5}{10}\n\\]\n\nWe can simplify the fraction:\n\n\\[\n\\frac{5}{10} = \\frac{1}{2}\n\\]\n\n\\textbf{Final Answer:}\n\n\\[\n\\boxed{\\frac{1}{2}}\n\\]\n\nSo, the probability that the ball is blue is \\( \\frac{1}{2} \\)."
+    },
+    "P2FF": {
+        "question_id": "Mrs Lee bought a cake and cut it into 8 equal pieces. She gave 3 pieces to her children. What fraction of the whole cake did Mrs Lee give to her children?",
+        "kc": [
+            "Fractions as part of a whole",
+            "Writing fractions",
+            "Simplifying fractions (if needed)"
+        ],
+        "solution": "First, we know the cake was cut into 8 equal pieces. This means the whole cake is divided into 8 parts.\n\nMrs Lee gave away 3 of these pieces to her children.\n\nTo find the fraction of the cake she gave away, we write:\n\n\\[\n\\text{Fraction given} = \\frac{\\text{Number of pieces given}}{\\text{Total number of pieces}} = \\frac{3}{8}\n\\]\n\nSo, Mrs Lee gave \\( \\frac{3}{8} \\) of the whole cake to her children."
+    },
+    "P3FE": {
+        "question_id": "Wei Ting coloured 2 out of 6 equal parts of a paper strip. What is another fraction that is equivalent to the part that Wei Ting coloured?",
+        "kc": [
+            "Equivalent fractions",
+            "Simplifying fractions"
+        ],
+        "solution": "Wei Ting coloured 2 out of 6 equal parts. This can be written as the fraction: \n\n\\[\n\\frac{2}{6}\n\\]\n\nTo find another equivalent fraction, we can simplify this fraction by dividing both the numerator and denominator by their greatest common factor. \n\nThe greatest common factor of 2 and 6 is 2.\n\n\\[\n\\frac{2 \\div 2}{6 \\div 2} = \\frac{1}{3}\n\\]\n\nSo, another fraction that is equivalent to \\( \\frac{2}{6} \\) is \\( \\frac{1}{3} \\).\n"
+    },
+    "P3MM": {
+        "question_id": "Lina had $10. She bought a sandwich for $3.60 and a bottle of juice for $2.40. How much money did Lina have left?",
+        "kc": [
+            "Subtraction of decimals",
+            "Addition of decimals",
+            "Money calculations"
+        ],
+        "solution": "First, we find out how much Lina spent in total.\\\\\n\n\\text{Amount spent} = \\$3.60 + \\$2.40 = \\$6.00\\\\\n\nNext, we subtract the total amount spent from the amount Lina had at first.\\\\\n\n\\text{Money left} = \\$10.00 - \\$6.00 = \\$4.00\\\\\n\n\\boxed{\\$4.00}\\\\\n\nLina had \\$4.00 left."
+    },
+    "P3WA": {
+        "question_id": "Aisha has 256 stickers. She buys another 137 stickers from the bookshop. Later, she gives 89 stickers to her friend. How many stickers does Aisha have now?",
+        "kc": [
+            "Addition of whole numbers",
+            "Subtraction of whole numbers",
+            "Order of operations (addition and subtraction)"
+        ],
+        "solution": "First, we find out how many stickers Aisha has after buying more stickers.\\\\\n\\\\\n\\text{Number of stickers after buying:}\\\\\n256 + 137 = 393\\\\\n\\\\\nNext, she gives 89 stickers to her friend. We subtract this from the total.\\\\\n\\\\\n393 - 89 = 304\\\\\n\\\\\n\\boxed{304}\\\\\n\\\\\n\\text{Aisha has 304 stickers now.}"
+    },
+    "P3WM": {
+        "question_id": "A box contains 7 packets of biscuits. Each packet has 6 biscuits. How many biscuits are there in total?",
+        "kc": "Multiplication; Repeated addition",
+        "solution": "To find the total number of biscuits, we need to multiply the number of packets by the number of biscuits in each packet. \\\\ \nNumber\\ of\\ packets = 7 \\\\ \nNumber\\ of\\ biscuits\\ in\\ each\\ packet = 6 \\\\ \nTotal\\ number\\ of\\ biscuits = 7 \\times 6 = 42 \\\\ \n\\boxed{42} \\\\ \nThere are 42 biscuits in total."
+    },
+    "P4DA": {
+        "question_id": "A packet of biscuits costs $2.45. A packet of juice costs $1.80. How much do both items cost altogether?",
+        "kc": "Addition of decimals (money)",
+        "solution": "To find the total cost of both items, we add the cost of the biscuits and the juice.\\\\\n\\[\n\\text{Cost of biscuits} = \\$2.45 \\\\\n\\text{Cost of juice} = \\$1.80 \\\\\n\\text{Total cost} = 2.45 + 1.80 = 4.25\n\\]\n\\\\\nTherefore, both items cost \\$4.25 altogether."
+    },
+    "P4DD": {
+        "question_id": "Jia Wei bought 2.475 kilograms of flour and used 0.8 kilograms to bake a cake. How much flour does he have left?",
+        "kc": [
+            "Subtraction of decimals",
+            "Understanding of units (kilograms)",
+            "Word problem solving"
+        ],
+        "solution": "\\textbf{Step 1:} Jia Wei started with 2.475 kg of flour.\\\\\n\\textbf{Step 2:} He used 0.8 kg to bake a cake.\\\\\n\\textbf{Step 3:} To find out how much flour is left, subtract 0.8 kg from 2.475 kg.\\\\\n\n\\[\n2.475 - 0.8 = ?\n\\]\n\n\\textbf{Step 4:} Line up the decimal places for subtraction:\n\\[\n\\begin{array}{r}\n 2.475 \\\\\n-0.800 \\\\\n\\hline\n\\end{array}\n\\]\n\n\\textbf{Step 5:} Subtract column by column:\n\\[\n2.475 - 0.800 = 1.675\n\\]\n\n\\textbf{Final Answer:}\\\\\nJia Wei has \\boxed{1.675\\ \\text{kg}} of flour left."
+    },
+    "P4DM": {
+        "question_id": "A bottle of apple juice contains 1.5 litres. If James pours the juice equally into 3 cups, how many litres of juice will there be in each cup?",
+        "kc": [
+            "Division of decimals",
+            "Equal sharing",
+            "Understanding litres as a unit of volume"
+        ],
+        "solution": "We are given that the total amount of apple juice is 1.5 \\text{ litres}, and it is to be shared equally among 3 cups.\\newline\\newline\\textbf{Step 1:} To find out how much juice is in each cup, we divide the total amount by the number of cups:\\newline\\newline\\frac{1.5}{3} = 0.5\\newline\\newline\\textbf{Step 2:} So, each cup will have 0.5 litres of juice.\\newline\\newline\\boxed{0.5 \\text{ litres}}"
+    },
+    "P4FA": {
+        "question_id": "Mrs Tan used 3/8 of a packet of flour to bake cookies and 1/8 of the packet to bake a cake. What fraction of the packet of flour did she use altogether?",
+        "kc": "Addition of fractions with like denominators",
+        "solution": "To find out how much flour Mrs Tan used altogether, we need to add the fractions of flour she used for cookies and cake. \\\\ \n\nShe used $\\frac{3}{8}$ of the packet for cookies and $\\frac{1}{8}$ for cake. \\\\ \n\nWhen we add fractions with the same denominator, we add the numerators and keep the denominator the same. \\\\ \n\n$\\frac{3}{8} + \\frac{1}{8} = \\frac{3+1}{8} = \\frac{4}{8}$ \\\\ \n\nNext, we can simplify $\\frac{4}{8}$ by dividing the numerator and denominator by 4. \\\\ \n\n$\\frac{4}{8} = \\frac{4 \\div 4}{8 \\div 4} = \\frac{1}{2}$ \\\\ \n\nSo, Mrs Tan used $\\frac{1}{2}$ of the packet of flour altogether."
+    },
+    "P4FF": {
+        "question_id": "There are 24 apples in a box. If 2/3 of the apples are red, how many red apples are there in the box?",
+        "kc": [
+            "Finding a fraction of a whole number",
+            "Multiplication of fractions and whole numbers"
+        ],
+        "solution": "First, we need to find \\( \\frac{2}{3} \\) of 24. \n\nWe do this by multiplying 24 by \\( \\frac{2}{3} \\):\n\n\\[\n\\frac{2}{3} \\times 24 = \\frac{2 \\times 24}{3}\n\\]\n\n\\[\n= \\frac{48}{3}\n\\]\n\n\\[\n= 16\n\\]\n\nSo, there are \\( \\boxed{16} \\) red apples in the box."
+    },
+    "P4FM": {
+        "question_id": "Sarah baked 7 tarts. She gave her friends 2 and one-half tarts. Express the number of tarts Sarah gave to her friends as an improper fraction.",
+        "kc": "Converting mixed numbers to improper fractions",
+        "solution": "Sarah gave her friends 2 and one-half tarts. \n\nFirst, let's write 2 and one-half as a mixed number:\n\n2 and one-half = 2 \\frac{1}{2}\n\nTo convert a mixed number to an improper fraction:\n\nStep 1: Multiply the whole number by the denominator.\n\n2 \\times 2 = 4\n\nStep 2: Add the numerator.\n\n4 + 1 = 5\n\nStep 3: Write this sum over the original denominator.\n\nSo, 2 \\frac{1}{2} = \\frac{5}{2}\n\n\\boxed{\\frac{5}{2}}\n\nSarah gave her friends \\( \\frac{5}{2} \\) tarts as an improper fraction."
+    },
+    "P4WF": {
+        "question_id": "Amy has 36 beads. She wants to pack them equally into boxes so that each box has the same number of beads and no beads are left over. What is the greatest number of beads she can put in each box?",
+        "kc": "Finding the greatest common factor (GCF); Division with no remainder; Factors of a number",
+        "solution": "Let us find the greatest number of beads Amy can put in each box so that each box has the same number of beads and no beads are left over.\n\nFirst, we need to find the largest number that can divide 36 exactly (with no remainder). This means we are looking for the greatest factor of 36, other than 36 itself, that is less than or equal to 36.\n\nThe factors of 36 are: 1, 2, 3, 4, 6, 9, 12, 18, and 36.\n\nIf Amy puts all 36 beads into one box, each box will have 36 beads. This is the largest possible number of beads in each box with no beads left over.\n\nTherefore, the greatest number of beads she can put in each box is:\n\n\\[\n\\boxed{36}\n\\]\n\nSo, Amy can put 36 beads in each box (all in one box) with no beads left over."
+    },
+    "P4WN": {
+        "question_id": "A bookshop sold 38,250 storybooks in the first half of the year and 46,780 storybooks in the second half of the year. How many storybooks did the bookshop sell in total for the whole year?",
+        "kc": "Addition of large numbers; Place value understanding",
+        "solution": "To find the total number of storybooks sold in the whole year, we need to add the number of storybooks sold in the first half to the number sold in the second half.\n\nNumber of storybooks sold in the first half = 38,250 \\\\ \nNumber of storybooks sold in the second half = 46,780 \\\\ \n\nTotal number of storybooks sold = 38,250 + 46,780 \\\\ \n\nLet's add the numbers step by step:\n\n\\begin{align*}\n & \\phantom{+}38,250 \\\\ \n+ & 46,780 \\\\ \\hline\n & 85,030 \n\\end{align*}\n\nSo, the bookshop sold \\boxed{85,030} storybooks in total for the whole year."
+    },
+    "P5FF": {
+        "question_id": "Mrs Tan bought 8 pizzas for a party. She cut each pizza into 5 equal slices. How many slices of pizza did she get in total?",
+        "kc": "Multiplication and repeated addition",
+        "solution": "Let us find out how many slices Mrs Tan got in total.\\\\\nShe bought 8 pizzas.\\\\\nEach pizza was cut into 5 equal slices.\\\\\nTo find the total number of slices, we multiply the number of pizzas by the number of slices per pizza: \\\\ \n8 \\times 5 = 40\\\\\nSo, Mrs Tan got \\boxed{40} slices of pizza in total."
+    },
+    "P5PP": {
+        "question_id": "Amir has 200 stamps. He gave 35 percent of his stamps to his friend. How many stamps did Amir give to his friend?",
+        "kc": "Finding a percentage of a given quantity",
+        "solution": "Let us find out how many stamps Amir gave to his friend. \\\\ \nFirst, we know Amir gave away 35 percent of his 200 stamps. \\\\ \nTo find 35 percent of 200, we multiply 200 by 35\\%: \\\\ \n\n35\\% = \\frac{35}{100} \\\\ \n\nNumber\\ of\\ stamps\\ Amir\\ gave = 35\\%\\ \\times\\ 200 \\\\ \n= \\frac{35}{100} \\times 200 \\\\ \n= \\frac{35 \\times 200}{100} \\\\ \n= \\frac{7000}{100} \\\\ \n= 70 \\\\ \n\n\\boxed{70} \\\\ \n\nSo, Amir gave 70 stamps to his friend."
+    },
+    "P5RR": {
+        "question_id": "A tap can fill up 12 litres of water in 3 minutes. What is the rate at which water flows from the tap in litres per minute?",
+        "kc": "Finding rate (division), Units (litres per minute)",
+        "solution": "To find the rate at which water flows from the tap, we need to divide the total amount of water by the total time taken. \n\n\\text{Amount of water} = 12~\\text{litres} \\\\\n\\text{Time taken} = 3~\\text{minutes} \\\\\n\\text{Rate} = \\frac{\\text{Amount of water}}{\\text{Time taken}} = \\frac{12}{3} = 4~\\text{litres per minute} \\\\\n\n\\boxed{4~\\text{litres per minute}}\n"
+    },
+    "P6AA": {
+        "question_id": "Amy bought some pens. Each pen costs $x. If she paid $24 for all the pens, write an equation to represent the number of pens she bought.",
+        "kc": "Formulating equations from word problems; using variables to represent unknowns; multiplication and equality",
+        "solution": "Let the number of pens Amy bought be $n$.\n\nSince each pen costs $x$ dollars, the total cost of $n$ pens is $n \\times x$ dollars.\n\nWe know that the total amount Amy paid is $24$ dollars.\n\nSo, the equation to represent the number of pens Amy bought is:\n\n\\[\n n \\times x = 24\n\\]\n"
+    },
+    "P6RR": {
+        "question_id": "There are red and blue marbles in a box. The ratio of the number of red marbles to the number of blue marbles is 3 : 5. If there are 45 blue marbles, how many red marbles are there?",
+        "kc": [
+            "Ratios",
+            "Proportional Reasoning",
+            "Multiplication and Division"
+        ],
+        "solution": "Let the number of red marbles be R and the number of blue marbles be B.\\newline\nWe are told that the ratio of red to blue marbles is 3 : 5.\\newline\nThis means that for every 3 red marbles, there are 5 blue marbles.\\newline\nWe are also told that there are 45 blue marbles.\\newline\n\\newline\nFirst, let's find out how many groups of 5 blue marbles are there in 45 blue marbles:\\newline\n\\frac{45}{5} = 9\\newline\n\\newline\nSo, there are 9 groups.\\newline\n\\newline\nSince the ratio is 3 : 5, for every group of 5 blue marbles, there are 3 red marbles.\\newline\nSo, the number of red marbles is:\\newline\n3 \\times 9 = 27\\newline\n\\newline\n\\boxed{27}\\newline\n\\newline\nThere are 27 red marbles in the box."
+    }
+}

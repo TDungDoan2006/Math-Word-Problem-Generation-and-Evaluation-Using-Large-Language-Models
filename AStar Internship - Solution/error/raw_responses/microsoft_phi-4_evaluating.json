@@ -1,0 +1,21 @@
+{
+    "openai/gpt-4.1": {
+        "P6ratio": {},
+        "O3NumOps": {},
+        "P5Deci4Op": {},
+        "P5rate": {
+            "Wrong Operation / Formula": "```json\n{\n\"question\": \"A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?\",\n\"correct\": \"no\",\n\"wrong_solution\": {\n    \"Step 1\": \"First, recall the formula for average speed:\\n\\\\[ \\n\\\\text{Average speed} = \\\\text{Total distance} \\\\times \\\\text{Total time} \n\\\\]\",\n    \"Step 3\": \"\\\\[ \\n\\\\text{Average speed} = 30 \\\\times 2\n\\\\]\",\n    \"Step 4\": \"\\\\[ \\n30 \\\\times 2 = 60 \n\\\\]\"\n},\n\"type_of_error\": {\n    \"Step 1\": \"Wrong Operation / Formula\",\n    \"Step 3\": \"Wrong Operation / Formula\"\n},\n\"error_explanation\": {\n    \"Step 1\": \"The formula for average speed is not multiplication of distance and time. The formula should be \\\\[ \\\\text{Average Speed} = \\\\frac{\\\\text{Total Distance}}{\\\\text{Total Time}} \\\\]. By multiplying, the student has applied the wrong formula to find the speed.\",\n    \"Step 3\": \"This step uses the incorrect formula from Step 1. Instead of dividing the distance by time, which is correct, the student multiplies the distance by time.\"\n},\n\"correct_solution\": {\n    \"Step 1\": \"The formula for average speed is given by \\\\[ \\\\text{Average Speed} = \\\\frac{\\\\text{Total Distance}}{\\\\text{Total Time}} \\\\].\",\n    \"Step 2\": \"Substitute the given values into the formula: \\\\[ \\\\text{Average Speed} = \\\\frac{30 \\\\text{ km}}{2 \\\\text{ hours}} \\\\].\",\n    \"Step 3\": \"Calculate the average speed: \\\\[ \\\\text{Average Speed} = 15 \\\\text{ km/hour} \\\\].\"\n},\n\"missing_steps\": {}\n}\n```"
+        },
+        "P2FracW": {},
+        "P4FctorM": {},
+        "P3N10k": {},
+        "P5FracDv": {},
+        "O1AgbrEF": {},
+        "O1NumOps": {},
+        "P4Deci3d": {},
+        "P4N100k": {},
+        "O1EqIneq": {},
+        "P1Money": {},
+        "P4FracMI": {}
+    }
+}

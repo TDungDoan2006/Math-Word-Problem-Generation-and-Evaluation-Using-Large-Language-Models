@@ -1,0 +1,134 @@
+{
+    "P5rate": {
+        "GE_Known_value": {
+            "status": 0,
+            "worked_example": "Step 1: Recall the formula for average speed:\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]\nStep 2: The total distance covered is 20 kilometres and the total time taken is 2 hours.\nStep 3: Substitute the values into the formula:\n\\[\n\\text{Average speed} = \\frac{20}{2}\n\\]\nStep 4: Calculate the answer:\n\\[\n\\frac{20}{2} = 10\n\\]\nStep 5: So, the average speed of the bicycle is \\(10\\) kilometres per hour.",
+            "error_explanation": "The error here is in copying the value of the total distance from the question. The student used 20 kilometres instead of the correct 30 kilometres, resulting in the wrong final answer. Always make sure to carefully copy the values given in the question.",
+            "response_time": 3.6297426223754883
+        },
+        "GE_Known_meaning": {
+            "status": 0,
+            "worked_example": "Step 1: First, recall the formula for average speed:\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]\n\nStep 2: The total distance is 30 kilometres, and the time taken is 1 hour (mistakenly using the wrong time).\n\nStep 3: Substitute the values into the formula:\n\\[\n\\text{Average speed} = \\frac{30}{1}\n\\]\n\nStep 4: Calculate the answer:\n\\[\n\\frac{30}{1} = 30\n\\]\n\nStep 5: So, the average speed of the bicycle is \\(30\\) kilometres per hour.",
+            "error_explanation": "The mistake here is using the wrong value for the time taken. The total time taken should be 2 hours, not 1 hour. This results in an incorrect calculation for the average speed.",
+            "response_time": 3.7727839946746826
+        },
+        "GE_Known_intmd": {
+            "status": 0,
+            "worked_example": "Step 1: First, recall the formula for average speed:\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]\nStep 2: The total distance covered is 30 kilometres and the total time taken is 2 hours.\nStep 3: Substitute the values into the formula:\n\\[\n\\text{Average speed} = \\frac{30}{2}\n\\]\nStep 4: Calculate the answer:\n\\[\n\\frac{30}{2} = 20\n\\]\nStep 5: So, the average speed of the bicycle is \\(20\\) kilometres per hour.",
+            "error_explanation": "In Step 4, the student copied or calculated the answer incorrectly. The correct calculation should be \\(\\frac{30}{2} = 15\\), but the student wrote 20 instead. This mistake is due to copying the value wrongly from the calculation step.",
+            "response_time": 3.5571131706237793
+        },
+        "GE_Wanted_wrong": {
+            "status": 0,
+            "worked_example": "Step 1: First, recall the formula for total time:\n\\[\n\\text{Total time} = \\frac{\\text{Total distance}}{\\text{Speed}}\n\\]\nStep 2: The total distance covered is 30 kilometres and the speed is 2 kilometres per hour.\nStep 3: Substitute the values into the formula:\n\\[\n\\text{Total time} = \\frac{30}{2}\n\\]\nStep 4: Calculate the answer:\n\\[\n\\frac{30}{2} = 15\n\\]\nStep 5: So, the total time is \\(15\\) hours.",
+            "error_explanation": "In this worked example, the student has calculated the total time instead of the average speed. The student used the correct formula for total time rather than average speed, leading to the correct calculation for the wrong value. This mistake occurs when students misunderstand what the question is asking and solve for a different quantity.",
+            "response_time": 4.181702136993408
+        },
+        "GE_Wanted_stepmiss": {
+            "status": 0,
+            "worked_example": "Step 1: The total distance is 30 kilometres and the time taken is 2 hours.\n\nStep 2: So the answer is:\n\\[\n30 \\text{ kilometres},\\ 2 \\text{ hours}\n\\]\n\nFinal answer: 15\n",
+            "error_explanation": "The worked example is missing clear and complete steps, such as stating the formula for average speed and the calculation process. Additionally, the final answer is not labelled with the correct units (kilometres per hour) as required by the question. This can confuse students and does not fully answer what the question asks.",
+            "response_time": 3.419747829437256
+        },
+        "GE_OprRls": {
+            "status": 0,
+            "worked_example": "Step 1: First, recall the formula for average speed:\n\\[\n\\text{Average speed} = \\text{Total distance} \\times \\text{Total time}\n\\]\n\nStep 2: The total distance covered is 30 kilometres and the total time taken is 2 hours.\n\nStep 3: Substitute the values into the formula:\n\\[\n\\text{Average speed} = 30 \\times 2\n\\]\n\nStep 4: Calculate the answer:\n\\[\n30 \\times 2 = 60\n\\]\n\nStep 5: So, the average speed of the bicycle is \\(60\\) kilometres per hour.",
+            "error_explanation": "The error here is using multiplication instead of division. To find average speed, you should divide the total distance by the total time (\\(\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\\)), not multiply them. Multiplying the distance and time leads to an incorrect answer and unit.",
+            "response_time": 3.987103223800659
+        },
+        "GE_Calc": {
+            "status": 0,
+            "worked_example": "Step 1: First, recall the formula for average speed:\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]\n\nStep 2: The total distance covered is 30 kilometres and the total time taken is 2 hours.\n\nStep 3: Substitute the values into the formula:\n\\[\n\\text{Average speed} = \\frac{30}{2}\n\\]\n\nStep 4: Calculate the answer:\n\\[\n\\frac{30}{2} = 12\n\\]\n\nStep 5: So, the average speed of the bicycle is \\(12\\) kilometres per hour.",
+            "error_explanation": "The error here is a calculation mistake. While the student has correctly substituted the operands (30 and 2) and the division operation, the result of \\(30 \\div 2\\) was written as 12 instead of the correct answer, 15.",
+            "response_time": 4.1672961711883545
+        }
+    },
+    "P6ratio": {
+        "GE_Known_value": {
+            "status": 0,
+            "worked_example": "Step 1: The ratio of apples to oranges is 3 : 5. \n\nStep 2: There are 18 apples. \n\nStep 3: To find out how many groups of 3 apples there are in 15 apples, we divide 15 by 3. \n\n\\[ 15 \\div 3 = 5 \\]\n\nStep 4: So, there are 5 groups of apples. \n\nStep 5: Each group of apples matches with 5 oranges. So, there are 5 groups of oranges. \n\nStep 6: To find the total number of oranges, we multiply 5 by 5. \n\n\\[ 5 \\times 5 = 25 \\]\n\nStep 7: Therefore, there are 25 oranges in the basket.",
+            "error_explanation": "The student copied the value for the number of apples wrongly, using 15 instead of the given 18. This led to the wrong answer because the calculations were based on the incorrect value.",
+            "response_time": 4.165408372879028
+        },
+        "GE_Known_meaning": {
+            "status": 0,
+            "worked_example": "Step 1: The ratio of apples to oranges is 3 : 5.\n\nStep 2: There are 18 apples in the basket.\n\nStep 3: Since the ratio is 3 apples to 5 oranges, for every 3 apples, there are 5 oranges.\n\nStep 4: Let's use the ratio to find the number of oranges. We wrongly take the 3 from the ratio and use it as the multiplier instead of finding the number of groups.\n\nStep 5: Multiply the number of apples by the number of oranges in the ratio.\n\n\\[\n18 \\times 5 = 90\n\\]\n\nStep 6: So, there are 90 oranges in the basket.",
+            "error_explanation": "The error here is using the number of apples (18) and multiplying directly by the orange part of the ratio (5) without first dividing by the apple part of the ratio (3) to find the number of groups. This leads to a number that is way too large. The correct approach is to first find how many groups of 3 apples are in 18 apples, then multiply that number by 5 to get the correct number of oranges.",
+            "response_time": 4.319322347640991
+        },
+        "GE_Known_intmd": {
+            "status": 0,
+            "worked_example": "Step 1: Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.\n\nStep 2: We are told there are 18 apples. To find out how many groups of 3 apples there are in 18 apples, we divide 18 by 3.\n\n\\[ 18 \\div 3 = 6 \\]\n\nStep 3: So, there are 6 groups of 3 apples.\n\nStep 4: Since the ratio is 3 apples to 5 oranges, each group of 3 apples matches with 5 oranges. So, there are 6 groups of 5 oranges.\n\nStep 5: To find the total number of oranges, we multiply 8 by 5.\n\n\\[ 8 \\times 5 = 40 \\]\n\nStep 6: Therefore, there are 40 oranges in the basket.",
+            "error_explanation": "The error here is that the student copied the number of groups wrongly. Instead of correctly copying '6' (the result from 18 divided by 3) into the next calculation, the student wrote '8', leading to an incorrect final answer. This copying mistake caused the wrong total number of oranges to be calculated.",
+            "response_time": 5.1877760887146
+        },
+        "GE_Wanted_wrong": {
+            "status": 0,
+            "worked_example": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.\n\nWe are told there are 18 apples. Since the question gives us 18 apples, we use the ratio to find the total number of fruits in the basket.\n\nThe total parts of the ratio is 3 + 5 = 8 parts.\n\nSince 3 parts is 18 apples, 1 part is:\n\\[\n18 \\div 3 = 6\n\\]\nSo, the total number of fruits is:\n\\[\n8 \\times 6 = 48\n\\]\nTherefore, there are 48 fruits in the basket.",
+            "error_explanation": "The mistake here is that the student found the total number of fruits in the basket instead of the number of oranges. The question asks specifically for the number of oranges, not the total number of fruits.",
+            "response_time": 4.176320791244507
+        },
+        "GE_Wanted_stepmiss": {
+            "status": 0,
+            "worked_example": "Step 1: The ratio of apples to oranges is 3 : 5. There are 18 apples.\n\nStep 2: Since there are 18 apples and the ratio is 3 : 5, the number of oranges is 5.\n\nFinal Answer: 5 oranges.",
+            "error_explanation": "The error here is that the student directly uses the number 5 from the ratio as the number of oranges, instead of considering how many groups of 3 apples fit in 18 apples and then multiplying that by 5 to get the actual number of oranges. This solution is missing key working steps and the correct conversion step from ratio to actual quantity.",
+            "response_time": 3.7549614906311035
+        },
+        "GE_OprRls": {
+            "status": 0,
+            "worked_example": "Step 1: The ratio of apples to oranges is 3 : 5. This means for every 3 apples, there are 5 oranges.\n\nStep 2: There are 18 apples in total.\n\nStep 3: Since the ratio is 3 apples : 5 oranges, and there are 18 apples, we need to find the number of oranges.\n\nStep 4: Let's use the operator incorrectly and multiply the number of apples by the ratio of oranges to apples:\n\n\\[\n\\text{Number of oranges} = 18 \\times \\frac{5}{3} = 30\n\\]\n\nStep 5: Therefore, there are 90 oranges in the basket.",
+            "error_explanation": "The error in this worked example occurs in Step 4. The student multiplies the number of apples by the total in the ratio (18 \u00d7 5 = 90), instead of first finding how many groups there are (18 \u00f7 3), and then multiplying this by 5. Using the wrong operator results in an overestimation of the number of oranges.",
+            "response_time": 4.48390007019043
+        },
+        "GE_Calc": {
+            "status": 0,
+            "worked_example": "\"\"\"\nStep 1: Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.\n\nStep 2: We are told there are 18 apples. To find out how many groups of 3 apples there are in 18 apples, we divide 18 by 3.\n\nStep 3: \n\\[\n18 \\div 3 = 5\n\\]\n\nStep 4: So, there are 5 groups of 3 apples.\n\nStep 5: Since the ratio is 3 apples to 5 oranges, each group of 3 apples matches with 5 oranges. So, there are 5 groups of 5 oranges.\n\nStep 6: To find the total number of oranges, we multiply 5 by 5.\n\nStep 7: \n\\[\n5 \\times 5 = 25\n\\]\n\nStep 8: Therefore, there are 25 oranges in the basket.\n\"\"\"",
+            "error_explanation": "The mistake occurs in Step 3, where 18 \\div 3 is incorrectly calculated as 5, instead of 6. This leads to finding the wrong number of groups and the wrong final number of oranges.",
+            "response_time": 3.9856820106506348
+        }
+    },
+    "O2Prob": {
+        "GE_Known_value": {
+            "status": 0,
+            "worked_example": "Step 1: First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 2 \\text{ (blue)} + 2 \\text{ (green)} = 9 \\text{ pens}\n\\]\nStep 2: Next, we find the number of blue pens in the box:\n\\[\n2 \\text{ blue pens}\n\\]\nStep 3: The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{2}{9}\n\\]\nStep 4: So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{2}{9}}\n\\]",
+            "error_explanation": "The student copied the value for the number of blue pens wrongly from the question, writing 2 instead of 3, and used this incorrect value in their calculations. This led to a wrong total number of pens and an incorrect probability.",
+            "response_time": 5.677504062652588
+        },
+        "GE_Known_meaning": {
+            "status": 0,
+            "worked_example": "Step 1: First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]\nStep 2: Since Bryan is picking a blue pen, we use the number of blue pens. There are 2 green pens in the box, so the probability must be \\(\n\\frac{2}{10}\\) because green is also a color.\nStep 3: So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{2}{10}}\n\\]",
+            "error_explanation": "The error in this worked example is using the number of green pens (2) instead of the number of blue pens (3) in the calculation. This demonstrates the misunderstanding of which numbers from the context are relevant to the probability being asked for, even though the student used the correct operator (division by total pens).",
+            "response_time": 5.339223384857178
+        },
+        "GE_Known_intmd": {
+            "status": 0,
+            "worked_example": "Step 1: First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]\n\nStep 2: Next, we find the number of blue pens in the box:\n\\[\n3 \\text{ blue pens}\n\\]\n\nStep 3: The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{2}{10}\n\\]\n\nStep 4: So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{2}{10}}\n\\]",
+            "error_explanation": "In Step 3, the student copied the number '2' (for green pens) instead of '3' (for blue pens), leading to an incorrect probability fraction. This is a common copying or transcription error.",
+            "response_time": 3.67444109916687
+        },
+        "GE_Wanted_wrong": {
+            "status": 0,
+            "worked_example": "Step 1: First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]\nStep 2: Next, we find the number of blue pens in the box:\n\\[\n3 \\text{ blue pens}\n\\]\nStep 3: The question asks for the number of pens that are not blue. So,\n\\[\n10 - 3 = 7 \\text{ pens that are not blue}\n\\]\nStep 4: The answer is:\n\\[\n\\boxed{7}\n\\]",
+            "error_explanation": "The solution finds the number of pens that are not blue, instead of finding the probability of picking a blue pen. The answer does not match the question requirement. The error was answering 'how many pens are not blue' instead of 'what is the probability of picking a blue pen'.",
+            "response_time": 4.1838531494140625
+        },
+        "GE_Wanted_stepmiss": {
+            "status": 0,
+            "worked_example": "Step 1: Find the number of blue pens:\n\\[\n3 \\text{ blue pens}\n\\]\n\nStep 2: Write the answer as a percentage:\n\\[\n\\boxed{3\\%}\n\\]",
+            "error_explanation": "The error here is not calculating the probability as a fraction by dividing the number of blue pens by the total number of pens. The answer is also given in percentage without converting properly from the fraction. This worked example skips several key steps and gives the answer in the wrong format.",
+            "response_time": 3.754213333129883
+        },
+        "GE_OprRls": {
+            "status": 0,
+            "worked_example": "Step 1: First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} \\times 3 \\text{ (blue)} \\times 2 \\text{ (green)} = 30 \\text{ pens}\n\\]\n\nStep 2: Next, we find the number of blue pens in the box:\n\\[\n3 \\text{ blue pens}\n\\]\n\nStep 3: The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{3}{30}\n\\]\n\nStep 4: So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{3}{30}}\n\\]",
+            "error_explanation": "In Step 1, the student used multiplication instead of addition to find the total number of pens. The correct operator should be addition because we are combining separate groups (red, blue, green pens), not making selections from independent categories. Using the wrong operator gives an incorrect total, leading to the incorrect probability.",
+            "response_time": 3.87142014503479
+        },
+        "GE_Calc": {
+            "status": 0,
+            "worked_example": "Step 1: First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]\nStep 2: Next, we find the number of blue pens in the box:\n\\[\n3 \\text{ blue pens}\n\\]\nStep 3: The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{3}{10}\n\\]\nStep 4: So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{4}{10}}\n\\]",
+            "error_explanation": "Although all the steps and calculations are set up correctly, the final answer is written as \\( \\frac{4}{10} \\) instead of the correct answer \\( \\frac{3}{10} \\). This shows a careless mistake in writing down the final result, which is not supported by the previous calculations.",
+            "response_time": 4.641250133514404
+        }
+    }
+}

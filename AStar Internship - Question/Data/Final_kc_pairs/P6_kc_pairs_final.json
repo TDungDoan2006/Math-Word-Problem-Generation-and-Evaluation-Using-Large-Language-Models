@@ -1,0 +1,322 @@
+{
+    "P6-FrDivPN_P2-FrCmp": {
+        "primary_kc_name": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "FRACTIONS",
+        "primary_kc_operation": "Division",
+        "secondary_kc_name": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+        "secondary_kc_grade": "Primary 2",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Comparison and ordering"
+    },
+    "P6-FrDivPN_P2-FrAdd2nd": {
+        "primary_kc_name": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "FRACTIONS",
+        "primary_kc_operation": "Division",
+        "secondary_kc_name": "FRACTIONS | Addition | adding fractions",
+        "secondary_kc_grade": "Primary 2",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Addition"
+    },
+    "P6-FrDivPN_P2-FrSub2nd": {
+        "primary_kc_name": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "FRACTIONS",
+        "primary_kc_operation": "Division",
+        "secondary_kc_name": "FRACTIONS | Subtraction | subtracting fractions",
+        "secondary_kc_grade": "Primary 2",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "P6-FrDivPN_P3-FrSmp": {
+        "primary_kc_name": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "FRACTIONS",
+        "primary_kc_operation": "Division",
+        "secondary_kc_name": "FRACTIONS | Simplifying | expressing a fraction in its simplest form",
+        "secondary_kc_grade": "Primary 3",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Simplifying"
+    },
+    "P6-FrDivPN_P5-FrCnv2Dc": {
+        "primary_kc_name": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "FRACTIONS",
+        "primary_kc_operation": "Division",
+        "secondary_kc_name": "FRACTIONS | Conversion to decimals | expressing fractions as decimals",
+        "secondary_kc_grade": "Primary 5",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Conversion"
+    },
+    "P6-FrDivPN_P5-FrMul2nd": {
+        "primary_kc_name": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "FRACTIONS",
+        "primary_kc_operation": "Division",
+        "secondary_kc_name": "FRACTIONS | Multiplication | fraction multiplication",
+        "secondary_kc_grade": "Primary 5",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "P6-FrDivPP_P2-FrCmp": {
+        "primary_kc_name": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "FRACTIONS",
+        "primary_kc_operation": "Division",
+        "secondary_kc_name": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+        "secondary_kc_grade": "Primary 2",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Comparison and ordering"
+    },
+    "P6-FrDivPP_P2-FrAdd2nd": {
+        "primary_kc_name": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "FRACTIONS",
+        "primary_kc_operation": "Division",
+        "secondary_kc_name": "FRACTIONS | Addition | adding fractions",
+        "secondary_kc_grade": "Primary 2",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Addition"
+    },
+    "P6-FrDivPP_P2-FrSub2nd": {
+        "primary_kc_name": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "FRACTIONS",
+        "primary_kc_operation": "Division",
+        "secondary_kc_name": "FRACTIONS | Subtraction | subtracting fractions",
+        "secondary_kc_grade": "Primary 2",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "P6-FrDivPP_P3-FrSmp": {
+        "primary_kc_name": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "FRACTIONS",
+        "primary_kc_operation": "Division",
+        "secondary_kc_name": "FRACTIONS | Simplifying | expressing a fraction in its simplest form",
+        "secondary_kc_grade": "Primary 3",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Simplifying"
+    },
+    "P6-FrDivPP_P5-FrCnv2Dc": {
+        "primary_kc_name": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "FRACTIONS",
+        "primary_kc_operation": "Division",
+        "secondary_kc_name": "FRACTIONS | Conversion to decimals | expressing fractions as decimals",
+        "secondary_kc_grade": "Primary 5",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Conversion"
+    },
+    "P6-FrDivPP_P5-FrMul2nd": {
+        "primary_kc_name": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "FRACTIONS",
+        "primary_kc_operation": "Division",
+        "secondary_kc_name": "FRACTIONS | Multiplication | fraction multiplication",
+        "secondary_kc_grade": "Primary 5",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "P6-PcFndWN_P1-WNAdd2nd": {
+        "primary_kc_name": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Addition | adding whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Addition"
+    },
+    "P6-PcFndWN_P1-WNSub2nd": {
+        "primary_kc_name": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Subtraction | subtracting whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "P6-PcFndWN_P1-WNMul2nd": {
+        "primary_kc_name": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Multiplication | multiplying whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "P6-PcFndWN_P1-WNDiv2nd": {
+        "primary_kc_name": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Division | dividing whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Division"
+    },
+    "P6-PcFndChg_P1-WNAdd2nd": {
+        "primary_kc_name": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Addition | adding whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Addition"
+    },
+    "P6-PcFndChg_P1-WNSub2nd": {
+        "primary_kc_name": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Subtraction | subtracting whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "P6-PcFndChg_P1-WNMul2nd": {
+        "primary_kc_name": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Multiplication | multiplying whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "P6-PcFndChg_P1-WNDiv2nd": {
+        "primary_kc_name": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Division | dividing whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Division"
+    },
+    "P6-RoFndDvqWN_P1-WNAdd2nd": {
+        "primary_kc_name": "RATIO | Finding divided quantities | dividing a given quantity in a given ratio",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Addition | adding whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Addition"
+    },
+    "P6-RoFndDvqWN_P1-WNSub2nd": {
+        "primary_kc_name": "RATIO | Finding divided quantities | dividing a given quantity in a given ratio",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Subtraction | subtracting whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "P6-RoFndRoWN_P1-WNAdd2nd": {
+        "primary_kc_name": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Addition | adding whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Addition"
+    },
+    "P6-RoFndRoWN_P1-WNSub2nd": {
+        "primary_kc_name": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Subtraction | subtracting whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "P6-RoFndRoWN_P1-WNMul2nd": {
+        "primary_kc_name": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Multiplication | multiplying whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "P6-RoFndRoWN_P1-WNDiv2nd": {
+        "primary_kc_name": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Division | dividing whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Division"
+    },
+    "P6-RoFndRoWN_P6-RoSmpWN": {
+        "primary_kc_name": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "RATIO | Simplifying | expressing a ratio in its simplest form",
+        "secondary_kc_grade": "Primary 6",
+        "secondary_kc_number": "RATIO",
+        "secondary_kc_operation": "Simplifying"
+    },
+    "P6-RoFndTmWN_P1-WNAdd2nd": {
+        "primary_kc_name": "RATIO | Finding a missing term | finding the missing term in a pair of equivalent ratios",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Addition | adding whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Addition"
+    },
+    "P6-RoFndTmWN_P1-WNSub2nd": {
+        "primary_kc_name": "RATIO | Finding a missing term | finding the missing term in a pair of equivalent ratios",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Subtraction | subtracting whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "P6-AgRepLrEx_P6-AgSmpLrEx": {
+        "primary_kc_name": "ALGEBRA | Representation and concept | translation of real-world situations into linear algebraic expressions",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "ALGEBRA",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "ALGEBRA | Simplifying | simplifying linear expressions",
+        "secondary_kc_grade": "Primary 6",
+        "secondary_kc_number": "ALGEBRA",
+        "secondary_kc_operation": "Simplifying"
+    },
+    "P6-AgRepLrEx_P6-AgEvlLrEx": {
+        "primary_kc_name": "ALGEBRA | Representation and concept | translation of real-world situations into linear algebraic expressions",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "ALGEBRA",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "ALGEBRA | Evaluation | evaluating linear expressions by substitution",
+        "secondary_kc_grade": "Primary 6",
+        "secondary_kc_number": "ALGEBRA",
+        "secondary_kc_operation": "Evaluation"
+    },
+    "P6-AgSlvLrN_P6-AgRepLrEx": {
+        "primary_kc_name": "ALGEBRA | Solving simple linear equations | solving linear equations involving whole number coefficient and one variable only",
+        "primary_kc_grade": "Primary 6",
+        "primary_kc_number": "ALGEBRA",
+        "primary_kc_operation": "Solving",
+        "secondary_kc_name": "ALGEBRA | Representation and concept | translation of real-world situations into linear algebraic expressions",
+        "secondary_kc_grade": "Primary 6",
+        "secondary_kc_number": "ALGEBRA",
+        "secondary_kc_operation": "Representation and concept"
+    }
+}

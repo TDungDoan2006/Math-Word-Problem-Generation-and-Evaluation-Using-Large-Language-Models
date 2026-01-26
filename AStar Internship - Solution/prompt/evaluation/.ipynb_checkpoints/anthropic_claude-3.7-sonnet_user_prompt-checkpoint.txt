@@ -1,0 +1,6 @@
+The question is: {question}
+The knowledge component that the question follow is: {kc}
+The correct solution is: {model_solution}
+The student's solution is: {given_solution}
+List of possible errors: {type_of_error}
+Error explanation: {error_explanation}

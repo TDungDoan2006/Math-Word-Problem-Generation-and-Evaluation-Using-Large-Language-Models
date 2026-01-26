@@ -1,0 +1,4 @@
+The question is: {question}
+The correct solution is: {solution}
+The list of types of error: {type_of_error}
+Explanations for the type of error: {error_explanation}

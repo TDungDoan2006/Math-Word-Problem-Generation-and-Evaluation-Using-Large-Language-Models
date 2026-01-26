@@ -1,0 +1,462 @@
+{
+    "O1-RoRepFr_P2-FrAdd2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | ratios involving fractions",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "FRACTIONS | Addition | adding fractions",
+        "secondary_kc_grade": "Primary 2",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Addition"
+    },
+    "O1-RoRepFr_P2-FrSub2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | ratios involving fractions",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "FRACTIONS | Subtraction | subtracting fractions",
+        "secondary_kc_grade": "Primary 2",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "O1-RoRepFr_P5-FrMul2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | ratios involving fractions",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "FRACTIONS | Multiplication | fraction multiplication",
+        "secondary_kc_grade": "Primary 5",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "O1-RoRepFr_P6-FrDiv2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | ratios involving fractions",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "FRACTIONS | Division | fraction division",
+        "secondary_kc_grade": "Primary 6",
+        "secondary_kc_number": "FRACTIONS",
+        "secondary_kc_operation": "Division"
+    },
+    "O1-RoRepFr_O1-RoSmpFr": {
+        "primary_kc_name": "RATIO | Representation and concept | ratios involving fractions",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "RATIO | Simplifying | converting a ratio involving fractions to its simplest form",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "RATIO",
+        "secondary_kc_operation": "Simplifying"
+    },
+    "O1-RoRepDc_P4-DcAdd2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | ratios involving decimals",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "DECIMALS | Addition | adding decimals",
+        "secondary_kc_grade": "Primary 4",
+        "secondary_kc_number": "DECIMALS",
+        "secondary_kc_operation": "Addition"
+    },
+    "O1-RoRepDc_P4-DcSub2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | ratios involving decimals",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "DECIMALS | Subtraction | subtracting decimals",
+        "secondary_kc_grade": "Primary 4",
+        "secondary_kc_number": "DECIMALS",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "O1-RoRepDc_O1-RoSmpDc": {
+        "primary_kc_name": "RATIO | Representation and concept | ratios involving decimals",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "RATIO | Simplifying | converting a ratio involving decimals to its simplest form",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "RATIO",
+        "secondary_kc_operation": "Simplifying"
+    },
+    "O1-PcRep2q_O1-PcCnv2Fr": {
+        "primary_kc_name": "PERCENTAGE | Representation and concept | comparing two quantities by percentage",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "PERCENTAGE | Conversion to fraction | expressing percentage as a fraction",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "PERCENTAGE",
+        "secondary_kc_operation": "Conversion"
+    },
+    "O1-PcRep2q_O1-PcCnv2Dc": {
+        "primary_kc_name": "PERCENTAGE | Representation and concept | comparing two quantities by percentage",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "PERCENTAGE | Conversion to decimals | expressing percentage as a decimal",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "PERCENTAGE",
+        "secondary_kc_operation": "Conversion"
+    },
+    "O1-PcFndRslt_P1-WNAdd2nd": {
+        "primary_kc_name": "PERCENTAGE | Finding result after change | increasing/decreasing a quantity by a given percentage",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Addition | adding whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Addition"
+    },
+    "O1-PcFndRslt_P1-WNSub2nd": {
+        "primary_kc_name": "PERCENTAGE | Finding result after change | increasing/decreasing a quantity by a given percentage",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Subtraction | subtracting whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "O1-PcFndRslt_P1-WNMul2nd": {
+        "primary_kc_name": "PERCENTAGE | Finding result after change | increasing/decreasing a quantity by a given percentage",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Multiplication | multiplying whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "O1-PcFndRslt_P1-WNDiv2nd": {
+        "primary_kc_name": "PERCENTAGE | Finding result after change | increasing/decreasing a quantity by a given percentage",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "WHOLE NUMBERS | Division | dividing whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Division"
+    },
+    "O1-PcRepRvs_O1-PcCnv2Fr": {
+        "primary_kc_name": "PERCENTAGE | Representation and concept | reverse percentages",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "PERCENTAGE | Conversion to fraction | expressing percentage as a fraction",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "PERCENTAGE",
+        "secondary_kc_operation": "Conversion"
+    },
+    "O1-PcRepRvs_O1-PcCnv2Dc": {
+        "primary_kc_name": "PERCENTAGE | Representation and concept | reverse percentages",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "PERCENTAGE",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "PERCENTAGE | Conversion to decimals | expressing percentage as a decimal",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "PERCENTAGE",
+        "secondary_kc_operation": "Conversion"
+    },
+    "O1-AgRepExSq_O1-AgEvlEx": {
+        "primary_kc_name": "ALGEBRA | Representation and concept | translation of simple real-world situations into quadratic algebraic expressions",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "ALGEBRA",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "ALGEBRA | Evaluation | evaluation of algebraic expressions and formulae",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "ALGEBRA",
+        "secondary_kc_operation": "Evaluation"
+    },
+    "O1-AgRepnth_O1-AgEvlEx": {
+        "primary_kc_name": "ALGEBRA | Representation and concept | recognising and representing patterns/relationships by finding an algebraic expression for the nth term",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "ALGEBRA",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "ALGEBRA | Evaluation | evaluation of algebraic expressions and formulae",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "ALGEBRA",
+        "secondary_kc_operation": "Evaluation"
+    },
+    "O1-AgSlvFrLr_O1-AgRepEq": {
+        "primary_kc_name": "ALGEBRA | Solving | solving simple fractional equations that can be reduced to linear equations",
+        "primary_kc_grade": "Secondary O-level 1",
+        "primary_kc_number": "ALGEBRA",
+        "primary_kc_operation": "Solving",
+        "secondary_kc_name": "ALGEBRA | Representation and concept | translation of simple real-world situations to equations",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "ALGEBRA",
+        "secondary_kc_operation": "Representation and concept"
+    },
+    "O2-RoRepDP_P1-WNMul2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | direct proportion",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "WHOLE NUMBERS | Multiplication | multiplying whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "O2-RoRepDP_P1-WNDiv2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | direct proportion",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "WHOLE NUMBERS | Division | dividing whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Division"
+    },
+    "O2-RoRepIvP_P1-WNMul2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | inverse proportion",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "WHOLE NUMBERS | Multiplication | multiplying whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "O2-RoRepIvP_P1-WNDiv2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | inverse proportion",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "WHOLE NUMBERS | Division | dividing whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Division"
+    },
+    "O2-AgSlvIneq_O2-AgRepIneq": {
+        "primary_kc_name": "ALGEBRA | Solving | solving simple linear inequalities with one variable",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "ALGEBRA",
+        "primary_kc_operation": "Solving",
+        "secondary_kc_name": "ALGEBRA | Representation and concept | translation of simple real-world situations to simple linear inequalities with one variable",
+        "secondary_kc_grade": "Secondary O-level 2",
+        "secondary_kc_number": "ALGEBRA",
+        "secondary_kc_operation": "Representation and concept"
+    },
+    "O2-AgSlvSq1v_O1-AgRepEq": {
+        "primary_kc_name": "ALGEBRA | Solving | solving quadratic equations in one variable",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "ALGEBRA",
+        "primary_kc_operation": "Solving",
+        "secondary_kc_name": "ALGEBRA | Representation and concept | translation of simple real-world situations to equations",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "ALGEBRA",
+        "secondary_kc_operation": "Representation and concept"
+    },
+    "O2-AgSlvLr2v_O1-AgRepEq": {
+        "primary_kc_name": "ALGEBRA | Solving | solving linear equations in two variables",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "ALGEBRA",
+        "primary_kc_operation": "Solving",
+        "secondary_kc_name": "ALGEBRA | Representation and concept | translation of simple real-world situations to equations",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "ALGEBRA",
+        "secondary_kc_operation": "Representation and concept"
+    },
+    "O2-SPFndmdn_O2-SPFndmode": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Finding median | Finding median for a set of data",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding mode | Finding mode for a set of data",
+        "secondary_kc_grade": "Secondary O-level 2",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    },
+    "O2-SPFndmdn_O3-SPFndPctl": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Finding median | Finding median for a set of data",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding percentiles | finding percentiles for a set of data",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    },
+    "O2-SPFndmdn_O3-SPFndrng": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Finding median | Finding median for a set of data",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding range | finding range as measures of spread for a set of data ",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    },
+    "O2-SPFndmean_O3-BPRepSN": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Finding mean deviation | calculation of the mean for a set of data",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "BASE AND POWER | Representation and concept  | use of standard form Ax10^n , where n is an integer, and 1<= A<= 10",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "BASE AND POWER",
+        "secondary_kc_operation": "Representation and concept "
+    },
+    "O3-BPOpr_O3-BPRepPosI": {
+        "primary_kc_name": "BASE AND POWER | Operations | laws of indices",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "BASE AND POWER",
+        "primary_kc_operation": "Operations",
+        "secondary_kc_name": "BASE AND POWER | Representation and concept  | positive indices that is not 1",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "BASE AND POWER",
+        "secondary_kc_operation": "Representation and concept "
+    },
+    "O3-BPOpr_O3-BPRepNegI": {
+        "primary_kc_name": "BASE AND POWER | Operations | laws of indices",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "BASE AND POWER",
+        "primary_kc_operation": "Operations",
+        "secondary_kc_name": "BASE AND POWER | Representation and concept  | negative indices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "BASE AND POWER",
+        "secondary_kc_operation": "Representation and concept "
+    },
+    "O3-BPOpr_O3-BPRepFrI": {
+        "primary_kc_name": "BASE AND POWER | Operations | laws of indices",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "BASE AND POWER",
+        "primary_kc_operation": "Operations",
+        "secondary_kc_name": "BASE AND POWER | Representation and concept  | fractional indices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "BASE AND POWER",
+        "secondary_kc_operation": "Representation and concept "
+    },
+    "O3-STOprUn_O3-STOprIns": {
+        "primary_kc_name": "SET | Set operations | union of two sets",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "SET",
+        "primary_kc_operation": "Operations",
+        "secondary_kc_name": "SET | Set operations | intersection of two sets",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "SET",
+        "secondary_kc_operation": "Operations"
+    },
+    "O3-MXMulSM_O3-MXAdd": {
+        "primary_kc_name": "MATRICES | Multiplication | product of a scalar quantity and a matrix",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "MATRICES",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "MATRICES | Addition | addition of matrices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "MATRICES",
+        "secondary_kc_operation": "Addition"
+    },
+    "O3-MXMulSM_O3-MXSub": {
+        "primary_kc_name": "MATRICES | Multiplication | product of a scalar quantity and a matrix",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "MATRICES",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "MATRICES | Subtraction | subtraction of matrices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "MATRICES",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "O3-MXMulSM_O3-MXMul": {
+        "primary_kc_name": "MATRICES | Multiplication | product of a scalar quantity and a matrix",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "MATRICES",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "MATRICES | Multiplication | multiplication of matrices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "MATRICES",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "O3-MXSub_O3-MXAdd": {
+        "primary_kc_name": "MATRICES | Subtraction | subtraction of matrices",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "MATRICES",
+        "primary_kc_operation": "Subtraction",
+        "secondary_kc_name": "MATRICES | Addition | addition of matrices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "MATRICES",
+        "secondary_kc_operation": "Addition"
+    },
+    "O3-MXMul_O3-MXAdd": {
+        "primary_kc_name": "MATRICES | Multiplication | multiplication of matrices",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "MATRICES",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "MATRICES | Addition | addition of matrices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "MATRICES",
+        "secondary_kc_operation": "Addition"
+    },
+    "O3-MXMul_O3-MXSub": {
+        "primary_kc_name": "MATRICES | Multiplication | multiplication of matrices",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "MATRICES",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "MATRICES | Subtraction | subtraction of matrices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "MATRICES",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "O3-SPFndQtl_O3-SPFndIQR": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Finding quartiles | finding quartiles for a set of data",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding range | finding interquartile range as measures of spread for a set of data ",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    },
+    "O3-SPFndstd_O2-SPFndmean": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Finding standard deviation | calculation of the standard deviation for a set of data",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding mean deviation | calculation of the mean for a set of data",
+        "secondary_kc_grade": "Secondary O-level 2",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    },
+    "O3-SPAddProb_O2-SPRepPrSE": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Addition | addition of probabilities",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Addition",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Representation and concept | probability of single events",
+        "secondary_kc_grade": "Secondary O-level 2",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Representation and concept"
+    },
+    "O3-SPAddProb_O3-SPFndPrCE": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Addition | addition of probabilities",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Addition",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding probability | probability of simple combined events",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    },
+    "O3-SPMulProb_O2-SPRepPrSE": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Multiplication | multiplication of probabilities",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Representation and concept | probability of single events",
+        "secondary_kc_grade": "Secondary O-level 2",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Representation and concept"
+    },
+    "O3-SPMulProb_O3-SPFndPrCE": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Multiplication | multiplication of probabilities",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding probability | probability of simple combined events",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    }
+}

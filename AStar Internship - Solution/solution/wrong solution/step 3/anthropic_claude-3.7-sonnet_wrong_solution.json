@@ -1,0 +1,196 @@
+{
+    "1": {
+        "Misunderstanding Division by Fraction": {
+            "question": "Find the value of \\( 2 \\div \\frac{1}{4} \\)",
+            "type_of_error": "Misunderstanding Division by Fraction",
+            "wrong_solution": "To find \\( 2 \\div \\frac{1}{4} \\), I need to find one-fourth of 2. \\frac{1}{4} \\times 2 = \\frac{2}{4} = 0.5. Therefore, \\( 2 \\div \\frac{1}{4} = 0.5 \\)",
+            "error_explanation": "The student incorrectly interpreted division by a fraction as multiplying by that fraction, instead of multiplying by its reciprocal. They calculated 2 \u00d7 1/4 instead of 2 \u00d7 4.",
+            "root_cause": "A lack of understanding of the rule that dividing by a fraction is equivalent to multiplying by its reciprocal. The student confused division with multiplication.",
+            "how_to_avoid": "When dividing by a fraction, always remember to multiply by the reciprocal of the fraction. For example, if dividing by 1/4, multiply by 4. Use the key phrase 'Keep-Change-Flip' to remember the steps."
+        },
+        "Arithmetic Error": {
+            "question": "Find the value of \\( 2 \\div \\frac{1}{4} \\)",
+            "type_of_error": "Arithmetic Error",
+            "wrong_solution": "To find \\( 2 \\div \\frac{1}{4} \\), I need to multiply 2 by the reciprocal of \\( \\frac{1}{4} \\). The reciprocal of \\( \\frac{1}{4} \\) is 4. So, \\( 2 \\div \\frac{1}{4} = 2 \\times 4 = 6 \\)",
+            "error_explanation": "The student correctly identified that they need to multiply 2 by the reciprocal of 1/4, which is 4. However, they made an arithmetic error when multiplying 2 by 4, calculating it as 6 instead of 8.",
+            "root_cause": "Carelessness or lack of attention to detail when carrying out the final multiplication step of 2 \u00d7 4.",
+            "how_to_avoid": "Double-check all arithmetic calculations, especially multiplication of basic numbers. Practice multiplication tables regularly and use estimation to verify if the answer is reasonable."
+        },
+        "Incorrect Reciprocal Application": {
+            "question": "Find the value of \\( 2 \\div \\frac{1}{4} \\)",
+            "type_of_error": "Incorrect Reciprocal Application",
+            "wrong_solution": "To divide by a fraction, I need to take the reciprocal. So I'll take the reciprocal of 2, which is \\(\\frac{1}{2}\\), and then multiply by \\(\\frac{1}{4}\\). \\(\\frac{1}{2} \\times \\frac{1}{4} = \\frac{1}{8}\\). The value of \\( 2 \\div \\frac{1}{4} \\) is \\(\\frac{1}{8}\\).",
+            "error_explanation": "The student took the reciprocal of the dividend (2) instead of the divisor (1/4). When dividing by a fraction, we should take the reciprocal of the divisor, not the dividend.",
+            "root_cause": "Confusion about which number needs to be inverted in division involving fractions, specifically inverting the wrong number in the division operation.",
+            "how_to_avoid": "When dividing by a fraction, always remember to 'keep, change, flip' - keep the first number, change division to multiplication, and flip (find the reciprocal of) only the second number (the divisor)."
+        },
+        "Incorrect Application of Formula": {
+            "question": "Find the value of \\( 2 \\div \\frac{1}{4} \\)",
+            "type_of_error": "Incorrect Application of Formula",
+            "wrong_solution": "To divide by a fraction, I need to divide the numerators and divide the denominators. So \\( 2 \\div \\frac{1}{4} = \\frac{2}{1} \\div \\frac{1}{4} = \\frac{2 \\div 1}{1 \\div 4} = \\frac{2}{\\frac{1}{4}} = \\frac{2}{0.25} = 0.5 \\)",
+            "error_explanation": "The student incorrectly tried to divide numerators and denominators separately, which is not the correct rule for dividing by fractions. They should have multiplied by the reciprocal of the fraction instead.",
+            "root_cause": "Confusion between different fraction operations, specifically not knowing that to divide by a fraction, we multiply by its reciprocal.",
+            "how_to_avoid": "Remember the key rule for dividing by fractions: 'Keep, Change, Flip' (keep the first number, change division to multiplication, and flip the second fraction). Always convert division by a fraction to multiplication by its reciprocal."
+        }
+    },
+    "2": {
+        "Wrong Formula or Misunderstanding of Conversion Process": {
+            "question": "Express 0.965 as a percentage.",
+            "type_of_error": "Wrong Formula or Misunderstanding of Conversion Process",
+            "wrong_solution": "To convert a decimal to a percentage, I need to divide by 100.\n\n0.965 \u00f7 100 = 0.00965\n\nAdding the percent sign gives 0.00965\\%\n\nAnswer: 0.00965\\%",
+            "error_explanation": "The student incorrectly divided by 100 instead of multiplying by 100 when converting from decimal to percentage.",
+            "root_cause": "The student confused the conversion rule between decimals and percentages, applying the opposite operation (division instead of multiplication).",
+            "how_to_avoid": "Remember the correct conversion rule: to convert a decimal to a percentage, always multiply by 100, not divide. A helpful way to remember this is that percentages are larger numbers than their decimal equivalents."
+        },
+        "Arithmetic Error": {
+            "question": "8. Express 0.965 as a percentage.",
+            "type_of_error": "Arithmetic Error",
+            "wrong_solution": "To convert a decimal to a percentage, I need to multiply by 100.\n\n0.965 \\times 100 = 9.65\n\nAdding the percent sign gives 9.65\\%.\n\nTherefore, 0.965 as a percentage is 9.65\\%.",
+            "error_explanation": "The student correctly identified that to convert a decimal to a percentage, multiplication by 100 is needed. However, they made a calculation error when multiplying 0.965 by 100, obtaining 9.65 instead of 96.5.",
+            "root_cause": "Careless calculation or insufficient practice with multiplying decimals by 100. The student likely moved the decimal point only one place to the right instead of two.",
+            "how_to_avoid": "Remember that multiplying by 100 means moving the decimal point two places to the right. Practice this conversion regularly and double-check your calculations by asking yourself if the answer makes sense."
+        },
+        "Incorrect Placement of Decimal Point": {
+            "question": "8. Express 0.965 as a percentage.",
+            "type_of_error": "Incorrect Placement of Decimal Point",
+            "wrong_solution": "To convert a decimal to a percentage, I need to move the decimal point one place to the right.\n\n0.965 \u2192 9.65\\%\n\nAnswer: 9.65\\%",
+            "error_explanation": "The student incorrectly moved the decimal point only one place to the right instead of two places when converting from decimal to percentage.",
+            "root_cause": "Confusion about what multiplying by 100 does to the decimal point position when converting to percentage.",
+            "how_to_avoid": "Remember that to convert a decimal to a percentage, you need to multiply by 100, which means moving the decimal point two places to the right. A helpful way to check is to verify that 1.0 would become 100%."
+        },
+        "Forgetting the Percent Sign": {
+            "question": "Express 0.965 as a percentage.",
+            "type_of_error": "Forgetting the Percent Sign",
+            "wrong_solution": "To convert a decimal to a percentage, I need to multiply by 100.\n\n0.965 \\times 100 = 96.5\n\nTherefore, 0.965 expressed as a percentage is 96.5.",
+            "error_explanation": "The student calculates the numerical value but omits the '%' symbol, writing 96.5 instead of 96.5%.",
+            "root_cause": "The student overlooks formatting requirements or submits the answer before checking for required symbols.",
+            "how_to_avoid": "Always re-read your answer to make sure you have included units or symbols required, especially the '%' for percentage questions."
+        }
+    },
+    "3": {
+        "Arithmetic Error": {
+            "question": "Ken bought a sofa for \\$600 at sale and was left with \\$300. What percentage of his money did he spend?",
+            "type_of_error": "Arithmetic Error",
+            "wrong_solution": "Total money before purchase = Amount spent + Amount left\n= \\$600 + \\$300\n= \\$900\n\nPercentage spent = \\frac{\\text{Amount spent}}{\\text{Total money}} \\times 100\\%\n= \\frac{600}{900} \\times 100\\%\n= \\frac{6}{9} \\times 100\\%\n= \\frac{2}{3} \\times 100\\%\n= 60\\%",
+            "error_explanation": "The student incorrectly simplified the fraction 6/9 to 2/3, but then calculated 2/3 as 60% instead of 66.67%.",
+            "root_cause": "The student made a calculation error when converting the fraction 2/3 to a percentage, failing to multiply 0.6666... by 100 correctly.",
+            "how_to_avoid": "Practice converting fractions to decimals and percentages. Remember that to convert a fraction to a percentage, divide the numerator by the denominator and then multiply by 100. Double-check calculations by estimating - 2/3 is slightly more than 0.6, so should be slightly more than 60%."
+        },
+        "Misunderstanding Question": {
+            "question": "Ken bought a sofa for \\$600 at sale and was left with \\$300. What percentage of his money did he spend?",
+            "type_of_error": "Misunderstanding Question",
+            "wrong_solution": "Ken bought a sofa for \\$600 and was left with \\$300.\n\nPercentage of money spent = \\frac{300}{600} \\times 100\\% = 50\\%\n\nAnswer: 50\\%",
+            "error_explanation": "The student misunderstood the question by calculating the percentage of money left (\\$300) compared to the money spent (\\$600), rather than finding what percentage of total money was spent.",
+            "root_cause": "The student failed to recognize that \\$300 was the amount left and \\$600 was the amount spent, and that the total money needed to be calculated first (\\$600 + \\$300 = \\$900).",
+            "how_to_avoid": "Carefully identify what values represent in the question (amount spent vs. amount left). Calculate the total initial amount before finding percentages, and double-check that you're calculating the percentage that was asked for in the question."
+        },
+        "Wrong Formula Applied": {
+            "question": "Ken bought a sofa for \\$600 at sale and was left with \\$300. What percentage of his money did he spend?",
+            "type_of_error": "Wrong Formula Applied",
+            "wrong_solution": "Total money Ken had = \\$600 + \\$300 = \\$900\n\nPercentage of money spent = \\frac{\\text{Amount left}}{\\text{Total money}} \\times 100\\%\n= \\frac{300}{900} \\times 100\\%\n= \\frac{1}{3} \\times 100\\%\n= 33.33\\%",
+            "error_explanation": "The student calculated the percentage of money left instead of the percentage of money spent. They used (amount left \u00f7 total money) \u00d7 100% rather than (amount spent \u00f7 total money) \u00d7 100%.",
+            "root_cause": "The student confused which value to put in the numerator when calculating percentage spent, using the remaining amount instead of the amount spent.",
+            "how_to_avoid": "Always clarify what the question is asking for. When calculating percentages, ensure you're using the correct value in the numerator based on what the question asks (percentage spent requires amount spent in the numerator)."
+        },
+        "Incorrect Rounding": {
+            "question": "Ken bought a sofa for \\$600 at sale and was left with \\$300. What percentage of his money did he spend?",
+            "type_of_error": "Incorrect Rounding",
+            "wrong_solution": "Ken spent \\$600 on the sofa and had \\$300 left.\n\nTotal money before purchase = \\$600 + \\$300 = \\$900\n\nPercentage spent = \\frac{600}{900} \\times 100\\% = \\frac{2}{3} \\times 100\\% = 66.67\\%\n\nRounding to the nearest percent: 66.67\\% rounds to 67\\%\n\nAnswer: 67\\%",
+            "error_explanation": "The student calculated the correct percentage (66.67%) but rounded to the nearest percent (67%) when the question required rounding to the nearest tenth (70%) to match the available options.",
+            "root_cause": "Misunderstanding the rounding requirements for the final answer and not checking if the calculated answer matches any of the provided options.",
+            "how_to_avoid": "Always check if your answer needs to be expressed in a particular form. When given multiple choice options, verify that your answer matches one of the available choices. If not, consider if rounding to a different place value is needed."
+        }
+    },
+    "4": {
+        "Misunderstanding Percentage Decrease": {
+            "question": "18. Last year, Larry's mass was 30 kg. This year, his mass decreases by 10\\%. What is his mass this year?",
+            "type_of_error": "Misunderstanding Percentage Decrease",
+            "wrong_solution": "Larry's mass last year was 30 kg.\nHis mass decreases by 10\\%.\nThis means his mass decreases by 10 kg.\nSo, his mass this year = 30 kg - 10 kg = 20 kg.",
+            "error_explanation": "The student incorrectly interpreted the 10% decrease as a 10 kg decrease. The percentage decrease should be calculated as a fraction of the original amount, not treated as an absolute number.",
+            "root_cause": "Confusion between percentage as a relative measure and absolute value. The student treated 10% as if it meant 10 kg directly.",
+            "how_to_avoid": "Always convert percentages to decimals or fractions of the original amount first. For a 10% decrease, calculate 10% of the original value (10% of 30 kg = 0.1 \u00d7 30 kg = 3 kg), then subtract this amount from the original value."
+        },
+        "Arithmetic Error": {
+            "question": "Last year, Larry's mass was 30 kg. This year, his mass decreases by 10\\%. What is his mass this year?",
+            "type_of_error": "Arithmetic Error",
+            "wrong_solution": "To find Larry's current mass after a 10\\% decrease:\n1. Calculate 10\\% of 30 kg: 10\\% = 0.1, so 0.1 \\times 30 = 0.3 kg\n2. Subtract the decrease from the original mass: 30 kg - 0.3 kg = 29.7 kg\nTherefore, Larry's mass this year is 29.7 kg.",
+            "error_explanation": "The student incorrectly calculated 10\\% of 30 kg as 0.3 kg instead of 3 kg. They multiplied 0.1 \u00d7 30 = 0.3 when the correct calculation should be 0.1 \u00d7 30 = 3.",
+            "root_cause": "Misplacing the decimal point when multiplying with percentages, possibly due to confusion between 0.1 and 0.01.",
+            "how_to_avoid": "When working with percentages, double-check decimal placements. Remember that 10\\% = 0.1, and when multiplying 0.1 \u00d7 30, the decimal point moves one place to the left from 30.0, giving 3.0, not 0.3."
+        },
+        "Misreading the Question": {
+            "question": "18. Last year, Larry's mass was 30 kg. This year, his mass decreases by 10%. What is his mass this year?",
+            "type_of_error": "Misreading the Question",
+            "wrong_solution": "Larry's mass decreases by 10\\%.\nTo find his mass this year, I need to calculate the decrease and add it to his original mass.\n10\\% of 30 kg = 0.10 \\times 30 = 3 kg\nNow I add this to his original mass:\n30 kg + 3 kg = 33 kg\nTherefore, Larry's mass this year is 33 kg.",
+            "error_explanation": "The student misunderstood the word 'decreases' and interpreted it as an increase, adding 10% to the original mass instead of subtracting it.",
+            "root_cause": "Not paying attention to the keyword 'decreases' in the problem statement and reversing the operation needed.",
+            "how_to_avoid": "Highlight or underline key terms like 'increases' or 'decreases' in the problem. Create a mental check: decrease means subtract, increase means add. Read the entire problem carefully before solving."
+        },
+        "Wrong Formula Applied": {
+            "question": "Last year, Larry's mass was 30 kg. This year, his mass decreases by 10\\%. What is his mass this year?",
+            "type_of_error": "Wrong Formula Applied",
+            "wrong_solution": "To find Larry's mass this year after a 10\\% decrease, I need to divide his original mass by 10\\%.\n\nOriginal mass = 30 kg\nDecrease = 10\\%\n\nMass this year = 30 \u00f7 0.10 = 300 kg\n\nLarry's mass this year is 300 kg.",
+            "error_explanation": "The student incorrectly divided the original mass by the percentage (10%) instead of subtracting the percentage from the original mass. The correct approach would be to subtract 10% of 30 kg from 30 kg.",
+            "root_cause": "Fundamental misunderstanding of percentage decrease calculations, confusing division with percentage reduction.",
+            "how_to_avoid": "Remember the correct formula for percentage decrease: New Value = Original Value - (Original Value \u00d7 Percentage/100). Always check if your answer is reasonable - a decrease should result in a smaller number, not larger."
+        },
+        "Missing Key Information": {
+            "question": "18. Last year, Larry's mass was 30 kg. This year, his mass decreases by 10\\%. What is his mass this year?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": "Larry's mass last year was 30 kg. Therefore, his mass this year is 30 kg.",
+            "error_explanation": "The student completely ignored the information about the 10% decrease in mass and simply wrote the original mass as the answer.",
+            "root_cause": "Failure to identify and use all relevant information given in the question, specifically the percentage decrease mentioned in the problem.",
+            "how_to_avoid": "Read the question carefully and underline key information. Create a checklist of all given information before solving to ensure nothing is overlooked."
+        }
+    },
+    "5": {
+        "Arithmetic Error": {
+            "question": "Mary was given $210. She spent \\( \\frac{1}{7} \\) of it on clothes and \\( \\frac{1}{2} \\) on food. How much money did she have left?",
+            "type_of_error": "Arithmetic Error",
+            "wrong_solution": "Mary had $210.\n\\[\n\\text{Money spent on clothes} = \\frac{1}{7} \\times 210 = 30 \\text{ dollars}\n\\]\n\\[\n\\text{Money spent on food} = \\frac{1}{2} \\times 210 = 105 \\text{ dollars}\n\\]\n\\[\n\\text{Total spent} = 30 + 105 = 145 \\text{ dollars}\n\\]\n\\[\n\\text{Money left} = 210 - 145 = 65 \\text{ dollars}\n\\]",
+            "error_explanation": "The student correctly calculated the amount spent on clothes ($30) and food ($105), but made an arithmetic error when adding these amounts together. They calculated 30 + 105 = 145, when it should be 30 + 105 = 135. This led to an incorrect amount of money left.",
+            "root_cause": "The student made a careless calculation error when adding the two expenses together, possibly due to rushing or not double-checking their arithmetic.",
+            "how_to_avoid": "Always double-check addition calculations, especially with two-digit or three-digit numbers. Write out the addition clearly, showing tens and units, or use a calculator to verify important calculations."
+        },
+        "Misunderstanding Fraction Application": {
+            "question": "19. Mary was given \\$210. She spent \\( \\frac{1}{7} \\) of it on clothes and \\( \\frac{1}{2} \\) on food. How much money did she have left?",
+            "type_of_error": "Misunderstanding Fraction Application",
+            "wrong_solution": "Mary had \\$210. She spent \\( \\frac{1}{7} \\) on clothes:\n\\[\n\\frac{1}{7} \\times 210 = 30 \\text{ dollars.}\n\\]\nAfter spending on clothes, Mary had $210 - $30 = $180 left.\n\nShe then spent \\( \\frac{1}{2} \\) on food:\n\\[\n\\frac{1}{2} \\times 180 = 90 \\text{ dollars.}\n\\]\n\nMoney left after both expenses:\n\\[\n180 - 90 = 90 \\text{ dollars.}\n\\]\n\nTherefore, Mary had \\$90 left.",
+            "error_explanation": "The student misunderstood that the second fraction (1/2) applies to the remaining amount after the first expense, rather than the original amount.",
+            "root_cause": "The student misinterpreted what 'of it' refers to in the problem, assuming each fraction applies to the remaining amount after the previous expense rather than the original $210.",
+            "how_to_avoid": "Always clarify what the reference point is for each fraction in the problem. Unless specified otherwise, fractions typically refer to the original amount stated in the problem. Underline key phrases like 'of it' and determine whether they refer to the original amount or the remaining amount."
+        },
+        "Misreading the Question": {
+            "question": "19. Mary was given $210. She spent \\( \\frac{1}{7} \\) of it on clothes and \\( \\frac{1}{2} \\) on food. How much money did she have left?",
+            "type_of_error": "Misreading the Question",
+            "wrong_solution": "Mary had $210. She spent \\( \\frac{1}{7} \\) on clothes: \\[ \\frac{1}{7} \\times 210 = 30 \\text{ dollars.} \\] She was left with $210 - $30 = $180. Then she spent \\( \\frac{1}{2} \\) of the remaining money on food: \\[ \\frac{1}{2} \\times 180 = 90 \\text{ dollars.} \\] Money left: \\[ 180 - 90 = 90 \\text{ dollars.} \\]",
+            "error_explanation": "The student misunderstood how the fractions were applied. They incorrectly applied the fractions sequentially (first calculating what's left after buying clothes, then taking half of that remainder for food) instead of applying both fractions to the original amount.",
+            "root_cause": "The student did not understand that both fractions (1/7 and 1/2) refer to portions of the original $210, not portions of the remaining amount after each purchase.",
+            "how_to_avoid": "When dealing with multiple fractions in word problems, pay careful attention to whether they refer to the original whole amount or to remaining amounts. Draw a diagram if needed to visualize what portions of the original amount are being used."
+        },
+        "Wrong Operation": {
+            "question": "19. Mary was given $210. She spent \\( \\frac{1}{7} \\) of it on clothes and \\( \\frac{1}{2} \\) on food. How much money did she have left?",
+            "type_of_error": "Wrong Operation",
+            "wrong_solution": "Mary had $210. \\\\She spent \\frac{1}{7} + \\frac{1}{2} = \\frac{1 + 3.5}{7} = \\frac{4.5}{7} of her money. \\\\Amount spent = \\frac{4.5}{7} \\times 210 = 135 \\\\Money left = 210 - 135 = $75",
+            "error_explanation": "The student incorrectly added the fractions (1/7 and 1/2) directly before multiplying with the total amount. Adding these fractions doesn't represent the total portion spent, as each fraction should be applied to the original amount separately.",
+            "root_cause": "The student misunderstood how to combine fractions in this context, treating the problem as if Mary spent a combined fraction of her money rather than different fractions on separate items.",
+            "how_to_avoid": "Calculate the actual amount spent on each item separately by multiplying each fraction by the total amount. Then add these actual money values together to find the total spent, rather than combining the fractions first."
+        },
+        "Missing Final Subtraction Step": {
+            "question": "Mary was given $210. She spent \\( \\frac{1}{7} \\) of it on clothes and \\( \\frac{1}{2} \\) on food. How much money did she have left?",
+            "type_of_error": "Missing Final Subtraction Step",
+            "wrong_solution": "Mary had $210. She spent \\( \\frac{1}{7} \\) on clothes:  \n\\[\n\\frac{1}{7} \\times 210 = 30 \\text{ dollars.}\n\\]  \nShe spent \\( \\frac{1}{2} \\) on food:  \n\\[\n\\frac{1}{2} \\times 210 = 105 \\text{ dollars.}\n\\]  \nTotal spent:  \n\\[\n30 + 105 = 135 \\text{ dollars.}\n\\]  \nTherefore, Mary had $135 left.",
+            "error_explanation": "The student calculates the total spent but incorrectly states this as the amount left, forgetting to subtract it from the initial amount.",
+            "root_cause": "The student overlooks the last step, possibly because they stop after calculating the total spent and mistakenly think this is the final answer.",
+            "how_to_avoid": "Review the question after completing the calculations to ensure you have answered what is actually being asked. For questions about 'how much is left', remember to subtract the total spent from the initial amount."
+        },
+        "Missing Key Information": {
+            "question": "Mary was given $210. She spent \\( \\frac{1}{7} \\) of it on clothes and \\( \\frac{1}{2} \\) on food. How much money did she have left?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": "Mary had $210. She spent \\( \\frac{1}{2} \\) on food: \n\\[\n\\frac{1}{2} \\times 210 = 105 \\text{ dollars.}\n\\] \nMoney left: \n\\[\n210 - 105 = 105 \\text{ dollars.}\n\\] \nTherefore, Mary had $105 left.",
+            "error_explanation": "The student forgot to account for the money spent on clothes (\\( \\frac{1}{7} \\) of $210), and only considered the money spent on food.",
+            "root_cause": "The student didn't read the problem fully or skipped over the information about the clothes purchase, focusing only on the food expenditure.",
+            "how_to_avoid": "Make sure to read the entire problem carefully and list out all the given information. Create a clear step-by-step plan addressing each piece of information before solving the problem."
+        }
+    }
+}

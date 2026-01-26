@@ -1,0 +1,8 @@
+{
+    "openai/gpt-4.1": {},
+    "meta-llama/llama-4-scout": {},
+    "deepseek/deepseek-r1": {},
+    "microsoft/phi-4": {},
+    "qwen/qwen3-14b": {},
+    "anthropic/claude-3.7-sonnet": {}
+}

@@ -1,0 +1,8 @@
+The question is: {question}
+The correct solution is: {solution}
+The given wrong solution you should base on to change is: {wrong_answer}
+The type of error the WRONG solution should base on: type_of_error = {type_of_error}
+Your first wrong step must be after step number {prev_injection_step} and before step number {injection_step}
+If error injection can not be done, state "I can not inject error of type (type of error) after step (number) : (content)".
+DO NOT CHANGE ANY STEPS BEFORE STEP NUMBER {prev_injection_step} (step {prev_injection_step} included)
+Explanations for the type of error: {error_explanation}

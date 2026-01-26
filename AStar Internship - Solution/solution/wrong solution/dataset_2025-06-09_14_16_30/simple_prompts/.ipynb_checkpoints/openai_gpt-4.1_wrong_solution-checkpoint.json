@@ -1,0 +1,71 @@
+{
+    "P3N10k": {
+        "GE_Known_value": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "wrong_solution": "\nStep 1: Number of storybooks = 7,283  \nNumber of reference books = 2,156\n\nStep 2: Add the number of storybooks and reference books.\n\\[\n7,283 + 2,156 = 9,439\n\\]\n\nSo, the total number of books in the library is \\( 9,439 \\).\n",
+            "error_explanation": "The student copied the number of storybooks incorrectly from the question, writing 7,283 instead of 7,823. This leads to an incorrect calculation."
+        },
+        "GE_Known_meaning": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "wrong_solution": "\nStep 1: The number of books is the total number of storybooks only, since the reference books are a different type.\n\nNumber of books = 7,823\n\nSo, the total number of books in the library is \\( 7,823 \\).\n",
+            "error_explanation": "The student misunderstood the context and only included the storybooks, not realising that both storybooks and reference books should be counted together to find the total number of books."
+        },
+        "GE_Known_intmd": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "wrong_solution": "Step 1: Number of storybooks = 7,823  \nNumber of reference books = 2,156\n\nStep 2: Add the number of storybooks and reference books:\n\n\\[\n7,823 + 1,256 = 9,079\n\\]\n\nStep 3: So, the total number of books in the library is \\( 9,079 \\).\n",
+            "error_explanation": "The student wrongly copied the number of reference books as 1,256 instead of 2,156 when performing the addition, resulting in an incorrect total."
+        },
+        "GE_Wanted_wrong": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "wrong_solution": "Step 1: Identify the number of storybooks and reference books.\nNumber of storybooks = 7,823\nNumber of reference books = 2,156\n\nStep 2: Find the difference between the number of storybooks and reference books.\n\n\\[\n7,823 - 2,156 = 5,667\n\\]\n\nStep 3: So, the total number of books in the library is \\( 5,667 \\).\n",
+            "error_explanation": "The student subtracted the two numbers to find the difference between storybooks and reference books, instead of adding them to find the total number of books as required by the question."
+        },
+        "GE_Wanted_stepmiss": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "wrong_solution": "Number of storybooks = 7,823\nNumber of reference books = 2,156\n\nThe total number of books in the library is 7,823 + 2,156.",
+            "error_explanation": "The solution is incomplete because it does not actually perform the addition and present the total number of books. It just repeats the operation without giving the required numerical answer."
+        },
+        "GE_OprRls": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "wrong_solution": "\nStep 1: Identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823  \nNumber of reference books = 2,156\n\nStep 2: Subtract the number of reference books from the number of storybooks to find the total number of books.\n\n\\[\n7,823 - 2,156 = 5,667\n\\]\n\nStep 3: So, the total number of books in the library is \\( 5,667 \\).\n",
+            "error_explanation": "The mistake here is using subtraction instead of addition. The student understood the quantities correctly but used the wrong mathematical operation to find the total number of books."
+        },
+        "GE_Calc": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "wrong_solution": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823  \nNumber of reference books = 2,156\n\nAdd the number of storybooks and reference books to find the total number of books.\n\n\\[\n7,823 + 2,156 = 10,079\n\\]\n\nSo, the total number of books in the library is \\( 10,079 \\).\n",
+            "error_explanation": "The student has correctly identified what needs to be added and set up the calculation, but made a mistake when adding the two numbers together."
+        }
+    },
+    "P4Deci3d": {
+        "GE_Known_meaning": {
+            "question": "Muthu bought a pencil for $2.450 and an eraser for $0.650. How much did he spend altogether?",
+            "wrong_solution": "\nFirst, write down the cost of the pencil and the eraser:\n\\[\n\text{Cost of pencil} = 2.450\n\\]\n\\[\n\text{Cost of eraser (mistakenly writes as 0.065 instead of 0.650)} = 0.065\n\\]\n\nAdd the two amounts together:\n\\[\n2.450 + 0.065 = 2.515\n\\]\n\nSo, Muthu spent $2.515 altogether.\n",
+            "error_explanation": "The error here is misunderstanding the place value of the cost of the eraser. The student misreads $0.650 as $0.065. Although addition is used correctly, the wrong operand was chosen, leading to an incorrect total."
+        },
+        "GE_Known_intmd": {
+            "question": "Muthu bought a pencil for $2.450 and an eraser for $0.650. How much did he spend altogether?",
+            "wrong_solution": "\nStep 1: First, write down the cost of the pencil and the eraser:\n\\[\n\text{Cost of pencil} = 2.450\n\\]\n\\[\n\text{Cost of eraser} = 0.650\n\\]\n\nStep 2: Add the two amounts together. Line up the decimal points:\n\\[\n2.450 + 0.650\n\\]\n\nStep 3: Add the digits in each place value:\n\\[\n\begin{align*}\n&\\phantom{+}2.450 \\\n+\\, &0.650 \\\n\\hline\n&3.500 \\\n\\end{align*}\n\\]\n\nSo, Muthu spent \\( 3.500 \\) altogether.\n",
+            "error_explanation": "The error occurred in Step 3 where 2.450 + 0.650 was incorrectly added as 3.500 instead of the correct sum 3.100. This is likely because the value obtained from the previous step was miscopied or miscalculated."
+        },
+        "GE_Wanted_wrong": {
+            "question": "Muthu bought a pencil for $2.450 and an eraser for $0.650. How much did he spend altogether?",
+            "wrong_solution": "To find out how much more the pencil costs than the eraser, subtract the cost of the eraser from the cost of the pencil:\n\\[\n2.450 - 0.650 = 1.800\n\\]\nSo, Muthu spent $1.800 altogether.",
+            "error_explanation": "This solution finds the difference between the cost of the pencil and the eraser instead of adding them to find the total amount spent, which is what the question asked."
+        },
+        "GE_Wanted_stepmiss": {
+            "question": "Muthu bought a pencil for $2.450 and an eraser for $0.650. How much did he spend altogether?",
+            "wrong_solution": "\nFirst, write down the cost of the pencil and the eraser:\n\\[\n\text{Cost of pencil} = 2.450\n\\]\n\\[\n\text{Cost of eraser} = 0.650\n\\]\n\nAdd the two amounts together:\n\\[\n2.450 + 0.650 = 3.10\n\\]\n\nSo, Muthu spent 3.10 altogether.\n",
+            "error_explanation": "The solution skipped the explanation and calculation of the place values for the addition, and did not present the answer in the required money format (e.g., $3.10 or $3.100). It is also missing the explanation of decimal notation and units, which are important intermediate steps."
+        },
+        "GE_OprRls": {
+            "question": "Muthu bought a pencil for $2.450 and an eraser for $0.650. How much did he spend altogether?",
+            "wrong_solution": "\nStep 1: Write down the cost of the pencil and the eraser:\n\\[\n\text{Cost of pencil} = 2.450\n\\]\n\\[\n\text{Cost of eraser} = 0.650\n\\]\n\nStep 2: Since Muthu bought both items, we subtract the cost of the eraser from the cost of the pencil:\n\\[\n2.450 - 0.650 = 1.800\n\\]\n\nStep 3: So, Muthu spent $1.800 altogether.\n",
+            "error_explanation": "The error is using subtraction instead of addition when combining the costs, even though both items are bought together. This demonstrates misunderstanding of the required operation."
+        },
+        "GE_Calc": {
+            "question": "Muthu bought a pencil for $2.450 and an eraser for $0.650. How much did he spend altogether?",
+            "wrong_solution": "\nStep 1: Write down the cost of the pencil and eraser: \n\\[\n\text{Cost of pencil} = 2.450\n\\]\n\\[\n\text{Cost of eraser} = 0.650\n\\]\n\nStep 2: Add the two amounts together:\n\\[\n2.450 + 0.650 = 2.500\n\\]\n\nSo, Muthu spent \\(2.500\\) altogether.\n",
+            "error_explanation": "The student correctly identified the values to add and the operation to perform, but made a calculation error when adding the numbers. 2.450 + 0.650 was incorrectly calculated as 2.500 instead of the correct answer, 3.100."
+        }
+    }
+}

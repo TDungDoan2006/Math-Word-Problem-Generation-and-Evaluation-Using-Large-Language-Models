@@ -1,0 +1,359 @@
+{
+    "P4FracMI": {
+        "Missing Step": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "She baked 2 whole cakes and three quarters of another cake. Let us write this as a mixed number: \n\\[2 \\frac{3}{4}\\]",
+                "Step 2": "Add the numerator to the product of the whole number and denominator: \\[8 + 3 = 11\\]",
+                "Step 3": "So, as an improper fraction, the answer is \\[\\frac{11}{4}\\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Step"
+            },
+            "error_explanation": "The error here is the omission of the multiplication step where the whole number should be multiplied by the denominator (i.e., 2 \u00d7 4 = 8). Instead, the solution jumps directly to adding the numerator, without showing how the 8 was obtained. This missing intermediate calculation is important for clarity and to show proper working."
+        },
+        "Calculation Error": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, we write the total amount as a mixed number:\n\\[\n2 \\frac{3}{4}\n\\]",
+                "Step 2": "Multiply the whole number by the denominator:\n\\[\n2 \\times 4 = 6\n\\]",
+                "Step 3": "Add the numerator:\n\\[\n6 + 3 = 9\n\\]",
+                "Step 4": "Write the result over the original denominator:\n\\[\n\\frac{9}{4}\n\\]\nSo, Mrs Lee baked \\(\\frac{9}{4}\\) cakes in total as an improper fraction."
+            },
+            "wrong_steps": {
+                "Step 2": "Calculation Error"
+            },
+            "error_explanation": "In Step 2, the multiplication of 2 by 4 is calculated incorrectly as 6 instead of 8. This calculation error leads to an incorrect improper fraction for the total amount of cake."
+        },
+        "Missing Key Information": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "She baked 2 whole cakes and three quarters of another cake. \\\\ However, I will only consider the 2 whole cakes.",
+                "Step 2": "As an improper fraction, 2 whole cakes can be written as: \\\\ \\[ \\frac{2 \\times 4}{4} = \\frac{8}{4} \\]",
+                "Step 3": "So, Mrs Lee baked \\( \\frac{8}{4} \\) cakes in total as an improper fraction."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": "The solution ignores the three quarters of another cake, which is a key part of the total amount baked. By omitting this information, the final answer underrepresents the total cakes baked, making it incomplete and incorrect."
+        },
+        "Misunderstanding Mixed Numbers": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Misunderstanding Mixed Numbers",
+            "wrong_solution": {
+                "Step 1": "Mrs Lee baked 2 cakes and \\( \\frac{3}{4} \\) of a cake. To find the total as an improper fraction, we just add the whole number and the fraction:",
+                "Step 2": "2 + \\frac{3}{4} = \\frac{2}{4} + \\frac{3}{4}",
+                "Step 3": "\\frac{2}{4} + \\frac{3}{4} = \\frac{5}{4}",
+                "Step 4": "So Mrs Lee baked \\( \\frac{5}{4} \\) cakes in total as an improper fraction."
+            },
+            "wrong_steps": {
+                "Step 2": "Misunderstanding Mixed Numbers"
+            },
+            "error_explanation": "The error occurs because the student tries to convert the whole number 2 directly into a fraction using the same denominator (i.e., 2 becomes 2/4), instead of 8/4. This demonstrates a misunderstanding of how to express mixed numbers as improper fractions, resulting in a final answer that is too small."
+        },
+        "Invalid Assumption": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Assume Mrs Lee gave away half a cake before the party.",
+                "Step 2": "She originally baked 2 whole cakes and \\( \\frac{3}{4} \\) of another cake, so the total amount before giving any away is \\( 2\\frac{3}{4} \\).",
+                "Step 3": "Subtract the half-cake she gave away: \\( 2\\frac{3}{4} - \\frac{1}{2} \\).",
+                "Step 4": "Convert \\( 2\\frac{3}{4} \\) to improper fraction: \\( 2 \\times 4 + 3 = 11 \\), so \\( \\frac{11}{4} \\).",
+                "Step 5": "Subtract \\( \\frac{1}{2} \\) from \\( \\frac{11}{4} \\) by finding a common denominator: \\( \\frac{1}{2} = \\frac{2}{4} \\).",
+                "Step 6": "Calculate \\( \\frac{11}{4} - \\frac{2}{4} = \\frac{9}{4} \\).",
+                "Step 7": "Mrs Lee baked \\( \\frac{9}{4} \\) cakes for the party."
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": "The solution incorrectly assumes that Mrs Lee gave away half a cake before the party, even though there is no information in the question suggesting this. This invalid assumption leads to subtracting \\( \\frac{1}{2} \\) from the total, resulting in an incorrect final answer."
+        },
+        "Missing or Mismanaging Denominator": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Missing or Mismanaging Denominator",
+            "wrong_solution": {
+                "Step 1": "She baked 2 whole cakes and \\(\\frac{3}{4}\\) of another cake.",
+                "Step 2": "Express the total as a mixed number: \\(2 \\frac{3}{4}\\).",
+                "Step 3": "Convert the whole number to a fraction: \\(2 \\times 4 = 8\\).",
+                "Step 4": "Add the numerator: \\(8 + 3 = 11\\).",
+                "Step 5": "Write the answer with denominator 3: \\(\\frac{11}{3}\\)."
+            },
+            "wrong_steps": {
+                "Step 5": "Missing or Mismanaging Denominator"
+            },
+            "error_explanation": "In Step 5, the denominator is mismanaged by writing 3 instead of the correct denominator of 4. The denominator must remain consistent with the fraction part throughout the conversion from a mixed number to an improper fraction."
+        }
+    },
+    "P1Money": {
+        "Missing Key Information": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Shawn has one 50-cent coin.",
+                "Step 2": "The value of the 50-cent coin is:\\\n\\[ 50\\ \\text{cents} \\]",
+                "Step 3": "So, Shawn has 50 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": "The solution only considers the 50-cent coin and completely misses the key information about the two 20-cent coins given in the question, leading to an incomplete and incorrect final answer."
+        },
+        "Missing Step": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "First, let's find the total value of the two 20-cent coins and the 50-cent coin: \n\\[ 20\\ \\text{cents} + 20\\ \\text{cents} + 50\\ \\text{cents} = 90\\ \\text{cents} \\]\nSo, Shawn has 90 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": "The solution skips the intermediate step of first adding the two 20-cent coins to find their total before adding the 50-cent coin. The calculation is still correct, but the key step of combining the two 20-cent coins as a separate process is not shown, thus missing a reasoning step."
+        },
+        "Contradictory Step": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "Shawn has one 50-cent coin and two 20-cent coins.",
+                "Step 2": "First, let's find the total value of the two 20-cent coins:\n\\[\n20\\ \\text{cents} + 20\\ \\text{cents} = 40\\ \\text{cents}\n\\]",
+                "Step 3": "Now, add this amount to the value of the 50-cent coin:\n\\[\n50\\ \\text{cents} + 40\\ \\text{cents} = 100\\ \\text{cents}\n\\]",
+                "Step 4": "So, Shawn has 100 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": "In Step 3, although 50 cents + 40 cents should be 90 cents, the solution incorrectly refers to the sum as 100 cents. This contradicts the direct addition performed in the step, making a statement that doesn't follow from the previous calculation."
+        },
+        "Miscounting or Omitting Coins": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Miscounting or Omitting Coins",
+            "wrong_solution": {
+                "Step 1": "Shawn has one 50-cent coin and one 20-cent coin.",
+                "Step 2": "Find the total value of one 50-cent coin and one 20-cent coin: \n\\[ 50\\ \\text{cents} + 20\\ \\text{cents} = 70\\ \\text{cents} \\]",
+                "Step 3": "So, Shawn has 70 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Miscounting or Omitting Coins"
+            },
+            "error_explanation": "In Step 1, only one 20-cent coin was used instead of two, which means one 20-cent coin was omitted from the calculation. This results in an incorrect total amount."
+        },
+        "Value Context Error": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Shawn has one 50-cent coin and two 20-cent coins.",
+                "Step 2": "First, let's find the total value of the two 20-cent coins: \n\\[ 20 \\times 2 = 22 \\text{ cents} \\]",
+                "Step 3": "Now, add this amount to the value of the 50-cent coin: \n\\[ 50\\ \\text{cents} + 22\\ \\text{cents} = 72\\ \\text{cents} \\]",
+                "Step 4": "So, Shawn has 72 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": "In Step 2, instead of correctly adding the value of two 20-cent coins (20 + 20 = 40 cents), the multiplication is misapplied as 20 x 2 = 22 cents, misunderstanding the value context. The step fails to translate the verbal description ('two 20-cent coins') into the appropriate mathematical operation, leading to the wrong total."
+        },
+        "Wrong Operation / Formula": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, let's multiply the value of one 20-cent coin by two to find the total value of the two coins:\n\\[\n20\\ \\text{cents} \\times 2 = 40\\ \\text{cents}\n\\]",
+                "Step 2": "Now, instead of adding, let's subtract the value of the two 20-cent coins from the 50-cent coin:\n\\[\n50\\ \\text{cents} - 40\\ \\text{cents} = 10\\ \\text{cents}\n\\]",
+                "Step 3": "So, Shawn has 10 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": "The mistake is that subtraction was used instead of addition in Step 2. The question asks for the total amount of money, so the values should be added together, not subtracted. This use of the wrong operation leads to an incorrect final answer."
+        }
+    },
+    "P4DeciAS": {
+        "Missing Key Information": {
+            "question": "Farhan bought a sandwich for \\$3.85 and a drink for \\$1.60. He paid with a \\$10 note. How much change did he receive?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Cost of sandwich = 3.85",
+                "Step 2": "Total cost = 3.85",
+                "Step 3": "Amount paid = 10.00",
+                "Step 4": "Change received = 10.00 - 3.85 = 6.15",
+                "Step 5": "Farhan received \\$6.15 in change."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": "The solution missed adding the cost of the drink. Only the sandwich cost was considered for the total, causing the amount used for the change calculation to be too low, resulting in an incorrect answer."
+        },
+        "Wrong Operation / Formula": {
+            "question": "Farhan bought a sandwich for \\$3.85 and a drink for \\$1.60. He paid with a \\$10 note. How much change did he receive?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "Let us find the total cost by multiplying the cost of the sandwich and the drink: \n\\[\n\\text{Total cost} = 3.85 \\times 1.60 = 6.16\n\\]",
+                "Step 2": "Farhan paid with a ten-dollar note. To find out his change, subtract the total cost from the amount paid: \n\\[\n\\text{Change received} = 10.00 - 6.16 = 3.84\n\\]",
+                "Step 3": "So, Farhan received \\$3.84 in change."
+            },
+            "wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            },
+            "error_explanation": "The solution incorrectly multiplies the cost of the sandwich and the drink instead of adding them, using the wrong operation when calculating the total cost. This leads to an incorrect amount for the total cost and an incorrect final answer for the change received."
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "Farhan bought a sandwich for \\$3.85 and a drink for \\$1.60. He paid with a \\$10 note. How much change did he receive?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "Farhan bought two items for a total of $3.85 and $1.60.",
+                "Step 2": "He paid with a $10 note.",
+                "Step 3": "Since he paid with a $10 note, the cashier cannot give him change unless he has exact coins. Therefore, he does not receive any change."
+            },
+            "wrong_steps": {
+                "Step 3": "Lack Common Sense Knowledge"
+            },
+            "error_explanation": "The error here is a lack of common sense knowledge about basic transactions. The student assumes that change cannot be given unless the cashier has exact coins, and concludes that Farhan receives no change. This is not accurate, as shops typically have change to return to customers. The correct method is simply to subtract the total cost from the amount paid."
+        },
+        "Calculation Error": {
+            "question": "Farhan bought a sandwich for \\$3.85 and a drink for \\$1.60. He paid with a \\$10 note. How much change did he receive?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "Cost of sandwich = 3.85",
+                "Step 2": "Cost of drink = 1.60",
+                "Step 3": "Total cost = 3.85 + 1.60 = 5.35",
+                "Step 4": "Amount paid = 10.00",
+                "Step 5": "Change received = 10.00 - 5.35 = 4.65"
+            },
+            "wrong_steps": {
+                "Step 3": "Calculation Error"
+            },
+            "error_explanation": "The addition of 3.85 and 1.60 is incorrectly calculated as 5.35 instead of 5.45. This calculation error leads to an incorrect amount for the change as well."
+        },
+        "Invalid Assumption": {
+            "question": "Farhan bought a sandwich for \\$3.85 and a drink for \\$1.60. He paid with a \\$10 note. How much change did he receive?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Let us first find the total cost of the sandwich and the drink.\\n\\[\\text{Cost of sandwich} = 3.85\\]\\n\\[\\text{Cost of drink} = 1.60\\]\\n\\[\\text{Total cost} = 3.85 + 1.60 = 5.45\\]",
+                "Step 2": "Since Farhan bought the sandwich and drink during a special promotion, he received a 10\\% discount on the total cost.\\n\\[\\text{Discounted cost} = 5.45 \\times 0.9 = 4.905\\]",
+                "Step 3": "Farhan paid with a ten-dollar note. To find the change he received, we subtract the discounted total cost from the amount he paid.\\n\\[\\text{Amount paid} = 10.00\\]\\n\\[\\text{Change received} = 10.00 - 4.905 = 5.095\\]",
+                "Step 4": "So, Farhan received \\$5.10 in change (rounded to the nearest cent)."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": "In Step 2, an invalid assumption was made that a special 10\\% discount was applied, even though the question does not mention any discount. This assumption led to an incorrect calculation for the change received."
+        },
+        "Missing Step": {
+            "question": "Farhan bought a sandwich for \\$3.85 and a drink for \\$1.60. He paid with a \\$10 note. How much change did he receive?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "The total cost is \\$5.45.",
+                "Step 2": "Farhan paid with \\$10.00.",
+                "Step 3": "Change received = 10.00 - 5.45 = \\$4.55."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": "The solution skips the explicit step of individually adding the sandwich and drink prices before stating the total cost, making it unclear how the total cost of \\$5.45 was obtained. This missing step leads to a lack of transparency in the calculation process, which is important in a written-exam setting."
+        }
+    },
+    "O1EqIneq": {
+        "Value Context Error": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Let the usual cost of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "During the sale, the price is reduced to half, so the sale price is \\( x \\div 2 \\) dollars.",
+                "Step 3": "It is given that the sale price is 320 dollars.",
+                "Step 4": "So, we write the equation: \\[ x \\div 2 = 320 \\]",
+                "Step 5": "To find the value of \\( x \\), multiply both sides by 2: \\[ x = 320 \\times 2 \\]",
+                "Step 6": "\\[ x = 640 \\]",
+                "Step 7": "Therefore, the usual price of the mobile phone is \\( 640 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": "The error made here is misunderstanding the context of the value 'reduced by 50 dollars.' Instead of subtracting 50 from the price to represent the discount, the solution incorrectly treats the reduction as dividing the price by 2 (halving it), which is not what the question describes."
+        },
+        "Wrong Equation Formed (Incorrect Translation or Grouping)": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Wrong Equation Formed (Incorrect Translation or Grouping)",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "During the sale, its price becomes \\( x - 50 \\) dollars.",
+                "Step 3": "It is given that after the discount, the new price is 320 dollars. So, I write the equation: \\[ x + 50 = 320 \\]",
+                "Step 4": "To find \\( x \\), subtract 50 from both sides: \\[ x + 50 - 50 = 320 - 50 \\]",
+                "Step 5": "\\[ x = 270 \\]",
+                "Step 6": "Therefore, the usual price of the mobile phone is \\( 270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 3": "Wrong Equation Formed (Incorrect Translation or Grouping)"
+            },
+            "error_explanation": "Instead of writing the correct equation \\( x - 50 = 320 \\), the student wrote \\( x + 50 = 320 \\). This reverses the relationship between the original price and the discount, leading to an incorrect answer. This error demonstrates an incorrect translation of the word problem into an equation."
+        },
+        "Contradictory Step": {
+            "question": "A mobile phone usually costs \\(x\\). During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "Let the usual cost of the mobile phone be \\(x\\) dollars.",
+                "Step 2": "The sale price is \\(x - 50\\) dollars.",
+                "Step 3": "Given that the sale price is 320 dollars, so \\(x - 50 = 320\\).",
+                "Step 4": "To find the value of \\(x\\), we subtract 50 from both sides: \\\\ x - 50 - 50 = 320 - 50 \\\\ x - 100 = 270",
+                "Step 5": "Hence, \\(x = 270 + 100 = 370\\)."
+            },
+            "wrong_steps": {
+                "Step 4": "Contradictory Step"
+            },
+            "error_explanation": "In Step 4, instead of correctly adding 50 to both sides to isolate x, 50 is incorrectly subtracted from both sides, resulting in a contradiction to the earlier established equation structure. The result in this step does not logically follow from the previous steps and leads to an invalid intermediate value."
+        },
+        "Incorrect Algebraic Manipulation": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Incorrect Algebraic Manipulation",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The sale price is \\( x - 50 \\) dollars.",
+                "Step 3": "The sale price is given as 320 dollars, so \\( x - 50 = 320 \\).",
+                "Step 4": "To find \\( x \\), subtract 50 from both sides: \\\\ x - 50 - 50 = 320 - 50 \\\\ x - 100 = 270",
+                "Step 5": "Therefore, the usual price of the mobile phone is \\( x = 270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 4": "Incorrect Algebraic Manipulation"
+            },
+            "error_explanation": "Instead of correctly adding 50 to both sides to isolate x, the student incorrectly subtracted 50 from both sides, leading to an incorrect value for x."
+        },
+        "Calculation Error": {
+            "question": "A mobile phone usually costs \\( x \\). During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "The usual cost of the mobile phone is \\( x \\) dollars.",
+                "Step 2": "During the sale, the price is reduced by 50 dollars.",
+                "Step 3": "So, the sale price is \\( x - 50 \\) dollars.",
+                "Step 4": "It is given that the sale price is 320 dollars.",
+                "Step 5": "So, we can write the equation:",
+                "Step 6": "\\[ x - 50 = 320 \\]",
+                "Step 7": "Now, to find the value of \\( x \\), we add 50 to both sides of the equation:",
+                "Step 8": "\\[ x = 320 + 50 \\]",
+                "Step 9": "\\[ x = 360 \\]",
+                "Step 10": "Therefore, the usual price of the mobile phone is \\( 360 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 9": "Calculation Error"
+            },
+            "error_explanation": "A calculation error occurred in Step 9: 320 + 50 was incorrectly calculated as 360 instead of 370."
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "Let the usual cost of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "During the sale, the price is reduced by 50 dollars, so the sale price is \\( x - 50 \\) dollars.",
+                "Step 3": "It is given that the sale price is 230 dollars.",
+                "Step 4": "So, we can write the equation:",
+                "Step 5": "\\[ x - 50 = 230 \\]",
+                "Step 6": "Now, to find the value of \\( x \\), add 50 to both sides:",
+                "Step 7": "\\[ x - 50 + 50 = 230 + 50 \\]",
+                "Step 8": "\\[ x = 280 \\]",
+                "Step 9": "Therefore, the usual price of the mobile phone is \\( 280 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 3": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": "The student copied the sale price from the question incorrectly as 230 dollars instead of 320 dollars, leading to a wrong equation and answer."
+        }
+    }
+}

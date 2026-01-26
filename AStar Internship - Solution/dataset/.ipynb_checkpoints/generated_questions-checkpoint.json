@@ -1,0 +1,140 @@
+{
+    "O1NR": {
+        "ID": "O1NR",
+        "Grade": "O1",
+        "KC": "NUMBER AND ALGEBRA",
+        "Question": "A bus travels a distance of 120 km from Woodlands to Jurong in 2 hours. What is the average speed of the bus in km/h?"
+    },
+    "O2NA": {
+        "ID": "O2NA",
+        "Grade": "O2",
+        "KC": "NUMBER AND ALGEBRA",
+        "Question": "A delivery company charges a basic fee of $8 and an additional $3 for every parcel delivered. Write an algebraic expression for the total cost, in dollars, if n parcels are delivered."
+    },
+    "O2NE": {
+        "ID": "O2NE",
+        "Grade": "O2",
+        "KC": "NUMBER AND ALGEBRA",
+        "Question": "Ben bought a shirt and a pair of trousers. The shirt costs $12 more than the trousers. The total cost is $78. Form an equation and find the cost of the shirt."
+    },
+    "O2NR": {
+        "ID": "O2NR",
+        "Grade": "O2",
+        "KC": "Number and Algebra",
+        "Question": "The ratio of the number of boys to the number of girls in a class is 3 : 5. If there are 24 girls in the class, how many boys are there?"
+    },
+    "O2SP": {
+        "ID": "O2SP",
+        "Grade": "O2",
+        "KC": "STATISTICS AND PROBABILITY",
+        "Question": "A bag contains 5 blue balls, 3 red balls, and 2 green balls. If one ball is picked at random from the bag, what is the probability that the ball is blue?"
+    },
+    "P2FF": {
+        "ID": "P2FF",
+        "Grade": "Primary 2",
+        "KC": "Fractions",
+        "Question": "Mrs Lee bought a cake and cut it into 8 equal pieces. She gave 3 pieces to her children. What fraction of the whole cake did Mrs Lee give to her children?"
+    },
+    "P3FE": {
+        "ID": "P3FE",
+        "Grade": "Primary 3",
+        "KC": "Fractions",
+        "Question": "Wei Ting coloured 2 out of 6 equal parts of a paper strip. What is another fraction that is equivalent to the part that Wei Ting coloured?"
+    },
+    "P3MM": {
+        "ID": "P3MM",
+        "Grade": "Primary 3",
+        "KC": "Money",
+        "Question": "Lina had $10. She bought a sandwich for $3.60 and a bottle of juice for $2.40. How much money did Lina have left?"
+    },
+    "P3WA": {
+        "ID": "P3WA",
+        "Grade": "Primary 3",
+        "KC": "Whole Numbers",
+        "Question": "Aisha has 256 stickers. She buys another 137 stickers from the bookshop. Later, she gives 89 stickers to her friend. How many stickers does Aisha have now?"
+    },
+    "P3WM": {
+        "ID": "P3WM",
+        "Grade": "Primary 3",
+        "KC": "Whole Numbers",
+        "Question": "A box contains 7 packets of biscuits. Each packet has 6 biscuits. How many biscuits are there in total?"
+    },
+    "P4DA": {
+        "ID": "P4DA",
+        "Grade": "Primary 4",
+        "KC": "Decimals",
+        "Question": "A packet of biscuits costs $2.45. A packet of juice costs $1.80. How much do both items cost altogether?"
+    },
+    "P4DD": {
+        "ID": "P4DD",
+        "Grade": "Primary 4",
+        "KC": "Decimals",
+        "Question": "Jia Wei bought 2.475 kilograms of flour and used 0.8 kilograms to bake a cake. How much flour does he have left?"
+    },
+    "P4DM": {
+        "ID": "P4DM",
+        "Grade": "Primary 4",
+        "KC": "Decimals",
+        "Question": "A bottle of apple juice contains 1.5 litres. If James pours the juice equally into 3 cups, how many litres of juice will there be in each cup?"
+    },
+    "P4FA": {
+        "ID": "P4FA",
+        "Grade": "Primary 4",
+        "KC": "Fractions",
+        "Question": "Mrs Tan used 3/8 of a packet of flour to bake cookies and 1/8 of the packet to bake a cake. What fraction of the packet of flour did she use altogether?"
+    },
+    "P4FF": {
+        "ID": "P4FF",
+        "Grade": "Primary 4",
+        "KC": "Fractions",
+        "Question": "There are 24 apples in a box. If 2/3 of the apples are red, how many red apples are there in the box?"
+    },
+    "P4FM": {
+        "ID": "P4FM",
+        "Grade": "Primary 4",
+        "KC": "Fractions",
+        "Question": "Sarah baked 7 tarts. She gave her friends 2 and one-half tarts. Express the number of tarts Sarah gave to her friends as an improper fraction."
+    },
+    "P4WF": {
+        "ID": "P4WF",
+        "Grade": "Primary 4",
+        "KC": "Whole Numbers",
+        "Question": "Amy has 36 beads. She wants to pack them equally into boxes so that each box has the same number of beads and no beads are left over. What is the greatest number of beads she can put in each box?"
+    },
+    "P4WN": {
+        "ID": "P4WN",
+        "Grade": "Primary 4",
+        "KC": "Whole Numbers",
+        "Question": "A bookshop sold 38,250 storybooks in the first half of the year and 46,780 storybooks in the second half of the year. How many storybooks did the bookshop sell in total for the whole year?"
+    },
+    "P5FF": {
+        "ID": "P5FF",
+        "Grade": "Primary 5",
+        "KC": "Fractions",
+        "Question": "Mrs Tan bought 8 pizzas for a party. She cut each pizza into 5 equal slices. How many slices of pizza did she get in total?"
+    },
+    "P5PP": {
+        "ID": "P5PP",
+        "Grade": "Primary 5",
+        "KC": "Percentage",
+        "Question": "Amir has 200 stamps. He gave 35 percent of his stamps to his friend. How many stamps did Amir give to his friend?"
+    },
+    "P5RR": {
+        "ID": "P5RR",
+        "Grade": "Primary 5",
+        "KC": "Rate",
+        "Question": "A tap can fill up 12 litres of water in 3 minutes. What is the rate at which water flows from the tap in litres per minute?"
+    },
+    "P6AA": {
+        "ID": "P6AA",
+        "Grade": "Primary 6",
+        "KC": "Algebra",
+        "Question": "Amy bought some pens. Each pen costs $x. If she paid $24 for all the pens, write an equation to represent the number of pens she bought."
+    },
+    "P6RR": {
+        "ID": "P6RR",
+        "Grade": "Primary 6",
+        "KC": "Ratio",
+        "Question": "There are red and blue marbles in a box. The ratio of the number of red marbles to the number of blue marbles is 3 : 5. If there are 45 blue marbles, how many red marbles are there?"
+    }
+}

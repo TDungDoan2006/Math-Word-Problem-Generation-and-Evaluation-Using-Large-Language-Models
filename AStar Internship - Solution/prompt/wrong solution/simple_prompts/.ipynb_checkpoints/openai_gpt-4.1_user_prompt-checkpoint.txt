@@ -1,0 +1,4 @@
+The question is: {question}
+The correct solution is: {solution}
+The type of error the worked example should base on: {type_of_error}
+The grade of students the worked example should target is: {grade}

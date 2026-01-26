@@ -1,0 +1,851 @@
+{
+    "P5FracDv": {
+        "Whole Number Misconception": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Whole Number Misconception",
+            "wrong_solution": {
+                "Step 1": "Since Siti has 3 pizzas and 5 friends, I will give 1 pizza to each friend.",
+                "Step 2": "But since there are only 3 pizzas, only 3 friends can get 1 pizza each, and there will be no pizza left for the other 2 friends.",
+                "Step 3": "So each friend gets 1 pizza."
+            },
+            "wrong_steps": [
+                1,
+                2,
+                3
+            ],
+            "error_explanation": "This solution assumes that each friend can only get a whole pizza or nothing, and does not use fractions to represent fair sharing when the total cannot be divided evenly. It ignores that the pizzas should be divided into smaller equal parts so all friends get an equal share.",
+            "root_cause": "Not understanding that the answer can be a fraction, and thinking only whole pizzas can be given out, leading to ignoring the idea of dividing pizza into parts.",
+            "how_to_avoid": "Remember that when sharing something equally and there are not enough wholes, we can divide the object into equal fractions. Use division and fractions to show the fair share each person should get."
+        },
+        "Contradictory Step": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "There are 3 pizzas to be shared among 5 friends.",
+                "Step 2": "Each friend should get \\( \\frac{3}{5} \\) pizzas.",
+                "Step 3": "But since there are more pizzas than friends, each friend will get more than 1 pizza, so each friend gets \\( \\frac{5}{3} \\) pizzas."
+            },
+            "wrong_steps": [
+                3
+            ],
+            "error_explanation": "After initially using the correct formula to get \\( \\frac{3}{5} \\), the student contradicts the result by claiming that having 'more pizzas than friends' means each friend should get more than one pizza, and changes the answer to \\( \\frac{5}{3} \\), which is a result of reversing the division.",
+            "root_cause": "The student makes a contradictory reference between steps, disregarding the correct result and introducing an erroneous logic based on a misunderstanding of division and fractions.",
+            "how_to_avoid": "After calculating the answer, trust the correct mathematical process. Avoid introducing new reasoning that contradicts the earlier correct result. Always double-check whether your answer makes sense by comparing it with the context of the question."
+        },
+        "Missing Key Information": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "There are 3 pizzas. If Siti wants to share them among her friends, each friend will get 3 pizzas.",
+                "Step 2": "Each friend gets 3 pizzas."
+            },
+            "wrong_steps": [
+                1,
+                2
+            ],
+            "error_explanation": "The solution ignores the fact that the 3 pizzas are to be shared between 5 friends. It assumes that each friend receives all 3 pizzas, missing the key information about dividing the pizzas among the friends.",
+            "root_cause": "Missed the information that the pizzas need to be divided among all 5 friends.",
+            "how_to_avoid": "Always check all the numbers in the question and ensure you divide the total item equally among the required people or groups."
+        },
+        "Missing Step": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Each friend will get \\( \\frac{3}{5} \\) of a pizza."
+            },
+            "wrong_steps": [
+                1
+            ],
+            "error_explanation": "The solution directly gives the final answer \\( \\frac{3}{5} \\) without showing the working or the intermediate division step of \\( 3 \\div 5 \\). This skipped step is important for demonstrating understanding of how the answer is reached.",
+            "root_cause": "The student did not write out the division step needed to show how the pizzas are divided among the friends, and simply wrote down the answer without justification.",
+            "how_to_avoid": "Always write out the division calculation used to arrive at the answer, even if it seems simple. This helps to clearly show your thinking process and allows for easier identification of mistakes."
+        },
+        "Calculation Error": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "Total number of pizzas = 3",
+                "Step 2": "Number of friends = 5",
+                "Step 3": "To find the amount each friend gets, divide the total number of pizzas by the number of friends.",
+                "Step 4": "3 \\div 5 = 2 \\text{ remainder } 1",
+                "Step 5": "Each friend gets 2 pizzas."
+            },
+            "wrong_steps": [
+                4,
+                5
+            ],
+            "error_explanation": "The mistake occurs during the calculation: dividing 3 by 5 cannot result in 2 remainder 1, and each friend cannot receive 2 pizzas when there are only 3 pizzas to be shared among 5 friends. The answer should be the fraction \\(\\frac{3}{5}\\).",
+            "root_cause": "Misunderstanding the division and incorrectly performing the calculation, or confusing division with multiplication or whole number division.",
+            "how_to_avoid": "When dividing a smaller number by a larger one, remember the answer will be less than one and should be written as a fraction. Carefully perform the division and check if the answer makes sense in the context of the problem."
+        }
+    },
+    "P4DeciMD": {
+        "Contradictory Step": {
+            "question": "A packet of biscuits weighs 0.45~\\text{kg}. What is the total weight of 6 such packets?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "Write down the weight of one packet. \n\\[ \\text{Weight of one packet} = 0.45~\\text{kg} \\]",
+                "Step 2": "Multiply the weight of one packet by number of packets. \n\\[ 0.45 \\times 6 = 2.70 \\]",
+                "Step 3": "So the total weight is \n\\[ 0.45~\\text{kg} \\] "
+            },
+            "wrong_steps": [
+                3
+            ],
+            "error_explanation": "In Step 2, the multiplication is done correctly, but in Step 3, the answer refers back to the weight of one packet instead of the calculated total weight. The student makes an erroneous reference to the previous step's result.",
+            "root_cause": "The student does the calculation correctly but contradicts it with the final answer, substituting the correct final total with the value from the initial step.",
+            "how_to_avoid": "Always ensure the final answer references back to the most recent and relevant calculation, especially after multiplication or any operation. Double-check which value answers the question asked."
+        },
+        "Calculation Error": {
+            "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "Write down the weight of one packet. \n\\[ \\text{Weight of one packet} = 0.45 \\text{ kg} \\]",
+                "Step 2": "Multiply the weight of one packet by the number of packets. \n\\[ \\text{Total weight} = 0.45 \\times 6 \\]",
+                "Step 3": "Do the multiplication. \n\\[ 0.45 \\times 6 = 2.40 \\]",
+                "Step 4": "Write the answer with the correct unit. \n\\[ \\boxed{2.40 \\text{ kg}} \\]"
+            },
+            "wrong_steps": [
+                3,
+                4
+            ],
+            "error_explanation": "The calculation in Step 3 is incorrect. Multiplying 0.45 by 6 should give 2.70, but the answer given was 2.40. This caused the final answer to be wrong.",
+            "root_cause": "The student made a multiplication error while calculating 0.45 times 6.",
+            "how_to_avoid": "Carefully multiply decimals and double-check your calculations, especially when working with decimal numbers. Using written working or a calculator can help prevent this type of mistake."
+        },
+        "Incorrect Division Order": {
+            "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Incorrect Division Order",
+            "wrong_solution": {
+                "Step 1": "Write down the weight of one packet.\n\\[\n\\text{Weight of one packet} = 0.45 \\text{ kg}\n\\]",
+                "Step 2": "Divide the weight by the number of packets.\n\\[\n\\text{Total weight} = 0.45 \\div 6\n\\]",
+                "Step 3": "Do the division.\n\\[\n0.45 \\div 6 = 0.075\n\\]",
+                "Step 4": "Write the answer with the correct unit.\n\\[\n\\boxed{0.075 \\text{ kg}}\n\\]"
+            },
+            "wrong_steps": [
+                2,
+                3,
+                4
+            ],
+            "error_explanation": "The solution uses division instead of multiplication when determining the total weight of 6 packets. Dividing the weight of one packet by the number of packets gives the weight of one-sixth of a packet, not the total weight. The correct operation is multiplication.",
+            "root_cause": "The student misunderstood the question and used division rather than multiplication to find the total weight.",
+            "how_to_avoid": "Read the problem carefully to determine whether you need to add, subtract, multiply or divide. Remember, to find the total for several identical items, you multiply the weight of one by the number of items."
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "Write down the weight of one packet. \n\\[ \n\\text{Weight of one packet} = 0.45 \\text{ kg} \n\\]",
+                "Step 2": "Since we do not know how heavy 6 packets will be, we cannot find the total weight. \n\\[ \n\\text{Total weight} = \\text{unknown} \n\\]",
+                "Step 3": "Final answer: \n\\[ \n\\boxed{\\text{We do not have enough information to solve this question.}} \n\\]"
+            },
+            "wrong_steps": [
+                2,
+                3
+            ],
+            "error_explanation": "The student does not realise that to find the total weight, they simply need to multiply the weight of one packet by the number of packets. The student thinks that more information is needed, failing to use the basic operation required.",
+            "root_cause": "The student lacks common sense knowledge about how to find the total for equal groups, not realising that multiplication is the correct operation.",
+            "how_to_avoid": "Remember that when you have the weight of one item and need the total weight of several identical items, you multiply the weight by the number of items."
+        },
+        "Decimal Misconception": {
+            "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Decimal Misconception",
+            "wrong_solution": {
+                "Step 1": "The weight of one packet is \\(0.45\\) kg.",
+                "Step 2": "To find the total weight of 6 packets, multiply: \\[ 0.45 \\times 6 \\]",
+                "Step 3": "Ignore the decimal point and calculate: \\(45 \\times 6 = 270\\).",
+                "Step 4": "Attach the decimal after the calculation: \\(270\\) kg."
+            },
+            "wrong_steps": [
+                3,
+                4
+            ],
+            "error_explanation": "The student wrongly ignored the placement of the decimal point when multiplying. Instead of calculating \\(0.45 \\times 6 = 2.70\\), the student multiplied as if 0.45 was 45, giving 270, and then mistakenly labeled it as kilograms.",
+            "root_cause": "Misunderstanding how decimals work in multiplication, leading the student to treat 0.45 as 45.",
+            "how_to_avoid": "Carefully align decimal points during multiplication. Understand that multiplying decimals follows the same rules as whole numbers, but the decimal place must be set correctly in the answer."
+        }
+    },
+    "P44Op": {
+        "Missing Key Information": {
+            "question": "A box contains 248 bookmarks. Sarah bought 3 such boxes and then gave away 95 bookmarks to her friends. How many bookmarks does Sarah have left?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Sarah gave away 95 bookmarks to her friends.",
+                "Step 2": "The number of bookmarks Sarah has left is: \\[248 - 95 = 153\\]"
+            },
+            "wrong_steps": [
+                1,
+                2
+            ],
+            "error_explanation": "The solution misses the key information that Sarah bought 3 boxes of bookmarks. It only subtracts 95 from the number of bookmarks in one box, not from the total number of bookmarks she actually had after buying three boxes.",
+            "root_cause": "The student did not consider the information that Sarah bought three boxes, and instead worked with the number in just one box.",
+            "how_to_avoid": "Carefully read the question to identify all the information, especially quantities involving multiplication or multiple sets. Write out all given information before solving."
+        },
+        "Value Context Error": {
+            "question": "A box contains 248 bookmarks. Sarah bought 3 such boxes and then gave away 95 bookmarks to her friends. How many bookmarks does Sarah have left?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Since Sarah bought 3 boxes and gave away 95 bookmarks, we subtract the number of bookmarks she gave away from the number of bookmarks in one box.",
+                "Step 2": "248 - 95 = 153",
+                "Step 3": "Sarah has \\( 153 \\) bookmarks left."
+            },
+            "wrong_steps": [
+                1,
+                2,
+                3
+            ],
+            "error_explanation": "The mistake here is treating the bookmarks given away as being taken from only one box instead of the total bookmarks Sarah bought. The student only subtracted 95 from the bookmarks in one box, not from the total amount across all three boxes.",
+            "root_cause": "Misunderstanding of what the total represents; the student failed to correctly translate the verbal description and did not calculate the actual total before subtracting.",
+            "how_to_avoid": "Always make sure to first calculate the total quantity involved before subtracting any amount given away. Carefully read and process each step so that each value is used in the correct context."
+        },
+        "Wrong Operation / Formula": {
+            "question": "A box contains 248 bookmarks. Sarah bought 3 such boxes and then gave away 95 bookmarks to her friends. How many bookmarks does Sarah have left?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "Number of bookmarks in one box: 248",
+                "Step 2": "Number of boxes Sarah bought: 3",
+                "Step 3": "Total bookmarks Sarah bought: \\[ 248 + 3 = 251 \\]",
+                "Step 4": "Bookmarks Sarah gave away: 95",
+                "Step 5": "Bookmarks Sarah has left: \\[ 251 - 95 = 156 \\]"
+            },
+            "wrong_steps": [
+                3,
+                5
+            ],
+            "error_explanation": "In Step 3, the wrong operation was used: instead of multiplying 248 by 3 to find the total bookmarks, the student added them, resulting in 251 instead of 744. This wrong total was then used in Step 5, leading to an incorrect final answer.",
+            "root_cause": "The student misunderstood the operation needed to find the total bookmarks bought and used addition instead of multiplication.",
+            "how_to_avoid": "Carefully read the problem to determine whether to add or multiply. When asked for the total from several groups of equal size, use multiplication, not addition."
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "A box contains 248 bookmarks. Sarah bought 3 such boxes and then gave away 95 bookmarks to her friends. How many bookmarks does Sarah have left?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "Since Sarah bought 3 boxes and then gave away 95 bookmarks, we only need to find out how many bookmarks she gave away.",
+                "Step 2": "So, the answer is \\( 95 \\) bookmarks."
+            },
+            "wrong_steps": [
+                1,
+                2
+            ],
+            "error_explanation": "This solution misunderstands the requirements of the question. Instead of finding out how many bookmarks Sarah has left after buying and giving away, the solution only finds out how many bookmarks she gave away, which is not what the question asked.",
+            "root_cause": "The student did not carefully read the question and answered with a value (number of bookmarks given away) that was not required.",
+            "how_to_avoid": "Always reread the question and highlight or underline what is actually being asked. Double-check your final answer to ensure it matches the requirement."
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "A box contains 248 bookmarks. Sarah bought 3 such boxes and then gave away 95 bookmarks to her friends. How many bookmarks does Sarah have left?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "Sarah gave away 95 bookmarks, so she has 95 bookmarks left."
+            },
+            "wrong_steps": [
+                1
+            ],
+            "error_explanation": "The solution ignores the number of bookmarks in each box and assumes that Sarah only had 95 bookmarks to begin with, instead of calculating the total number of bookmarks she bought.",
+            "root_cause": "Student lacks the common sense to realise that Sarah needs to first find out how many bookmarks she has in total before giving any away, and directly uses the number 95 from the question.",
+            "how_to_avoid": "Always read the problem carefully and understand the context. Calculate the total quantity before performing subtraction or any action based on the story."
+        }
+    },
+    "P5Deci4Op": {
+        "Missing Key Information": {
+            "question": "Mei Ling bought 2.5\\ \\text{kg} of flour and used 1.75\\ \\text{kg} to bake cookies. How much flour does she have left?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Write down the total amount of flour she bought: \\[ 2.5\\ \\text{kg} \\]",
+                "Step 2": "State the answer: Mei Ling has \\( 2.5 \\) kg of flour left."
+            },
+            "wrong_steps": [
+                2
+            ],
+            "error_explanation": "The student missed the key information that 1.75\\ kg of flour was USED, and therefore did not subtract it from the original amount. The answer simply states the amount she bought, not what is left after using some.",
+            "root_cause": "Did not consider the action described in the question (using flour), ignoring a crucial number.",
+            "how_to_avoid": "Always reread the question to make sure you are using all relevant numbers and information. Check that your answer matches the question's requirement."
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies.",
+                "Step 2": "Since she used the flour, there must be no flour left.",
+                "Step 3": "So, Mei Ling has \\(0\\) kilograms of flour left."
+            },
+            "wrong_steps": [
+                2,
+                3
+            ],
+            "error_explanation": "The student incorrectly assumes that using some flour means all the flour is used up, without performing the correct subtraction. The solution ignores the actual amount left after subtracting the used flour from the original amount.",
+            "root_cause": "Lack of common sense knowledge about subtraction in real-life situations involving quantities.",
+            "how_to_avoid": "Understand that when only part of the total amount is used, the remainder should be found by subtracting the used amount from the original total. Always check if the answer makes sense with respect to the quantities given."
+        },
+        "Missing Step": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Mei Ling has \\(0.75\\) kg of flour left."
+            },
+            "wrong_steps": [
+                1
+            ],
+            "error_explanation": "The solution jumps straight to the final answer without showing the step-by-step subtraction or the conversion required for clear understanding. It omits working, such as aligning decimals or subtracting the values, which is important for transparency and verifying accuracy.",
+            "root_cause": "The student skipped the intermediate step of performing the subtraction, assuming the answer is obvious, or copying it from memory.",
+            "how_to_avoid": "Always write out each step of your calculation, especially for decimal subtraction or multi-step questions, to show your understanding and allow easy checking for mistakes."
+        },
+        "Invalid Assumption": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Since Mei Ling might have spilled some flour while baking, let's assume she lost an extra 0.5 kg in addition to the 1.75 kg used.",
+                "Step 2": "Total flour used = 1.75\\ \\text{kg} + 0.5\\ \\text{kg} = 2.25\\ \\text{kg}",
+                "Step 3": "Flour left = 2.5\\ \\text{kg} - 2.25\\ \\text{kg} = 0.25\\ \\text{kg}",
+                "Step 4": "Answer: Mei Ling has 0.25 kilograms of flour left."
+            },
+            "wrong_steps": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "error_explanation": "The solution makes an invalid assumption that 0.5 kg of flour was lost, even though the question only mentions 1.75 kg was used. This results in a smaller amount of flour left than what is actually correct.",
+            "root_cause": "The student added extra information (flour being spilled) not mentioned in the question statement.",
+            "how_to_avoid": "Use only the information stated in the question. Do not add extra details or assumptions that are not provided."
+        },
+        "Value Context Error": {
+            "question": "Mei Ling bought 2.5 \\ \\text{kg} of flour and used 1.75 \\ \\text{kg} to bake cookies. How much flour does she have left?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Mei Ling bought 2.5 \\ \\text{kg} of flour and used 1.75 \\ \\text{kg} to bake cookies.",
+                "Step 2": "To find out how much flour she has left, I add the two amounts together because she now has both the flour she bought and the flour she used:",
+                "Step 3": "\\[ 2.5 + 1.75 = 4.25 \\]",
+                "Step 4": "So, Mei Ling has 4.25 \\ \\text{kg} of flour left."
+            },
+            "wrong_steps": [
+                2,
+                3,
+                4
+            ],
+            "error_explanation": "Instead of subtracting the amount of flour used from the total amount bought, the solution adds the two values. This misunderstands what the numbers represent in context: the question asks for the flour left, which needs subtraction, not addition.",
+            "root_cause": "Misunderstood that 'used' flour should be added instead of subtracted, failing to correctly relate the question's context to the correct operation.",
+            "how_to_avoid": "Carefully check what the question is asking. If something is 'used up' or 'taken away,' you should subtract, not add. Visualize the problem or use diagrams to help understand the relationship between the numbers."
+        }
+    },
+    "P3N10k": {
+        "Incorrect Copying of Numbers": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "Let us add the number of storybooks and reference books together.\n\nBut I copied the numbers wrongly:\n\nNumber of storybooks = 7,283 \\\\\nNumber of reference books = 2,165",
+                "Step 2": "Add the two numbers:\n\n\\[\n7,283 + 2,165 = 9,448\n\\]\n",
+                "Step 3": "So, the total number of books in the library is \\( 9,448 \\)."
+            },
+            "wrong_steps": [
+                1,
+                2,
+                3
+            ],
+            "error_explanation": "The student incorrectly copied the numbers from the question. Instead of adding 7,823 and 2,156, the student added 7,283 and 2,165, leading to an incorrect total.",
+            "root_cause": "The student did not carefully copy the numbers from the question, resulting in using incorrect values in the calculation.",
+            "how_to_avoid": "Always double-check the numbers copied from the question before doing calculations. Make sure the digits match exactly with those given in the question."
+        },
+        "Misalignment of Digits": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Misalignment of Digits",
+            "wrong_solution": {
+                "Step 1": "Let's add the two numbers, but accidentally misalign the digits:\n\n\\[\n\begin{array}{cccc}\n  & 7 & 8 & 2 & 3 \\\n+ &   & 2 & 1 & 5 & 6 \\\n\\hline\n  & 7 & 10 & 3 & 8 \\\n\\end{array}\n\\]\n\nSo, the total number of books in the library is 7,1038.\n"
+            },
+            "wrong_steps": [
+                1
+            ],
+            "error_explanation": "The numbers were not aligned correctly by place value when adding, causing the digits to be added incorrectly and resulting in an incorrect total.",
+            "root_cause": "Misalignment of the digits when performing column addition causes incorrect summing of place values.",
+            "how_to_avoid": "Always align the numbers carefully by their ones, tens, hundreds, and thousands place before adding. Use grid or lined paper to help keep the digits in the correct columns."
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "Number of storybooks = 7,823.",
+                "Step 2": "Number of reference books = 2,156.",
+                "Step 3": "The total number of books in the library is equal to the number of storybooks, which is \\(7,823\\)."
+            },
+            "wrong_steps": [
+                3
+            ],
+            "error_explanation": "The solution misinterprets the question by only considering the number of storybooks as the total number of books, instead of adding both storybooks and reference books together.",
+            "root_cause": "The student misunderstood the question requirement and thought only storybooks needed to be considered.",
+            "how_to_avoid": "Carefully read the question and ensure all relevant quantities are included in your calculation. Double-check which totals the question is asking for."
+        },
+        "Invalid Assumption": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Since reference books are often used only within the library and not counted as part of the public collection, only the storybooks should be counted for the total number of books.",
+                "Step 2": "Thus, the total number of books in the library is \\( 7,823 \\)."
+            },
+            "wrong_steps": [
+                1,
+                2
+            ],
+            "error_explanation": "The solution wrongly assumes that reference books should not be included in the total number of books, even though the question asks for the total number of books in the library, which includes both storybooks and reference books.",
+            "root_cause": "Making an invalid assumption by excluding reference books without any instruction from the question.",
+            "how_to_avoid": "Always use only the information given in the question and do not add extra assumptions. Include all categories unless the question specifically says otherwise."
+        },
+        "Missing Step": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "The number of storybooks is 7,823.",
+                "Step 2": "The number of reference books is 2,156.",
+                "Step 3": "The total number of books in the library is 9,979."
+            },
+            "wrong_steps": [
+                3
+            ],
+            "error_explanation": "The solution provides the final answer without showing the step where the two numbers are added together. The working showing how 7,823 and 2,156 are combined to get the total is missing, which is a required step in primary math working.",
+            "root_cause": "The student skipped the addition step and presented the final answer directly, missing out on demonstrating the calculation process required to support their answer.",
+            "how_to_avoid": "Always show all steps, especially calculations that combine values from the question, so the teacher can see how the final answer is obtained."
+        }
+    },
+    "P4N100k": {
+        "Misalignment of Digits": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Misalignment of Digits",
+            "wrong_solution": {
+                "Step 1": "\\[\n\\begin{array}{cccccc}\n  & 8 & 5 & 9 & 6 & 0 \\\\\n+ & & 9 & 3 & 8 & 0 \\\\\n\\hline\n  & 8 & 5 & 18 & 14 & 0 \\\\\n\\end{array}\n\\]",
+                "Step 2": "Adding the numbers as shown above, we get 8 + 0 = 8, 5 + 9 = 14, 9 + 3 = 12, 6 + 8 = 14, 0 + 0 = 0.",
+                "Step 3": "\\[85,960 + 9,380 = 8596080\\]",
+                "Step 4": "The library will have \\( 859,6080 \\) books after adding the new books."
+            },
+            "wrong_steps": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "error_explanation": "The digits were not aligned correctly according to place value. The student started adding from the left without considering units, tens, hundreds, etc., resulting in incorrect addition.",
+            "root_cause": "Misunderstanding of proper digit alignment in column addition, leading to adding digits from mismatched places.",
+            "how_to_avoid": "Always write the numbers one below the other, aligning units with units, tens with tens, and so forth. Add digits column by column, carrying over if the sum exceeds 9."
+        },
+        "Missing Step": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "The number of new books added is: \\[ 9,380 \\]",
+                "Step 2": "The total number of books in the library is: \\[ 95,340 \\]"
+            },
+            "wrong_steps": [
+                1
+            ],
+            "error_explanation": "The solution skips stating the initial number of books and the calculation step altogether. It jumps from stating the number of new books to writing down the final total, without showing how the total was obtained or mentioning the starting value from the question.",
+            "root_cause": "Student skipped writing out all necessary steps and did not show their working clearly, so the solution lacks evidence that the correct process was followed.",
+            "how_to_avoid": "Always write down all relevant information from the question and show each calculation step clearly, so your answer can be traced and checked."
+        },
+        "Wrong Operation / Formula": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "The number of books currently in the library is:\n\n\\[ 85,960 \\]",
+                "Step 2": "The number of new books added is:\n\n\\[ 9,380 \\]",
+                "Step 3": "To find out how many books the library will have in total, we subtract the number of new books from the current number:\n\n\\[ 85,960 - 9,380 = 76,580 \\]",
+                "Step 4": "So, the library will have \\( 76,580 \\) books in total after the new books are added."
+            },
+            "wrong_steps": [
+                3,
+                4
+            ],
+            "error_explanation": "Instead of adding the number of new books to the current total, subtraction was used. This operation gives a smaller result than the number of books originally present, which does not make sense when books are added.",
+            "root_cause": "The student misunderstood the operation required by the word 'added', using subtraction instead of addition.",
+            "how_to_avoid": "Check the keywords in the question (such as 'added') to determine the correct mathematical operation. For 'added', always use addition."
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "The number of books does not change when new books are added because the library always has 85,960 books.",
+                "Step 2": "So, the total number of books in the library is \\[ 85,960 \\]."
+            },
+            "wrong_steps": [
+                1,
+                2
+            ],
+            "error_explanation": "The solution ignores the fact that adding new books increases the total number of books in the library. The student lacks the basic understanding that the total should increase by the number of new books added.",
+            "root_cause": "The student does not realise that adding items to a set increases the total number, a basic logical reasoning error.",
+            "how_to_avoid": "Always check if the operation needed makes sense in real life. When you add more items, the total becomes larger. Make sure to actually perform the addition if the question asks for a new total after more items are added."
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "The number of books currently in the library is: \n\n\\[ 85,960 \\]",
+                "Step 2": "Since 9,380 new books are added this month, we need to find out how many more books were added.\n\nBut the question only asks for the number of new books added.",
+                "Step 3": "Therefore, the library will have \\[ 9,380 \\] books in total after the new books are added."
+            },
+            "wrong_steps": [
+                2,
+                3
+            ],
+            "error_explanation": "In Step 2 and Step 3, the student misunderstood the question's requirement. Instead of finding the total number of books after addition, the student provided only the number of new books added as the final answer.",
+            "root_cause": "The student did not interpret the question correctly and failed to realize that the answer should be the total number of books after adding the new ones, not just the number of new books.",
+            "how_to_avoid": "Carefully read the question and identify what is being asked. Ensure you combine the existing and new values as required, rather than focusing on only one value presented in the problem."
+        }
+    },
+    "P6algebr": {
+        "Missing Key Information": {
+            "question": "Tom has \\(3m + 8\\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Tom has \\(3m + 8\\) marbles at first.",
+                "Step 2": "We know that now he has 20 marbles left.",
+                "Step 3": "Set up the equation: \\(3m + 8 = 20\\)",
+                "Step 4": "Subtract 8 from both sides: \\(3m = 12\\)",
+                "Step 5": "Divide both sides by 3: \\(m = 4\\)"
+            },
+            "wrong_steps": [
+                3,
+                4,
+                5
+            ],
+            "error_explanation": "The solution sets up the equation without accounting for the 5 marbles Tom gave away. It misses the key information that Tom has fewer marbles after giving away 5, leading to a wrong equation and answer.",
+            "root_cause": "The student ignored or forgot to subtract the 5 marbles Tom gave away from his original total before equating to 20.",
+            "how_to_avoid": "Carefully reread the question and ensure that every event (like giving away marbles) is included in the equation. Always account for all changes in the quantity before setting up the final equation."
+        },
+        "Missing Step": {
+            "question": "Tom has \\(3m + 8\\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Let \\(3m + 8\\) be the number of marbles Tom had at first.",
+                "Step 2": "Tom gives away 5 marbles, so now he has 20.",
+                "Step 3": "Set up the equation: \\(3m + 3 = 20\\)",
+                "Step 4": "So \\(m = \\frac{17}{3}\\)"
+            },
+            "wrong_steps": [
+                3,
+                4
+            ],
+            "error_explanation": "The solution skips the step of explicitly subtracting 5 from \\(3m + 8\\) before equating to 20. Step 3 directly writes \\(3m + 3 = 20\\) without showing the subtraction of 5, making it unclear how the number 3 was obtained.",
+            "root_cause": "The student omitted the step showing the operation \\(3m + 8 - 5\\), making the logic of the solution unclear and making it appear that numbers suddenly 'appear' without justification.",
+            "how_to_avoid": "Write every step explicitly. After forming \\(3m + 8 - 5\\), simplify it before equating to 20 to maintain a clear logical flow."
+        },
+        "Invalid Assumption": {
+            "question": "Tom has \\(3m + 8\\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Assume that Tom found 2 extra marbles after giving away 5 marbles.",
+                "Step 2": "So, after giving away 5 marbles, Tom actually has 20 + 2 = 22 marbles.",
+                "Step 3": "Set up the equation: \\(3m + 8 - 5 = 22\\)",
+                "Step 4": "Simplify: \\(3m + 3 = 22\\)",
+                "Step 5": "Subtract 3 from both sides: \\(3m = 19\\)",
+                "Step 6": "Divide both sides by 3: \\(m = 19 \\div 3\\)",
+                "Step 7": "\\(m = \\frac{19}{3}\\)"
+            },
+            "wrong_steps": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "error_explanation": "The solution incorrectly assumes that Tom found 2 extra marbles after giving away 5 marbles, which is not stated in the question. This leads to the wrong total number of marbles remaining and an incorrect equation and answer.",
+            "root_cause": "The student added extra information not in the question, assuming Tom found more marbles without evidence.",
+            "how_to_avoid": "Always use only the information given in the question. Do not make up or assume details that are not mentioned."
+        },
+        "Calculation Error": {
+            "question": "Tom has $3m + 8$ marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "Let Tom's marbles at first be $3m + 8$.",
+                "Step 2": "He gives away 5 marbles, so marbles left: $3m + 8 - 5$.",
+                "Step 3": "$3m + 8 - 5 = 20$",
+                "Step 4": "Simplify: $3m + 3 = 20$",
+                "Step 5": "Subtract 3 from both sides: $3m = 20 - 3$",
+                "Step 6": "$3m = 17$",
+                "Step 7": "Divide both sides by 3: $m = 17 \\div 3$",
+                "Step 8": "$m = 4$"
+            },
+            "wrong_steps": [
+                8
+            ],
+            "error_explanation": "The error occurs in Step 8. The correct calculation for $17 \\div 3$ is $5$ remainder $2$ or $\\frac{17}{3}$, not $4$. The division was calculated wrongly.",
+            "root_cause": "Student divided 17 by 3 incorrectly, getting 4 instead of the correct result.",
+            "how_to_avoid": "Double-check division calculations. Know that $17 \\div 3 = 5$ remainder $2$ or $\\frac{17}{3}$. Use multiplication to check if your answer is correct."
+        },
+        "Incorrect Equation Setup": {
+            "question": "Tom has \\(3m + 8\\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+            "type_of_error": "Incorrect Equation Setup",
+            "wrong_solution": {
+                "Step 1": "Tom has \\(3m + 8\\) marbles and now he has 20 marbles left after giving away 5 marbles. So, the equation should be \\[ 3m + 8 + 5 = 20 \\]",
+                "Step 2": "Simplify the left side: \\[ 3m + 13 = 20 \\]",
+                "Step 3": "Subtract 13 from both sides: \\[ 3m = 20 - 13 \\]",
+                "Step 4": "\\[ 3m = 7 \\]",
+                "Step 5": "Divide both sides by 3: \\[ m = 7 \\div 3 \\]",
+                "Step 6": "So, \\( m = \\frac{7}{3} \\)"
+            },
+            "wrong_steps": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "error_explanation": "The mistake is in setting up the equation. The student incorrectly added 5 instead of subtracting 5 to model the action of giving away marbles, which changes the equation and leads to the wrong solution.",
+            "root_cause": "Misinterpreting the effect of 'giving away' marbles, resulting in addition instead of subtraction in the equation setup.",
+            "how_to_avoid": "Carefully interpret word problems and translate actions like 'giving away' as subtraction when setting up the equation. Always check whether a value in the question should be added or subtracted based on the context."
+        }
+    },
+    "P2FracW": {
+        "Wrong Operation / Formula": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "Mdm Lim cut the cake into 8 equal pieces.",
+                "Step 2": "She gave 3 pieces to her neighbour.",
+                "Step 3": "To find the fraction of the cake she gave away, divide 8 by 3.",
+                "Step 4": "\\[\\text{Fraction given away} = \\frac{8}{3}\\]",
+                "Step 5": "So, Mdm Lim gave away \\( \\frac{8}{3} \\) of the cake to her neighbour."
+            },
+            "wrong_steps": [
+                3,
+                4,
+                5
+            ],
+            "error_explanation": "The operation used to find the fraction is incorrect. The correct formula requires dividing the number of pieces given (part) by the total number of pieces (whole), not the other way round.",
+            "root_cause": "The student mixed up the numerator and denominator in the fraction, using the total number of pieces as the numerator and the part given as the denominator, which is not the correct way to represent 'part of a whole'.",
+            "how_to_avoid": "Remember that when representing a fraction for 'part of a whole', always write the number of parts taken or given (the part) as the numerator and the total number of equal parts (the whole) as the denominator."
+        },
+        "Wrong Fraction Representation": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Wrong Fraction Representation",
+            "wrong_solution": {
+                "Step 1": "There are 8 pieces in total. Mdm Lim gave away 3 pieces.",
+                "Step 2": "To find the fraction of the cake she gave away, put the total number of pieces over the number of pieces given away.",
+                "Step 3": "So, the fraction she gave away is \\[ \\frac{8}{3} \\]."
+            },
+            "wrong_steps": [
+                2,
+                3
+            ],
+            "error_explanation": "The solution writes the fraction with the total number of pieces as the numerator and the number given away as the denominator, which is the reverse of what should be done. The numerator should represent the number of pieces given, and the denominator, the total number of pieces.",
+            "root_cause": "Misunderstanding of how to represent fractions. The student swapped the numerator and denominator when expressing the fraction.",
+            "how_to_avoid": "Remember that the numerator in a fraction shows the part being considered (pieces given away), while the denominator shows the total number of equal parts (the whole cake). Always write the part over the whole."
+        },
+        "Invalid Assumption": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Since Mdm Lim might have baked two cakes and cut each into 8 pieces, the total number of pieces could be 16.",
+                "Step 2": "She gave 3 pieces away, so the fraction of the cake she gave away is \\[ \\frac{3}{16} \\]."
+            },
+            "wrong_steps": [
+                1,
+                2
+            ],
+            "error_explanation": "The solution wrongly assumes that there are two cakes, leading to an incorrect total number of pieces (16 instead of 8). The question only mentions one cake.",
+            "root_cause": "Making an assumption not stated in the problem by thinking there were two cakes instead of one.",
+            "how_to_avoid": "Always use only the information given in the question. Do not add any assumptions unless they are clearly stated."
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "The cake was cut into 8 pieces. Mdm Lim gave 3 pieces to her neighbour.",
+                "Step 2": "To find what fraction of the cake Mdm Lim has left, we use the number of pieces left over the total number of pieces.",
+                "Step 3": "She has 8 - 3 = 5 pieces left.",
+                "Step 4": "Fraction of the cake she has left: \\[ \\frac{5}{8} \\].",
+                "Step 5": "So, the answer is \\( \\frac{5}{8} \\)."
+            },
+            "wrong_steps": [
+                2,
+                3,
+                4,
+                5
+            ],
+            "error_explanation": "The solution answered the fraction of the cake Mdm Lim has left, instead of the fraction she gave away as asked in the question. The student misunderstood the question requirement.",
+            "root_cause": "The student did not read the question carefully and focused on the leftover portion instead of the portion given away.",
+            "how_to_avoid": "Carefully reread the question to ensure you are answering what is asked. Underline or highlight keywords such as 'given away' or 'left' to keep track of what you need to find."
+        },
+        "Missing Step": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Mdm Lim gave away \\( \\frac{3}{8} \\) of the cake."
+            },
+            "wrong_steps": [
+                1
+            ],
+            "error_explanation": "The solution gives the final answer without showing the important step of writing out how the fraction was found from the given numbers. Although the final answer is correct, the intermediate reasoning and working steps are missing, which does not show the calculation process.",
+            "root_cause": "The student skipped the step of explaining that the cake was divided into 8 pieces and that the fraction given should be the number of pieces given over the total number of pieces.",
+            "how_to_avoid": "Always write out each step clearly, starting from identifying the total number of pieces and the number of pieces given away, and then forming the fraction before writing the answer."
+        }
+    },
+    "P4FracSet": {
+        "Calculation Error": {
+            "question": "There are 24 apples in a box. If one third of the apples are green, how many green apples are there?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "We need to find one third of 24, so we calculate: \\[ 24 \\div 3 = 6 \\]",
+                "Step 2": "There are 6 green apples in the box."
+            },
+            "wrong_steps": [
+                1,
+                2
+            ],
+            "error_explanation": "The calculation in Step 1 is incorrect. 24 divided by 3 should be 8, not 6. This leads to the wrong answer in Step 2.",
+            "root_cause": "The student made a simple arithmetic mistake while dividing 24 by 3.",
+            "how_to_avoid": "Double-check the calculation by using multiplication or a calculator, or by performing the long division carefully."
+        },
+        "Missing Step": {
+            "question": "There are 24 apples in a box. If one third of the apples are green, how many green apples are there?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "One third of the apples are green.",
+                "Step 2": "So, there are 8 green apples in the box."
+            },
+            "wrong_steps": [
+                2
+            ],
+            "error_explanation": "The student jumped from identifying the fraction of apples that are green directly to the answer, without showing the calculation to find one third of 24. This makes the solution incomplete, as it does not demonstrate how the answer was obtained.",
+            "root_cause": "The student skipped the necessary calculation step, possibly assuming the answer was obvious or could be taken for granted.",
+            "how_to_avoid": "Show all working steps, especially when finding fractions of a given quantity. Write out the operation, such as dividing 24 by 3, before stating the final answer."
+        },
+        "Inversion Error": {
+            "question": "There are 24 apples in a box. If one third of the apples are green, how many green apples are there?",
+            "type_of_error": "Inversion Error",
+            "wrong_solution": {
+                "Step 1": "We need to find one third of 24 apples.",
+                "Step 2": "So we divide 3 \\div 24.",
+                "Step 3": "3 \\div 24 = 0.125",
+                "Step 4": "So, there are 0.125 green apples in the box."
+            },
+            "wrong_steps": [
+                2,
+                3,
+                4
+            ],
+            "error_explanation": "The student divided 3 by 24 instead of dividing 24 by 3. This inverted the intended operation and led to an incorrect answer.",
+            "root_cause": "The student misunderstood which number should be divided by which, reversing the numbers in the operation.",
+            "how_to_avoid": "Carefully read the question and understand that 'one third of 24' means 24 divided by 3, not 3 divided by 24. Write the operation in words first before translating it into numbers."
+        },
+        "Value Context Error": {
+            "question": "There are 24 apples in a box. If one third of the apples are green, how many green apples are there?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "One third of the apples are green. Since there are 24 apples, I should add 24 and 3 together to find out how many green apples there are.",
+                "Step 2": "24 + 3 = 27",
+                "Step 3": "There are 27 green apples in the box."
+            },
+            "wrong_steps": [
+                1,
+                2,
+                3
+            ],
+            "error_explanation": "The student incorrectly interpreted 'one third of the apples' as 'add one third (the denominator) to the total number of apples', rather than calculating one third of the total apples. The operation used (addition) does not reflect the context of finding a fraction of a quantity.",
+            "root_cause": "The student misunderstood how to represent 'one third of' as a multiplication or division operation and instead added the numbers together.",
+            "how_to_avoid": "Read the question carefully and remember that 'one third of' means to multiply by \\(\\frac{1}{3}\\) or divide by 3, not to add. Always translate verbal descriptions into the correct mathematical operation."
+        },
+        "Wrong Operation / Formula": {
+            "question": "There are 24 apples in a box. If one third of the apples are green, how many green apples are there?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "We are told that there are 24 apples in a box. One third of the apples are green.",
+                "Step 2": "To find out how many green apples there are, we need to subtract one third from 24.",
+                "Step 3": "So,\\\n\\[\\text{Number of green apples} = 24 - \\frac{1}{3}\\]",
+                "Step 4": "Calculating,\\\n\\[24 - \\frac{1}{3} = 23\\frac{2}{3}\\]"
+            },
+            "wrong_steps": [
+                2,
+                3,
+                4
+            ],
+            "error_explanation": "Instead of multiplying or dividing the total number of apples by the fraction, the student incorrectly subtracts one third from 24, treating the fraction as a quantity to be subtracted.",
+            "root_cause": "Student misunderstood how to apply fractions to the set size, and used subtraction instead of multiplication/division.",
+            "how_to_avoid": "Remember that when finding a fraction of a total, multiply (or divide) the total by the fraction, not subtract it."
+        }
+    },
+    "P4FracMI": {
+        "Value Context Error": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Since Mrs Lee baked 2 whole cakes and three quarters of another cake, we only need to express three quarters as an improper fraction.",
+                "Step 2": "The improper fraction for three quarters is \\( \\frac{3}{4} \\).",
+                "Step 3": "So, the total amount of cake she baked as an improper fraction is \\( \\frac{3}{4} \\)."
+            },
+            "wrong_steps": [
+                1,
+                2,
+                3
+            ],
+            "error_explanation": "The solution only considered the three quarters of a cake, ignoring the 2 whole cakes. The total amount of cake should include both the whole cakes and the fractional part.",
+            "root_cause": "The student misunderstood the value context by failing to represent the sum of 2 whole cakes and the fractional amount as a single improper fraction.",
+            "how_to_avoid": "Carefully read the question and ensure all parts of the total amount (both whole numbers and fractions) are included when forming the improper fraction."
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "The question asks for the total amount of cake Mrs Lee baked. She baked 2 whole cakes and \\( \\frac{3}{4} \\) of another cake.",
+                "Step 2": "Since she baked 2 whole cakes, I will write 2 as an improper fraction: \\( \\frac{2}{1} \\).",
+                "Step 3": "Add the fractions directly: \\( \\frac{2}{1} + \\frac{3}{4} = \\frac{2+3}{1+4} = \\frac{5}{5} = 1 \\).",
+                "Step 4": "So, Mrs Lee baked \\( 1 \\) cake in total as an improper fraction."
+            },
+            "wrong_steps": [
+                3,
+                4
+            ],
+            "error_explanation": "The error occurs in Step 3, where the student adds the numerators and denominators directly instead of finding a common denominator. This results in an incorrect total expressed as \\( \\frac{5}{5} \\), which is not the improper fraction the question asks for.",
+            "root_cause": "Misinterpreting the requirement of expressing the total amount as a single improper fraction and misunderstanding the method for adding fractions.",
+            "how_to_avoid": "Always convert all whole numbers and fractions to have a common denominator before adding them, and ensure your answer matches the form required by the question."
+        },
+        "Wrong Operation / Formula": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "Write the total amount of cake as a mixed number: \n\\[2 \\frac{3}{4}\\]",
+                "Step 2": "Add the numerator of the fraction to the whole number directly: \n\\[2 + 3 = 5\\]",
+                "Step 3": "Write the result over the denominator to form the improper fraction: \n\\[\\frac{5}{4}\\]",
+                "Step 4": "So, Mrs Lee baked \\(\\frac{5}{4}\\) cakes in total as an improper fraction."
+            },
+            "wrong_steps": [
+                2,
+                3,
+                4
+            ],
+            "error_explanation": "The error lies in Step 2 and Step 3, where the student incorrectly adds the numerator of the fraction to the whole number (2 + 3) and places the answer over the original denominator. This is not the correct formula for converting a mixed number to an improper fraction. The correct method is to multiply the whole number by the denominator and then add the numerator.",
+            "root_cause": "Student mistakenly used addition instead of the proper conversion formula for mixed numbers to improper fractions, confusing the combination of whole number and fraction.",
+            "how_to_avoid": "Always remember the correct formula: multiply the whole number by the denominator, then add the numerator, and place the total over the original denominator."
+        },
+        "Invalid Assumption": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Since Mrs Lee baked 2 whole cakes and 3 quarters of another cake, I will assume that she also baked an extra quarter cake to make a whole out of the three quarters.",
+                "Step 2": "So, I will add 2 whole cakes + 1 whole cake (from completing three quarters with an extra quarter), giving me 3 whole cakes.",
+                "Step 3": "3 whole cakes as an improper fraction is \\[ \\frac{12}{4} \\]."
+            },
+            "wrong_steps": [
+                1,
+                2,
+                3
+            ],
+            "error_explanation": "The solution incorrectly assumes the three quarters can be rounded up to a whole cake by adding a quarter, even though only three quarters was baked. This leads to an inflated total and thus an incorrect final answer.",
+            "root_cause": "The student made an invalid assumption by adding more cake than what was actually baked, based on rounding or 'completing' fractions.",
+            "how_to_avoid": "Always use only the information provided in the question. Do not round up or modify values unless the question specifically tells you to do so."
+        },
+        "Misunderstanding Mixed Numbers": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Misunderstanding Mixed Numbers",
+            "wrong_solution": {
+                "Step 1": "First, we write the total amount as a mixed number: \\[ 2 \\frac{3}{4} \\]",
+                "Step 2": "To convert this to an improper fraction, we add the whole number to the fraction: \\[ 2 + \\frac{3}{4} = \\frac{2}{4} + \\frac{3}{4} = \\frac{5}{4} \\]",
+                "Step 3": "So, Mrs Lee baked \\( \\frac{5}{4} \\) cakes in total."
+            },
+            "wrong_steps": [
+                2,
+                3
+            ],
+            "error_explanation": "The error occurs because the student treats the whole number '2' as if it could be directly added to the numerator of the fractional part, instead of converting the entire mixed number to an improper fraction. The correct approach is to rewrite 2 as \\( \\frac{8}{4} \\) and then add to \\( \\frac{3}{4} \\), not just add the numbers together.",
+            "root_cause": "The student misunderstood how to combine whole numbers and fractional parts to form an improper fraction and simply added them as if they are parts with the same denominator.",
+            "how_to_avoid": "Always convert the whole number to a fraction with the same denominator as the fractional part first, and then add the numerators to get the improper fraction."
+        }
+    }
+}

@@ -1,0 +1,22 @@
+# Model Prompt Documentations #
+OpenAI Official Documentation: https://openai.com/index/gpt-4-1/ 
+OpenAI Prompt Guide: https://cookbook.openai.com/examples/gpt4-1_prompting_guide
+OpenAI User's Recommendation: https://www.reddit.com/r/ChatGPTCoding/comments/1k7v5bx/openais_latest_prompting_guide_for_gpt41/
+Claude Official Documentation:  https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
+DeepSeek Official Documentation: https://docs.together.ai/docs/prompting-deepseek-r1
+DeepSeek JSON Output Format Guide: https://api-docs.deepseek.com/guides/json_mode
+Qwen Official Documentation: https://qwenlm.github.io/blog/qwen3/
+Alibaba Prompting Guide: https://www.alibabacloud.com/help/en/model-studio/use-cases/prompt-engineering-guide
+Phi User Practical Guide: https://hackernoon.com/how-to-prompt-engineer-phi-3-mini-a-practical-guide
+Llama Official Documentation: https://www.llama.com/docs/how-to-guides/prompting/
+
+# Relevant to Wrong Solution Generation #
+Generating Faulty QUESTIONS (1): https://arxiv.org/html/2403.19346v1
+Generating Faulty QUESTIONS (2): https://arxiv.org/pdf/2410.18921
+Evaluating the ability of GPT-4 on generating wrong SOLUTIONS: https://arxiv.org/pdf/2310.02439
+Evaluating Error Identification and Correction (continuation of above paper): https://arxiv.org/pdf/2406.00755; Code base: https://github.com/LittleCirc1e/EIC
+
+# Relevant to Solution Evaluation #
+Evaluating student answers and give feedback: https://arxiv.org/pdf/2305.14536 : Okay, but this one takes wrong solution by brute force (generate until there is a wrong answer) and not by intentional
+
+

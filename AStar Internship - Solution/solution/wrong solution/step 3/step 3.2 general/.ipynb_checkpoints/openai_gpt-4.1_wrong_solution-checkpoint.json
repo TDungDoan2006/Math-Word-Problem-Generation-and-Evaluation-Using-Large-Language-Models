@@ -1,0 +1,12 @@
+{
+    "1": {
+        "Arithmetic Operation Errors": {
+            "question": "Find the value of \\( 2 \\div \\frac{1}{4} \\).",
+            "type_of_error": "Arithmetic Operation Errors",
+            "wrong_solution": "To find \\( 2 \\div \\frac{1}{4} \\), I will divide 2 by 4 instead. \\( 2 \\div 4 = 0.5 \\). \\\\ \n\\boxed{0.5}",
+            "error_explanation": "The solution incorrectly divides 2 by 4 instead of multiplying 2 by the reciprocal of \\( \\frac{1}{4} \\). The correct operation for dividing by a fraction is to multiply by its reciprocal.",
+            "root_cause": "Confusion between dividing by a whole number and dividing by a fraction. The student failed to apply the rule of multiplying by the reciprocal when dividing by a fraction.",
+            "how_to_avoid": "Always remember that dividing by a fraction is the same as multiplying by its reciprocal. Carefully check if the divisor is a fraction, and apply the correct operation."
+        }
+    }
+}

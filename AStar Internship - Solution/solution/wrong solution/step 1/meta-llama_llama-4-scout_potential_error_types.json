@@ -1,0 +1,830 @@
+{
+    "P1N100": {
+        "question": "Aisha has 27 marbles, and her brother gives her 15 more marbles. How many marbles does Aisha have now?",
+        "kcID": "P1N100",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Questions",
+            "Missing Key Information"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "This is when a student makes a mistake in their calculation, such as adding or subtracting incorrectly.",
+            "Misunderstanding Questions": "This is when a student does not understand what the question is asking, such as not realizing that they need to add the marbles Aisha already has to the marbles her brother gives her.",
+            "Missing Key Information": "This is when a student forgets to include important information in their calculation, such as forgetting to add the 15 marbles her brother gives her."
+        },
+        "root_cause": {
+            "Arithmetic Error": "The root cause of an arithmetic error is often a lack of attention to detail or a simple mistake in calculation. This can be due to rushing through the problem or not checking work.",
+            "Misunderstanding Questions": "The root cause of misunderstanding the question is often a lack of careful reading or a failure to understand the context of the problem.",
+            "Missing Key Information": "The root cause of missing key information is often a lack of careful reading of the problem or a failure to identify the relevant information."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "To avoid arithmetic errors, students should take their time when calculating and check their work. They can also use a calculator or count blocks to help with the calculation.",
+            "Misunderstanding Questions": "To avoid misunderstanding the question, students should read the problem carefully and make sure they understand what is being asked. They can also underline or highlight important information in the problem.",
+            "Missing Key Information": "To avoid missing key information, students should read the problem carefully and make a list of the important information. They can also draw a diagram or picture to help them understand the problem."
+        }
+    },
+    "P1AddSub": {
+        "question": "Aisyah has 6 pencils. She buys 3 more pencils. How many pencils does she have now?",
+        "kcID": "P1AddSub",
+        "type_of_error": [
+            "Misunderstanding the Question",
+            "Arithmetic Error",
+            "Wrong Operation Applied"
+        ],
+        "error_explanation": {
+            "Misunderstanding the Question": "The student does not understand what the question is asking, leading to incorrect interpretation of the problem.",
+            "Arithmetic Error": "The student makes a mistake in the calculation, such as incorrect addition or subtraction.",
+            "Wrong Operation Applied": "The student applies the wrong mathematical operation, such as subtracting instead of adding."
+        },
+        "root_cause": {
+            "Misunderstanding the Question": "The student may not read the question carefully or may not understand the context of the problem.",
+            "Arithmetic Error": "The student may not have a strong foundation in basic arithmetic operations or may make careless mistakes.",
+            "Wrong Operation Applied": "The student may not understand the concept of addition and subtraction or may not be able to identify the correct operation to apply."
+        },
+        "how_to_avoid": {
+            "Misunderstanding the Question": "Read the question carefully and make sure to understand what is being asked. Identify the key information and what is required to find.",
+            "Arithmetic Error": "Practice basic arithmetic operations regularly to build fluency and accuracy. Double-check calculations to ensure accuracy.",
+            "Wrong Operation Applied": "Understand the concept of addition and subtraction and be able to identify the correct operation to apply in different contexts. Read the question carefully to determine the correct operation."
+        }
+    },
+    "P1MulDiv": {
+        "question": "A packet contains 5 biscuits. How many biscuits are there in 3 such packets?",
+        "kcID": "P1MulDiv",
+        "type_of_error": [
+            "Misunderstanding the Question",
+            "Arithmetic Error",
+            "Incorrect Application of Operation"
+        ],
+        "error_explanation": {
+            "Misunderstanding the Question": "The student does not understand that the problem is asking for the total number of biscuits in 3 packets, and instead may try to solve an incorrect problem or provide an irrelevant answer.",
+            "Arithmetic Error": "The student makes a calculation mistake, such as incorrectly adding or multiplying the numbers, resulting in an incorrect answer.",
+            "Incorrect Application of Operation": "The student uses the wrong operation, such as adding 3 + 5 instead of multiplying 5 x 3 or adding 5 + 5 + 5."
+        },
+        "root_cause": {
+            "Misunderstanding the Question": "The student may not have carefully read or understood the problem, or may not have identified the key information (e.g. 5 biscuits per packet, 3 packets).",
+            "Arithmetic Error": "The student may not have a strong foundation in basic arithmetic operations (e.g. addition, multiplication) or may not have checked their work for errors.",
+            "Incorrect Application of Operation": "The student may not have understood the concept of multiplication as repeated addition, or may not have recognized that the problem requires multiplication."
+        },
+        "how_to_avoid": {
+            "Misunderstanding the Question": "To avoid this error, students should carefully read and understand the problem, identifying the key information and what is being asked.",
+            "Arithmetic Error": "To avoid this error, students should double-check their calculations and use a calculator or counting blocks to verify their answers.",
+            "Incorrect Application of Operation": "To avoid this error, students should understand the concept of multiplication as repeated addition and recognize when to apply it in a problem. They should also check that their answer makes sense in the context of the problem."
+        }
+    },
+    "P1Money": {
+        "question": "Siti has 2 fifty-cent coins and 3 twenty-cent coins. How much money does Siti have altogether?",
+        "kcID": "P1Money",
+        "type_of_error": [
+            "Misunderstanding Coin Values",
+            "Arithmetic Error",
+            "Incorrect Unit Conversion",
+            "Missing Key Information"
+        ],
+        "error_explanation": {
+            "Misunderstanding Coin Values": "This error occurs when a student incorrectly understands the value of each type of coin. For example, thinking a fifty-cent coin is worth 5 cents or a twenty-cent coin is worth 2 cents.",
+            "Arithmetic Error": "This error occurs when a student makes a mistake in their calculations, such as incorrectly adding or multiplying the values of the coins.",
+            "Incorrect Unit Conversion": "This error occurs when a student incorrectly converts between units, such as thinking 100 cents is equal to 10 dollars instead of 1 dollar.",
+            "Missing Key Information": "This error occurs when a student overlooks important information in the question, such as the number of coins or their values."
+        },
+        "root_cause": {
+            "Misunderstanding Coin Values": "The root cause of this error is a lack of understanding of the values of different coins. Students may not have been taught or may have forgotten the values of each coin.",
+            "Arithmetic Error": "The root cause of this error is a lack of practice or carelessness in performing calculations. Students may not have checked their work or may have made a simple calculation mistake.",
+            "Incorrect Unit Conversion": "The root cause of this error is a lack of understanding of unit conversions, specifically the relationship between cents and dollars. Students may not have been taught or may have forgotten that 100 cents is equal to 1 dollar.",
+            "Missing Key Information": "The root cause of this error is a lack of attention to detail or not reading the question carefully. Students may have overlooked important information or not have understood what was being asked."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Coin Values": "To avoid this error, students should review the values of different coins and practice using them in calculations. Teachers can also provide opportunities for students to work with real-life examples of coins.",
+            "Arithmetic Error": "To avoid this error, students should double-check their calculations and use a calculator or counting blocks to verify their answers. Teachers can also provide extra practice on calculation skills.",
+            "Incorrect Unit Conversion": "To avoid this error, students should review the relationship between units, specifically the conversion between cents and dollars. Teachers can also provide opportunities for students to practice converting between units.",
+            "Missing Key Information": "To avoid this error, students should read the question carefully and highlight or underline important information. Teachers can also provide opportunities for students to practice reading comprehension and critical thinking."
+        }
+    },
+    "P2N1000": {
+        "question": "A box has 467 red marbles and 285 blue marbles. How many marbles are there in total?",
+        "kcID": "P2N1000",
+        "type_of_error": [
+            "Misunderstanding the Question",
+            "Arithmetic Error",
+            "Incorrect Calculation Method"
+        ],
+        "error_explanation": {
+            "Misunderstanding the Question": "The student does not understand that the task is to find the total number of marbles by adding the red and blue marbles together.",
+            "Arithmetic Error": "The student makes a mistake in the addition process, such as incorrect carrying over of numbers or simple addition errors.",
+            "Incorrect Calculation Method": "The student uses a wrong method for calculation, such as subtraction or multiplication, instead of addition."
+        },
+        "root_cause": {
+            "Misunderstanding the Question": "The student may not read the question carefully or may not fully understand what is being asked.",
+            "Arithmetic Error": "The student may lack practice in addition, have poor number sense, or be careless in calculation.",
+            "Incorrect Calculation Method": "The student may not have a solid understanding of basic arithmetic operations and their applications."
+        },
+        "how_to_avoid": {
+            "Misunderstanding the Question": "Read the question carefully and make sure you understand what is being asked before starting to solve it.",
+            "Arithmetic Error": "Practice basic addition facts and use a systematic approach to multi-digit addition.",
+            "Incorrect Calculation Method": "Review and understand the different arithmetic operations and when to apply them."
+        }
+    },
+    "P2FracW": {
+        "question": "Mrs Tan cut a cake into 8 equal pieces. She gave 3 pieces to her son. What fraction of the whole cake did her son get?",
+        "kcID": "P2FracW",
+        "type_of_error": [
+            "Misunderstanding the concept of equal pieces",
+            "Incorrectly identifying the whole",
+            "Arithmetic Error",
+            "Misunderstanding Questions"
+        ],
+        "error_explanation": {
+            "Misunderstanding the concept of equal pieces": "This error occurs when a student does not understand that the cake was cut into 8 equal pieces, leading to incorrect calculation of the fraction.",
+            "Incorrectly identifying the whole": "This error happens when a student mistakenly identifies the whole as something other than the entire cake cut into 8 pieces.",
+            "Arithmetic Error": "This error occurs when a student incorrectly performs the arithmetic operation to find the fraction, such as adding or multiplying instead of writing the correct fraction.",
+            "Misunderstanding Questions": "This error occurs when a student does not understand what is being asked, such as finding the number of pieces instead of the fraction of the whole cake."
+        },
+        "root_cause": {
+            "Misunderstanding the concept of equal pieces": "Lack of understanding of the concept of fractions and equal parts.",
+            "Incorrectly identifying the whole": "Inability to identify the whole in a fraction problem.",
+            "Arithmetic Error": "Carelessness or lack of practice in basic arithmetic operations.",
+            "Misunderstanding Questions": "Inability to read and understand the problem correctly."
+        },
+        "how_to_avoid": {
+            "Misunderstanding the concept of equal pieces": "Practice problems involving cutting a whole into equal parts and identifying fractions.",
+            "Incorrectly identifying the whole": "Emphasize the importance of identifying the whole in a fraction problem and practice doing so.",
+            "Arithmetic Error": "Practice basic arithmetic operations and double-check calculations.",
+            "Misunderstanding Questions": "Teach students to read problems carefully and identify what is being asked."
+        }
+    },
+    "P2FracAS": {
+        "question": "Aini ate one quarter of a watermelon in the morning and another two quarters in the afternoon. How much of the watermelon did she eat in total?",
+        "kcID": "P2FracAS",
+        "type_of_error": [
+            "Misunderstanding Fractions",
+            "Arithmetic Error",
+            "Incorrect Addition of Fractions"
+        ],
+        "error_explanation": {
+            "Misunderstanding Fractions": "The student does not understand that one quarter is equal to 1/4 and two quarters is equal to 2/4.",
+            "Arithmetic Error": "The student makes a simple arithmetic mistake when adding the fractions, such as 1/4 + 2/4 = 1/2 or 1/4 + 2/4 = 3/8.",
+            "Incorrect Addition of Fractions": "The student adds the fractions incorrectly, such as adding the numerators and denominators separately (e.g., 1/4 + 2/4 = (1+2)/(4+4) = 3/8)."
+        },
+        "root_cause": {
+            "Misunderstanding Fractions": "The student lacks understanding of basic fraction concepts, such as the relationship between quarters and fractions.",
+            "Arithmetic Error": "The student has not practiced basic arithmetic operations with fractions enough, leading to careless mistakes.",
+            "Incorrect Addition of Fractions": "The student does not understand the rule for adding fractions with the same denominator, which is to add the numerators and keep the denominator the same."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Fractions": "To avoid this error, students should practice converting between fractions and real-life scenarios, such as cutting a watermelon into quarters. They should also review the basic fraction concepts, such as 1/4, 1/2, and 3/4.",
+            "Arithmetic Error": "To avoid this error, students should practice basic arithmetic operations with fractions regularly, using online resources or worksheets. They should also double-check their calculations.",
+            "Incorrect Addition of Fractions": "To avoid this error, students should learn and practice the rule for adding fractions with the same denominator. They should also use visual aids, such as diagrams or fraction strips, to help them understand the concept."
+        }
+    },
+    "P3N10k": {
+        "question": "A library has 4 276 books on its shelves. If the librarian buys 2 385 more books, how many books will there be in the library altogether?",
+        "kcID": "P3N10k",
+        "type_of_error": [
+            "Misalignment of Numbers",
+            "Incorrect Addition",
+            "Missing Carry Over",
+            "Incorrect Thousand's Place Addition"
+        ],
+        "error_explanation": {
+            "Misalignment of Numbers": "Not lining up the digits correctly when adding the numbers.",
+            "Incorrect Addition": "Making mistakes in the basic addition of digits, such as adding 6 + 5 = 12 instead of 11.",
+            "Missing Carry Over": "Forgetting to carry over the extra digit when the sum of digits in a place exceeds 10.",
+            "Incorrect Thousand's Place Addition": "Making errors when adding the thousands place, such as adding 4 + 2 = 7 instead of 6."
+        },
+        "root_cause": {
+            "Misalignment of Numbers": "Lack of attention to detail when setting up the addition problem.",
+            "Incorrect Addition": "Insufficient practice with basic addition facts or careless mistakes during calculation.",
+            "Missing Carry Over": "Not understanding the concept of carrying over in addition.",
+            "Incorrect Thousand's Place Addition": "Similar to incorrect addition, but specifically with the thousands place."
+        },
+        "how_to_avoid": {
+            "Misalignment of Numbers": "Always ensure that the digits are lined up by place value (ones, tens, hundreds, thousands) before adding.",
+            "Incorrect Addition": "Practice basic addition facts regularly and double-check calculations.",
+            "Missing Carry Over": "Carefully check each step of the addition to ensure that any carry over is noted and applied correctly.",
+            "Incorrect Thousand's Place Addition": "Pay special attention to the thousands place and verify that the addition is correct, considering any carry over from the hundreds place."
+        }
+    },
+    "P3FracEq": {
+        "question": "Sarah ate one-half of a chocolate bar. Her brother ate two out of four equal pieces of the same size chocolate bar. Did Sarah and her brother eat the same amount of chocolate? Show why.",
+        "kcID": "P3FracEq",
+        "type_of_error": [
+            "Misunderstanding Equivalent Fractions",
+            "Incorrect Comparison of Fractions",
+            "Failure to Simplify or Convert Fractions",
+            "Arithmetic Error"
+        ],
+        "error_explanation": {
+            "Misunderstanding Equivalent Fractions": "This error occurs when a student does not understand that equivalent fractions represent the same part of a whole, even if the numbers are different.",
+            "Incorrect Comparison of Fractions": "This error happens when a student compares fractions without considering their equivalence, leading to incorrect conclusions.",
+            "Failure to Simplify or Convert Fractions": "This error occurs when a student fails to simplify or convert fractions to have a common denominator, making it difficult to compare them.",
+            "Arithmetic Error": "This error involves mistakes in basic arithmetic operations, such as addition, subtraction, multiplication, or division."
+        },
+        "root_cause": {
+            "Misunderstanding Equivalent Fractions": "The root cause is a lack of understanding of the concept of equivalent fractions, which can stem from inadequate prior knowledge or poor teaching.",
+            "Incorrect Comparison of Fractions": "The root cause is often a misunderstanding of how to compare fractions, which can be due to a lack of practice or a failure to grasp the concept of equivalent fractions.",
+            "Failure to Simplify or Convert Fractions": "The root cause is typically a lack of practice in simplifying or converting fractions, or a failure to recognize the importance of having a common denominator.",
+            "Arithmetic Error": "The root cause can be a lack of attention to detail, careless mistakes, or a lack of practice with basic arithmetic operations."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Equivalent Fractions": "To avoid this error, students should practice identifying equivalent fractions and understand that different fractions can represent the same part of a whole.",
+            "Incorrect Comparison of Fractions": "To avoid this error, students should learn to compare fractions by converting them to equivalent fractions with a common denominator.",
+            "Failure to Simplify or Convert Fractions": "To avoid this error, students should practice simplifying and converting fractions to have a common denominator, and be encouraged to do so when comparing fractions.",
+            "Arithmetic Error": "To avoid this error, students should double-check their arithmetic operations and practice basic calculations to build accuracy."
+        }
+    },
+    "P4N100k": {
+        "question": "A library has 37,650 storybooks and 24,980 reference books. What is the total number of books in the library?",
+        "kcID": "P4N100k",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Questions",
+            "Missing Key Information",
+            "Incorrect Calculation"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "The student makes a mistake in adding the numbers, such as incorrect carrying or incorrect addition of digits.",
+            "Misunderstanding Questions": "The student does not understand what is being asked in the problem, such as thinking they need to find the difference between the number of storybooks and reference books instead of the total.",
+            "Missing Key Information": "The student overlooks or forgets to include one or both of the given numbers in their calculation.",
+            "Incorrect Calculation": "The student uses an incorrect method or algorithm to solve the problem, such as multiplying instead of adding."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Lack of attention to detail or careless mistakes when performing calculations.",
+            "Misunderstanding Questions": "Insufficient understanding of the problem or its requirements.",
+            "Missing Key Information": "Inability to identify or read all the relevant information in the question.",
+            "Incorrect Calculation": "Insufficient understanding of the mathematical operation required or incorrect application of the operation."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Double-check calculations and ensure accuracy when performing arithmetic operations.",
+            "Misunderstanding Questions": "Read and understand the question carefully before attempting to solve it.",
+            "Missing Key Information": "Carefully read and identify all relevant information in the question before starting to solve it.",
+            "Incorrect Calculation": "Understand the mathematical operation required and apply it correctly."
+        }
+    },
+    "P4FctorM": {
+        "question": "Rani has 24 pencils. She wants to pack all the pencils equally into boxes. What is the greatest number of pencils she can put in each box so that every box has the same number of pencils and no pencils are left over?",
+        "kcID": "P4FctorM",
+        "type_of_error": [
+            "Misunderstanding the concept of factors",
+            "Incorrectly listing factors",
+            "Arithmetic Error",
+            "Missing Key Information"
+        ],
+        "error_explanation": {
+            "Misunderstanding the concept of factors": "The student does not understand that to pack pencils equally into boxes with no remainder, they need to find the factors of 24 and then identify the greatest factor.",
+            "Incorrectly listing factors": "The student lists the factors incorrectly, for example, missing some factors or including incorrect numbers as factors.",
+            "Arithmetic Error": "The student makes a calculation mistake when finding the factors of 24, such as incorrect division results.",
+            "Missing Key Information": "The student overlooks the requirement that every box must have the same number of pencils and no pencils left over, leading to an incorrect approach."
+        },
+        "root_cause": {
+            "Misunderstanding the concept of factors": "Lack of understanding of what factors represent and how they are used to divide quantities evenly.",
+            "Incorrectly listing factors": "Carelessness or lack of systematic approach when listing factors.",
+            "Arithmetic Error": "Inattention to detail or lack of practice in basic arithmetic operations.",
+            "Missing Key Information": "Failure to carefully read or understand the problem statement."
+        },
+        "how_to_avoid": {
+            "Misunderstanding the concept of factors": "Review the definition of factors and practice finding factors of different numbers. Understand the application of factors in real-world problems like this one.",
+            "Incorrectly listing factors": "Use a systematic approach to list factors, such as dividing the number by increasing integers until the square root of the number is reached.",
+            "Arithmetic Error": "Double-check arithmetic calculations and use a calculator if necessary.",
+            "Missing Key Information": "Carefully read the problem statement multiple times and underline key requirements."
+        }
+    },
+    "P44Op": {
+        "question": "A box of markers costs $15. Mrs Lee buys 4 boxes for her class and pays with a $100 note. How much change does Mrs Lee receive?",
+        "kcID": "P44Op",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Questions",
+            "Missing Key Information",
+            "Wrong Operation Applied"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "A mistake in the calculation, such as incorrect multiplication or subtraction.",
+            "Misunderstanding Questions": "Not understanding what the question is asking, such as not realizing that the change needs to be calculated.",
+            "Missing Key Information": "Forgetting to use important information, such as the cost of one box of markers or the amount Mrs Lee paid.",
+            "Wrong Operation Applied": "Using the wrong mathematical operation, such as adding instead of subtracting or dividing instead of multiplying."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Lack of attention to detail or not checking calculations.",
+            "Misunderstanding Questions": "Not reading the question carefully or not understanding the context.",
+            "Missing Key Information": "Not carefully reading the question or not identifying important information.",
+            "Wrong Operation Applied": "Not understanding the mathematical operations or not thinking about the correct operation to use."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Double-check calculations and use a calculator if necessary.",
+            "Misunderstanding Questions": "Read the question carefully and make sure to understand what is being asked.",
+            "Missing Key Information": "Carefully read the question and identify important information before starting to solve.",
+            "Wrong Operation Applied": "Think about the correct operation to use and make sure to understand the mathematical operations involved."
+        }
+    },
+    "P4FracMI": {
+        "question": "Siti baked 3 whole pies and three-quarters of another pie for a party. Express the total amount of pie Siti baked as an improper fraction.",
+        "kcID": "P4FracMI",
+        "type_of_error": [
+            "Misunderstanding Mixed Numbers",
+            "Incorrect Conversion to Improper Fraction",
+            "Arithmetic Error"
+        ],
+        "error_explanation": {
+            "Misunderstanding Mixed Numbers": "The student does not understand what a mixed number represents, leading to incorrect interpretation of the whole and fractional parts.",
+            "Incorrect Conversion to Improper Fraction": "The student does not know the correct procedure to convert a mixed number to an improper fraction, such as multiplying the whole number part by the denominator and then adding the numerator.",
+            "Arithmetic Error": "The student makes a calculation mistake during the conversion process, such as incorrect multiplication or addition."
+        },
+        "root_cause": {
+            "Misunderstanding Mixed Numbers": "Lack of foundational understanding of mixed numbers and their components.",
+            "Incorrect Conversion to Improper Fraction": "Insufficient practice or misunderstanding of the conversion process.",
+            "Arithmetic Error": "Carelessness or lack of attention to detail during calculations."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Mixed Numbers": "Review the definition and representation of mixed numbers, and practice identifying whole and fractional parts.",
+            "Incorrect Conversion to Improper Fraction": "Practice converting mixed numbers to improper fractions using the correct steps: multiply the whole number part by the denominator, then add the numerator, and finally write the result over the denominator.",
+            "Arithmetic Error": "Double-check calculations and use a systematic approach to solving problems."
+        }
+    },
+    "P4FracSet": {
+        "question": "A science club has 36 members. One-third of them are girls. How many girls are there in the club?",
+        "kcID": "P4FracSet",
+        "type_of_error": [
+            "Misunderstanding Fraction of a Set",
+            "Arithmetic Error",
+            "Incorrect Operation"
+        ],
+        "error_explanation": {
+            "Misunderstanding Fraction of a Set": "The student does not understand that one-third of a set means dividing the set into three equal parts and taking one part.",
+            "Arithmetic Error": "The student makes a calculation mistake when dividing or multiplying.",
+            "Incorrect Operation": "The student applies the wrong operation, such as multiplying instead of dividing or vice versa."
+        },
+        "root_cause": {
+            "Misunderstanding Fraction of a Set": "Lack of understanding of the concept of fraction of a set, not being able to visualize or relate it to real-life scenarios.",
+            "Arithmetic Error": "Carelessness or lack of practice in basic arithmetic operations.",
+            "Incorrect Operation": "Confusion between different operations or not reading the problem carefully."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Fraction of a Set": "Practice finding fractions of sets with visual aids and real-life examples. Read the problem carefully and highlight the fraction given.",
+            "Arithmetic Error": "Double-check calculations and use a calculator for verification. Practice basic arithmetic operations regularly.",
+            "Incorrect Operation": "Read the problem carefully and identify the correct operation needed. Use keywords like 'of' for multiplication and 'divided by' for division."
+        }
+    },
+    "P4Deci3d": {
+        "question": "Eli bought a packet of biscuits weighing 0.375 kg. If she ate 0.128 kg of biscuits, how much biscuits does she have left?",
+        "kcID": "P4Deci3d",
+        "type_of_error": [
+            "Misunderstanding Questions",
+            "Arithmetic Error",
+            "Incorrect Subtraction"
+        ],
+        "error_explanation": {
+            "Misunderstanding Questions": "The student does not understand what the question is asking for, leading to incorrect interpretation of the problem.",
+            "Arithmetic Error": "The student makes a simple arithmetic mistake during the subtraction process.",
+            "Incorrect Subtraction": "The student subtracts the numbers incorrectly, such as aligning the decimal points wrongly or performing the subtraction as if the numbers were whole numbers."
+        },
+        "root_cause": {
+            "Misunderstanding Questions": "Lack of attention to the problem statement or not reading the question carefully.",
+            "Arithmetic Error": "Carelessness or lack of practice in performing arithmetic operations with decimals.",
+            "Incorrect Subtraction": "Insufficient understanding of how to subtract decimals, including incorrect alignment of decimal points."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Questions": "Read the question carefully and highlight key information. Make sure to understand what is being asked before starting to solve the problem.",
+            "Arithmetic Error": "Practice performing arithmetic operations with decimals regularly. Double-check calculations to ensure accuracy.",
+            "Incorrect Subtraction": "Ensure correct alignment of decimal points during subtraction. Practice subtracting decimals to build confidence and accuracy."
+        }
+    },
+    "P4DeciAS": {
+        "question": "A box of pencils costs $3.75. A book costs $5.60. How much more does the book cost than the box of pencils?",
+        "kcID": "P4DeciAS",
+        "type_of_error": [
+            "Misunderstanding Question",
+            "Arithmetic Error",
+            "Incorrect Operation"
+        ],
+        "error_explanation": {
+            "Misunderstanding Question": "The student does not understand what the question is asking for, which is to find the difference in cost between the book and the box of pencils.",
+            "Arithmetic Error": "The student makes a calculation mistake when subtracting the cost of the box of pencils from the cost of the book.",
+            "Incorrect Operation": "The student uses the wrong operation, such as adding instead of subtracting, to find the difference in cost."
+        },
+        "root_cause": {
+            "Misunderstanding Question": "The student may not have read the question carefully or may not have understood the concept of 'how much more'.",
+            "Arithmetic Error": "The student may not have aligned the decimal points correctly or made a mistake in the subtraction calculation.",
+            "Incorrect Operation": "The student may not have understood the concept of finding the difference between two values or may have confused it with a different operation."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Question": "Read the question carefully and highlight the key information. Make sure to understand what is being asked before starting to solve the problem.",
+            "Arithmetic Error": "Double-check the calculation and make sure to align the decimal points correctly. Use a calculator to verify the answer if possible.",
+            "Incorrect Operation": "Understand the concept of finding the difference between two values and make sure to choose the correct operation. Read the question carefully to identify the correct operation to use."
+        }
+    },
+    "P4DeciMD": {
+        "question": "A 2.5-litre bottle of juice is shared equally among 5 friends. How much juice does each friend get?",
+        "kcID": "P4DeciMD",
+        "type_of_error": [
+            "Misunderstanding Division",
+            "Incorrect Calculation",
+            "Misinterpreting Result"
+        ],
+        "error_explanation": {
+            "Misunderstanding Division": "Student misunderstands the division operation required to share the juice equally among friends.",
+            "Incorrect Calculation": "Student performs incorrect calculation when dividing 2.5 by 5, such as forgetting to put the decimal point in the correct position or making a simple arithmetic mistake.",
+            "Misinterpreting Result": "Student gets the correct calculation but misinterprets the result, for example, thinking the answer is in milliliters instead of litres or vice versa."
+        },
+        "root_cause": {
+            "Misunderstanding Division": "Student does not understand that division is required to find out how much juice each friend gets when it is shared equally.",
+            "Incorrect Calculation": "Lack of practice in division with decimals or lack of understanding of place value.",
+            "Misinterpreting Result": "Student does not understand the relationship between litres and other units of measurement, or lacks attention to detail."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Division": "Understand that division is used to share a quantity into equal parts. Practice problems involving sharing or grouping.",
+            "Incorrect Calculation": "Double-check calculations, especially when working with decimals. Practice division with decimals.",
+            "Misinterpreting Result": "Pay attention to units of measurement and ensure understanding of what the question is asking for."
+        }
+    },
+    "P5N1m": {
+        "question": "The population of Town A is 3 456 780. The population of Town B is 5 328 190. What is the total population of the two towns?",
+        "kcID": "P5N1m",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Questions",
+            "Incorrect Alignment of Numbers"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "This error occurs when a student makes a mistake in the addition process, such as adding or multiplying numbers incorrectly.",
+            "Misunderstanding Questions": "This error occurs when a student does not understand what is being asked in the question, such as thinking they need to find the difference between the populations instead of the total.",
+            "Incorrect Alignment of Numbers": "This error occurs when a student does not line up the numbers correctly when adding, leading to incorrect calculations."
+        },
+        "root_cause": {
+            "Arithmetic Error": "The root cause of arithmetic errors is often a lack of attention to detail or a lack of practice with basic addition facts.",
+            "Misunderstanding Questions": "The root cause of misunderstanding questions is often a lack of reading comprehension or a failure to understand the context of the problem.",
+            "Incorrect Alignment of Numbers": "The root cause of incorrect alignment of numbers is often a lack of understanding of place value or a failure to carefully line up the numbers in the addition problem."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "To avoid arithmetic errors, students should carefully check their calculations and use a calculator to verify their answers. They should also practice their basic addition facts regularly.",
+            "Misunderstanding Questions": "To avoid misunderstanding questions, students should carefully read the question and make sure they understand what is being asked. They should also ask themselves if their answer makes sense in the context of the problem.",
+            "Incorrect Alignment of Numbers": "To avoid incorrect alignment of numbers, students should carefully line up the numbers in the addition problem, making sure to align the place values correctly. They should also use a hundreds chart or a number grid to help them visualize the problem."
+        }
+    },
+    "P5FracDv": {
+        "question": "Mrs Lim baked 3 cakes and shared them equally among 4 children. What fraction of a cake did each child receive?",
+        "kcID": "P5FracDv",
+        "type_of_error": [
+            "Misunderstanding Division by Fractions",
+            "Incorrect Representation of Division",
+            "Arithmetic Error"
+        ],
+        "error_explanation": {
+            "Misunderstanding Division by Fractions": "The student misunderstands the concept of dividing a quantity (cakes) among a certain number of people (children), leading to incorrect application of division or fractions.",
+            "Incorrect Representation of Division": "The student incorrectly represents the division of 3 cakes among 4 children, possibly writing it as 4 \u00f7 3 instead of 3 \u00f7 4.",
+            "Arithmetic Error": "The student makes a simple arithmetic mistake in calculating the fraction, such as adding or multiplying instead of dividing."
+        },
+        "root_cause": {
+            "Misunderstanding Division by Fractions": "The root cause is a lack of understanding of how division relates to fractions, specifically that dividing by a whole number is the same as multiplying by its reciprocal.",
+            "Incorrect Representation of Division": "The root cause is confusion about which number should be the dividend and which should be the divisor in a division problem.",
+            "Arithmetic Error": "The root cause is carelessness or lack of practice in basic arithmetic operations."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Division by Fractions": "To avoid this, students should practice problems involving division by fractions and understand that dividing by a number is equivalent to multiplying by its reciprocal.",
+            "Incorrect Representation of Division": "Students should carefully read the problem and identify the correct dividend and divisor based on the context.",
+            "Arithmetic Error": "Students should double-check their arithmetic operations and use tools like diagrams or calculators to verify their calculations."
+        }
+    },
+    "P5Frac4Op": {
+        "question": "Aisha has3 fifths of a cake. She eats1 fifth of the cake and shares the remaining cake equally between her two friends. How much of the cake does each friend get?",
+        "kcID": "P5Frac4Op",
+        "type_of_error": [
+            "Misunderstanding the Problem",
+            "Incorrect Subtraction of Fractions",
+            "Incorrect Division of Fractions",
+            "Arithmetic Error"
+        ],
+        "error_explanation": {
+            "Misunderstanding the Problem": "The student does not understand what the question is asking, leading to incorrect operations being performed.",
+            "Incorrect Subtraction of Fractions": "The student subtracts the fractions incorrectly, for example, not finding a common denominator or incorrect calculation.",
+            "Incorrect Division of Fractions": "The student divides the fractions incorrectly, for example, not inverting the second fraction when dividing or incorrect calculation.",
+            "Arithmetic Error": "The student makes a simple arithmetic mistake, such as incorrect addition, subtraction, multiplication, or division."
+        },
+        "root_cause": {
+            "Misunderstanding the Problem": "The student lacks comprehension of the problem, possibly due to not reading the question carefully or not understanding the context.",
+            "Incorrect Subtraction of Fractions": "The student has not mastered the concept of subtracting fractions with the same denominator.",
+            "Incorrect Division of Fractions": "The student has not mastered the concept of dividing fractions, specifically inverting the second fraction and multiplying.",
+            "Arithmetic Error": "The student has not practiced basic arithmetic operations sufficiently or has careless mistakes."
+        },
+        "how_to_avoid": {
+            "Misunderstanding the Problem": "Read the question carefully and ensure understanding of what is being asked. Underline key information and identify the operations needed.",
+            "Incorrect Subtraction of Fractions": "Practice subtracting fractions with the same denominator. Ensure the student understands that only the numerators are subtracted, not the denominators.",
+            "Incorrect Division of Fractions": "Practice dividing fractions by inverting the second fraction and multiplying. Use visual aids or examples to reinforce understanding.",
+            "Arithmetic Error": "Practice basic arithmetic operations regularly. Use a calculator to check simple calculations and double-check work."
+        }
+    },
+    "P5Deci4Op": {
+        "question": "A packet of biscuits costs $3.75. Emily bought 4 packets for a party. She paid with a $20 note. How much change did she receive?",
+        "kcID": "P5Deci4Op",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Questions",
+            "Missing Key Information",
+            "Wrong Operation Applied"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "This error occurs when a student makes a mistake in their calculations, such as incorrect multiplication or subtraction. For example, a student might calculate 3.75 x 4 as 14.50 instead of 15.00.",
+            "Misunderstanding Questions": "This error occurs when a student does not fully understand what the question is asking, such as not realizing that they need to find the total cost of the biscuits before calculating the change.",
+            "Missing Key Information": "This error occurs when a student overlooks important information in the question, such as forgetting to use the $20 note to calculate the change.",
+            "Wrong Operation Applied": "This error occurs when a student applies the wrong mathematical operation to solve the problem, such as adding instead of subtracting to find the change."
+        },
+        "root_cause": {
+            "Arithmetic Error": "The root cause of arithmetic errors is often a lack of practice or careless mistakes. Students may not have sufficient practice in multiplying or subtracting decimals, leading to errors.",
+            "Misunderstanding Questions": "The root cause of misunderstanding questions is often a lack of attention to detail or not reading the question carefully. Students may not take the time to fully understand what is being asked.",
+            "Missing Key Information": "The root cause of missing key information is often a lack of attention to detail or not reading the question carefully. Students may not take the time to fully understand what information is provided.",
+            "Wrong Operation Applied": "The root cause of applying the wrong operation is often a lack of understanding of the mathematical concepts or not thinking critically about the problem. Students may not take the time to think about which operation is required to solve the problem."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "To avoid arithmetic errors, students should practice their calculations regularly, using a calculator to check their answers. They should also take their time when working on problems and double-check their calculations.",
+            "Misunderstanding Questions": "To avoid misunderstanding questions, students should read the question carefully and take their time to understand what is being asked. They should also highlight or underline important information in the question.",
+            "Missing Key Information": "To avoid missing key information, students should read the question carefully and take their time to understand what information is provided. They should also make a list of the important information in the question.",
+            "Wrong Operation Applied": "To avoid applying the wrong operation, students should take their time to think critically about the problem and understand which operation is required to solve it. They should also check their work to ensure that they have used the correct operation."
+        }
+    },
+    "P5perctg": {
+        "question": "In a class of 40 students, 75 percent are girls. How many girls are there in the class?",
+        "kcID": "P5perctg",
+        "type_of_error": [
+            "Misunderstanding Percentage",
+            "Arithmetic Error",
+            "Incorrect Conversion of Percentage to Fraction"
+        ],
+        "error_explanation": {
+            "Misunderstanding Percentage": "The student does not understand what 75 percent means in the context of the problem.",
+            "Arithmetic Error": "The student makes a calculation mistake when finding 75% of 40.",
+            "Incorrect Conversion of Percentage to Fraction": "The student incorrectly converts 75% to a fraction, leading to an incorrect calculation."
+        },
+        "root_cause": {
+            "Misunderstanding Percentage": "The student lacks a clear understanding of what percentage means and how to apply it to a given quantity.",
+            "Arithmetic Error": "The student may not be careful with calculations or may not have a strong foundation in basic arithmetic operations.",
+            "Incorrect Conversion of Percentage to Fraction": "The student may not know how to properly convert a percentage to a fraction or may make a careless mistake during the conversion."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Percentage": "To avoid this error, students should ensure they understand that percentage means 'per 100' and practice applying percentages to different quantities.",
+            "Arithmetic Error": "Students should double-check their calculations and ensure they are accurate. Practicing mental math and basic arithmetic operations can help reduce these errors.",
+            "Incorrect Conversion of Percentage to Fraction": "Students should learn to convert percentages to fractions systematically (e.g., 75% = 75/100, which simplifies to 3/4) and practice this conversion with different percentages."
+        }
+    },
+    "P5rate": {
+        "question": "A factory produces 120 boxes in 4 hours. What is the rate at which the factory produces boxes in one hour?",
+        "kcID": "P5rate",
+        "type_of_error": [
+            "Misunderstanding Question",
+            "Arithmetic Error",
+            "Incorrect Operation"
+        ],
+        "error_explanation": {
+            "Misunderstanding Question": "The student does not understand what the question is asking for, which is the rate of production per hour.",
+            "Arithmetic Error": "The student makes a calculation mistake when dividing the total number of boxes by the number of hours.",
+            "Incorrect Operation": "The student applies the wrong mathematical operation, such as multiplying instead of dividing."
+        },
+        "root_cause": {
+            "Misunderstanding Question": "The student may not have read the question carefully or does not understand the concept of rate.",
+            "Arithmetic Error": "The student may have poor calculation skills or be careless when performing calculations.",
+            "Incorrect Operation": "The student may not have understood the relationship between the total number of boxes and the number of hours, or may have confused the operation with a similar problem."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Question": "Read the question carefully and make sure you understand what is being asked. Identify the key information and what is required.",
+            "Arithmetic Error": "Double-check calculations and use a calculator if necessary. Practice mental math and calculation skills.",
+            "Incorrect Operation": "Understand the concept of rate and how it relates to the problem. Check that the operation chosen is correct for the problem."
+        }
+    },
+    "P6ratio": {
+        "question": "The ratio of the number of boys to the number of girls in a class is 3 : 5. If there are 18 boys, how many girls are there in the class?",
+        "kcID": "P6ratio",
+        "type_of_error": [
+            "Misunderstanding Ratio",
+            "Arithmetic Error",
+            "Incorrect Application of Ratio"
+        ],
+        "error_explanation": {
+            "Misunderstanding Ratio": "The student misunderstands the given ratio of 3:5, thinking it represents the actual number of boys and girls rather than a comparison between the two groups.",
+            "Arithmetic Error": "The student makes a calculation mistake when finding the number of groups of boys or when calculating the number of girls.",
+            "Incorrect Application of Ratio": "The student incorrectly applies the ratio to find the number of girls, for example, by adding or subtracting the parts of the ratio instead of using multiplication or division."
+        },
+        "root_cause": {
+            "Misunderstanding Ratio": "The student does not understand that the ratio represents a comparison between the number of boys and girls, not the actual count.",
+            "Arithmetic Error": "The student lacks attention to detail or makes a simple math mistake, such as incorrect division or multiplication.",
+            "Incorrect Application of Ratio": "The student does not know how to apply the ratio to find the missing quantity (number of girls)."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Ratio": "To avoid this error, students should ensure they understand that a ratio compares two quantities. In this case, for every 3 boys, there are 5 girls. They should then apply this understanding to find the actual number of girls given the number of boys.",
+            "Arithmetic Error": "Students should double-check their calculations and ensure they are using the correct numbers. In this case, dividing 18 by 3 to get 6 groups, then multiplying 6 by 5 to get the number of girls.",
+            "Incorrect Application of Ratio": "Students should be taught to set up the problem by finding out how many 'groups' of 3 boys there are and then applying the same multiplier to the number of girls. For example, if there are 18 boys and the ratio of boys to girls is 3:5, find out how many groups of 3 boys there are (18 / 3 = 6), then multiply the number of girls in each group (5) by the number of groups (6)."
+        }
+    },
+    "P6algebr": {
+        "question": "A box contains x pencils. Andy buys 3 more boxes and now he has a total of 40 pencils. How many pencils are there in one box?",
+        "kcID": "P6algebr",
+        "type_of_error": [
+            "Misunderstanding the Problem",
+            "Incorrect Equation Setup",
+            "Arithmetic Error",
+            "Not Checking the Solution"
+        ],
+        "error_explanation": {
+            "Misunderstanding the Problem": "The student does not understand that Andy buys 3 more boxes, which means he now has a total of 4 boxes.",
+            "Incorrect Equation Setup": "The student sets up an incorrect equation, such as $x + 3 = 40$ or $3x = 40$.",
+            "Arithmetic Error": "The student makes a calculation mistake when solving the equation, such as $x = \frac{40}{5}$ instead of $x = \frac{40}{4}$. ",
+            "Not Checking the Solution": "The student does not verify if the solution makes sense in the context of the problem."
+        },
+        "root_cause": {
+            "Misunderstanding the Problem": "The student does not read the problem carefully or does not understand the relationship between the number of boxes and the total number of pencils.",
+            "Incorrect Equation Setup": "The student lacks understanding of how to translate the problem into an algebraic equation.",
+            "Arithmetic Error": "The student lacks attention to detail or has not practiced basic arithmetic operations sufficiently.",
+            "Not Checking the Solution": "The student does not have a habit of checking their solutions to ensure they are reasonable."
+        },
+        "how_to_avoid": {
+            "Misunderstanding the Problem": "Read the problem carefully and highlight key information. Draw a diagram or model to visualize the situation.",
+            "Incorrect Equation Setup": "Practice setting up equations from word problems. Check that the equation makes sense in the context of the problem.",
+            "Arithmetic Error": "Double-check calculations and use a calculator to verify answers. Practice basic arithmetic operations regularly.",
+            "Not Checking the Solution": "Develop a habit of checking solutions by substituting them back into the original problem or equation."
+        }
+    },
+    "O1NumOps": {
+        "question": "A local fruit stall sold 1,250 oranges in the first week and 1,735 oranges in the second week. How many oranges did the stall sell in both weeks altogether?",
+        "kcID": "O1NumOps",
+        "type_of_error": [
+            "Misunderstanding Questions",
+            "Arithmetic Error",
+            "Incorrect Operation"
+        ],
+        "error_explanation": {
+            "Misunderstanding Questions": "The student may not understand what the question is asking for, which is to find the total number of oranges sold in both weeks.",
+            "Arithmetic Error": "The student may make a mistake in adding the numbers together, such as incorrect calculation or incorrect carrying over of numbers.",
+            "Incorrect Operation": "The student may choose the wrong operation to solve the problem, such as subtracting or multiplying instead of adding."
+        },
+        "root_cause": {
+            "Misunderstanding Questions": "The student may not read the question carefully or may not understand what is being asked.",
+            "Arithmetic Error": "The student may not have a strong foundation in basic arithmetic operations or may not have checked their work.",
+            "Incorrect Operation": "The student may not have identified the correct operation to solve the problem or may not have understood the context of the problem."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Questions": "To avoid this error, students should read the question carefully and make sure they understand what is being asked. They should also identify the key information and what operation is required to solve the problem.",
+            "Arithmetic Error": "To avoid this error, students should double-check their calculations and make sure they have performed the correct operation.",
+            "Incorrect Operation": "To avoid this error, students should identify the correct operation to solve the problem by reading it carefully and understanding what is being asked."
+        }
+    },
+    "O1RioPro": {
+        "question": "The ratio of apples to oranges in a basket is 5:3. If there are 45 apples, how many oranges are there in the basket?",
+        "kcID": "O1RioPro",
+        "type_of_error": [
+            "Misunderstanding Ratio",
+            "Arithmetic Error",
+            "Incorrect Application of Proportion"
+        ],
+        "error_explanation": {
+            "Misunderstanding Ratio": "The student misunderstands the given ratio of apples to oranges, which is 5:3. This might lead to incorrectly identifying the relationship between apples and oranges.",
+            "Arithmetic Error": "The student makes a calculation mistake, such as incorrectly dividing or multiplying numbers.",
+            "Incorrect Application of Proportion": "The student incorrectly applies the concept of proportion, possibly by not using the ratio to find the correct number of oranges."
+        },
+        "root_cause": {
+            "Misunderstanding Ratio": "The root cause is a lack of understanding of what a ratio represents. Students might think the numbers in the ratio are actual quantities rather than a comparison.",
+            "Arithmetic Error": "The root cause is carelessness or lack of attention to detail during calculations.",
+            "Incorrect Application of Proportion": "The root cause is a lack of understanding of how to apply ratios and proportions to solve problems, possibly due to insufficient practice or misunderstanding the concept of equivalent ratios."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Ratio": "To avoid this, students should ensure they understand that a ratio compares quantities and does not give actual quantities. Practice problems involving different ratios can help solidify this understanding.",
+            "Arithmetic Error": "To avoid arithmetic errors, students should double-check their calculations, possibly by using a calculator or reworking the problem a different way.",
+            "Incorrect Application of Proportion": "To avoid incorrect application of proportion, students should practice solving ratio and proportion problems. They should also ensure they correctly identify the parts of the ratio and apply them to find the unknown quantity."
+        }
+    },
+    "O1RatSpd": {
+        "question": "A bus travels 192 km from Jurong to Kuala Lumpur in 3 hours. What is the average speed of the bus in km/h?",
+        "kcID": "O1RatSpd",
+        "type_of_error": [
+            "Misunderstanding the concept of average speed",
+            "Arithmetic Error",
+            "Missing Key Information",
+            "Wrong Formula Applied"
+        ],
+        "error_explanation": {
+            "Misunderstanding the concept of average speed": "This error occurs when a student does not understand that average speed is calculated as total distance divided by total time.",
+            "Arithmetic Error": "This error occurs when a student makes a mistake in the division or multiplication process, such as 192 \u00f7 3 = 60 instead of 64.",
+            "Missing Key Information": "This error occurs when a student forgets to use the given information (distance = 192 km, time = 3 hours) to calculate the average speed.",
+            "Wrong Formula Applied": "This error occurs when a student uses an incorrect formula, such as multiplying distance and time instead of dividing distance by time."
+        },
+        "root_cause": {
+            "Misunderstanding the concept of average speed": "The root cause is a lack of understanding of the concept of average speed and its formula.",
+            "Arithmetic Error": "The root cause is carelessness or lack of attention to detail during calculations.",
+            "Missing Key Information": "The root cause is a failure to read or understand the problem statement properly.",
+            "Wrong Formula Applied": "The root cause is a lack of understanding of the correct formula for average speed or confusion with other formulas."
+        },
+        "how_to_avoid": {
+            "Misunderstanding the concept of average speed": "To avoid this error, students should ensure they understand the concept of average speed and practice applying the correct formula (average speed = total distance \u00f7 total time).",
+            "Arithmetic Error": "To avoid this error, students should double-check their calculations and use a calculator if necessary.",
+            "Missing Key Information": "To avoid this error, students should carefully read the problem statement and identify the relevant information.",
+            "Wrong Formula Applied": "To avoid this error, students should memorize the correct formula for average speed and practice applying it to different problems."
+        }
+    },
+    "O1AgbrEF": {
+        "question": "The cost, in dollars, of buying x pens and y pencils is given by the expression 2x + 3y. If Jeremy buys 4 pens and 5 pencils, what is the total cost?",
+        "kcID": "O1AgbrEF",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Questions",
+            "Incorrect Substitution"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "This error occurs when a student makes a mistake in their calculations, such as adding, subtracting, multiplying, or dividing incorrectly.",
+            "Misunderstanding Questions": "This error occurs when a student does not fully understand what the question is asking, such as not realizing that they need to substitute the values of x and y into the expression.",
+            "Incorrect Substitution": "This error occurs when a student substitutes the wrong values into the expression or substitutes the values incorrectly."
+        },
+        "root_cause": {
+            "Arithmetic Error": "The root cause of arithmetic errors is often a lack of attention to detail or a simple mistake in calculation. This can be due to rushing through the problem or not checking work.",
+            "Misunderstanding Questions": "The root cause of misunderstanding questions is often a lack of careful reading or a failure to identify key information in the question.",
+            "Incorrect Substitution": "The root cause of incorrect substitution is often a lack of attention to detail or a misunderstanding of what values to substitute into the expression."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "To avoid arithmetic errors, students should take their time when calculating and check their work. They can also use a calculator to verify their calculations.",
+            "Misunderstanding Questions": "To avoid misunderstanding questions, students should read the question carefully and highlight key information. They should also make sure they understand what is being asked before starting to solve the problem.",
+            "Incorrect Substitution": "To avoid incorrect substitution, students should carefully identify the values to be substituted into the expression and double-check that they are substituting the correct values."
+        }
+    },
+    "O1EqIneq": {
+        "question": "When Adam subtracted 7 from twice his age, he got 21. How old is Adam now?",
+        "kcID": "O1EqIneq",
+        "type_of_error": [
+            "Misreading the Question",
+            "Incorrect Algebraic Manipulation",
+            "Arithmetic Error"
+        ],
+        "error_explanation": {
+            "Misreading the Question": "The student misunderstands the problem statement, for example, misinterpreting 'twice his age' or 'subtracted 7 from twice his age'.",
+            "Incorrect Algebraic Manipulation": "The student incorrectly solves the equation, such as incorrectly adding or subtracting terms from both sides, or incorrectly multiplying or dividing both sides.",
+            "Arithmetic Error": "The student makes a simple arithmetic mistake, such as adding or multiplying incorrectly."
+        },
+        "root_cause": {
+            "Misreading the Question": "The student does not carefully read or understand the problem, leading to incorrect interpretation of the information given.",
+            "Incorrect Algebraic Manipulation": "The student lacks understanding of basic algebraic operations and rules for solving equations.",
+            "Arithmetic Error": "The student is not careful with calculations or lacks practice in basic arithmetic operations."
+        },
+        "how_to_avoid": {
+            "Misreading the Question": "Read the problem statement carefully and slowly. Underline key information and translate the words into mathematical expressions.",
+            "Incorrect Algebraic Manipulation": "Practice solving equations step by step. Check each step to ensure that the algebraic manipulations are correct.",
+            "Arithmetic Error": "Double-check calculations. Use a calculator to verify simple arithmetic operations if necessary."
+        }
+    },
+    "O2Prob": {
+        "question": "A bag contains 5 red pens, 3 blue pens, and 2 black pens. If a student picks a pen at random from the bag, what is the probability that the pen picked is either blue or black?",
+        "kcID": "O2Prob",
+        "type_of_error": [
+            "Misunderstanding the question",
+            "Incorrect calculation of total number of pens",
+            "Incorrect calculation of number of favorable outcomes",
+            "Arithmetic Error",
+            "Wrong Formula Applied"
+        ],
+        "error_explanation": {
+            "Misunderstanding the question": "The student does not understand what the question is asking, such as not realizing that the probability of picking either a blue or black pen is required.",
+            "Incorrect calculation of total number of pens": "The student incorrectly calculates the total number of pens in the bag, such as not adding the number of red, blue, and black pens correctly.",
+            "Incorrect calculation of number of favorable outcomes": "The student incorrectly calculates the number of pens that are either blue or black, such as not adding the number of blue and black pens correctly.",
+            "Arithmetic Error": "The student makes a simple arithmetic mistake, such as adding or multiplying numbers incorrectly.",
+            "Wrong Formula Applied": "The student applies the wrong formula for probability, such as not using the formula: Probability = Number of favorable outcomes / Total number of outcomes."
+        },
+        "root_cause": {
+            "Misunderstanding the question": "The student lacks understanding of the problem or reads the question carelessly.",
+            "Incorrect calculation of total number of pens": "The student lacks basic addition skills or is careless when adding numbers.",
+            "Incorrect calculation of number of favorable outcomes": "The student lacks basic addition skills or is careless when adding numbers.",
+            "Arithmetic Error": "The student lacks basic arithmetic skills or is careless when performing calculations.",
+            "Wrong Formula Applied": "The student lacks understanding of the probability concept or has not practiced applying the correct formula."
+        },
+        "how_to_avoid": {
+            "Misunderstanding the question": "Read the question carefully and make sure to understand what is being asked. Underline key words and phrases.",
+            "Incorrect calculation of total number of pens": "Double-check calculations and make sure to add numbers correctly. Use a calculator if necessary.",
+            "Incorrect calculation of number of favorable outcomes": "Double-check calculations and make sure to add numbers correctly. Use a calculator if necessary.",
+            "Arithmetic Error": "Double-check calculations and make sure to perform arithmetic operations correctly. Use a calculator if necessary.",
+            "Wrong Formula Applied": "Make sure to understand the probability concept and practice applying the correct formula: Probability = Number of favorable outcomes / Total number of outcomes."
+        }
+    },
+    "O3NumOps": {
+        "question": "A bag contains 64 red marbles and 48 blue marbles. Each packet must have an equal number of marbles of only one colour. What is the largest number of marbles that can be placed in each packet, and how many packets of each colour will there be?",
+        "kcID": "O3NumOps",
+        "type_of_error": [
+            "Misunderstanding the concept of HCF",
+            "Incorrect listing of factors",
+            "Arithmetic Error in finding HCF",
+            "Misinterpreting the question's requirement for equal number of marbles in each packet",
+            "Failure to find the number of packets for each colour"
+        ],
+        "error_explanation": {
+            "Misunderstanding the concept of HCF": "The student does not understand that the problem requires finding the Highest Common Factor (HCF) of 64 and 48 to determine the largest number of marbles per packet.",
+            "Incorrect listing of factors": "The student lists incorrect factors for 64 or 48, leading to an incorrect identification of common factors.",
+            "Arithmetic Error in finding HCF": "The student makes a calculation mistake when finding the HCF, such as incorrect division or miscalculation of factors.",
+            "Misinterpreting the question's requirement for equal number of marbles in each packet": "The student misunderstands that each packet must have an equal number of marbles of only one colour, leading to incorrect solutions.",
+            "Failure to find the number of packets for each colour": "The student finds the HCF but fails to calculate the number of packets for each colour."
+        },
+        "root_cause": {
+            "Misunderstanding the concept of HCF": "Lack of understanding of the concept of HCF and its application in solving problems.",
+            "Incorrect listing of factors": "Carelessness or lack of attention to detail when listing factors.",
+            "Arithmetic Error in finding HCF": "Weakness in basic arithmetic operations or carelessness in calculations.",
+            "Misinterpreting the question's requirement for equal number of marbles in each packet": "Insufficient reading of the question or lack of clarity in understanding the problem's requirements.",
+            "Failure to find the number of packets for each colour": "Inability to apply the HCF to find the number of packets for each colour."
+        },
+        "how_to_avoid": {
+            "Misunderstanding the concept of HCF": "Review the concept of HCF and its application in solving problems. Practice finding HCF for different numbers.",
+            "Incorrect listing of factors": "Double-check the listing of factors for accuracy. Use a systematic approach to list factors.",
+            "Arithmetic Error in finding HCF": "Practice basic arithmetic operations to build accuracy and speed. Use calculators to verify calculations.",
+            "Misinterpreting the question's requirement for equal number of marbles in each packet": "Read the question carefully and clarify the problem's requirements. Identify key phrases such as 'equal number of marbles' and 'only one colour'.",
+            "Failure to find the number of packets for each colour": "Practice applying HCF to real-world problems. Check that all parts of the question are answered."
+        }
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "P1N100": [
+        "Place Value Error"
+    ],
+    "P1AddSub": [],
+    "P1MulDiv": [],
+    "P1Money": [
+        "Miscounting or Omitting Coins",
+        "Misunderstanding Coin Value"
+    ],
+    "P2N1000": [
+        "Place Value Misalignment"
+    ],
+    "P2FracW": [
+        "Wrong Fraction Representation",
+        "Incorrect Denominator"
+    ],
+    "P2FracAS": [
+        "Arithmetic Error in Fraction Addition",
+        "Misunderstanding the Question or Fractions"
+    ],
+    "P3N10k": [
+        "Misalignment of Digits",
+        "Place Value Misinterpretation"
+    ],
+    "P3FracEq": [
+        "Misunderstanding Equivalent Fractions",
+        "Arithmetic Error in Fraction Conversion",
+        "Incorrect Comparison of Numerators or Denominators"
+    ],
+    "P4N100k": [
+        "Misalignment of Digits"
+    ],
+    "P4FctorM": [
+        "Misunderstanding the Concept of Factors",
+        "Incorrectly Listing Factors"
+    ],
+    "P44Op": [],
+    "P4FracMI": [
+        "Misunderstanding Mixed Numbers",
+        "Missing or Mismanaging Denominator"
+    ],
+    "P4FracSet": [
+        "Misunderstanding the Fraction of a Set",
+        "Inversion Error",
+        "Missing Key Information"
+    ],
+    "P4Deci3d": [
+        "Decimal Misalignment",
+        "Place Value Confusion",
+        "Borrowing/Regrouping Error"
+    ],
+    "P4DeciAS": [
+        "Place Value Misunderstanding",
+        "Misinterpreting Comparison Order"
+    ],
+    "P4DeciMD": [
+        "Incorrect Division Order",
+        "Decimal Misconception",
+        "Misinterpreting Result"
+    ],
+    "P5N1m": [
+        "Place Value and Alignment Error",
+        "Misinterpretation of Thousand Separators",
+        "Omission of Trailing Zeros"
+    ],
+    "P5FracDv": [
+        "Misinterpreting the Division Order",
+        "Misunderstanding the Concept of Sharing",
+        "Whole Number Misconception"
+    ],
+    "P5Frac4Op": [
+        "Incorrect Subtraction of Fractions",
+        "Incorrect Division of Fractions",
+        "Procedural Error"
+    ],
+    "P5Deci4Op": [],
+    "P5perctg": [
+        "Incorrect Conversion of Percentage",
+        "Missing Simplification"
+    ],
+    "P5rate": [],
+    "P6ratio": [
+        "Misreading or Misunderstanding the Ratio",
+        "Incorrect Application of Ratio"
+    ],
+    "P6algebr": [
+        "Misunderstanding Total Boxes",
+        "Incorrect Equation Setup"
+    ],
+    "O1NumOps": [
+        "Place Value Misalignment"
+    ],
+    "O1RioPro": [
+        "Misunderstanding Ratio Direction",
+        "Incorrect Application of Ratio/Proportion"
+    ],
+    "O1RatSpd": [],
+    "O1AgbrEF": [
+        "Substitution Error",
+        "Misinterpretation of the Algebraic Expression",
+        "Order of Operations Error"
+    ],
+    "O1EqIneq": [
+        "Wrong Equation Formed (Incorrect Translation or Grouping)",
+        "Incorrect Algebraic Manipulation",
+        "Forgetting to Use a Variable"
+    ],
+    "O2Prob": [],
+    "O3NumOps": [
+        "Confusing HCF with LCM",
+        "Incorrect Listing of Factors or Factorization",
+        "Misinterpreting or Missing Packet Requirements"
+    ]
+}

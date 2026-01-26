@@ -1,0 +1,262 @@
+{
+  "O2-AgSlvSq1v_O1-AgRepEq_GPT4.1_Services_03": {
+    "Primary_kc": "ALGEBRA | Solving | solving quadratic equations in one variable",
+    "Secondary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations to equations",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Secondary O-level 2",
+    "QID": "O2-AgSlvSq1v_O1-AgRepEq_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A hotel offers a weekend package where each room rented out earns the hotel \\textdollar120 per night. However, the hotel incurs a fixed overhead cost of \\textdollar2000 for the weekend and spends \\textdollar10 for cleaning per room every night. After a certain number of rooms are rented each night for two nights, the total profit made by the hotel is zero. \n\nLet $x$ be the number of rooms rented each night for the weekend. \n\n(a) Write down an equation in $x$ to represent the above situation.  \n(b) Solve the equation to find the number of rooms rented each night that results in zero profit for the hotel.",
+      "solution": "(a) The total revenue for 2 nights is $2 \\times 120x = 240x$. \n\nThe total cleaning cost for 2 nights is $2 \\times 10x = 20x$. \n\nTotal cost = Overhead + Cleaning = $2000 + 20x$. \n\nProfit = Revenue - Total cost = $240x - (2000 + 20x) = 240x - 2000 - 20x = 220x - 2000$. \n\nGiven that the profit is zero:\n\n$220x - 2000 = 0$\n\n(b) $220x = 2000$\n\n$x = \\frac{2000}{220} = \\frac{1000}{110} = \\frac{100}{11} \\approx 9.09$\n\nSince the number of rooms must be a whole number, the hotel needs to rent 10 rooms each night to make a slight profit, or exactly 9 rooms to have a small loss. But for zero profit, \n\n\\boxed{x = 9.09} (which means renting 10 rooms would ensure at least no loss)",
+      "response_time": 4.945205450057983
+    }
+  },
+  "P5-FrSubMix_P2-FrAdd2nd_GPT4.1_Services_03": {
+    "Primary_kc": "FRACTIONS | Subtraction | subtracting mixed numbers",
+    "Secondary_kc": "FRACTIONS | Addition | adding fractions",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 5",
+    "QID": "P5-FrSubMix_P2-FrAdd2nd_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A washing machine repairman spent $4\\dfrac{1}{2}$ hours repairing washing machines in the morning. In the afternoon, he repaired washing machines for another $2\\dfrac{2}{3}$ hours. However, $1\\dfrac{3}{4}$ hours of his afternoon work was spent cleaning up and not actual repairing. \n\n(a) What is the total number of hours he spent repairing washing machines (before removing the cleaning time)?\n\n(b) How many hours did he actually spend repairing washing machines in total when the cleaning up time is not included?",
+      "solution": "(a) Total number of hours spent repairing (before removing the cleaning time):\n\n$4\\dfrac{1}{2} + 2\\dfrac{2}{3}$\n\nConvert to improper fractions:\n\n$4\\dfrac{1}{2} = \\frac{9}{2}$\n\n$2\\dfrac{2}{3} = \\frac{8}{3}$\n\nFind a common denominator (6):\n\n$\\frac{9}{2} = \\frac{27}{6}$\n$\\frac{8}{3} = \\frac{16}{6}$\n\n$\\frac{27}{6} + \\frac{16}{6} = \\frac{43}{6}$\n\nIn mixed number, $\\frac{43}{6} = 7\\dfrac{1}{6}$\n\nSo, he spent $7\\dfrac{1}{6}$ hours in total (before removing cleaning time).\n\n(b) Actual hours spent repairing, after subtracting cleaning time:\n\nCleaning time: $1\\dfrac{3}{4} = \\frac{7}{4}$\n\nConvert $7\\dfrac{1}{6}$ to improper fraction:\n\n$7\\dfrac{1}{6} = \\frac{43}{6}$\n\nFind common denominator for subtraction. The LCM of 6 and 4 is 12.\n\n$\\frac{43}{6} = \\frac{86}{12}$\n\n$\\frac{7}{4} = \\frac{21}{12}$\n\n$\\frac{86}{12} - \\frac{21}{12} = \\frac{65}{12}$\n\n$\\frac{65}{12} = 5\\dfrac{5}{12}$\n\nSo, the repairman actually spent $5\\dfrac{5}{12}$ hours repairing washing machines in total when the cleaning time is not included.",
+      "response_time": 6.499618291854858
+    }
+  },
+  "O1-RoRepDc_P4-DcAdd2nd_GPT4.1_Services_03": {
+    "Primary_kc": "RATIO | Representation and concept | ratios involving decimals",
+    "Secondary_kc": "DECIMALS | Addition | adding decimals",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-RoRepDc_P4-DcAdd2nd_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company uses two different detergents to clean hotel rooms. For every $2.5$ litres of Detergent A used, they use $3.75$ litres of Detergent B. Over the weekend, the staff used a total of $12.5$ litres of Detergent A and $18.75$ litres of Detergent B. \n\n(a) Find the ratio of the amount of Detergent A used to the amount of Detergent B used over the weekend, in its simplest form.\n\n(b) Find the total amount of detergent (in litres) the company used over the weekend.",
+      "solution": "(a) The amount of Detergent A used : amount of Detergent B used = $12.5 : 18.75$.\n\nTo simplify, divide both terms by $12.5$:\n\\[\n\\frac{12.5}{12.5} : \\frac{18.75}{12.5} = 1 : 1.5\n\\]\nExpress $1 : 1.5$ as a ratio in whole numbers by multiplying both terms by 2:\n\\[\n1 \\times 2 : 1.5 \\times 2 = 2 : 3\n\\]\nSo, the ratio is $2 : 3$.\n\n(b) The total amount of detergent used $= 12.5 + 18.75 = 31.25$ litres.\n\n\\textbf{Answers:}\n(a) $2 : 3$\n\n(b) $31.25$ litres.",
+      "response_time": 3.492781639099121
+    }
+  },
+  "P4-DcAdd2d_P4-DcRnd3d_GPT4.1_Services_04": {
+    "Primary_kc": "DECIMALS | Addition | adding decimals (up to 2 decimal places)",
+    "Secondary_kc": "DECIMALS | Rounding | rounding decimals up to 3 decimal places to the nearest whole number, 1 decimal place and 2 decimal places ",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 4",
+    "QID": "P4-DcAdd2d_P4-DcRnd3d_GPT4.1_Services_04",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Alicia uses a cleaning service that charges $\\textdollar12.55$ for cleaning the living room, $\\textdollar9.80$ for cleaning the kitchen, and $\\textdollar7.275$ for cleaning the bathroom. After the cleaners finish their work, Alicia wants to know:\n\n(a) What is the total amount she needs to pay before rounding?\n\n(b) Round the total amount to the nearest whole dollar.\n\n(c) Round the total amount to the nearest $1$ decimal place.\n\n(d) Round the total amount to the nearest $2$ decimal places.",
+      "solution": "(a) First, add up all the charges:\n\n$\\textdollar12.55 + \\textdollar9.80 + \\textdollar7.275 = \\textdollar29.625$\n\nSo, the total amount Alicia needs to pay before rounding is $\\textdollar29.625$.\n\n(b) Rounded to the nearest whole dollar:\n\n$29.625 \\approx 30$\n\nSo, Alicia should pay $\\textdollar30$ after rounding to the nearest whole dollar.\n\n(c) Rounded to $1$ decimal place:\n\n$29.625 \\approx 29.6$\n\nSo, Alicia should pay $\\textdollar29.6$ after rounding to the nearest $1$ decimal place.\n\n(d) Rounded to $2$ decimal places:\n\n$29.625 \\approx 29.63$\n\nSo, Alicia should pay $\\textdollar29.63$ after rounding to the nearest $2$ decimal places.",
+      "response_time": 4.084697723388672
+    }
+  },
+  "P5-FrMulImN_P2-FrSub2nd_GPT4.1_Services_03": {
+    "Primary_kc": "FRACTIONS | Multiplication | multiplying a proper/improper fraction and a whole number",
+    "Secondary_kc": "FRACTIONS | Subtraction | subtracting fractions",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 5",
+    "QID": "P5-FrMulImN_P2-FrSub2nd_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A hotel uses $\\dfrac{3}{4}$ of a bottle of cleaning solution to clean one guest room. On Monday, the hotel staff cleaned 6 rooms. On Tuesday, they used $\\dfrac{5}{2}$ bottles of cleaning solution in total for cleaning. \n\nHow many more bottles of cleaning solution did the hotel use on Monday than on Tuesday?",
+      "solution": "First, find how much cleaning solution was used on Monday:\n\nThey used $\\dfrac{3}{4}$ bottle per room, for 6 rooms:\n\n$\\dfrac{3}{4} \\times 6 = \\dfrac{3 \\times 6}{4} = \\dfrac{18}{4} = \\dfrac{9}{2}$ bottles$\n\nOn Tuesday, they used $\\dfrac{5}{2}$ bottles.\n\nFind the difference:\n\n$\\dfrac{9}{2} - \\dfrac{5}{2} = \\dfrac{4}{2} = 2$\n\nSo, the hotel used 2 more bottles of cleaning solution on Monday than on Tuesday.",
+      "response_time": 3.11159610748291
+    }
+  },
+  "O1-RoRepDc_O1-RoSmpDc_GPT4.1_Services_04": {
+    "Primary_kc": "RATIO | Representation and concept | ratios involving decimals",
+    "Secondary_kc": "RATIO | Simplifying | converting a ratio involving decimals to its simplest form",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-RoRepDc_O1-RoSmpDc_GPT4.1_Services_04",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a hotel laundry service, the staff washed $6.5$ kg of towels and $13$ kg of bedsheets in one load. \n\n(a) Write the ratio of the mass of towels to the mass of bedsheets washed.\n\n(b) Express this ratio in its simplest form.",
+      "solution": "(a) The mass of towels to bedsheets is $6.5 : 13$.\n\n(b) To simplify $6.5 : 13$, divide both terms by $6.5$:\n\n\\[\n\\frac{6.5}{6.5} : \\frac{13}{6.5} = 1 : 2\n\\]\n\nSo, the simplified ratio is $1 : 2$.",
+      "response_time": 1.9764306545257568
+    }
+  },
+  "P4-WNMul4d1d_P1-WNSub2nd_GPT4.1_Services_04": {
+    "Primary_kc": "WHOLE NUMBERS | Multiplication | multiplying whole numbers up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtracting whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 4",
+    "QID": "P4-WNMul4d1d_P1-WNSub2nd_GPT4.1_Services_04",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A laundry shop charges $\\textdollar15$ to wash one big blanket. Last weekend, Mrs Tan brought $48$ big blankets to the laundry shop to be washed for her hotel. After the washing, Mrs Tan realised that $7$ of the blankets were not cleaned properly and she asked for a refund for those $7$ blankets. How much did Mrs Tan pay in total after getting the refund?",
+      "solution": "First, we find the total cost to wash all $48$ blankets: \n\n$$48 \\times 15 = 720$$\n\nSo, the initial amount Mrs Tan had to pay was $\\textdollar720$.\n\nNext, we calculate the refund for the $7$ blankets:\n\n$$7 \\times 15 = 105$$\n\nSo, Mrs Tan is refunded $\\textdollar105$.\n\nNow, subtract the refund from the initial payment to find out the total amount Mrs Tan paid:\n\n$$720 - 105 = 615$$\n\nTherefore, after getting the refund, Mrs Tan paid $\\textdollar615$ in total.",
+      "response_time": 4.007103681564331
+    }
+  },
+  "O1-RoRepFr_P6-FrDiv2nd_GPT4.1_Services_03": {
+    "Primary_kc": "RATIO | Representation and concept | ratios involving fractions",
+    "Secondary_kc": "FRACTIONS | Division | fraction division",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-RoRepFr_P6-FrDiv2nd_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A hotel is changing the cleaning liquid used by its housekeeping staff. The staff currently use a mixture where the ratio of cleaning liquid to water is $\\frac{3}{4}:1$. For a batch, the housekeeping staff need $12\\ \\text{litres}$ of water. \n\n(a) How many litres of cleaning liquid do they need?\n\n(b) If one container of cleaning liquid holds $2\\ \\text{litres}$, how many containers are needed to prepare this mixture for six rooms, if the amount of mixture used is the same for each room?",
+      "solution": "(a) The ratio of cleaning liquid to water is $\\frac{3}{4}:1$, meaning for every $1$ litre of water, they use $\\frac{3}{4}$ litre of cleaning liquid. \n\nFor $12$ litres of water, the litres of cleaning liquid needed is:\n\\[\n12 \\times \\frac{3}{4} = 9\n\\]\n\nSo, they need $9$ litres of cleaning liquid.\n\n(b) Total amount of mixture needed for one batch (for one room) = $12$ litres of water $+ 9$ litres of cleaning liquid $= 21$ litres.\n\nFor six rooms: $21 \\times 6 = 126$ litres$ $.\n\nTotal cleaning liquid needed for six rooms: $9 \\times 6 = 54$ litres.\n\nEach container has $2$ litres, so the number of containers required is:\n\\[\n\\frac{54}{2} = 27\n\\]\n\nSo, they need $27$ containers of cleaning liquid to prepare the mixture for six rooms.",
+      "response_time": 5.505150079727173
+    }
+  },
+  "P5-DcDiv3dK_P4-DcAdd2nd_GPT4.1_Services_03": {
+    "Primary_kc": "DECIMALS | Division | dividing decimals (up to 3 decimal places) by 10, 100, 1000 and their multiples",
+    "Secondary_kc": "DECIMALS | Addition | adding decimals",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 5",
+    "QID": "P5-DcDiv3dK_P4-DcAdd2nd_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning service company charges $\\textdollar12.750$ to clean one room. The company is offering a special promotion: for every 10 rooms cleaned, you get a discount equal to the cost of cleaning one room divided by $10$, added to the total bill as a discount. \n\n(a) What is the amount of discount given for every 10 rooms cleaned?\n\n(b) If a customer hires the company to clean $23$ rooms, how much is the total amount to be paid after applying the appropriate discount?\n",
+      "solution": "(a) The cost of cleaning one room is $12.750$. The discount for every 10 rooms is $\\frac{12.750}{10} = 1.275$.\n\n(b) For 23 rooms:\n\nCost before discount: $12.750 \\times 23 = 293.250$\n\nNumber of discounts applied: For every 10 rooms, there is 1 discount. $23 \\div 10 = 2$ complete sets of 10 rooms, so $2$ discounts.\n\nTotal discount: $1.275 \\times 2 = 2.550$\n\nFinal amount to be paid: $293.250 - 2.550 = 290.700$\n\nThe customer should pay $\\textdollar290.700$ after applying the discounts.",
+      "response_time": 3.455259323120117
+    }
+  },
+  "O2-AgSlvLr2v_O1-AgRepEq_GPT4.1_Services_03": {
+    "Primary_kc": "ALGEBRA | Solving | solving linear equations in two variables",
+    "Secondary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations to equations",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Secondary O-level 2",
+    "QID": "O2-AgSlvLr2v_O1-AgRepEq_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A company offers a basic cleaning service for offices that charges a fixed fee per session and an additional fee for each square metre cleaned. On Monday, they cleaned an office of $50$ square metres and charged \\textdollar 130. On Tuesday, they cleaned another office of $80$ square metres and charged \\textdollar 190. \n\nLet $x$ be the fixed fee per cleaning session (in \\textdollar) and $y$ be the fee charged per square metre cleaned (in \\textdollar).\n\n(a) Write down two equations to represent the charges on Monday and Tuesday.\n\n(b) Solve these equations to find the fixed fee per session and the fee per square metre cleaned.",
+      "solution": "(a)\nLet $x$ be the fixed fee per session and $y$ be the fee per square metre. \n\nMonday: $x + 50y = 130$\n\nTuesday: $x + 80y = 190$\n\n(b)\nSubtract the first equation from the second:\n\n$(x + 80y) - (x + 50y) = 190 - 130$\n\n$x + 80y - x - 50y = 60$\n\n$30y = 60$\n\n$y = 2$\n\nSubstitute $y = 2$ into $x + 50y = 130$:\n\n$x + 50(2) = 130$\n\n$x + 100 = 130$\n\n$x = 30$\n\nTherefore, the fixed fee per session is \\textdollar30, and the fee per square metre cleaned is \\textdollar2.",
+      "response_time": 4.863262891769409
+    }
+  },
+  "P5-DcDiv3dK_P4-DcCnv2Fr_GPT4.1_Services_03": {
+    "Primary_kc": "DECIMALS | Division | dividing decimals (up to 3 decimal places) by 10, 100, 1000 and their multiples",
+    "Secondary_kc": "DECIMALS | Conversion from decimals to fraction | expressing decimals as fractions",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 5",
+    "QID": "P5-DcDiv3dK_P4-DcCnv2Fr_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A car wash service charges \\textdollar25.800 for washing 100 cars in a day. \n\n(a) How much does it cost, on average, to wash 1 car? Give your answer as a decimal.\n\n(b) Express your answer in (a) as a fraction in its simplest form.",
+      "solution": "(a) To find the average cost to wash 1 car, divide the total cost by the number of cars:\n\n\\[\n\\text{Average cost per car} = \\frac{25.800}{100} = 0.258\n\\]\n\nSo, it costs \\textdollar0.258 to wash 1 car.\n\n(b) To express $0.258$ as a fraction:\n\n\\[\n0.258 = \\frac{258}{1000}\n\\]\nNow, simplify $\\frac{258}{1000}$ by dividing both numerator and denominator by 2:\n\n\\[\n\\frac{258}{1000} = \\frac{129}{500}\n\\]\n\nTherefore, $0.258$ as a fraction in its simplest form is $\\frac{129}{500}$.",
+      "response_time": 3.5333094596862793
+    }
+  },
+  "P5-FrMulPIm_P5-FrCnv2Dc_GPT4.1_Services_03": {
+    "Primary_kc": "FRACTIONS | Multiplication | multiplying a proper fraction and a proper/improper fractions",
+    "Secondary_kc": "FRACTIONS | Conversion to decimals | expressing fractions as decimals",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 5",
+    "QID": "P5-FrMulPIm_P5-FrCnv2Dc_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A hotel laundry charges its customers according to the weight of clothes to be washed. For every load, Jasmine sends $\\frac{3}{4}$ kg of clothes to be cleaned. If the laundry cleans $\\frac{5}{2}$ times as much weight in total during a sale week, how many kilograms of clothes does the laundry clean in total for Jasmine during the sale week? Express your answer as a decimal.",
+      "solution": "Jasmine sends $\\frac{3}{4}$ kg for each load. During the sale week, the laundry cleans $\\frac{5}{2}$ times as much:\n\n$\\frac{3}{4} \\times \\frac{5}{2} = \\frac{3 \\times 5}{4 \\times 2} = \\frac{15}{8}$ kg.\n\nNow, to convert $\\frac{15}{8}$ to a decimal, divide $15$ by $8$:\n\n$\\frac{15}{8} = 1.875$\n\nTherefore, the laundry cleans $1.875$ kg of Jasmine's clothes in total during the sale week.",
+      "response_time": 2.7627274990081787
+    }
+  },
+  "O1-PcFndRslt_P1-WNDiv2nd_GPT4.1_Services_03": {
+    "Primary_kc": "PERCENTAGE | Finding result after change | increasing/decreasing a quantity by a given percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Division | dividing whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-PcFndRslt_P1-WNDiv2nd_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A digital streaming service increased its monthly subscription price by $15\\%$. The service previously charged $\\textdollar80$ per month. After the price increase, a school wants to sign up for a group account for 12 teachers.\\\n\\\n(a) What is the new monthly subscription price after the increase? \\\\\n(b) How much does each teacher need to pay per month if the cost is divided equally among them?",
+      "solution": "(a) The monthly price is increased by $15\\%$.\\\\\nAmount of increase $= 15\\% \\times \\textdollar80 = \\frac{15}{100} \\times 80 = 12$ \\\\\nNew monthly subscription price $= \\textdollar80 + \\textdollar12 = \\textdollar92$\\\\\n\\\\\n(b) Amount each teacher pays per month $= \\frac{\\textdollar92}{12} = \\textdollar7.67$\\\\\n\\\\\nTherefore, the new monthly subscription price is $\\textdollar92$ and each teacher pays $\\textdollar7.67$ per month.",
+      "response_time": 2.837209701538086
+    }
+  },
+  "P6-AgRepLrEx_P6-AgEvlLrEx_GPT4.1_Services_08": {
+    "Primary_kc": "ALGEBRA | Representation and concept | translation of real-world situations into linear algebraic expressions",
+    "Secondary_kc": "ALGEBRA | Evaluation | evaluating linear expressions by substitution",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 6",
+    "QID": "P6-AgRepLrEx_P6-AgEvlLrEx_GPT4.1_Services_08",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company charges a fixed fee of $\\textdollar15$ for each house cleaning, plus $\\textdollar8$ for every hour they spend cleaning. \n\n(a) Write a linear algebraic expression to represent the total cost, $C$, for cleaning a house for $h$ hours.\n\n(b) If a customer needs their house cleaned for $3$ hours, how much will the cleaning company charge?",
+      "solution": "(a) The total cost, $C$, consists of a fixed fee of $\\textdollar15$ and an hourly fee of $\\textdollar8$ for each hour. So,\n\n$$C = 15 + 8h$$\n\nwhere $h$ is the number of hours.\n\n(b) Substituting $h = 3$ into the expression:\n\n$$C = 15 + 8 \\times 3$$\n$$C = 15 + 24$$\n$$C = 39$$\n\nThe cleaning company will charge $\\textdollar39$ if the cleaning takes $3$ hours.",
+      "response_time": 2.3574602603912354
+    }
+  },
+  "P3-WNMul3d1d_P1-WNAdd2nd_GPT4.1_Services_04": {
+    "Primary_kc": "WHOLE NUMBERS | Multiplication | multiplying whole numbers up to 3 digits by 1 digit",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | adding whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 3",
+    "QID": "P3-WNMul3d1d_P1-WNAdd2nd_GPT4.1_Services_04",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A laundry shop charges \\textdollar4 to wash one shirt. Amy brought 7 shirts to be washed. She also brought 3 trousers. Each trouser costs \\textdollar6 to wash. How much did Amy pay in total for washing all her clothes?",
+      "solution": "Cost to wash 7 shirts $= 7 \\times 4 = 28$ (\\textdollar28) \\\\ \nCost to wash 3 trousers $= 3 \\times 6 = 18$ (\\textdollar18) \\\\ \nTotal amount paid $= 28 + 18 = 46$ \\\\ \n\\boxed{\\textdollar46}$ in total.",
+      "response_time": 2.0079054832458496
+    }
+  },
+  "P3-WNDiv3d1d_P1-WNAdd2nd_GPT4.1_Services_04": {
+    "Primary_kc": "WHOLE NUMBERS | Division | dividing whole numbers up to 3 digits by 1 digit",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | adding whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 3",
+    "QID": "P3-WNDiv3d1d_P1-WNAdd2nd_GPT4.1_Services_04",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A hotel laundry room washed $324$ towels over $6$ days. Each day, the washing machine washed the same number of towels. At the end of the week, the staff added $48$ more towels to be washed. \n\nHow many towels did the laundry room wash in total over the week?",
+      "solution": "First, find out how many towels were washed each day:\n\n$324 \\div 6 = 54$\n\nSo, $54$ towels were washed each day. Over $6$ days:\n\n$54 \\times 6 = 324$\n\nAfter $6$ days, $48$ more towels were added to be washed:\n\n$324 + 48 = 372$\n\nTherefore, the laundry room washed $372$ towels in total over the week.",
+      "response_time": 2.434382915496826
+    }
+  },
+  "P5-RtFndT_P2-DcCnvD2N_GPT4.1_Services_03": {
+    "Primary_kc": "RATE | Finding total amount | finding total amount, given rate and number of units",
+    "Secondary_kc": "DECIMALS | Conversion to smaller units | converting an amount or measurement from a larger unit in decimal form to a smaller unit",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 5",
+    "QID": "P5-RtFndT_P2-DcCnvD2N_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Mr. Tan hires a cleaning company to clean his office. The company charges $\\textdollar2.50$ per square metre. His office has an area of $36.75$ square metres. How much does Mr. Tan need to pay in total? If Mr. Tan wants to know how much he pays per square centimetre, convert his total payment to the amount per square centimetre. ($1$ square metre $= 10\\,000$ square centimetres)",
+      "solution": "First, find the total amount Mr. Tan needs to pay:  \n\nAmount to pay = Rate per square metre $\\times$ Number of square metres  \n$= \\textdollar2.50 \\times 36.75$  \n$= \\textdollar91.875$\n\nNext, find the total area in square centimetres:\n$36.75$ square metres $= 36.75 \\times 10,000 = 367,500$ square centimetres\n\nNow, find the amount paid per square centimetre:\n\nAmount per square centimetre $= \\dfrac{\\textdollar91.875}{367,500}$\n$= \\textdollar0.00025$\n\nSo, Mr. Tan needs to pay \\textdollar91.88 ($\\textdollar91.875$ rounded to the nearest cent) in total, and he pays \\textdollar0.00025 per square centimetre.",
+      "response_time": 4.313197135925293
+    }
+  },
+  "P6-PcFndWN_P1-WNAdd2nd_GPT4.1_Services_03": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | adding whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P1-WNAdd2nd_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company charged Mei Ling \\textdollar120 for cleaning her apartment. This amount was 30\\% of her total cleaning expenses for the month. Later, Mei Ling paid \\textdollar75 for laundry services in the same month. \n\nWhat was the total amount Mei Ling spent on cleaning and laundry for the month?",
+      "solution": "Let the total cleaning expenses be $x$.\n\nWe are told that 30\\% of her cleaning expenses is \\textdollar120, so:\n\n$30\\% \\times x = 120$\n\n$0.3x = 120$\n\n$x = \\frac{120}{0.3} = 400$\n\nMei Ling's total cleaning expenses was \\textdollar400. \n\nAdding the laundry expenses:\n\n\\textdollar400 + \\textdollar75 = \\textdollar475\n\nThus, the total amount Mei Ling spent on cleaning and laundry for the month was \\textdollar475.",
+      "response_time": 4.393410682678223
+    }
+  },
+  "P5-FrSubMix_P2-FrCmp_GPT4.1_Services_03": {
+    "Primary_kc": "FRACTIONS | Subtraction | subtracting mixed numbers",
+    "Secondary_kc": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Primary 5",
+    "QID": "P5-FrSubMix_P2-FrCmp_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Mr Lim was cleaning two hotel rooms. He used $2\\dfrac{3}{4}$ litres of cleaning solution in Room A and $1\\dfrac{5}{8}$ litres in Room B. \n\n(a) How much more cleaning solution did Mr Lim use in Room A than in Room B?\n\n(b) After cleaning both rooms, did Mr Lim use more or less than 4 litres of cleaning solution in total? Show your working.",
+      "solution": "(a) First, subtract the amount used in Room B from the amount used in Room A:\n\n$2\\dfrac{3}{4} - 1\\dfrac{5}{8}$\n\nConvert both numbers to improper fractions:\n\n$2\\dfrac{3}{4} = \\dfrac{8 + 3}{4} = \\dfrac{11}{4}$\n\n$1\\dfrac{5}{8} = \\dfrac{8 + 5}{8} = \\dfrac{13}{8}$\n\nTo subtract, use a common denominator (8):\n\n$\\dfrac{11}{4} = \\dfrac{22}{8}$\n\nSo,\n\n$\\dfrac{22}{8} - \\dfrac{13}{8} = \\dfrac{9}{8} = 1\\dfrac{1}{8}$\n\nMr Lim used $1\\dfrac{1}{8}$ litres more cleaning solution in Room A.\n\n(b) Add the amounts used in both rooms:\n\n$2\\dfrac{3}{4} + 1\\dfrac{5}{8}$\n\nConvert to improper fractions:\n\n$2\\dfrac{3}{4} = \\dfrac{11}{4} = \\dfrac{22}{8}$\n\n$1\\dfrac{5}{8} = \\dfrac{13}{8}$\n\nAdd:\n\n$\\dfrac{22}{8} + \\dfrac{13}{8} = \\dfrac{35}{8} = 4\\dfrac{3}{8}$\n\nCompare $4\\dfrac{3}{8}$ and 4:\n\n$4\\dfrac{3}{8}$ is more than 4.\n\nSo Mr Lim used more than 4 litres of cleaning solution in total.",
+      "response_time": 4.527221918106079
+    }
+  },
+  "O3-MXMulSM_O3-MXMul_GPT4.1_Services_03": {
+    "Primary_kc": "MATRICES | Multiplication | product of a scalar quantity and a matrix",
+    "Secondary_kc": "MATRICES | Multiplication | multiplication of matrices",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, hotel, retail, e-commerce, streaming services, digital services etc.",
+    "Grade": "Secondary O-level 3/4",
+    "QID": "O3-MXMulSM_O3-MXMul_GPT4.1_Services_03",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A digital marketing company tracks the monthly costs of providing streaming services using a matrix. The matrix $A$ shows the costs (in \\textdollar) for three services\u2014video, music, and e-books\u2014over two different months:\n\n$A = \\begin{bmatrix} 120 & 130 \\\\ 90 & 110 \\\\ 60 & 80 \\end{bmatrix}$\n\nLast month, the prices of delivering each service increased by a factor of $2$. The company also wanted to know the total cost for each service for both months combined. \n\n(a) Find the new cost matrix $B$ after the price increase using scalar multiplication.\n\n(b) Find the total cost for each service for both months combined by multiplying the new cost matrix $B$ by the following column matrix:\n\n$C = \\begin{bmatrix} 1 \\\\ 1 \\end{bmatrix}$\n\nWhat is the resulting matrix?\n",
+      "solution": "(a) To find the new cost matrix $B$, multiply each element of $A$ by $2$:\n\n$B = 2 \\times A = 2 \\times \\begin{bmatrix} 120 & 130 \\\\ 90 & 110 \\\\ 60 & 80 \\end{bmatrix} = \\begin{bmatrix} 240 & 260 \\\\ 180 & 220 \\\\ 120 & 160 \\end{bmatrix}$\n\n(b) To find the total cost for each service over both months, multiply $B$ by the column matrix $C$:\n\n$\\begin{bmatrix} 240 & 260 \\\\ 180 & 220 \\\\ 120 & 160 \\end{bmatrix} \\times \\begin{bmatrix} 1 \\\\ 1 \\end{bmatrix} = \\begin{bmatrix} 240 \\times 1 + 260 \\times 1 \\\\ 180 \\times 1 + 220 \\times 1 \\\\ 120 \\times 1 + 160 \\times 1 \\end{bmatrix} = \\begin{bmatrix} 500 \\\\ 400 \\\\ 280 \\end{bmatrix}$\n\nSo the resulting matrix is $\\begin{bmatrix} 500 \\\\ 400 \\\\ 280 \\end{bmatrix}$, meaning the total costs for video, music and e-books respectively are \\textdollar500, \\textdollar400, and \\textdollar280.",
+      "response_time": 6.4714930057525635
+    }
+  }
+}

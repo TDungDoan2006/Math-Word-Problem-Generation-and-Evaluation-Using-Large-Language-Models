@@ -1,0 +1,1302 @@
+{
+  "P6-FrDivPP_P3-FrSmp_GPT4.1_Food_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Simplifying | expressing a fraction in its simplest form",
+    "Topic": "Food",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P3-FrSmp_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Sarah has $3$ pizzas. She wants to share them equally among her friends, giving each friend $\\dfrac{2}{3}$ of a pizza. How many friends can she share the pizzas with? Give your answer in its simplest form.",
+      "solution": "To find how many friends Sarah can share the pizzas with, divide the total amount of pizzas by the amount each friend gets:\n\n\\[\n\\frac{3}{1} \\div \\frac{2}{3}\n\\]\n\nDividing by a fraction is the same as multiplying by its reciprocal:\n\n\\[\n\\frac{3}{1} \\times \\frac{3}{2} = \\frac{9}{2}\n\\]\n\nSo, Sarah can share the pizzas with $\\frac{9}{2}$ friends.\n\nExpressing $\\frac{9}{2}$ in its simplest form, it is already a simplified improper fraction. As a mixed number:\n\n\\[\n\\frac{9}{2} = 4\\frac{1}{2}\n\\]\n\nTherefore, Sarah can share the pizzas equally among $4\\frac{1}{2}$ friends.",
+      "response_time": 3.2185869216918945
+    }
+  },
+  "P6-AgRepLrEx_P6-AgEvlLrEx_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into linear algebraic expressions",
+    "Secondary_kc": "ALGEBRA | Evaluation | evaluating simple linear expressions by substitution",
+    "Topic": "Manufacturing",
+    "Grade": "Primary 6",
+    "QID": "P6-AgRepLrEx_P6-AgEvlLrEx_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A factory makes boxes. Each box costs $5 to make, and the factory also spends $20 on packaging for the whole shipment. \\\\ \n(a) Write an algebraic expression to show the total cost to make $n$ boxes. \\\\ \n(b) If the factory makes 12 boxes, find the total cost.",
+      "solution": "(a) Let $n$ be the number of boxes. The total cost to make $n$ boxes is: \\\\ \n$5n + 20$ \\\\ \n(b) When $n = 12$: \\\\ \nTotal cost $= 5 \\times 12 + 20 = 60 + 20 = 80$ \\\\ \nSo, the total cost is \\$80.",
+      "response_time": 2.49613094329834
+    }
+  },
+  "P6-RoFndRoWN_P3-WNSub4d_GPT4.1_Farming_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtraction up to 4 digits",
+    "Topic": "Farming",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P3-WNSub4d_GPT4.1_Farming_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a vegetable farm, there were 1540 carrots and 1270 potatoes harvested in the morning. After selling 390 carrots in the afternoon, what is the ratio of the number of carrots left to the number of potatoes? Give your answer in its simplest form.",
+      "solution": "First, find the number of carrots left after selling:\n\n\\[\n\\begin{align*}\n\\text{Number of carrots left} &= 1540 - 390 \\\\\n&= 1150\n\\end{align*}\n\\]\n\nThe number of potatoes remains 1270.\n\nWrite the ratio of carrots left to potatoes:\n\\[\n1150 : 1270\n\\]\n\nTo simplify, find the highest common factor (HCF) of 1150 and 1270.\n\n\\[\n1150 = 2 \\times 5^2 \\times 23 \\\\\n1270 = 2 \\times 5 \\times 127\n\\]\n\nThe common factors are 2 and 5.\nThe HCF is 2 \\times 5 = 10.\n\nNow, divide both numbers by 10:\n\\[\n1150 \\div 10 = 115 \\\\\n1270 \\div 10 = 127\n\\]\n\nSo, the ratio in simplest form is:\n\\[\n\\boxed{115 : 127}\n\\]",
+      "response_time": 4.402013063430786
+    }
+  },
+  "P6-RoFndRoWN_P4-WNMul4d1d_GPT4.1_Sports_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplication up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Topic": "Sports",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P4-WNMul4d1d_GPT4.1_Sports_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a school sports day, Team A scored 156 points, Team B scored 132 points, and Team C scored 180 points in the final tally. The total number of points scored by Team A, Team B, and Team C is awarded by multiplying the number of first place win (4 points each), second place win (3 points each), and third place win (2 points each). If Team B had twice as many first place wins as third place wins, and Team C had 30 more points than Team B, what is the ratio of the points scored by Team A, Team B, and Team C? Give your answer in its simplest form.",
+      "solution": "Team A: 156, Team B: 132, Team C: 180\\n\\nFirst, find the ratio of the points:\\n\\n\\[\n\\text{Ratio} = 156 : 132 : 180\n\\]\\n\\nFind the highest common factor (HCF) of the three numbers:\\n- The HCF of 156, 132, and 180 is 12.\\n\\nNow, divide each by 12:\\n\\n\\[\n\\frac{156}{12} = 13\n\\]\n\\[\n\\frac{132}{12} = 11\n\\]\n\\[\n\\frac{180}{12} = 15\n\\]\\n\\nSo the simplest ratio is \\( 13 : 11 : 15 \\).\\n\\n\\textbf{Final Answer:} The ratio of the points scored by Team A, Team B, and Team C is $13 : 11 : 15$.",
+      "response_time": 4.411089658737183
+    }
+  },
+  "P6-FrDivPP_P5-FrAddMix_GPT4.1_Sports_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Addition | adding mixed numbers",
+    "Topic": "Sports",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrAddMix_GPT4.1_Sports_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A primary 6 sports club organised a relay race. The total length of the race is \\( 3 \\frac{1}{2} \\) km. Each runner is required to run \\( \\frac{2}{5} \\) km before passing the baton to the next runner. \n\n(a) How many runners are needed to complete the whole relay race?\n\nAfter the relay, another group of students ran a distance of \\( 1 \\frac{3}{4} \\) km in the first round and \\( 2 \\frac{2}{3} \\) km in the second round. \n\n(b) What is the total distance run by this group of students?",
+      "solution": "(a) To find how many runners are needed, divide the total distance by the distance each runner runs:\n\n\\[ 3 \\frac{1}{2} \\div \\frac{2}{5} = \\frac{7}{2} \\div \\frac{2}{5} \\]\n\n\\[ = \\frac{7}{2} \\times \\frac{5}{2} = \\frac{35}{4} = 8 \\frac{3}{4} \\]\n\nSince we cannot have a fraction of a runner, we need 9 runners to complete the whole race.\n\n(b) To find the total distance run by the group in both rounds:\n\n\\[ 1 \\frac{3}{4} + 2 \\frac{2}{3} = \\frac{7}{4} + \\frac{8}{3} \\]\n\nFind the common denominator (12):\n\n\\[ \\frac{7}{4} = \\frac{21}{12} \\,\\,\\, \\frac{8}{3} = \\frac{32}{12} \\]\n\nAdd them:\n\n\\[ \\frac{21}{12} + \\frac{32}{12} = \\frac{53}{12} = 4 \\frac{5}{12} \\]\n\n**Final Answers:**\n(a) 9 runners are needed.\n(b) The group ran a total of \\( 4 \\frac{5}{12} \\) km.",
+      "response_time": 5.058982849121094
+    }
+  },
+  "P6-RoFndRoWN_P4-WNDiv4d1d_GPT4.1_Food_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Division | division up to 4 digits by 1 digit",
+    "Topic": "Food",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P4-WNDiv4d1d_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Amy baked 180 chocolate muffins and 120 blueberry muffins for a school event. She wants to pack the muffins into boxes, with each box containing only one type of muffin and all boxes having the same number of muffins. She packs the maximum possible number of muffins into each box. \n\n(a) What is the greatest number of muffins that Amy can pack into each box? \n(b) Find the ratio of the number of boxes of chocolate muffins to the number of boxes of blueberry muffins.",
+      "solution": "Let the number of muffins in each box be the largest number that divides both 180 and 120 exactly. \n\n(a) The greatest common divisor (GCD) of 180 and 120 is:\n\n$180 = 2^2 \\times 3^2 \\times 5$\n\n$120 = 2^3 \\times 3 \\times 5$\n\nCommon factors: $2^2 \\times 3 \\times 5 = 60$\n\nSo, the greatest number of muffins in each box is \\boxed{60}.\n\nNumber of boxes of chocolate muffins: $\\frac{180}{60} = 3$\n\nNumber of boxes of blueberry muffins: $\\frac{120}{60} = 2$\n\n(b) The ratio of boxes of chocolate muffins to blueberry muffins is $3 : 2$.",
+      "response_time": 4.651432037353516
+    }
+  },
+  "P6-PcFndChg_P3-WNSub4d_GPT4.1_Sports_01": {
+    "Primary_kc": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtraction up to 4 digits",
+    "Topic": "Sports",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndChg_P3-WNSub4d_GPT4.1_Sports_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Aisha participated in a long jump competition last year and jumped 3,250 cm. This year, she improved and managed to jump 3,770 cm.\n\n(a) By how many centimetres did Aisha improve her jump?\n\n(b) What is the percentage increase in Aisha's jump, correct to 1 decimal place?",
+      "solution": "Let the jump distance last year be $3,250$ cm and this year's jump be $3,770$ cm.\n\n(a) Improvement in distance:\n\n\\[\n3,770~\\text{cm} - 3,250~\\text{cm} = 520~\\text{cm}\n\\]\n\nAisha improved by $520$ cm.\n\n(b) Percentage increase:\n\n\\[\n\\text{Percentage increase} = \\frac{\\text{increase}}{\\text{original amount}} \\times 100\\%\n\\]\n\n\\[\n= \\frac{520}{3,250} \\times 100\\% = 16.0\\%\n\\]\n\nThe percentage increase in Aisha's jump is $16.0\\%$ (to 1 decimal place).",
+      "response_time": 3.0126118659973145
+    }
+  },
+  "P6-FrDivPP_P5-FrCnv2Dc_GPT4.1_Leisure_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Conversion to decimals | expressing fractions as decimals",
+    "Topic": "Leisure",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrCnv2Dc_GPT4.1_Leisure_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Jia Wei is baking cakes for a school event. He has $3$ litres of batter, and each cake requires $\\frac{3}{4}$ litre of batter. \n\\begin{enumerate}\n    \\item How many cakes can Jia Wei bake?\n    \\item Express the amount of batter needed for one cake as a decimal.\n\\end{enumerate}",
+      "solution": "1. \\textbf{Find the number of cakes Jia Wei can bake:}\nHe divides the total batter by the amount needed for one cake:\n\n\\[\n\\text{Number of cakes} = \\frac{3}{\\frac{3}{4}}\n\\]\nTo divide by a fraction, multiply by its reciprocal:\n\\[\n\\frac{3}{\\frac{3}{4}} = 3 \\times \\frac{4}{3} = \\frac{12}{3} = 4\n\\]\nSo, Jia Wei can bake $4$ cakes.\n\n2. \\textbf{Express $\\frac{3}{4}$ as a decimal:}\n\\[\n\\frac{3}{4} = 0.75\n\\]\nSo, each cake requires $0.75$ litre of batter.",
+      "response_time": 3.4034788608551025
+    }
+  },
+  "P6-PcFndWN_P4-WNMul4d1d_GPT4.1_Education_01": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplication up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Topic": "Education",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P4-WNMul4d1d_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a school, 35\\% of the students in the Science Club are girls. If there are 84 girls in the Science Club, how many students are there in the Science Club in total? Later, another class of 56 students joined the club. What is the new total number of students in the Science Club after the new class joined?",
+      "solution": "Let the total number of students in the Science Club be $x$.\n\nSince 35\\% of the students are girls and there are 84 girls,\n\\\\[\n35\\%\\ \\text{of}\\ x = 84\n\\\\]\n\\\\[\n\\frac{35}{100} \\times x = 84\n\\\\]\n\\\\[\nx = \\frac{84 \\times 100}{35}\n\\\\]\n\\\\[\nx = \\frac{8400}{35}\n\\\\]\n\\\\[\nx = 240\n\\\\]\nSo, there were 240 students in the Science Club originally.\n\nWhen 56 more students join the club:\n\\\\[\n\\text{New total} = 240 + 56 = 296\n\\\\]\n\n\\textbf{Answer:} There are now 296 students in the Science Club.",
+      "response_time": 5.167832136154175
+    }
+  },
+  "P6-RoFndRoWN_P4-WNMul4d1d_GPT4.1_Services_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplication up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Topic": "Services",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P4-WNMul4d1d_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a community centre, there are 325 children, 195 teenagers, and 130 adults attending a services fair. Each child receives 2 tokens, each teenager receives 3 tokens, and each adult receives 5 tokens.\n\n(a) Find the ratio of the number of children to teenagers to adults at the fair.\n\n(b) Calculate the total number of tokens distributed to all the participants.\n\n\\textbf{Solution}\n\n(a) The number of children, teenagers, and adults are 325, 195, and 130 respectively.\n\\[\n\\text{Ratio of children : teenagers : adults} = 325 : 195 : 130\n\\]\nTo express this ratio in simplest form, find the highest common factor (HCF) of 325, 195, and 130.\n- The factors of 325: 1, 5, 13, 25, 65, 325\n- The factors of 195: 1, 3, 5, 13, 15, 39, 65, 195\n- The factors of 130: 1, 2, 5, 10, 13, 26, 65, 130\nThe greatest common factor is 65.\n\\[\n\\frac{325}{65} : \\frac{195}{65} : \\frac{130}{65} = 5 : 3 : 2\n\\]\nSo, the simplest ratio is \\(5 : 3 : 2\\).\n\n(b) Each child gets 2 tokens:\n\\[\n325 \\times 2 = 650\n\\]\nEach teenager gets 3 tokens:\n\\[\n195 \\times 3 = 585\n\\]\nEach adult gets 5 tokens:\n\\[\n130 \\times 5 = 650\n\\]\nTotal tokens distributed:\n\\[\n650 + 585 + 650 = 1,885\n\\]\nThus, the total number of tokens distributed is \\(1,885\\).",
+      "solution": "Step (a):\nCalculate the ratio of children : teenagers : adults:\n\n- Number of children = 325\n- Number of teenagers = 195\n- Number of adults = 130\n\nFind the HCF of 325, 195, and 130:\n325 = 65 \u00d7 5\n195 = 65 \u00d7 3\n130 = 65 \u00d7 2\n\nSo,\n\\[\n325 : 195 : 130 = 5 : 3 : 2\n\\]\n\nStep (b):\nMultiply to find the total tokens given out:\n- Children: \\(325 \\times 2 = 650\\)\n- Teenagers: \\(195 \\times 3 = 585\\)\n- Adults: \\(130 \\times 5 = 650\\)\n\nTotal tokens:\n\\[\n650 + 585 + 650 = 1,885\n\\]\n\n\\textbf{Final Answers:}\n(a) The simplest ratio of children : teenagers : adults is \\(5 : 3 : 2\\).\n(b) The total number of tokens distributed is \\(1,885\\).",
+      "response_time": 10.565685987472534
+    }
+  },
+  "P6-RoFndRoWN_P4-WNDiv4d1d_GPT4.1_Leisure_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Division | division up to 4 digits by 1 digit",
+    "Topic": "Leisure",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P4-WNDiv4d1d_GPT4.1_Leisure_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a sports club, there are 648 boys and 432 girls. The club members are divided equally into 4 teams for an upcoming sports day. What is the ratio of the number of boys to the number of girls in each team?",
+      "solution": "First, we divide the number of boys and girls equally among the 4 teams:\n\n\\[\n\\text{Number of boys in each team} = \\frac{648}{4} = 162\n\\]\n\\[\n\\text{Number of girls in each team} = \\frac{432}{4} = 108\n\\]\n\nNow, we find the ratio of the number of boys to girls in each team:\n\n\\[\n\\text{Ratio of boys to girls in each team} = 162 : 108\n\\]\n\nTo express this ratio in the simplest form, we find the highest common factor of 162 and 108, which is 54:\n\n\\[\n\\frac{162}{54} = 3,\\quad \\frac{108}{54} = 2\n\\]\n\nSo, the simplest form of the ratio is:\n\n\\[\n\\boxed{3 : 2}\n\\]\n\nThus, the ratio of the number of boys to the number of girls in each team is $3 : 2$.",
+      "response_time": 4.477899789810181
+    }
+  },
+  "P6-PcFndWN_P4-WNMul4d1d_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplication up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Topic": "Manufacturing",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P4-WNMul4d1d_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a factory, 25\\% of the light bulbs produced in one day are blue. If 360 blue light bulbs are produced in that day, how many light bulbs in total were produced? \n\nIf the factory produces 8 times as many light bulbs on weekends as on weekdays, how many light bulbs does it produce in 3 weekend days?",
+      "solution": "Let the total number of light bulbs produced in one day be $x$. \n\n\\[ 25\\% \\text{ of } x = 360 \\]\n\\[ \\frac{25}{100} \\times x = 360 \\]\n\\[ 0.25x = 360 \\]\n\\[ x = \\frac{360}{0.25} \\]\n\\[ x = 1440 \\]\n\nSo, 1 weekday's production is 1440 light bulbs.\n\nOn a weekend day, the factory produces $8$ times as many:\n\\[ 1440 \\times 8 = 11520 \\]\n\nIn 3 weekend days:\n\\[ 11520 \\times 3 = 34560 \\]\n\n\\textbf{Final Answer:}\n\\newline\nThe factory produced \\boxed{1440} light bulbs in one weekday, and \\boxed{34560} light bulbs in 3 weekend days.",
+      "response_time": 3.8671813011169434
+    }
+  },
+  "P6-FrDivPN_P5-FrAddMix_GPT4.1_Leisure_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Addition | adding mixed numbers",
+    "Topic": "Leisure",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrAddMix_GPT4.1_Leisure_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Question:\n\n\\textbf{Jane is preparing fruit platters for a gathering with her friends. She has $\\dfrac{3}{4}$ of a watermelon and wants to share it equally among 5 plates.}\n\n\\begin{enumerate}\n    \\item What fraction of a watermelon will each plate get?\n    \\item Later, she adds $1\\dfrac{2}{5}$ oranges and $2\\dfrac{1}{10}$ apples to the platters. What is the total number of fruits (in mixed numbers) that she adds to the platters?\n\\end{enumerate}",
+      "solution": "Solution:\n\n\\begin{enumerate}\n    \\item Jane has $\\dfrac{3}{4}$ watermelon and wants to share it among 5 plates. To find how much each plate gets:\n    \n    $\\dfrac{3}{4} \\div 5 = \\dfrac{3}{4} \\times \\dfrac{1}{5} = \\dfrac{3}{20}$\n    \n    So, each plate will get $\\dfrac{3}{20}$ of a watermelon.\n    \n    \\item Jane adds $1\\dfrac{2}{5}$ oranges and $2\\dfrac{1}{10}$ apples.\n    \n    First, convert to improper fractions:\n    \n    $1\\dfrac{2}{5} = \\dfrac{7}{5}$\n    \n    $2\\dfrac{1}{10} = \\dfrac{21}{10}$\n    \n    Find a common denominator (which is 10):\n    \n    $\\dfrac{7}{5} = \\dfrac{14}{10}$\n    \n    Now add:\n    \n    $\\dfrac{14}{10} + \\dfrac{21}{10} = \\dfrac{35}{10}$\n    \n    Simplify $\\dfrac{35}{10}$:\n    \n    $\\dfrac{35}{10} = 3\\dfrac{5}{10} = 3\\dfrac{1}{2}$\n    \n    She adds a total of $3\\dfrac{1}{2}$ fruits to the platters.\n\\end{enumerate}",
+      "response_time": 4.103250503540039
+    }
+  },
+  "P6-PcFndWN_P3-WNSub4d_GPT4.1_Transporation_01": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtraction up to 4 digits",
+    "Topic": "Transporation",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P3-WNSub4d_GPT4.1_Transporation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A group of Primary 6 students visited the Land Transport Gallery. 40\\% of the students took the bus, and the rest took the MRT. If 92 students took the bus, and 28 more students took the MRT than the bus, how many students visited the gallery altogether?",
+      "solution": "Let the total number of students be $x$. \n\n40\\% of the students took the bus, so:\n\\[\n0.4x = 92\n\\]\n\\[\nx = \\frac{92}{0.4} = 230\n\\]\n\nNumber of students who took the MRT = $230 - 92 = 138$\n\nBut, the problem states that 28 more students took the MRT than the bus:\n\\[\n138 = 92 + 28 = 120\n\\]\nBut this would contradict our previous calculation. Let's approach it differently:\n\nLet the total be $x$, and the number who took the MRT is $92 + 28 = 120$.\nTotal students: Number who took bus + Number who took MRT:\n\\[\nx = 92 + 120 = 212\n\\]\nBut 40\\% of $x$ must be 92:\n\\[\n0.4x = 92 \\\\\nx = 230\n\\]\nBut then number who took MRT = $230 - 92 = 138$.\nBut 138 is not 28 more than 92 (it's 46 more).\n\nTo resolve this, let's change the approach:\nLet total number of students be $x$.\n\\[\n\\text{Number who took bus} = 0.4x \\\\\n\\text{Number who took MRT} = x - 0.4x = 0.6x\n\\]\nGiven: Number who took MRT is 28 more than number who took bus.\n\\[\n0.6x = 0.4x + 28 \\\\\n0.6x - 0.4x = 28 \\\\\n0.2x = 28 \\\\\nx = \\frac{28}{0.2} = 140\n\\]\n\nSo the total number of students is $\\boxed{140}$.\n\nCheck:\nNumber who took bus = $0.4 \\times 140 = 56$\nNumber who took MRT = $0.6 \\times 140 = 84$\nDifference = $84 - 56 = 28$\n\nThe answer is $140$ students altogether.",
+      "response_time": 8.17552638053894
+    }
+  },
+  "P6-AgSlvLrN_P6-AgRepLrEx_GPT4.1_Sports_01": {
+    "Primary_kc": "ALGEBRA | Solving simple linear equations | solving simple linear equations involving whole number coefficient only",
+    "Secondary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into linear algebraic expressions",
+    "Topic": "Sports",
+    "Grade": "Primary 6",
+    "QID": "P6-AgSlvLrN_P6-AgRepLrEx_GPT4.1_Sports_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Question:} \\\\ \nSarah bought some badminton rackets for her team. Each badminton racket costs \\$12. She also bought one tube of shuttlecocks that cost \\$8. In total, she spent \\$56. \\\\ \n(a) Write a linear equation to represent the total amount Sarah spent, using $x$ to represent the number of badminton rackets she bought. \\\\ \n(b) How many badminton rackets did Sarah buy?",
+      "solution": "\\textbf{Solution:} \\\\ \n(a) Let $x$ be the number of badminton rackets Sarah bought. \\\\ \nEach racket costs $12, so the total cost for $x$ rackets is $12x$. The tube of shuttlecocks costs $\\$8$. \\\\ \nThe total spent is $\\$56$. \\\\ \nSo the equation is: \\\\ \n$12x + 8 = 56$ \\\\ \n(b) To solve for $x$: \\\\ \n$12x + 8 = 56$ \\\\ \nSubtract $8$ from both sides: \\\\ \n$12x = 56 - 8$ \\\\ \n$12x = 48$ \\\\ \nDivide both sides by $12$: \\\\ \n$x = \\frac{48}{12}$ \\\\ \n$x = 4$ \\\\ \n\\textbf{Sarah bought 4 badminton rackets.}",
+      "response_time": 4.833301305770874
+    }
+  },
+  "P6-FrDivPN_P3-FrSmp_GPT4.1_Sports_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Simplifying | expressing a fraction in its simplest form",
+    "Topic": "Sports",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P3-FrSmp_GPT4.1_Sports_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Sarah had $\\frac{3}{4}$ litre of water to share equally among 5 teammates during basketball practice. How much water did each teammate get? Give your answer in its simplest form.",
+      "solution": "To find how much water each teammate got, we divide $\\frac{3}{4}$ litre by 5:\n\n\\[\n\\frac{3}{4} \\div 5 = \\frac{3}{4} \\times \\frac{1}{5} = \\frac{3}{20}\n\\]\n\nSo, each teammate got $\\frac{3}{20}$ litre of water.",
+      "response_time": 2.9649462699890137
+    }
+  },
+  "P6-AgSlvLrN_P6-AgRepLrEx_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "ALGEBRA | Solving simple linear equations | solving simple linear equations involving whole number coefficient only",
+    "Secondary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into linear algebraic expressions",
+    "Topic": "Manufacturing",
+    "Grade": "Primary 6",
+    "QID": "P6-AgSlvLrN_P6-AgRepLrEx_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A factory packs bottles of juice into boxes. Each box contains $x$ bottles. If the factory packs 7 boxes, they will have 3 bottles left over. If the factory has a total of 45 bottles, how many bottles are packed in each box? \\\\ \nLet $x$ represent the number of bottles in one box. \\ \\nWrite an equation and solve for $x$.",
+      "solution": "Let $x$ be the number of bottles in one box. \\\\ \nThe factory packs 7 boxes and has 3 bottles left over, so: \\\\ \n$7x + 3 = 45$ \\\\ \nSubtract 3 from both sides: \\\\ \n$7x = 45 - 3$ \\\\ \n$7x = 42$ \\\\ \nDivide both sides by 7: \\\\ \n$x = \\frac{42}{7} = 6$ \\\\ \nTherefore, there are \\boxed{6} bottles in each box.",
+      "response_time": 3.040517807006836
+    }
+  },
+  "P6-FrDivPP_P4-FrRepSet_GPT4.1_Food_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Representation and concept | fraction as part of a set ",
+    "Topic": "Food",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P4-FrRepSet_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A bakery has baked 12 loaves of bread for a charity event. The organisers want to pack the bread such that each packet contains $\\frac{2}{3}$ of a loaf. \n\n(a) How many packets can they pack?\n\n(b) After packing, what fraction of the total bread is in 1 packet compared to all the bread baked?",
+      "solution": "Let\u2019s solve each part step by step:\n\n(a) Number of packets:\n\n\\[\n\\text{Number of packets} = \\frac{12}{\\frac{2}{3}}\n\\]\n\nRecall, dividing by a fraction is the same as multiplying by its reciprocal:\n\n\\[\n\\frac{12}{\\frac{2}{3}} = 12 \\times \\frac{3}{2} = 6 \\times 3 = 18\n\\]\n\nSo, 18 packets can be packed.\n\n(b) Fraction of the total bread in one packet:\n\nEach packet contains $\\frac{2}{3}$ of a loaf.\n\nTotal bread = 12 loaves.\n\nFraction in 1 packet:\n\n\\[\n\\frac{2}{3} \\div 12 = \\frac{2}{3} \\times \\frac{1}{12} = \\frac{2}{36} = \\frac{1}{18}\n\\]\n\nSo, one packet contains $\\frac{1}{18}$ of the total bread.",
+      "response_time": 4.572751760482788
+    }
+  },
+  "P6-RoFndRoWN_P4-WNMul4d1d_GPT4.1_Household finance_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplication up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Topic": "Household finance",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P4-WNMul4d1d_GPT4.1_Household finance_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Mr Tan wants to distribute his monthly household allowance among his three children: Ali, Ben, and Cindy. This month, he has set aside \\$468 to be shared. He decides that the amount will be distributed such that Ali gets 2 parts, Ben gets 3 parts, and Cindy gets 4 parts.}\\\n\\textbf{(a) Find the ratio of the amounts received by Ali, Ben, and Cindy.}\\\\\n\\textbf{(b) How much does Cindy receive?}",
+      "solution": "\\textbf{(a) The ratio of the amounts received by Ali, Ben, and Cindy is 2:3:4, since those are the number of 'parts' each child gets.}\\\\\n\\textbf{(b) First, find the total number of parts:}\\\\\n2 + 3 + 4 = 9\\text{ parts}\\\\\n\\textbf{Each part is worth:}\\\\\n\\$468 \\div 9 = \\$52\\\\\n\\textbf{Cindy receives 4 parts:}\\\\\n4 \\times \\$52 = \\boxed{\\$208}\\\\\n\\textbf{Therefore, Cindy receives \\$208.}",
+      "response_time": 3.6120760440826416
+    }
+  },
+  "P6-FrDivPP_P5-FrSubMix_GPT4.1_Sports_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Subtraction | subtracting mixed numbers",
+    "Topic": "Sports",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrSubMix_GPT4.1_Sports_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A group of friends played basketball for \\(3\\frac{1}{2}\\) hours on Saturday. They took breaks after every \\(\\frac{3}{4}\\) hour of playing. After the game, they spent \\(1\\frac{1}{4}\\) hours having lunch together.  \n\n(a) How many breaks did they take during their basketball session?\n\n(b) How much longer did they spend playing basketball than having lunch?",
+      "solution": "\\textbf{(a) Number of breaks:} \n\nFirst, convert \\(3\\frac{1}{2}\\) to an improper fraction:\n\n\\[\n3\\frac{1}{2} = \\frac{7}{2}\n\\]\n\nEach break was taken after \\(\\frac{3}{4}\\) hour, so the number of breaks is:\n\n\\[\n\\frac{7}{2} \\div \\frac{3}{4} = \\frac{7}{2} \\times \\frac{4}{3} = \\frac{28}{6} = \\frac{14}{3} = 4\\frac{2}{3}\n\\]\n\nThey had a break after every \\(\\frac{3}{4}\\) hour, so they completed 4 full breaks during the session, and after the last segment, they finished playing (the remaining \\(\\frac{2}{3}\\) of a break interval was not a complete break).\nSo, they took \\(\\boxed{4}\\) breaks.\n\n\\textbf{(b) Difference in time spent playing and having lunch:}\n\n\\[\n3\\frac{1}{2} - 1\\frac{1}{4}\n\\]\nConvert both to improper fractions:\n\\[\n3\\frac{1}{2} = \\frac{7}{2}, \\quad 1\\frac{1}{4} = \\frac{5}{4}\n\\]\nFind a common denominator:\n\\[\n\\frac{7}{2} = \\frac{14}{4}\n\\]\nSubtract:\n\\[\n\\frac{14}{4} - \\frac{5}{4} = \\frac{9}{4} = 2\\frac{1}{4}\n\\]\nSo, they spent \\(\\boxed{2\\frac{1}{4}}\\) hours more playing basketball than having lunch.",
+      "response_time": 6.419965744018555
+    }
+  },
+  "P6-RoFndRoWN_P4-WNMul4d1d_GPT4.1_Leisure_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplication up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Topic": "Leisure",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P4-WNMul4d1d_GPT4.1_Leisure_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a sports club, there are three types of balls: tennis balls, badminton shuttlecocks, and basketballs. The club has 48 tennis balls. The number of badminton shuttlecocks is 3 times the number of tennis balls, and the number of basketballs is 125. \n\n(a) What is the ratio of tennis balls to badminton shuttlecocks to basketballs?\n\n(b) What is the total number of balls in the club?",
+      "solution": "Let the number of tennis balls = $48$.\n\nThe number of badminton shuttlecocks = $3 \\times 48 = 144$.\n\nThe number of basketballs = $125$.\n\n(a) Ratio of tennis balls : badminton shuttlecocks : basketballs\n\n$= 48 : 144 : 125$\n\nTo express these in the simplest form, divide by 1 (since 48, 144, and 125 have no common factors except 1):\n\n$48 : 144 : 125$\n\nSo the ratio in the simplest form is $48 : 144 : 125$.\n\nAlternatively, factorise:\n$\\frac{144}{48} = 3$ and $\\frac{125}{48}$ is already in simplest form, so the answer is $48 : 144 : 125$.\n\n(b) Total number of balls:\n\n$= 48 + 144 + 125$\n\n$= 192 + 125$\n\n$= 317$\n\nFinal Answer:\n\n(a) $48 : 144 : 125$\n\n(b) $317$",
+      "response_time": 4.747360944747925
+    }
+  },
+  "P6-FrDivPN_P2-FrCmp_GPT4.1_Food_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+    "Topic": "Food",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P2-FrCmp_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Question:} \\\\ \nSarah baked \\(\\frac{3}{4}\\) of a pizza for a party. She wants to divide this amount equally among 3 friends. \\\\ \n(a) How much pizza does each friend get? \\\\ \n(b) Sarah also has another pizza where she has \\(\\frac{2}{3}\\) left. She wants to divide this among the same 3 friends. \\\\ \nAfter dividing, which group of friends will receive a bigger share per person? Arrange the two shares in order from smallest to largest.",
+      "solution": "\\textbf{Solution:} \\\\ \n(a) Sarah wants to divide \\(\\frac{3}{4}\\) of a pizza equally among 3 friends. \\\\ \nAmount each friend will get: \\\\ \n\\[ \n\\frac{3}{4} \\div 3 = \\frac{3}{4} \\times \\frac{1}{3} = \\frac{3}{12} = \\frac{1}{4}. \n\\] \\\\ \nEach friend gets \\(\\frac{1}{4}\\) of a pizza. \\\\ \n(b) For the second pizza: \\\\ \nEach friend gets: \\\\ \n\\[ \n\\frac{2}{3} \\div 3 = \\frac{2}{3} \\times \\frac{1}{3} = \\frac{2}{9}. \n\\] \\\\ \nNow, compare \\(\\frac{1}{4}\\) and \\(\\frac{2}{9}\\): \\\\ \nFind a common denominator: The lowest common denominator of 4 and 9 is 36. \\\\ \n\\(\\frac{1}{4} = \\frac{9}{36}\\), \\(\\frac{2}{9} = \\frac{8}{36}\\). \\\\ \nThus, \\(\\frac{1}{4} > \\frac{2}{9}\\). \\\\ \n\\textbf{Order from smallest to largest:} \\(\\frac{2}{9}\\), \\(\\frac{1}{4}\\). \\\\ \n\\textbf{The friends who received the share from the first pizza (\\(\\frac{3}{4}\\)) get more pizza per person.}",
+      "response_time": 5.421972751617432
+    }
+  },
+  "P6-RoFndRoWN_P6-RoSmpWN_GPT4.1_Services_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "RATIO | Simplifying | expressing a ratio in its simplest form",
+    "Topic": "Services",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P6-RoSmpWN_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a hair salon, there are 18 customers waiting for a haircut, 27 customers waiting for a hair wash, and 9 customers waiting for a hair dye. \n\n(a) Find the ratio of the number of customers waiting for a haircut to those waiting for a hair wash to those waiting for a hair dye. \n\n(b) Express this ratio in its simplest form.",
+      "solution": "Let the number of customers waiting for:\n- a haircut = 18\n- a hair wash = 27\n- a hair dye = 9\n\n(a) The required ratio is:\n\\[\n18 : 27 : 9\n\\]\n\n(b) To simplify, divide each term by the highest common factor, which is 9:\n\\[\n\\frac{18}{9} : \\frac{27}{9} : \\frac{9}{9} = 2 : 3 : 1\n\\]\n\nTherefore, the simplest form of the ratio is:\n\\[\n2 : 3 : 1\n\\]",
+      "response_time": 2.6817867755889893
+    }
+  },
+  "P6-FrDivPN_P5-FrAddMix_GPT4.1_Education_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Addition | adding mixed numbers",
+    "Topic": "Education",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrAddMix_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Question:\n\nA group of students are sharing some coloured paper for a class project. There are $\\dfrac{3}{4}$ of a sheet of blue paper and $2\\dfrac{1}{2}$ sheets of red paper. The blue paper is to be divided equally among 5 students, while the red paper will be split evenly among 2 students. \n\n(a) How much blue paper does each student receive?  \n(b) How much red paper does each student receive?  \n(c) What is the total amount of coloured paper one student receives from both blue and red paper? \n\nShow all your working clearly.",
+      "solution": "Solution:\n\n(a) Amount of blue paper each student gets:\n\n\\[\n\\frac{3}{4} \\div 5 = \\frac{3}{4} \\times \\frac{1}{5} = \\frac{3}{20}\\text{ of a sheet}\n\\]\n\n(b) Amount of red paper each student gets:\n\nFirst, convert $2\\dfrac{1}{2}$ to an improper fraction:\n\\[\n2\\dfrac{1}{2} = \\frac{5}{2}\n\\]\nNow divide by 2:\n\\[\n\\frac{5}{2} \\div 2 = \\frac{5}{2} \\times \\frac{1}{2} = \\frac{5}{4}\\text{ of a sheet}\n\\]\n\n(c) Total amount of coloured paper one student receives:\n\n\\[\n\\frac{3}{20} + \\frac{5}{4}\n\\]\nFirst, convert $\\frac{5}{4}$ to $\\frac{25}{20}$:\n\\[\n\\frac{3}{20} + \\frac{25}{20} = \\frac{28}{20} = 1\\frac{8}{20} = 1\\frac{2}{5}\n\\]\n\nFinal Answer:\n- Each student receives $\\frac{3}{20}$ of a sheet of blue paper.\n- Each student receives $\\frac{5}{4}$ sheets of red paper.\n- In total, each student receives $1\\dfrac{2}{5}$ sheets of coloured paper.",
+      "response_time": 5.3148462772369385
+    }
+  },
+  "P6-FrDivPN_P6-FrDivPP_GPT4.1_Education_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Topic": "Education",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P6-FrDivPP_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a school, Mr Tan has $\\frac{3}{4}$ of a pizza. He wants to divide this amount equally among 3 students during a maths activity. Then, later in the day, the teacher brings out 2 more pizzas, each cut into quarters, for another 4 students to share equally. What is the amount of pizza each of the first 3 students receives? If each of the 4 students in the second group receives $\\frac{1}{4}$ of a pizza, how many times more pizza does one of the second group students get compared to one of the first group students?",
+      "solution": "First, to find how much pizza each of the first 3 students receives:\n\n$$\n\\frac{3}{4} \\div 3 = \\frac{3}{4} \\times \\frac{1}{3} = \\frac{3}{12} = \\frac{1}{4}\n$$\n\nSo, each of the first 3 students receives $\\frac{1}{4}$ of a pizza.\n\nFor the second group, it is stated that each student receives $\\frac{1}{4}$ of a pizza as well.\n\nAmount ratio:\n\n$$\n\\frac{\\text{Amount second group student receives}}{\\text{Amount first group student receives}} = \\frac{\\frac{1}{4}}{\\frac{1}{4}} = 1\n$$\n\nEach student gets the same amount: $\\frac{1}{4}$ pizza, so each student in the second group receives exactly the same amount as one student in the first group.",
+      "response_time": 5.429933309555054
+    }
+  },
+  "P6-FrDivPP_P5-FrMulMixN_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Multiplication | multiplying a mixed number and a whole number",
+    "Topic": "Manufacturing",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrMulMixN_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A factory produces bottles of orange juice. Each box contains $\\frac{3}{4}$ litre of orange juice. The factory has 18 litres of orange juice to pack. \n\n(a) How many boxes can the factory pack using all the orange juice?\n\nAfter packing all the orange juice, the factory decides to send 6 times as many boxes, but now each new box will contain $1\\frac{1}{2}$ litres of orange juice.\n\n(b) How many litres of orange juice does the factory need to fill these new boxes?",
+      "solution": "(a) Number of boxes the factory can pack using all the orange juice:\n\n$$\n\\text{Number of boxes} = \\frac{18}{\\frac{3}{4}} = 18 \\times \\frac{4}{3} = 24\n$$\n\nSo, the factory can pack 24 boxes.\n\n(b) Number of boxes needed now:\n\n$$\n6 \\times 24 = 144 \\text{ boxes}\n$$\n\nAmount of orange juice needed for these new boxes:\n\nEach box = $1\\frac{1}{2}$ litres $= \\frac{3}{2}$ litres\n\nTotal orange juice =\n$$\n144 \\times \\frac{3}{2} = 72 \\times 3 = 216 \\text{ litres}\n$$\n\nSo, the factory needs 216 litres of orange juice.",
+      "response_time": 4.606820344924927
+    }
+  },
+  "P6-FrDivPN_P5-FrCnv2Dc_GPT4.1_Food_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Conversion to decimals | expressing fractions as decimals",
+    "Topic": "Food",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrCnv2Dc_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A chef made \\(\\dfrac{3}{4}\\) of a pizza. She wants to share this equally among 3 friends. \n\n(a) How much pizza does each friend get? Express your answer as a fraction.\n\n(b) Express your answer for part (a) as a decimal.",
+      "solution": "(a) Each friend gets \\(\\dfrac{3}{4} \\div 3 = \\dfrac{3}{4} \\times \\dfrac{1}{3} = \\dfrac{3}{12} = \\dfrac{1}{4}\\) of the pizza.\n\n(b) \\(\\dfrac{1}{4}\\) as a decimal is 0.25.\n\n\\textbf{Final Answers:}\n\\begin{itemize}\n  \\item[(a)] \\(\\dfrac{1}{4}\\) of the pizza\n  \\item[(b)] 0.25\n\\end{itemize}",
+      "response_time": 2.587409019470215
+    }
+  },
+  "P6-PcFndWN_P4-WNMul4d1d_GPT4.1_Farming_01": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplication up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Topic": "Farming",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P4-WNMul4d1d_GPT4.1_Farming_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A farm harvested some baskets of oranges. It is known that 40\\% of the oranges were packed and sent to market. If 1,200 oranges were packed and each basket contains 36 oranges, how many baskets of oranges were harvested in total?",
+      "solution": "Let the total number of oranges harvested be $x$.\\\nGiven that 40\\% of $x$ is 1,200,\\\n\\[\n0.4x = 1,200\n\\]\n\\[\nx = \\frac{1,200}{0.4}\n\\]\n\\[\nx = 3,000\n\\]\nSo, there were 3,000 oranges harvested in total.\\\nEach basket contains 36 oranges.\\\nNumber of baskets = $\\frac{3,000}{36}$\\\n\\[\n\\frac{3,000}{36} = 83.33\n\\]\nSince we cannot have a fraction of a basket, the farm harvested 83 baskets if baskets are filled, with some oranges left over, or 84 baskets if all oranges are kept in baskets.\\\n\\textbf{Final answer: The farm harvested 3,000 oranges and packed them into 83 full baskets, with some oranges left over.}",
+      "response_time": 3.4681808948516846
+    }
+  },
+  "P6-FrDivPN_P6-FrDivPP_GPT4.1_Leisure_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Topic": "Leisure",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P6-FrDivPP_GPT4.1_Leisure_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Emily is making lemonade and has $\\frac{3}{4}$ litre of lemon juice. She wants to pour it equally into 3 bottles. \n\n(a) How much lemon juice will there be in each bottle? \n\nLater, each friend brings $\\frac{1}{2}$ litre of their own lemon juice and combines their portions to fill a jug. In total, there are 4 friends. \n\n(b) How many times can the friends fill a $\\frac{1}{4}$ litre cup with all the lemon juice they have?",
+      "solution": "Solution:\n\n(a) To find out how much lemon juice is in each bottle:\n\n\n$$\n\\frac{3}{4} \\div 3 = \\frac{3}{4} \\times \\frac{1}{3} = \\frac{3 \\times 1}{4 \\times 3} = \\frac{3}{12} = \\frac{1}{4}\n$$\n\nEach bottle has $\\frac{1}{4}$ litre of lemon juice.\n\n(b) Each friend brings $\\frac{1}{2}$ litre, so for 4 friends:\n$$4 \\times \\frac{1}{2} = 2\\text{ litres}$$\n\nTo find how many times a $\\frac{1}{4}$ litre cup can be filled:\n\n$$\n2 \\div \\frac{1}{4} = 2 \\times 4 = 8\n$$\n\nThe friends can fill the $\\frac{1}{4}$ litre cup 8 times with the total lemon juice.",
+      "response_time": 5.497605323791504
+    }
+  },
+  "P6-FrDivPN_P4-FrRepSet_GPT4.1_Transporation_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Representation and concept | fraction as part of a set ",
+    "Topic": "Transporation",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P4-FrRepSet_GPT4.1_Transporation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Question: \n\nA group of 12 friends is sharing some bicycles equally. \\(\\frac{3}{4}\\) of the group wants to go on a cycling trip, and these friends use all the available bicycles. If the bicycles are shared equally among all the friends who want to cycle, how many bicycles does each friend get? \n\n(Solve by dividing the fraction representing the part of the group that wants to cycle by the total number of friends, and interpret the answer in context.)",
+      "solution": "Solution:\n\nFirst, find how many friends want to go cycling:\n\n\\[\n\\frac{3}{4} \\times 12 = 9\\text{ friends}\n\\]\n\nSuppose there are 9 bicycles (since all the friends who want to cycle use all the bicycles; this is the context for fraction as part of a set). Each of these 9 friends gets:\n\n\\[\n\\frac{9}{9} = 1\\text{ bicycle per friend}\n\\]\n\nAlternatively, if the question is to divide a fraction of bicycles (e.g., they have 3 bicycles for 4 friends), then use the division:\n\n\\[\n\\frac{3}{4} \\div 3 = \\frac{3}{4} \\times \\frac{1}{3} = \\frac{1}{4}\\text{ of a bicycle per friend}\n\\]\n\nBut according to our first scenario (all 9 friends equally share the bicycles), each friend gets 1 bicycle.",
+      "response_time": 4.410935401916504
+    }
+  },
+  "P6-RoFndRoWN_P3-WNAdd4d_GPT4.1_Digital ecconomy_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | addition up to 4 digits",
+    "Topic": "Digital ecconomy",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P3-WNAdd4d_GPT4.1_Digital ecconomy_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Amanda runs an online store selling digital art. Last month, she sold 1,364 digital paintings, 842 digital stickers, and 1,194 digital postcards.\\\n\\\n(a) Find the total number of digital items Amanda sold last month.\\\n\\\n(b) Find the ratio of digital paintings to digital stickers to digital postcards, giving your answer in its simplest form.",
+      "solution": "(a) To find the total number of digital items Amanda sold, add the number of digital paintings, stickers, and postcards:\\\\\n\\\\\n$1,364 + 842 + 1,194 = 3,400$\\\\\n\\\\\nSo, Amanda sold a total of 3,400 digital items last month.\\\\\n\\\\\n(b) The numbers are:\\\\\nDigital paintings: $1,364$\\\\\nDigital stickers: $842$\\\\\nDigital postcards: $1,194$\\\\\n\\\\\nThe ratio is $1,364 : 842 : 1,194$.\\\\\n\\\\\nTo simplify, find the greatest common factor for each:\\\\\n- $1,364 = 2 \\times 2 \\times 341$; $842 = 2 \\times 421$; $1,194 = 2 \\times 3 \\times 199$\\\\\nAll three numbers are divisible by 2.\\\\\n\\\\\nDivide each by 2:\\\\\n$1,364 \\div 2 = 682$\\\\\n$842 \\div 2 = 421$\\\\\n$1,194 \\div 2 = 597$\\\\\n\\\\\nSo, the simplest form is $682 : 421 : 597$.\\\\\n\\\\\nFinal Answer:\\\\\n- (a) $3,400$\\\\\n- (b) $682:421:597$",
+      "response_time": 4.774068117141724
+    }
+  },
+  "P6-FrDivPN_P3-FrSmp_GPT4.1_Services_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Simplifying | expressing a fraction in its simplest form",
+    "Topic": "Services",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P3-FrSmp_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A printing company received an order to print $\\dfrac{5}{8}$ of a book in 4 days. If the work is divided equally among the 4 days, how much of the book does the company print each day? Express your answer in its simplest form.",
+      "solution": "To find how much of the book is printed each day, divide $\\dfrac{5}{8}$ by 4:\n\n\\[\n\\dfrac{5}{8} \\div 4 = \\dfrac{5}{8} \\times \\dfrac{1}{4} = \\dfrac{5 \\times 1}{8 \\times 4} = \\dfrac{5}{32}\n\\]\n\nSo, the company prints $\\dfrac{5}{32}$ of the book each day.",
+      "response_time": 2.394460439682007
+    }
+  },
+  "P6-AgRepLrEx_P6-AgSmpLrEx_GPT4.1_Services_01": {
+    "Primary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into linear algebraic expressions",
+    "Secondary_kc": "ALGEBRA | Simplifying | simplifying simple linear expressions excluding brackets",
+    "Topic": "Services",
+    "Grade": "Primary 6",
+    "QID": "P6-AgRepLrEx_P6-AgSmpLrEx_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A taxi company charges \\$3 for the first kilometre and \\$0.80 for every additional kilometre travelled. Let $k$ be the number of kilometres travelled after the first kilometre.\n\n(a) Write an algebraic expression to represent the total fare, $F$, for a taxi ride of $k+1$ kilometres.\n\n(b) Simplify the expression you have written in (a) as much as possible.",
+      "solution": "Let $k$ be the number of additional kilometres after the first kilometre. For a ride of $k+1$ kilometres:\n\n(a) The total fare, $F$, is: \\\\\n$F = 3 + 0.80k$\n\n(b) The expression $F = 3 + 0.80k$ is already simplified, as there are no like terms to combine and no brackets to expand. The total fare for a taxi ride of $k+1$ kilometres is $F = 3 + 0.80k$.",
+      "response_time": 3.0967743396759033
+    }
+  },
+  "P6-FrDivPP_P2-FrCmp_GPT4.1_Services_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+    "Topic": "Services",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P2-FrCmp_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Auntie Mei has $4$ litres of orange juice. She wants to pour the juice equally into bottles, with each bottle holding $\\dfrac{2}{3}$ litres of orange juice.\\\n\n(a) How many bottles can Auntie Mei fill completely with orange juice?\\\n\n(b) After filling the bottles, Auntie Mei decides to compare the amount of orange juice in one bottle ($\\dfrac{2}{3}$ litres) with another type of bottle that holds $\\dfrac{3}{4}$ litres. Which bottle holds more orange juice? Arrange these two fractions in order, from smallest to largest.",
+      "solution": "(a) To find out how many bottles Auntie Mei can fill, divide the total amount of orange juice by the amount in one bottle:\\\\\n\n$4 \\div \\dfrac{2}{3} = 4 \\times \\dfrac{3}{2} = \\dfrac{4 \\times 3}{2} = \\dfrac{12}{2} = 6$\\\\\n\nSo, Auntie Mei can fill \\boxed{6} bottles completely.\\\\\n\n(b) Comparing $\\dfrac{2}{3}$ litres and $\\dfrac{3}{4}$ litres:\\\\\n\nFind a common denominator to compare:\\\\\n$\\dfrac{2}{3} = \\dfrac{8}{12}$\\\\\n$\\dfrac{3}{4} = \\dfrac{9}{12}$\\\\\nSince $\\dfrac{9}{12} > \\dfrac{8}{12}$, $\\dfrac{3}{4}$ litres is more than $\\dfrac{2}{3}$ litres.\\\\\n\nArranging in order from smallest to largest: $\\dfrac{2}{3},\\ \\dfrac{3}{4}$.",
+      "response_time": 5.122424602508545
+    }
+  },
+  "P6-PcFndChg_P3-WNSub4d_GPT4.1_Education_01": {
+    "Primary_kc": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtraction up to 4 digits",
+    "Topic": "Education",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndChg_P3-WNSub4d_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{In a school, there were 850 students last year. This year, the number of students increased to 1,020.} \\\\ \n\\text{a) Find the increase in the number of students.} \\\\ \n\\text{b) What is the percentage increase in the number of students, correct to 1 decimal place?}",
+      "solution": "\\textbf{Solution:} \\\\ \n\\text{a) Increase in the number of students} \\\\ \n= 1,020 - 850 \\\\ \n= 170 \\\\ \n\\text{b) Percentage increase} \\\\ \n= \\left( \\frac{\\text{Increase}}{\\text{Original number}} \\right) \\times 100\\% \\\\ \n= \\left( \\frac{170}{850} \\right) \\times 100\\% \\\\ \n= 0.2 \\times 100\\% \\\\ \n= 20.0\\% \\\\ \n\\boxed{\\text{The increase in the number of students is 170.}} \\\\ \n\\boxed{\\text{The percentage increase is 20.0\\%.}}",
+      "response_time": 3.035921573638916
+    }
+  },
+  "P6-FrDivPP_P5-FrMulMixN_GPT4.1_Services_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Multiplication | multiplying a mixed number and a whole number",
+    "Topic": "Services",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrMulMixN_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A group of cleaners were hired to clean an office building. Each cleaner can clean $\\frac{3}{4}$ of a floor in one hour. \n\n(a) If the office building has 6 floors, how many hours would it take for one cleaner to clean all the floors?\n\n(b) If 2 groups of 1$\\frac{1}{2}$ cleaners each are hired (that is, each group has one and a half cleaners), and all the cleaners work together, how many floors can they clean in 4 hours?\n\nGive your answers in their simplest form.",
+      "solution": "Let\u2019s solve the questions step by step.\n\n**Part (a):**\n\nOne cleaner cleans $\\frac{3}{4}$ of a floor in one hour.\n\nNumber of hours to clean 1 floor:\n\n$1 \\div \\frac{3}{4} = 1 \\times \\frac{4}{3} = \\frac{4}{3}$ hours per floor.\n\nFor 6 floors:\n\nTotal hours $= 6 \\times \\frac{4}{3} = \\frac{24}{3} = 8$\n\n\\textbf{It would take 8 hours for the cleaner to clean all 6 floors.}\n\n**Part (b):**\n\nThere are $2$ groups of $1\\frac{1}{2}$ cleaners each.\n\nTotal number of cleaners $= 2 \\times 1\\frac{1}{2} = 2 \\times \\frac{3}{2} = 3$\n\nEach cleaner can clean $\\frac{3}{4}$ of a floor in one hour.\n\nAll 3 cleaners together in 1 hour:\n\nFloors cleaned $= 3 \\times \\frac{3}{4} = \\frac{9}{4}$ floors per hour.\n\nIn 4 hours:\n\nFloors cleaned $= 4 \\times \\frac{9}{4} = 9$\n\n\\textbf{All the cleaners can clean 9 floors in 4 hours.}",
+      "response_time": 4.9180145263671875
+    }
+  },
+  "P6-FrDivPN_P5-FrAddMix_GPT4.1_Transporation_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Addition | adding mixed numbers",
+    "Topic": "Transporation",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrAddMix_GPT4.1_Transporation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Word Problem:} \\\\ \nIsaac is helping to distribute bottles of water equally among buses for a school trip. He has $\\frac{3}{4}$ of a box of water bottles and needs to divide them equally among 5 buses. \\\\ \nAfter dividing the bottles, the teacher gives Isaac another $1\\frac{1}{2}$ boxes of water bottles to add to what each bus will receive. \\\\ \nHow many boxes of water bottles will each bus have in total? \n",
+      "solution": "\\textbf{Solution:} \\\\ \n\\text{Step 1: Divide } \\frac{3}{4} \\text{ box by 5 buses:} \\\\ \n\\frac{3}{4} \\div 5 = \\frac{3}{4} \\times \\frac{1}{5} = \\frac{3}{20} \\\\ \n\\text{Each bus gets } \\frac{3}{20} \\text{ of a box first.} \\\\ \n\\text{Step 2: Add } 1\\frac{1}{2} \\text{ boxes to each bus:} \\\\ \n1\\frac{1}{2} = \\frac{3}{2} \\\\ \n\\frac{3}{20} + \\frac{3}{2} \\\\ \n\\text{Make denominator the same:} \\\\ \n\\frac{3}{2} = \\frac{30}{20} \\\\ \n\\frac{3}{20} + \\frac{30}{20} = \\frac{33}{20} \\\\ \n\\frac{33}{20} = 1\\frac{13}{20} \\\\ \n\\boxed{\\text{Each bus will receive } 1\\frac{13}{20} \\text{ boxes of water bottles in total.}}",
+      "response_time": 4.198750257492065
+    }
+  },
+  "P6-FrDivPP_P3-FrSmp_GPT4.1_Digital ecconomy_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Simplifying | expressing a fraction in its simplest form",
+    "Topic": "Digital ecconomy",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P3-FrSmp_GPT4.1_Digital ecconomy_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Question: \n\nA group of friends earned a total of 3 dollars from selling digital stickers online. If each sticker was priced at \\( \\frac{3}{4} \\) of a dollar, how many stickers did they sell? Express your answer in its simplest form.",
+      "solution": "Solution: \n\nTo find the number of stickers sold, we divide the total amount earned by the price of one sticker:\n\\[ \\text{Number of stickers} = \\frac{3}{\\frac{3}{4}} \\]\n\nDividing by a fraction is the same as multiplying by its reciprocal:\n\\[ \\frac{3}{\\frac{3}{4}} = 3 \\times \\frac{4}{3} = \\frac{12}{3} = 4 \\]\n\nSo, the friends sold \\(4\\) stickers.",
+      "response_time": 2.5472991466522217
+    }
+  },
+  "P6-RoFndDvqWN_P6-RoFndTmWN_GPT4.1_Household finance_01": {
+    "Primary_kc": "RATIO | Finding divided quantities | dividing a quantity in a given ratio",
+    "Secondary_kc": "RATIO | Finding a missing term | finding the missing term in a pair of equivalent ratios",
+    "Topic": "Household finance",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndDvqWN_P6-RoFndTmWN_GPT4.1_Household finance_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A mother gives her two children, Anna and Ben, a total of $120 as their weekly allowance. She decides to divide the money between Anna and Ben in the ratio 3:5. \n\n(a) How much do Anna and Ben each get?\n\nLater, their father wants to give them more money, so that the total amount they have is now $180, but the ratio of Anna's allowance to Ben's allowance remains the same. \n\n(b) How much more does Anna need to receive so that the new total amount keeps the same ratio as before?",
+      "solution": "Let the amount Anna receives be 3 parts and the amount Ben receives be 5 parts. Total parts = 3 + 5 = 8 parts.\n\n(a) Amount for each part = $120 \\div 8 = $15.\n\nAmount Anna gets = $15 \\times 3 = $45.\n\nAmount Ben gets = $15 \\times 5 = $75.\n\n(b) Let the new amounts for Anna and Ben be $A$ and $B$ respectively.\nGiven: $A + B = 180$ and $\\dfrac{A}{B} = \\dfrac{3}{5}$\n\nSet up the equation:\n\n$A : B = 3 : 5 \\implies A = \\dfrac{3}{3+5} \\times 180 = \\dfrac{3}{8} \\times 180 = 67.50$\n\n$B = 180 - 67.50 = 112.50$\n\nAmount Anna needs to receive = New amount - Old amount = $67.50 - $45 = $22.50$\n\n\\textbf{Answers:}\n\n(a) Anna gets $45. Ben gets $75.\n\n(b) Anna needs to receive $22.50 more.",
+      "response_time": 5.738337993621826
+    }
+  },
+  "P6-RoFndRoWN_P4-WNDiv4d1d_GPT4.1_Transporation_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Division | division up to 4 digits by 1 digit",
+    "Topic": "Transporation",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P4-WNDiv4d1d_GPT4.1_Transporation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A fleet of 612 buses, 408 taxis, and 204 lorries are used for transportation in a city. The transport manager wants to park all vehicles in different parking areas, so he divides each type of vehicle equally into 4 parking lots. \n\n(a) How many buses, taxis, and lorries are parked in each lot for every type of vehicle?\n\n(b) What is the ratio of the number of buses to taxis to lorries in each parking lot? Give your answer in the simplest form.",
+      "solution": "First, divide each vehicle type equally among 4 lots:\n\nNumber of buses in each lot: $612 \\div 4 = 153$\\\nNumber of taxis in each lot: $408 \\div 4 = 102$\\\nNumber of lorries in each lot: $204 \\div 4 = 51$\n\nSo, each parking lot will have 153 buses, 102 taxis, and 51 lorries.\n\nNow, find the ratio of the number of buses to taxis to lorries in each parking lot:\n\nThe ratio is $153 : 102 : 51$\n\nWe can simplify this ratio by dividing each term by 51:\n$153 \\div 51 = 3$\\\n$102 \\div 51 = 2$\\\n$51 \\div 51 = 1$\n\nSo, the simplest form of the ratio is $3 : 2 : 1$\n\n\\textbf{Answers:}\n(a) Each parking lot will have 153 buses, 102 taxis, and 51 lorries respectively.\\\n(b) The ratio of the number of buses to taxis to lorries in each parking lot is $3:2:1$.",
+      "response_time": 3.9451375007629395
+    }
+  },
+  "P6-AgSlvLrN_P6-AgRepLrEx_GPT4.1_Digital ecconomy_01": {
+    "Primary_kc": "ALGEBRA | Solving simple linear equations | solving simple linear equations involving whole number coefficient only",
+    "Secondary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into linear algebraic expressions",
+    "Topic": "Digital ecconomy",
+    "Grade": "Primary 6",
+    "QID": "P6-AgSlvLrN_P6-AgRepLrEx_GPT4.1_Digital ecconomy_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A digital artist sells stickers online. Each sticker costs \\$4. She sells some stickers and earns a total of \\$36. Write down an equation for the situation and find out how many stickers she sold.",
+      "solution": "Let the number of stickers sold be $x$. Each sticker costs $4, so the total earned is $4x$. We are told that she earned $36 in total, so:\n\\\\\n\\begin{align*}\n4x &= 36 \\\\\n\\frac{4x}{4} &= \\frac{36}{4} \\\\\nx &= 9\n\\end{align*}\n\\\\\nSo, the digital artist sold 9 stickers.",
+      "response_time": 2.7689321041107178
+    }
+  },
+  "P6-FrDivPP_P5-FrAddMix_GPT4.1_Transporation_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Addition | adding mixed numbers",
+    "Topic": "Transporation",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrAddMix_GPT4.1_Transporation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Sarah is packing sandwiches for a school trip. Each box can hold $\\frac{2}{3}$ of a sandwich.}\\\n\\text{(a) If she has $4$ sandwiches, how many boxes can she fill?}\\\\\n\\text{(b) After packing the sandwiches, Sarah receives $1\\frac{1}{2}$ more sandwiches from her friend. She now wants to know the total number of sandwiches she will bring on the trip. How many sandwiches does Sarah have in all?}",
+      "solution": "\\textbf{Solution:}\\\\\n\\text{(a) Number of boxes = Number of sandwiches} \\div \\text{Number of sandwiches per box} \\\\\n= 4 \\div \\frac{2}{3}\\\\\n= 4 \\times \\frac{3}{2}\\\\\n= 2 \\times 3 = 6 \\\\\n\\text{Sarah can fill } 6 \\text{ boxes.}\\\\\n\\\\\n\\text{(b) Total number of sandwiches = Sandwiches she had + Sandwiches from her friend}\\\\\n= 4 + 1\\frac{1}{2}\\\\\n= 4 + \\frac{3}{2}\\\\\n= \\frac{8}{2} + \\frac{3}{2} = \\frac{11}{2}\\\\\n= 5\\frac{1}{2}\\\\\n\\text{Sarah will bring a total of } 5\\frac{1}{2} \\text{ sandwiches on the trip.}",
+      "response_time": 4.4951324462890625
+    }
+  },
+  "P6-RoFndRoWN_P6-RoSmpWN_GPT4.1_Household finance_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "RATIO | Simplifying | expressing a ratio in its simplest form",
+    "Topic": "Household finance",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P6-RoSmpWN_GPT4.1_Household finance_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Anna, Ben, and Chloe are sharing the cost of a new washing machine for their household. Anna pays $180, Ben pays $240, and Chloe pays $300. \n\n(a) Find the ratio of the amount paid by Anna, Ben, and Chloe. \n(b) Express this ratio in its simplest form.",
+      "solution": "Let the amount paid by Anna be $180, Ben be $240, and Chloe be $300. \n\n(a) The ratio of the amount paid by Anna : Ben : Chloe is $180 : $240 : $300. \n\n(b) To simplify this ratio, find the highest common factor (HCF) of 180, 240, and 300. The HCF is 60.\n\nDivide each term by 60:\n\n$180 \\div 60 = 3$\n$240 \\div 60 = 4$\n$300 \\div 60 = 5$\n\nTherefore, the ratio in its simplest form is $3 : 4 : 5$.",
+      "response_time": 5.000003337860107
+    }
+  },
+  "P6-PcFndChg_P3-WNSub4d_GPT4.1_Farming_01": {
+    "Primary_kc": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtraction up to 4 digits",
+    "Topic": "Farming",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndChg_P3-WNSub4d_GPT4.1_Farming_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Mr Lim is a farmer. Last month, he harvested 2,450 kg of potatoes. This month, his harvest was 2,870 kg.}\\newline\n\\text{a) By how much did Mr Lim's potato harvest increase this month compared to last month?}\\newline\n\\text{b) What is the percentage increase in Mr Lim's potato harvest from last month to this month?}",
+      "solution": "\\textbf{Solution}\\newline\n\\text{a) Increase in harvest:}\\\\\n2,870 - 2,450 = 420 \\text{ kg}\\\\[12pt]\n\\text{b) Percentage increase:}\\\\\n\\text{Percentage Increase} = \\frac{\\text{Increase}}{\\text{Original Amount}} \\times 100\\%\\\\\n= \\frac{420}{2,450} \\times 100\\%\\\\\n= 0.1714 \\times 100\\%\\\\\n= 17.14\\%\\\\[12pt]\n\\text{Final Answer:}\\\\\n\\text{a) Mr Lim's harvest increased by } 420 \\text{ kg.}\\\\\n\\text{b) The percentage increase is } 17.14\\%\\text{ (to 2 decimal places).}\n",
+      "response_time": 5.930298566818237
+    }
+  },
+  "P6-AgSlvLrN_P6-AgRepLrEx_GPT4.1_Education_01": {
+    "Primary_kc": "ALGEBRA | Solving simple linear equations | solving simple linear equations involving whole number coefficient only",
+    "Secondary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into linear algebraic expressions",
+    "Topic": "Education",
+    "Grade": "Primary 6",
+    "QID": "P6-AgSlvLrN_P6-AgRepLrEx_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Math Word Problem:} \\\\ \nSarah scored 15 marks more than Tom in a Mathematics test. If Sarah scored 87 marks, how many marks did Tom score? \\\\ \nLet $x$ be the number of marks Tom scored. Write an equation for this situation, and solve it to find Tom's score.",
+      "solution": "\\textbf{Solution:} \\\\ \nLet $x$ be Tom's score. \\\\ \nSarah scored 15 more marks than Tom, so Sarah's score is $x + 15$. \\\\ \nSince Sarah scored 87 marks, we have: \\\\ \n$x + 15 = 87$ \\\\ \nTo find $x$, subtract 15 from both sides: \\\\ \n$x = 87 - 15$ \\\\ \n$x = 72$ \\\\ \n\\textbf{Tom scored 72 marks.}",
+      "response_time": 2.462783098220825
+    }
+  },
+  "P6-RoFndDvqWN_P6-RoFndTmWN_GPT4.1_Sports_01": {
+    "Primary_kc": "RATIO | Finding divided quantities | dividing a quantity in a given ratio",
+    "Secondary_kc": "RATIO | Finding a missing term | finding the missing term in a pair of equivalent ratios",
+    "Topic": "Sports",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndDvqWN_P6-RoFndTmWN_GPT4.1_Sports_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Question:} \\\\ \nDuring Sports Day at Evergreen Primary School, the number of boys and girls in the relay team are in the ratio of $3 : 5$. If there are 16 more girls than boys in the team, how many boys and how many girls are there in the team? \n \nLater, another classroom formed their own relay team. If the number of boys in that team is 6, and the ratio of boys to girls is the same as the ratio found earlier, how many girls are there in this second team?",
+      "solution": "\\textbf{Solution:} \\\\ \nLet the number of boys be $3x$ and the number of girls be $5x$. \nGiven that there are 16 more girls than boys: \n\\\\ \n$5x - 3x = 16$ \\\\ $2x = 16$ \\\\ $x = 8$ \\\\ \nSo, Number of boys $= 3 \\times 8 = 24$ \\\\ Number of girls $= 5 \\times 8 = 40$ \\\\ \n\\\\ \nFor the second part: \nThe ratio of boys to girls is $3 : 5$. \nIf the number of boys is 6, let the number of girls be $g$. \n\\\\ \n\\[ \\frac{3}{5} = \\frac{6}{g} \\] \nCross-multiply: \n$3g = 30$ \\\\ $g = 10$ \\\\ \n\\textbf{Final answer:} \nThere are 24 boys and 40 girls in the first relay team. \\\\ \nThere are 10 girls in the second relay team.",
+      "response_time": 4.2639384269714355
+    }
+  },
+  "P6-FrDivPN_P5-FrMulMixN_GPT4.1_Leisure_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Multiplication | multiplying a mixed number and a whole number",
+    "Topic": "Leisure",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrMulMixN_GPT4.1_Leisure_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Anna and her friends are baking cakes for a camp event. They have $3\\dfrac{1}{2}$ cakes to share equally among 7 groups.\n\n(a) How much cake does each group get? Give your answer in simplest form.\n\nLater, each group decided to multiply the cake they received by 4 to prepare enough cakes for the evening party.\n\n(b) How many cakes does each group prepare for the evening party? Give your answer as a mixed number.",
+      "solution": "(a) First, change $3\\dfrac{1}{2}$ to an improper fraction:\n$$3\\dfrac{1}{2} = \\dfrac{7}{2}$$\n\nDivide by 7 (the number of groups):\n$$\\dfrac{7}{2} \\div 7 = \\dfrac{7}{2} \\times \\dfrac{1}{7} = \\dfrac{1}{2}$$\nEach group gets $\\dfrac{1}{2}$ cake.\n\n(b) Each group multiplies the cake they have by 4:\n$$\\dfrac{1}{2} \\times 4 = \\dfrac{4}{2} = 2$$\nEach group prepares $2$ cakes for the evening party.",
+      "response_time": 3.5794575214385986
+    }
+  },
+  "P6-FrDivPN_P3-FrSmp_GPT4.1_Leisure_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Simplifying | expressing a fraction in its simplest form",
+    "Topic": "Leisure",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P3-FrSmp_GPT4.1_Leisure_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A group of friends decided to share a pizza during their picnic at East Coast Park. The pizza was cut into $\\frac{3}{4}$ of a whole pizza. If the pizza is to be shared equally among 3 friends, how much pizza does each friend get? Give your answer in its simplest form.",
+      "solution": "Amount of pizza to be shared = $\\frac{3}{4}$ pizza.  \nNumber of friends = 3.  \nEach friend's share = $\\frac{3}{4} \\div 3 = \\frac{3}{4} \\times \\frac{1}{3} = \\frac{3 \\times 1}{4 \\times 3} = \\frac{3}{12}$.  \nSimplify $\\frac{3}{12}$:  \n$\\frac{3}{12} = \\frac{1}{4}$.  \n\nEach friend gets $\\frac{1}{4}$ of a pizza.",
+      "response_time": 3.216639757156372
+    }
+  },
+  "P6-FrDivPN_P5-FrAddMix_GPT4.1_Services_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Addition | adding mixed numbers",
+    "Topic": "Services",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrAddMix_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A group of friends are sharing a pizza equally. They have $\\frac{3}{4}$ of a pizza left after a party. If they want to divide this leftover pizza equally among 3 friends, how much pizza does each friend get? Later, another 2 pizzas are delivered, and the friends add these to what they already have. How many pizzas do the friends have in total now?",
+      "solution": "First, we need to find out how much pizza each friend gets when $\\frac{3}{4}$ of a pizza is shared equally among 3 friends.\\newline\n\nAmount for each friend $= \\frac{3}{4} \\div 3 = \\frac{3}{4} \\times \\frac{1}{3} = \\frac{3}{12} = \\frac{1}{4}$ pizza.$\\newline$\n\nNow, the total amount of pizza they have is the leftover pizza plus the 2 new pizzas.\\newline\n\nLeftover pizza: $\\frac{3}{4}$\\newline\nNew pizzas: $2$\\newline\nTo add them, write as a mixed number: $2 + \\frac{3}{4} = 2\\frac{3}{4}$ pizzas in total.",
+      "response_time": 3.071157932281494
+    }
+  },
+  "P6-FrDivPP_P4-FrRepSet_GPT4.1_Digital ecconomy_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Representation and concept | fraction as part of a set ",
+    "Topic": "Digital ecconomy",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P4-FrRepSet_GPT4.1_Digital ecconomy_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A group of 24 students is creating a digital poster about e-payments in Singapore. The teacher wants to divide the students equally into groups, with $\\frac{3}{4}$ of a group working on each section of the poster.\n\n(a) How many students will be in each group if the teacher divides all 24 students into groups such that each group represents $\\frac{3}{4}$ of the usual group size?\n\n(b) If each group represents a part of the set of students, what fraction of the total number of students is found in 2 such groups?",
+      "solution": "Let the number of students in each group be $n$.\n\nSince $\\frac{3}{4}$ of a group works on each section, dividing 24 students by $\\frac{3}{4}$ will give the actual number of students in one full group:\n\n$24 \\div \\frac{3}{4} = 24 \\times \\frac{4}{3} = 32$\n\nSo, each group has 32 students when considered as a whole group. But since there are only 24 students, each 'group' in this problem is actually $\\frac{3}{4}$ of a true full group (of size 32), containing 24 students.\n\n(b) 2 such 'groups' would be $2 \\times 24 = 48$ students. However, since we only have 24 students in reality, this means the question asks for what fraction of students in 2 'groups' in relation to a full set of 32 students:\n\n$\\frac{2 \\times 24}{32} = \\frac{48}{32} = \\frac{3}{2}$\n\nBut if we interpret 2 'groups' directly as $2 \\times \\frac{3}{4} = \\frac{6}{4} = \\frac{3}{2}$ of a whole group, and in terms of the entire set, that's $\\frac{3}{2}$ times the group size as a fraction of the whole set.\n\nSo, the answer for (b) is $\\boxed{\\frac{3}{2}}$ of the group size, or $\\frac{48}{32}$ of all students.\n\nFinal Answers:\n(a) $\\boxed{32}$ students in each full group.\n(b) $\\boxed{\\frac{3}{2}}$ of the group size, or $\\frac{48}{32}$ of all students.",
+      "response_time": 6.416373014450073
+    }
+  },
+  "P6-FrDivPN_P2-FrCmp_GPT4.1_Transporation_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+    "Topic": "Transporation",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P2-FrCmp_GPT4.1_Transporation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A bus driver has \\(\\dfrac{5}{6}\\) of a full tank of fuel. He plans to make 3 equal trips using this fuel.  \n\n(a) How much of the full tank will be used for each trip?\n\n(b) After each trip, the driver compares the amount of fuel left in the tank with \\(\\dfrac{1}{3}\\) of a full tank. Is the remaining fuel after one trip more than, less than, or equal to \\(\\dfrac{1}{3}\\)? Show your workings.",
+      "solution": "Part (a):\n\nEach trip uses:\n\\[\n\\dfrac{5}{6} \\div 3 = \\dfrac{5}{6} \\times \\dfrac{1}{3} = \\dfrac{5}{18}\n\\]\nSo, \\(\\dfrac{5}{18}\\) of a full tank is used for each trip.\n\nPart (b):\n\nFuel left after one trip:\n\\[\n\\text{Fuel left} = \\dfrac{5}{6} - \\dfrac{5}{18}\n\\]\nFirst, write \\(\\dfrac{5}{6}\\) with denominator 18:\n\\[\n\\dfrac{5}{6} = \\dfrac{15}{18}\n\\]\nSo,\n\\[\n\\text{Fuel left} = \\dfrac{15}{18} - \\dfrac{5}{18} = \\dfrac{10}{18} = \\dfrac{5}{9}\n\\]\n\nCompare \\(\\dfrac{5}{9}\\) and \\(\\dfrac{1}{3}\\):\n\\(\n\\dfrac{1}{3} = \\dfrac{3}{9}\n\\) so \\(\n\\dfrac{5}{9} > \\dfrac{3}{9} = \\dfrac{1}{3}\n\\).\n\nTherefore, the fuel left after one trip is more than \\(\\dfrac{1}{3}\\) of a full tank.",
+      "response_time": 4.6876139640808105
+    }
+  },
+  "P6-AgRepLrEx_P6-AgSmpLrEx_GPT4.1_Digital ecconomy_01": {
+    "Primary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into linear algebraic expressions",
+    "Secondary_kc": "ALGEBRA | Simplifying | simplifying simple linear expressions excluding brackets",
+    "Topic": "Digital ecconomy",
+    "Grade": "Primary 6",
+    "QID": "P6-AgRepLrEx_P6-AgSmpLrEx_GPT4.1_Digital ecconomy_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Question:} \\\\ \nA food delivery app charges a basic fee of \\$2 for each order, plus an additional \\$x for each kilometre travelled. Write an algebraic expression to represent the total delivery cost for a single order that travels $y$ kilometres. If the additional charge per kilometre is \\$1, simplify your expression for the total delivery cost in terms of $y$.",
+      "solution": "\\textbf{Solution:} \\\\ \nLet the total delivery cost be $C$. \\\\ \nThe basic fee is \\$2. The additional fee is \\$x$ per kilometre for $y$ kilometres, which is $x \\times y$. \\\\ \nSo, the total delivery cost is: \\\\ \n$C = 2 + x \\times y$ \\\\ \nIf the additional charge per kilometre is \\$1, substitute $x = 1$: \\\\ \n$C = 2 + 1 \\times y$ \\\\ \n$C = 2 + y$ \\\\ \nTherefore, the simplified total delivery cost in terms of $y$ is $2 + y$.",
+      "response_time": 4.259835720062256
+    }
+  },
+  "P6-AgRepLrEx_P6-AgEvlLrEx_GPT4.1_Education_01": {
+    "Primary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into linear algebraic expressions",
+    "Secondary_kc": "ALGEBRA | Evaluation | evaluating simple linear expressions by substitution",
+    "Topic": "Education",
+    "Grade": "Primary 6",
+    "QID": "P6-AgRepLrEx_P6-AgEvlLrEx_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A school library collects $2 for each book borrowed by a student every month. If \\( x \\) represents the number of books Ali borrows in a month, write an algebraic expression to represent the total amount of money Ali needs to pay for borrowing the books in one month. If Ali borrowed 7 books in May, how much did he pay in total?",
+      "solution": "Let \\( x \\) be the number of books Ali borrows in a month.\n\nThe total amount paid can be represented by the algebraic expression \\( 2x \\).\n\nWhen Ali borrows 7 books, substitute \\( x = 7 \\) into the expression:\n\n\\[\n2x = 2 \\times 7 = 14\n\\]\n\nSo, Ali paid $14 in total for borrowing 7 books in May.",
+      "response_time": 2.766815185546875
+    }
+  },
+  "P6-AgRepLrEx_P6-AgEvlLrEx_GPT4.1_Food_01": {
+    "Primary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into linear algebraic expressions",
+    "Secondary_kc": "ALGEBRA | Evaluation | evaluating simple linear expressions by substitution",
+    "Topic": "Food",
+    "Grade": "Primary 6",
+    "QID": "P6-AgRepLrEx_P6-AgEvlLrEx_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Sarah is at a food festival. She buys \\( x \\) packets of chicken rice and \\( y \\) cups of bubble tea. Each packet of chicken rice costs \\$4 and each cup of bubble tea costs \\$2. Write an algebraic expression for the total amount Sarah spends on chicken rice and bubble tea in terms of \\( x \\) and \\( y \\). If Sarah buys 3 packets of chicken rice and 5 cups of bubble tea, what is the total amount she spends?",
+      "solution": "Let the number of packets of chicken rice be \\( x \\), and the number of cups of bubble tea be \\( y \\).\n\nThe cost of 1 packet of chicken rice is \\$4, so the total cost for chicken rice is \\( 4x \\).\nThe cost of 1 cup of bubble tea is \\$2, so the total cost for bubble tea is \\( 2y \\).\n\nThe total amount Sarah spends can be represented by the expression:\n\n\\[\n4x + 2y\n\\]\n\nIf Sarah buys 3 packets of chicken rice (\\( x = 3 \\)) and 5 cups of bubble tea (\\( y = 5 \\)), substitute these values into the expression:\n\n\\[\n4(3) + 2(5) = 12 + 10 = 22\n\\]\n\nSo, Sarah spends a total of \\$22.",
+      "response_time": 4.945519208908081
+    }
+  },
+  "P6-FrDivPP_P5-FrSubMix_GPT4.1_Education_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Subtraction | subtracting mixed numbers",
+    "Topic": "Education",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrSubMix_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Question: \n\nA school bought \\( 4 \\frac{1}{2} \\) litres of paint for an art project. Each student needs \\( \\frac{3}{4} \\) litre of paint for their work. \n\n(a) How many students can receive \\( \\frac{3}{4} \\) litre of paint each from the \\( 4 \\frac{1}{2} \\) litres? \n\n(b) After distributing the paint equally to these students, \\( 1 \\frac{2}{3} \\) litres of paint was left unused. How much paint was actually used by the students?",
+      "solution": "Solution: \n\n(a) Number of students who can receive \\( \\frac{3}{4} \\) litre of paint each:\n\n\\[\n4 \\frac{1}{2} \\div \\frac{3}{4} = \\frac{9}{2} \\div \\frac{3}{4} = \\frac{9}{2} \\times \\frac{4}{3} = \\frac{36}{6} = 6\n\\]\n\nSo, 6 students can receive \\( \\frac{3}{4} \\) litre of paint each.\n\n(b) Amount of paint used by the students:\n\nTotal initial paint = \\( 4 \\frac{1}{2} = \\frac{9}{2} \\) litres\n\nPaint left unused = \\( 1 \\frac{2}{3} = \\frac{5}{3} \\) litres\n\nPaint used = \\( 4 \\frac{1}{2} - 1 \\frac{2}{3} = \\frac{9}{2} - \\frac{5}{3} \\)\n\nFind common denominator:\n\n\\[\n\\frac{9}{2} - \\frac{5}{3} = \\frac{27}{6} - \\frac{10}{6} = \\frac{17}{6}\n\\]\n\nSo, the students used \\( \\frac{17}{6} \\) litres of paint, which is \\( 2 \\frac{5}{6} \\) litres.",
+      "response_time": 4.629433870315552
+    }
+  },
+  "P6-RoFndRoWN_P3-WNAdd4d_GPT4.1_Education_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | addition up to 4 digits",
+    "Topic": "Education",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P3-WNAdd4d_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Question: \n\nA school library has 1,250 English books, 850 Mathematics books, and 400 Science books.\n\n(a) What is the total number of books in the library?\n\n(b) Find the ratio of English books to Mathematics books to Science books, expressing your answer in its simplest form.",
+      "solution": "Solution:\n\n(a) Total number of books = Number of English books + Number of Mathematics books + Number of Science books\n\n$= 1250 + 850 + 400$\n\n$= 2100 + 400$\n\n$= 2,500$\n\nSo, the total number of books is $2,500$.\n\n(b) The ratio of English books : Mathematics books : Science books is $1250 : 850 : 400$\n\nFirst, find the highest common factor (HCF) for all three numbers.\n\n1250, 850, and 400 are all divisible by 50:\n\n$1250 \\div 50 = 25$\n\n$850 \\div 50 = 17$\n\n$400 \\div 50 = 8$\n\nSo, the simplest ratio is \\( 25 : 17 : 8 \\).",
+      "response_time": 4.095695734024048
+    }
+  },
+  "P6-RoFndDvqWN_P6-RoFndTmWN_GPT4.1_Food_01": {
+    "Primary_kc": "RATIO | Finding divided quantities | dividing a quantity in a given ratio",
+    "Secondary_kc": "RATIO | Finding a missing term | finding the missing term in a pair of equivalent ratios",
+    "Topic": "Food",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndDvqWN_P6-RoFndTmWN_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A bakery is making bags of cookies to sell. They want to divide 180 cookies into three types: chocolate, vanilla, and strawberry, in the ratio $4:5:6$. After packing, they realise that the number of strawberry cookies is actually the same as in a different batch where the ratio of chocolate to strawberry cookies is $2:3$ and there are 48 chocolate cookies in this batch. \n\n(a) How many cookies of each type (chocolate, vanilla, strawberry) did the bakery originally pack? \n\n(b) What was the total number of cookies in the other batch?",
+      "solution": "Let the number of chocolate, vanilla, and strawberry cookies in the original packing be $4x$, $5x$, and $6x$ respectively.\n\n$4x + 5x + 6x = 180$\n\n$15x = 180$ \n\n$x = 12$ \n\nSo:\n- Chocolate: $4x = 48$ \n- Vanilla: $5x = 60$ \n- Strawberry: $6x = 72$ \n\nFor part (b):\n\nLet the number of chocolate cookies in the second batch be $2y$ and strawberry cookies be $3y$. Given $2y = 48$, so $y = 24$.\n\nThus, number of strawberry cookies $= 3y = 72$. This matches the number found earlier, as required.\n\nTotal cookies in the other batch $= 2y + 3y = 5y = 120$.",
+      "response_time": 5.430931329727173
+    }
+  },
+  "P6-AgRepLrEx_P6-AgSmpLrEx_GPT4.1_Food_01": {
+    "Primary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into linear algebraic expressions",
+    "Secondary_kc": "ALGEBRA | Simplifying | simplifying simple linear expressions excluding brackets",
+    "Topic": "Food",
+    "Grade": "Primary 6",
+    "QID": "P6-AgRepLrEx_P6-AgSmpLrEx_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Question: \n\nA stall at a food court sells plates of chicken rice and bowls of fishball noodles. The cost of each plate of chicken rice is \\( x \\) dollars and each bowl of fishball noodles is \\( y \\) dollars. Ming bought 3 plates of chicken rice and 2 bowls of fishball noodles, while Clara bought 2 plates of chicken rice and 4 bowls of fishball noodles. \n\n(a) Write a linear algebraic expression for the total amount Ming paid, in terms of \\( x \\) and \\( y \\).  \n(b) Write a linear algebraic expression for the total amount both Ming and Clara paid together. Simplify your answer.\n",
+      "solution": "Solution: \n\n(a) Ming paid for 3 plates of chicken rice and 2 bowls of fishball noodles.\n\n\\[\n\\text{Total paid by Ming} = 3x + 2y\n\\]\n\n(b) Clara paid for 2 plates of chicken rice and 4 bowls of fishball noodles.\n\n\\[\n\\text{Total paid by Clara} = 2x + 4y\n\\]\n\n\\text{Total amount both Ming and Clara paid together:}\n\n\\[\n(3x + 2y) + (2x + 4y)\n\\]\nCombine like terms:\n\\[\n= (3x + 2x) + (2y + 4y)\n= 5x + 6y\n\\]\n\n\\text{Thus, they paid a total of } 5x + 6y \\text{ dollars together.}\n",
+      "response_time": 3.9404923915863037
+    }
+  },
+  "P6-FrDivPP_P5-FrSubMix_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Subtraction | subtracting mixed numbers",
+    "Topic": "Manufacturing",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrSubMix_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Word Problem:} \\\\ \nA factory produces 36 metres of cloth each day. For each order, the factory packs the cloth into rolls, with each roll containing \\frac{3}{4} metres of cloth. \\\\ \n(a) How many rolls can the factory make from 36 metres of cloth? \\\\ \nLater, an order is made to deliver a total of 24\\frac{1}{2} rolls over 2 days. Each day, an equal number of rolls are delivered. \\\\ \n(b) If the factory delivered 12\\frac{3}{4} rolls on the first day, how many more rolls need to be delivered on the second day? \\\\ \n\n\\vspace{0.5cm}",
+      "solution": "\\textbf{Solution:} \\\\ \n(a) To find the number of rolls: \\\\ \n\\[ 36 \\div \\frac{3}{4} = 36 \\times \\frac{4}{3} = 48 \\] \\\\ \nSo, the factory can make \\textbf{48 rolls} from 36 metres of cloth. \\\\ \n\n(b) Total rolls to deliver over two days: \\[ 24\\frac{1}{2} = \\frac{49}{2} \\] \\\\ \nRolls delivered on the first day: \\[ 12\\frac{3}{4} = \\frac{51}{4} \\] \\\\ \nRolls to deliver on the second day: \\\\ \n\\[ \\frac{49}{2} - \\frac{51}{4} = \\frac{98}{4} - \\frac{51}{4} = \\frac{47}{4} = 11\\frac{3}{4} \\] \\\\ \nSo, \\textbf{11\\frac{3}{4} rolls} need to be delivered on the second day.",
+      "response_time": 5.7978785037994385
+    }
+  },
+  "P6-FrDivPN_P5-FrMulMixN_GPT4.1_Household finance_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Multiplication | multiplying a mixed number and a whole number",
+    "Topic": "Household finance",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrMulMixN_GPT4.1_Household finance_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Auntie Mei baked \\( \\frac{3}{4} \\) of a loaf of bread and wanted to divide it equally among her 3 children for breakfast. Later that morning, she also made \\(2 \\frac{1}{2}\\) cups of hot chocolate for each child. If there are 3 children, \n\n(a) How much bread did each child get? \n\n(b) What is the total amount of hot chocolate all the children had together?",
+      "solution": "(a) Bread each child gets:\n\n\\[\n\\frac{3}{4} \\div 3 = \\frac{3}{4} \\times \\frac{1}{3} = \\frac{3}{12} = \\frac{1}{4}\n\\]\n\nSo, each child gets \\( \\frac{1}{4} \\) loaf of bread.\n\n(b) Total hot chocolate:\n\n\\[\n2\\frac{1}{2} \\times 3 = \\frac{5}{2} \\times 3 = \\frac{15}{2} = 7\\frac{1}{2}\n\\]\n\nSo, all the children had \\( 7 \\frac{1}{2} \\) cups of hot chocolate together.",
+      "response_time": 3.5561141967773438
+    }
+  },
+  "P6-FrDivPP_P5-FrSubMix_GPT4.1_Food_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Subtraction | subtracting mixed numbers",
+    "Topic": "Food",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrSubMix_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A baker had $\\frac{3}{4}$ of a cake left after a party. She wanted to pack the remaining cake into boxes, with each box holding $\\frac{1}{8}$ of a cake.  \n\n(a) How many boxes can she fill with the leftover cake?  \n\nLater, the baker baked a new cake and ended up with $2 \\frac{1}{2}$ cakes. She gave away $1 \\frac{1}{4}$ cakes to her neighbours.  \n\n(b) How much cake does she have left after giving some away?",
+      "solution": "\\textbf{(a) } To find how many boxes she can fill:  \n\\[\n\\text{Number of boxes} = \\frac{3}{4}\\div \\frac{1}{8} = \\frac{3}{4} \\times \\frac{8}{1} = \\frac{3\\times8}{4} = 6\n\\]\nSo, she can fill \\boxed{6} boxes.\n\n\\textbf{(b) } She had $2\\frac{1}{2}$ cakes and gave away $1\\frac{1}{4}$ cakes. Convert to improper fractions:\n\\[\n2\\frac{1}{2} = \\frac{5}{2},\\quad 1\\frac{1}{4} = \\frac{5}{4}\n\\]\nFind a common denominator:\n\\[\n\\frac{5}{2} = \\frac{10}{4}\n\\]\nSubtract:\n\\[\n\\frac{10}{4} - \\frac{5}{4} = \\frac{5}{4}\n\\]\nSo, she has $\\boxed{1\\frac{1}{4}}$ cakes left.",
+      "response_time": 3.907703399658203
+    }
+  },
+  "P6-PcFndChg_P4-WNDiv4d1d_GPT4.1_Education_01": {
+    "Primary_kc": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+    "Secondary_kc": "WHOLE NUMBERS | Division | division up to 4 digits by 1 digit",
+    "Topic": "Education",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndChg_P4-WNDiv4d1d_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A school had 1,392 students last year. This year, the number of students increased by 25\\%. After the increase, all the students were divided equally into 8 classes. \\\\ \n(a) How many students are there in the school this year? \\\\ \n(b) How many students are there in each class? \\\\ ",
+      "solution": "(a) Number of students increased = 25\\% of 1,392 \\\\ \n= \\frac{25}{100} \\times 1,392 \\\\ \n= 348 \\\\ \nTotal number of students this year = 1,392 + 348 = 1,740 \\\\ \n(b) Number of students in each class = \\frac{1,740}{8} = 217.5 \\\\ \nSo, if classes must have whole numbers of students, there will be 217 students in each class, and 4 classes will have 218 students (since 217.5 students per class is not possible).",
+      "response_time": 3.130281686782837
+    }
+  },
+  "P6-FrDivPN_P6-FrDivPP_GPT4.1_Household finance_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Topic": "Household finance",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P6-FrDivPP_GPT4.1_Household finance_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Aunt May has $\\frac{3}{4}$ of a cake left after a birthday party. She wants to divide this equally among 3 of her nieces. \n\n(a) How much of the cake will each niece receive?\n\nAfter sharing out the cake, she decides to bake 2 more cakes. She then wants to give all 2 cakes equally to friends, with each friend getting $\\frac{1}{4}$ of a cake. \n\n(b) How many friends can Aunt May give the 2 cakes to if each friend receives $\\frac{1}{4}$ of a cake?",
+      "solution": "(a)\nAmount of cake each niece receives:\n\n$\\frac{3}{4} \\div 3 = \\frac{3}{4} \\times \\frac{1}{3} = \\frac{3}{12} = \\frac{1}{4}$\n\nEach niece receives $\\frac{1}{4}$ of the cake.\n\n(b)\nNumber of friends Aunt May can give the 2 cakes to, if each friend receives $\\frac{1}{4}$:\n\nNumber of friends = $2 \\div \\frac{1}{4} = 2 \\times 4 = 8$\n\nAunt May can give the 2 cakes to 8 friends, with each receiving $\\frac{1}{4}$ of a cake.",
+      "response_time": 8.676310539245605
+    }
+  },
+  "P6-FrDivPP_P5-FrCnv2Dc_GPT4.1_Services_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Conversion to decimals | expressing fractions as decimals",
+    "Topic": "Services",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrCnv2Dc_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company has to clean 3 rooms. If cleaning each room takes $\\frac{3}{4}$ of an hour, how many rooms can the company clean in 3 hours? Give your answer in decimal form.",
+      "solution": "To find out how many rooms can be cleaned in 3 hours, divide the total time by the time to clean one room:\n\n\\[\n\\text{Number of rooms} = \\frac{3}{\\frac{3}{4}}\n\\]\n\nDividing by a fraction is the same as multiplying by its reciprocal:\n\n\\[\n\\frac{3}{\\frac{3}{4}} = 3 \\times \\frac{4}{3} = \\frac{12}{3} = 4\n\\]\n\nSo, in 3 hours, the company can clean 4 rooms.\n\nExpressing 4 as a decimal: $4.0$\n\n\\[\n\\boxed{4.0}\n\\]\n",
+      "response_time": 2.611517906188965
+    }
+  },
+  "P6-FrDivPN_P2-FrCmp_GPT4.1_Leisure_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+    "Topic": "Leisure",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P2-FrCmp_GPT4.1_Leisure_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Jane is baking a cake for a family gathering. She uses } \\frac{3}{4} \\text{ of a cup of flour and wants to divide it evenly among 3 mini cakes.} \\\\ \n\\text{(a) How much flour does she use for each mini cake?} \\\\ \n\\text{(b) After dividing the flour, Jane compares the amount of flour in each mini cake to another recipe that uses } \\frac{1}{4} \\text{ of a cup of flour per mini cake.} \\\\ \n\\text{Arrange the amounts } \\left( \\frac{3}{4} \\div 3 \\text{ and } \\frac{1}{4} \\right) \\text{ in ascending order.}",
+      "solution": "\\textbf{(a) Amount of flour for each mini cake:} \\\\ \n\\frac{3}{4} \\div 3 = \\frac{3}{4} \\times \\frac{1}{3} = \\frac{3}{12} = \\frac{1}{4} \\\\ \n\\text{So, Jane uses } \\frac{1}{4} \\text{ cup of flour for each mini cake.} \\\\ \n\\textbf{(b) Comparing the amounts:} \\\\ \n\\frac{3}{4} \\div 3 = \\frac{1}{4}, \\text{ and another recipe also uses } \\frac{1}{4} \\text{ cup per mini cake.} \\\\ \n\\text{So the two amounts are equal. Arranged in ascending order:} \\\\ \n\\frac{1}{4}, \\frac{1}{4}",
+      "response_time": 4.272350788116455
+    }
+  },
+  "P6-FrDivPP_P2-FrCmp_GPT4.1_Household finance_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+    "Topic": "Household finance",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P2-FrCmp_GPT4.1_Household finance_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Mr. Tan has $3$ litres of orange juice. He wants to pour the juice equally into bottles, each holding $\\frac{3}{4}$ litre.\\\n\n(a) How many bottles can he fill? \\\n\n(b) After filling the bottles, Mr. Tan compares the amount of juice in one bottle ($\\frac{3}{4}$ litre) with another bottle that holds $\\frac{5}{8}$ litre. \\\n\nWhich bottle has more juice and by how much?",
+      "solution": "\\textbf{(a) Number of bottles:} \\\n\nTo find out how many bottles Mr. Tan can fill, we divide the total amount of juice by the amount each bottle can hold:\n\\\\\n\n\\[\n\\text{Number of bottles} = \\frac{3}{\\frac{3}{4}} = 3 \\times \\frac{4}{3} = 4\n\\]\n\nSo, Mr. Tan can fill \\boxed{4} bottles.\n\\\\\n\n\\textbf{(b) Comparing the juice in two bottles:} \n\\\\\n\n\\text{Bottle A: } \\frac{3}{4} \\text{ litre} \n\\\\\n\\text{Bottle B: } \\frac{5}{8} \\text{ litre}\n\\\\\n\nLet us compare $\\frac{3}{4}$ and $\\frac{5}{8}$. Convert $\\frac{3}{4}$ to a denominator of $8$: \\\\\n$\\frac{3}{4} = \\frac{6}{8}$\n\\\\\nNow: \\\\n$\\frac{6}{8} > \\frac{5}{8}$\n\\\\\nSo, the bottle with $\\frac{3}{4}$ litre has more juice.\n\\\\\n\\text{Difference: }\n\\[\n\\frac{6}{8} - \\frac{5}{8} = \\frac{1}{8}\n\\]\n\n\\boxed{\\frac{1}{8}} \\text{ litre more in the bottle with } \\frac{3}{4} \\text{ litre.}",
+      "response_time": 5.483726263046265
+    }
+  },
+  "P6-PcFndChg_P4-WNMul4d1d_GPT4.1_Education_01": {
+    "Primary_kc": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplication up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Topic": "Education",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndChg_P4-WNMul4d1d_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A school bought 3,250 mathematics textbooks last year. This year, the school increased the number of mathematics textbooks by 24\\%. How many mathematics textbooks did the school buy this year?",
+      "solution": "Number of textbooks bought last year = 3,250.\n\nPercentage increase = 24\\%.\n\nStep 1: Find 24\\% of 3,250:\n\n24\\% \\times 3,250 = \\frac{24}{100} \\times 3,250 = 0.24 \\times 3,250 = 780.\n\nStep 2: Calculate the total number of textbooks bought this year:\n\n3,250 + 780 = 4,030.\n\n\\text{Answer: The school bought 4,030 mathematics textbooks this year.}",
+      "response_time": 2.123542308807373
+    }
+  },
+  "P6-RoFndRoWN_P3-WNSub4d_GPT4.1_Transporation_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtraction up to 4 digits",
+    "Topic": "Transporation",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P3-WNSub4d_GPT4.1_Transporation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A bus was carrying 120 passengers at the start of the journey. At the first stop, 35 passengers alighted, and at the second stop, another 25 passengers alighted. The remaining passengers on the bus were adults and children. If there were 36 adults and the rest were children, what is the ratio of adults to children to the number of passengers who alighted at the two stops? Express your answer in its simplest form.",
+      "solution": "Number of passengers at the start = 120.\n\nNumber of passengers who alighted at first stop = 35.\nNumber of passengers who alighted at second stop = 25.\nTotal number of passengers who alighted = 35 + 25 = 60.\n\nNumber of passengers remaining = 120 - 60 = 60.\nNumber of adults = 36.\nNumber of children = 60 - 36 = 24.\n\nThe ratio of adults : children : passengers who alighted = 36 : 24 : 60.\n\nSimplify the ratio:\n\nDivide all numbers by 12:\n36 \u00f7 12 = 3\n24 \u00f7 12 = 2\n60 \u00f7 12 = 5\n\nSo, the ratio is $3:2:5$.",
+      "response_time": 2.8489599227905273
+    }
+  },
+  "P6-RoFndRoWN_P3-WNSub4d_GPT4.1_Household finance_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtraction up to 4 digits",
+    "Topic": "Household finance",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P3-WNSub4d_GPT4.1_Household finance_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Question:}\\\\\nMr Lim keeps track of his household spending for a week. He spends \\$1250 on groceries, \\$1020 on utility bills, and \\$1460 on other expenses. If he decides to reduce the amount spent on other expenses by \\$850 next week, what will be the new ratio of the amount spent on groceries, utility bills, and other expenses? Express your answer in its simplest form.",
+      "solution": "\\textbf{Solution:}\\\\\n\\text{Original amount spent on other expenses} = 1460 \\\\\n\\text{Amount reduced} = 850 \\\\\n\\text{New amount spent on other expenses} = 1460 - 850 = 610 \\\\\n\\text{Now, the amounts spent are:}\\\\\n\\text{Groceries: } 1250 \\\\\n\\text{Utility bills: } 1020 \\\\\n\\text{Other expenses: } 610 \\\\\n\\text{Find the ratio:}\\\\\n1250 : 1020 : 610 \\\\\n\\text{Find HCF of the three numbers.}\\\\\n\\text{Prime factorisation:}\\\\\n1250 = 2 \\times 5^4 \\\\\n1020 = 2^2 \\times 3 \\times 5 \\times 17 \\\\\n610 = 2 \\times 5 \\times 61 \\\\\n\\text{The highest common factor is 10.}\\\\\n\\text{Divide each by 10:}\\\\\n\\dfrac{1250}{10} : \\dfrac{1020}{10} : \\dfrac{610}{10} = 125 : 102 : 61 \\\\\n\\text{So, the simplest ratio is } \\boxed{125:102:61}.",
+      "response_time": 4.374250888824463
+    }
+  },
+  "P6-PcFndChg_P4-WNMul4d1d_GPT4.1_Transporation_01": {
+    "Primary_kc": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplication up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Topic": "Transporation",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndChg_P4-WNMul4d1d_GPT4.1_Transporation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A factory produced 2,350 bicycles last year. This year, the factory increased its production by 20\\%. \\\\ \n(a) How many more bicycles did the factory produce this year compared to last year? \\\\ \n(b) If each bicycle costs \\$150 to make this year, what is the total cost to produce all the bicycles made this year?",
+      "solution": "Let last year's production be 2,350 bicycles. \\\\ \nPercentage increase = 20\\% \\\\ \nNumber of bicycles increased: \\( 20\\% \\times 2,350 = \\frac{20}{100} \\times 2,350 = 470 \\) \\\\ \nTotal bicycles produced this year: \\( 2,350 + 470 = 2,820 \\) \\\\ \n(a) The factory produced \\( \\boxed{470} \\) more bicycles this year. \\\\ \n(b) Each bicycle costs \\$150. \\\\ \nTotal cost = Number of bicycles this year \\( \\times \\) Cost per bicycle \\\\ \n\\(2,820 \\times 150 = 423,000\\) \\\\ \nThe total cost to produce all the bicycles made this year is \\( \\boxed{\\$423,000} \\).",
+      "response_time": 4.046869993209839
+    }
+  },
+  "P6-RoFndRoWN_P4-WNDiv4d1d_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Division | division up to 4 digits by 1 digit",
+    "Topic": "Manufacturing",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P4-WNDiv4d1d_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A factory produces 1,836 bottles of orange juice and 612 bottles of apple juice in a week. The bottles are packed into boxes, each box containing 6 bottles of the same juice. Find the ratio of the number of boxes of orange juice to the number of boxes of apple juice packed by the factory. Give your answer in the simplest form.",
+      "solution": "To find the number of boxes for each type of juice, divide the total bottles by the number of bottles per box:\n\nNumber of boxes for orange juice: $\\frac{1836}{6} = 306$ \n\nNumber of boxes for apple juice: $\\frac{612}{6} = 102$ \n\nThe ratio of boxes of orange juice to apple juice is $306 : 102$.\n\nTo simplify, divide both numbers by 102:\n\n$306 \\div 102 = 3$\n\n$102 \\div 102 = 1$\n\nSo, the simplest ratio is $3 : 1$.",
+      "response_time": 2.809304714202881
+    }
+  },
+  "P6-FrDivPN_P6-FrDivPP_GPT4.1_Food_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Topic": "Food",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P6-FrDivPP_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Question: Write the word problem in LaTeX code.\n\n\\textbf{Question}\n\nAdam baked $3$ pies for a family gathering. He wants to divide each pie equally among $4$ family members.\n\n(a) How much of a pie does each person get from one pie?\n\nLater, Adam decides to give $1/2$ of a pie each to his friends. How many friends can he serve with all $3$ pies?\n",
+      "solution": "Solution: Write the solution in LaTeX code.\n\n\\textbf{Solution}\n\n(a) To find how much of a pie each person gets from one pie, we divide $1$ pie by $4$:\n\n\\[\n\\frac{1}{4}\n\\]\nSo, each person gets $\\displaystyle \\frac{1}{4}$ of a pie.\n\n(b) Adam has a total of $3$ pies, and each friend gets $\\dfrac{1}{2}$ of a pie. The number of friends Adam can serve is:\n\n\\[\n3 \\div \\frac{1}{2} = 3 \\times 2 = 6\n\\]\nAdam can serve $6$ friends with $3$ pies if each friend receives $\\dfrac{1}{2}$ of a pie.",
+      "response_time": 3.83207106590271
+    }
+  },
+  "P6-PcFndChg_P3-WNAdd4d_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | addition up to 4 digits",
+    "Topic": "Manufacturing",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndChg_P3-WNAdd4d_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a manufacturing company, 2,850 toy cars were produced in January. In February, the number of toy cars produced increased by 20% compared to January. If the company produced 1,350 more toy cars in March than in February, how many toy cars did the company produce in total for these three months?",
+      "solution": "Let\u2019s first find the number of toy cars produced in February.\n\nNumber of cars produced in January = 2,850\n\nPercentage increase in February = 20%\n\nIncrease in number of cars = $20\\% \\times 2,850 = \\frac{20}{100} \\times 2,850 = 570$\n\nNumber of cars produced in February = $2,850 + 570 = 3,420$\n\nIn March, the number of cars produced is 1,350 more than in February.\n\nNumber of cars produced in March = $3,420 + 1,350 = 4,770$\n\nTotal number of toy cars produced in these three months:\n\n$2,850 + 3,420 + 4,770 = 11,040$\n\n\\textbf{Final Answer:}\n\nThe company produced a total of 11,040 toy cars in these three months.",
+      "response_time": 5.067015647888184
+    }
+  },
+  "P6-FrDivPP_P5-FrCnv2Dc_GPT4.1_Household finance_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Conversion to decimals | expressing fractions as decimals",
+    "Topic": "Household finance",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrCnv2Dc_GPT4.1_Household finance_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a household, Mrs Tan has $6$ litres of cooking oil. She wants to pour the oil equally into bottles, each holding $\\frac{3}{4}$ litre of oil.\n\n(a) How many bottles can she fill? Express your answer as a proper fraction and as a decimal.\n\n(b) If she decides to use $\\frac{2}{3}$ litre of oil for each cooking session instead, how many cooking sessions can she use the $6$ litres of oil for? Express your answer as a decimal, rounding off to 2 decimal places.",
+      "solution": "(a) Number of bottles $= 6 \\div \\frac{3}{4}$.\n\nTo divide by a fraction, multiply by its reciprocal:\n\n$6 \\div \\frac{3}{4} = 6 \\times \\frac{4}{3} = \\frac{24}{3} = 8$\n\nSo, Mrs Tan can fill $8$ bottles.\n\nExpressed as a decimal: $8.00$ bottles.\n\n(b) Number of cooking sessions $= 6 \\div \\frac{2}{3}$\n\n$6 \\div \\frac{2}{3} = 6 \\times \\frac{3}{2} = \\frac{18}{2} = 9$\n\nAs a decimal: $9.00$ sessions.\n\nIf we were to use, for example, $\\frac{5}{8}$ litre per session:\n$6 \\div \\frac{5}{8} = 6 \\times \\frac{8}{5} = \\frac{48}{5} = 9.6$\n\nBut with $\\frac{2}{3}$ litre per session, the answer is exactly $9.00$ sessions (as a decimal with two decimal places: $9.00$).",
+      "response_time": 4.274009943008423
+    }
+  },
+  "P6-FrDivPN_P2-FrCmp_GPT4.1_Services_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+    "Topic": "Services",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P2-FrCmp_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company has $\\dfrac{3}{4}$ of a bottle of cleaning solution left. The manager wants to divide the remaining solution equally among 3 cleaners for use today. \n\n(a) How much cleaning solution does each cleaner get?\n\n(b) Another team of cleaners is given $\\dfrac{2}{3}$ of a bottle to share equally among 4 people. Who gets more cleaning solution: each of the 3 cleaners in the first group, or each of the 4 cleaners in the second group? Write your answer in order from least to greatest amount.",
+      "solution": "(a) To find the amount of cleaning solution each cleaner gets, divide $\\dfrac{3}{4}$ by 3:\n\n\\[\n\\dfrac{3}{4} \\div 3 = \\dfrac{3}{4} \\times \\dfrac{1}{3} = \\dfrac{3}{12} = \\dfrac{1}{4}\n\\]\n\nEach cleaner gets $\\dfrac{1}{4}$ of a bottle.\n\n(b) For the second team:\n\\[\n\\dfrac{2}{3} \\div 4 = \\dfrac{2}{3} \\times \\dfrac{1}{4} = \\dfrac{2}{12} = \\dfrac{1}{6}\n\\]\n\nEach cleaner in the second team gets $\\dfrac{1}{6}$ of a bottle.\n\nNow, compare $\\dfrac{1}{4}$ and $\\dfrac{1}{6}$.\n\nTo compare, find a common denominator:\n\\[\n\\dfrac{1}{4} = \\dfrac{3}{12}, \\quad \\dfrac{1}{6} = \\dfrac{2}{12}\n\\]\n\nTherefore, $\\dfrac{1}{6} < \\dfrac{1}{4}$. So each of the 3 cleaners in the first group gets more cleaning solution than each of the 4 cleaners in the second group.\n\nOrder from least to greatest:\n\\[\n\\dfrac{1}{6},\\ \\dfrac{1}{4}\n\\]",
+      "response_time": 5.102989673614502
+    }
+  },
+  "P6-PcFndWN_P4-WNDiv4d1d_GPT4.1_Farming_01": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Division | division up to 4 digits by 1 digit",
+    "Topic": "Farming",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P4-WNDiv4d1d_GPT4.1_Farming_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Word Problem:}\\\\\nA farmer harvested some apples from his orchard and sold $24\\%$ of them at the market. If he sold 432 apples at the market, how many apples did he have at first?\\\\\nAfter finding the total number of apples he had at first, he decides to pack all the apples equally into boxes, with each box containing 8 apples. How many boxes could he pack in total?\\\\",
+      "solution": "\\textbf{Solution:}\\\\\nLet the total number of apples be $x$.\\\\\nGiven that $24\\%$ of the apples were sold, and this is equal to 432 apples:\\\\\n$24\\% \\times x = 432$\\\\\n$\\frac{24}{100} \\times x = 432$\\\\\n$x = \\frac{432 \\times 100}{24}$\\\\\n$x = \\frac{43200}{24}$\\\\\n$x = 1800$\\\\\nSo, the farmer had 1800 apples at first.\\\\\nNext, he packed all the apples equally into boxes of 8 apples each.\\\\\nNumber of boxes $= \\frac{1800}{8}$\\\\\n$= 225$\\\\\n\\textbf{Final Answer:} The farmer had 1800 apples at first, and he could pack them into 225 boxes.",
+      "response_time": 3.7188546657562256
+    }
+  },
+  "P6-FrDivPP_P2-FrCmp_GPT4.1_Leisure_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+    "Topic": "Leisure",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P2-FrCmp_GPT4.1_Leisure_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Question:}\\\\\nSarah has \\(6\\) meters of ribbon. She wants to cut the ribbon into pieces, each measuring \\(\\frac{3}{4}\\) meter.\\\\\n(a) How many pieces of ribbon can Sarah cut?\\\\\n(b) If Sarah needs to compare the length of one piece (\\(\\frac{3}{4}\\) meter), one-third of the original ribbon, and half of the original ribbon, order these three lengths from shortest to longest.\\\\",
+      "solution": "\\textbf{Solution:}\\\\\n\\textbf{(a)}\\\\\nTo find how many pieces Sarah can cut, divide the total length by the length of each piece:\\\\\n\\[\n\\frac{6}{\\frac{3}{4}} = 6 \\times \\frac{4}{3} = \\frac{24}{3} = 8\n\\]\nSarah can cut \\(8\\) pieces of ribbon.\\\\\n\n\\textbf{(b)}\\\\\nFirst, find the length of each: \\\\ \n- Length of one piece: \\(\\frac{3}{4}\\) meter\n- One-third of original ribbon: \\(\\frac{1}{3} \\times 6 = 2\\) meters\n- Half of original ribbon: \\(\\frac{1}{2} \\times 6 = 3\\) meters\\\\\nCompare these lengths: \\\\ \n\\[\n\\frac{3}{4} \\text{ meter} < 2 \\text{ meters} < 3 \\text{ meters}\n\\]\nSo, from shortest to longest, the order is:\\\\\n\\(\\frac{3}{4}\\) meter, 2 meters, 3 meters.",
+      "response_time": 5.117681503295898
+    }
+  },
+  "P6-PcFndWN_P4-WNDiv4d1d_GPT4.1_Digital ecconomy_01": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Division | division up to 4 digits by 1 digit",
+    "Topic": "Digital ecconomy",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P4-WNDiv4d1d_GPT4.1_Digital ecconomy_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "The Monetary Authority of Singapore reported that last year, 35\\% of online shoppers in Singapore used e-wallets to pay for their purchases. If 1,715 shoppers used e-wallets, how many online shoppers were surveyed in total? If the total number of shoppers is then divided equally among 4 shopping platforms, how many online shoppers does each platform have?",
+      "solution": "Let the total number of online shoppers surveyed be $x$.\\\\\n35\\% of $x$ = 1,715 \\\\\n$0.35x = 1,715$ \\\\\n$x = \\dfrac{1,715}{0.35}$ \\\\\n$x = 4,900$ \\\\\n\nThere were 4,900 online shoppers surveyed in total.\\\\\n\nNow, divide the total number of shoppers equally among 4 platforms: \\\\\nNumber of shoppers per platform $= \\dfrac{4,900}{4} = 1,225$ \\\\\n\n\\textbf{Final answers:} \\\\\nThere were 4,900 online shoppers surveyed in total. Each shopping platform has 1,225 online shoppers.",
+      "response_time": 3.1636009216308594
+    }
+  },
+  "P6-FrDivPP_P5-FrMulMixN_GPT4.1_Household finance_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Multiplication | multiplying a mixed number and a whole number",
+    "Topic": "Household finance",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrMulMixN_GPT4.1_Household finance_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Aunty Lee baked \\( 5 \\) trays of brownies. She wants to divide all the brownies equally into containers, where each container holds \\( \\frac{3}{4} \\) of a tray of brownies.\n\n(a) How many containers can she fill?\n\nLater, she decides to pack \\( 2\\frac{1}{3} \\) boxes of brownies for each of her 4 nieces for a family party.\n\n(b) How many boxes of brownies does she pack in total for the party?",
+      "solution": "(a) Number of containers = \\( \\frac{5}{\\frac{3}{4}} = 5 \\times \\frac{4}{3} = \\frac{20}{3} = 6\\frac{2}{3} \\). \n\nAunty Lee can fill \\( 6 \\) containers completely and has enough for \\( \\frac{2}{3} \\) of another container.\n\n(b) Number of boxes for the party = \\( 2\\frac{1}{3} \\times 4 = \\frac{7}{3} \\times 4 = \\frac{28}{3} = 9\\frac{1}{3} \\).\n\nAunty Lee packs \\( 9\\frac{1}{3} \\) boxes of brownies in total for the party.",
+      "response_time": 3.8272976875305176
+    }
+  },
+  "P6-PcFndWN_P4-WNMul4d1d_GPT4.1_Services_01": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplication up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Topic": "Services",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P4-WNMul4d1d_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company charges its customers based on the area cleaned. Last month, a customer paid $\\$144$ to have 12\\% of her office cleaned. How much would it cost to clean the entire office? If another company charges twice as much for the same area, how much would they charge to clean the whole office?",
+      "solution": "Let the total cost to clean the entire office be $x$ dollars.\n\nGiven that 12% of the office costs $\\$144$:\n\n\\[\n12\\% \\times x = 144\n\\]\n\\[\n0.12x = 144\n\\]\n\\[\nx = \\frac{144}{0.12}\n\\]\n\\[\nx = 1200\n\\]\n\nSo, it would cost $\\$1200$ to clean the entire office.\n\nIf another company charges twice as much:\n\\[\n2 \\times 1200 = 2400\n\\]\n\nTherefore, the other company would charge $\\$2,400$ to clean the whole office.",
+      "response_time": 3.3018624782562256
+    }
+  },
+  "P6-PcFndChg_P4-WNDiv4d1d_GPT4.1_Leisure_01": {
+    "Primary_kc": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+    "Secondary_kc": "WHOLE NUMBERS | Division | division up to 4 digits by 1 digit",
+    "Topic": "Leisure",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndChg_P4-WNDiv4d1d_GPT4.1_Leisure_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Question:} \\\\ \nTim went bowling with his friends last weekend. He scored a total of 324 points in his first 9 games. In the following 9 games, he improved his average score per game by 25\\%. How many points did Tim score in his second set of 9 games?",
+      "solution": "\\textbf{Solution:} \\\\ \nFirst, calculate Tim's average score per game in his first 9 games: \\\\ \n\\[ \\text{Average score in first 9 games} = \\frac{324}{9} = 36 \\] \\\\ \nHis average score increased by 25\\%. \\\\ \n\\[ \\text{Percentage increase} = 25\\% \\] \\\\ \n\\[ \\text{Increase in average} = 36 \\times \\frac{25}{100} = 9 \\] \\\\ \n\\[ \\text{New average score} = 36 + 9 = 45 \\] \\\\ \nNow, find his total score in the second set of 9 games: \\\\ \n\\[ \\text{Total score in next 9 games} = 45 \\times 9 = 405 \\] \\\\ \n\\boxed{405} \\\\ \nTim scored \\textbf{405} points in his second set of 9 games.",
+      "response_time": 4.25720739364624
+    }
+  },
+  "P6-RoFndRoWN_P4-WNMul4d1d_GPT4.1_Transporation_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplication up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Topic": "Transporation",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P4-WNMul4d1d_GPT4.1_Transporation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Question: \n\nWrite the following in LaTeX code:\n\nA bus can carry 52 passengers at a time. On Monday, 5 buses and 3 minibuses transported pupils to a science fair. Each minibus carried 35 passengers. Find the ratio of the number of pupils who took the buses to the number of pupils who took the minibuses. Express your answer in its simplest form.",
+      "solution": "Solution: \n\nWrite the following in LaTeX code:\n\nNumber of pupils who took the buses: \n\n$5 \\times 52 = 260$\n\nNumber of pupils who took the minibuses:\n\n$3 \\times 35 = 105$\n\nRatio of pupils in buses to minibuses:\n\n$260 : 105$\n\nDivide both numbers by 5 to simplify:\n\n$260 \\div 5 = 52$\n\n$105 \\div 5 = 21$\n\nSo, the simplest form of the ratio is $52:21$.",
+      "response_time": 2.9957449436187744
+    }
+  },
+  "P6-RoFndRoWN_P3-WNSub4d_GPT4.1_Education_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtraction up to 4 digits",
+    "Topic": "Education",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P3-WNSub4d_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a Primary 6 class, there are 185 students who have completed their mathematics homework and 138 students who have not completed it. After reviewing the homework, the teacher finds that 29 more students have now completed their homework. \n\nFind the ratio of the number of students who have completed their homework to the number of students who have not completed their homework after the teacher's review. Express your answer in its simplest form.",
+      "solution": "Number of students who have completed their homework after review:\n\n185 + 29 = 214\n\nNumber of students who have not completed their homework after review:\n\n138 - 29 = 109\n\nSo, the ratio of students who have completed their homework to those who have not completed their homework is:\n\n214 : 109\n\nThis ratio is already in its simplest form, as 214 and 109 have no common factors other than 1.\n\n\\[ \\boxed{214 : 109} \\]",
+      "response_time": 2.3784070014953613
+    }
+  },
+  "P6-FrDivPN_P4-FrRepSet_GPT4.1_Food_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Representation and concept | fraction as part of a set ",
+    "Topic": "Food",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P4-FrRepSet_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Question: \n\nA baker made \\( \\frac{3}{4} \\) of a tray of brownies for a party. He wants to pack these brownies equally into 5 small boxes, with each box containing the same amount of brownies. \n\n(a) What fraction of a tray of brownies will each box contain? \n\n(b) If each tray contains 20 brownie pieces, how many pieces of brownies will be packed in each box?\n",
+      "solution": "Solution:\n\n(a) The total amount to pack is \\( \\frac{3}{4} \\) of a tray, divided equally among 5 boxes:\n\n\\[\n\\frac{3}{4} \\div 5 = \\frac{3}{4} \\times \\frac{1}{5} = \\frac{3}{20}\n\\]\n\nSo, each box contains \\( \\frac{3}{20} \\) of a tray of brownies.\n\n(b) Each tray has 20 brownie pieces. \\( \\frac{3}{20} \\) of a tray of brownies means:\n\n\\[\n20 \\times \\frac{3}{20} = 3\n\\]\n\nSo, each box contains \\(3\\) brownies.",
+      "response_time": 4.2040088176727295
+    }
+  },
+  "P6-FrDivPN_P5-FrSubMix_GPT4.1_Leisure_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Subtraction | subtracting mixed numbers",
+    "Topic": "Leisure",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrSubMix_GPT4.1_Leisure_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A group of friends went to the swimming pool during the holidays. They had \\(\\frac{3}{4}\\) of a large watermelon to share equally among 3 people. After eating their portions, they bought 2\\(\\frac{1}{2}\\) more watermelons. If they ate \\(1\\frac{2}{3}\\) watermelons after buying the extra ones, how much watermelon did they have left altogether?",
+      "solution": "First, divide \\(\\frac{3}{4}\\) watermelon among 3 people: \n\n\\[ \\frac{3}{4} \\div 3 = \\frac{3}{4} \\times \\frac{1}{3} = \\frac{1}{4} \\]\n\nSo each person gets \\(\\frac{1}{4}\\) watermelon.\n\nAfter eating, they bought 2\\(\\frac{1}{2}\\) watermelons. Convert to improper fraction: \n\n\\[ 2\\frac{1}{2} = \\frac{5}{2} \\]\n\nTotal watermelons after buying more:\n\\[ \\frac{1}{4} + \\frac{5}{2} = \\frac{1}{4} + \\frac{10}{4} = \\frac{11}{4} \\]\n\nNow, they ate \\(1\\frac{2}{3}\\).\nConvert to improper fraction: \n\\[ 1\\frac{2}{3} = \\frac{5}{3} \\]\n\nSubtract this from total:\n\\[ \\frac{11}{4} - \\frac{5}{3} = \\frac{33}{12} - \\frac{20}{12} = \\frac{13}{12} \\]\n\n\\(\\frac{13}{12} = 1\\frac{1}{12}\\)\n\n\\textbf{Final answer:} They had \\(1\\frac{1}{12}\\) watermelons left.",
+      "response_time": 5.205197811126709
+    }
+  },
+  "P6-PcFndWN_P3-WNAdd4d_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | addition up to 4 digits",
+    "Topic": "Manufacturing",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P3-WNAdd4d_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a factory, 28\\% of the toys produced in a week were blue, while the rest were other colours. If there were 392 blue toys produced that week, and the factory produced 1,273 more toys the following week, how many toys did the factory produce in total for both weeks?",
+      "solution": "Let the total number of toys produced in the first week be $x$.\n\nSince 28\\% of the toys produced were blue and there were 392 blue toys:\n\n\\[\n28\\% \\times x = 392\n\\]\n\\[\n\\frac{28}{100} \\times x = 392\n\\]\n\\[\nx = \\frac{392}{28} \\times 100\n\\]\n\\[\nx = 14 \\times 100 = 1,400\n\\]\n\nSo, total toys produced in the first week is 1,400.\n\nThe following week, the factory produced 1,273 more toys:\n\n\\[\n\\text{Toys in second week} = 1,400 + 1,273 = 2,673\n\\]\n\nTotal toys produced in both weeks:\n\n\\[\n1,400 + 2,673 = 4,073\n\\]\n\n\\textbf{Answer:} The factory produced a total of 4,073 toys in both weeks.",
+      "response_time": 3.5338852405548096
+    }
+  },
+  "P6-FrDivPP_P2-FrCmp_GPT4.1_Farming_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+    "Topic": "Farming",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P2-FrCmp_GPT4.1_Farming_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A farmer harvested $12$ baskets of oranges. He wants to divide the oranges equally among baskets that can each hold $\\frac{3}{4}$ of a basket. \n\n(a) How many groups of $\\frac{3}{4}$ baskets can he make from the $12$ baskets he harvested?\n\n(b) After dividing, the farmer compares the amount of $\\frac{3}{4}$ basket to $\\frac{2}{3}$ basket. Which is greater? Explain your answer.",
+      "solution": "(a) To find how many groups of $\\frac{3}{4}$ baskets the farmer can make, we divide $12$ by $\\frac{3}{4}$:\n\n$12 \\div \\frac{3}{4} = 12 \\times \\frac{4}{3} = \\frac{48}{3} = 16$\n\nSo, he can make $16$ groups of $\\frac{3}{4}$ baskets.\n\n(b) To compare $\\frac{3}{4}$ and $\\frac{2}{3}$, we find a common denominator:\n\n$\\frac{3}{4} = \\frac{9}{12}$\n\n$\\frac{2}{3} = \\frac{8}{12}$\n\nSince $9/12 > 8/12$, $\\frac{3}{4}$ basket is greater than $\\frac{2}{3}$ basket.",
+      "response_time": 4.139297008514404
+    }
+  },
+  "P6-PcFndChg_P4-WNDiv4d1d_GPT4.1_Food_01": {
+    "Primary_kc": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+    "Secondary_kc": "WHOLE NUMBERS | Division | division up to 4 digits by 1 digit",
+    "Topic": "Food",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndChg_P4-WNDiv4d1d_GPT4.1_Food_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A bakery sold 1,500 cupcakes on Monday. On Tuesday, the number of cupcakes sold increased by 20\\% compared to Monday. The cupcakes sold on Tuesday were packed equally into boxes of 4. \\\\ \\\\ (a) How many cupcakes were sold on Tuesday? \\\\ (b) How many boxes were used to pack all the cupcakes sold on Tuesday?",
+      "solution": "(a) Number of cupcakes sold on Monday = 1,500 \\\\ Percentage increase = 20\\% \\\\ Increase in number of cupcakes = (20\\% \\times 1,500) = \\frac{20}{100} \\times 1,500 = 300 \\\\ Number of cupcakes sold on Tuesday = 1,500 + 300 = 1,800 \\\\ \\\\ (b) Number of cupcakes packed in one box = 4 \\\\ Number of boxes used = 1,800 \\div 4 = 450 \\\\ \\\\ \\textbf{Answers:} \\\\ (a) 1,800 cupcakes \\\\ (b) 450 boxes",
+      "response_time": 2.760316848754883
+    }
+  },
+  "P6-FrDivPP_P3-FrSmp_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Simplifying | expressing a fraction in its simplest form",
+    "Topic": "Manufacturing",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P3-FrSmp_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A factory has a rope that is \\( \\frac{3}{4} \\) metre long. Each section of rope required for packaging is \\( \\frac{1}{8} \\) metre long. \n\n(a) How many sections of rope can the factory cut from the original rope?\n\n(b) Express any leftover length as a fraction in its simplest form.",
+      "solution": "Let the length of one section be \\( \\frac{1}{8} \\) metre. Total length of rope is \\( \\frac{3}{4} \\) metre.\n\n\\( \\text{Number of sections} = \\frac{3}{4} \\div \\frac{1}{8} = \\frac{3}{4} \\times \\frac{8}{1} = \\frac{3 \\times 8}{4} = \\frac{24}{4} = 6 \\).\n\nSo the factory can cut 6 sections from the rope.\n\nTo check for leftover rope: \\( 6 \\times \\frac{1}{8} = \\frac{6}{8} = \\frac{3}{4} \\) metre.\n\nThere is no leftover rope because \\( \\frac{3}{4} - \\frac{3}{4} = 0 \\).",
+      "response_time": 3.539330244064331
+    }
+  },
+  "P6-PcFndChg_P4-WNDiv4d1d_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+    "Secondary_kc": "WHOLE NUMBERS | Division | division up to 4 digits by 1 digit",
+    "Topic": "Manufacturing",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndChg_P4-WNDiv4d1d_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Question:} \\\\ \nA factory produced 2,460 toy cars in January. In February, the number of toy cars produced increased by 25\\%. The toy cars produced in February were packed equally into boxes, each holding 6 toy cars. \\\\ \n(a) How many toy cars did the factory produce in February? \\\\ \n(b) How many boxes were needed to pack all the toy cars produced in February?",
+      "solution": "\\textbf{Solution:} \\\\ \n(a) \\text{Number of toy cars produced in January} = 2,460. \\\\ \n\\text{Percentage increase} = 25\\%. \\\\ \n\\text{Increase} = 25\\% \\times 2,460 = \\frac{25}{100} \\times 2,460 = 615. \\\\ \n\\text{Number of toy cars produced in February} = 2,460 + 615 = 3,075. \\\\[8pt] \n(b) \\text{Each box holds 6 toy cars.} \\\\ \n\\text{Number of boxes needed} = \\frac{3,075}{6} = 512 \\text{ R } 3. \\\\ \n\\text{So, 513 boxes are needed to pack all the toy cars (as the last box will have only 3 cars).}",
+      "response_time": 4.5928955078125
+    }
+  },
+  "P6-FrDivPN_P5-FrAddMix_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Addition | adding mixed numbers",
+    "Topic": "Manufacturing",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrAddMix_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A factory produces $\\frac{3}{4}$ of a metre of ribbon in one minute. The ribbon is then cut equally into 5 pieces for packaging. \n\n(a) What is the length of each piece of ribbon? \n\nLater, the factory produces 2 more pieces of ribbon, each $1\\frac{1}{2}$ metres long. \n\n(b) What is the total length of all the ribbon pieces, including the 5 original pieces and the 2 new pieces?\n",
+      "solution": "(a) The total length of ribbon produced in 1 minute is $\\dfrac{3}{4}$ m. This ribbon is divided into 5 equal pieces.\n\nSo, the length of each piece is:\n\n$\\dfrac{3}{4} \\div 5 = \\dfrac{3}{4} \\times \\dfrac{1}{5} = \\dfrac{3}{20}$ m$\n\n(b) The 5 original pieces each have a length of $\\dfrac{3}{20}$ m:\n\\[\n\\text{Total length of 5 pieces} = 5 \\times \\dfrac{3}{20} = \\dfrac{15}{20} = \\dfrac{3}{4}\\ \\,\\text{m}\n\\]\n\nEach new piece is $1\\dfrac{1}{2}$ m.\n\nSo, 2 new pieces have a total length of:\n\\[\n2 \\times 1\\dfrac{1}{2} = 2 \\times \\dfrac{3}{2} = 3\\ \\,\\text{m}\n\\]\n\nTotal length = Length of original pieces + Length of new pieces\n\\[\n\\dfrac{3}{4} + 3 = 3\\dfrac{3}{4}\\ \\,\\text{m}\n\\]\n\nThus, the total length of all the ribbon pieces is $3\\dfrac{3}{4}$ m.",
+      "response_time": 7.281524658203125
+    }
+  },
+  "P6-FrDivPN_P4-FrRepSet_GPT4.1_Manufacturing_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Representation and concept | fraction as part of a set ",
+    "Topic": "Manufacturing",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P4-FrRepSet_GPT4.1_Manufacturing_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A factory produces \\( \\frac{3}{4} \\) of a batch of electronic parts and wants to package them equally into 5 boxes. What fraction of the batch will be in each box? If a full batch consists of 100 parts, how many parts will there be in each box?",
+      "solution": "First, we need to divide the fraction of the batch by the number of boxes:\n\n\\[\n\\frac{3}{4} \\div 5 = \\frac{3}{4} \\times \\frac{1}{5} = \\frac{3}{20}\n\\]\n\nSo, each box will contain \\( \\frac{3}{20} \\) of the batch.\n\nGiven that a full batch consists of 100 parts, the number of parts in each box is:\n\n\\[\n\\frac{3}{20} \\times 100 = 15\n\\]\n\n\\textbf{Answer:} Each box will have \\( \\frac{3}{20} \\) of the batch, which is 15 parts.",
+      "response_time": 3.1213111877441406
+    }
+  },
+  "P6-FrDivPP_P2-FrCmp_GPT4.1_Transporation_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+    "Topic": "Transporation",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P2-FrCmp_GPT4.1_Transporation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A bus travels 3 \\( \\frac{1}{2} \\) kilometres on one litre of petrol. If the bus has 14 litres of petrol remaining, how many trips of \\( 2 \\frac{1}{3} \\) km each can it make before the petrol runs out? After finding the maximum possible number of trips, compare the distance the bus can still travel (with the remaining petrol after those trips) to \\( 1 \\frac{1}{2} \\) km. Is it more, less, or the same?",
+      "solution": "First, find the total distance the bus can travel with 14 litres of petrol:\n\n\\[\n3\\frac{1}{2} \\times 14 = \\frac{7}{2} \\times 14 = 49\\text{ km}\n\\]\n\nEach trip is \\( 2\\frac{1}{3} = \\frac{7}{3} \\) km. \n\nNumber of trips:\n\\[\n49 \\div \\frac{7}{3} = 49 \\times \\frac{3}{7} = 21\n\\]\n\nSo, the bus can make 21 trips.\n\nTotal distance covered in 21 trips: \\( 21 \\times \\frac{7}{3} = 49 \\) km. There will be no petrol left.\n\nIf instead it could not complete the 22nd trip:\n\nDistance bus can still travel after 21 trips: \\( 49 - (21 \\times \\frac{7}{3}) = 0 \\). So, no distance left. But if you calculate for 20 trips:\n\nDistance after 20 trips: \\( 49 - (20 \\times \\frac{7}{3}) = 49 - 46\\frac{2}{3} = 2\\frac{1}{3} \\) km.\n\nCompare \\( 2\\frac{1}{3} \\) km to \\( 1\\frac{1}{2} \\) km:\n\n\\[\n2\\frac{1}{3} = \\frac{7}{3},\\quad 1\\frac{1}{2} = \\frac{3}{2} \\Rightarrow \\frac{7}{3} > \\frac{3}{2}\\text{ (since } 7 \\times 2 = 14, 3 \\times 3 = 9, 14 > 9)\n\\]\n\nSo, the remaining distance the bus can travel (if it stops at 20 trips) is more than 1\\( \\frac{1}{2} \\) km.",
+      "response_time": 10.43938422203064
+    }
+  },
+  "P6-FrDivPN_P5-FrMulMixN_GPT4.1_Services_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Multiplication | multiplying a mixed number and a whole number",
+    "Topic": "Services",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrMulMixN_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\nA cleaning company has $\\frac{7}{8}$ litre of cleaning detergent left. They want to divide the detergent equally among 4 helpers for a cleaning job.\n\n(a) How much detergent does each helper get?\n\nLater, each helper uses $2\\frac{1}{2}$ times the amount of detergent they received during their cleaning session. \n\n(b) How much detergent does each helper use in total?\n",
+      "solution": "\n(a)\nAmount of detergent each helper gets:\n\n$\\frac{7}{8} \\div 4 = \\frac{7}{8} \\times \\frac{1}{4} = \\frac{7}{32}$\n\nEach helper gets $\\frac{7}{32}$ litre of detergent.\n\n(b)\nEach helper uses $2\\frac{1}{2}$ times this amount:\n\n$2\\frac{1}{2} \\times \\frac{7}{32} = \\frac{5}{2} \\times \\frac{7}{32} = \\frac{35}{64}$\n\nEach helper uses $\\frac{35}{64}$ litres of detergent in total.\n",
+      "response_time": 3.0803096294403076
+    }
+  },
+  "P6-FrDivPP_P5-FrAddMix_GPT4.1_Digital ecconomy_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Addition | adding mixed numbers",
+    "Topic": "Digital ecconomy",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P5-FrAddMix_GPT4.1_Digital ecconomy_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "\\textbf{Question:} \\\\ \nIn an e-commerce platform, Sarah has a budget of $8$ dollars to spend on buying digital music albums. Each album costs $\\dfrac{2}{3}$ dollars. \\\\ \n(a) How many digital albums can she buy with her budget? \\\\ \nLater, Sarah received more funds and now her total budget is $8\\dfrac{1}{2}$ dollars. Her friend James also has $3\\dfrac{1}{4}$ dollars to spend. \\\\ \n(b) What is the total amount Sarah and James have together now? \\\\ \n(c) If they decide to combine their money and buy as many albums as possible, how many albums can they buy in total?",
+      "solution": "\\textbf{Solution:} \\\\ \n(a) \\text{To find how many albums Sarah can buy:} \\\\\n\\[\n8 \\div \\frac{2}{3} = 8 \\times \\frac{3}{2} = 12.\n\\]\n\\text{So Sarah can buy 12 albums.} \\\\ \n(b) \\text{Add Sarah's and James's budgets:} \\\\\n\\[\n8\\dfrac{1}{2} + 3\\dfrac{1}{4} = \\frac{17}{2} + \\frac{13}{4}\n\\]\n\\text{Find a common denominator:} \\\\\n\\[\n\\frac{17}{2} = \\frac{34}{4},\\quad \\frac{34}{4} + \\frac{13}{4} = \\frac{47}{4}\n\\]\n\\text{Convert } \\frac{47}{4} \\text{ to a mixed number:} \\\\\n\\[\n47 \\div 4 = 11 \\text{ remainder } 3\\text{, so }11\\frac{3}{4}\n\\]\n\\text{Together, they have } 11\\frac{3}{4} \\text{ dollars.} \\\\ \n(c) \\text{Number of albums they can buy:} \\\\\n\\[\n11\\frac{3}{4} \\div \\frac{2}{3} = \\frac{47}{4} \\div \\frac{2}{3} = \\frac{47}{4} \\times \\frac{3}{2} = \\frac{141}{8}\n\\]\n\\text{Divide:} 141 \\div 8 = 17 \\text{ remainder } 5,\\text{ so } 17\\frac{5}{8} \n\\]\n\\text{They can buy 17 albums in total (since they cannot buy a fraction of an album).}\n",
+      "response_time": 6.108440399169922
+    }
+  },
+  "P6-PcFndWN_P3-WNSub4d_GPT4.1_Education_01": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtraction up to 4 digits",
+    "Topic": "Education",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P3-WNSub4d_GPT4.1_Education_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "In a Primary 6 class, $35\\%$ of the students take part in the school's Math Olympiad, and that is 56 students. After the competition, 38 students who participated in the Olympiad were absent from school the next day. How many students were present in school on that day?",
+      "solution": "Let the total number of students in the class be $x$. We are told that $35\\%$ of $x$ equals 56:\n\n\\[\n35\\% \\times x = 56\n\\]\n\\[\n\\frac{35}{100} \\times x = 56\n\\]\nMultiplying both sides by 100:\n\\[\n35x = 5600\n\\]\nDividing both sides by 35:\n\\[\nx = \\frac{5600}{35} = 160\n\\]\nSo, there are \\(160\\) students in the class.\n\nNumber of students who participated in the Olympiad = 56\nNumber of students absent the next day after Olympiad = 38\n\nNumber of students who participated and were present the next day = $56 - 38 = 18$\n\nNumber of students who did not participate = $160 - 56 = 104$\n\nAll non-participating students are present (unless otherwise stated), so total present students:\n\\[\n\\text{Total present} = \\text{non-participants} + \\text{Olympiad participants present} = 104 + 18 = 122\n\\]\n\n\\textbf{Answer:} $122$ students were present in school on that day.",
+      "response_time": 6.0331871509552
+    }
+  },
+  "P6-AgRepLrEx_P6-AgSmpLrEx_GPT4.1_Household finance_01": {
+    "Primary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations into linear algebraic expressions",
+    "Secondary_kc": "ALGEBRA | Simplifying | simplifying simple linear expressions excluding brackets",
+    "Topic": "Household finance",
+    "Grade": "Primary 6",
+    "QID": "P6-AgRepLrEx_P6-AgSmpLrEx_GPT4.1_Household finance_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Mrs Tan buys $x$ packets of rice and $y$ packets of noodles. Each packet of rice costs $3$ dollars and each packet of noodles costs $2$ dollars. \n\n(a) Write down an algebraic expression, in terms of $x$ and $y$, for the total amount of money Mrs Tan spends.\n\n(b) Simplify the expression if Mrs Tan buys twice as many noodles as rice.",
+      "solution": "(a) The cost of $x$ packets of rice is $3x$ dollars, and the cost of $y$ packets of noodles is $2y$ dollars. \n\nSo, the total amount Mrs Tan spends is \\( 3x + 2y \\) dollars.\n\n(b) If Mrs Tan buys twice as many noodles as rice, then $y = 2x$.\n\nSubstitute $y = 2x$ into the expression:\n\\[\n3x + 2y = 3x + 2(2x) = 3x + 4x = 7x\n\\]\n\nSo, the simplified expression for the total amount is \\( 7x \\) dollars.",
+      "response_time": 3.235572576522827
+    }
+  },
+  "P6-PcFndWN_P3-WNAdd4d_GPT4.1_Transporation_01": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | addition up to 4 digits",
+    "Topic": "Transporation",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P3-WNAdd4d_GPT4.1_Transporation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A total of 840 students in a Primary 6 cohort are going on two different educational bus tours: one tour to the Science Centre and another to the National Museum. 21% of the students are assigned to the Science Centre tour, and the rest are assigned to the National Museum tour. After a last-minute change, 160 more students join the group going to the National Museum. What is the new total number of students going on the National Museum tour?",
+      "solution": "Let the total number of students be $840$.\n\nFirst, find the number of students going to the Science Centre:\n\\[\n\\text{Number assigned to Science Centre} = 21\\% \\times 840 = 0.21 \\times 840 = 176.4\n\\]\nSince the number of students must be a whole number, we take $176$ (assuming the school assigned 176 students).\n\nNumber of students initially going to the National Museum:\n\\[\n840 - 176 = 664\n\\]\nAfter 160 more students join the National Museum tour:\n\\[\n664 + 160 = 824\n\\]\n\\textbf{Therefore, the new total number of students going to the National Museum tour is 824.}",
+      "response_time": 5.218395233154297
+    }
+  },
+  "P6-FrDivPN_P5-FrAddMix_GPT4.1_Farming_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Addition | adding mixed numbers",
+    "Topic": "Farming",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrAddMix_GPT4.1_Farming_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A farmer harvested \\( \\frac{3}{4} \\) kg of tomatoes and wanted to pack them equally into 4 baskets. \n\n(a) How much tomatoes did he put in each basket?\n\nLater, he picked 2 more baskets of tomatoes, each weighing \\(1\\frac{1}{2}\\) kg. \n\n(b) What is the total mass of tomatoes the farmer has now, including the tomatoes already packed into the baskets?",
+      "solution": "Part (a):\n\nTo find the mass of tomatoes in each basket:\n\n\\[\n\\frac{3}{4} \\div 4 = \\frac{3}{4} \\times \\frac{1}{4} = \\frac{3}{16}\n\\]\n\nEach basket has \\( \\frac{3}{16} \\) kg of tomatoes.\n\nPart (b):\n\nThe farmer picked 2 more baskets of \\(1\\frac{1}{2}\\) kg each:\n\n\\[\n2 \\times 1\\frac{1}{2} = 2 \\times \\frac{3}{2} = 3 \\, \\text{kg}\n\\]\n\nTotal tomatoes:\n\n\\[\n\\text{Already packed:}\\quad \\frac{3}{4} \\, \\text{kg}\n\\]\n\n\\[\n\\text{Newly picked:}\\quad 3 \\, \\text{kg}\n\\]\n\nTotal mass:\n\n\\[\n\\frac{3}{4} + 3 = \\frac{3}{4} + \\frac{12}{4} = \\frac{15}{4} = 3\\frac{3}{4}\\, \\text{kg}\n\\]\n\nSo, the farmer now has \\(3\\frac{3}{4}\\) kg of tomatoes in total.",
+      "response_time": 5.1303088665008545
+    }
+  },
+  "P6-PcFndWN_P3-WNAdd4d_GPT4.1_Digital ecconomy_01": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | addition up to 4 digits",
+    "Topic": "Digital ecconomy",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P3-WNAdd4d_GPT4.1_Digital ecconomy_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A local online marketplace recorded a total revenue from two items, Item A and Item B, in June. The revenue from Item A was $640, which was 20\\% of the whole revenue. The revenue from Item B was $1,360. What was the total revenue for June from both items?",
+      "solution": "Let the total revenue for June be $x$ dollars.\\\n\\\nAccording to the question, Item A's revenue is $20\\%$ of the whole revenue.\\\nSo, $20\\%$ of $x$ equals $640$: \\\n\\[ 0.2x = 640 \\]\n\\[ x = \\frac{640}{0.2} \\]\n\\[ x = 3,200 \\]\n\\\nTherefore, the total revenue for June from both items is:\\\n\\[\n3,200 = 640\\ (\\text{from A}) + 1,360\\ (\\text{from B}) + \\text{Rest}\n\\]\n\\\nBut since the question asks for the total revenue from both items, we do: \\\n\\[ 640 + 1,360 = 2,000 \\]\n\\nGiven that these make up only part of the revenue (since $3,200$ is the whole from all sources), and only Items A and B sum to $2,000$, thus the total from A and B is \\$2,000.\\]",
+      "response_time": 4.91094708442688
+    }
+  }
+}

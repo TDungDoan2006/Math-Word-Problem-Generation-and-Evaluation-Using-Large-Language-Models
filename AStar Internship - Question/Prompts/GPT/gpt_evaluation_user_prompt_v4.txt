@@ -1,0 +1,6 @@
+Evaluate a Math Word Problem based on the following information:
+1. The Generated Math Word Problem is {word_problem}
+2. The Intended Primary Knowledge Component is {kc1}
+3. The Intended Secondary Knowledge Component is {kc2}
+4. The Intended Topic is {topic}
+5. The Intended Student Grade is {grade}

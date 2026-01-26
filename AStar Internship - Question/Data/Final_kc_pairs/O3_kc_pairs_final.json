@@ -1,0 +1,162 @@
+{
+    "O3-BPOpr_O3-BPRepPosI": {
+        "primary_kc_name": "BASE AND POWER | Operations | laws of indices",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "BASE AND POWER",
+        "primary_kc_operation": "Operations",
+        "secondary_kc_name": "BASE AND POWER | Representation and concept  | positive indices that is not 1",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "BASE AND POWER",
+        "secondary_kc_operation": "Representation and concept "
+    },
+    "O3-BPOpr_O3-BPRepNegI": {
+        "primary_kc_name": "BASE AND POWER | Operations | laws of indices",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "BASE AND POWER",
+        "primary_kc_operation": "Operations",
+        "secondary_kc_name": "BASE AND POWER | Representation and concept  | negative indices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "BASE AND POWER",
+        "secondary_kc_operation": "Representation and concept "
+    },
+    "O3-BPOpr_O3-BPRepFrI": {
+        "primary_kc_name": "BASE AND POWER | Operations | laws of indices",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "BASE AND POWER",
+        "primary_kc_operation": "Operations",
+        "secondary_kc_name": "BASE AND POWER | Representation and concept  | fractional indices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "BASE AND POWER",
+        "secondary_kc_operation": "Representation and concept "
+    },
+    "O3-STOprUn_O3-STOprIns": {
+        "primary_kc_name": "SET | Set operations | union of two sets",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "SET",
+        "primary_kc_operation": "Operations",
+        "secondary_kc_name": "SET | Set operations | intersection of two sets",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "SET",
+        "secondary_kc_operation": "Operations"
+    },
+    "O3-MXMulSM_O3-MXAdd": {
+        "primary_kc_name": "MATRICES | Multiplication | product of a scalar quantity and a matrix",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "MATRICES",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "MATRICES | Addition | addition of matrices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "MATRICES",
+        "secondary_kc_operation": "Addition"
+    },
+    "O3-MXMulSM_O3-MXSub": {
+        "primary_kc_name": "MATRICES | Multiplication | product of a scalar quantity and a matrix",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "MATRICES",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "MATRICES | Subtraction | subtraction of matrices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "MATRICES",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "O3-MXMulSM_O3-MXMul": {
+        "primary_kc_name": "MATRICES | Multiplication | product of a scalar quantity and a matrix",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "MATRICES",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "MATRICES | Multiplication | multiplication of matrices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "MATRICES",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "O3-MXSub_O3-MXAdd": {
+        "primary_kc_name": "MATRICES | Subtraction | subtraction of matrices",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "MATRICES",
+        "primary_kc_operation": "Subtraction",
+        "secondary_kc_name": "MATRICES | Addition | addition of matrices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "MATRICES",
+        "secondary_kc_operation": "Addition"
+    },
+    "O3-MXMul_O3-MXAdd": {
+        "primary_kc_name": "MATRICES | Multiplication | multiplication of matrices",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "MATRICES",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "MATRICES | Addition | addition of matrices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "MATRICES",
+        "secondary_kc_operation": "Addition"
+    },
+    "O3-MXMul_O3-MXSub": {
+        "primary_kc_name": "MATRICES | Multiplication | multiplication of matrices",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "MATRICES",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "MATRICES | Subtraction | subtraction of matrices",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "MATRICES",
+        "secondary_kc_operation": "Subtraction"
+    },
+    "O3-SPFndQtl_O3-SPFndIQR": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Finding quartiles | finding quartiles for a set of data",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding range | finding interquartile range as measures of spread for a set of data ",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    },
+    "O3-SPFndstd_O2-SPFndmean": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Finding standard deviation | calculation of the standard deviation for a set of data",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding mean deviation | calculation of the mean for a set of data",
+        "secondary_kc_grade": "Secondary O-level 2",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    },
+    "O3-SPAddProb_O2-SPRepPrSE": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Addition | addition of probabilities",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Addition",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Representation and concept | probability of single events",
+        "secondary_kc_grade": "Secondary O-level 2",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Representation and concept"
+    },
+    "O3-SPAddProb_O3-SPFndPrCE": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Addition | addition of probabilities",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Addition",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding probability | probability of simple combined events",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    },
+    "O3-SPMulProb_O2-SPRepPrSE": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Multiplication | multiplication of probabilities",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Representation and concept | probability of single events",
+        "secondary_kc_grade": "Secondary O-level 2",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Representation and concept"
+    },
+    "O3-SPMulProb_O3-SPFndPrCE": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Multiplication | multiplication of probabilities",
+        "primary_kc_grade": "Secondary O-level 3/4",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Multiplication",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding probability | probability of simple combined events",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    }
+}

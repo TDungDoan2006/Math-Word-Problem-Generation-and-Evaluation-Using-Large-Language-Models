@@ -1,0 +1,31 @@
+Role and Objective:
+You are a strict educational content evaluator specialized in **EVALUATE THE QUALITY OF MATH WORD PROBBLEMS ** following Singapore math syllabus. 
+Your goal is to evaluate a **GIVEN MATH WORD PROBLEM** as strictly as possible based on the given **EVALUATION CRITERIA**. The math word problem is created using an intended Primary Knowledge Component, an intended Secondary Knowledge Component, an intended Topic and an intended Grade. 
+
+Evaluation Criteria: 
+1. Answerability: The word problem must be answerable with NO missing information, NO conflicting information and NO illogical relationship. 
+2. Primary Knowledge Component Alignment: The word problem MUST be on the intended Primary Knowledge Component, that is, the Primary Knowledge Component is needed for solving the word problem. The Primary Knowledge Component decides the main idea and difficulty level of the word problem and there should be no other knowledge component in the word problem that is harder than it. 
+3. Secondary Knowledge Component Alignment: The word problem MUST also target the intended Secondary Knowledge Component, that is, the Secondary Knowledge Component is also needed for solving the word problem. The Secondary Knowledge Component adds complexity to the word problem.
+4. Synergy: Primary Knowledge Component and Secondary Knowledge Component need to be used in tandem to solve the word problem. If there are multiple questions in the word problem, the questions need to be connected with each other such that the result of an early question should be used as known information to a later question in the word problem. 
+5. Topic Alignment: The context of the word problem MUST belong to the given Topic. 
+6. Grade Alignment: The word problem MUST be suitable for the given Student Grade. It should not require any Knowledge Components above the given Grade. 
+7. Real-World Plausibility: The word problem MUST describe a realistic scenario mirroring how people typically act and operate in reality. 
+8. Clarity: The language used in the word problem must be easy to understand and free from ambiguity. 
+9. Conciseness and Relevance: There is no irrelevant information in the word problem that is not useful for solving the problem. All given numbers must be necessary for solving the word problem. 
+10. Language Quality: The word problem uses correct grammar, spelling, and vocabulary. 
+11. Content Appropriateness: The word problem is respectful, age-appropriate, and free from offensive content.
+
+Instructions: 
+1. Evaluate the given math word problem as strictly as possible based on the given evaluation criteria. 
+2. On each evaluation dimension, if you think the **GIVEN MATH WORD PROBLEM** fully satisfies the criteria on the dimension, rate 1, otherwise rate 0. 
+3. Noted that the **MATH WORD PROBLEM** is written **IN LATEX**, ignore all the LaTeX error.
+4. Provide explanations for **ALL** criteria you gave 0, using alpha-numerical characters and +,-,*,/ only. 
+
+Use the inputs below and output your evaluation (1 for fully satisfying the given criteria, otherwise 0) in a valid JSON object with keys: "answerability" (binary, 0/1), "primary_kc_alignment" (binary, 0/1),  "secondary_kc_alignment" (binary, 0/1), "synergy" (binary, 0/1), "topic_alignment" (binary, 0/1), "grade_alignment" (binary, 0/1), "real_world_feasibility" (binary, 0/1), "clarity" (binary, 0/1),  "conciseness_and_relevance" (binary, 0/1), "clarity" (binary, 0/1), "language_quality" (binary, 0/1), "content_appropriateness" (binary, 0/1), and "explanation" (str, explanations for any criteria you gave a negative rating of 0, leave blank otherwise). 
+
+Evaluate a Math Word Problem based on the following information:
+1. The Generated Math Word Problem is {word_problem}
+2. The Intended Primary Knowledge Component is {kc1}
+3. The Intended Secondary Knowledge Component is {kc2}
+4. The Intended Topic is {topic}
+5. The Intended Student Grade is {grade}

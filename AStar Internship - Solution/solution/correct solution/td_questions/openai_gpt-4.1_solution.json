@@ -1,0 +1,162 @@
+{
+    "P1N100": {
+        "question_id": "P1N100",
+        "kc": "Addition within 100",
+        "solution": "Aisha starts with 27 marbles. Her brother gives her 15 more marbles. To find out how many marbles Aisha has now, we add the two numbers together.\n\n\\[\n27 + 15 = 42\n\\]\n\nSo, Aisha has 42 marbles now."
+    },
+    "P1AddSub": {
+        "question_id": "P1AddSub",
+        "kc": "Addition of small numbers",
+        "solution": "Let us find out how many pencils Aisyah has now.\n\nFirst, Aisyah has 6 pencils.\n\nShe buys 3 more pencils.\n\nTo find the total number of pencils, we add 6 and 3:\n\n\\[\n6 + 3 = 9\n\\]\n\nSo, Aisyah has 9 pencils now."
+    },
+    "P1MulDiv": {
+        "question_id": "P1MulDiv",
+        "kc": "Multiplication as repeated addition",
+        "solution": "Let us find out how many biscuits there are in 3 packets if 1 packet contains 5 biscuits.\n\nWe know:\n\n1 packet has 5 biscuits.\n\nSo, 3 packets will have:\n\n\\[\n5 + 5 + 5 = 15\n\\]\n\nWe can also use multiplication:\n\n\\[\n5 \\times 3 = 15\n\\]\n\nSo, there are \\(15\\) biscuits in 3 packets."
+    },
+    "P1Money": {
+        "question_id": "P1Money",
+        "kc": "Addition of money, Counting coins, Place value of cents",
+        "solution": "Let us find out how much money Siti has by adding the value of all her coins.\n\nFirst, Siti has 2 fifty-cent coins.\n\nEach fifty-cent coin is worth 50 cents.\n\n\\[\n2 \times 50 = 100\n\\]\n\nSo, the two fifty-cent coins are worth 100 cents.\n\nNext, Siti has 3 twenty-cent coins.\n\nEach twenty-cent coin is worth 20 cents.\n\n\\[\n3 \times 20 = 60\n\\]\n\nSo, the three twenty-cent coins are worth 60 cents.\n\nNow, let us add the values together:\n\n\\[\n100 + 60 = 160\n\\]\n\nSiti has 160 cents altogether.\n\nSince 100 cents is equal to 1 dollar, we can also write 160 cents as:\n\n\\[\n160 \\div 100 = 1 \text{ dollar and } 60 \text{ cents}\n\\]\n\nSo, Siti has 1 dollar and 60 cents altogether.\n"
+    },
+    "P2N1000": {
+        "question_id": "P2N1000",
+        "kc": "Addition of numbers up to 1000",
+        "solution": "To find the total number of marbles, we need to add the number of red marbles to the number of blue marbles.\n\nThere are 467 red marbles and 285 blue marbles.\n\nLet us add them together:\n\n\\[\n467 + 285 = 752\n\\]\n\nSo, there are 752 marbles in total in the box."
+    },
+    "P2FracW": {
+        "question_id": "P2FracW",
+        "kc": "Understanding fractions as parts of a whole; representing fractions",
+        "solution": "Let's look at the problem step by step.\n\nFirst, the cake was cut into 8 equal pieces. This means the whole cake has 8 parts.\n\nMrs Tan gave 3 pieces to her son. To find out what fraction of the whole cake her son got, we write:\n\n\\[\n\\text{Fraction of cake given to her son} = \\frac{3}{8}\n\\]\n\nSo, her son got \\( \\frac{3}{8} \\) of the whole cake."
+    },
+    "P2FracAS": {
+        "question_id": "P2FracAS",
+        "kc": "Addition of fractions with like denominators (Primary 2 Fractions)",
+        "solution": "Aini ate one quarter of a watermelon in the morning. This is written as:\n\\[\n\\frac{1}{4}\n\\]\nShe ate another two quarters in the afternoon. This is written as:\n\\[\n\\frac{2}{4}\n\\]\nTo find out how much watermelon she ate in total, we add the two fractions:\n\\[\n\\frac{1}{4} + \\frac{2}{4} = \\frac{3}{4}\n\\]\nSo, Aini ate three quarters of the watermelon in total."
+    },
+    "P3N10k": {
+        "question_id": "P3N10k",
+        "kc": "Addition of numbers up to four digits",
+        "solution": "Let's find out how many books there will be in the library after the librarian buys more books.\n\nThere are 4\\ 276 books on the shelves.\nThe librarian buys 2\\ 385 more books.\n\nTo find the total number of books, we need to add the two numbers together:\n\n\\[\n4\\ 276 + 2\\ 385 = ?\n\\]\n\nLet's add them step by step:\n\n\\begin{align*}\n\\phantom{+} & 4\\ 276 \\\n+ & 2\\ 385 \\\\\n\\hline\n\\end{align*}\n\nStart from the rightmost digit:\n\n- Ones: 6 + 5 = 11 (write 1, carry over 1)\n- Tens: 7 + 8 = 15, plus 1 carried over = 16 (write 6, carry over 1)\n- Hundreds: 2 + 3 = 5, plus 1 carried over = 6\n- Thousands: 4 + 2 = 6\n\nSo,\n\n\\[\n4\\ 276 + 2\\ 385 = 6\\ 661\n\\]\n\n\\textbf{Final Answer:}\n\nThere will be \\(6\\ 661\\) books in the library altogether.\n"
+    },
+    "P3FracEq": {
+        "question_id": "P3FracEq",
+        "kc": "Comparing fractions, Understanding equivalent fractions",
+        "solution": "Let us look at the chocolate bar. The chocolate bar is divided into equal pieces.\n\nSarah ate one-half of a chocolate bar. This means she ate:\n\\[\n\\frac{1}{2}\n\\]\nof the chocolate bar.\n\nHer brother ate two out of four equal pieces. This means he ate:\n\\[\n\\frac{2}{4}\n\\]\nof the chocolate bar.\n\nNow, let us check if \\( \\frac{1}{2} \\) and \\( \\frac{2}{4} \\) are the same.\n\nWe can make the denominator the same to compare them. If we change \\( \\frac{1}{2} \\) to quarters, we multiply both the top and bottom by two:\n\\[\n\\frac{1}{2} = \\frac{1 \\times 2}{2 \\times 2} = \\frac{2}{4}\n\\]\n\nNow, both fractions are \\( \\frac{2}{4} \\).\n\nSo, Sarah and her brother ate the same amount of chocolate.\n\n\\[\n\\boxed{\\text{Yes, Sarah and her brother ate the same amount of chocolate.}}\n\\]\n"
+    },
+    "P4N100k": {
+        "question_id": "P4N100k",
+        "kc": "Addition of large numbers",
+        "solution": "To find the total number of books in the library, we need to add the number of storybooks and the number of reference books together.\n\nNumber of storybooks = 37\\,650\n\nNumber of reference books = 24\\,980\n\nLet us add these two numbers:\n\n\\[\n37\\,650 + 24\\,980 = 62\\,630\n\\]\n\nSo, the total number of books in the library is \\(62\\,630\\)."
+    },
+    "P4FctorM": {
+        "question_id": "P4FctorM",
+        "kc": "Finding the greatest common divisor (GCD) or highest factor; Equal grouping; Division with no remainder",
+        "solution": "Rani has 24 pencils. She wants to pack them equally into boxes so that every box has the same number of pencils and there are no pencils left over.\n\nLet us find the greatest number of pencils she can put in each box.\n\nTo do this, we need to find the greatest number that can divide 24 exactly. This is called the greatest factor of 24.\n\nLet us list the factors of 24:\n\n\\[\n24 \\div 1 = 24 \\\\\n24 \\div 2 = 12 \\\\\n24 \\div 3 = 8 \\\\\n24 \\div 4 = 6 \\\\\n24 \\div 6 = 4 \\\\\n24 \\div 8 = 3 \\\\\n24 \\div 12 = 2 \\\\\n24 \\div 24 = 1\n\\]\n\nSo, the factors of 24 are 1, 2, 3, 4, 6, 8, 12, and 24.\n\nThe greatest number of pencils she can put in each box is 24. This means she can put all 24 pencils in one box, and there will be no pencils left over.\n\nTherefore,\n\\[\n\\boxed{24}\n\\]\n\nis the greatest number of pencils Rani can put in each box so that every box has the same number of pencils and no pencils are left over."
+    },
+    "P44Op": {
+        "question_id": "P44Op",
+        "kc": "Multiplication, Subtraction, Money calculation",
+        "solution": "First, we need to find out how much Mrs Lee spends on 4 boxes of markers. \n\nEach box costs \\$15. She buys 4 boxes. \n\n\\[ 15 \\times 4 = 60 \\]\n\nSo, Mrs Lee spends \\$60 in total.\n\nShe pays with a \\$100 note. To find out how much change she receives, we subtract the total cost from the amount she paid:\n\n\\[ 100 - 60 = 40 \\]\n\nTherefore, Mrs Lee receives \\$40 in change."
+    },
+    "P4FracMI": {
+        "question_id": "P4FracMI",
+        "kc": "Improper fractions, addition of whole numbers and fractions",
+        "solution": "Siti baked 3 whole pies and three-quarters of another pie. \n\nFirst, let us write the total amount as a mixed number:\n\n\\[\n3 \\frac{3}{4}\n\\]\n\nTo express this as an improper fraction, we multiply the whole number by the denominator and add the numerator:\n\n\\[\n3 \\frac{3}{4} = \\frac{3 \\times 4 + 3}{4}\n\\]\n\nNow, calculate:\n\n\\[\n3 \\times 4 = 12\n\\]\n\n\\[\n12 + 3 = 15\n\\]\n\nSo, the improper fraction is:\n\n\\[\n\\frac{15}{4}\n\\]\n\nTherefore, Siti baked \\( \\frac{15}{4} \\) pies in total."
+    },
+    "P4FracSet": {
+        "question_id": "P4FracSet",
+        "kc": "Finding a fraction of a set (one-third of a number)",
+        "solution": "To find how many girls are in the science club, we need to find one-third of thirty-six. \n\nFirst, we divide thirty-six by three:\n\\[\n36 \\div 3 = 12\n\\]\n\nSo, there are twelve girls in the club."
+    },
+    "P4Deci3d": {
+        "question_id": "P4Deci3d",
+        "kc": "Subtraction of decimals (up to 3 decimal places)",
+        "solution": "Eli started with a packet of biscuits weighing \\(0.375\\) kilograms. She ate \\(0.128\\) kilograms of biscuits. To find out how much she has left, we subtract the amount she ate from the total amount. \n\n\\[\n0.375 - 0.128 = 0.247\n\\]\n\nSo, Eli has \\(0.247\\) kilograms of biscuits left."
+    },
+    "P4DeciAS": {
+        "question_id": "P4DeciAS",
+        "kc": "Subtraction of decimal numbers (money values)",
+        "solution": "To find out how much more the book costs than the box of pencils, we need to subtract the cost of the box of pencils from the cost of the book.\n\nLet us write down the costs:\n\nCost of book = \\$5.60\nCost of box of pencils = \\$3.75\n\nNow, subtract the cost of the box of pencils from the cost of the book:\n\n\\[\n5.60 - 3.75 = 1.85\n\\]\n\nSo, the book costs \\$1.85 more than the box of pencils."
+    },
+    "P4DeciMD": {
+        "question_id": "P4DeciMD",
+        "kc": "Division of decimals; understanding litres and millilitres; equal sharing",
+        "solution": "We are given that there is a total of 2.5 litres of juice, and it is to be shared equally among 5 friends.\n\nTo find out how much juice each friend gets, we need to divide 2.5 litres by 5.\n\n\\[\n2.5 \\div 5 = 0.5\n\\]\n\nSo, each friend gets 0.5 litres of juice.\n\nTherefore, the answer is:\n\nEach friend gets 0.5 litres of juice."
+    },
+    "P5N1m": {
+        "question_id": "P5N1m",
+        "kc": "Addition of large numbers (up to millions)",
+        "solution": "To find the total population of Town A and Town B, we need to add their populations together.\n\nTown A has a population of 3\\ 456\\ 780.\nTown B has a population of 5\\ 328\\ 190.\n\nLet us add the two numbers:\n\n\\[\n3\\ 456\\ 780 + 5\\ 328\\ 190 = 8\\ 784\\ 970\n\\]\n\nSo, the total population of the two towns is \\(8\\ 784\\ 970\\)."
+    },
+    "P5FracDv": {
+        "question_id": "P5FracDv",
+        "kc": "Division of whole numbers to find fractions; understanding sharing equally; fractions as division",
+        "solution": "We are told that Mrs Lim baked 3 cakes and shared them equally among 4 children. We want to find out what fraction of a cake each child received.\n\nWhen we share 3 cakes equally among 4 children, we divide 3 by 4.\n\n\\[\n\\text{Fraction each child received} = \\frac{3}{4}\n\\]\n\nSo, each child received \\( \\frac{3}{4} \\) of a cake."
+    },
+    "P5Frac4Op": {
+        "question_id": "P5Frac4Op",
+        "kc": "Fractions - Addition and Subtraction, Sharing Equally",
+        "solution": "Aisha starts with three-fifths of a cake. She eats one-fifth of the cake. To find out how much cake is left, we subtract one-fifth from three-fifths:\n\n\\[\n\\frac{3}{5} - \\frac{1}{5} = \\frac{2}{5}\n\\]\n\nNow, she shares the remaining two-fifths of the cake equally between her two friends. To find out how much each friend gets, we divide two-fifths by two:\n\n\\[\n\\frac{2}{5} \\div 2 = \\frac{2}{5} \\times \\frac{1}{2} = \\frac{2 \\times 1}{5 \\times 2} = \\frac{2}{10} = \\frac{1}{5}\n\\]\n\nSo, each friend gets one-fifth of the cake."
+    },
+    "P5Deci4Op": {
+        "question_id": "P5Deci4Op",
+        "kc": "Addition, multiplication and subtraction of decimals (money)",
+        "solution": "Let us solve the problem step by step.\n\nFirst, we need to find out how much Emily spent on 4 packets of biscuits. Each packet costs \\$3.75.\n\nWe multiply the cost of one packet by the number of packets:\n\\[\n3.75 \\times 4 = 15.00\n\\]\nSo, Emily spent \\$15.00 in total.\n\nNext, Emily paid with a \\$20 note. To find out how much change she received, we subtract the total cost from the amount she paid:\n\\[\n20.00 - 15.00 = 5.00\n\\]\nTherefore, Emily received \\$5.00 as change."
+    },
+    "P5perctg": {
+        "question_id": "P5perctg",
+        "kc": "Finding a percentage of a given quantity",
+        "solution": "We are told that there are 40 students in the class, and 75\\% of them are girls. To find out how many girls there are, we need to find 75\\% of 40.\n\nFirst, change 75\\% into a fraction:\n\n\\[\n75\\% = \\frac{75}{100}\n\\]\n\nNow, multiply this fraction by the total number of students:\n\n\\[\n\\text{Number of girls} = \\frac{75}{100} \\times 40\n\\]\n\nNext, simplify the calculation:\n\n\\[\n\\frac{75}{100} = \\frac{3}{4}\n\\]\n\nSo,\n\n\\[\n\\text{Number of girls} = \\frac{3}{4} \\times 40 = 30\n\\]\n\nTherefore, there are 30 girls in the class."
+    },
+    "P5rate": {
+        "question_id": "P5rate",
+        "kc": "Finding rate (unitary method, division, rate per hour)",
+        "solution": "To find out how many boxes the factory produces in one hour, we need to divide the total number of boxes by the number of hours.\n\nThe factory produces 120 boxes in 4 hours.\n\nWe divide 120 by 4:\n\n\\[\n\\text{Number of boxes produced in one hour} = \\frac{120}{4} = 30\n\\]\n\nSo, the factory produces 30 boxes in one hour."
+    },
+    "P6ratio": {
+        "question_id": "P6ratio",
+        "kc": "Ratio and Proportion",
+        "solution": "Let's look at the ratio of boys to girls, which is 3 : 5. This means for every 3 boys, there are 5 girls.\n\nWe are told there are 18 boys. Let's find out how many groups of 3 boys there are in 18.\n\n\\[\n\\text{Number of groups} = \\frac{18}{3} = 6\n\\]\n\nSince each group of 3 boys corresponds to a group of 5 girls, we multiply the number of groups by 5 to find the number of girls.\n\n\\[\n\\text{Number of girls} = 6 \\times 5 = 30\n\\]\n\nSo, there are \\( 30 \\) girls in the class."
+    },
+    "P6algebr": {
+        "question_id": "P6algebr",
+        "kc": "Simple algebraic equations; Solving for an unknown using a linear equation",
+        "solution": "Let us call the number of pencils in one box as \\( x \\).\n\nAndy buys 3 more boxes, so now he has a total of \\( 4 \\) boxes.\n\nEach box has \\( x \\) pencils, so the total number of pencils Andy has is:\n\\[\n4 \\times x = 40\n\\]\n\nTo find out how many pencils are in one box, we divide both sides of the equation by \\( 4 \\):\n\\[\nx = \\frac{40}{4}\n\\]\n\\[\nx = 10\n\\]\n\nTherefore, there are \\( 10 \\) pencils in one box."
+    },
+    "O1NumOps": {
+        "question_id": "O1NumOps",
+        "kc": "Addition of whole numbers",
+        "solution": "To find out how many oranges the stall sold in both weeks altogether, we need to add the number of oranges sold in the first week to the number of oranges sold in the second week.\n\nThe number of oranges sold in the first week is 1,250.\nThe number of oranges sold in the second week is 1,735.\n\nLet's add them together:\n\n\\[\n1,250 + 1,735 = 2,985\n\\]\n\nSo, the stall sold \\(2,985\\) oranges in both weeks altogether."
+    },
+    "O1RioPro": {
+        "question_id": "O1RioPro",
+        "kc": "Ratio and Proportion",
+        "solution": "Let us first understand the ratio given: the ratio of apples to oranges is 5 to 3. This means for every 5 apples, there are 3 oranges.\n\nWe are told there are 45 apples in the basket.\n\nStep 1: Find out how many groups of 5 apples are in 45 apples.\n\n\\[\n\\text{Number of groups} = \\frac{45}{5} = 9\n\\]\n\nStep 2: Since each group of 5 apples corresponds to 3 oranges, we multiply the number of groups by 3.\n\n\\[\n\\text{Number of oranges} = 9 \\times 3 = 27\n\\]\n\n\\textbf{Answer:} There are 27 oranges in the basket.\n"
+    },
+    "O1RatSpd": {
+        "question_id": "O1RatSpd",
+        "kc": "Average speed = Total distance divided by Total time",
+        "solution": "To find the average speed, we need to divide the total distance travelled by the total time taken.\n\nThe bus travels a distance of 192 km in 3 hours.\n\nSo, the average speed is:\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]\n\\[\n\\text{Average speed} = \\frac{192\\ \\text{km}}{3\\ \\text{h}}\n\\]\n\\[\n\\text{Average speed} = 64\\ \\text{km/h}\n\\]\n\nTherefore, the average speed of the bus is 64 km/h."
+    },
+    "O1AgbrEF": {
+        "question_id": "O1AgbrEF",
+        "kc": "Substitution and Evaluation of Algebraic Expressions",
+        "solution": "Let us start by understanding the problem.\n\nThe cost, in dollars, of buying \\( x \\) pens and \\( y \\) pencils is given by the expression:\n\n\\[\n2x + 3y\n\\]\n\nThis means each pen costs 2 dollars, and each pencil costs 3 dollars.\n\nJeremy buys 4 pens and 5 pencils. So, substitute \\( x = 4 \\) and \\( y = 5 \\) into the expression:\n\n\\[\n2x + 3y = 2 \times 4 + 3 \times 5\n\\]\n\nCalculate the value step by step:\n\n\\[\n2 \times 4 = 8\n\\]\n\\[\n3 \times 5 = 15\n\\]\n\nAdd these values together to find the total cost:\n\n\\[\n8 + 15 = 23\n\\]\n\nSo, the total cost is 23 dollars.\n\n\\[\n\boxed{23}\n\\]\n"
+    },
+    "O1EqIneq": {
+        "question_id": "O1EqIneq",
+        "kc": "Forming and solving simple equations using a variable to represent an unknown; basic operations (multiplication, subtraction, addition); understanding word problems.",
+        "solution": "Let's use a variable to represent Adam's age. \n\nLet Adam's age be \\( a \\).\n\nAccording to the question:\n\n- Twice his age means \\( 2 \\times a \\) or \\( 2a \\).\n- He subtracted 7 from twice his age, so we write \\( 2a - 7 \\).\n- This result is 21.\n\nSo, we have the equation:\n\\[\n2a - 7 = 21\n\\]\n\nNow, let's solve the equation step by step.\n\nStep 1: Add 7 to both sides to get rid of the minus 7.\n\\[\n2a - 7 + 7 = 21 + 7\n\\]\n\\[\n2a = 28\n\\]\n\nStep 2: Divide both sides by 2 to find the value of \\( a \\).\n\\[\n\\frac{2a}{2} = \\frac{28}{2}\n\\]\n\\[\na = 14\n\\]\n\nSo, Adam is 14 years old now."
+    },
+    "O2Prob": {
+        "question_id": "O2Prob",
+        "kc": "Basic probability (favourable outcomes over total outcomes), Addition Rule for mutually exclusive events",
+        "solution": "Let's first find the total number of pens in the bag.\n\nThere are:\n\n\\[\n5 \\text{ red pens} + 3 \\text{ blue pens} + 2 \\text{ black pens} = 10 \\text{ pens in total}\n\\]\n\nNext, we need to find the number of pens that are either blue or black.\n\n\\[\n3 \\text{ blue pens} + 2 \\text{ black pens} = 5 \\text{ pens}\n\\]\n\nThe probability of picking either a blue or black pen is:\n\n\\[\n\\text{Probability} = \\frac{\\text{Number of blue or black pens}}{\\text{Total number of pens}} = \\frac{5}{10}\n\\]\n\nWe can simplify this fraction:\n\n\\[\n\\frac{5}{10} = \\frac{1}{2}\n\\]\n\nSo, the probability that the pen picked is either blue or black is \\( \\frac{1}{2} \\).\n"
+    },
+    "O3NumOps": {
+        "question_id": "O3NumOps",
+        "kc": "Finding the Highest Common Factor (HCF); Division; Equal Grouping",
+        "solution": "Let us solve the problem step by step.\n\nWe are given:\n- 64 red marbles\n- 48 blue marbles\n\nWe need to find:\n- The largest number of marbles that can be placed in each packet, so that each packet has only one colour and all packets have the same number of marbles.\n- The number of packets for each colour.\n\nStep 1: Find the largest number that can divide both 64 and 48 exactly.\nThis number is called the Highest Common Factor (HCF) of 64 and 48.\n\nLet us list the factors:\n\nFactors of 64: 1, 2, 4, 8, 16, 32, 64\n\nFactors of 48: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48\n\nThe common factors are: 1, 2, 4, 8, 16\n\nThe largest common factor is 16.\n\nSo, the largest number of marbles in each packet is 16.\n\nStep 2: Find the number of packets for each colour.\n\nFor red marbles:\n\\[\n\text{Number of packets for red} = \frac{64}{16} = 4\n\\]\n\nFor blue marbles:\n\\[\n\text{Number of packets for blue} = \frac{48}{16} = 3\n\\]\n\nFinal answer:\n- The largest number of marbles that can be placed in each packet is 16.\n- There will be 4 packets of red marbles and 3 packets of blue marbles."
+    }
+}

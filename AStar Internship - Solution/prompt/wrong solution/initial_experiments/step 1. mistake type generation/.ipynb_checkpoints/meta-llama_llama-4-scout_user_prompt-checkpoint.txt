@@ -1,0 +1,4 @@
+The question is: {question}
+The knowledge component ID is: {kcID}
+The knowledge component of this question: {kc}
+The correct solution is: {solution}

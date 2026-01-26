@@ -1,0 +1,258 @@
+{
+    "deepseek_deepseek-r1_evaluating_anthropic_claude-3.7-sonnet.json": {
+        "given_info_score": 100.0,
+        "kc_score": 95.83333333333333,
+        "final_ans_score": 87.5,
+        "understand_score": 98.33333333333334,
+        "fluency_score": 97.5,
+        "grammar_score": 100.0
+    },
+    "deepseek_deepseek-r1_evaluating_deepseek_deepseek-r1-distill-qwen-14b.json": {
+        "given_info_score": 95.83333333333333,
+        "kc_score": 95.83333333333333,
+        "final_ans_score": 95.83333333333333,
+        "understand_score": 99.16666666666666,
+        "fluency_score": 100.0,
+        "grammar_score": 100.0
+    },
+    "deepseek_deepseek-r1_evaluating_deepseek_deepseek-r1.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 95.83333333333333,
+        "understand_score": 100.0,
+        "fluency_score": 99.16666666666666,
+        "grammar_score": 100.0
+    },
+    "deepseek_deepseek-r1_evaluating_meta-llama_llama-3.3-70b-instruct.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 96.66666666666666,
+        "fluency_score": 94.16666666666666,
+        "grammar_score": 100.0
+    },
+    "deepseek_deepseek-r1_evaluating_meta-llama_llama-4-scout.json": {
+        "given_info_score": 100.0,
+        "kc_score": 95.83333333333333,
+        "final_ans_score": 95.83333333333333,
+        "understand_score": 97.5,
+        "fluency_score": 96.66666666666666,
+        "grammar_score": 95.83333333333333
+    },
+    "deepseek_deepseek-r1_evaluating_microsoft_phi-3.5-mini-128k-instruct.json": {
+        "given_info_score": 95.83333333333333,
+        "kc_score": 83.33333333333333,
+        "final_ans_score": 70.83333333333333,
+        "understand_score": 95.0,
+        "fluency_score": 94.16666666666666,
+        "grammar_score": 100.0
+    },
+    "deepseek_deepseek-r1_evaluating_microsoft_phi-4-reasoning-plus.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 95.83333333333333,
+        "understand_score": 90.0,
+        "fluency_score": 85.0,
+        "grammar_score": 95.83333333333333
+    },
+    "deepseek_deepseek-r1_evaluating_openai_chatgpt-4o-latest.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 95.83333333333333,
+        "understand_score": 99.16666666666666,
+        "fluency_score": 98.33333333333334,
+        "grammar_score": 100.0
+    },
+    "deepseek_deepseek-r1_evaluating_openai_gpt-4.1.json": {
+        "given_info_score": 100.0,
+        "kc_score": 95.83333333333333,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 99.16666666666666,
+        "fluency_score": 99.16666666666666,
+        "grammar_score": 100.0
+    },
+    "deepseek_deepseek-r1_evaluating_qwen_qwen3-14b.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 100.0,
+        "fluency_score": 100.0,
+        "grammar_score": 100.0
+    },
+    "deepseek_deepseek-r1_evaluating_qwen_qwen3-235b-a22b.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 95.65217391304348,
+        "understand_score": 100.0,
+        "fluency_score": 100.0,
+        "grammar_score": 100.0
+    },
+    "microsoft_phi-3.5-mini-128k-instruct_evaluating_anthropic_claude-3.7-sonnet.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 95.83333333333333,
+        "understand_score": 84.16666666666666,
+        "fluency_score": 84.16666666666666,
+        "grammar_score": 100.0
+    },
+    "microsoft_phi-3.5-mini-128k-instruct_evaluating_deepseek_deepseek-r1-distill-qwen-14b.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 89.16666666666666,
+        "fluency_score": 89.16666666666666,
+        "grammar_score": 100.0
+    },
+    "microsoft_phi-3.5-mini-128k-instruct_evaluating_deepseek_deepseek-r1.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 89.16666666666666,
+        "fluency_score": 89.16666666666666,
+        "grammar_score": 100.0
+    },
+    "microsoft_phi-3.5-mini-128k-instruct_evaluating_meta-llama_llama-3.3-70b-instruct.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 81.66666666666666,
+        "fluency_score": 81.66666666666666,
+        "grammar_score": 100.0
+    },
+    "microsoft_phi-3.5-mini-128k-instruct_evaluating_meta-llama_llama-4-scout.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 85.0,
+        "fluency_score": 85.0,
+        "grammar_score": 100.0
+    },
+    "microsoft_phi-3.5-mini-128k-instruct_evaluating_microsoft_phi-3.5-mini-128k-instruct.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 98.33333333333334,
+        "fluency_score": 98.33333333333334,
+        "grammar_score": 100.0
+    },
+    "microsoft_phi-3.5-mini-128k-instruct_evaluating_microsoft_phi-4-reasoning-plus.json": {
+        "given_info_score": 91.66666666666667,
+        "kc_score": 91.66666666666667,
+        "final_ans_score": 83.33333333333333,
+        "understand_score": 74.16666666666666,
+        "fluency_score": 73.33333333333334,
+        "grammar_score": 75.0
+    },
+    "microsoft_phi-3.5-mini-128k-instruct_evaluating_openai_chatgpt-4o-latest.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 95.83333333333333,
+        "understand_score": 91.66666666666666,
+        "fluency_score": 91.66666666666666,
+        "grammar_score": 100.0
+    },
+    "microsoft_phi-3.5-mini-128k-instruct_evaluating_qwen_qwen3-14b.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 92.5,
+        "fluency_score": 92.5,
+        "grammar_score": 95.83333333333333
+    },
+    "microsoft_phi-3.5-mini-128k-instruct_evaluating_qwen_qwen3-235b-a22b.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 94.16666666666666,
+        "fluency_score": 95.0,
+        "grammar_score": 100.0
+    },
+    "openai_chatgpt-4o-latest_evaluating_anthropic_claude-3.7-sonnet.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 87.5,
+        "understand_score": 100.0,
+        "fluency_score": 100.0,
+        "grammar_score": 100.0
+    },
+    "openai_chatgpt-4o-latest_evaluating_deepseek_deepseek-r1-distill-qwen-14b.json": {
+        "given_info_score": 95.83333333333333,
+        "kc_score": 95.83333333333333,
+        "final_ans_score": 87.5,
+        "understand_score": 100.0,
+        "fluency_score": 100.0,
+        "grammar_score": 100.0
+    },
+    "openai_chatgpt-4o-latest_evaluating_deepseek_deepseek-r1.json": {
+        "given_info_score": 95.83333333333333,
+        "kc_score": 95.83333333333333,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 100.0,
+        "fluency_score": 100.0,
+        "grammar_score": 100.0
+    },
+    "openai_chatgpt-4o-latest_evaluating_meta-llama_llama-3.3-70b-instruct.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 99.16666666666666,
+        "fluency_score": 98.33333333333334,
+        "grammar_score": 100.0
+    },
+    "openai_chatgpt-4o-latest_evaluating_meta-llama_llama-4-scout.json": {
+        "given_info_score": 100.0,
+        "kc_score": 95.83333333333333,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 99.16666666666666,
+        "fluency_score": 99.16666666666666,
+        "grammar_score": 100.0
+    },
+    "openai_chatgpt-4o-latest_evaluating_microsoft_phi-3.5-mini-128k-instruct.json": {
+        "given_info_score": 95.83333333333333,
+        "kc_score": 87.5,
+        "final_ans_score": 70.83333333333333,
+        "understand_score": 99.16666666666666,
+        "fluency_score": 99.16666666666666,
+        "grammar_score": 100.0
+    },
+    "openai_chatgpt-4o-latest_evaluating_microsoft_phi-4-reasoning-plus.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 100.0,
+        "understand_score": 93.33333333333334,
+        "fluency_score": 83.33333333333334,
+        "grammar_score": 79.16666666666667
+    },
+    "openai_chatgpt-4o-latest_evaluating_openai_chatgpt-4o-latest.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 95.83333333333333,
+        "understand_score": 100.0,
+        "fluency_score": 100.0,
+        "grammar_score": 100.0
+    },
+    "openai_chatgpt-4o-latest_evaluating_qwen_qwen3-14b.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 100.0,
+        "fluency_score": 100.0,
+        "grammar_score": 100.0
+    },
+    "openai_chatgpt-4o-latest_evaluating_qwen_qwen3-235b-a22b.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 91.66666666666667,
+        "understand_score": 100.0,
+        "fluency_score": 100.0,
+        "grammar_score": 100.0
+    },
+    "openai_gpt-4.1_evaluating_openai_gpt-4.1.json": {
+        "given_info_score": 100.0,
+        "kc_score": 100.0,
+        "final_ans_score": 95.83333333333333,
+        "understand_score": 100.0,
+        "fluency_score": 100.0,
+        "grammar_score": 100.0
+    }
+}

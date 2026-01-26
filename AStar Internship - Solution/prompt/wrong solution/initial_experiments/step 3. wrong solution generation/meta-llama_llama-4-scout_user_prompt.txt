@@ -1,0 +1,5 @@
+The question is: {question}
+The correct solution is: {solution}
+The type of error the WRONG solution should base on: type_of_error = {type_of_error}
+Your first wrong step must be before step number {injection_step}
+Explanations for the type of error: {error_explanation}

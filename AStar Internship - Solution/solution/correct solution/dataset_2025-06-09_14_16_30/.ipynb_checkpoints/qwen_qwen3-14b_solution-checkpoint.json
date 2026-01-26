@@ -1,0 +1,534 @@
+{
+    "P1N100": {
+        "question": "Sarah has 37 stickers and Ben has 48 stickers. How many stickers do they have altogether?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "To find the total number of stickers Sarah and Ben have together, we need to add the number of stickers Sarah has to the number of stickers Ben has.",
+            "Step 2": "This can be written as an addition equation: $$ 37 + 48 $$",
+            "Step 3": "We can add the numbers step by step. First, add the ones place: $$ 7 + 8 = 15 $$",
+            "Step 4": "Next, add the tens place: $$ 30 + 40 = 70 $$",
+            "Step 5": "Now, add the two results together: $$ 70 + 15 = 85 $$",
+            "Step 6": "Therefore, Sarah and Ben have a total of 85 stickers."
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires understanding the question and identifying the need to perform an addition operation.",
+            "Step 2": "Comprehension // This step requires translating the problem into a mathematical expression.",
+            "Step 3": "Comprehension // This step requires applying the standard addition algorithm by breaking down the numbers into their place values.",
+            "Step 4": "Comprehension // This step requires applying the standard addition algorithm by breaking down the numbers into their place values.",
+            "Step 5": "Comprehension // This step requires applying the standard addition algorithm by combining the results of the previous steps.",
+            "Step 6": "Comprehension // This step requires stating the final answer based on the calculations performed."
+        }
+    },
+    "P1AddSub": {
+        "question": "Amir has 8 toy cars. His friend gives him 6 more toy cars. How many toy cars does Amir have now?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We start with the number of toy cars Amir originally has, which is 8.",
+            "Step 2": "Amir receives 6 more toy cars from his friend.",
+            "Step 3": "To find the total number of toy cars Amir has now, we add the number of toy cars he originally had to the number of toy cars he received: $ 8 + 6 $.",
+            "Step 4": "Performing the addition, $ 8 + 6 = 14 $.",
+            "Step 5": "Therefore, Amir now has 14 toy cars."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step involves recalling the initial quantity of toy cars Amir has, which is a basic factual piece of information.",
+            "Step 2": "Knowledge // This step involves recalling the additional quantity of toy cars given to Amir, which is another basic factual piece of information.",
+            "Step 3": "Comprehension // This step requires understanding the operation (addition) needed to combine the two quantities.",
+            "Step 4": "Comprehension // This step involves performing the addition operation, which requires comprehension of the arithmetic process.",
+            "Step 5": "Comprehension // This step requires interpreting the result of the calculation in the context of the problem."
+        }
+    },
+    "P1MulDiv": {
+        "question": "Each packet contains 4 apples. Mrs Lim bought 3 packets of apples. How many apples did she buy altogether?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are told that each packet contains 4 apples. This means that for every packet, there are 4 apples.",
+            "Step 2": "Mrs Lim bought 3 packets of apples. To find the total number of apples, we need to multiply the number of apples in one packet by the number of packets.",
+            "Step 3": "So, the total number of apples is $ 4 \times 3 $.",
+            "Step 4": "Calculating this, we get $ 4 \times 3 = 12 $.",
+            "Step 5": "Therefore, Mrs Lim bought 12 apples altogether."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires the student to recall the given information from the question.",
+            "Step 2": "Comprehension // This step requires the student to understand the relationship between the number of apples in one packet and the total number of apples in multiple packets.",
+            "Step 3": "Comprehension // This step requires the student to apply the correct operation (multiplication) based on the problem's context.",
+            "Step 4": "Knowledge // This step requires the student to perform a basic multiplication calculation.",
+            "Step 5": "Comprehension // This step requires the student to interpret the result of the calculation in the context of the question."
+        }
+    },
+    "P1Money": {
+        "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "First, we find the total value of the two 20-cent coins. Since each coin is worth 20 cents, we multiply 20 cents by 2: $$20 \times 2 = 40$$ cents.",
+            "Step 2": "Next, we add the value of the 50-cent coin to the total value of the two 20-cent coins. This gives us: $$50 + 40 = 90$$ cents.",
+            "Step 3": "Therefore, Shawn has a total of 90 cents."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires knowing how to multiply to find the total value of multiple coins of the same denomination.",
+            "Step 2": "Comprehension // This step requires understanding how to add different amounts of money together to find the total.",
+            "Step 3": "Comprehension // This step requires interpreting the result of the calculation and stating the final answer clearly."
+        }
+    },
+    "P2N1000": {
+        "question": "Maya has 325 stickers. Her brother gives her 250 more stickers. How many stickers does Maya have in total now?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are given that Maya has 325 stickers and her brother gives her 250 more stickers. To find the total number of stickers Maya has now, we need to add the two quantities together.",
+            "Step 2": "The addition is performed as follows: $ 325 + 250 $.",
+            "Step 3": "Adding the numbers: $ 325 + 250 = 575 $.",
+            "Step 4": "Therefore, Maya has 575 stickers in total now."
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires understanding the problem and identifying the operation needed to solve it.",
+            "Step 2": "Comprehension // This step requires recognizing the mathematical operation (addition) to be used.",
+            "Step 3": "Knowledge // This step requires applying the basic addition algorithm to calculate the sum.",
+            "Step 4": "Comprehension // This step requires interpreting the result in the context of the problem."
+        }
+    },
+    "P2FracW": {
+        "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "The cake was cut into 8 equal pieces. This means the whole cake is divided into 8 parts. So, each piece represents $\\frac{1}{8}$ of the cake.",
+            "Step 2": "Mdm Lim gave away 3 pieces. Since each piece is $\\frac{1}{8}$ of the cake, the total fraction of the cake given away is $3 \\times \\frac{1}{8} = \\frac{3}{8}$.",
+            "Step 3": "Therefore, the fraction of the cake that Mdm Lim gave away is $\\frac{3}{8}$."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires the student to understand the concept of dividing a whole into equal parts and identifying the fraction that represents one part of the whole.",
+            "Step 2": "Comprehension // This step requires the student to apply the concept of fractions by multiplying the number of pieces given away by the fraction representing one piece.",
+            "Step 3": "Comprehension // This step requires the student to interpret the result of the calculation and express it as the final answer."
+        }
+    },
+    "P2FracAS": {
+        "question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are told that Siti ate $\\frac{1}{4}$ of the cake in the morning and $\\frac{1}{4}$ of the cake in the afternoon. To find the total fraction of the cake she ate, we need to add these two fractions together.",
+            "Step 2": "Since both fractions have the same denominator, we can simply add the numerators: $\\frac{1}{4} + \\frac{1}{4} = \\frac{1 + 1}{4} = \\frac{2}{4}$.",
+            "Step 3": "Now, we simplify $\\frac{2}{4}$ by dividing both the numerator and denominator by 2: $\\frac{2 \\div 2}{4 \\div 2} = \\frac{1}{2}$."
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires the student to understand the problem and identify the key information, which is the two fractions representing the portions of the cake eaten in the morning and afternoon.",
+            "Step 2": "Comprehension // This step requires the student to apply the rule for adding fractions with the same denominator, which is a basic comprehension level task.",
+            "Step 3": "Comprehension // This step requires the student to simplify the resulting fraction, which involves applying the concept of simplifying fractions by dividing both the numerator and denominator by their greatest common divisor."
+        }
+    },
+    "P3N10k": {
+        "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are given the number of storybooks and reference books in the library. To find the total number of books, we need to add the two quantities together.",
+            "Step 2": "The number of storybooks is 7,823 and the number of reference books is 2,156. Adding these together: $ 7,823 + 2,156 $.",
+            "Step 3": "Perform the addition: $ 7,823 + 2,156 = 9,979 $.",
+            "Step 4": "Therefore, the total number of books in the library is 9,979."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires the student to understand the question and recognize that addition is needed to find the total number of books.",
+            "Step 2": "Comprehension // This step requires the student to apply the understanding of addition by identifying the quantities to be added.",
+            "Step 3": "Comprehension // This step requires the student to perform the arithmetic operation of addition accurately.",
+            "Step 4": "Comprehension // This step requires the student to interpret the result of the addition in the context of the question and provide the final answer."
+        }
+    },
+    "P3FracEq": {
+        "question": "Nina ate two out of six pieces of watermelon. Her brother said that she ate one out of three pieces. Are these two fractions equivalent? Show your answer.",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are given two fractions: $\\frac{2}{6}$ and $\\frac{1}{3}$. We need to determine if they are equivalent.",
+            "Step 2": "To compare two fractions, we can simplify the first fraction $\\frac{2}{6}$ to its lowest terms. To simplify, we divide both the numerator and the denominator by their greatest common divisor (GCD). The GCD of 2 and 6 is 2.",
+            "Step 3": "Dividing both the numerator and the denominator of $\\frac{2}{6}$ by 2, we get: $\\frac{2 \\div 2}{6 \\div 2} = \\frac{1}{3}$.",
+            "Step 4": "Now we compare the simplified fraction $\\frac{1}{3}$ with the second fraction $\\frac{1}{3}$. Since both are the same, the two fractions are equivalent."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires recalling the concept of fractions and equivalence.",
+            "Step 2": "Comprehension // This step involves understanding how to simplify fractions by finding the GCD.",
+            "Step 3": "Comprehension // This step requires applying the simplification process correctly.",
+            "Step 4": "Comprehension // This step involves comparing the simplified fraction with the given fraction to determine equivalence."
+        }
+    },
+    "P4N100k": {
+        "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are given that the library has 85,960 books and 9,380 new books are added. To find the total number of books, we need to add these two quantities together.",
+            "Step 2": "We perform the addition: $ 85,960 + 9,380 $.",
+            "Step 3": "Adding the numbers: $ 85,960 + 9,380 = 95,340 $.",
+            "Step 4": "Therefore, the library will have a total of 95,340 books."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires understanding the problem and identifying the operation needed, which is addition.",
+            "Step 2": "Comprehension // This step involves applying the addition operation to solve the problem.",
+            "Step 3": "Comprehension // This step requires performing the arithmetic operation correctly.",
+            "Step 4": "Comprehension // This step involves interpreting the result and stating the final answer."
+        }
+    },
+    "P4FctorM": {
+        "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are given that Mr Lim arranged 28 chairs equally in each row. This means we need to find all the possible numbers of chairs that can be in each row, which are the factors of 28.",
+            "Step 2": "To find the factors of 28, we need to list all the numbers that can divide 28 without leaving a remainder. These are the numbers that can be multiplied by another number to get 28.",
+            "Step 3": "We can find the factors of 28 by dividing 28 by numbers starting from 1 and going up to 28, and checking if the result is a whole number.",
+            "Step 4": "The factors of 28 are: 1, 2, 4, 7, 14, and 28.",
+            "Step 5": "Therefore, the possible numbers of chairs that can be in each row are 1, 2, 4, 7, 14, and 28."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step involves understanding the concept of factors and how they relate to equal distribution.",
+            "Step 2": "Comprehension // This step requires applying the concept of factors to the given problem.",
+            "Step 3": "Comprehension // This step involves using a method to find factors of a number.",
+            "Step 4": "Comprehension // This step requires identifying and listing the factors of 28.",
+            "Step 5": "Comprehension // This step involves interpreting the factors in the context of the problem."
+        }
+    },
+    "P44Op": {
+        "question": "A box contains 248 bookmarks. Sarah bought 3 such boxes and then gave away 95 bookmarks to her friends. How many bookmarks does Sarah have left?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "First, we find the total number of bookmarks Sarah bought by multiplying the number of bookmarks in one box by the number of boxes: $$ 248 \times 3 $$",
+            "Step 2": "Then, we subtract the number of bookmarks Sarah gave away from the total number of bookmarks she bought: $$ (248 \times 3) - 95 $$",
+            "Step 3": "Calculate the multiplication: $$ 248 \times 3 = 744 $$",
+            "Step 4": "Subtract the number of bookmarks given away: $$ 744 - 95 = 649 $$"
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires the student to understand the relationship between the number of bookmarks in one box and the total number of bookmarks in multiple boxes.",
+            "Step 2": "Comprehension // This step requires the student to understand the operation needed to find the remaining number of bookmarks after giving some away.",
+            "Step 3": "Knowledge // This step requires the student to perform a multiplication operation, which is a basic arithmetic skill.",
+            "Step 4": "Knowledge // This step requires the student to perform a subtraction operation, which is a basic arithmetic skill."
+        }
+    },
+    "P4FracMI": {
+        "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We know that 2 whole cakes can be written as a fraction with denominator 1: $ 2 = \\frac{2}{1} $.",
+            "Step 2": "We are also told that Mrs Lee baked three quarters of another cake, which is $ \\frac{3}{4} $.",
+            "Step 3": "To add these together, we need to have a common denominator. The denominator of $ \\frac{2}{1} $ is 1, and the denominator of $ \\frac{3}{4} $ is 4. The least common denominator is 4.",
+            "Step 4": "Convert $ \\frac{2}{1} $ to an equivalent fraction with denominator 4: $ \\frac{2}{1} = \\frac{2 \\times 4}{1 \\times 4} = \\frac{8}{4} $.",
+            "Step 5": "Now, add the two fractions: $ \\frac{8}{4} + \\frac{3}{4} = \\frac{8 + 3}{4} = \\frac{11}{4} $.",
+            "Step 6": "The total amount of cake baked is $ \\frac{11}{4} $, which is an improper fraction."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires recalling how whole numbers can be expressed as fractions.",
+            "Step 2": "Knowledge // This step requires understanding how to interpret a fraction like three quarters.",
+            "Step 3": "Comprehension // This step requires understanding the need for a common denominator when adding fractions.",
+            "Step 4": "Comprehension // This step requires applying the concept of equivalent fractions to convert $ \\frac{2}{1} $ to a fraction with denominator 4.",
+            "Step 5": "Comprehension // This step requires applying the rule for adding fractions with the same denominator.",
+            "Step 6": "Comprehension // This step requires recognizing that the final result is an improper fraction."
+        }
+    },
+    "P4FracSet": {
+        "question": "There are 24 apples in a box. If one third of the apples are green, how many green apples are there?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are told that one third of the apples are green. This means we need to find one third of the total number of apples, which is 24.",
+            "Step 2": "To find one third of 24, we divide 24 by 3. This is because dividing by 3 gives us one part out of three equal parts.",
+            "Step 3": "So, $ 24 \\div 3 = 8 $. Therefore, there are 8 green apples."
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires understanding the meaning of the fraction 'one third' in the context of the problem.",
+            "Step 2": "Comprehension // This step involves applying the concept of dividing a whole into equal parts, which is a basic comprehension skill.",
+            "Step 3": "Comprehension // This step requires performing a simple division operation to find the number of green apples."
+        }
+    },
+    "P4Deci3d": {
+        "question": "Muthu bought a pencil for $2.450 and an eraser for $0.650. How much did he spend altogether?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "To find the total amount Muthu spent, we need to add the cost of the pencil and the cost of the eraser.",
+            "Step 2": "The cost of the pencil is $2.450 and the cost of the eraser is $0.650.",
+            "Step 3": "Add the two amounts together: $2.450 + $0.650.",
+            "Step 4": "Performing the addition: $2.450 + $0.650 = $3.100."
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires the student to understand the question and identify the operation needed to solve it, which is addition.",
+            "Step 2": "Comprehension // This step involves identifying the given values from the problem statement.",
+            "Step 3": "Comprehension // This step requires the student to apply the addition operation to solve the problem.",
+            "Step 4": "Comprehension // This step involves performing the calculation and arriving at the final answer."
+        }
+    },
+    "P4DeciAS": {
+        "question": "Farhan bought a sandwich for $3.85 and a drink for $1.60. He paid with a $10 note. How much change did he receive?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "First, we need to find the total cost of the sandwich and the drink. This is done by adding the cost of the sandwich and the cost of the drink together. $$\\text{Total cost} = 3.85 + 1.60$$",
+            "Step 2": "Next, we subtract the total cost from the amount Farhan paid to find the change he received. $$\\text{Change} = 10.00 - \\text{Total cost}$$",
+            "Step 3": "Now, we calculate the total cost: $$3.85 + 1.60 = 5.45$$",
+            "Step 4": "Finally, we calculate the change: $$10.00 - 5.45 = 4.55$$"
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires the student to understand the need to add the costs of the items purchased to find the total cost.",
+            "Step 2": "Comprehension // This step requires the student to understand that to find the change, the total cost must be subtracted from the amount paid.",
+            "Step 3": "Knowledge // This step involves performing a straightforward addition of two decimal numbers, which is a basic arithmetic operation.",
+            "Step 4": "Knowledge // This step involves performing a straightforward subtraction of two decimal numbers, which is a basic arithmetic operation."
+        }
+    },
+    "P4DeciMD": {
+        "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "To find the total weight of 6 packets, we need to multiply the weight of one packet by the number of packets. This is because multiplication is a way to find the total when we have equal groups.",
+            "Step 2": "The weight of one packet is 0.45 kg and there are 6 packets. So, we calculate $ 0.45 \times 6 $.",
+            "Step 3": "Multiplying 0.45 by 6: $ 0.45 \times 6 = 2.7 $.",
+            "Step 4": "Therefore, the total weight of 6 packets is 2.7 kg."
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires understanding that multiplication is used to find the total weight of multiple equal groups.",
+            "Step 2": "Comprehension // This step requires applying the concept of multiplication to a real-world scenario.",
+            "Step 3": "Knowledge // This step involves performing a straightforward multiplication of a decimal by a whole number.",
+            "Step 4": "Comprehension // This step requires interpreting the result in the context of the problem and providing the final answer."
+        }
+    },
+    "P5N1m": {
+        "question": "A library in Singapore has 6,250,430 books. If 2,317,549 books are borrowed, how many books are left in the library?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are given the total number of books in the library as 6,250,430 and the number of books borrowed as 2,317,549. To find the number of books left, we need to subtract the number of borrowed books from the total number of books.",
+            "Step 2": "Perform the subtraction: $$ 6,250,430 - 2,317,549 $$",
+            "Step 3": "Start subtracting from the rightmost digit: $$ 0 - 9 $$ cannot be done, so we borrow 1 from the next digit. This makes it 10 - 9 = 1.",
+            "Step 4": "Next, subtract the digits in the tens place: $$ 2 - 4 $$ cannot be done, so we borrow 1 from the hundreds place. This makes it 12 - 4 = 8.",
+            "Step 5": "Now subtract the digits in the hundreds place: $$ 3 - 5 $$ cannot be done, so we borrow 1 from the thousands place. This makes it 13 - 5 = 8.",
+            "Step 6": "Next, subtract the digits in the thousands place: $$ 0 - 7 $$ cannot be done, so we borrow 1 from the ten thousands place. This makes it 10 - 7 = 3.",
+            "Step 7": "Now subtract the digits in the ten thousands place: $$ 4 - 1 $$ (after borrowing) = 3.",
+            "Step 8": "Next, subtract the digits in the hundred thousands place: $$ 2 - 3 $$ cannot be done, so we borrow 1 from the millions place. This makes it 12 - 3 = 9.",
+            "Step 9": "Finally, subtract the digits in the millions place: $$ 5 - 2 $$ (after borrowing) = 3.",
+            "Step 10": "Putting all the digits together, the result is 3,932,881 books left in the library."
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires understanding the problem and identifying the operation needed to solve it, which is subtraction.",
+            "Step 2": "Comprehension // This step involves recognizing the need to perform the subtraction operation to find the number of books left.",
+            "Step 3": "Comprehension // This step requires applying the concept of borrowing in subtraction, which is a basic arithmetic skill.",
+            "Step 4": "Comprehension // This step continues the application of borrowing and subtraction of digits in the tens place.",
+            "Step 5": "Comprehension // This step continues the application of borrowing and subtraction of digits in the hundreds place.",
+            "Step 6": "Comprehension // This step continues the application of borrowing and subtraction of digits in the thousands place.",
+            "Step 7": "Comprehension // This step continues the application of subtraction of digits in the ten thousands place.",
+            "Step 8": "Comprehension // This step continues the application of borrowing and subtraction of digits in the hundred thousands place.",
+            "Step 9": "Comprehension // This step continues the application of subtraction of digits in the millions place.",
+            "Step 10": "Comprehension // This step involves compiling the final result after performing all the necessary subtractions."
+        }
+    },
+    "P5FracDv": {
+        "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are told that Siti has 3 whole pizzas and she wants to share them equally among 5 friends. To find out what fraction of a pizza each friend will get, we need to divide the total number of pizzas by the number of friends.",
+            "Step 2": "This means we need to calculate $\\frac{3}{5}$, since we are dividing 3 pizzas among 5 friends.",
+            "Step 3": "Therefore, each friend will get $\\frac{3}{5}$ of a pizza."
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires understanding the problem and identifying the operation needed to solve it, which involves interpreting the scenario and translating it into a mathematical expression.",
+            "Step 2": "Comprehension // This step requires applying the concept of division of fractions in a real-world context, which involves understanding how to express the division of whole numbers as a fraction.",
+            "Step 3": "Comprehension // This step requires recognizing the result of the division and expressing it as a fraction, which is a direct application of the previous steps."
+        }
+    },
+    "P5Frac4Op": {
+        "question": "Mrs Lim baked 2 and 1/4 trays of cookies. She divided the cookies equally among her 3 children. How much of a tray of cookies did each child get?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "Convert the mixed number $ 2 \frac{1}{4} $ to an improper fraction. This is done by multiplying the whole number by the denominator and then adding the numerator: $ 2 \times 4 + 1 = 9 $. So, $ 2 \frac{1}{4} = \frac{9}{4} $.",
+            "Step 2": "Divide the improper fraction $ \frac{9}{4} $ by 3 to find out how much of a tray each child gets. Dividing by a number is the same as multiplying by its reciprocal: $ \frac{9}{4} \\div 3 = \frac{9}{4} \times \frac{1}{3} $.",
+            "Step 3": "Multiply the numerators and denominators: $ \frac{9 \times 1}{4 \times 3} = \frac{9}{12} $.",
+            "Step 4": "Simplify the fraction $ \frac{9}{12} $ by dividing both the numerator and the denominator by their greatest common divisor, which is 3: $ \frac{9 \\div 3}{12 \\div 3} = \frac{3}{4} $.",
+            "Step 5": "Therefore, each child gets $ \frac{3}{4} $ of a tray of cookies."
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires understanding how to convert a mixed number to an improper fraction, which involves applying a basic fraction concept.",
+            "Step 2": "Comprehension // This step requires understanding the concept of dividing by a whole number using the reciprocal method, which is a fundamental operation in fractions.",
+            "Step 3": "Comprehension // This step involves performing the multiplication of two fractions, which is a basic operation in fraction arithmetic.",
+            "Step 4": "Comprehension // This step requires the ability to simplify a fraction by finding the greatest common divisor, which is a basic skill in working with fractions.",
+            "Step 5": "Comprehension // This step is the final conclusion based on the previous calculations, requiring the ability to interpret the result in the context of the problem."
+        }
+    },
+    "P5Deci4Op": {
+        "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are given that Mei Ling bought 2.5 kg of flour and used 1.75 kg of it. To find out how much flour she has left, we need to subtract the amount used from the total amount she bought.",
+            "Step 2": "The calculation is: $ 2.5 - 1.75 $.",
+            "Step 3": "Performing the subtraction: $ 2.5 - 1.75 = 0.75 $.",
+            "Step 4": "Therefore, Mei Ling has 0.75 kg of flour left."
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires understanding the scenario and identifying the operation needed to solve the problem.",
+            "Step 2": "Comprehension // This step involves applying the correct mathematical operation (subtraction) to find the remaining amount of flour.",
+            "Step 3": "Comprehension // This step requires performing the subtraction of two decimal numbers, which is a basic arithmetic skill.",
+            "Step 4": "Comprehension // This step requires interpreting the result of the calculation and expressing it in a clear, final answer."
+        }
+    },
+    "P5perctg": {
+        "question": "A shirt usually costs \\$48. During a sale, the price of the shirt is reduced by 25 percent. What is the sale price of the shirt?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are given the original price of the shirt, which is \\$48. The shirt is reduced by 25 percent during the sale. To find the sale price, we need to calculate 25 percent of \\$48 and then subtract that amount from the original price.",
+            "Step 2": "To calculate 25 percent of \\$48, we can use the formula: $$ \text{Percentage of a number} = \frac{\text{Percentage}}{100} \times \text{Number} $$",
+            "Step 3": "Substituting the values into the formula, we get: $$ \frac{25}{100} \times 48 = 0.25 \times 48 $$",
+            "Step 4": "Now, we calculate the value: $$ 0.25 \times 48 = 12 $$",
+            "Step 5": "This means the discount is \\$12. To find the sale price, we subtract the discount from the original price: $$ 48 - 12 = 36 $$",
+            "Step 6": "Therefore, the sale price of the shirt is \\$36."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires the student to recall the definition of percentage and understand how to apply it to a real-world problem.",
+            "Step 2": "Comprehension // This step requires the student to use the formula for calculating a percentage of a number, which involves understanding the relationship between percentages and decimals.",
+            "Step 3": "Comprehension // This step requires the student to apply the formula to the given values, which involves basic arithmetic and understanding of decimal multiplication.",
+            "Step 4": "Comprehension // This step requires the student to perform the multiplication accurately, which involves basic arithmetic skills.",
+            "Step 5": "Comprehension // This step requires the student to understand the concept of subtracting a discount from the original price to find the sale price.",
+            "Step 6": "Comprehension // This step requires the student to interpret the final result and state the sale price clearly."
+        }
+    },
+    "P5rate": {
+        "question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "To find the average speed, we use the formula: \\$$\\text{Average Speed} = \\frac{\\text{Total Distance}}{\\text{Total Time}}\\$$",
+            "Step 2": "Substitute the given values into the formula: \\$$\\text{Average Speed} = \\frac{30 \\text{ km}}{2 \\text{ hours}}\\$$",
+            "Step 3": "Perform the division: \\$$\\text{Average Speed} = 15 \\text{ km/h}\\$$"
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires understanding the definition of average speed and knowing the correct formula to use.",
+            "Step 2": "Comprehension // This step requires applying the formula by substituting the given values correctly.",
+            "Step 3": "Comprehension // This step requires performing a simple arithmetic operation to calculate the average speed."
+        }
+    },
+    "P6ratio": {
+        "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are given the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+            "Step 2": "We are told that there are 18 apples. To find out how many oranges there are, we need to find out how many times the number of apples (3) fits into 18. This is done by dividing 18 by 3. So, $ 18 \\div 3 = 6 $.",
+            "Step 3": "Since the ratio of apples to oranges is 3 : 5, and we have found that the number of apples is 6 times the number in the ratio, we multiply the number of oranges in the ratio by 6. So, $ 5 \times 6 = 30 $."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires the student to understand what a ratio means and how it represents a relationship between two quantities.",
+            "Step 2": "Comprehension // This step requires the student to apply the concept of ratios to real numbers by finding how many times the ratio unit fits into the given number of apples.",
+            "Step 3": "Comprehension // This step requires the student to use the relationship established in the ratio and the multiplier found in Step 2 to calculate the corresponding number of oranges."
+        }
+    },
+    "P6algebr": {
+        "question": "Tom has $3m + 8$ marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are told that Tom originally has $3m + 8$ marbles and gives away 5 marbles. This means the number of marbles he has left is $3m + 8 - 5$.",
+            "Step 2": "We are also told that after giving away 5 marbles, Tom has 20 marbles left. So, we can write the equation: $3m + 8 - 5 = 20$.",
+            "Step 3": "Simplify the left-hand side of the equation: $3m + 3 = 20$.",
+            "Step 4": "To solve for $m$, subtract 3 from both sides of the equation: $3m = 20 - 3$.",
+            "Step 5": "Simplify the right-hand side: $3m = 17$.",
+            "Step 6": "Now, divide both sides of the equation by 3 to solve for $m$: $m = \\frac{17}{3}$."
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires understanding the relationship between the number of marbles Tom has and the number he gives away.",
+            "Step 2": "Comprehension // This step requires translating the scenario into a mathematical equation.",
+            "Step 3": "Knowledge // This step involves simplifying an algebraic expression using basic arithmetic.",
+            "Step 4": "Comprehension // This step requires applying the inverse operation to isolate the variable.",
+            "Step 5": "Knowledge // This step involves basic arithmetic to simplify the equation further.",
+            "Step 6": "Comprehension // This step requires applying the inverse operation again to solve for the variable."
+        }
+    },
+    "O1NumOps": {
+        "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "First, we find the total number of marbles in the bag. This is done by adding the number of red marbles and blue marbles together. So, the total number of marbles is $ 80 + 120 $.",
+            "Step 2": "Next, we determine the fraction of blue marbles by dividing the number of blue marbles by the total number of marbles. This gives us $ \\frac{120}{200} $.",
+            "Step 3": "To simplify the fraction $ \\frac{120}{200} $, we find the greatest common divisor (GCD) of the numerator and the denominator. The GCD of 120 and 200 is 40.",
+            "Step 4": "We divide both the numerator and the denominator of the fraction by the GCD. This gives us $ \\frac{120 \\div 40}{200 \\div 40} = \\frac{3}{5} $."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires the student to know how to find the total number of items in a set by adding the individual parts together.",
+            "Step 2": "Comprehension // This step requires the student to understand how to represent a part of a whole as a fraction by dividing the part by the whole.",
+            "Step 3": "Comprehension // This step requires the student to understand the concept of simplifying fractions by finding the greatest common divisor.",
+            "Step 4": "Application // This step requires the student to apply the concept of simplifying fractions by dividing both the numerator and the denominator by the GCD."
+        }
+    },
+    "O1RioPro": {
+        "question": "The ratio of the number of blue pens to red pens in a box is 5 : 3. If there are 60 blue pens, how many red pens are there?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "We are given the ratio of blue pens to red pens as 5 : 3. This means for every 5 blue pens, there are 3 red pens.",
+            "Step 2": "Let the number of blue pens be $ 5x $ and the number of red pens be $ 3x $, where $ x $ is a common multiplier.",
+            "Step 3": "We are told there are 60 blue pens. So, $ 5x = 60 $.",
+            "Step 4": "Solve for $ x $: $ x = 60 \\div 5 = 12 $.",
+            "Step 5": "Now substitute $ x = 12 $ into the expression for the number of red pens: $ 3x = 3 \times 12 = 36 $.",
+            "Step 6": "Therefore, the number of red pens is 36."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step involves understanding the meaning of a ratio and how it relates to quantities.",
+            "Step 2": "Comprehension // This step requires applying the concept of ratios by expressing the quantities in terms of a common multiplier.",
+            "Step 3": "Comprehension // This step involves translating the given information into an algebraic equation.",
+            "Step 4": "Comprehension // This step involves solving a simple equation to find the value of the multiplier.",
+            "Step 5": "Comprehension // This step involves substituting the value of the multiplier into the expression for the other quantity.",
+            "Step 6": "Comprehension // This step involves interpreting the result and providing the final answer."
+        }
+    },
+    "O1RatSpd": {
+        "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "To find the average speed of the bus, we use the formula: \\$$\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\\$$",
+            "Step 2": "Substitute the given values into the formula: \\$$\\text{Average speed} = \\frac{144 \\, \\text{km}}{2 \\, \\text{hours}}\\$$",
+            "Step 3": "Perform the division: \\$$\\text{Average speed} = 72 \\, \\text{km/h}\\$$"
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires the student to recall the formula for average speed.",
+            "Step 2": "Comprehension // This step requires the student to understand how to apply the formula to the given values.",
+            "Step 3": "Comprehension // This step requires the student to perform the calculation correctly using the substituted values."
+        }
+    },
+    "O1AgbrEF": {
+        "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+        "kc": "Knowledge",
+        "solution": {
+            "Step 1": "The perimeter of a rectangle is the total distance around the rectangle. It can be calculated using the formula: \\$$ Perimeter = 2 \times (length + width) \\$$.",
+            "Step 2": "In this case, the length of the rectangle is given as \\$x\\$ cm and the width is given as \\$y\\$ cm.",
+            "Step 3": "Substituting the given values into the formula, we get: \\$$ Perimeter = 2 \times (x + y) \\$$.",
+            "Step 4": "Simplifying the expression, the perimeter of the rectangle in terms of \\$x\\$ and \\$y\\$ is \\$$ 2(x + y) \\$$."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires recalling the definition of the perimeter of a rectangle.",
+            "Step 2": "Knowledge // This step requires identifying the given values of the length and width.",
+            "Step 3": "Comprehension // This step requires applying the formula to the given values.",
+            "Step 4": "Comprehension // This step requires simplifying the expression based on the formula."
+        }
+    },
+    "O1EqIneq": {
+        "question": "A mobile phone usually costs $x. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "The original price of the mobile phone is $x$. During the sale, the price is reduced by 50 dollars, so the new price is $x - 50$ dollars.",
+            "Step 2": "We are told that the new price is 320 dollars. Therefore, the equation representing this situation is $x - 50 = 320$.",
+            "Step 3": "To find the value of $x$, we solve the equation $x - 50 = 320$. Adding 50 to both sides of the equation gives $x = 320 + 50$.",
+            "Step 4": "Simplifying the right side of the equation, we get $x = 370$."
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires understanding the relationship between the original price and the reduced price.",
+            "Step 2": "Comprehension // This step involves translating the word problem into a mathematical equation.",
+            "Step 3": "Comprehension // This step requires applying the inverse operation of subtraction (addition) to isolate the variable $x$.",
+            "Step 4": "Comprehension // This step involves performing a simple arithmetic operation to find the value of $x$."
+        }
+    },
+    "O2Prob": {
+        "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "First, we find the total number of pens in the box. There are 5 red pens, 3 blue pens, and 2 green pens. Adding these together gives: $$ 5 + 3 + 2 = 10 $$ So, there are 10 pens in total.",
+            "Step 2": "Next, we determine the number of favorable outcomes. Bryan wants to pick a blue pen, and there are 3 blue pens in the box.",
+            "Step 3": "The probability of an event is calculated by dividing the number of favorable outcomes by the total number of possible outcomes. Therefore, the probability that Bryan picks a blue pen is: $$ \\frac{\\text{Number of blue pens}}{\\text{Total number of pens}} = \\frac{3}{10} $$"
+        },
+        "level_of_thinking": {
+            "Step 1": "Knowledge // This step requires knowing how to calculate the total number of items in a set by adding them together.",
+            "Step 2": "Comprehension // This step requires understanding what a favorable outcome is in the context of probability.",
+            "Step 3": "Comprehension // This step requires applying the formula for probability, which is a fundamental concept in probability theory."
+        }
+    },
+    "O3NumOps": {
+        "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+        "kc": "Comprehension",
+        "solution": {
+            "Step 1": "First, we find the total number of oranges Shaun has initially by multiplying the number of boxes by the number of oranges in each box: $ 3 \\times 25 $.",
+            "Step 2": "Next, we subtract the number of oranges given away from the total number of oranges: $ (3 \\times 25) - 18 $.",
+            "Step 3": "Finally, we calculate the result of the subtraction to find the total number of oranges left: $ 75 - 18 = 57 $."
+        },
+        "level_of_thinking": {
+            "Step 1": "Comprehension // This step requires understanding the multiplication operation to find the total number of oranges.",
+            "Step 2": "Comprehension // This step requires understanding the subtraction operation to find the number of oranges left after giving some away.",
+            "Step 3": "Comprehension // This step requires performing the subtraction and arriving at the final answer."
+        }
+    }
+}

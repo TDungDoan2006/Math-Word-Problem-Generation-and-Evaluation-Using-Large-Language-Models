@@ -1,0 +1,4 @@
+Question ID: {ID}
+The knowledge substrand is: {substrand}.
+The knowledge component is: {kc}.
+The grade the student is in: {grade}.

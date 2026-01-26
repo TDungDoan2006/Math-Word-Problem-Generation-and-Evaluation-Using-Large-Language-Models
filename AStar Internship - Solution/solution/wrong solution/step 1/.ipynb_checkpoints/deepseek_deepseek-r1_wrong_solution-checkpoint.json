@@ -1,0 +1,133 @@
+{
+    "1": {
+        "question": "Find the value of \\( 2 \\div \\frac{1}{4} \\)",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Division by Fraction",
+            "Incorrect Reciprocal Application"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Miscalculating the product after converting division to multiplication.",
+            "Misunderstanding Division by Fraction": "Dividing the fractions directly instead of multiplying by the reciprocal.",
+            "Incorrect Reciprocal Application": "Taking the reciprocal of the wrong fraction or miscalculating the reciprocal."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Rushed calculation or lack of practice in fraction multiplication.",
+            "Misunderstanding Division by Fraction": "Forgetting the rule that dividing by a fraction requires multiplying by its reciprocal.",
+            "Incorrect Reciprocal Application": "Confusion about which fraction to invert or how reciprocals work."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Double-check multiplication steps and practice basic fraction operations.",
+            "Misunderstanding Division by Fraction": "Remember the phrase 'Keep, Change, Flip': keep the first number, change division to multiplication, flip the second fraction.",
+            "Incorrect Reciprocal Application": "Ensure only the divisor (second fraction) is inverted, and verify the reciprocal is correct (e.g., reciprocal of \\(\\frac{1}{4}\\) is 4)."
+        }
+    },
+    "2": {
+        "question": "8. Express $0.965$ as a percentage.",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding the Question",
+            "Forgetting the Percent Sign",
+            "Decimal Placement Error"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Incorrectly multiplying $0.965$ by $100$, leading to an inaccurate numerical result.",
+            "Misunderstanding the Question": "Confusing the process of converting a decimal to a percentage with other conversions (e.g., dividing instead of multiplying).",
+            "Forgetting the Percent Sign": "Calculating the correct numerical value but omitting the required '%' symbol in the final answer.",
+            "Decimal Placement Error": "Moving the decimal point an incorrect number of places (e.g., one or three places instead of two)."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Carelessness in calculation or lack of practice with decimal multiplication.",
+            "Misunderstanding the Question": "Unclear conceptual understanding of percentage conversion rules.",
+            "Forgetting the Percent Sign": "Overlooking the format requirement for percentages.",
+            "Decimal Placement Error": "Misremembering the rule for decimal-to-percentage conversion (requires multiplying by $100$, i.e., shifting the decimal two places)."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Verify calculations step-by-step and practice multiplying decimals by $100$.",
+            "Misunderstanding the Question": "Memorize the rule: 'To convert a decimal to a percentage, multiply by $100$.'",
+            "Forgetting the Percent Sign": "Always include the '%' symbol after numerical answers for percentage questions.",
+            "Decimal Placement Error": "Remember that multiplying by $100$ shifts the decimal point two places to the right. Use this visual method to avoid errors."
+        }
+    },
+    "3": {
+        "question": "Ken bought a sofa for $600 at sale and was left with $300. What percentage of his money did he spend?",
+        "type_of_error": [
+            "Misunderstanding Total Money",
+            "Incorrect Percentage Formula",
+            "Arithmetic Errors",
+            "Misinterpreting the Question"
+        ],
+        "error_explanation": {
+            "Misunderstanding Total Money": "The student did not calculate the total money correctly by adding the amount spent and the remaining amount.",
+            "Incorrect Percentage Formula": "The student used the wrong formula, such as dividing the remaining amount by the spent amount, instead of dividing the spent amount by the total money.",
+            "Arithmetic Errors": "The student made mistakes in addition, division, or simplification of fractions during calculations.",
+            "Misinterpreting the Question": "The student calculated the percentage of money left instead of the percentage spent."
+        },
+        "root_cause": {
+            "Misunderstanding Total Money": "Not recognizing that the total money is the sum of the amount spent and the amount left.",
+            "Incorrect Percentage Formula": "Confusion about the correct ratio needed for percentage calculations (spent vs. total).",
+            "Arithmetic Errors": "Carelessness or lack of practice in performing basic arithmetic operations.",
+            "Misinterpreting the Question": "Failing to read the question carefully and identify the key term 'percentage spent'."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Total Money": "Always verify that total money = amount spent + amount left before calculating percentages.",
+            "Incorrect Percentage Formula": "Remember: Percentage spent = (Amount spent / Total money) \u00d7 100%. Highlight this formula during practice.",
+            "Arithmetic Errors": "Break down calculations step by step and double-check each operation. Simplify fractions carefully (e.g., 600/900 = 2/3).",
+            "Misinterpreting the Question": "Underline key phrases like 'percentage spent' to ensure alignment with the required answer."
+        }
+    },
+    "4": {
+        "question": "Last year, Larry\u2019s mass was 30 kg. This year, his mass decreases by 10\\%. What is his mass this year?",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misreading the Question",
+            "Misunderstanding Percentage Decrease",
+            "Wrong Formula Applied"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Miscalculating 10% of 30 kg or making errors in subtraction.",
+            "Misreading the Question": "Misinterpreting 'decreases by 10%' as an increase.",
+            "Misunderstanding Percentage Decrease": "Believing a 10% decrease means the new mass is 10% of the original (e.g., 3 kg).",
+            "Wrong Formula Applied": "Using multiplication by 1.1 (for increase) instead of 0.9 (for decrease)."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Carelessness in calculations or lack of practice with decimals.",
+            "Misreading the Question": "Not paying attention to keywords like 'decreases'.",
+            "Misunderstanding Percentage Decrease": "Confusion about percentage decrease implying a reduction from the original value.",
+            "Wrong Formula Applied": "Mistakenly applying percentage increase formulas for decrease problems."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Double-check calculations step-by-step and verify 10% of 30 kg is 3 kg before subtracting.",
+            "Misreading the Question": "Underline or highlight key terms like 'decreases' to ensure correct interpretation.",
+            "Misunderstanding Percentage Decrease": "Recall that percentage decrease subtracts a portion of the original value, e.g., 30 kg - (10% of 30 kg).",
+            "Wrong Formula Applied": "Use the formula: New Value = Original \u00d7 (1 - percentage). For 10% decrease, multiply by 0.9."
+        }
+    },
+    "5": {
+        "question": "Mary was given $210. She spent \\( \frac{1}{7} \\) of it on clothes and \\( \frac{1}{2} \\) on food. How much money did she have left?",
+        "type_of_error": [
+            "Misinterpreting Fractions Applied to Remaining Amount",
+            "Arithmetic Error",
+            "Missing Final Subtraction Step",
+            "Incorrect Fraction Addition"
+        ],
+        "error_explanation": {
+            "Misinterpreting Fractions Applied to Remaining Amount": "The student assumes that after spending on clothes, the fraction for food is applied to the remaining money, not the original amount.",
+            "Arithmetic Error": "The student makes a calculation mistake when finding the fractions of $210.",
+            "Missing Final Subtraction Step": "The student calculates the total spent but forgets to subtract it from the original $210.",
+            "Incorrect Fraction Addition": "The student incorrectly adds the fractions \\( \frac{1}{7} \\) and \\( \frac{1}{2} \\) before calculating the total spent."
+        },
+        "root_cause": {
+            "Misinterpreting Fractions Applied to Remaining Amount": "The student did not carefully read the problem and assumed sequential spending.",
+            "Arithmetic Error": "Lack of practice with division or multiplication, or careless calculation.",
+            "Missing Final Subtraction Step": "Overlooking the final step required to answer the question.",
+            "Incorrect Fraction Addition": "Not understanding how to properly add fractions with different denominators."
+        },
+        "how_to_avoid": {
+            "Misinterpreting Fractions Applied to Remaining Amount": "Read the problem carefully to confirm whether fractions apply to the original total or remaining amount.",
+            "Arithmetic Error": "Double-check calculations and practice arithmetic skills.",
+            "Missing Final Subtraction Step": "After finding total spent, remember to subtract from the original amount to find remaining money.",
+            "Incorrect Fraction Addition": "Review fraction addition rules, find common denominators before adding numerators."
+        }
+    }
+}

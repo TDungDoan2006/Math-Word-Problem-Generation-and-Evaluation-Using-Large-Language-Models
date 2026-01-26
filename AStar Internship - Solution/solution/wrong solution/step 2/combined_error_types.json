@@ -1,0 +1,879 @@
+{
+    "P1N100": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Place Value Error"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Place Value Error": "The student incorrectly adds the digits without paying attention to place value, such as writing 7 + 5 = 12 and placing 12 in the ones place without carrying, leading to a wrong final sum."
+        }
+    },
+    "P1AddSub": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution"
+        }
+    },
+    "P1MulDiv": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution"
+        }
+    },
+    "P1Money": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Miscounting or Omitting Coins",
+            "Misunderstanding Coin Value"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Miscounting or Omitting Coins": "This error happens when a student uses the wrong number of coins for their calculations or forgets to include a coin type, such as using 3 fifty-cent coins instead of 2, or leaving out the twenty-cent coins.",
+            "Misunderstanding Coin Value": "This error occurs when a student confuses the values of coins, like thinking a fifty-cent coin is worth 0.2 dollars or similar mistakes."
+        }
+    },
+    "P2N1000": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Place Value Misalignment"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Place Value Misalignment": "This error happens when digits are not aligned properly by their place value when added vertically, causing incorrect sums in the addition."
+        }
+    },
+    "P2FracW": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Wrong Fraction Representation",
+            "Incorrect Denominator"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Wrong Fraction Representation": "The student writes the fraction incorrectly by swapping the numerator and denominator, for example writing \\( \\frac{8}{3} \\) instead of \\( \\frac{3}{8} \\), or uses the total as the part and the part as the whole.",
+            "Incorrect Denominator": "The student uses the number of remaining pieces or some other number as the denominator instead of the total number of equal pieces the whole cake was cut into, leading to answers like \\( \\frac{3}{5} \\) instead of \\( \\frac{3}{8} \\)."
+        }
+    },
+    "P2FracAS": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Arithmetic Error in Fraction Addition"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Arithmetic Error in Fraction Addition": "This error occurs when a student makes a simple calculation mistake while adding fractions, such as incorrectly adding the numerators, or giving an incorrect sum even after using the right method (e.g., 1/4 + 2/4 = 1/2)."
+        }
+    },
+    "P3N10k": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Misalignment of Digits",
+            "Place Value Misinterpretation"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Misalignment of Digits": "This error happens when numbers are not aligned correctly according to place values (ones, tens, hundreds, thousands), causing digits to be added incorrectly.",
+            "Place Value Misinterpretation": "Students may confuse the values of the digits in each column, leading to mistakes like adding ones to tens or not understanding how to carry over between columns."
+        }
+    },
+    "P3FracEq": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Misunderstanding Equivalent Fractions",
+            "Arithmetic Error in Fraction Conversion",
+            "Incorrect Comparison of Numerators or Denominators"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Misunderstanding Equivalent Fractions": "This error occurs when a student does not understand that different fractions (e.g., 1/2 and 2/4) can represent the same part of a whole, leading to the belief that the fractions are always different just because their numerators and denominators are different.",
+            "Arithmetic Error in Fraction Conversion": "This mistake involves making calculation errors when converting fractions, such as multiplying numerators and denominators incorrectly or not performing operations in a systematic way, leading to incorrect forms like converting 1/2 to 1/4 instead of 2/4.",
+            "Incorrect Comparison of Numerators or Denominators": "This mistake occurs when a student judges the size of fractions by only looking at the numerators or denominators separately (e.g., thinking 2/4 is more than 1/2 because 2>1 or 4>2), instead of considering the fraction as a whole."
+        }
+    },
+    "P4N100k": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Misalignment of Digits"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Misalignment of Digits": "The student does not align the numbers properly according to their place values (units, tens, hundreds, etc.), which leads to incorrect addition."
+        }
+    },
+    "P4FctorM": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Misunderstanding the Concept of Factors",
+            "Incorrectly Listing Factors"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Misunderstanding the Concept of Factors": "The student does not understand that to divide the pencils equally with none left over, they need to find the factors of 24 and that the answer can be the number itself. Sometimes, students wrongly exclude 24 as a possible factor or confuse factors and multiples.",
+            "Incorrectly Listing Factors": "The student makes mistakes when listing the factors of 24, such as missing some (like 12 or 24), including numbers that are not factors, or stopping the listing too early."
+        }
+    },
+    "P44Op": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution"
+        }
+    },
+    "P4FracMI": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Misunderstanding Mixed Numbers",
+            "Missing or Mismanaging Denominator"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Misunderstanding Mixed Numbers": "This happens when a student does not properly understand that a mixed number combines a whole number and a fraction, leading to errors like treating them as separate values or misunderstanding how they add together.",
+            "Missing or Mismanaging Denominator": "This error happens when a student changes the denominator during the conversion process, forgets to include it, or does not keep it consistent, which leads to an incorrect final fraction."
+        }
+    },
+    "P4FracSet": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Misunderstanding the Fraction of a Set",
+            "Inversion Error",
+            "Missing Key Information"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "The student does not use the total number of members given in the problem, or tries to answer using only the abstract fraction, disconnected from the set size.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Misunderstanding the Fraction of a Set": "This error happens when a student does not understand what 'one-third of 36' means, or chooses the wrong fraction (such as two-thirds or some unrelated value).",
+            "Inversion Error": "The student divides in the wrong order, such as dividing 3 by 36 instead of 36 by 3, leading to an incorrect result."
+        }
+    },
+    "P4Deci3d": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Decimal Misalignment",
+            "Place Value Confusion",
+            "Borrowing/Regrouping Error"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Decimal Misalignment": "This happens when students do not align decimal points correctly in the numbers, leading to subtraction of digits from incorrect place values and thus resulting in the wrong answer.",
+            "Place Value Confusion": "This error occurs when students do not have a clear understanding of the value of each digit in decimal numbers (tenths, hundredths, thousandths), which leads to mixing up places or incorrect subtraction.",
+            "Borrowing/Regrouping Error": "Errors occur when students do not properly perform borrowing/regrouping across decimal places, particularly when subtracting numbers with different digits in each place value."
+        }
+    },
+    "P4DeciAS": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Place Value Misunderstanding",
+            "Misinterpreting Comparison Order"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Place Value Misunderstanding": "The student fails to align decimal points correctly, or ignores decimal places, resulting in an incorrect subtraction.",
+            "Misinterpreting Comparison Order": "The student subtracts the price of the book from the box of pencils (3.75 - 5.60), not recognizing which is larger or the correct comparison direction."
+        }
+    },
+    "P4DeciMD": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Incorrect Division Order",
+            "Decimal Misconception",
+            "Misinterpreting Result"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Incorrect Division Order": "The student divides in the wrong order (e.g., 5 \u00f7 2.5 instead of 2.5 \u00f7 5), which leads to an incorrect answer.",
+            "Decimal Misconception": "The student has difficulties with decimals, such as treating 2.5 as 25, or misunderstanding how to divide decimals by a whole number.",
+            "Misinterpreting Result": "The student gets the calculation correct but misunderstands the result, such as thinking the answer is in another unit or misrepresenting what the number means."
+        }
+    },
+    "P5N1m": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Place Value and Alignment Error",
+            "Misinterpretation of Thousand Separators",
+            "Omission of Trailing Zeros"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Place Value and Alignment Error": "This arises when the digits are not properly aligned by their place value columns before adding, such as aligning thousands with ten-thousands, leading to incorrect sums.",
+            "Misinterpretation of Thousand Separators": "This error occurs when students misunderstand spaces (or commas) that separate thousands, causing incorrect grouping or reading of number values.",
+            "Omission of Trailing Zeros": "Happens when students ignore or drop trailing zeros in the numbers, decreasing their actual value and leading to an incorrect total."
+        }
+    },
+    "P5FracDv": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Misinterpreting the Division Order",
+            "Misunderstanding the Concept of Sharing",
+            "Whole Number Misconception"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Misinterpreting the Division Order": "Students may confuse the order of division, dividing the number of children by the number of cakes (4 \u00f7 3), instead of cakes by children (3 \u00f7 4), resulting in an incorrect fraction. This often leads to writing \\(\\frac{4}{3}\\) instead of \\(\\frac{3}{4}\\).",
+            "Misunderstanding the Concept of Sharing": "Students may not understand that 'shared equally' means dividing the total amount among the recipients. They may think each child gets 1 whole cake or assume incorrect groupings, not realising the division is needed to find the share per person.",
+            "Whole Number Misconception": "Students might expect the answer must be a whole number, thinking each child gets 1 cake with some leftovers, and failing to use fractions when sharing does not result in whole numbers."
+        }
+    },
+    "P5Frac4Op": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Incorrect Subtraction of Fractions",
+            "Incorrect Division of Fractions",
+            "Procedural Error"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Incorrect Subtraction of Fractions": "This error involves not using the correct method to subtract fractions, for example, changing the denominators unnecessarily or subtracting both numerators and denominators.",
+            "Incorrect Division of Fractions": "This occurs when students divide fractions incorrectly, such as not using the reciprocal or dividing the denominator instead of multiplying by the reciprocal.",
+            "Procedural Error": "This is when students miss a necessary step in the solution, such as stopping after subtraction and forgetting to divide the remainder between the friends."
+        }
+    },
+    "P5Deci4Op": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution"
+        }
+    },
+    "P5perctg": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Incorrect Conversion of Percentage",
+            "Missing Simplification"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Incorrect Conversion of Percentage": "This arises when a student fails to convert the percentage correctly to a fraction or decimal, such as using 75 or 75/40, or incorrectly writing 75% as 0.075.",
+            "Missing Simplification": "Failing to simplify fractions before performing calculations, which may make the arithmetic more difficult or lead to errors."
+        }
+    },
+    "P5rate": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution"
+        }
+    },
+    "P6ratio": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Misreading or Misunderstanding the Ratio",
+            "Incorrect Application of Ratio"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Misreading or Misunderstanding the Ratio": "This error occurs when a student either reverses the ratio (e.g., treats it as girls : boys), confuses which number represents boys or girls, or thinks the ratio shows actual numbers rather than a comparison.",
+            "Incorrect Application of Ratio": "This happens when a student does not correctly use the ratio to find the answer, such as multiplying by the wrong part of the ratio, adding the ratio numbers together, or skipping necessary steps (like finding the number of groups first)."
+        }
+    },
+    "P6algebr": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Misunderstanding Total Boxes",
+            "Incorrect Equation Setup"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Misunderstanding Total Boxes": "This error occurs when a student misunderstands the total number of boxes Andy has after buying 3 more, e.g., thinking Andy only has 3 or only counts the new boxes, not including the original box he had.",
+            "Incorrect Equation Setup": "This happens when a student sets up the wrong algebraic equation from the word problem, such as using addition instead of multiplication (e.g., x + 3 = 40 or 3x = 40 instead of 4x = 40)."
+        }
+    },
+    "O1NumOps": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Place Value Misalignment"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Place Value Misalignment": "This occurs when students do not align the digits according to their place values (ones, tens, hundreds, thousands), leading to incorrect addition."
+        }
+    },
+    "O1RioPro": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Misunderstanding Ratio Direction",
+            "Incorrect Application of Ratio/Proportion"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Misunderstanding Ratio Direction": "This error occurs when a student confuses the order of the numbers in the ratio, such as treating the ratio as oranges to apples instead of apples to oranges. It may also include thinking the numbers in the ratio are actual quantities rather than a comparison.",
+            "Incorrect Application of Ratio/Proportion": "This happens when a student incorrectly uses the total of the ratio parts or applies the ratio concept incorrectly, such as attempting to find the unknown by dividing by the sum of the ratio parts instead of using a direct proportional method."
+        }
+    },
+    "O1RatSpd": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution"
+        }
+    },
+    "O1AgbrEF": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Substitution Error",
+            "Misinterpretation of the Algebraic Expression",
+            "Order of Operations Error"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Substitution Error": "This error occurs when a student substitutes incorrect or swapped values for x and y, leading to a wrong calculation of the total cost.",
+            "Misinterpretation of the Algebraic Expression": "This occurs when a student misunderstands what the expression 2x + 3y means, such as treating it as 2 + x + 3 + y, or confusing which coefficient belongs to pens and which to pencils.",
+            "Order of Operations Error": "This happens when a student does not follow the correct sequence of operations, such as adding 4 and 5 first before multiplying by their respective prices."
+        }
+    },
+    "O1EqIneq": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Wrong Equation Formed (Incorrect Translation or Grouping)",
+            "Incorrect Algebraic Manipulation",
+            "Forgetting to Use a Variable"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Wrong Equation Formed (Incorrect Translation or Grouping)": "The student writes the equation incorrectly, such as reversing the operation (e.g., 7 - 2a = 21), or incorrectly grouping operations (e.g., 2(a - 7) = 21 instead of 2a - 7 = 21).",
+            "Incorrect Algebraic Manipulation": "After forming the equation, the student makes mistakes in the steps to isolate the variable, such as incorrectly adding, subtracting, multiplying, or dividing terms from both sides.",
+            "Forgetting to Use a Variable": "The student does not introduce a variable, making the solution process unclear or unsystematic."
+        }
+    },
+    "O2Prob": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution"
+        }
+    },
+    "O3NumOps": {
+        "type_of_error": [
+            "Calculation Error",
+            "Value Context Error",
+            "Missing Key Information",
+            "Invalid Assumption",
+            "Wrong Operation / Formula",
+            "Missing Step",
+            "Contradictory Step",
+            "Misinterpreting Question Requirements",
+            "Incorrect Copying of Numbers",
+            "Confusing HCF with LCM",
+            "Incorrect Listing of Factors or Factorization",
+            "Misinterpreting or Missing Packet Requirements"
+        ],
+        "error_explanation": {
+            "Calculation Error": "All the operands and operators are correct, but the calculation result of the operation is incorrect.",
+            "Value Context Error": "A value's representation in the context of the question is misunderstood. The description of what the number or variable stands for is mistaken. The student fails to translate from word description to mathematical operation.",
+            "Missing Key Information": "A key information in the question is missed and not used at all in the solution, making them unable to answer the question.",
+            "Invalid Assumption": "Additional information affecting the final outcome, not mentioned in the question statement, is inserted into the solution.",
+            "Wrong Operation / Formula": "The formula used in one or more steps is mistakenly used, or a wrong operation is used. The wrong formula can be of any kind: wrong physical formula, wrong unit conversion, wrong geometric formula, etc.",
+            "Missing Step": "One or more steps inside the correct solution is skipped, leading to a number suddenly appear without taking the information from previous steps or the question. However, the number should still be correct and the final answer should not be affected.",
+            "Contradictory Step": "Student makes an erroneous reference to the result or information obtained from the last step. The information should be one of: number or property.",
+            "Misinterpreting Question Requirements": "Student misunderstands question requirement, leading to them answering with a value/variable the question did not ask, or the student did not answer the question in the format specified.",
+            "Incorrect Copying of Numbers": "Wrong numerical data from the question is copied and used in the solution",
+            "Confusing HCF with LCM": "The student may calculate the Least Common Multiple (LCM) instead of the Highest Common Factor (HCF), leading to a solution that does not divide both groups of marbles evenly.",
+            "Incorrect Listing of Factors or Factorization": "The student makes mistakes when finding or listing the factors of 64 and 48, which leads to an incorrect HCF and therefore an incorrect answer for the largest number of marbles per packet.",
+            "Misinterpreting or Missing Packet Requirements": "The student misunderstands the condition that each packet must contain marbles of only one colour and that every packet must have the same number of marbles, or overlooks this requirement, possibly creating packets with mixed colours or unequal numbers."
+        }
+    }
+}

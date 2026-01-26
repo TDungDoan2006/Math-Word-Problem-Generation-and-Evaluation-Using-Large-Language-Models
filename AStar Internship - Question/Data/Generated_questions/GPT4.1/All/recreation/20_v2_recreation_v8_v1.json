@@ -1,0 +1,262 @@
+{
+  "P4-WNDiv4d1d_P4-WNRnd5d_GPT4.1_Recreation_01": {
+    "Primary_kc": "WHOLE NUMBERS | Division | dividing whole numbers up to 4 digits by 1 digit",
+    "Secondary_kc": "WHOLE NUMBERS | Rounding | rounding whole numbers up to 100000 to the nearest 10, 100 or 1000 ",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 4",
+    "QID": "P4-WNDiv4d1d_P4-WNRnd5d_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A group of friends collected $4362$ points by playing dance games over the weekend. They want to split the points equally among $7$ players. After dividing the points, to the nearest $10$, how many points will each player get?",
+      "solution": "First, divide $4362$ by $7$:\n\n\\[\n4362 \\div 7 = 623.142857... \n\\]\n\nEach player gets $623$ points, with some left over.\n\nNext, round $623$ to the nearest $10$:\n\nThe last digit is $3$ (less than $5$), so we round down to $620$.\n\n\\textbf{Answer:}\nTo the nearest $10$, each player will get $\\textdollar620$ points.",
+      "response_time": 1.9514079093933105
+    }
+  },
+  "P6-RoFndRoWN_P1-WNDiv2nd_GPT4.1_Recreation_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Division | dividing whole numbers",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P1-WNDiv2nd_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "During a school music competition, there are 48 boys and 72 girls taking part. After the competition, the total number of participants is divided equally among 6 groups for a group photo. \n\n(a) What is the ratio of boys to girls in the competition? \n\n(b) How many participants are there in each group for the photo?",
+      "solution": "(a) The number of boys is $48$ and the number of girls is $72$. \n\nTo find the ratio of boys to girls:\n\n$\\text{Ratio of boys to girls} = 48 : 72$\n\nWe simplify the ratio by dividing both numbers by their greatest common divisor, which is $24$:\n\n$48 \\div 24 = 2$\n$72 \\div 24 = 3$\n\nSo, the simplest ratio is $2 : 3$.\n\n(b) Total number of participants:\n$48 + 72 = 120$\n\nThe participants are divided into $6$ equal groups, so the number in each group is:\n$120 \\div 6 = 20$\n\n\\textbf{Answer:} \n(a) The ratio of boys to girls is $2:3$.\n(b) There are $20$ participants in each group for the photo.",
+      "response_time": 2.9470882415771484
+    }
+  },
+  "P6-RoFndRoWN_P1-WNAdd2nd_GPT4.1_Recreation_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | adding whole numbers",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P1-WNAdd2nd_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A group of friends attended a music camp. On the first day, 18 students signed up for guitar lessons, and 12 students signed up for piano lessons. Later, another 6 students joined the guitar lessons. \n\n(a) What is the total number of students who signed up for guitar lessons after the new students joined?\n\n(b) What is the ratio of the number of students in guitar lessons to the number of students in piano lessons after the new students joined? Express your answer in its simplest form.",
+      "solution": "(a) The total number of guitar lesson students after new students joined:\n\n$18 + 6 = 24$\n\nSo, there are 24 students in guitar lessons.\n\n(b) The number of students in piano lessons is 12. The new ratio is $24:12$.\n\nTo simplify, divide both numbers by their greatest common divisor, which is 12:\n\n$24 \\div 12 = 2$\n\n$12 \\div 12 = 1$\n\nSo, the simplest ratio is $2:1$.\n\n\\textbf{Answer:}\n\n(a) 24 students signed up for guitar lessons.\n\n(b) The ratio is $2:1$.",
+      "response_time": 2.8327252864837646
+    }
+  },
+  "P5-FrMulImIm_P3-FrSmp_GPT4.1_Recreation_01": {
+    "Primary_kc": "FRACTIONS | Multiplication | multiplying two improper fractions",
+    "Secondary_kc": "FRACTIONS | Simplifying | expressing a fraction in its simplest form",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 5",
+    "QID": "P5-FrMulImIm_P3-FrSmp_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A group of students is practising for a dance performance. Each student practises for $\\frac{7}{4}$ hours each day. There are $\\frac{9}{5}$ times as many practice days this month compared to last month. \n\nHow many hours does each student spend practising in total this month? Give your answer as a fraction in its simplest form.",
+      "solution": "Each student practises $\\frac{7}{4}$ hours each day, and there are $\\frac{9}{5}$ times as many days this month. To find the total hours each student spends:\n\nTotal hours $= \\frac{7}{4} \\times \\frac{9}{5}$\n\nFirst, multiply the numerators and denominators:\n\n$\\frac{7}{4} \\times \\frac{9}{5} = \\frac{7 \\times 9}{4 \\times 5} = \\frac{63}{20}$\n\nNext, check if $\\frac{63}{20}$ can be simplified. The greatest common divisor of 63 and 20 is 1, so it is already in its simplest form.\n\n**Final Answer:** Each student spends $\\frac{63}{20}$ hours practising in total this month.",
+      "response_time": 4.799983739852905
+    }
+  },
+  "O1-PcRep2q_O1-PcCnv2Dc_GPT4.1_Recreation_01": {
+    "Primary_kc": "PERCENTAGE | Representation and concept | comparing two quantities by percentage",
+    "Secondary_kc": "PERCENTAGE | Conversion to decimals | expressing percentage as a decimal",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-PcRep2q_O1-PcCnv2Dc_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "During a weekend badminton tournament, Sarah played 20 matches and won 15 of them. \n\n(a) What percentage of matches did Sarah win?\n\n(b) Express this percentage as a decimal.",
+      "solution": "(a) Sarah won $15$ out of $20$ matches.\n\nThe percentage of matches she won is:\n\\[\n\\frac{15}{20} \\times 100\\% = 75\\%\n\\]\n\n(b) To express this percentage as a decimal, divide $75\\%$ by $100$:\n\\[\n75\\% = 0.75\n\\]\n\n**Answer:**\n\n(a) Sarah won $75\\%$ of her matches.\n\n(b) The percentage $75\\%$ as a decimal is $0.75$.",
+      "response_time": 2.0381078720092773
+    }
+  },
+  "P4-FrRepSet_P3-FrCnvEq_GPT4.1_Recreation_01": {
+    "Primary_kc": "FRACTIONS | Representation and concept | expressing a part of a set as a fraction",
+    "Secondary_kc": "FRACTIONS | Conversion to equivalent fractions | Conversion to equivalent fractions (given either the denominator or the numerator)",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 4",
+    "QID": "P4-FrRepSet_P3-FrCnvEq_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "During a school sports day, there are $24$ students in the relay race team. $9$ of them are girls. \n\n(a) What fraction of the relay race team are girls? \n\n(b) Express the fraction of girls as an equivalent fraction with denominator $8$.",
+      "solution": "(a) The fraction of the relay race team that are girls is $\\dfrac{9}{24}$, since there are $9$ girls out of $24$ students.\n\n(b) To write $\\dfrac{9}{24}$ as an equivalent fraction with denominator $8$, we need to find a number $x$ such that $\\dfrac{9}{24} = \\dfrac{x}{8}$. \n\nSet up the equation:\n\n$\\dfrac{9}{24} = \\dfrac{x}{8}$\n\nCross-multiply:\n\n$9 \\times 8 = 24 \\times x$\n\n$72 = 24x$\n\n$x = \\dfrac{72}{24} = 3$\n\nSo, an equivalent fraction is $\\dfrac{3}{8}$.\n\nTherefore, $\\dfrac{9}{24} = \\dfrac{3}{8}$.",
+      "response_time": 2.6519742012023926
+    }
+  },
+  "P3-WNDivRmd3d_P1-WNCmp_GPT4.1_Recreation_01": {
+    "Primary_kc": "WHOLE NUMBERS | Division | dividing whole numbers up to 3 digits by 1 digit with remainder ",
+    "Secondary_kc": "WHOLE NUMBERS | Comparison and ordering | comparing and ordering whole numbers",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 3",
+    "QID": "P3-WNDivRmd3d_P1-WNCmp_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "During a board games day, 127 children want to play chess. Each chess table can seat 4 players. \n\n(a) How many tables can be filled with 4 players at each table? How many children will not get a seat at a full table?\n\n(b) Another game room has 95 children who want to play checkers. Each checkers table also seats 4 players. Compare the number of children left without a seat in both chess and checkers games. Which game has more children without a seat, and by how many?",
+      "solution": "(a) To find out how many tables can be filled:\n\n$127 \\div 4 = 31$ remainder $3$.\n\nSo, 31 tables will be fully occupied, and $3$ children will not get a seat at a full table.\n\n(b) For the checkers room:\n\n$95 \\div 4 = 23$ remainder $3$.\n\nSo, 23 tables will be fully occupied, and $3$ children will not get a seat at a full table.\n\nComparison:\n$3$ children in the chess game and $3$ children in the checkers game are left without a seat at a full table. Thus, the number is the same, and neither group has more children without a seat. The difference is $3 - 3 = 0$.\n\n\\textbf{Answer:} Both games have the same number of children ($3$) left without a seat at a full table.",
+      "response_time": 3.395113706588745
+    }
+  },
+  "P6-RoFndDvqWN_P1-WNSub2nd_GPT4.1_Recreation_01": {
+    "Primary_kc": "RATIO | Finding divided quantities | dividing a given quantity in a given ratio",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtracting whole numbers",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndDvqWN_P1-WNSub2nd_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Siti and her two friends shared the points they earned in a basketball game. They decided to divide the total of $120$ points in the ratio $3:2:1$ among Siti, Mei, and Raj, respectively. After receiving her share, Siti bought a movie ticket for \\textdollar20. \n\n(a) How many points did each person receive?\n\n(b) After buying the movie ticket, how many points did Siti have left?",
+      "solution": "(a) First, find the total number of parts in the ratio:\n\n$3 + 2 + 1 = 6$ parts\n\nEach part is worth $\\frac{120}{6} = 20$ points.\n\nSiti's share: $3 \\times 20 = 60$ points\nMei's share: $2 \\times 20 = 40$ points\nRaj's share: $1 \\times 20 = 20$ points\n\n(b) Siti spent \\textdollar20, so she subtracts this from her share:\n\n$60 - 20 = 40$\n\nSiti had $40$ points left after buying the movie ticket.",
+      "response_time": 2.444545030593872
+    }
+  },
+  "P4-DcSub2d_P4-DcCmp3d_GPT4.1_Recreation_01": {
+    "Primary_kc": "DECIMALS | Subtraction | subtracting decimals (up to 2 decimal places)",
+    "Secondary_kc": "DECIMALS | Comparison and ordering | comparing and ordering decimals up to 3 decimal places",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 4",
+    "QID": "P4-DcSub2d_P4-DcCmp3d_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Lina played a music game where she earned points in decimals for each round. In the first round, she scored $7.85$ points. In the second round, she scored $6.43$ points. In the third round, she scored $7.802$ points.\n\n(a) How many more points did Lina score in the first round than in the second round?\n\n(b) Arrange Lina's scores from the lowest to the highest.",
+      "solution": "(a) To find out how many more points Lina scored in the first round than in the second round, we subtract the second round score from the first round score:\n\n$7.85 - 6.43 = 1.42$\n\nSo, Lina scored $1.42$ more points in the first round than in the second round.\n\n(b) To arrange Lina's scores from lowest to highest, we compare $7.85$, $6.43$, and $7.802$.\n\nFirst, compare $6.43$, $7.85$, and $7.802$. Since $6.43 < 7.802 < 7.85$,\n\nthe order from lowest to highest is:\n\n$6.43$, $7.802$, $7.85$.",
+      "response_time": 2.6322762966156006
+    }
+  },
+  "P5-DcMul3dK_P4-DcRnd3d_GPT4.1_Recreation_01": {
+    "Primary_kc": "DECIMALS | Multiplication | multiplying decimals (up to 3 decimal places) by 10, 100, 1000 and their multiples",
+    "Secondary_kc": "DECIMALS | Rounding | rounding decimals up to 3 decimal places to the nearest whole number, 1 decimal place and 2 decimal places ",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 5",
+    "QID": "P5-DcMul3dK_P4-DcRnd3d_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Amira is learning to play the piano. Each song she practises lasts about $3.275$ minutes. On Saturday, she played $20$ songs. \n\n(a) How many minutes did she spend practising on Saturday? \n\n(b) Rounded to the nearest whole number, how many minutes did Amira spend practising? \n\n(c) Rounded to $1$ decimal place, how many minutes did she spend practising?",
+      "solution": "(a) To find the total minutes Amira spent, multiply the duration of one song by the number of songs:\n\n$3.275 \\times 20 = 65.5$\n\nTherefore, Amira practised for $65.5$ minutes on Saturday.\n\n(b) Rounding $65.5$ to the nearest whole number:\n\nSince $0.5$ rounds up, $65.5$ rounds to $66$.\n\nAmira spent $\\textdollar66$ minutes practising, rounded to the nearest whole number.\n\n(c) Rounding $65.5$ to $1$ decimal place:\n\nThere are no more digits after the $0.5$, so it stays as $65.5$.\n\nAmira spent $65.5$ minutes practising, rounded to $1$ decimal place.",
+      "response_time": 4.14887809753418
+    }
+  },
+  "P6-FrDivPN_P5-FrMul2nd_GPT4.1_Recreation_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Multiplication | fraction multiplication",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrMul2nd_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Anna has $\\dfrac{3}{4}$ of a chocolate bar. She wants to share this chocolate bar equally among 3 friends at a picnic so that each friend receives the same amount. After giving each friend their share, Anna decides to eat only $\\dfrac{2}{3}$ of one friend's share. \n\n(a) How much of the chocolate bar does each friend get? \n\n(b) How much of the chocolate bar does Anna end up eating?",
+      "solution": "(a) Each friend's share is $\\dfrac{3}{4} \\div 3 = \\dfrac{3}{4} \\times \\dfrac{1}{3} = \\dfrac{3}{12} = \\dfrac{1}{4}$ of the chocolate bar.\n\n(b) Anna eats $\\dfrac{2}{3}$ of one friend's share. So, Anna eats $\\dfrac{2}{3} \\times \\dfrac{1}{4} = \\dfrac{2}{12} = \\dfrac{1}{6}$ of the chocolate bar.\n\nFinal answers:\n(a) Each friend gets $\\dfrac{1}{4}$ of the chocolate bar.\n(b) Anna eats $\\dfrac{1}{6}$ of the chocolate bar.",
+      "response_time": 2.766448497772217
+    }
+  },
+  "O1-AgSlvFrLr_O1-AgRepEq_GPT4.1_Recreation_01": {
+    "Primary_kc": "ALGEBRA | Solving | solving simple fractional equations that can be reduced to linear equations",
+    "Secondary_kc": "ALGEBRA | Representation and concept | translation of simple real-world situations to equations",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-AgSlvFrLr_O1-AgRepEq_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Sophie and her friends are playing a number game. Sophie thinks of a number. She tells her friend Rachel that if she adds $3$ to half of her number, the result will be $11$. What number did Sophie think of? Translate the situation into an algebraic equation and solve it.",
+      "solution": "Let the number Sophie thinks of be $x$.\n\nAccording to the problem, adding $3$ to half of her number gives $11$:\n\\[\n\\frac{1}{2}x + 3 = 11\n\\]\n\nSubtract $3$ from both sides:\n\\[\n\\frac{1}{2}x = 8\n\\]\n\nMultiply both sides by $2$ to solve for $x$:\n\\[\nx = 16\n\\]\n\nTherefore, Sophie thought of the number $16$.",
+      "response_time": 2.4252829551696777
+    }
+  },
+  "P6-FrDivPN_P3-FrSmp_GPT4.1_Recreation_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Simplifying | expressing a fraction in its simplest form",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P3-FrSmp_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Olivia and her two friends are sharing $\\dfrac{3}{4}$ of a pizza equally among themselves after playing basketball. How much of the pizza does each person get? Give your answer in its simplest form.",
+      "solution": "Each person gets $\\dfrac{3}{4} \\div 3$ of the pizza.\\newline\n\n$\\dfrac{3}{4} \\div 3 = \\dfrac{3}{4} \\times \\dfrac{1}{3} = \\dfrac{3 \\times 1}{4 \\times 3} = \\dfrac{3}{12}$\\newline\n\nNow, we simplify $\\dfrac{3}{12}$ by dividing both numerator and denominator by $3$:\\newline\n\n$\\dfrac{3 \\div 3}{12 \\div 3} = \\dfrac{1}{4}$\\newline\n\n\\textbf{Each person gets $\\dfrac{1}{4}$ of the pizza.}",
+      "response_time": 2.455310583114624
+    }
+  },
+  "P4-DcDiv2d1d_P4-DcCmp3d_GPT4.1_Recreation_01": {
+    "Primary_kc": "DECIMALS | Division | dividing decimals (up to 2 decimal places) by a 1-digit whole number",
+    "Secondary_kc": "DECIMALS | Comparison and ordering | comparing and ordering decimals up to 3 decimal places",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 4",
+    "QID": "P4-DcDiv2d1d_P4-DcCmp3d_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "During the school's Music Day, Sarah recorded the total duration she spent on three different music activities: singing, playing the piano, and drumming. \n\nShe spent $7.68$ minutes singing, $3.276$ minutes playing the piano, and $5.13$ minutes drumming. She wants to practise each activity equally over 3 days, so she needs to divide the time for each activity by $3$ to find how many minutes she should spend on each activity per day.\n\n(a) Calculate how many minutes Sarah should spend on each activity per day. \n\n(b) Rank the daily times for the three activities from the shortest to the longest.",
+      "solution": "(a) For each activity, divide the total minutes by $3$.\n\n- Singing: $7.68 \\div 3 = 2.56$ minutes per day\n- Piano: $3.276 \\div 3 = 1.092$ minutes per day\n- Drumming: $5.13 \\div 3 = 1.71$ minutes per day\n\n(b) To order the daily times:\n- Piano: $1.092$ (shortest)\n- Drumming: $1.71$\n- Singing: $2.56$ (longest)\n\nSo, the order from shortest to longest is: Piano, Drumming, Singing.",
+      "response_time": 3.0197365283966064
+    }
+  },
+  "P6-PcFndWN_P1-WNMul2nd_GPT4.1_Recreation_01": {
+    "Primary_kc": "PERCENTAGE | Finding the whole | finding the whole given a part and the percentage",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplying whole numbers",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndWN_P1-WNMul2nd_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "During a school sports day, Sarah found that she had scored 24 points in a basketball challenge, which was 40\\% of her total possible points. After the challenge, she played another game where the total possible points were multiplied by 2. \n\nWhat was the total possible number of points Sarah could have scored in the basketball challenge? What was the total possible number of points she could have scored after playing both games (expressed as a whole number)?",
+      "solution": "Let the total possible number of points in the basketball challenge be $x$.\n\nSarah scored 24 points, which is 40\\% of $x$.\n\nSo, $0.4x = 24$\n\nTo find $x$, divide both sides by $0.4$:\n\n\\[\nx = \\frac{24}{0.4} = 60\n\\]\n\nSo, the total possible number of points in the basketball challenge is $60$.\n\nAfter the challenge, the total possible points were multiplied by $2$ for the next game:\n\n\\[\n\\text{Total possible points after two games} = 60 \\times 2 = 120\n\\]\n\n\\textbf{Answer:}\n\n- The total possible number of points Sarah could have scored in the basketball challenge was $60$.\n- The total possible number of points she could have scored after both games was $120$.",
+      "response_time": 2.9649386405944824
+    }
+  },
+  "P4-WNDiv4d1d_P1-WNMul2nd_GPT4.1_Recreation_01": {
+    "Primary_kc": "WHOLE NUMBERS | Division | dividing whole numbers up to 4 digits by 1 digit",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplying whole numbers",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 4",
+    "QID": "P4-WNDiv4d1d_P1-WNMul2nd_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "At a music school, there are $864$ students who want to join music classes. Each class must have $6$ students.\\\n(a) How many classes can the music school form?\\\n(b) If every class is given $12$ music stands, how many music stands are needed in total for all the classes?",
+      "solution": "(a) To find out how many classes can be formed, divide $864$ students by $6$ students per class:\\\\\n\n\\[\n864 \\div 6 = 144\n\\]\n\nSo, $144$ classes can be formed.\\\\\n\n(b) For the total number of music stands needed, multiply the number of classes by $12$ stands per class:\\\\\n\n\\[\n144 \\times 12 = 1,728\n\\]\n\nThus, $1,728$ music stands are needed for all the classes.",
+      "response_time": 2.3956921100616455
+    }
+  },
+  "P5-DcMul3dK_P4-DcSub2nd_GPT4.1_Recreation_01": {
+    "Primary_kc": "DECIMALS | Multiplication | multiplying decimals (up to 3 decimal places) by 10, 100, 1000 and their multiples",
+    "Secondary_kc": "DECIMALS | Subtraction | subtracting decimals",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 5",
+    "QID": "P5-DcMul3dK_P4-DcSub2nd_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Siti is playing a music game where she earns points by hitting notes correctly. For each correct note, she earns $0.175$ points. She played a song with $100$ notes and got every note correct. \n\nAfter the song, her friend noticed that her total score displayed was $17.5$ points. However, there was a system error and $2.35$ points were wrongly added to her score. \n\nHow many points should Siti have after subtracting the points that were wrongly added?",
+      "solution": "First, calculate the actual points Siti earned:\n\n\\[\n\\text{Points per note} = 0.175\n\\]\n\\[\n\\text{Number of notes} = 100\n\\]\n\\[\n\\text{Total points} = 0.175 \\times 100 = 17.5\n\\]\n\nThe system added $2.35$ points by mistake, so we need to subtract this excess:\n\n\\[\n\\text{Corrected score} = 17.5 - 2.35 = 15.15\n\\]\n\n\\textbf{Answer:} Siti should have $15.15$ points after subtracting the wrongly added points.",
+      "response_time": 2.9250681400299072
+    }
+  },
+  "P4-DcMul2d1d_P4-DcCnv2Fr_GPT4.1_Recreation_01": {
+    "Primary_kc": "DECIMALS | Multiplication | multiplying decimals (up to 2 decimal places) by a 1-digit whole number",
+    "Secondary_kc": "DECIMALS | Conversion from decimals to fraction | expressing decimals as fractions",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 4",
+    "QID": "P4-DcMul2d1d_P4-DcCnv2Fr_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Jason enjoys rollerblading at the park. Each time he makes one round around the park, he skates $1.25$ km. If he completes $4$ rounds, how many kilometres does he skate in total? Express your answer as a decimal first. Then, express your answer as a fraction in its simplest form.",
+      "solution": "First, let's find the total distance Jason skates by multiplying the distance for one round by the number of rounds.\\[ 1.25 \\times 4 = 5 \\]So, Jason skates a total of $5$ km.\\newline\\newline Now, to express $5$ km as a fraction, notice that $5 = \\frac{5}{1}$.\\newline\\newline Therefore, Jason skates $5$ km in total, which can be expressed as $\\frac{5}{1}$ km.",
+      "response_time": 2.4270100593566895
+    }
+  },
+  "O1-RoRepFr_P5-FrMul2nd_GPT4.1_Recreation_01": {
+    "Primary_kc": "RATIO | Representation and concept | ratios involving fractions",
+    "Secondary_kc": "FRACTIONS | Multiplication | fraction multiplication",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-RoRepFr_P5-FrMul2nd_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "At a painting workshop, the ratio of the amount of blue paint used to the amount of red paint used is $\\frac{2}{3} : 1$. If the artists use $\\frac{3}{4}$ litres of red paint, how many litres of blue paint do they use? Express your answer as a fraction in its simplest form.",
+      "solution": "Let the amount of blue paint used be $x$ litres. \n\nGiven the ratio of blue paint to red paint is $\\frac{2}{3} : 1$. This means $\\frac{x}{\\frac{3}{4}} = \\frac{2}{3}$. \n\nTo find $x$:\n\\[ \\frac{x}{\\frac{3}{4}} = \\frac{2}{3} \\]\nMultiply both sides by $\\frac{3}{4}$:\n\\[ x = \\frac{2}{3} \\times \\frac{3}{4} \\]\n\\[ x = \\frac{2 \\times 3}{3 \\times 4} \\]\n\\[ x = \\frac{6}{12} \\]\n\\[ x = \\frac{1}{2} \\]\n\nSo, the amount of blue paint used is $\\frac{1}{2}$ litres.",
+      "response_time": 3.2375411987304688
+    }
+  },
+  "P4-DcDiv2d1d_P4-DcSub2nd_GPT4.1_Recreation_01": {
+    "Primary_kc": "DECIMALS | Division | dividing decimals (up to 2 decimal places) by a 1-digit whole number",
+    "Secondary_kc": "DECIMALS | Subtraction | subtracting decimals",
+    "Topic": "Recreation such as sports, games, exercises, music, movie, dancing, painting, fishing and other recreation activities",
+    "Grade": "Primary 4",
+    "QID": "P4-DcDiv2d1d_P4-DcSub2nd_GPT4.1_Recreation_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Shawn joined a music club that charges a total fee of $36.84 for 6 weeks of lessons. After paying for 4 weeks, he calculated how much more he needed to pay by subtracting the amount he had already paid from the total fee. If he pays the same amount each week, how much more does Shawn have to pay for the remaining 2 weeks?",
+      "solution": "First, let's find out how much Shawn pays each week by dividing the total fee by the number of weeks:\n\n\\[\n\\text{Fee per week} = \\frac{36.84}{6} = 6.14\n\\]\n\nAfter 4 weeks, Shawn has already paid:\n\n\\[\n\\text{Amount paid for 4 weeks} = 4 \\times 6.14 = 24.56\n\\]\n\nTo find out how much more Shawn needs to pay, subtract what he has already paid from the total fee:\n\n\\[\n\\text{Amount left to pay} = 36.84 - 24.56 = 12.28\n\\]\n\nSo, Shawn has to pay \\textdollar12.28 for the remaining 2 weeks.",
+      "response_time": 3.937756061553955
+    }
+  }
+}

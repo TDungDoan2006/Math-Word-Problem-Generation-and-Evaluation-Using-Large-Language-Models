@@ -1,0 +1,411 @@
+{
+    "O2Prob": {
+        "Calculation Error": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]",
+                "Step 2": "Next, we find the number of blue pens in the box:\n\\[\n3 \\text{ blue pens}\n\\]",
+                "Step 3": "The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{3}{10} = 0.4\n\\]",
+                "Step 4": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{0.4}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 3": "The fraction \\( \\frac{3}{10} \\) is incorrectly calculated as 0.4 instead of 0.3. The division of 3 by 10 should give 0.3, not 0.4."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} = 8 \\text{ pens}\n\\]",
+                "Step 2": "Next, we find the number of blue pens in the box:\n\\[\n3 \\text{ blue pens}\n\\]",
+                "Step 3": "The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{3}{8}\n\\]",
+                "Step 4": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{3}{8}}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 1": "The student only added the number of red and blue pens, mistakenly excluding the green pens from the total count. The total should include all pens in the box, not just red and blue pens. This leads to an incorrect denominator in the probability calculation."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "There are 3 blue pens in the box.",
+                "Step 2": "Therefore, the probability that Bryan picks a blue pen is:\n\\[\n\\text{Probability} = \\frac{3}{5}\n\\]",
+                "Step 3": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{3}{5}}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The student missed out the total number of pens in the box by only considering the red pens (assuming from the denominator being 5), and did not include blue and green pens. This leads to calculating the probability using the wrong total and missing key information from the question."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]",
+                "Step 2": "Next, we find the number of blue pens in the box:\n\\[\n3 \\text{ blue pens}\n\\]",
+                "Step 3": "Assume all the pens are equally likely to be selected, but since blue pens are usually smaller, they are harder to pick, so the chance is halved for blue pens.",
+                "Step 4": "Therefore, the probability that Bryan picks a blue pen is:\n\\[\n\\text{Probability} = \\frac{3}{2 \\times 10} = \\frac{3}{20}\n\\]",
+                "Step 5": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{3}{20}}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 3": "The student adds an assumption that blue pens are harder to pick and halves their probability, which is not mentioned in the question. The question states each pen is equally likely to be picked, so all pens must be considered equally when finding probability."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]",
+                "Step 2": "Next, we find the number of blue pens in the box:\n\\[\n3 \\text{ blue pens}\n\\]",
+                "Step 3": "We mistakenly find the probability by dividing the total number of pens by the number of blue pens:\n\\[\n\\text{Probability} = \\frac{10}{3}\n\\]",
+                "Step 4": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{10}{3}}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 3": "The probability is incorrectly calculated by using the formula \\(\\frac{\\text{total number of pens}}{\\text{number of blue pens}}\\) instead of the correct formula \\(\\frac{\\text{number of blue pens}}{\\text{total number of pens}}\\). This results in an answer greater than 1, which is not possible for a probability."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{3}{10}\n\\]",
+                "Step 2": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{3}{10}}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The student skipped the step of listing or calculating the total number of pens and the number of blue pens explicitly. Moving directly to the probability formula without first stating or finding the numbers involved is a missing step."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]",
+                "Step 2": "Next, we find the number of blue pens in the box:\n\\[\n3 \\text{ blue pens}\n\\]",
+                "Step 3": "The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{5}{10}\n\\]",
+                "Step 4": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{5}{10}}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "The answer in Step 3 contradicts Step 2. In Step 2, it was found that there are 3 blue pens, but in Step 3, the numerator 5 is used instead for blue pens. This does not follow from the earlier correct step."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]",
+                "Step 2": "Next, we find the number of red pens in the box:\n\\[\n5 \\text{ red pens}\n\\]",
+                "Step 3": "The probability that Bryan picks a red pen is the number of red pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{5}{10}\n\\]",
+                "Step 4": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{5}{10}}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 2": "In this step, the solution finds the probability of picking a red pen instead of a blue pen, which is not what the question asked. This misinterprets the requirements of the question and leads to an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 2 \\text{ (blue)} + 2 \\text{ (green)} = 9 \\text{ pens}\n\\]",
+                "Step 2": "Next, we find the number of blue pens in the box:\n\\[\n2 \\text{ blue pens}\n\\]",
+                "Step 3": "The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{2}{9}\n\\]",
+                "Step 4": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{2}{9}}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The student copied the wrong number of blue pens from the question, using 2 instead of 3. As a result, both the total number of pens and the number of blue pens used in the probability calculation are incorrect."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "I do not know how to find the probability because the question does not tell me if the pens are the same size or if Bryan likes blue pens more. So, I cannot answer the question."
+            },
+            "wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            },
+            "error_explanation": {
+                "Step 1": "The student is unable to solve the question because they believe more information is needed, showing a lack of common sense knowledge about how probability works. The number of pens of each colour is enough to solve the question."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            }
+        }
+    },
+    "O3NumOps": {
+        "Calculation Error": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has 25 oranges. \n\n\\[ 3 \\times 25 = 75 \\]\nSo, Shaun had 75 oranges at first.",
+                "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. We subtract the number of oranges he gave away from the total.\n\n\\[ 75 - 18 = 67 \\]\nSo, Shaun has 67 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 2": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 2": "The operation set up is correct, but the subtraction is incorrect. 75 - 18 is not 67; this is a calculation error."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had after giving away 18 oranges from one of the boxes. Since he gives away 18 oranges, we subtract 18 from the number of oranges in one box:\n\n\\[ 25 - 18 = 7 \\]\nSo, the box he gave oranges from now has 7 oranges.",
+                "Step 2": "Next, we find the total number of oranges Shaun has now. He has 2 full boxes (25 oranges each) and 1 box with 7 oranges:\n\n\\[ (2 \\times 25) + 7 = 50 + 7 = 57 \\]\nSo, Shaun has 57 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 1": "This solution mistakenly assumes the subtraction of 18 oranges should be directly from one box only and then adds the remaining boxes, instead of subtracting the total given away from the overall total. While the answer coincidentally matches the correct answer, the reasoning does not match the valid logical steps for the problem and shows an error in translating the question into mathematical steps (i.e., value context error)."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Shaun has 3 boxes of oranges. Each box contains 25 oranges.\n\n\\[ 3 \\times 25 = 75 \\]\nSo, Shaun had 75 oranges at first.",
+                "Step 2": "Shaun gives away 18 oranges.\n\nSo, he has \\[ 3 \\times (25 - 18) = 3 \\times 7 = 21 \\] oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly assumes that Shaun gives away 18 oranges from each box, rather than only from one box as stated in the question. This misses the key information about the number of boxes affected by the giveaway."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has 25 oranges.\n\n\\[ 3 \\times 25 = 75 \\]\nSo, Shaun had 75 oranges at first.",
+                "Step 2": "Next, since he gives away 18 oranges from one of the boxes, let's assume that he gives away one whole box after removing 18 oranges from it. So, he has 2 untouched boxes left and loses the box from which he gave away the 18 oranges.\n\n\\[ 2 \\times 25 = 50 \\]\nSo, Shaun has 50 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "The solution assumes that after giving away 18 oranges from one box, the whole box is considered gone or removed, which is not stated in the question. The question only says 18 oranges were given away, not that an entire box is lost."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "Shaun has 3 boxes, and each box has 25 oranges. To find out how many oranges he has at first, we add 3 and 25.\n\n\\[ 3 + 25 = 28 \\]\nSo, Shaun had 28 oranges at first.",
+                "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. Subtract the number of oranges he gave away from the total.\n\n\\[ 28 - 18 = 10 \\]\nSo, Shaun has 10 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 1": "The student used addition (3 + 25) instead of multiplication (3 \u00d7 25) to find the total number of oranges, which is incorrect because the boxes each contain 25 oranges, so the total should be calculated by multiplying."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Shaun had 75 oranges at first.",
+                "Step 2": "75 - 18 = 57. \\\\ \nSo, Shaun has 57 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The solution skips the calculation that shows how to arrive at 75 oranges (3 boxes \u00d7 25 oranges). The answer is still correct, but the working is incomplete."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has 25 oranges. \n\n\\[ 3 \\times 25 = 75 \\]\nSo, Shaun had 75 oranges at first.",
+                "Step 2": "Since Shaun gives away 18 oranges from one of the boxes, we add 18 to the total number of oranges he had.\n\n\\[ 75 + 18 = 93 \\]\nSo, Shaun has 93 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 2": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 2": "The solution contradicts the logic established in Step 1, where giving away oranges should reduce the total, not increase it. Adding 18 instead of subtracting 18 directly contradicts the result of the previous step and the problem context."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, we find the number of oranges left in the box after giving away 18 oranges.\n\n\\[ 25 - 18 = 7 \\]\nSo, there are 7 oranges left in that box.",
+                "Step 2": "Next, we calculate the total oranges Shaun has by adding the oranges in the other two boxes and the remaining oranges in the box he took from.\n\n\\[ 25 + 25 + 7 = 57 \\]\nSo, Shaun has 57 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 1": "The solution misinterprets the requirement by first focusing only on the box from which oranges were given away, rather than calculating the total number of oranges Shaun had before giving any away and then subtracting the given away amount from the total. This approach could lead to the correct answer by coincidence, but the reasoning does not match what the question requires. The focus should be on the total oranges first, as the question asks for the total left after giving away 18 oranges from any one box, not just the number left in a single box or summing in parts."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has \\textbf{35} oranges. \n\n\\[ 3 \\times 35 = 105 \\]\nSo, Shaun had 105 oranges at first.",
+                "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. We subtract the number of oranges he gave away from the total.\n\n\\[ 105 - 18 = 87 \\]\nSo, Shaun has 87 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of using the correct number 25 for the number of oranges in each box, the student incorrectly copied it as 35, leading to a wrong calculation for the total number of oranges."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "First, we know that Shaun has 3 boxes and each box contains 25 oranges. But since Shaun gave away some oranges from one box, we cannot calculate the total oranges left without knowing exactly which oranges or which box they came from. \n\nSo, we do not have enough information to find out how many oranges are left."
+            },
+            "wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            },
+            "error_explanation": {
+                "Step 1": "The student wrongly believes that they cannot solve the problem because they think the specific identity of the box matters, showing a lack of common sense: the subtraction of oranges is straightforward regardless of which box they came from."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            }
+        },
+        "Confusing HCF with LCM": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Confusing HCF with LCM",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of oranges by finding the Least Common Multiple (LCM) of 3 and 25.\n\n\\[ \\text{LCM of } 3 \\text{ and } 25 = 75 \\]\nSo, Shaun started with 75 oranges.",
+                "Step 2": "Next, Shaun gives away 18 oranges. We subtract 18 from 75.\n\n\\[ 75 - 18 = 57 \\]\nSo, Shaun has 57 oranges left."
+            },
+            "wrong_steps": {
+                "Step 1": "Confusing HCF with LCM"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly uses the LCM of 3 and 25 to find the total number of oranges. The correct method is to multiply the number of boxes by the number of oranges per box. Using LCM is not appropriate here because the question is not about grouping or distributing oranges evenly, but simply about the total count."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Confusing HCF with LCM"
+            }
+        },
+        "Incorrect Listing of Factors or Factorization": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Incorrect Listing of Factors or Factorization",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start by incorrectly factorizing 25. \n\n\\[ 3 \\times (5 + 5) = 3 \\times 10 = 30 \\]\nSo, Shaun had 30 oranges at first.",
+                "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. We subtract the number of oranges he gave away from the total.\n\n\\[ 30 - 18 = 12 \\]\nSo, Shaun has 12 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Listing of Factors or Factorization"
+            },
+            "error_explanation": {
+                "Step 1": "The student mistakenly decomposed 25 as (5 + 5) instead of multiplying 3 boxes by 25 oranges each. This demonstrates incorrect factorization, resulting in an incorrect total number of oranges at the start."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Listing of Factors or Factorization"
+            }
+        },
+        "Misinterpreting or Missing Packet Requirements": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Misinterpreting or Missing Packet Requirements",
+            "wrong_solution": {
+                "Step 1": "First, find out how many oranges are left in the box from which Shaun gave away 18 oranges. \n\n\\[ 25 - 18 = 7 \\]\nSo, there are 7 oranges left in that box.",
+                "Step 2": "Now, add all the oranges that are in the other two boxes. Each still has 25 oranges. \n\n\\[ 7 + 25 + 25 = 57 \\]\nSo, Shaun has 57 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Misinterpreting or Missing Packet Requirements"
+            },
+            "error_explanation": {
+                "Step 1": "The student wrongly treats the removal as affecting only one box and then adds the oranges from the remaining entire boxes, instead of subtracting the 18 from the total. This shows a misunderstanding of how the oranges are distributed and affects the accuracy when combining the totals."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misinterpreting or Missing Packet Requirements"
+            }
+        }
+    }
+}

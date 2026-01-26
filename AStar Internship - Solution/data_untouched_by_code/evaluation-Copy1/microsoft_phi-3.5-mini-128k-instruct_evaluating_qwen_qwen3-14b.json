@@ -1,0 +1,194 @@
+{
+    "1": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "2": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "3": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "4",
+        "grammar_correct": "y",
+        "fluency": "4"
+    },
+    "4": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "5": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "6": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "n",
+        "understand": "y",
+        "grammar_correct": "y",
+        "fluency": "y"
+    },
+    "7": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "8": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "9": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "10": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "n",
+        "understand": "4",
+        "grammar_correct": "y",
+        "fluency": "4"
+    },
+    "11": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "12": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "13": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "14": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "4",
+        "grammar_correct": "y",
+        "fluency": "4"
+    },
+    "15": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": 5,
+        "grammar_correct": "y",
+        "fluency": 5
+    },
+    "16": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "17": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "18": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "19": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "20": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "21": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    },
+    "22": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "4",
+        "grammar_correct": "y",
+        "fluency": "4"
+    },
+    "23": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": 5,
+        "grammar_correct": "y",
+        "fluency": 5
+    },
+    "24": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "understand": "5",
+        "grammar_correct": "y",
+        "fluency": "5"
+    }
+}

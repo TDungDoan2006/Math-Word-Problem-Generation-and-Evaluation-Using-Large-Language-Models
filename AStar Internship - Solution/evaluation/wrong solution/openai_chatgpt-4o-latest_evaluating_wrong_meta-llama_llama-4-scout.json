@@ -1,0 +1,218 @@
+{
+    "1": {
+        "given_info_correct": "n",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 5,
+        "grammar_correct": "y",
+        "fluency": 5
+    },
+    "2": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 5,
+        "grammar_correct": "y",
+        "fluency": 5
+    },
+    "3": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "y",
+        "error_type_correct": "y",
+        "understand": 3,
+        "grammar_correct": "n",
+        "fluency": 3
+    },
+    "4": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 4,
+        "grammar_correct": "n",
+        "fluency": 3
+    },
+    "5": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "y",
+        "error_type_correct": "y",
+        "understand": 4,
+        "grammar_correct": "y",
+        "fluency": 4
+    },
+    "6": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 2,
+        "grammar_correct": "n",
+        "fluency": 2
+    },
+    "7": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 5,
+        "grammar_correct": "y",
+        "fluency": 5
+    },
+    "8": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 4,
+        "grammar_correct": "y",
+        "fluency": 3
+    },
+    "9": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 2,
+        "grammar_correct": "n",
+        "fluency": 2
+    },
+    "10": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 4,
+        "grammar_correct": "n",
+        "fluency": 3
+    },
+    "11": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 3,
+        "grammar_correct": "n",
+        "fluency": 2
+    },
+    "12": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "y",
+        "error_type_correct": "y",
+        "understand": 4,
+        "grammar_correct": "n",
+        "fluency": 3
+    },
+    "13": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "n",
+        "error_type_correct": "n",
+        "understand": 4,
+        "grammar_correct": "n",
+        "fluency": 3
+    },
+    "14": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "error_type_correct": "y",
+        "understand": 5,
+        "grammar_correct": "y",
+        "fluency": 5
+    },
+    "15": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 5,
+        "grammar_correct": "y",
+        "fluency": 4
+    },
+    "16": {
+        "given_info_correct": "n",
+        "kc_correct": "y",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 5,
+        "grammar_correct": "y",
+        "fluency": 5
+    },
+    "17": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 3,
+        "grammar_correct": "n",
+        "fluency": 2
+    },
+    "18": {
+        "given_info_correct": "n",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 4,
+        "grammar_correct": "y",
+        "fluency": 4
+    },
+    "19": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 4,
+        "grammar_correct": "y",
+        "fluency": 4
+    },
+    "20": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "error_type_correct": "y",
+        "understand": 5,
+        "grammar_correct": "y",
+        "fluency": 5
+    },
+    "21": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 5,
+        "grammar_correct": "y",
+        "fluency": 5
+    },
+    "22": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 4,
+        "grammar_correct": "y",
+        "fluency": 4
+    },
+    "23": {
+        "given_info_correct": "y",
+        "kc_correct": "n",
+        "final_ans_correct": "n",
+        "error_type_correct": "y",
+        "understand": 4,
+        "grammar_correct": "y",
+        "fluency": 4
+    },
+    "24": {
+        "given_info_correct": "y",
+        "kc_correct": "y",
+        "final_ans_correct": "y",
+        "error_type_correct": "n",
+        "understand": 4,
+        "grammar_correct": "n",
+        "fluency": 3
+    }
+}

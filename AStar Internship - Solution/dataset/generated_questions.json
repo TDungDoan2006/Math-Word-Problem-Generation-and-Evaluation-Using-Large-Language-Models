@@ -1,0 +1,194 @@
+{
+    "P1N100": {
+        "ID": "P1N100",
+        "Grade": "Primary 1",
+        "KC": "Numbers up to 100",
+        "Question": "Aisha has 27 marbles, and her brother gives her 15 more marbles. How many marbles does Aisha have now?"
+    },
+    "P1AddSub": {
+        "ID": "P1AddSub",
+        "Grade": "Primary 1",
+        "KC": "Addition and Subtraction",
+        "Question": "Aisyah has 6 pencils. She buys 3 more pencils. How many pencils does she have now?"
+    },
+    "P1MulDiv": {
+        "ID": "P1MulDiv",
+        "Grade": "Primary 1",
+        "KC": "Multiplication and Division",
+        "Question": "A packet contains 5 biscuits. How many biscuits are there in 3 such packets?"
+    },
+    "P1Money": {
+        "ID": "P1Money",
+        "Grade": "Primary 1",
+        "KC": "Money",
+        "Question": "Siti has 2 fifty-cent coins and 3 twenty-cent coins. How much money does Siti have altogether?"
+    },
+    "P2N1000": {
+        "ID": "P2N1000",
+        "Grade": "Primary 2",
+        "KC": "Numbers up to 1000",
+        "Question": "A box has 467 red marbles and 285 blue marbles. How many marbles are there in total?"
+    },
+    "P2FracW": {
+        "ID": "P2FracW",
+        "Grade": "Primary 2",
+        "KC": "Fraction of a Whole",
+        "Question": "Mrs Tan cut a cake into 8 equal pieces. She gave 3 pieces to her son. What fraction of the whole cake did her son get?"
+    },
+    "P2FracAS": {
+        "ID": "P2FracAS",
+        "Grade": "Primary 2",
+        "KC": "Addition and Subtraction",
+        "Question": "Aini ate one quarter of a watermelon in the morning and another two quarters in the afternoon. How much of the watermelon did she eat in total?"
+    },
+    "P3N10k": {
+        "ID": "P3N10k",
+        "Grade": "Primary 3",
+        "KC": "Numbers up to 10000",
+        "Question": "A library has 4 276 books on its shelves. If the librarian buys 2 385 more books, how many books will there be in the library altogether?"
+    },
+    "P3FracEq": {
+        "ID": "P3FracEq",
+        "Grade": "Primary 3",
+        "KC": "Equivalent fractions",
+        "Question": "Sarah ate one-half of a chocolate bar. Her brother ate two out of four equal pieces of the same size chocolate bar. Did Sarah and her brother eat the same amount of chocolate? Show why."
+    },
+    "P4N100k": {
+        "ID": "P4N100k",
+        "Grade": "Primary 4",
+        "KC": "Numbers up to 100000",
+        "Question": "A library has 37,650 storybooks and 24,980 reference books. What is the total number of books in the library?"
+    },
+    "P4FctorM": {
+        "ID": "P4FctorM",
+        "Grade": "Primary 4",
+        "KC": "Factors and Multiples",
+        "Question": "Rani has 24 pencils. She wants to pack all the pencils equally into boxes. What is the greatest number of pencils she can put in each box so that every box has the same number of pencils and no pencils are left over?"
+    },
+    "P44Op": {
+        "ID": "P44Op",
+        "Grade": "Primary 4",
+        "KC": "Four Operations",
+        "Question": "A box of markers costs $15. Mrs Lee buys 4 boxes for her class and pays with a $100 note. How much change does Mrs Lee receive?"
+    },
+    "P4FracMI": {
+        "ID": "P4FracMI",
+        "Grade": "Primary 4",
+        "KC": "Mixed Numbers and Improper Fractions",
+        "Question": "Siti baked 3 whole pies and three-quarters of another pie for a party. Express the total amount of pie Siti baked as an improper fraction."
+    },
+    "P4FracSet": {
+        "ID": "P4FracSet",
+        "Grade": "Primary 4",
+        "KC": "Fraction of a Set",
+        "Question": "A science club has 36 members. One-third of them are girls. How many girls are there in the club?"
+    },
+    "P4Deci3d": {
+        "ID": "P4Deci3d",
+        "Grade": "Primary 4",
+        "KC": "Decimals up to 3 decimal places",
+        "Question": "Eli bought a packet of biscuits weighing 0.375 kg. If she ate 0.128 kg of biscuits, how much biscuits does she have left?"
+    },
+    "P4DeciAS": {
+        "ID": "P4DeciAS",
+        "Grade": "Primary 4",
+        "KC": "Addition and Subtraction",
+        "Question": "A box of pencils costs $3.75. A book costs $5.60. How much more does the book cost than the box of pencils?"
+    },
+    "P4DeciMD": {
+        "ID": "P4DeciMD",
+        "Grade": "Primary 4",
+        "KC": "Multiplication and Division",
+        "Question": "A 2.5-litre bottle of juice is shared equally among 5 friends. How much juice does each friend get?"
+    },
+    "P5N1m": {
+        "ID": "P5N1m",
+        "Grade": "Primary 5",
+        "KC": "Numbers up to 10 million",
+        "Question": "The population of Town A is 3 456 780. The population of Town B is 5 328 190. What is the total population of the two towns?"
+    },
+    "P5FracDv": {
+        "ID": "P5FracDv",
+        "Grade": "Primary 5",
+        "KC": "Fraction and Division",
+        "Question": "Mrs Lim baked 3 cakes and shared them equally among 4 children. What fraction of a cake did each child receive?"
+    },
+    "P5Frac4Op": {
+        "ID": "P5Frac4Op",
+        "Grade": "Primary 5",
+        "KC": "Four Operations",
+        "Question": "Aisha has 3 fifths of a cake. She eats 1 fifth of the cake and shares the remaining cake equally between her two friends. How much of the cake does each friend get?"
+    },
+    "P5Deci4Op": {
+        "ID": "P5Deci4Op",
+        "Grade": "Primary 5",
+        "KC": "Four Operations",
+        "Question": "A packet of biscuits costs $3.75. Emily bought 4 packets for a party. She paid with a $20 note. How much change did she receive?"
+    },
+    "P5perctg": {
+        "ID": "P5perctg",
+        "Grade": "Primary 5",
+        "KC": "Percentage",
+        "Question": "In a class of 40 students, 75 percent are girls. How many girls are there in the class?"
+    },
+    "P5rate": {
+        "ID": "P5rate",
+        "Grade": "Primary 5",
+        "KC": "Rate",
+        "Question": "A factory produces 120 boxes in 4 hours. What is the rate at which the factory produces boxes in one hour?"
+    },
+    "P6ratio": {
+        "ID": "P6ratio",
+        "Grade": "Primary 6",
+        "KC": "Ratio",
+        "Question": "The ratio of the number of boys to the number of girls in a class is 3 : 5. If there are 18 boys, how many girls are there in the class?"
+    },
+    "P6algebr": {
+        "ID": "P6algebr",
+        "Grade": "Primary 6",
+        "KC": "Algebra",
+        "Question": "A box contains x pencils. Andy buys 3 more boxes and now he has a total of 40 pencils. How many pencils are there in one box?"
+    },
+    "O1NumOps": {
+        "ID": "O1NumOps",
+        "Grade": "O1",
+        "KC": "Numbers and their operations",
+        "Question": "A local fruit stall sold 1,250 oranges in the first week and 1,735 oranges in the second week. How many oranges did the stall sell in both weeks altogether?"
+    },
+    "O1RioPro": {
+        "ID": "O1RioPro",
+        "Grade": "O1",
+        "KC": "Ratio and proportion",
+        "Question": "The ratio of apples to oranges in a basket is 5:3. If there are 45 apples, how many oranges are there in the basket?"
+    },
+    "O1RatSpd": {
+        "ID": "O1RatSpd",
+        "Grade": "O1",
+        "KC": "Rate and Speed",
+        "Question": "A bus travels 192 km from Jurong to Kuala Lumpur in 3 hours. What is the average speed of the bus in km/h?"
+    },
+    "O1AgbrEF": {
+        "ID": "O1AgbrEF",
+        "Grade": "O1",
+        "KC": "Algebraic expressions and formulae",
+        "Question": "The cost, in dollars, of buying x pens and y pencils is given by the expression 2x + 3y. If Jeremy buys 4 pens and 5 pencils, what is the total cost?"
+    },
+    "O1EqIneq": {
+        "ID": "O1EqIneq",
+        "Grade": "O1",
+        "KC": "Equations and inequalities",
+        "Question": "When Adam subtracted 7 from twice his age, he got 21. How old is Adam now?"
+    },
+    "O2Prob": {
+        "ID": "O2Prob",
+        "Grade": "Secondary 2",
+        "KC": "Probability",
+        "Question": "A bag contains 5 red pens, 3 blue pens, and 2 black pens. If a student picks a pen at random from the bag, what is the probability that the pen picked is either blue or black?"
+    },
+    "O3NumOps": {
+        "ID": "O3NumOps",
+        "Grade": "O Level 3",
+        "KC": "Numbers and their operations",
+        "Question": "A bag contains 64 red marbles and 48 blue marbles. Each packet must have an equal number of marbles of only one colour. What is the largest number of marbles that can be placed in each packet, and how many packets of each colour will there be?"
+    }
+}

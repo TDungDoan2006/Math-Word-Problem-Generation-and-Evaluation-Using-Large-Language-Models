@@ -1,0 +1,299 @@
+{
+    "P1N100": [
+        "Calculation Error",
+        "Value Context Error",
+        "Wrong Operation / Formula",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P1AddSub": [
+        "Calculation Error",
+        "Value Context Error",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P1MulDiv": [
+        "Calculation Error",
+        "Value Context Error",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P1Money": [
+        "Calculation Error",
+        "Value Context Error",
+        "Wrong Operation / Formula",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P2N1000": [
+        "Calculation Error",
+        "Value Context Error",
+        "Wrong Operation / Formula",
+        "Incorrect Copying of Numbers",
+        "Misinterpreting Question Requirements"
+    ],
+    "P2FracW": [
+        "Calculation Error",
+        "Value Context Error",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P2FracAS": [
+        "Calculation Error",
+        "Value Context Error",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P3N10k": [
+        "Calculation Error",
+        "Value Context Error",
+        "Wrong Operation / Formula",
+        "Incorrect Copying of Numbers",
+        "Misinterpreting Question Requirements"
+    ],
+    "P3FracEq": [
+        "Calculation Error",
+        "Value Context Error",
+        "Missing Key Information",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P4N100k": [
+        "Calculation Error",
+        "Value Context Error",
+        "Wrong Operation / Formula",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P4FctorM": [
+        "Calculation Error",
+        "Value Context Error",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P44Op": [
+        "Calculation Error",
+        "Value Context Error",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P4FracMI": [
+        "Calculation Error",
+        "Value Context Error",
+        "Missing Key Information",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P4FracSet": [
+        "Calculation Error",
+        "Value Context Error",
+        "Wrong Operation / Formula",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P4Deci3d": [
+        "Calculation Error",
+        "Value Context Error",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P4DeciAS": [
+        "Calculation Error",
+        "Value Context Error",
+        "Wrong Operation / Formula",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P4DeciMD": [
+        "Calculation Error",
+        "Value Context Error",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P5N1m": [
+        "Calculation Error",
+        "Value Context Error",
+        "Wrong Operation / Formula",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P5FracDv": [
+        "Calculation Error",
+        "Value Context Error",
+        "Missing Key Information",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P5Frac4Op": [
+        "Calculation Error",
+        "Value Context Error",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P5Deci4Op": [
+        "Calculation Error",
+        "Value Context Error",
+        "Wrong Operation / Formula",
+        "Missing Key Information",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P5perctg": [
+        "Calculation Error",
+        "Value Context Error",
+        "Missing Key Information",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P5rate": [
+        "Calculation Error",
+        "Value Context Error",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P6ratio": [
+        "Calculation Error",
+        "Value Context Error",
+        "Missing Key Information",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "P6algebr": [
+        "Calculation Error",
+        "Value Context Error",
+        "Missing Key Information",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "O1NumOps": [
+        "Calculation Error",
+        "Value Context Error",
+        "Missing Key Information",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "O1RioPro": [
+        "Calculation Error",
+        "Value Context Error",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "O1RatSpd": [
+        "Calculation Error",
+        "Value Context Error",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "O1AgbrEF": [
+        "Calculation Error",
+        "Value Context Error",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "O1EqIneq": [
+        "Calculation Error",
+        "Value Context Error",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "O2Prob": [
+        "Calculation Error",
+        "Value Context Error",
+        "Missing Key Information",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ],
+    "O3NumOps": [
+        "Calculation Error",
+        "Value Context Error",
+        "Missing Key Information",
+        "Invalid Assumption",
+        "Wrong Operation / Formula",
+        "Missing Step",
+        "Contradictory Step",
+        "Misinterpreting Question Requirements",
+        "Incorrect Copying of Numbers"
+    ]
+}

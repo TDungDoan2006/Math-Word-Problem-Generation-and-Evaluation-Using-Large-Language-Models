@@ -1,0 +1,838 @@
+{
+    "P1N100": {
+        "question": "Aisha has 27 marbles, and her brother gives her 15 more marbles. How many marbles does Aisha have now?",
+        "kcID": "P1N100",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding the Question"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Incorrectly performing the addition of 27 and 15, such as miscalculating the sum of the units digits or mishandling the regrouping process.",
+            "Misunderstanding the Question": "Interpreting the problem as Aisha giving marbles to her brother instead of receiving them, leading to subtraction instead of addition."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Insufficient practice with addition involving regrouping (carrying over), leading to errors in combining tens and units digits.",
+            "Misunderstanding the Question": "Misreading the phrase 'gives her' as Aisha giving marbles away, often due to haste or lack of attention to transaction direction."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Practice vertical addition with regrouping, ensuring units digits are added first. If their sum exceeds 9, carry over the extra ten to the tens column.",
+            "Misunderstanding the Question": "Identify key phrases like 'gives her more' to confirm the operation. Underline terms indicating receipt (e.g., 'gives her') to reinforce addition."
+        }
+    },
+    "P1AddSub": {
+        "question": "Aisyah has 6 pencils. She buys 3 more pencils. How many pencils does she have now?",
+        "kcID": "P1AddSub",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Question",
+            "Wrong Operation Applied"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Incorrectly calculating the sum of 6 and 3, such as stating 6 + 3 = 8 or another incorrect result.",
+            "Misunderstanding Question": "Misinterpreting the problem, such as thinking Aisyah gives away pencils instead of buying more.",
+            "Wrong Operation Applied": "Using subtraction (6 - 3) instead of addition (6 + 3)."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Lack of fluency in basic addition facts or careless calculation.",
+            "Misunderstanding Question": "Failure to identify key terms like 'buys more' that indicate an increase in quantity.",
+            "Wrong Operation Applied": "Confusing contexts that require addition (combining quantities) with those requiring subtraction (reducing quantities)."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Practice number bonds for single-digit addition and double-check calculations.",
+            "Misunderstanding Question": "Underline action words (e.g., 'buys more') to clarify whether quantities increase or decrease.",
+            "Wrong Operation Applied": "Analyze the problem context: buying more items means adding to the original quantity."
+        }
+    },
+    "P1MulDiv": {
+        "question": "A packet contains 5 biscuits. How many biscuits are there in 3 such packets?",
+        "kcID": "P1MulDiv",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Incorrect Operation Selection",
+            "Misreading the Question",
+            "Misunderstanding Multiplication as Division"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "The student makes a calculation mistake while adding or multiplying the numbers.",
+            "Incorrect Operation Selection": "The student uses addition instead of multiplication to solve the problem.",
+            "Misreading the Question": "The student misreads the number of packets or biscuits in the question.",
+            "Misunderstanding Multiplication as Division": "The student incorrectly applies division instead of multiplication."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Lack of fluency in basic addition or multiplication facts.",
+            "Incorrect Operation Selection": "Confusion between operations for repeated addition (multiplication) versus combining different quantities (addition).",
+            "Misreading the Question": "Failure to carefully identify key numerical values in the problem.",
+            "Misunderstanding Multiplication as Division": "Incorrect association of 'total number of items' with division instead of multiplication."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Practice basic arithmetic facts and verify calculations step-by-step.",
+            "Incorrect Operation Selection": "Identify keywords like 'how many in total' to choose multiplication. Visualize the problem using groups or arrays.",
+            "Misreading the Question": "Underline or highlight key numbers (e.g., 5 biscuits, 3 packets) before solving.",
+            "Misunderstanding Multiplication as Division": "Clarify that multiplication is used when combining equal groups. Use real-world examples to reinforce the concept."
+        }
+    },
+    "P1Money": {
+        "question": "Siti has 2 fifty-cent coins and 3 twenty-cent coins. How much money does Siti have altogether?",
+        "kcID": "P1Money",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Question",
+            "Unit Conversion Error",
+            "Wrong Formula Applied",
+            "Incorrect Total Addition"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Incorrect calculation when multiplying the number of coins by their value (e.g., 2 \u00d7 50 or 3 \u00d7 20).",
+            "Misunderstanding Question": "Interpreting the question as counting the total number of coins instead of calculating total value.",
+            "Unit Conversion Error": "Mistaking 160 cents as $1.6 instead of $1 and 60 cents due to improper unit conversion.",
+            "Wrong Formula Applied": "Adding all coin denominations directly (e.g., 50 + 20) instead of calculating per coin type first.",
+            "Incorrect Total Addition": "Adding the subtotals of fifty-cent and twenty-cent coins incorrectly (e.g., 100 + 60 \u2260 160)."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Lack of practice in multiplying coin quantities or rushing through steps.",
+            "Misunderstanding Question": "Focusing on keywords like 'altogether' without contextualizing it to monetary value.",
+            "Unit Conversion Error": "Confusion between decimal notation (e.g., $1.60) and compound units (1 dollar 60 cents).",
+            "Wrong Formula Applied": "Failure to recognize the need to compute values per coin type before combining.",
+            "Incorrect Total Addition": "Carelessness in basic addition after correct multiplication steps."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Write the multiplication step clearly (e.g., 2 \u00d7 50\u00a2 = 100\u00a2) and verify calculations.",
+            "Misunderstanding Question": "Underline phrases like 'how much money' to emphasize value calculation, not quantity.",
+            "Unit Conversion Error": "Memorize that 100\u00a2 = $1 and use separate units (e.g., 160\u00a2 = $1 60\u00a2).",
+            "Wrong Formula Applied": "Solve each coin type separately first (e.g., calculate fifty-cent total, then twenty-cent total).",
+            "Incorrect Total Addition": "Recheck the final addition step using inverse operations (e.g., 160 \u2212 100 = 60 to verify)."
+        }
+    },
+    "P2N1000": {
+        "question": "A box has 467 red marbles and 285 blue marbles. How many marbles are there in total?",
+        "kcID": "P2N1000",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding the Question",
+            "Place Value Misalignment",
+            "Wrong Operation Applied"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Incorrect addition due to miscalculating sums or mishandling regrouping (carrying over).",
+            "Misunderstanding the Question": "Misinterpreting the problem as requiring subtraction instead of addition.",
+            "Place Value Misalignment": "Adding digits in incorrect columns due to improper vertical alignment of numbers.",
+            "Wrong Operation Applied": "Using subtraction instead of addition to solve the problem."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Lack of fluency in regrouping during addition or carelessness in tracking carried-over digits.",
+            "Misunderstanding the Question": "Failure to recognize the keyword 'total' as an indicator for addition.",
+            "Place Value Misalignment": "Inattention to aligning digits by their place values (units, tens, hundreds) when writing the numbers vertically.",
+            "Wrong Operation Applied": "Confusion between operations required for 'total' (addition) and 'difference' (subtraction)."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Practice regrouping steps systematically. Double-check each column\u2019s sum and ensure carried digits are added to the next column.",
+            "Misunderstanding the Question": "Underline keywords like 'total' to confirm the operation needed. Re-read the question carefully.",
+            "Place Value Misalignment": "Use grid paper or draw lines to ensure digits are aligned correctly by place value before adding.",
+            "Wrong Operation Applied": "Verify the problem\u2019s requirement by rephrasing it (e.g., 'Total = red + blue'). Confirm the operation before solving."
+        }
+    },
+    "P2FracW": {
+        "question": "Mrs Tan cut a cake into 8 equal pieces. She gave 3 pieces to her son. What fraction of the whole cake did her son get?",
+        "kcID": "P2FracW",
+        "type_of_error": [
+            "Reversed Numerator and Denominator",
+            "Incorrect Denominator (Using Remaining Parts)"
+        ],
+        "error_explanation": {
+            "Reversed Numerator and Denominator": "The student writes the fraction as \\( \\frac{8}{3} \\) instead of \\( \\frac{3}{8} \\), swapping the total parts and parts given.",
+            "Incorrect Denominator (Using Remaining Parts)": "The student uses the remaining pieces (5) as the denominator, resulting in \\( \\frac{3}{5} \\), instead of the total parts (8)."
+        },
+        "root_cause": {
+            "Reversed Numerator and Denominator": "Confusion about the numerator representing the parts taken and the denominator representing the total parts.",
+            "Incorrect Denominator (Using Remaining Parts)": "Misunderstanding that the 'whole' refers to the original total parts (8), not the remaining parts after distribution."
+        },
+        "how_to_avoid": {
+            "Reversed Numerator and Denominator": "Remember the phrase 'parts out of the whole.' The numerator is the portion given (3), and the denominator is the total parts (8).",
+            "Incorrect Denominator (Using Remaining Parts)": "Reinforce that the denominator always reflects the original total the item was divided into, even if some parts are given away."
+        }
+    },
+    "P2FracAS": {
+        "question": "Aini ate one quarter of a watermelon in the morning and another two quarters in the afternoon. How much of the watermelon did she eat in total?",
+        "kcID": "P2FracAS",
+        "type_of_error": [
+            "Arithmetic Error in Fraction Addition",
+            "Misunderstanding Units in the Question",
+            "Wrong Formula Applied"
+        ],
+        "error_explanation": {
+            "Arithmetic Error in Fraction Addition": "Adding denominators instead of keeping them the same, resulting in an incorrect total (e.g., \\( \\frac{1}{4} + \\frac{2}{4} = \\frac{3}{8} \\))",
+            "Misunderstanding Units in the Question": "Misinterpreting 'two quarters' as two whole watermelons instead of parts of the same watermelon",
+            "Wrong Formula Applied": "Incorrectly combining numerators and denominators due to confusion about fraction addition rules"
+        },
+        "root_cause": {
+            "Arithmetic Error in Fraction Addition": "Lack of clarity in the rule that only numerators are added when denominators are the same",
+            "Misunderstanding Units in the Question": "Failure to carefully identify the units (quarters of one watermelon) specified in the problem",
+            "Wrong Formula Applied": "Confusion between fraction addition and other operations, possibly from memorizing rules without conceptual understanding"
+        },
+        "how_to_avoid": {
+            "Arithmetic Error in Fraction Addition": "Practice adding fractions with the same denominator using visual aids (e.g., pie charts) to reinforce that denominators remain unchanged",
+            "Misunderstanding Units in the Question": "Highlight keywords like 'of the watermelon' and ensure all values refer to the same whole before solving",
+            "Wrong Formula Applied": "Emphasize the rule: 'When adding like fractions, add the numerators and keep the denominator.' Use repeated drills to build procedural fluency"
+        }
+    },
+    "P3N10k": {
+        "question": "A library has 4\\,276 books on its shelves. If the librarian buys 2\\,385 more books, how many books will there be in the library altogether?",
+        "kcID": "P3N10k",
+        "type_of_error": [
+            "Arithmetic Error (Incorrect Carrying)",
+            "Misalignment of Digits",
+            "Misinterpreting the Operation",
+            "Forgetting Carried Digits"
+        ],
+        "error_explanation": {
+            "Arithmetic Error (Incorrect Carrying)": "Adding digits in each place value incorrectly, especially when carrying over. For example, failing to add the carried digit to the next place value.",
+            "Misalignment of Digits": "Writing numbers without proper alignment of place values (ones, tens, hundreds, thousands), leading to incorrect addition.",
+            "Misinterpreting the Operation": "Mistakenly subtracting instead of adding due to misreading the problem.",
+            "Forgetting Carried Digits": "Omitting the carried digit in subsequent place values after initial carrying."
+        },
+        "root_cause": {
+            "Arithmetic Error (Incorrect Carrying)": "Lack of attention to place value alignment or rushing through steps without systematic checking.",
+            "Misalignment of Digits": "Sloppy writing or not using structured vertical addition format.",
+            "Misinterpreting the Operation": "Focusing on keywords like 'buys more' without recognizing 'altogether' as a signal for addition.",
+            "Forgetting Carried Digits": "Losing track of carried digits during multi-step addition."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error (Incorrect Carrying)": "Use grid paper for neat alignment. Double-check each place value and ensure carried digits are written clearly above the next column.",
+            "Misalignment of Digits": "Write numbers vertically with digits properly aligned by place value (e.g., ones under ones).",
+            "Misinterpreting the Operation": "Underline keywords like 'altogether' to confirm the operation is addition. Verify the context (buying more books increases total).",
+            "Forgetting Carried Digits": "Circle or highlight carried digits as reminders to include them in the next place value calculation."
+        }
+    },
+    "P3FracEq": {
+        "question": "Sarah ate one-half of a chocolate bar. Her brother ate two out of four equal pieces of the same size chocolate bar. Did Sarah and her brother eat the same amount of chocolate? Show why.",
+        "kcID": "P3FracEq",
+        "type_of_error": [
+            "Misunderstanding Equivalent Fractions",
+            "Arithmetic Error in Conversion",
+            "Misinterpreting the Question's Context",
+            "Comparing Numerators/Denominators Individually"
+        ],
+        "error_explanation": {
+            "Misunderstanding Equivalent Fractions": "Not recognizing that fractions with different numerators and denominators can represent the same value (e.g., $\\frac{1}{2}$ and $\\frac{2}{4}$).",
+            "Arithmetic Error in Conversion": "Incorrect multiplication or division when converting fractions to a common denominator (e.g., miscalculating $\\frac{1}{2} \\times \\frac{2}{2}$).",
+            "Misinterpreting the Question's Context": "Assuming the chocolate bars are different sizes despite the problem stating they are the same.",
+            "Comparing Numerators/Denominators Individually": "Judging fractions as unequal by comparing only numerators (1 vs. 2) or denominators (2 vs. 4) without considering the whole."
+        },
+        "root_cause": {
+            "Misunderstanding Equivalent Fractions": "Lack of conceptual understanding that fractions are equivalent if they occupy the same portion of a whole.",
+            "Arithmetic Error in Conversion": "Carelessness in applying the rule of multiplying numerator and denominator by the same number.",
+            "Misinterpreting the Question's Context": "Overlooking the phrase 'same size chocolate bar' in the problem.",
+            "Comparing Numerators/Denominators Individually": "Treating numerators and denominators as separate integers rather than parts of a proportional relationship."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Equivalent Fractions": "Use visual aids (e.g., fraction circles or bars) to demonstrate equivalence. Practice simplifying fractions.",
+            "Arithmetic Error in Conversion": "Verify each multiplication step systematically. Cross-check results by simplifying $\\frac{2}{4}$ to $\\frac{1}{2}$.",
+            "Misinterpreting the Question's Context": "Underline or highlight key details in the question to ensure consistency in units and quantities.",
+            "Comparing Numerators/Denominators Individually": "Always compare fractions by converting them to the same denominator or interpreting them as parts of the same whole."
+        }
+    },
+    "P4N100k": {
+        "question": "A library has 37,650 storybooks and 24,980 reference books. What is the total number of books in the library?",
+        "kcID": "P4N100k",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding the Question",
+            "Misalignment of Digits"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Incorrect addition due to mistakes in carrying over digits or miscalculating sums of individual place values.",
+            "Misunderstanding the Question": "Misinterpreting the required operation (e.g., subtracting instead of adding) to find the total number of books.",
+            "Misalignment of Digits": "Adding numbers without properly aligning digits by their place values (e.g., units, tens, hundreds), leading to incorrect totals."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Lack of attention to place value during addition or rushing through the calculation steps.",
+            "Misunderstanding the Question": "Failure to recognize that the word 'total' implies addition or confusion with similar terminology.",
+            "Misalignment of Digits": "Writing numbers haphazardly without ensuring digits are in the correct columns for their place values."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Add each place value column step-by-step, starting from the rightmost digit, and double-check carries. Write intermediate sums clearly.",
+            "Misunderstanding the Question": "Underline keywords like 'total' to confirm the operation required. Verify the question asks for a sum, not a difference.",
+            "Misalignment of Digits": "Use grid paper or draw vertical lines to separate place values, ensuring digits are aligned correctly before adding."
+        }
+    },
+    "P4FctorM": {
+        "question": "Rani has 24 pencils. She wants to pack all the pencils equally into boxes. What is the greatest number of pencils she can put in each box so that every box has the same number of pencils and no pencils are left over?",
+        "kcID": "P4FctorM",
+        "type_of_error": [
+            "Misunderstanding Question Requirements",
+            "Arithmetic Error",
+            "Incomplete Factor Listing",
+            "Incorrect Factor Definition"
+        ],
+        "error_explanation": {
+            "Misunderstanding Question Requirements": "Assuming the problem requires using more than one box, leading to selection of a factor smaller than 24.",
+            "Arithmetic Error": "Incorrect division when calculating factors (e.g., 24 \u00f7 3 \u2260 8).",
+            "Incomplete Factor Listing": "Stopping the factor list prematurely and missing larger factors like 12 or 24.",
+            "Incorrect Factor Definition": "Believing factors exclude the number itself, thus omitting 24 as a valid factor."
+        },
+        "root_cause": {
+            "Misunderstanding Question Requirements": "Overlooking that the problem does not specify a minimum number of boxes.",
+            "Arithmetic Error": "Lack of practice in division facts or calculation carelessness.",
+            "Incomplete Factor Listing": "Not systematically checking all possible divisors up to the square root of 24.",
+            "Incorrect Factor Definition": "Misunderstanding that factors include the number itself and 1."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Question Requirements": "Note that the problem allows any number of boxes, including one. Verify if constraints on box count exist.",
+            "Arithmetic Error": "Practice multiplication/division facts and double-check calculations.",
+            "Incomplete Factor Listing": "List factors methodically by dividing 24 by all integers from 1 up to \u221a24 (i.e., 1, 2, 3, 4) and pair the quotients.",
+            "Incorrect Factor Definition": "Reinforce that factors of a number include all integers that divide it exactly, including 1 and the number itself."
+        }
+    },
+    "P44Op": {
+        "question": "A box of markers costs $15. Mrs Lee buys 4 boxes for her class and pays with a $100 note. How much change does Mrs Lee receive?",
+        "kcID": "P44Op",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Question",
+            "Incorrect Operation Applied"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Miscalculating the total cost (15 \u00d7 4) or the change (100 \u2212 60).",
+            "Misunderstanding Question": "Failing to recognize the need to compute change, resulting in only calculating the total cost.",
+            "Incorrect Operation Applied": "Using addition instead of multiplication for total cost or addition instead of subtraction for change."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Lack of fluency in multiplication or subtraction with larger numbers.",
+            "Misunderstanding Question": "Inattentive reading, missing the keyword 'change' in the problem.",
+            "Incorrect Operation Applied": "Confusion about which operation aligns with the problem's context (e.g., 'buys 4 boxes' requires multiplication, not addition)."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Practice multiplication tables and subtraction with regrouping. Verify calculations step-by-step.",
+            "Misunderstanding Question": "Highlight key terms like 'how much change' and ensure all parts of the question are addressed.",
+            "Incorrect Operation Applied": "Clarify problem-solving steps: total cost = unit price \u00d7 quantity; change = amount paid \u2212 total cost."
+        }
+    },
+    "P4FracMI": {
+        "question": "Siti baked 3 whole pies and three-quarters of another pie for a party. Express the total amount of pie Siti baked as an improper fraction.",
+        "kcID": "P4FracMI",
+        "type_of_error": [
+            "Arithmetic Error in Conversion",
+            "Misinterpretation of Mixed Number Structure",
+            "Incorrect Formula Application",
+            "Denominator Mismanagement"
+        ],
+        "error_explanation": {
+            "Arithmetic Error in Conversion": "The student correctly identifies the need to convert the mixed number but makes a calculation mistake when multiplying the whole number by the denominator or adding the numerator.",
+            "Misinterpretation of Mixed Number Structure": "The student misunderstands the relationship between the whole number and the fraction in the mixed number, treating them as separate entities instead of parts of a whole.",
+            "Incorrect Formula Application": "The student uses the wrong formula (e.g., multiplying the whole number by the numerator instead of the denominator) to convert the mixed number to an improper fraction.",
+            "Denominator Mismanagement": "The student incorrectly alters the denominator during conversion (e.g., changing it to a different value or failing to retain the original denominator)."
+        },
+        "root_cause": {
+            "Arithmetic Error in Conversion": "Lack of attention to arithmetic steps or rushing through calculations without verification.",
+            "Misinterpretation of Mixed Number Structure": "Incomplete understanding of how mixed numbers represent whole units and fractional parts combined.",
+            "Incorrect Formula Application": "Confusion between steps for fraction operations (e.g., addition vs. conversion) or misremembering the conversion formula.",
+            "Denominator Mismanagement": "Failure to recognize that the denominator remains unchanged during conversion unless explicitly required for addition/subtraction."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error in Conversion": "Write down each step clearly: 1) Multiply whole number by denominator, 2) Add the numerator, 3) Keep the denominator. Verify calculations step-by-step.",
+            "Misinterpretation of Mixed Number Structure": "Visualize the mixed number (e.g., 3 pies = 12/4 pies) to see how the whole number and fraction combine into a single improper fraction.",
+            "Incorrect Formula Application": "Memorize the formula: Improper fraction = (Whole number \u00d7 Denominator) + Numerator. Practice with examples to reinforce the steps.",
+            "Denominator Mismanagement": "Remember that the denominator stays the same during conversion. Only adjust it when adding/subtracting fractions with different denominators."
+        }
+    },
+    "P4FracSet": {
+        "question": "A science club has 36 members. One-third of them are girls. How many girls are there in the club?",
+        "kcID": "P4FracSet",
+        "type_of_error": [
+            "Misinterpreting the Fraction Required",
+            "Arithmetic Error",
+            "Incorrect Operation",
+            "Inversion Error"
+        ],
+        "error_explanation": {
+            "Misinterpreting the Fraction Required": "Student incorrectly calculates two-thirds (boys) instead of one-third (girls).",
+            "Arithmetic Error": "Student makes a mistake in dividing 36 by 3 (e.g., 36 \u00f7 3 = 13).",
+            "Incorrect Operation": "Student multiplies 36 by 3 instead of dividing by 3.",
+            "Inversion Error": "Student divides 3 by 36 instead of 36 by 3."
+        },
+        "root_cause": {
+            "Misinterpreting the Fraction Required": "Not identifying the correct fraction from the question due to rushed reading.",
+            "Arithmetic Error": "Lack of practice in division facts or careless calculation.",
+            "Incorrect Operation": "Misunderstanding 'of' as direct multiplication without considering the fraction's denominator.",
+            "Inversion Error": "Confusion about which number to divide (total vs. fraction's denominator)."
+        },
+        "how_to_avoid": {
+            "Misinterpreting the Fraction Required": "Underline 'girls' and 'one-third' in the question to focus on the required fraction.",
+            "Arithmetic Error": "Verify division using inverse operations (e.g., 12 \u00d7 3 = 36 confirms 36 \u00f7 3 = 12).",
+            "Incorrect Operation": "Remember 'of' means multiplication by the fraction (1/3 \u00d7 36) or division by its denominator (36 \u00f7 3).",
+            "Inversion Error": "Use the phrase 'divide the total by the denominator' to reinforce the correct order."
+        }
+    },
+    "P4Deci3d": {
+        "question": "Eli bought a packet of biscuits weighing 0.375 kg. If she ate 0.128 kg of biscuits, how much biscuits does she have left?",
+        "kcID": "P4Deci3d",
+        "type_of_error": [
+            "Decimal Misalignment Error",
+            "Borrowing/Regrouping Error",
+            "Arithmetic Calculation Error",
+            "Operation Misinterpretation"
+        ],
+        "error_explanation": {
+            "Decimal Misalignment Error": "Failing to align decimal points when subtracting, leading to incorrect place value subtraction.",
+            "Borrowing/Regrouping Error": "Incorrectly handling the regrouping process when subtracting digits in decimal places, particularly in the thousandths place.",
+            "Arithmetic Calculation Error": "Miscalculating the difference in individual decimal places without proper borrowing or alignment.",
+            "Operation Misinterpretation": "Using addition instead of subtraction due to misinterpreting the problem's requirement."
+        },
+        "root_cause": {
+            "Decimal Misalignment Error": "Lack of awareness about the significance of place value alignment in decimal operations.",
+            "Borrowing/Regrouping Error": "Insufficient practice with regrouping across decimal places, especially in problems involving three decimal digits.",
+            "Arithmetic Calculation Error": "Carelessness or rushed execution in performing basic subtraction steps after correct alignment.",
+            "Operation Misinterpretation": "Overlooking keywords like 'ate' and 'left,' which indicate subtraction."
+        },
+        "how_to_avoid": {
+            "Decimal Misalignment Error": "Write the numbers vertically, ensuring decimal points are aligned. Add trailing zeros (e.g., 0.375 - 0.128 becomes 0.375 - 0.128) to maintain place value clarity.",
+            "Borrowing/Regrouping Error": "Practice step-by-step regrouping by crossing out and adjusting digits. Use grid paper to visualize place value alignment.",
+            "Arithmetic Calculation Error": "Double-check each digit\u2019s subtraction, starting from the rightmost (thousandths place), and verify regrouping steps methodically.",
+            "Operation Misinterpretation": "Circle action words like 'ate' and 'left' to confirm the correct operation (subtraction) before solving."
+        }
+    },
+    "P4DeciAS": {
+        "question": "A box of pencils costs \\$3.75. A book costs \\$5.60. How much more does the book cost than the box of pencils?",
+        "kcID": "P4DeciAS",
+        "type_of_error": [
+            "Decimal Subtraction Error",
+            "Misinterpreting Question Order",
+            "Incorrect Operation Choice"
+        ],
+        "error_explanation": {
+            "Decimal Subtraction Error": "Student incorrectly subtracts the decimals by misaligning digits or mishandling borrowing across zeros.",
+            "Misinterpreting Question Order": "Student subtracts the book's price from the pencils' price instead of the correct order.",
+            "Incorrect Operation Choice": "Student adds the costs instead of subtracting them."
+        },
+        "root_cause": {
+            "Decimal Subtraction Error": "Lack of practice with decimal place alignment and borrowing steps involving zeros.",
+            "Misinterpreting Question Order": "Confusion over phrasing 'how much more A than B' and not identifying which quantity is larger.",
+            "Incorrect Operation Choice": "Misunderstanding keyword 'how much more' as requiring addition instead of subtraction."
+        },
+        "how_to_avoid": {
+            "Decimal Subtraction Error": "Align decimals vertically and add trailing zeros to ensure proper digit subtraction. Practice borrowing in decimals explicitly.",
+            "Misinterpreting Question Order": "Underline key phrases to identify the correct order (A - B when A is compared to B). Verify which item costs more before calculating.",
+            "Incorrect Operation Choice": "Recognize that 'how much more' implies finding the difference, which requires subtraction, not addition."
+        }
+    },
+    "P4DeciMD": {
+        "question": "A 2.5-litre bottle of juice is shared equally among 5 friends. How much juice does each friend get?",
+        "kcID": "P4DeciMD",
+        "type_of_error": [
+            "Incorrect Operation",
+            "Arithmetic Error",
+            "Incorrect Division Order",
+            "Missing Unit",
+            "Unnecessary Unit Conversion"
+        ],
+        "error_explanation": {
+            "Incorrect Operation": "Using multiplication instead of division to solve the problem.",
+            "Arithmetic Error": "Incorrectly performing the decimal division, such as miscalculating 2.5 \u00f7 5.",
+            "Incorrect Division Order": "Dividing the number of friends by the total volume (5 \u00f7 2.5) instead of the correct order.",
+            "Missing Unit": "Providing the numerical answer without specifying the unit (litres).",
+            "Unnecessary Unit Conversion": "Converting the answer to milliliters without being required, leading to potential unit mismatch."
+        },
+        "root_cause": {
+            "Incorrect Operation": "Misunderstanding that 'shared equally' implies division rather than multiplication.",
+            "Arithmetic Error": "Lack of proficiency in dividing decimal numbers accurately.",
+            "Incorrect Division Order": "Confusion about which quantity should be the dividend (total juice) and the divisor (number of friends).",
+            "Missing Unit": "Overlooking the importance of including units in the final answer.",
+            "Unnecessary Unit Conversion": "Assuming the need to convert units without checking the question's requirements."
+        },
+        "how_to_avoid": {
+            "Incorrect Operation": "Identify keywords like 'shared equally' as indicators for division. Practice similar problems to reinforce the correct operation.",
+            "Arithmetic Error": "Convert decimals to fractions for easier calculation (e.g., 2.5 litres = 5/2 litres, then divide by 5). Verify results using multiplication (0.5 \u00d7 5 = 2.5).",
+            "Incorrect Division Order": "Remember that the total amount (2.5 litres) is divided by the number of groups (5 friends). Write the division expression as total \u00f7 number of groups.",
+            "Missing Unit": "Always include the unit (litres) when writing the final answer. Double-check answers for completeness.",
+            "Unnecessary Unit Conversion": "Use the same unit provided in the question unless instructed otherwise. Confirm the required unit before converting."
+        }
+    },
+    "P5N1m": {
+        "question": "The population of Town A is 3 456 780. The population of Town B is 5 328 190. What is the total population of the two towns?",
+        "kcID": "P5N1m",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misalignment of Digits",
+            "Misinterpretation of Thousand Separators",
+            "Omission of Trailing Zeros"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Occurs when students make mistakes in the addition process, such as incorrect carrying over or miscalculating the sum of digits in a column.",
+            "Misalignment of Digits": "Happens when students do not properly align the digits by their place value columns before adding, leading to incorrect sums.",
+            "Misinterpretation of Thousand Separators": "Arises when students incorrectly group the digits due to misunderstanding spaces as thousand separators, resulting in wrong number values.",
+            "Omission of Trailing Zeros": "Occurs when students overlook trailing zeros in the numbers, decreasing the actual value and leading to an incorrect total."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Rushing through calculations without careful checking or lack of practice with multi-digit addition.",
+            "Misalignment of Digits": "Not setting up the addition vertically with proper alignment of place values.",
+            "Misinterpretation of Thousand Separators": "Lack of understanding that each space separates groups of three digits representing thousands.",
+            "Omission of Trailing Zeros": "Inattentiveness to trailing zeros when reading or rewriting numbers, assuming they are insignificant."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Practice multi-digit addition with carrying over. Double-check each column's sum and carry values.",
+            "Misalignment of Digits": "Write numbers vertically, aligning digits by place value. Use grid paper for clarity.",
+            "Misinterpretation of Thousand Separators": "Break down numbers into millions, thousands, and units (e.g., 3 456 780 = 3 million, 456 thousand, 780).",
+            "Omission of Trailing Zeros": "Circle trailing zeros in the original numbers to ensure they are included in calculations."
+        }
+    },
+    "P5FracDv": {
+        "question": "Mrs Lim baked 3 cakes and shared them equally among 4 children. What fraction of a cake did each child receive?",
+        "kcID": "P5FracDv",
+        "type_of_error": [
+            "Wrong Operation Applied",
+            "Misunderstanding the Question",
+            "Whole Number Misconception"
+        ],
+        "error_explanation": {
+            "Wrong Operation Applied": "Dividing the number of children by the number of cakes (i.e., \\( \\frac{4}{3} \\)) instead of dividing the number of cakes by the number of children.",
+            "Misunderstanding the Question": "Misreading the problem to swap the number of cakes (3) and children (4), leading to an inverted fraction.",
+            "Whole Number Misconception": "Assuming the result must be a whole number (e.g., 1 cake per child with 1 'leftover' cake divided incorrectly as \\( 1 \\frac{1}{4} \\))."
+        },
+        "root_cause": {
+            "Wrong Operation Applied": "Confusion about division order in fraction contexts: the total quantity (3 cakes) is divided by the number of recipients (4 children).",
+            "Misunderstanding the Question": "Lack of attention to phrasing 'shared equally among 4 children.'",
+            "Whole Number Misconception": "Over-reliance on whole-number thinking without transitioning to fractional division."
+        },
+        "how_to_avoid": {
+            "Wrong Operation Applied": "Use keyword identification: 'divided equally' means total \u00f7 number of groups. Ask: 'How much per child?'",
+            "Misunderstanding the Question": "Underline key numbers and their roles (e.g., 3 cakes *divided among* 4 children).",
+            "Whole Number Misconception": "Visualize the problem (e.g., cutting 3 cakes into 4 equal parts each to form \\( \\frac{3}{4} \\) per child)."
+        }
+    },
+    "P5Frac4Op": {
+        "question": "Aisha has \\frac{3}{5} of a cake. She eats \\frac{1}{5} of the cake and shares the remaining cake equally between her two friends. How much of the cake does each friend get?",
+        "kcID": "P5Frac4Op",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding the Question",
+            "Incorrect Division of Fractions",
+            "Procedural Error"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Mistakes in subtracting numerators (e.g., 3 - 1 = 1 instead of 2) leading to an incorrect remaining amount.",
+            "Misunderstanding the Question": "Using the original amount (\\frac{3}{5}) instead of the remaining cake (\\frac{2}{5}) when dividing between friends.",
+            "Incorrect Division of Fractions": "Dividing the denominator instead of the numerator or not applying reciprocal multiplication.",
+            "Procedural Error": "Omitting the final division step to find each friend's share."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Carelessness in basic subtraction of numerators with the same denominator.",
+            "Misunderstanding the Question": "Failure to recognize the term 'remaining' refers to the quantity after subtraction.",
+            "Incorrect Division of Fractions": "Misapplying division rules for fractions, such as altering denominators incorrectly.",
+            "Procedural Error": "Incomplete execution of all required steps in the problem."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Verify subtraction results by rechecking numerator calculations.",
+            "Misunderstanding the Question": "Annotate the problem to identify key actions (eats, remaining) before solving.",
+            "Incorrect Division of Fractions": "Practice dividing fractions by whole numbers using the reciprocal method (e.g., \\div 2 = \\times \\frac{1}{2}).",
+            "Procedural Error": "List all required operations (subtract then divide) explicitly before solving."
+        }
+    },
+    "P5Deci4Op": {
+        "question": "A packet of biscuits costs \\$3.75. Emily bought 4 packets for a party. She paid with a \\$20 note. How much change did she receive?",
+        "kcID": "P5Deci4Op",
+        "type_of_error": [
+            "Arithmetic Error in Decimal Multiplication",
+            "Missing Key Information",
+            "Wrong Operation Applied"
+        ],
+        "error_explanation": {
+            "Arithmetic Error in Decimal Multiplication": "Incorrectly calculating the product of 3.75 and 4 due to mishandling decimal places or partial sums.",
+            "Missing Key Information": "Failing to account for all 4 packets and using the cost of one packet (\\$3.75) instead of the total cost.",
+            "Wrong Operation Applied": "Using addition instead of subtraction to calculate the change."
+        },
+        "root_cause": {
+            "Arithmetic Error in Decimal Multiplication": "Lack of practice in multiplying decimals, leading to errors in aligning decimal points or summing partial products.",
+            "Missing Key Information": "Overlooking the number of packets (4) mentioned in the question, resulting in incomplete calculations.",
+            "Wrong Operation Applied": "Misinterpreting 'change' as adding the total cost to the amount paid, rather than subtracting."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error in Decimal Multiplication": "Break the multiplication into parts: 3 \u00d7 4 = 12 and 0.75 \u00d7 4 = 3. Sum the results (12 + 3 = 15). Verify using grid or standard multiplication.",
+            "Missing Key Information": "Circle or underline numerical details (e.g., '4 packets') to ensure all values are used. Ask: 'Did I multiply by the correct quantity?'",
+            "Wrong Operation Applied": "Remember that 'change' is always calculated as amount paid minus total cost. Use keywords like 'paid with' and 'change' to identify subtraction."
+        }
+    },
+    "P5perctg": {
+        "question": "In a class of 40 students, 75 percent are girls. How many girls are there in the class?",
+        "kcID": "P5perctg",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Question",
+            "Wrong Formula Applied",
+            "Unit Error",
+            "Missing Simplification"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Incorrect calculation when converting percentage to decimal/fraction or multiplying values (e.g., 75% = 0.75, but student calculates 0.075 \u00d7 40).",
+            "Misunderstanding Question": "Misinterpreting the percentage as referring to boys instead of girls (e.g., calculating 25% instead of 75%).",
+            "Wrong Formula Applied": "Using addition/subtraction instead of multiplication (e.g., 40 + 75 = 115).",
+            "Unit Error": "Providing a non-integer answer (e.g., 30.5 girls) without recognizing the context requires whole numbers.",
+            "Missing Simplification": "Failing to simplify fractions before multiplying (e.g., calculating 75/100 \u00d7 40 directly instead of simplifying to 3/4 \u00d7 40)."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Lack of practice in percentage-decimal conversion or careless calculation.",
+            "Misunderstanding Question": "Not highlighting key terms (e.g., 'girls') while reading.",
+            "Wrong Formula Applied": "Confusion about percentage operations (e.g., 'of' means multiplication).",
+            "Unit Error": "Overlooking real-world context (number of students must be whole).",
+            "Missing Simplification": "Rushing through steps without optimizing calculations."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Verify percentage conversion (75% = 0.75) and double-check multiplication.",
+            "Misunderstanding Question": "Underline critical terms (e.g., 'girls') before solving.",
+            "Wrong Formula Applied": "Remember 'X% of Y' requires multiplication: X% \u00d7 Y.",
+            "Unit Error": "Round fractional answers appropriately based on context.",
+            "Missing Simplification": "Simplify fractions first (e.g., 75/100 = 3/4) to reduce complexity."
+        }
+    },
+    "P5rate": {
+        "question": "A factory produces 120 boxes in 4 hours. What is the rate at which the factory produces boxes in one hour?",
+        "kcID": "P5rate",
+        "type_of_error": [
+            "Wrong Formula Applied",
+            "Arithmetic Error",
+            "Misunderstanding the Question"
+        ],
+        "error_explanation": {
+            "Wrong Formula Applied": "The student divides hours by boxes (4 \u00f7 120) instead of boxes by hours (120 \u00f7 4), resulting in an incorrect rate.",
+            "Arithmetic Error": "The student makes a calculation mistake when dividing 120 by 4.",
+            "Misunderstanding the Question": "The student calculates the time taken to produce one box (e.g., 4 \u00f7 120) instead of the number of boxes produced per hour."
+        },
+        "root_cause": {
+            "Wrong Formula Applied": "Misunderstanding that rate is calculated as quantity divided by time, not time divided by quantity.",
+            "Arithmetic Error": "Lack of fluency in division or careless computation.",
+            "Misunderstanding the Question": "Not identifying the required unit (boxes per hour) in the question."
+        },
+        "how_to_avoid": {
+            "Wrong Formula Applied": "Remember the formula: Rate = Total Quantity \u00f7 Time. Units like 'boxes per hour' indicate quantity \u00f7 time.",
+            "Arithmetic Error": "Verify division by multiplying the result back (e.g., 30 \u00d7 4 = 120). Practice basic division facts.",
+            "Misunderstanding the Question": "Underline keywords like 'rate' and 'per hour' to clarify the required unit."
+        }
+    },
+    "P6ratio": {
+        "question": "The ratio of the number of boys to the number of girls in a class is 3 : 5. If there are 18 boys, how many girls are there in the class?",
+        "kcID": "P6ratio",
+        "type_of_error": [
+            "Misinterpreting Ratio Order",
+            "Arithmetic Error",
+            "Incorrect Ratio Application"
+        ],
+        "error_explanation": {
+            "Misinterpreting Ratio Order": "Reversing the ratio to girls : boys (5 : 3) instead of boys : girls (3 : 5), leading to incorrect calculations.",
+            "Arithmetic Error": "Miscalculating division (e.g., 18 \u00f7 3) or multiplication (e.g., 6 \u00d7 5).",
+            "Incorrect Ratio Application": "Using the wrong ratio component after finding the number of groups (e.g., multiplying by 3 instead of 5)."
+        },
+        "root_cause": {
+            "Misinterpreting Ratio Order": "Not carefully identifying the order of terms in the ratio (boys first, girls second).",
+            "Arithmetic Error": "Lack of practice or haste in performing basic operations.",
+            "Incorrect Ratio Application": "Confusion about how ratio parts correspond to groups (e.g., associating boys' groups with boys' ratio instead of girls')."
+        },
+        "how_to_avoid": {
+            "Misinterpreting Ratio Order": "Label the ratio explicitly (e.g., 'boys : girls = 3 : 5') and verify the order before solving.",
+            "Arithmetic Error": "Recompute divisions and multiplications separately. Use estimation (e.g., 18 \u00f7 3 \u2248 6) to check reasonableness.",
+            "Incorrect Ratio Application": "After finding the number of groups (6), explicitly state: 'Each group has 5 girls,' then calculate 6 \u00d7 5."
+        }
+    },
+    "P6algebr": {
+        "question": "A box contains x pencils. Andy buys 3 more boxes and now he has a total of 40 pencils. How many pencils are there in one box?",
+        "kcID": "P6algebr",
+        "type_of_error": [
+            "Misunderstanding Total Boxes",
+            "Arithmetic Error",
+            "Incorrect Equation Setup"
+        ],
+        "error_explanation": {
+            "Misunderstanding Total Boxes": "Student assumes Andy has 3 boxes in total instead of 4, leading to the equation \\(3x = 40\\).",
+            "Arithmetic Error": "Student miscalculates the division \\(40 \\div 4\\), resulting in an incorrect value for \\(x\\).",
+            "Incorrect Equation Setup": "Student uses addition (e.g., \\(x + 3 = 40\\)) instead of multiplication for the total pencils from multiple boxes."
+        },
+        "root_cause": {
+            "Misunderstanding Total Boxes": "Overlooking the original box Andy had before buying 3 more.",
+            "Arithmetic Error": "Carelessness in performing division or lack of practice with basic operations.",
+            "Incorrect Equation Setup": "Confusing the number of boxes with the number of pencils, or not recognizing the multiplicative relationship."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Total Boxes": "Highlight phrases like '3 more boxes' to emphasize the total is original + additional boxes.",
+            "Arithmetic Error": "Verify calculations step-by-step and practice division facts regularly.",
+            "Incorrect Equation Setup": "Recognize that each box contributes \\(x\\) pencils, so 3 boxes add \\(3x\\) pencils, not 3 pencils."
+        }
+    },
+    "O1NumOps": {
+        "question": "A local fruit stall sold 1,250 oranges in the first week and 1,735 oranges in the second week. How many oranges did the stall sell in both weeks altogether?",
+        "kcID": "O1NumOps",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Place Value Misalignment",
+            "Incorrect Operation",
+            "Misreading Numbers"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Incorrectly adding the digits in each column, leading to an inaccurate total.",
+            "Place Value Misalignment": "Failing to align numbers by their place values (ones, tens, hundreds) when adding vertically, causing errors in column-wise addition.",
+            "Incorrect Operation": "Using subtraction instead of addition despite the question requiring a total sum.",
+            "Misreading Numbers": "Mistakenly interpreting or copying the given numbers (e.g., reading 1,735 as 1,375)."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Lack of fluency in basic addition facts or rushing through calculations.",
+            "Place Value Misalignment": "Incorrect setup of vertical addition, neglecting proper alignment of digits.",
+            "Incorrect Operation": "Misunderstanding the keyword 'altogether' as requiring subtraction instead of addition.",
+            "Misreading Numbers": "Carelessness or not verifying the numbers before solving."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Practice addition drills and double-check each column\u2019s sum step-by-step.",
+            "Place Value Misalignment": "Write numbers vertically with aligned place values (e.g., ones under ones, tens under tens).",
+            "Incorrect Operation": "Identify keywords like 'altogether' or 'total' as indicators for addition.",
+            "Misreading Numbers": "Circle or highlight the numbers in the question to ensure they are copied correctly."
+        }
+    },
+    "O1RioPro": {
+        "question": "The ratio of apples to oranges in a basket is 5:3. If there are 45 apples, how many oranges are there in the basket?",
+        "kcID": "O1RioPro",
+        "type_of_error": [
+            "Misinterpreting Ratio Order",
+            "Arithmetic Error",
+            "Incorrect Application of Ratio Concept"
+        ],
+        "error_explanation": {
+            "Misinterpreting Ratio Order": "Confusing the order of the ratio (e.g., interpreting apples:oranges as 3:5 instead of 5:3).",
+            "Arithmetic Error": "Incorrectly performing division or multiplication steps (e.g., 45 \u00f7 5 \u2260 9 or 9 \u00d7 3 \u2260 27).",
+            "Incorrect Application of Ratio Concept": "Using total parts (5 + 3) instead of the given ratio to calculate oranges (e.g., 45 \u00f7 8 \u00d7 3)."
+        },
+        "root_cause": {
+            "Misinterpreting Ratio Order": "Lack of attention to the sequence in which quantities are presented in the ratio (apples first, then oranges).",
+            "Arithmetic Error": "Carelessness in basic operations or lack of practice in division/multiplication.",
+            "Incorrect Application of Ratio Concept": "Misunderstanding that ratios represent parts corresponding to the given quantities, not total parts."
+        },
+        "how_to_avoid": {
+            "Misinterpreting Ratio Order": "Label the ratio explicitly (e.g., apples:oranges = 5:3) and verify the order matches the question.",
+            "Arithmetic Error": "Double-check calculations using inverse operations (e.g., verify 9 \u00d7 5 = 45).",
+            "Incorrect Application of Ratio Concept": "Use bar models or visual representations to map ratio parts to actual quantities."
+        }
+    },
+    "O1RatSpd": {
+        "question": "A bus travels 192 km from Jurong to Kuala Lumpur in 3 hours. What is the average speed of the bus in km/h?",
+        "kcID": "O1RatSpd",
+        "type_of_error": [
+            "Wrong Formula Applied",
+            "Arithmetic Error",
+            "Misunderstanding the Question",
+            "Incorrect Unit Usage"
+        ],
+        "error_explanation": {
+            "Wrong Formula Applied": "Using an incorrect formula (e.g., multiplying distance and time instead of dividing) to calculate average speed.",
+            "Arithmetic Error": "Incorrectly performing the division of 192 km by 3 hours.",
+            "Misunderstanding the Question": "Misinterpreting the total distance or time (e.g., assuming the bus made a round trip or additional stops).",
+            "Incorrect Unit Usage": "Omitting or using the wrong unit (e.g., writing '64 km' instead of '64 km/h')."
+        },
+        "root_cause": {
+            "Wrong Formula Applied": "Confusion between formulas for speed, distance, or time due to lack of conceptual clarity.",
+            "Arithmetic Error": "Carelessness in division or insufficient practice with multi-digit division.",
+            "Misunderstanding the Question": "Overlooking key details in the problem statement or making unwarranted assumptions.",
+            "Incorrect Unit Usage": "Neglecting the importance of units in representing rate quantities."
+        },
+        "how_to_avoid": {
+            "Wrong Formula Applied": "Memorize the formula: Average speed = Total distance \u00f7 Total time. Use mnemonics like 'Distance equals Speed \u00d7 Time' (D = S \u00d7 T) to recall relationships.",
+            "Arithmetic Error": "Double-check calculations using inverse operations (e.g., verify 64 \u00d7 3 = 192). Practice dividing larger numbers.",
+            "Misunderstanding the Question": "Highlight numerical values and units in the question. Confirm that the given distance and time are total values for the journey.",
+            "Incorrect Unit Usage": "Always include units in the final answer. Ensure the unit matches the required rate (km/h for speed)."
+        }
+    },
+    "O1AgbrEF": {
+        "question": "The cost, in dollars, of buying \\( x \\) pens and \\( y \\) pencils is given by the expression \\( 2x + 3y \\). If Jeremy buys 4 pens and 5 pencils, what is the total cost?",
+        "kcID": "O1AgbrEF",
+        "type_of_error": [
+            "Misinterpretation of Variables",
+            "Arithmetic Error",
+            "Incorrect Operations"
+        ],
+        "error_explanation": {
+            "Misinterpretation of Variables": "Confusing the coefficients of \\( x \\) and \\( y \\) in the expression, leading to incorrect substitution of unit prices for pens and pencils.",
+            "Arithmetic Error": "Miscalculating the product of coefficients and quantities (e.g., \\( 2 \\times 4 \\) or \\( 3 \\times 5 \\)) due to carelessness or incomplete mastery of multiplication facts.",
+            "Incorrect Operations": "Adding the quantities of pens and pencils before multiplying by their respective prices, or failing to add the final products of \\( 2x \\) and \\( 3y \\)."
+        },
+        "root_cause": {
+            "Misinterpretation of Variables": "Lack of clarity in associating coefficients with the correct variables (e.g., assuming 3 is the price of pens instead of pencils).",
+            "Arithmetic Error": "Rushed calculations or insufficient practice in basic multiplication.",
+            "Incorrect Operations": "Misapplying the order of operations (e.g., adding before multiplying) or overlooking the need to combine both terms in the expression."
+        },
+        "how_to_avoid": {
+            "Misinterpretation of Variables": "Label the coefficients explicitly (e.g., write \"Pens: \\$2 each\" and \"Pencils: \\$3 each\") before substitution.",
+            "Arithmetic Error": "Verify each multiplication step separately (e.g., calculate \\( 2 \\times 4 = 8 \\) and \\( 3 \\times 5 = 15 \\)) before proceeding.",
+            "Incorrect Operations": "Follow the sequence of operations strictly: multiply first, then add the results (PEMDAS/BODMAS rule)."
+        }
+    },
+    "O1EqIneq": {
+        "question": "When Adam subtracted 7 from twice his age, he got 21. How old is Adam now?",
+        "kcID": "O1EqIneq",
+        "type_of_error": [
+            "Misinterpreting the Order of Subtraction",
+            "Arithmetic Error",
+            "Incorrect Grouping"
+        ],
+        "error_explanation": {
+            "Misinterpreting the Order of Subtraction": "The student incorrectly writes the subtraction as 7 - 2a instead of 2a - 7.",
+            "Arithmetic Error": "The student makes calculation mistakes when solving the equation (e.g., adding 7 to 21 incorrectly or dividing 28 by 2 incorrectly).",
+            "Incorrect Grouping": "The student misapplies parentheses, writing 2(a - 7) = 21 instead of 2a - 7 = 21."
+        },
+        "root_cause": {
+            "Misinterpreting the Order of Subtraction": "Misunderstanding the phrase 'subtracted from,' which requires the second term to be the minuend.",
+            "Arithmetic Error": "Carelessness in performing basic operations or lack of practice in step-by-step equation solving.",
+            "Incorrect Grouping": "Confusion about the order of operations, assuming subtraction should be grouped with the variable before multiplication."
+        },
+        "how_to_avoid": {
+            "Misinterpreting the Order of Subtraction": "Remember that 'A subtracted from B' translates to B - A. Highlight keywords like 'from' to identify the correct order.",
+            "Arithmetic Error": "Solve each step carefully and verify calculations by reversing operations (e.g., check 14 \u00d7 2 - 7 = 21).",
+            "Incorrect Grouping": "Recognize that 'twice his age' (2a) is computed first before subtracting 7. Use phrases like 'twice [quantity] minus 7' to guide the structure."
+        }
+    },
+    "O2Prob": {
+        "question": "A bag contains 5 red pens, 3 blue pens, and 2 black pens. If a student picks a pen at random from the bag, what is the probability that the pen picked is either blue or black?",
+        "kcID": "O2Prob",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misinterpretation of 'Or'",
+            "Incorrect Simplification"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "Miscalculating the total number of pens or the combined number of blue and black pens.",
+            "Misinterpretation of 'Or'": "Assuming 'or' implies overlapping events or requires a different operation instead of adding the counts.",
+            "Incorrect Simplification": "Failing to reduce the fraction to its simplest form or simplifying it incorrectly."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Carelessness in addition steps or rushing through calculations.",
+            "Misinterpretation of 'Or'": "Confusion between 'or' (addition of mutually exclusive events) and 'and' (multiplication of independent events).",
+            "Incorrect Simplification": "Lack of attention to simplifying fractions or incomplete knowledge of fraction reduction."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Verify each addition step separately. For example, check that 5 + 3 + 2 = 10 and 3 + 2 = 5.",
+            "Misinterpretation of 'Or'": "Remember that 'or' in probability for mutually exclusive events means adding the individual counts (e.g., blue + black pens).",
+            "Incorrect Simplification": "Always divide the numerator and denominator by their greatest common divisor (e.g., 5 and 10 share a GCD of 5)."
+        }
+    },
+    "O3NumOps": {
+        "question": "A bag contains 64 red marbles and 48 blue marbles. Each packet must have an equal number of marbles of only one colour. What is the largest number of marbles that can be placed in each packet, and how many packets of each colour will there be?",
+        "kcID": "O3NumOps",
+        "type_of_error": [
+            "HCF vs LCM Confusion",
+            "Incorrect Factorization",
+            "Misinterpretation of Packet Requirements",
+            "Arithmetic Division Error"
+        ],
+        "error_explanation": {
+            "HCF vs LCM Confusion": "Mistakenly calculating the Least Common Multiple (LCM) instead of the Highest Common Factor (HCF) to determine the largest number of marbles per packet.",
+            "Incorrect Factorization": "Listing incomplete or incorrect factors of 64 and 48, leading to an inaccurate HCF.",
+            "Misinterpretation of Packet Requirements": "Assuming packets can contain mixed colours or different quantities per packet, contrary to the problem's constraints.",
+            "Arithmetic Division Error": "Incorrectly dividing the total marbles by the HCF to find the number of packets."
+        },
+        "root_cause": {
+            "HCF vs LCM Confusion": "Confusion between scenarios requiring HCF (dividing into equal groups) and LCM (finding common multiples).",
+            "Incorrect Factorization": "Lack of systematic method (e.g., prime factorization) to list all factors accurately.",
+            "Misinterpretation of Packet Requirements": "Overlooking the phrase 'equal number of marbles of only one colour' in the question.",
+            "Arithmetic Division Error": "Rushed or careless computation when performing division."
+        },
+        "how_to_avoid": {
+            "HCF vs LCM Confusion": "Remember: HCF is used when splitting items into smaller equal groups; LCM is used for events repeating together. Verify the problem's context.",
+            "Incorrect Factorization": "Use prime factorization (e.g., 64 = 2\u2076, 48 = 2\u2074\u00d73) to identify common prime factors and compute HCF correctly.",
+            "Misinterpretation of Packet Requirements": "Highlight key phrases like 'only one colour' and 'equal number' to ensure alignment with HCF application.",
+            "Arithmetic Division Error": "Recheck division steps (e.g., 64 \u00f7 16 = 4, 48 \u00f7 16 = 3) using multiplication to verify results."
+        }
+    }
+}

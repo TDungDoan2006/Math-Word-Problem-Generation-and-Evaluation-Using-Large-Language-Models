@@ -1,0 +1,346 @@
+{
+    "P1N100": {
+        "question": "Sarah has 37 stickers and Ben has 48 stickers. How many stickers do they have altogether?",
+        "kc": "Addition of two numbers within 100",
+        "solution": {
+            "Step 1": "We need to find the total number of stickers Sarah and Ben have. We do this by adding the number of stickers Sarah has to the number of stickers Ben has.",
+            "Step 2": "Sarah has 37 stickers. Ben has 48 stickers.",
+            "Step 3": "Add the two numbers together: \n\\[ 37 + 48 = 85 \\]",
+            "Step 4": "So, Sarah and Ben have 85 stickers altogether."
+        }
+    },
+    "P1AddSub": {
+        "question": "Amir has 8 toy cars. His friend gives him 6 more toy cars. How many toy cars does Amir have now?",
+        "kc": "Addition of whole numbers",
+        "solution": {
+            "Step 1": "First, find out how many toy cars Amir had at the start.\n\n\\[\n\\text{Number of toy cars Amir had at first} = 8\n\\]",
+            "Step 2": "Next, find out how many toy cars his friend gave him.\n\n\\[\n\\text{Number of toy cars his friend gave him} = 6\n\\]",
+            "Step 3": "To find the total number of toy cars Amir has now, add the two numbers together.\n\n\\[\n8 + 6 = 14\n\\]",
+            "Step 4": "So, Amir has 14 toy cars now."
+        }
+    },
+    "P1MulDiv": {
+        "question": "Each packet contains 4 apples. Mrs Lim bought 3 packets of apples. How many apples did she buy altogether?",
+        "kc": "Multiplication as repeated addition",
+        "solution": {
+            "Step 1": "First, we need to find out how many apples are in 3 packets. Each packet has 4 apples.",
+            "Step 2": "We can use multiplication to find the total number of apples: \n\\[ 4 \\times 3 = 12 \\]",
+            "Step 3": "So, Mrs Lim bought 12 apples altogether."
+        }
+    },
+    "P1Money": {
+        "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+        "kc": "Addition of money (cents), Counting coins",
+        "solution": {
+            "Step 1": "First, find the total value of the two 20-cent coins.\n\n\\[\n20\\text{ cents} + 20\\text{ cents} = 40\\text{ cents}\n\\]",
+            "Step 2": "Next, add the value of the 50-cent coin to the 40 cents from the two 20-cent coins.\n\n\\[\n50\\text{ cents} + 40\\text{ cents} = 90\\text{ cents}\n\\]",
+            "Step 3": "So, Shawn has 90 cents altogether."
+        }
+    },
+    "P2N1000": {
+        "question": "Maya has 325 stickers. Her brother gives her 250 more stickers. How many stickers does Maya have in total now?",
+        "kc": "Addition of numbers within 1000",
+        "solution": {
+            "Step 1": "First, we need to find the total number of stickers Maya has after receiving more from her brother. We do this by adding the number of stickers she had at first to the number of stickers her brother gave her.",
+            "Step 2": "Maya's original stickers: \n\\[ 325 \\]",
+            "Step 3": "Stickers given by her brother: \n\\[ 250 \\]",
+            "Step 4": "Total number of stickers Maya has now: \n\\[ 325 + 250 = 575 \\]",
+            "Step 5": "So, Maya has \n\\[ 575 \\] stickers in total now."
+        }
+    },
+    "P2FracW": {
+        "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+        "kc": "Understanding and expressing fractions as parts of a whole.",
+        "solution": {
+            "Step 1": "First, we are told that the cake was cut into 8 equal pieces. This means the whole cake is divided into 8 parts.",
+            "Step 2": "Mdm Lim gave away 3 out of the 8 pieces to her neighbour.",
+            "Step 3": "To write this as a fraction, we put the number of pieces given away over the total number of pieces. So, the fraction is \\[ \\frac{3}{8} \\].",
+            "Step 4": "Therefore, Mdm Lim gave away \\( \\frac{3}{8} \\) of the cake to her neighbour."
+        }
+    },
+    "P2FracAS": {
+        "question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?",
+        "kc": "Addition of like fractions (Primary 2 Fractions)",
+        "solution": {
+            "Step 1": "First, we need to find out how much cake Siti ate in total. She ate one quarter in the morning and another one quarter in the afternoon. We can write this as: \n\\[ \\frac{1}{4} + \\frac{1}{4} \\]",
+            "Step 2": "Since the denominators are the same, we add the numerators: \n\\[ \\frac{1+1}{4} = \\frac{2}{4} \\]",
+            "Step 3": "Now, we simplify the fraction. Both the numerator and denominator can be divided by 2: \n\\[ \\frac{2}{4} = \\frac{1}{2} \\]",
+            "Step 4": "So, Siti ate half of the cake altogether. \n\\[ \\boxed{\\frac{1}{2}} \\]"
+        }
+    },
+    "P3N10k": {
+        "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+        "kc": "Addition of whole numbers",
+        "solution": {
+            "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823\nNumber of reference books = 2,156",
+            "Step 2": "Add the number of storybooks and reference books to find the total number of books.\n\n\\[\n7,823 + 2,156 = 9,979\n\\]",
+            "Step 3": "So, the total number of books in the library is \\( 9,979 \\)."
+        }
+    },
+    "P3FracEq": {
+        "question": "Nina ate two out of six pieces of watermelon. Her brother said that she ate one out of three pieces. Are these two fractions equivalent? Show your answer.",
+        "kc": "Fractions - Equivalence of Fractions",
+        "solution": {
+            "Step 1": "Let's write the two fractions. Nina ate two out of six pieces, so the fraction is \\( \\frac{2}{6} \\). Her brother said she ate one out of three pieces, so the fraction is \\( \\frac{1}{3} \\).",
+            "Step 2": "To check if these two fractions are equivalent, we can simplify \\( \\frac{2}{6} \\) to its simplest form. We do this by dividing both the numerator and the denominator by their greatest common factor.",
+            "Step 3": "The greatest common factor of two and six is two. So, divide both the numerator and the denominator by two:",
+            "Step 4": "\\[ \\frac{2 \\div 2}{6 \\div 2} = \\frac{1}{3} \\]",
+            "Step 5": "The simplified form of \\( \\frac{2}{6} \\) is \\( \\frac{1}{3} \\), which is the same as what her brother said.",
+            "Step 6": "Therefore, the two fractions are equivalent."
+        }
+    },
+    "P4N100k": {
+        "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+        "kc": "Addition of whole numbers up to 100,000",
+        "solution": {
+            "Step 1": "First, we need to find the total number of books after adding the new books. We do this by adding 85,960 and 9,380.",
+            "Step 2": "Let us write the addition in columns:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n+  9,380 \\\\\n\\hline\n\\end{array}\n\\]",
+            "Step 3": "We add the digits starting from the rightmost column:\n\nUnits: 0 + 0 = 0\n\nTens: 6 + 8 = 14 (write 4, carry over 1)\n\nHundreds: 9 + 3 = 12, plus 1 carried over = 13 (write 3, carry over 1)\n\nThousands: 5 + 9 = 14, plus 1 carried over = 15 (write 5, carry over 1)\n\nTen Thousands: 8 + 0 = 8, plus 1 carried over = 9",
+            "Step 4": "Now, write the answer:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n+  9,380 \\\\\n\\hline\n  95,340\n\\end{array}\n\\]",
+            "Step 5": "So, the library will have 95,340 books in total after adding the new books."
+        }
+    },
+    "P4FctorM": {
+        "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+        "kc": "Factors of a number",
+        "solution": {
+            "Step 1": "To solve this problem, we need to find all the possible numbers of chairs that can be in each row. This means we need to find all the factors of 28.",
+            "Step 2": "A factor is a number that divides exactly into another number with no remainder.",
+            "Step 3": "Let us start by dividing 28 by numbers starting from 1.",
+            "Step 4": "28 \\div 1 = 28 \\quad \\Rightarrow 1 \\text{ and } 28 \\text{ are factors.}",
+            "Step 5": "28 \\div 2 = 14 \\quad \\Rightarrow 2 \\text{ and } 14 \\text{ are factors.}",
+            "Step 6": "28 \\div 3 = 9\\text{ remainder }1 \\quad \\Rightarrow 3 \\text{ is not a factor.}",
+            "Step 7": "28 \\div 4 = 7 \\quad \\Rightarrow 4 \\text{ and } 7 \\text{ are factors.}",
+            "Step 8": "28 \\div 5 = 5\\text{ remainder }3 \\quad \\Rightarrow 5 \\text{ is not a factor.}",
+            "Step 9": "Now we have checked all numbers from 1 to 7 (since 7 \\times 4 = 28).",
+            "Step 10": "So, the factors of 28 are: 1, 2, 4, 7, 14, and 28.",
+            "Step 11": "Therefore, all the possible numbers of chairs that can be in each row are: \\[ 1,\\ 2,\\ 4,\\ 7,\\ 14,\\ 28 \\]"
+        }
+    },
+    "P44Op": {
+        "question": "A box contains 248 bookmarks. Sarah bought 3 such boxes and then gave away 95 bookmarks to her friends. How many bookmarks does Sarah have left?",
+        "kc": "Multiplication and subtraction of whole numbers",
+        "solution": {
+            "Step 1": "First, we need to find out how many bookmarks Sarah bought in total. She bought 3 boxes, and each box has 248 bookmarks. \n\n\\[\n\\text{Total bookmarks} = 248 \\times 3 = 744\n\\]",
+            "Step 2": "Next, we find out how many bookmarks Sarah has left after giving away 95 bookmarks. \n\n\\[\n\\text{Bookmarks left} = 744 - 95 = 649\n\\]",
+            "Step 3": "So, Sarah has 649 bookmarks left."
+        }
+    },
+    "P4FracMI": {
+        "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+        "kc": "Mixed numbers to improper fractions",
+        "solution": {
+            "Step 1": "First, we write the total amount of cake as a mixed number: \n\n\\[ 2 \\frac{3}{4} \\]",
+            "Step 2": "To change the mixed number to an improper fraction, we multiply the whole number by the denominator and add the numerator:\n\n\\[ (2 \\times 4) + 3 = 8 + 3 = 11 \\]",
+            "Step 3": "So, the improper fraction is:\n\n\\[ \\frac{11}{4} \\]",
+            "Step 4": "Mrs Lee baked \\( \\frac{11}{4} \\) cakes in total."
+        }
+    },
+    "P4FracSet": {
+        "question": "There are 24 apples in a box. If one third of the apples are green, how many green apples are there?",
+        "kc": "Finding a fraction of a set (P4 Level Fractions)",
+        "solution": {
+            "Step 1": "First, we need to find one third of the total number of apples. The total number of apples is 24.",
+            "Step 2": "To find one third of 24, we divide 24 by 3: \n\\[ 24 \\div 3 = 8 \\]",
+            "Step 3": "So, there are 8 green apples in the box."
+        }
+    },
+    "P4Deci3d": {
+        "question": "Muthu bought a pencil for $2.450 and an eraser for $0.650. How much did he spend altogether?",
+        "kc": "Addition of decimals (up to 3 decimal places)",
+        "solution": {
+            "Step 1": "First, write down the cost of the pencil and the eraser:\n\\[\n\\text{Cost of pencil} = 2.450\n\\]\n\\[\n\\text{Cost of eraser} = 0.650\n\\]",
+            "Step 2": "Add the two amounts together. Line up the decimal points:\n\\[\n2.450 + 0.650\n\\]",
+            "Step 3": "Add the digits in each place value:\n\\[\n\\begin{align*}\n&\\phantom{+}2.450 \\\\\n+\\ &0.650 \\\\\n\\hline\n&3.100\n\\end{align*}\n\\]",
+            "Step 4": "So, Muthu spent \\(3.100\\) altogether."
+        }
+    },
+    "P4DeciAS": {
+        "question": "Farhan bought a sandwich for $3.85 and a drink for $1.60. He paid with a $10 note. How much change did he receive?",
+        "kc": "Addition and subtraction of decimals (money), calculating change",
+        "solution": {
+            "Step 1": "First, we find the total amount Farhan spent on the sandwich and the drink. \n\n\\[ 3.85 + 1.60 = 5.45 \\]\n\nSo, Farhan spent $5.45 in total.",
+            "Step 2": "Next, we subtract the total amount spent from the amount Farhan paid, which is $10.00. \n\n\\[ 10.00 - 5.45 = 4.55 \\]\n\nSo, the change Farhan received is $4.55.",
+            "Step 3": "Final Answer: \n\nFarhan received $4.55 in change."
+        }
+    },
+    "P4DeciMD": {
+        "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+        "kc": "Multiplication of decimals; Understanding units of mass (kilograms)",
+        "solution": {
+            "Step 1": "First, we need to find the total weight by multiplying the weight of one packet by the number of packets.",
+            "Step 2": "Weight of one packet = 0.45 \\ kg",
+            "Step 3": "Number of packets = 6",
+            "Step 4": "Total weight = 0.45 \\times 6",
+            "Step 5": "Let us multiply 0.45 by 6. \\newline \\ 0.45 \\times 6 = 2.70",
+            "Step 6": "So, the total weight of 6 packets is \\boxed{2.70 \\ kg}"
+        }
+    },
+    "P5N1m": {
+        "question": "A library in Singapore has 6,250,430 books. If 2,317,549 books are borrowed, how many books are left in the library?",
+        "kc": "Subtraction of large numbers",
+        "solution": {
+            "Step 1": "To find out how many books are left in the library, we need to subtract the number of books borrowed from the total number of books.",
+            "Step 2": "Write the numbers in columns to help us subtract:\n\n\\[\n\\begin{array}{r}\n6\\ 250\\ 430 \\\\\n-2\\ 317\\ 549 \\\\\n\\hline\n\\end{array}\n\\]",
+            "Step 3": "Let us subtract starting from the rightmost digit (ones place):\n\n\\[\n6\\ 250\\ 430 - 2\\ 317\\ 549 = 3\\ 932\\ 881\n\\]",
+            "Step 4": "So, after 2,317,549 books are borrowed, there are \\(3,932,881\\) books left in the library."
+        }
+    },
+    "P5FracDv": {
+        "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+        "kc": "Division of whole numbers to get fractions (P5 Fractions)",
+        "solution": {
+            "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends.",
+            "Step 2": "To find out how much pizza each friend gets, we divide the total number of pizzas by the number of friends.",
+            "Step 3": "So, we calculate:",
+            "Step 4": "\\[ \\text{Amount each friend gets} = \\frac{3}{5} \\]",
+            "Step 5": "Each friend will get \\( \\frac{3}{5} \\) of a pizza."
+        }
+    },
+    "P5Frac4Op": {
+        "question": "Mrs Lim baked 2 and 1/4 trays of cookies. She divided the cookies equally among her 3 children. How much of a tray of cookies did each child get?",
+        "kc": "Division of mixed numbers and fractions",
+        "solution": {
+            "Step 1": "First, change the mixed number 2 and 1/4 to an improper fraction. \\[ 2\\frac{1}{4} = \\frac{2 \\times 4 + 1}{4} = \\frac{8 + 1}{4} = \\frac{9}{4} \\]",
+            "Step 2": "Now, divide \\( \\frac{9}{4} \\) by 3 to find out how much each child gets. Dividing by 3 is the same as multiplying by \\( \\frac{1}{3} \\): \\[ \\frac{9}{4} \\div 3 = \\frac{9}{4} \\times \\frac{1}{3} \\]",
+            "Step 3": "Multiply the numerators and denominators: \\[ \\frac{9 \\times 1}{4 \\times 3} = \\frac{9}{12} \\]",
+            "Step 4": "Simplify \\( \\frac{9}{12} \\) by dividing both numerator and denominator by 3: \\[ \\frac{9 \\div 3}{12 \\div 3} = \\frac{3}{4} \\]",
+            "Step 5": "So, each child gets \\( \\frac{3}{4} \\) of a tray of cookies."
+        }
+    },
+    "P5Deci4Op": {
+        "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+        "kc": "Subtraction of decimals (up to 2 decimal places)",
+        "solution": {
+            "Step 1": "First, write down the total amount of flour Mei Ling bought, which is \n\\[ 2.5 \\text{ kg} \\].",
+            "Step 2": "Next, write down the amount of flour she used, which is \n\\[ 1.75 \\text{ kg} \\].",
+            "Step 3": "To find out how much flour she has left, subtract the amount used from the total amount:\n\\[ 2.5 - 1.75 \\]",
+            "Step 4": "Line up the decimal points and subtract:\n\\[\n\\begin{align*}\n 2.50 \\\\ -1.75 \\\\\\hline\n 0.75\n\\end{align*}\n\\]",
+            "Step 5": "So, Mei Ling has \\( 0.75 \\) kg of flour left."
+        }
+    },
+    "P5perctg": {
+        "question": "A shirt usually costs $48. During a sale, the price of the shirt is reduced by 25 percent. What is the sale price of the shirt?",
+        "kc": "Percentage discount and finding the new price",
+        "solution": {
+            "Step 1": "First, we need to find out how much 25 percent of $48 is. \n\n\\[ 25\\% \\times 48 = \\frac{25}{100} \\times 48 = 0.25 \\times 48 = 12 \\]",
+            "Step 2": "This means the price is reduced by $12.",
+            "Step 3": "Now, subtract the discount from the usual price to find the sale price. \n\n\\[ 48 - 12 = 36 \\]",
+            "Step 4": "So, the sale price of the shirt is $36."
+        }
+    },
+    "P5rate": {
+        "question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?",
+        "kc": "Finding average speed using distance and time",
+        "solution": {
+            "Step 1": "First, recall the formula for average speed:\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]",
+            "Step 2": "The total distance covered is 30 kilometres and the total time taken is 2 hours.",
+            "Step 3": "Substitute the values into the formula:\n\\[\n\\text{Average speed} = \\frac{30}{2}\n\\]",
+            "Step 4": "Calculate the answer:\n\\[\n\\frac{30}{2} = 15\n\\]",
+            "Step 5": "So, the average speed of the bicycle is \\(15\\) kilometres per hour."
+        }
+    },
+    "P6ratio": {
+        "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+        "kc": "Ratio, Proportion",
+        "solution": {
+            "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+            "Step 2": "We are told there are 18 apples. To find out how many groups of 3 apples there are in 18 apples, we divide 18 by 3.",
+            "Step 3": "\\[ 18 \\div 3 = 6 \\]",
+            "Step 4": "So, there are 6 groups of 3 apples.",
+            "Step 5": "Since the ratio is 3 apples to 5 oranges, each group of 3 apples matches with 5 oranges. So, there are 6 groups of 5 oranges.",
+            "Step 6": "To find the total number of oranges, we multiply 6 by 5.",
+            "Step 7": "\\[ 6 \\times 5 = 30 \\]",
+            "Step 8": "Therefore, there are 30 oranges in the basket."
+        }
+    },
+    "P6algebr": {
+        "question": "Tom has 3m + 8 marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+        "kc": "Solving simple algebraic equations (one variable, Primary 6 level)",
+        "solution": {
+            "Step 1": "Let us start by finding out how many marbles Tom had before giving away any. Tom had 3m + 8 marbles.",
+            "Step 2": "He gives away 5 marbles. So, the number of marbles he has after giving away is:\n\n\\[ (3m + 8) - 5 \\]",
+            "Step 3": "We know he has 20 marbles left. So, we set up the equation:\n\n\\[ (3m + 8) - 5 = 20 \\]",
+            "Step 4": "Simplify the left side:\n\n\\[ 3m + 8 - 5 = 20 \\]\n\\[ 3m + 3 = 20 \\]",
+            "Step 5": "Subtract 3 from both sides to solve for 3m:\n\n\\[ 3m = 20 - 3 \\]\n\\[ 3m = 17 \\]",
+            "Step 6": "Divide both sides by 3 to find the value of m:\n\n\\[ m = \\frac{17}{3} \\]",
+            "Step 7": "So, the value of m is \\( \\frac{17}{3} \\), or 5 and \\( \\frac{2}{3} \\)."
+        }
+    },
+    "O1NumOps": {
+        "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+        "kc": "Fractions, Simplifying Fractions, Addition",
+        "solution": {
+            "Step 1": "First, find the total number of marbles in the bag.\n\n\\[\n\\text{Total number of marbles} = 80 + 120 = 200\n\\]",
+            "Step 2": "Next, write the fraction of marbles that are blue.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{200}\n\\]",
+            "Step 3": "Now, simplify the fraction. Find the greatest common factor (GCF) of 120 and 200. The GCF is 40.\n\n\\[\n\\frac{120 \\div 40}{200 \\div 40} = \\frac{3}{5}\n\\]",
+            "Step 4": "So, the fraction of marbles that are blue is \\( \\frac{3}{5} \\), in its simplest form."
+        }
+    },
+    "O1RioPro": {
+        "question": "The ratio of the number of blue pens to red pens in a box is 5 : 3. If there are 60 blue pens, how many red pens are there?",
+        "kc": "Ratio and Proportion",
+        "solution": {
+            "Step 1": "Let us write the ratio of blue pens to red pens as 5 : 3. This means for every 5 blue pens, there are 3 red pens.",
+            "Step 2": "Let the number of red pens be x.",
+            "Step 3": "We can write the ratio as a fraction: \\[\n\\frac{\\text{Number of blue pens}}{\\text{Number of red pens}} = \\frac{5}{3}\n\\]",
+            "Step 4": "We know there are 60 blue pens. So, \\[\n\\frac{60}{x} = \\frac{5}{3}\n\\]",
+            "Step 5": "Now, we solve for x by cross-multiplying: \\[\n60 \\times 3 = 5 \\times x\n\\]",
+            "Step 6": "Calculate 60 times 3: \\[\n180 = 5x\n\\]",
+            "Step 7": "Now, divide both sides by 5 to find x: \\[\nx = \\frac{180}{5}\n\\]",
+            "Step 8": "Calculate \\frac{180}{5}: \\[\nx = 36\n\\]",
+            "Step 9": "Therefore, there are 36 red pens in the box."
+        }
+    },
+    "O1RatSpd": {
+        "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+        "kc": "Average speed = Total distance divided by Total time",
+        "solution": {
+            "Step 1": "First, recall the formula for average speed:\n\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]",
+            "Step 2": "Substitute the values given in the question:\n\n\\[\n\\text{Average speed} = \\frac{144\\ \\text{km}}{2\\ \\text{hours}}\n\\]",
+            "Step 3": "Calculate the division:\n\n\\[\n\\text{Average speed} = 72\\ \\text{km/h}\n\\]",
+            "Step 4": "So, the average speed of the bus is \\( 72\\ \\text{km/h} \\)."
+        }
+    },
+    "O1AgbrEF": {
+        "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+        "kc": "Algebraic expressions; Perimeter of rectangles",
+        "solution": {
+            "Step 1": "Recall that the perimeter of a rectangle is found by adding up all the sides. A rectangle has two lengths and two widths.",
+            "Step 2": "So, the perimeter is: \n\\[ \\text{Perimeter} = \\text{length} + \\text{width} + \\text{length} + \\text{width} \\]",
+            "Step 3": "Using x for length and y for width, we can write: \n\\[ \\text{Perimeter} = x + y + x + y \\]",
+            "Step 4": "Combine like terms: \n\\[ \\text{Perimeter} = 2x + 2y \\]",
+            "Step 5": "So, the expression for the perimeter of the rectangle, in terms of x and y, is: \n\\[ 2x + 2y \\]"
+        }
+    },
+    "O1EqIneq": {
+        "question": "A mobile phone usually costs $x. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+        "kc": "Forming and solving simple equations",
+        "solution": {
+            "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+            "Step 2": "The price is reduced by 50 dollars, so the new price is \\( x - 50 \\) dollars.",
+            "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\nx - 50 = 320\n\\]",
+            "Step 4": "To find the value of \\( x \\), add 50 to both sides of the equation:\n\\[\nx = 320 + 50\n\\]",
+            "Step 5": "Calculate the value:\n\\[\nx = 370\n\\]",
+            "Step 6": "So, the usual price of the mobile phone is \\( 370 \\) dollars."
+        }
+    },
+    "O2Prob": {
+        "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+        "kc": "Basic Probability (favourable outcomes over total outcomes)",
+        "solution": {
+            "Step 1": "First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]",
+            "Step 2": "Next, we find the number of blue pens in the box:\n\\[\n3 \\text{ blue pens}\n\\]",
+            "Step 3": "The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{3}{10}\n\\]",
+            "Step 4": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{3}{10}}\n\\]"
+        }
+    },
+    "O3NumOps": {
+        "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+        "kc": "Multiplication and Subtraction of Whole Numbers",
+        "solution": {
+            "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has 25 oranges. \n\n\\[ 3 \\times 25 = 75 \\]\nSo, Shaun had 75 oranges at first.",
+            "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. We subtract the number of oranges he gave away from the total.\n\n\\[ 75 - 18 = 57 \\]\nSo, Shaun has 57 oranges left in total."
+        }
+    }
+}

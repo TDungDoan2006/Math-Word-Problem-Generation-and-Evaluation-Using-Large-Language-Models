@@ -1,0 +1,5 @@
+The question is: {question}
+The correct solution is: {model_solution}
+The worked example is: {worked_example}
+List of possible errors: {type_of_error}
+Error explanation: {error_explanation}

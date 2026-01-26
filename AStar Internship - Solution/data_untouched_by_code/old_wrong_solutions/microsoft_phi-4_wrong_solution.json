@@ -1,0 +1,62 @@
+{
+    "1": {
+        "question": "6. Find the value of \\( 2 \\div \\frac{1}{4} \\)",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "To find the value of \\( 2 \\div \\frac{1}{4} \\), we divide 2 by 4 directly. Thus, \\( 2 \\div 4 = 0.5 \\).",
+        "error_explanation": "The error here is in misunderstanding the division of fractions. Instead of multiplying by the reciprocal of \\( \\frac{1}{4} \\), which is 4, the calculation incorrectly divides 2 by 4 directly, resulting in 0.5 instead of the correct answer, 8."
+    },
+    "2": {
+        "question": "8. Express 0.965 as a percentage.",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "To convert a decimal to a percentage, divide by 100. \n**Calculation**: \n0.965 \\div 100 = 0.00965 \nAdding the percent sign gives 0.00965%. \n**Answer**: 0.00965%",
+        "error_explanation": "The error in this solution is that the decimal was divided by 100 instead of being multiplied by 100, which is the correct operation to convert a decimal to a percentage."
+    },
+    "3": {
+        "question": "Ken bought a sofa for $600 at sale and was left with $300. What percentage of his money did he spend?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "The problem states that Ken bought a sofa for **\\$600** and was left with **\\$300**. To find the percentage of his money spent:\n\n1. **Total money before purchase** = Amount spent + Amount left  \n   = \\$600 + \\$300  \n   = **\\$1200**.\n\n2. **Percentage spent** = \\(\\frac{\\text{Amount spent}}{\\text{Total money}} \\times 100\\%\\)  \n   = \\(\\frac{600}{1200} \\times 100\\%\\)  \n   = \\(\\frac{1}{2} \\times 100\\%\\)  \n   = **50%**.",
+        "error_explanation": "The error in the solution is in calculating the total money before purchase. The correct total should be $600 (amount spent) + $300 (amount left) = $900, not $1200. This mistake leads to an incorrect percentage calculation of 50% instead of the correct 66.67%."
+    },
+    "4": {
+        "question": "18. Last year, Larry\u2019s mass was 30 kg. This year, his mass decreases by 10%. What is his mass this year?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "To find Larry's current mass after a 10% decrease: \n1. **Calculate 10% of 30 kg**: \n   \\( 10\\% \\times 30 \\, \\text{kg} = 0.10 \\times 30 = 3 \\, \\text{kg} \\). \n2. **Add the decrease to the original mass**: \n   \\( 30 \\, \\text{kg} + 3 \\, \\text{kg} = 33 \\, \\text{kg} \\). \n\n**Final answer**: 33 kg.",
+        "error_explanation": "The error lies in adding the 10% decrease to the original mass instead of subtracting it. The correct operation should be subtraction to reflect a decrease in mass."
+    },
+    "5": {
+        "question": "19. Mary was given $210. She spent \\( \\frac{1}{7} \\) of it on clothes and \\( \\frac{1}{2} \\) on food. How much money did she have left?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "Mary had $210. She spent \\( \\frac{1}{7} \\) on clothes:  \n\\[ \\frac{1}{7} \\times 210 = 35 \\text{ dollars.} \\]  \nShe spent \\( \\frac{1}{2} \\) on food:  \n\\[ \\frac{1}{2} \\times 210 = 120 \\text{ dollars.} \\]  \nTotal spent:  \n\\[ 35 + 120 = 155 \\text{ dollars.} \\]  \nMoney left:  \n\\[ 210 - 155 = 55 \\text{ dollars.} \\]  \n**Final Answer:** $55",
+        "error_explanation": "The error in the solution occurs due to incorrect multiplication in calculating the amount spent on clothes and food. The fraction \\( \\frac{1}{7} \\) of $210 should be $30, not $35. Similarly, \\( \\frac{1}{2} \\) of $210 should be $105, not $120. These errors lead to incorrect total spending and the wrong amount of money left."
+    },
+    "6": {
+        "question": "Apples are sold at $3 for every 100g. Mrs Chan bought 0.7 kg of apples. How much did she pay?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "To determine how much Mrs. Chan paid for 0.7 kg of apples priced at $3 per 100g:\n\n1. **Convert kilograms to grams**: \n   \\( 0.7 \\, \\text{kg} = 0.7 \\times 1000 \\, \\text{g} = 700 \\, \\text{g} \\).\n\n2. **Calculate the number of 100g portions in 700g**: \n   \\( \\frac{700 \\, \\text{g}}{100 \\, \\text{g/portion}} = 70 \\, \\text{portions} \\).\n\n3. **Multiply by the cost per portion**: \n   \\( 70 \\times \\$3 = \\$210 \\). \n\n**Final Answer**: $210",
+        "error_explanation": "The error occurred in step 2 where the division was incorrectly calculated as 70 portions instead of 7 portions. This led to an incorrect multiplication in step 3, resulting in a final answer of $210 instead of the correct $21."
+    },
+    "7": {
+        "question": "Use the digits below to form the smallest 5-digit even number. Each digit can only be used once.\nDigits: 4, 6, 1, 9, 0",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "To form the smallest 5-digit even number using the digits 4, 6, 1, 9, 0 (each used once):\n\n1. **Identify possible last digits** (even digits: 0, 4, 6). \n2. **Choose the largest possible number**: \n   - If the last digit is **9**, the remaining digits (0, 1, 4, 6) form **6410**, giving **64109**. \n   - If the last digit is **6**, the remaining digits (0, 1, 4, 9) form **9410**, giving **94106**. \n   - If the last digit is **4**, the remaining digits (0, 1, 6, 9) form **9610**, giving **96104**. \n3. **Compare results**: \n   - **64109** (largest) > 94106 > 96104. \n\n**Final Answer**: \nThe smallest 5-digit even number is **64109**.",
+        "error_explanation": "The error lies in the approach of choosing the largest possible number instead of the smallest. The last digit should be an even number, and the remaining digits should be arranged in ascending order to form the smallest possible number."
+    },
+    "8": {
+        "question": "25. A television cost $108 more than a lamp. If I paid a total of $288 for the television and the lamp, how much did the lamp cost?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "Let the cost of the lamp be \\( L \\). \n\nThe television costs \\( L + \\$108 \\). \n\nTotal cost equation: \n\\[ L + (L + 108) = 288 \\] \n\nSimplify: \n\\[ 2L + 108 = 288 \\] \n\nSubtract 108 from both sides: \n\\[ 2L = 180 \\] \n\nDivide by 3 (incorrect division): \n\\[ L = 60 \\] \n\n**Final Answer:** \nThe lamp cost \\(\\boxed{60}\\) dollars.",
+        "error_explanation": "The error in this solution is in the division step. Instead of dividing by 2 to solve for \\( L \\), the solution incorrectly divides by 3, leading to the wrong answer of 60 dollars."
+    },
+    "9": {
+        "question": "Karen collected some empty cans. She gave away 48 of them for recycling and had \\( \\frac{4}{7} \\) of them left. How many cans did Karen collect?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "Karen gave away 48 cans, which represents \\( \\frac{4}{7} \\) of the total cans. Let \\( x \\) be the total number of cans.\n\n\\[\n\\frac{4}{7}x = 48\n\\]\n\nSolving for \\( x \\):\n\\[\nx = 48 \\times \\frac{7}{4} = 84\n\\]\n\n**Answer:** Karen collected **84** cans.",
+        "error_explanation": "The error in this solution is that it incorrectly assumes that the 48 cans given away represent \\( \\frac{4}{7} \\) of the total cans, rather than \\( \\frac{3}{7} \\). The correct fraction should be \\( \\frac{3}{7} \\) because the remaining cans are \\( \\frac{4}{7} \\) of the total."
+    },
+    "10": {
+        "question": "29. Siti loves kite flying. After school, she spent 45 min at the park to fly her kite and left at 3.35 p.m. At what time did she arrive at the park?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "Siti left the park at 3:35 p.m. after spending 45 minutes there. To find her arrival time, add 45 minutes to 3:35 p.m.: \n\n- **3:35 p.m. + 45 minutes = 4:20 p.m.**\n\n**Final Answer:** \nShe arrived at the park at $\\boxed{4{:}20\\ \\text{p.m.}}$",
+        "error_explanation": "The error in this solution is that instead of subtracting 45 minutes from 3:35 p.m. to find the arrival time, 45 minutes were incorrectly added to 3:35 p.m. This resulted in an incorrect arrival time of 4:20 p.m. instead of the correct time of 2:50 p.m."
+    }
+}

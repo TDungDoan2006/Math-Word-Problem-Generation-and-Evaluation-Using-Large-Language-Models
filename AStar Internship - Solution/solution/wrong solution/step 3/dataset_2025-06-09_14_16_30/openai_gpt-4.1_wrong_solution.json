@@ -1,0 +1,778 @@
+{
+    "P4DeciAS": {
+        "Value Context Error": {
+            "question": "Farhan bought a sandwich for \\$3.85 and a drink for \\$1.60. He paid with a \\$10 note. How much change did he receive?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, we add the price of the sandwich and the drink incorrectly, by switching the values. \n\n\\[ 3.85 - 1.60 = 2.25 \\]\n\nSo, Farhan spent $2.25 in total.",
+                "Step 2": "Next, we subtract the total amount spent from the amount Farhan paid, which is $10.00. \n\n\\[ 10.00 - 2.25 = 7.75 \\]\n\nSo, the change Farhan received is $7.75.",
+                "Step 3": "Final Answer: \n\nFarhan received $7.75 in change."
+            },
+            "wrong_steps": {
+                "Step 1": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of correctly adding the price of the sandwich and the drink to find the total spent, the solution subtracts the price of the drink from the sandwich, misunderstanding the value context required. This leads to an incorrect total spent, and thus an incorrect calculation of the change."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Value Context Error"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Farhan bought a sandwich for $3.85 and a drink for $1.60. He paid with a $10 note. How much change did he receive?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, we find the total amount Farhan spent on the sandwich and the drink. \n\n\\[ 3.85 + 1.60 = 5.45 \\]\n\nSo, Farhan spent $5.45 in total.",
+                "Step 2": "Assume there was a service charge of $2.00 added to the bill. \n\n\\[ 5.45 + 2.00 = 7.45 \\]\n\nSo, the total amount to be paid is $7.45.",
+                "Step 3": "Next, we subtract the total amount (including the assumed service charge) from the amount Farhan paid, which is $10.00. \n\n\\[ 10.00 - 7.45 = 2.55 \\]\n\nSo, the change Farhan received is $2.55.",
+                "Step 4": "Final Answer: \n\nFarhan received $2.55 in change."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "The solution incorrectly assumed there was a $2.00 service charge, which was not stated in the question. This added information changes the total amount spent and leads to the wrong answer for the change received."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Contradictory Step": {
+            "question": "Farhan bought a sandwich for $3.85 and a drink for $1.60. He paid with a $10 note. How much change did he receive?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, we find the total amount Farhan spent on the sandwich and the drink.\n\n\\[ 3.85 + 1.60 = 5.45 \\]\n\nSo, Farhan spent $5.45 in total.",
+                "Step 2": "Next, we subtract the total amount spent from the amount Farhan paid, which is $10.00.\n\n\\[ 10.00 - 3.85 = 6.15 \\]\n\nSo, the change Farhan received is $6.15.",
+                "Step 3": "Final Answer: \n\nFarhan received $6.15 in change."
+            },
+            "wrong_steps": {
+                "Step 2": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of subtracting the correct total spent ($5.45) from $10, the solution wrongly used only the sandwich price ($3.85), ignoring the addition made in Step 1. This contradicts the previous calculation."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Contradictory Step"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Farhan bought a sandwich for $3.85 and a drink for $1.60. He paid with a $10 note. How much change did he receive?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Farhan bought a sandwich for $3.85. \n\n\\[ 10.00 - 3.85 = 6.15 \\]\n\nSo, the change Farhan received is $6.15.",
+                "Step 2": "Final Answer: \n\nFarhan received $6.15 in change."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The solution did not include the cost of the drink ($1.60) and only subtracted the sandwich price from $10. This ignores part of the spending required to correctly answer the question."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        },
+        "Misinterpreting Comparison Order": {
+            "question": "Farhan bought a sandwich for \\$3.85 and a drink for \\$1.60. He paid with a \\$10 note. How much change did he receive?",
+            "type_of_error": "Misinterpreting Comparison Order",
+            "wrong_solution": {
+                "Step 1": "First, we find the total amount Farhan spent on the sandwich and the drink. \n\n\\[ 3.85 + 1.60 = 5.45 \\]\n\nSo, Farhan spent $5.45 in total.",
+                "Step 2": "Next, we subtract the amount Farhan paid from the total amount spent: \n\n\\[ 5.45 - 10.00 = -4.55 \\]\n\nSo, the change Farhan received is -$4.55.",
+                "Step 3": "Final Answer: \n\nFarhan received -$4.55 in change."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting Comparison Order"
+            },
+            "error_explanation": {
+                "Step 2": "The student subtracted the amount paid from the amount spent (5.45 - 10.00) instead of subtracting the amount spent from the amount paid (10.00 - 5.45). This led to a negative value, which does not make sense in the context of calculating change."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting Comparison Order"
+            }
+        }
+    },
+    "O3NumOps": {
+        "Contradictory Step": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has 25 oranges.\n\n\\[ 3 \\times 25 = 75 \\]\nSo, Shaun had 75 oranges at first.",
+                "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. We add the number of oranges he gave away to the total, instead of subtracting.\n\n\\[ 75 + 18 = 93 \\]\nSo, Shaun has 93 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 2": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of subtracting the 18 oranges that Shaun gave away, the student added 18 to the total, which contradicts the action of giving away oranges. This leads to an answer greater than the original total, which is not possible in this scenario."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Contradictory Step"
+            }
+        },
+        "Calculation Error": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has 25 oranges. \n\n\\[ 3 \\times 25 = 85 \\]\nSo, Shaun had 85 oranges at first.",
+                "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. We subtract the number of oranges he gave away from the total.\n\n\\[ 85 - 18 = 67 \\]\nSo, Shaun has 67 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 1": "The multiplication was done incorrectly. 3 x 25 should be 75, not 85. This leads to an incorrect total for the rest of the solution."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Calculation Error"
+            }
+        },
+        "Confusing HCF with LCM": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Confusing HCF with LCM",
+            "wrong_solution": {
+                "Step 1": "First, let's find the Least Common Multiple (LCM) of the number of boxes and oranges per box: \n\n\\[ \\operatorname{LCM}(3, 25) = 75 \\]\n",
+                "Step 2": "Now, subtract the 18 oranges given away: \n\n\\[ 75 - 18 = 57 \\]\nSo, Shaun has 57 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Confusing HCF with LCM"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of multiplying the number of boxes by the number of oranges per box (which gives the total oranges), the student incorrectly finds the Least Common Multiple (LCM), which is unrelated to the context of counting total oranges."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Confusing HCF with LCM"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has 25 oranges.\n\n\\[ 3 \\times 25 = 75 \\]\nSo, Shaun had 75 oranges at first.",
+                "Step 2": "Since he gives away 18 oranges from one of the boxes, I will assume he also accidentally drops 5 more oranges while giving them away.\n\nTotal oranges lost: \\[ 18 + 5 = 23 \\]",
+                "Step 3": "Now, subtract the total oranges lost from the original total:\n\n\\[ 75 - 23 = 52 \\]\nSo, Shaun has 52 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "The step introduces an extra assumption that Shaun dropped additional oranges, which was not stated in the question. The solution should only consider the 18 oranges given away, as mentioned in the problem."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Missing Step": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Shaun gave away 18 oranges from one of the boxes. \\[ 75 - 18 = 57 \\] So, Shaun has 57 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The solution skips calculating the total number of oranges at the start (3 boxes of 25 oranges each). Instead, it uses 75 directly without showing how that number came from the question, which is a missing step."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        }
+    },
+    "P5N1m": {
+        "Omission of Trailing Zeros": {
+            "question": "A library in Singapore has 6,250,430 books. If 2,317,549 books are borrowed, how many books are left in the library?",
+            "type_of_error": "Omission of Trailing Zeros",
+            "wrong_solution": {
+                "Step 1": "To find out how many books are left in the library, we need to subtract the number of books borrowed from the total number of books.",
+                "Step 2": "Ignore the trailing zero in each number and write them:\n\n\\[\n\\begin{array}{r}\n6\\ 250\\ 43 \\\\\n-2\\ 317\\ 549 \\\\\n\\hline\n\\end{array}\n\\]",
+                "Step 3": "Subtract starting from the rightmost digit:\n\n\\[\n6\\ 250\\ 43 - 2\\ 317\\ 549 = 3\\ 932\\ 494\n\\]",
+                "Step 4": "So, after 2,317,549 books are borrowed, there are \\(3,932,494\\) books left in the library."
+            },
+            "wrong_steps": {
+                "Step 2": "Omission of Trailing Zeros"
+            },
+            "error_explanation": {
+                "Step 2": "The student removed the trailing zero from 6,250,430, writing it as 6,250,43. This changes the value of the number, resulting in an incorrect subtraction and final answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Omission of Trailing Zeros"
+            }
+        },
+        "Place Value and Alignment Error": {
+            "question": "A library in Singapore has 6,250,430 books. If 2,317,549 books are borrowed, how many books are left in the library?",
+            "type_of_error": "Place Value and Alignment Error",
+            "wrong_solution": {
+                "Step 1": "To find out how many books are left in the library, we need to subtract the number of books borrowed from the total number of books.",
+                "Step 2": "Let's write the numbers for subtraction:\n\n\\[\n\\begin{array}{r}\n6\\ 250\\ 430 \\\\\n-2\\ 317\\ 549 \\\\\n\\hline\n\\end{array}\n\\]",
+                "Step 3": "Now, let's subtract each column, but this time, we accidentally misalign the digits and subtract 2,317,549 as if it were 23,175,49 (missing the millions' place):\n\n\\[\n6\\ 250\\ 430 - 231\\ 754 = 6\\ 018\\ 676\n\\]",
+                "Step 4": "So, after 2,317,549 books are borrowed, there are \\(6,018,676\\) books left in the library."
+            },
+            "wrong_steps": {
+                "Step 3": "Place Value and Alignment Error"
+            },
+            "error_explanation": {
+                "Step 3": "In this step, the digits of 2,317,549 were not properly aligned with those of 6,250,430. The borrowed number was treated as 231,754 instead of 2,317,549, resulting in subtracting from the wrong place values and giving an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Place Value and Alignment Error"
+            }
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "A library in Singapore has 6,250,430 books. If 2,317,549 books are borrowed, how many books are left in the library?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "I do not know how many books are left after some are borrowed because the question does not tell me if any books were returned. So, I cannot solve this problem."
+            },
+            "wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            },
+            "error_explanation": {
+                "Step 1": "This response shows a lack of common sense knowledge because the student fails to understand that 'books borrowed' simply means those books are no longer in the library, and the question does not require information about books being returned. The student is unable to proceed due to overcomplicating or misunderstanding the context."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            }
+        },
+        "Calculation Error": {
+            "question": "A library in Singapore has 6,250,430 books. If 2,317,549 books are borrowed, how many books are left in the library?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "To find out how many books are left in the library, we need to subtract the number of books borrowed from the total number of books.",
+                "Step 2": "Write the numbers in columns to help us subtract:\n\n\\[\n\\begin{array}{r}\n6\\ 250\\ 430 \\\\\n-2\\ 317\\ 549 \\\\\n\\hline\n\\end{array}\n\\]",
+                "Step 3": "Let us subtract starting from the rightmost digit (ones place):\n\n\\[\n6\\ 250\\ 430 - 2\\ 317\\ 549 = 3\\ 933\\ 991\n\\]",
+                "Step 4": "So, after 2,317,549 books are borrowed, there are \\(3,933,991\\) books left in the library."
+            },
+            "wrong_steps": {
+                "Step 3": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 3": "Although the operation performed is correct (subtraction), the calculation of 6,250,430 - 2,317,549 is incorrect. The correct difference should be 3,932,881, but the answer given is 3,933,991."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Calculation Error"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "A library in Singapore has 6,250,430 books. If 2,317,549 books are borrowed, how many books are left in the library?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "To find out how many books are left in the library, we need to subtract the number of books borrowed from the total number of books. Let's assume that 100,000 new books were also added to the library at the same time.",
+                "Step 2": "Add the new books to the total before subtracting:\n\n\\[\n6\\ 250\\ 430 + 100\\ 000 = 6\\ 350\\ 430\n\\]",
+                "Step 3": "Now subtract the number of books borrowed:\n\n\\[\n6\\ 350\\ 430 - 2\\ 317\\ 549 = 4\\ 032\\ 881\n\\]",
+                "Step 4": "So, after 2,317,549 books are borrowed and 100,000 new books are added, there are \\(4,032,881\\) books left in the library."
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The question does not mention that any new books were added to the library. Adding 100,000 books is an assumption not supported by the problem statement, which leads to an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        }
+    },
+    "P3N10k": {
+        "Incorrect Copying of Numbers": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,283\nNumber of reference books = 2,156",
+                "Step 2": "Add the number of storybooks and reference books to find the total number of books.\n\n\\[\n7,283 + 2,156 = 9,439\n\\]",
+                "Step 3": "So, the total number of books in the library is \\( 9,439 \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The number of storybooks was incorrectly copied as 7,283 instead of 7,823 from the question, leading to an incorrect total."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823\nNumber of reference books = 2,156",
+                "Step 2": "Assume that 500 of the reference books are actually counted as part of the storybooks by mistake, so only count 1,656 reference books.",
+                "Step 3": "Add the number of storybooks and reference books (after the adjustment):\n\n\\[\n7,823 + 1,656 = 9,479\n\\]",
+                "Step 4": "So, the total number of books in the library is \\( 9,479 \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "This step wrongly assumes that 500 reference books should not be counted, but the question does not mention anything about excluding or reclassifying any books. All storybooks and reference books should be counted in the total."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Value Context Error": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823\nNumber of reference books = 2,156",
+                "Step 2": "Instead of adding, subtract the number of reference books from the number of storybooks to find the total number of books.\n\n\\[\n7,823 - 2,156 = 5,667\n\\]",
+                "Step 3": "So, the total number of books in the library is \\( 5,667 \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "The student misunderstood the context and subtracted the number of reference books from storybooks instead of adding. The question asks for the total, which requires addition, not subtraction."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823\nNumber of reference books = 2,156",
+                "Step 2": "Instead of adding, subtract the number of reference books from the number of storybooks to find the total number of books.\n\n\\[\n7,823 - 2,156 = 5,667\n\\]",
+                "Step 3": "So, the total number of books in the library is \\( 5,667 \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 2": "The student used subtraction instead of addition. The question requires finding the total number of books, which means adding both quantities, not subtracting one from the other."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Key Information": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks in the library.\n\nNumber of storybooks = 7,823",
+                "Step 2": "The total number of books in the library is \\( 7,823 \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The student missed out the number of reference books when calculating the total number of books. Only the storybooks are counted, ignoring the reference books given in the question."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        }
+    },
+    "P6algebr": {
+        "Missing Key Information": {
+            "question": "Tom has \\(3m + 8\\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Tom now has 20 marbles left. We need to find the value of m in the expression \\(3m + 8\\).",
+                "Step 2": "Set up the equation: \\[3m + 8 = 20\\]",
+                "Step 3": "Subtract 8 from both sides: \\[3m = 20 - 8\\]\\[3m = 12\\]",
+                "Step 4": "Divide both sides by 3: \\[m = \\frac{12}{3}\\]\\[m = 4\\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The solution did not include the key information that Tom gave away 5 marbles. The equation should have accounted for Tom giving away 5 marbles before he had 20 left, but the student directly set \\(3m + 8 = 20\\), missing out the subtraction of 5 marbles."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Tom has \\(3m + 8\\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "Let us start by finding out how many marbles Tom had before giving any away. Tom had \\(3m + 8\\) marbles.",
+                "Step 2": "He gives away 8 marbles. So, the number of marbles he has after giving away is:\n\n\\[ (3m + 8) - 8 \\]",
+                "Step 3": "We know he has 20 marbles left. So, we set up the equation:\n\n\\[ (3m + 8) - 8 = 20 \\]",
+                "Step 4": "Simplify the left side:\n\n\\[ 3m + 8 - 8 = 20 \\]\n\\[ 3m = 20 \\]",
+                "Step 5": "Divide both sides by 3 to find the value of m:\n\n\\[ m = \\frac{20}{3} \\]",
+                "Step 6": "So, the value of m is \\( \\frac{20}{3} \\), or 6 and \\( \\frac{2}{3} \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of subtracting 5 marbles (the number actually given away), 8 marbles was incorrectly used from the original expression. This leads to the wrong equation and answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            }
+        },
+        "Missing Step": {
+            "question": "Tom has \\(3m + 8\\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Let us start by finding out how many marbles Tom had before giving away any. Tom had \\(3m + 8\\) marbles.",
+                "Step 2": "He gives away 5 marbles. So, the number of marbles he has after giving away is:",
+                "Step 3": "\\[ 3m + 3 = 20 \\]",
+                "Step 4": "Subtract 3 from both sides to solve for 3m:\n\n\\[ 3m = 20 - 3 \\]\n\\[ 3m = 17 \\]",
+                "Step 5": "Divide both sides by 3 to find the value of m:\n\n\\[ m = \\frac{17}{3} \\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 3": "The solution skips directly to the simplified equation \\(3m + 3 = 20\\) without showing the setup from the question, which should have been \\((3m + 8) - 5 = 20\\) before simplifying. This missing step makes the logic unclear for students following the solution."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Missing Step"
+            }
+        },
+        "Misunderstanding Total Boxes": {
+            "question": "Tom has \\( 3m + 8 \\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+            "type_of_error": "Misunderstanding Total Boxes",
+            "wrong_solution": {
+                "Step 1": "Let us start by finding out how many marbles Tom had before giving away any. Tom had \\( 3m + 8 \\) marbles.",
+                "Step 2": "He gives away 5 marbles. So, we subtract 5 from only the constant term: \n\n\\[ 3m + (8 - 5) \\]",
+                "Step 3": "We know he has 20 marbles left. So, we set up the equation: \n\n\\[ 3m + (8 - 5) = 20 \\]",
+                "Step 4": "Simplify the left side: \n\n\\[ 3m + 3 = 20 \\]",
+                "Step 5": "Subtract 3 from both sides: \n\n\\[ 3m = 20 - 3 \\]\n\\[ 3m = 17 \\]",
+                "Step 6": "Divide both sides by 3: \n\n\\[ m = \\frac{17}{3} \\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Misunderstanding Total Boxes"
+            },
+            "error_explanation": {
+                "Step 2": "The error here is that the student subtracted 5 only from the constant 8 instead of subtracting 5 from the entire expression \\( 3m + 8 \\). The correct way is to subtract 5 from the whole number of marbles, not just from the constant term."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misunderstanding Total Boxes"
+            }
+        },
+        "Value Context Error": {
+            "question": "Tom has \\(3m + 8\\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of \\(m\\)?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Let us start by finding out how many marbles Tom had before giving away any. Tom had \\(3m + 8\\) marbles.",
+                "Step 2": "He gives away 5 marbles. So, the number of marbles he has after giving away is:\n\n\\[ (3m + 8) + 5 \\]",
+                "Step 3": "We know he has 20 marbles left. So, we set up the equation:\n\n\\[ (3m + 8) + 5 = 20 \\]",
+                "Step 4": "Simplify the left side:\n\n\\[ 3m + 8 + 5 = 20 \\]\n\\[ 3m + 13 = 20 \\]",
+                "Step 5": "Subtract 13 from both sides to solve for 3m:\n\n\\[ 3m = 20 - 13 \\]\n\\[ 3m = 7 \\]",
+                "Step 6": "Divide both sides by 3 to find the value of m:\n\n\\[ m = \\frac{7}{3} \\]",
+                "Step 7": "So, the value of m is \\( \\frac{7}{3} \\), or 2 and \\( \\frac{1}{3} \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "The error is in the way the number of marbles Tom has after giving away is represented; instead of subtracting 5 from the total, 5 was added. This shows a misunderstanding of the context, as 'giving away' should reduce the number, not increase it."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        }
+    },
+    "P2FracAS": {
+        "Calculation Error": {
+            "question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, we need to find out how much cake Siti ate in total. She ate one quarter in the morning and another one quarter in the afternoon. We can write this as: \n\\[ \\frac{1}{4} + \\frac{1}{4} \\]",
+                "Step 2": "Since the denominators are the same, we add the numerators: \n\\[ \\frac{1+1}{4} = \\frac{1}{4} \\]",
+                "Step 3": "So, Siti ate one quarter of the cake altogether. \n\\[ \\boxed{\\frac{1}{4}} \\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of adding the numerators correctly (1+1=2), the answer remains as 1, so \\(\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{4}\\) is incorrect. The numerators should have been added to get 2, resulting in \\(\\frac{2}{4}\\)."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, we see that Siti ate one quarter in the morning and one quarter in the afternoon. Add them together:\n\\[ \\frac{1}{4} + \\frac{1}{4} \\]",
+                "Step 2": "Each quarter is a different part of the cake. So, we think: \\[ \\frac{1}{4} + \\frac{1}{4} = \\frac{2}{4} \\]",
+                "Step 3": "But since she ate the quarters at different times, the cake is completed twice. So we multiply: \\[ 2 \\times 1 = 2 \\]",
+                "Step 4": "So, Siti ate 2 cakes altogether. \\[ \\boxed{2} \\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 3": "The student incorrectly interpreted the sum of two quarters as eating 'the cake' twice, rather than understanding that both fractions refer to the same single cake. Instead of multiplying or counting the whole cake twice, the student should have simply added the fractions. This demonstrates a misunderstanding of the context of the values in the problem."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Siti ate one quarter of the cake in the morning. \n\\[ \\frac{1}{4} \\]",
+                "Step 2": "Therefore, Siti ate a total of \\[ \\boxed{\\frac{1}{4}} \\] of the cake altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The solution only considered the amount Siti ate in the morning and ignored the one quarter she ate in the afternoon, missing key information from the question. The total should be both parts added together."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, we need to find out how much cake Siti ate in total. She ate one third in the morning and another one third in the afternoon. We can write this as:\n\\[ \\frac{1}{3} + \\frac{1}{3} \\]",
+                "Step 2": "Since the denominators are the same, we add the numerators:\n\\[ \\frac{1+1}{3} = \\frac{2}{3} \\]",
+                "Step 3": "So, Siti ate two thirds of the cake altogether.\n\\[ \\boxed{\\frac{2}{3}} \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The question stated that Siti ate one quarter in the morning and another one quarter in the afternoon, but instead, one third was written and used in the calculation. This leads to an incorrect final answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        },
+        "Arithmetic Error in Fraction Addition": {
+            "question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?",
+            "type_of_error": "Arithmetic Error in Fraction Addition",
+            "wrong_solution": {
+                "Step 1": "First, we need to add the fractions for the morning and afternoon: \n\\[ \\frac{1}{4} + \\frac{1}{4} \\]",
+                "Step 2": "Add the numerators and denominators:\n\\[ \\frac{1+1}{4+4} = \\frac{2}{8} \\]",
+                "Step 3": "Simplify the fraction:\n\\[ \\frac{2}{8} = \\frac{1}{4} \\]",
+                "Step 4": "So, Siti ate one quarter of the cake altogether.\n\\[ \\boxed{\\frac{1}{4}} \\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Arithmetic Error in Fraction Addition"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly added the denominators as well as the numerators when adding fractions. When adding fractions with the same denominator, you should only add the numerators and keep the denominator the same."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Arithmetic Error in Fraction Addition"
+            }
+        }
+    },
+    "P6ratio": {
+        "Calculation Error": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "We are told there are 18 apples. To find out how many groups of 3 apples there are in 18 apples, we divide 18 by 3.",
+                "Step 3": "\\[ 18 \\div 3 = 5 \\]",
+                "Step 4": "So, there are 5 groups of 3 apples.",
+                "Step 5": "Since the ratio is 3 apples to 5 oranges, each group of 3 apples matches with 5 oranges. So, there are 5 groups of 5 oranges.",
+                "Step 6": "To find the total number of oranges, we multiply 5 by 5.",
+                "Step 7": "\\[ 5 \\times 5 = 25 \\]",
+                "Step 8": "Therefore, there are 25 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 3": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 3": "The error happened during the calculation of 18 divided by 3. The student wrote 18 \\div 3 = 5, when the correct answer should be 6. This mistake led to the wrong total for the number of oranges."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Calculation Error"
+            }
+        },
+        "Contradictory Step": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "We are told there are 18 apples. To find out how many groups of 3 apples there are in 18 apples, we divide 18 by 3.",
+                "Step 3": "\\[ 18 \\div 3 = 6 \\]",
+                "Step 4": "So, there are 6 groups of 3 apples.",
+                "Step 5": "Since the ratio is 3 apples to 5 oranges, each group of 3 apples matches with 5 oranges. So, there are 6 groups of 5 oranges.",
+                "Step 6": "To find the total number of oranges, we multiply 6 by 3.",
+                "Step 7": "\\[ 6 \\times 3 = 18 \\]",
+                "Step 8": "Therefore, there are 18 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 6": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 6": "The student should multiply the number of groups (6) by 5 (the number of oranges per group), but instead multiplies by 3, which contradicts the ratio and the result of the previous step about oranges. This leads to an incorrect final answer."
+            },
+            "all_wrong_steps": {
+                "Step 6": "Contradictory Step"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "We are told there are 18 apples. To find out how many oranges there are, we divide 18 by 5.",
+                "Step 3": "\\[ 18 \\div 5 = 3.6 \\]",
+                "Step 4": "So, there are 3.6 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 2": "The wrong operation was used in Step 2. The student divided the number of apples (18) by 5 (the orange unit in the ratio) instead of dividing by 3 (the apple unit in the ratio) to find the number of groups. This results in an incorrect number of oranges."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "We are told there are 15 apples. To find out how many groups of 3 apples there are in 15 apples, we divide 15 by 3.",
+                "Step 3": "\\[ 15 \\div 3 = 5 \\]",
+                "Step 4": "So, there are 5 groups of 3 apples.",
+                "Step 5": "Since the ratio is 3 apples to 5 oranges, each group of 3 apples matches with 5 oranges. So, there are 5 groups of 5 oranges.",
+                "Step 6": "To find the total number of oranges, we multiply 5 by 5.",
+                "Step 7": "\\[ 5 \\times 5 = 25 \\]",
+                "Step 8": "Therefore, there are 25 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 2": "The number of apples given in the question is 18, but 15 was used instead. This leads to all subsequent calculations being based on the wrong quantity, resulting in an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            }
+        },
+        "Incorrect Application of Ratio": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Incorrect Application of Ratio",
+            "wrong_solution": {
+                "Step 1": "The ratio of apples to oranges is 3 : 5. Since there are 18 apples, we just add 5 to 18 to get the number of oranges.",
+                "Step 2": "\\[ 18 + 5 = 23 \\]",
+                "Step 3": "Therefore, there are 23 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Application of Ratio"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly adds 5 (the ratio number for oranges) to the number of apples instead of properly using the ratio relationship. The correct approach is to see how many groups of 3 apples are in 18 and multiply that by 5, not simply add 5 to 18."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Application of Ratio"
+            }
+        }
+    },
+    "O1EqIneq": {
+        "Contradictory Step": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of \\( x \\).",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50 dollars, so the new price is \\( x - 50 \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\nx + 50 = 320\n\\]",
+                "Step 4": "To find the value of \\( x \\), subtract 50 from both sides of the equation:\n\\[\nx = 320 - 50\n\\]",
+                "Step 5": "Calculate the value:\n\\[\nx = 270\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( 270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "In Step 3, the equation \\( x + 50 = 320 \\) contradicts the previous information that the price is reduced by 50, not increased. The correct equation should be \\( x - 50 = 320 \\) since the phone was reduced in price."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        },
+        "Incorrect Algebraic Manipulation": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Incorrect Algebraic Manipulation",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50 dollars, so the new price is \\( x - 50 \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\nx - 50 = 320\n\\]",
+                "Step 4": "To find the value of \\( x \\), subtract 50 from both sides of the equation:\n\\[\nx = 320 - 50\n\\]",
+                "Step 5": "Calculate the value:\n\\[\nx = 270\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( 270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 4": "Incorrect Algebraic Manipulation"
+            },
+            "error_explanation": {
+                "Step 4": "Instead of adding 50 to both sides to isolate \\( x \\), the student incorrectly subtracted 50 from 320, leading to the wrong value for \\( x \\)."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Incorrect Algebraic Manipulation"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of \\( x \\).",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "Assume there is an additional service charge of 30 dollars added during the sale.",
+                "Step 3": "So, the new price after reduction and adding the service charge is \\( x - 50 + 30 \\) dollars.",
+                "Step 4": "We are told that the new price is 320 dollars. Write the equation:\n\\[\nx - 50 + 30 = 320\n\\]",
+                "Step 5": "Simplify the equation:\n\\[\nx - 20 = 320\n\\]",
+                "Step 6": "Add 20 to both sides to find \\( x \\):\n\\[\nx = 320 + 20\n\\]",
+                "Step 7": "Calculate the value:\n\\[\nx = 340\n\\]",
+                "Step 8": "So, the usual price of the mobile phone is \\( 340 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "This step incorrectly assumes there is an additional service charge, which is not mentioned in the question. This invalid assumption changes the equation and leads to the wrong answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "Since we do not know the usual price, we cannot form an equation with the given information. Therefore, it is not possible to find the value of \\( x \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Lack Common Sense Knowledge"
+            },
+            "error_explanation": {
+                "Step 2": "The student does not realize that the information given is sufficient to form an equation and solve for \\( x \\), and instead incorrectly states that the value cannot be found. This shows a lack of common sense knowledge in connecting the reduction and final price."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Lack Common Sense Knowledge"
+            }
+        },
+        "Wrong Equation Formed (Incorrect Translation or Grouping)": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of \\( x \\).",
+            "type_of_error": "Wrong Equation Formed (Incorrect Translation or Grouping)",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50 dollars, so the new price is \\( 50 - x \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\n50 - x = 320\n\\]",
+                "Step 4": "To find the value of \\( x \\), subtract 50 from both sides of the equation:\n\\[\n-x = 320 - 50\n\\]",
+                "Step 5": "Calculate the value:\n\\[\n-x = 270 \\Rightarrow x = -270\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( -270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Equation Formed (Incorrect Translation or Grouping)"
+            },
+            "error_explanation": {
+                "Step 2": "The operation to represent a reduction should be subtraction from the original price: \\( x - 50 \\), not \\( 50 - x \\). The student's equation reverses the operation, leading to a negative value and an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Equation Formed (Incorrect Translation or Grouping)"
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+Definition of SOLO's taxonomy:
+1. Pre structural level
+This is the initial stage, also known as the incompetent stage, where the learner does not know about the task or subject. At this particular stage, the student gets unconnected information, which makes no sense or organization. Therefore, the student is unable to understand the information and does not demonstrate any understanding either.
+
+2. Unistructural level
+At this stage, the learner gets to know just a single relevant aspect of a task or subject; the student gets a basic understanding of a concept or task. Therefore, a student is able to make easy and apparent connections, but he or she does not have any idea how significant that information be or not. In addition, the students’ response indicates a concrete understanding of the task, but it focuses on only one relevant aspect.
+
+3. Multistructural level
+At this stage, students gain an understanding of numerous relevant independent aspects. Despite understanding the relationship between different aspects, its relationship to the whole remains unclear. Suppose the teacher is teaching about several topics and ideas, the students can make varied connections, but they fail to understand the significance of the whole. The students’ responses are based on relevant aspects, but their responses are handled independently.
+
+4. Relational level
+This stage relates to aspects of knowledge combining to form a structure. By this stage, the student is able to understand the importance of different parts in relation to the whole. They are able to connect concepts and ideas, so it provides a coherent knowledge of the whole thing. Moreover, the students' response indicates an understanding of the task by combining all the parts, and they can demonstrate how each part contributes to the whole.
+
+5. Extended abstract level
+By this level, students are able to make connections within the provided task, and they also create connections beyond that. They develop the ability to transfer and generalise the concepts and principles from one subject area into a particular domain. Therefore, the students’ response indicates that they can conceptualise beyond the level of what has been taught. They are able to propose new concepts and ideas depending on their understanding of the task or subject taught.

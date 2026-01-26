@@ -1,0 +1,284 @@
+{
+    "O3NumOps": {
+        "Confusing HCF with LCM": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Confusing HCF with LCM",
+            "wrong_solution": {
+                "Step 1": "First, let's find the highest common factor (HCF) of 3 and 25 to find out how many oranges Shaun can distribute evenly in each box. \n\n\\[ \\text{The HCF of 3 and 25 is 1} \\]\nSo we use 1 orange per box.",
+                "Step 2": "So, the total number of oranges Shaun has is: \n\n\\[ 1 \\times 3 = 3 \\]",
+                "Step 3": "Then, Shaun gives away 18 oranges from one of the boxes, so we subtract 18 from 3: \n\n\\[ 3 - 18 = -15 \\]",
+                "Step 4": "So, Shaun has -15 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Confusing HCF with LCM"
+            },
+            "error_explanation": {
+                "Step 1": "The student mistakenly uses the HCF of 3 and 25 (which is not relevant here), instead of multiplying the number of boxes by the number of oranges per box to calculate the starting total."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Confusing HCF with LCM"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Shaun has 3 boxes of oranges with 25 oranges in each box.\n\\[\n3 \\times 25 = 75\n\\]\nSo, Shaun originally has 75 oranges.",
+                "Step 2": "Since Shaun gives away 18 oranges from one box, I assume he gives away the whole box if there are less than 18 oranges left after giving. \nEach box has 25 oranges, so after giving away 18 oranges from one box, he has 7 oranges left in that box.",
+                "Step 3": "Therefore, I think he should only count the full boxes left.\nHe still has 2 full boxes and 7 oranges left from the box he gave from.\n\\[\n2 \\times 25 + 7 = 57\n\\]\nBut since the box with only 7 oranges may not be counted as a box, I will only count the full boxes: \n\\[\n2 \\times 25 = 50\n\\]\nSo, Shaun has 50 oranges left."
+            },
+            "wrong_steps": {
+                "Step 3": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 3": "The solution makes the invalid assumption that oranges left in the box after giving away 18 (leaving 7) should not be counted towards the total, or that only full boxes should be counted. The question asks for the total number of oranges left, not just full boxes."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Invalid Assumption"
+            }
+        }
+    },
+    "O1EqIneq": {
+        "Value Context Error": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "Since the price is reduced by 50 dollars to become 320 dollars, we write the equation:\n\\[\nx + 50 = 320\n\\]",
+                "Step 3": "To find the value of \\( x \\), subtract 50 from both sides:\n\\[\nx = 320 - 50\n\\]",
+                "Step 4": "Calculate the value:\n\\[\nx = 270\n\\]",
+                "Step 5": "So, the usual price of the mobile phone is \\( 270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "The value context is misunderstood: the equation was written as \\( x + 50 = 320 \\), which incorrectly interprets the reduction as an increase. The correct representation should be \\( x - 50 = 320 \\) because 50 dollars was subtracted from the original price."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "During the sale, the price of the phone is 50 dollars less than usual. We are told the new price is 320 dollars, so set \\( x = 320 \\).",
+                "Step 3": "So, the usual price of the mobile phone is \\( 320 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 2": "The student misunderstands the requirement and directly sets \\( x = 320 \\), treating the sale price as the usual price. However, \\( x \\) should be the original price before reduction."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            }
+        }
+    },
+    "O1RioPro": {
+        "Value Context Error": {
+            "question": "The ratio of the number of blue pens to red pens in a box is 5 : 3. If there are 60 blue pens, how many red pens are there?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of blue pens to red pens as 5 : 3. This means for every 5 blue pens, there are 3 red pens.",
+                "Step 2": "Let the number of blue pens be x.",
+                "Step 3": "We can write the ratio as a fraction: \n\\[ \n\\frac{\\text{Number of red pens}}{\\text{Number of blue pens}} = \\frac{3}{5}\n\\]",
+                "Step 4": "We know there are 60 blue pens. So, \n\\[ \n\\frac{x}{60} = \\frac{3}{5}\n\\]",
+                "Step 5": "Now, we solve for x by cross-multiplying: \n\\[ \nx \\times 5 = 3 \\times 60\n\\]",
+                "Step 6": "Calculate 3 times 60: \n\\[ \n5x = 180\n\\]",
+                "Step 7": "Now, divide both sides by 5 to find x: \n\\[ \nx = \\frac{180}{5}\n\\]",
+                "Step 8": "Calculate \\frac{180}{5}: \n\\[ \nx = 36\n\\]",
+                "Step 9": "Therefore, there are 36 blue pens in the box."
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of letting the number of red pens be x, the student incorrectly lets the number of blue pens (which is already known to be 60) be x. This misidentifies the unknown, leading to confusion and a final answer that does not match the question requirement."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "The ratio of the number of blue pens to red pens in a box is 5 : 3. If there are 60 blue pens, how many red pens are there?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of blue pens to red pens as 5 : 3. This means for every 5 blue pens, there are 3 red pens.",
+                "Step 2": "Let the number of red pens be x.",
+                "Step 3": "We can write the ratio as a fraction: \\[\n\\frac{\\text{Number of blue pens}}{\\text{Number of red pens}} = \\frac{5}{3}\n\\]",
+                "Step 4": "We know there are 50 blue pens. So, \\[\n\\frac{50}{x} = \\frac{5}{3}\n\\]",
+                "Step 5": "Now, we solve for x by cross-multiplying: \\[\n50 \\times 3 = 5 \\times x\n\\]",
+                "Step 6": "Calculate 50 times 3: \\[\n150 = 5x\n\\]",
+                "Step 7": "Now, divide both sides by 5 to find x: \\[\nx = \\frac{150}{5}\n\\]",
+                "Step 8": "Calculate \\frac{150}{5}: \\[\nx = 30\n\\]",
+                "Step 9": "Therefore, there are 30 red pens in the box."
+            },
+            "wrong_steps": {
+                "Step 4": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 4": "The student incorrectly copied the number of blue pens from the question, using 50 instead of the correct 60. This affects all subsequent calculations and leads to a wrong answer."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "O2Prob": {
+        "Invalid Assumption": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, we assume that the blue pens are placed at the bottom of the box and are harder to reach, so Bryan is less likely to pick them. Let's say the probability is lower because of this.",
+                "Step 2": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\frac{1}{10}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The question states that the pen is chosen at random, so each pen is equally likely to be picked. Adding assumptions about the placement of pens changes the scenario and is not supported by the question."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        },
+        "Contradictory Step": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]",
+                "Step 2": "Next, we find the number of blue pens in the box:\n\\[\n3 \\text{ blue pens}\n\\]",
+                "Step 3": "The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{5}{10}\n\\]",
+                "Step 4": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{1}{2}}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "The number of blue pens found in Step 2 is 3, but in Step 3, 5 was used as the numerator instead, which contradicts the result from Step 2. This results in the wrong probability calculation."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        }
+    },
+    "O1NumOps": {
+        "Lack Common Sense Knowledge": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "There are 120 blue marbles. Since the question only asks for blue marbles and does not say anything about the total, the answer is:\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{1}\n\\]\nSo the answer is \\( 120 \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            },
+            "error_explanation": {
+                "Step 1": "This answer shows a lack of common sense knowledge because the student fails to recognize that a fraction must compare the number of blue marbles to the total number of marbles in the bag. Instead, the student uses only the number of blue marbles as both the numerator and denominator, showing they do not understand how to form the fraction correctly."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Assume that only half of the blue marbles are actually counted as blue marbles, because some might look red under certain lighting. So, we only count 60 blue marbles.\n\n\\[\n\\text{Number of blue marbles (assumed)} = 120 \\div 2 = 60\n\\]\n\n\\[\n\\text{Total number of marbles} = 80 + 120 = 200\n\\]",
+                "Step 2": "Now write the fraction of marbles that are blue with the assumed number.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{60}{200}\n\\]",
+                "Step 3": "Simplify the fraction:\n\n\\[\n\\frac{60}{200} = \\frac{3}{10}\n\\]",
+                "Step 4": "So, the fraction of marbles that are blue is \\( \\frac{3}{10} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly assumed that only half of the blue marbles should be counted. The question clearly states there are 120 blue marbles, so all should be included. Making such an assumption without basis in the question leads to an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        }
+    },
+    "P6algebr": {
+        "Contradictory Step": {
+            "question": "Tom has \\(3m + 8\\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "Let us start by stating the number of marbles Tom had before giving away any. Tom had \\(3m + 8\\) marbles.",
+                "Step 2": "He gives away 5 marbles. The number of marbles he has after giving away is: \n\n\\[ (3m + 8) + 5 \\]",
+                "Step 3": "We know he has 20 marbles left. So, we set up the equation: \n\n\\[ (3m + 8) + 5 = 20 \\]",
+                "Step 4": "Simplify the left side: \n\n\\[ 3m + 8 + 5 = 20 \\]\n\\[ 3m + 13 = 20 \\]",
+                "Step 5": "Subtract 13 from both sides to solve for 3m: \n\n\\[ 3m = 20 - 13 \\]\n\\[ 3m = 7 \\]",
+                "Step 6": "Divide both sides by 3 to find the value of m: \n\n\\[ m = \\frac{7}{3} \\]",
+                "Step 7": "So, the value of m is \\( \\frac{7}{3} \\), or 2 and \\( \\frac{1}{3} \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 2": "The operation used here contradicts the meaning of 'giving away'. Instead of subtracting 5 from the initial amount, 5 is incorrectly added, which is inconsistent with the context of losing marbles."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Contradictory Step"
+            }
+        },
+        "Misunderstanding Total Boxes": {
+            "question": "Tom has \\(3m + 8\\) marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of \\(m\\)?",
+            "type_of_error": "Misunderstanding Total Boxes",
+            "wrong_solution": {
+                "Step 1": "Tom has 3m + 8 marbles in total. Since Tom gives away 5 marbles and now has 20 marbles, I will set up the equation as:\n\n\\[ 3m = 20 \\]\n\n(ignoring the '+8')",
+                "Step 2": "Divide both sides by 3 to find the value of m:\n\n\\[ m = \\frac{20}{3} \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Misunderstanding Total Boxes"
+            },
+            "error_explanation": {
+                "Step 1": "The student misunderstood the total number of marbles Tom had. The question states he started with 3m + 8 marbles, not just 3m marbles. By omitting the '+8', the student failed to correctly set up the equation based on the total number of marbles Tom had before giving any away."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misunderstanding Total Boxes"
+            }
+        }
+    },
+    "O1RatSpd": {
+        "Incorrect Copying of Numbers": {
+            "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]",
+                "Step 2": "Substitute the values given in the question. (Incorrectly copy distance as 114 km):\n\n\\[\n\\text{Average speed} = \\frac{114\\ \\text{km}}{2\\ \\text{hours}}\n\\]",
+                "Step 3": "Calculate the division:\n\n\\[\n\\text{Average speed} = 57\\ \\text{km/h}\n\\]",
+                "Step 4": "So, the average speed of the bus is \\( 57\\ \\text{km/h} \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly copied the total distance as 114 km instead of the correct 144 km given in the question. This led to a wrong calculation of average speed."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            }
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "I am not sure how to find the average speed because the question does not say if the bus stopped or if it was going the same speed the whole time. Since I need to know the speed for every hour and the question doesn't tell me, I cannot solve the problem."
+            },
+            "wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            },
+            "error_explanation": {
+                "Step 1": "The student failed to apply the concept of average speed, which only requires total distance and total time, regardless of whether the speed was constant. The student lacks the common sense to understand that average speed can be calculated without knowing if the bus stopped or changed speed."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            }
+        }
+    }
+}

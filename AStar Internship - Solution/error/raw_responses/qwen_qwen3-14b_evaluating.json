@@ -1,0 +1,21 @@
+{
+    "openai/gpt-4.1": {
+        "P6ratio": {},
+        "O3NumOps": {},
+        "P5Deci4Op": {},
+        "P5rate": {},
+        "P2FracW": {},
+        "P4FctorM": {
+            "Missing Key Information": "{\n\"question\" : \"Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?\",\n\"correct\" : \"no\",\n\"wrong_solution\" : {\n\"Step 1\" : \"To solve this problem, I will just find how many times 2 and 4 go into 28.\",\n\"Step 2\" : \"28 \\\\div 2 = 14, so 2 and 14 are possible numbers of chairs in each row.\",\n\"Step 3\" : \"28 \\\\div 4 = 7, so 4 and 7 are possible numbers of chairs in each row.\",\n\"Step 4\" : \"Therefore, the possible numbers of chairs in each row are: \\$$ 2,\\\\ 4,\\\\ 7,\\\\ 14 \\$$\"\n},\n\"type_of_error\" : {\n\"Step 1\" : \"Missing Key Information\"\n},\n\"error_explanation\" : {\n\"Step 1\" : \"The student did not use all the necessary information from the question. The question asks for all the possible numbers of chairs that can be in each row, which requires finding all the factors of 28. However, the student only focused on dividing by 2 and 4, which is not sufficient to find all factors.\"\n},\n\"correct_solution\" : {\n\"Step 1\" : \"We are given that Mr Lim arranged 28 chairs equally in each row. This means we need to find all the possible numbers of chairs that can be in each row, which are the factors of 28.\",\n\"Step 2\" : \"To find the factors of 28, we need to list all the numbers that can divide 28 without leaving a remainder. These are the numbers that can be multiplied by another number to get 28.\",\n\"Step 3\" : \"We can find the factors of 28 by dividing 28 by numbers starting from 1 and going up to 28, and checking if the result is a whole number.\",\n\"Step 4\" : \"The factors of 28 are: 1, 2, 4, 7, 14, and 28.\",\n\"Step 5\" : \"Therefore, the possible numbers of chairs that can be in each row are 1, 2, 4, 7, 14, and 28.\"\n},\n\"missing_steps\" : {\n\"Between step 1 and 2\" : \"The student did not mention that they need to find all the factors of 28, which is the core of the question.\"\n}"
+        },
+        "P3N10k": {},
+        "P5FracDv": {},
+        "O1AgbrEF": {},
+        "O1NumOps": {},
+        "P4Deci3d": {},
+        "P4N100k": {},
+        "O1EqIneq": {},
+        "P1Money": {},
+        "P4FracMI": {}
+    }
+}

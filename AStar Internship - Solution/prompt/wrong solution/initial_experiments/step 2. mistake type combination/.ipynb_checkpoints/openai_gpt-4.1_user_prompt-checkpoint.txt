@@ -1,0 +1,4 @@
+The question is: {question}
+The question ID is: {kcID}
+The correct solution is: {solution}
+The potential type of error the students might make is: {potential_error}

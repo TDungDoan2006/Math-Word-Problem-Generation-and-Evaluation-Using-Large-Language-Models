@@ -1,0 +1,6 @@
+The question is: {question}
+The primary knowledge component of this question is: {primary_kc}
+The secondary knowledge component of this question is: {secondary_kc}
+The correct solution is: {solution}
+The grade of students the worked example should target is: {grade}
+The type of error the worked example should base on: {type_of_error}

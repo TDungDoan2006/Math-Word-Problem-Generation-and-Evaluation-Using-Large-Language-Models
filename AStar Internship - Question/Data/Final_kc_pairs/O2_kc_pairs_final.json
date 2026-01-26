@@ -1,0 +1,112 @@
+{
+    "O2-RoRepDP_P1-WNMul2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | direct proportion",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "WHOLE NUMBERS | Multiplication | multiplying whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "O2-RoRepDP_P1-WNDiv2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | direct proportion",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "WHOLE NUMBERS | Division | dividing whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Division"
+    },
+    "O2-RoRepIvP_P1-WNMul2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | inverse proportion",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "WHOLE NUMBERS | Multiplication | multiplying whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Multiplication"
+    },
+    "O2-RoRepIvP_P1-WNDiv2nd": {
+        "primary_kc_name": "RATIO | Representation and concept | inverse proportion",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "RATIO",
+        "primary_kc_operation": "Representation and concept",
+        "secondary_kc_name": "WHOLE NUMBERS | Division | dividing whole numbers",
+        "secondary_kc_grade": "Primary 1",
+        "secondary_kc_number": "WHOLE NUMBERS",
+        "secondary_kc_operation": "Division"
+    },
+    "O2-AgSlvIneq_O2-AgRepIneq": {
+        "primary_kc_name": "ALGEBRA | Solving | solving simple linear inequalities with one variable",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "ALGEBRA",
+        "primary_kc_operation": "Solving",
+        "secondary_kc_name": "ALGEBRA | Representation and concept | translation of simple real-world situations to simple linear inequalities with one variable",
+        "secondary_kc_grade": "Secondary O-level 2",
+        "secondary_kc_number": "ALGEBRA",
+        "secondary_kc_operation": "Representation and concept"
+    },
+    "O2-AgSlvSq1v_O1-AgRepEq": {
+        "primary_kc_name": "ALGEBRA | Solving | solving quadratic equations in one variable",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "ALGEBRA",
+        "primary_kc_operation": "Solving",
+        "secondary_kc_name": "ALGEBRA | Representation and concept | translation of simple real-world situations to equations",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "ALGEBRA",
+        "secondary_kc_operation": "Representation and concept"
+    },
+    "O2-AgSlvLr2v_O1-AgRepEq": {
+        "primary_kc_name": "ALGEBRA | Solving | solving linear equations in two variables",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "ALGEBRA",
+        "primary_kc_operation": "Solving",
+        "secondary_kc_name": "ALGEBRA | Representation and concept | translation of simple real-world situations to equations",
+        "secondary_kc_grade": "Secondary O-level 1",
+        "secondary_kc_number": "ALGEBRA",
+        "secondary_kc_operation": "Representation and concept"
+    },
+    "O2-SPFndmdn_O2-SPFndmode": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Finding median | Finding median for a set of data",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding mode | Finding mode for a set of data",
+        "secondary_kc_grade": "Secondary O-level 2",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    },
+    "O2-SPFndmdn_O3-SPFndPctl": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Finding median | Finding median for a set of data",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding percentiles | finding percentiles for a set of data",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    },
+    "O2-SPFndmdn_O3-SPFndrng": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Finding median | Finding median for a set of data",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "STATISTICS AND PROBABILITY | Finding range | finding range as measures of spread for a set of data ",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "STATISTICS AND PROBABILITY",
+        "secondary_kc_operation": "Finding"
+    },
+    "O2-SPFndmean_O3-BPRepSN": {
+        "primary_kc_name": "STATISTICS AND PROBABILITY | Finding mean deviation | calculation of the mean for a set of data",
+        "primary_kc_grade": "Secondary O-level 2",
+        "primary_kc_number": "STATISTICS AND PROBABILITY",
+        "primary_kc_operation": "Finding",
+        "secondary_kc_name": "BASE AND POWER | Representation and concept  | use of standard form Ax10^n , where n is an integer, and 1<= A<= 10",
+        "secondary_kc_grade": "Secondary O-level 3/4",
+        "secondary_kc_number": "BASE AND POWER",
+        "secondary_kc_operation": "Representation and concept "
+    }
+}

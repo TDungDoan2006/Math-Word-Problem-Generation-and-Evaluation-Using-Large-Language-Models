@@ -1,0 +1,5 @@
+Generate a Math Word Problem based on the following information:
+1. The primary Knowledge Component is {kc1}
+2. The secondary Knowledge Component is {kc2}
+3. The topic is {topic}
+4. The student grade is {grade} """

@@ -1,0 +1,19 @@
+{
+    "P1N100": {
+        "Place Value Error": {
+            "question": "Aisha has 27 marbles, and her brother gives her 15 more marbles. How many marbles does Aisha have now?",
+            "type_of_error": "Place Value Error",
+            "wrong_solution": {
+                "Step 1": "Add the digits in the ones place: 7 + 5 = 12. Write 12 as it is in the ones place.",
+                "Step 2": "Add the digits in the tens place: 2 + 1 = 3.",
+                "Step 3": "Combine the answers from both places: The sum is 312.",
+                "Step 4": "Aisha has 312 marbles now."
+            },
+            "error_explanation": "This solution adds the digits in each place but does not carry over the ten from the ones place. Instead, both digits from '12' are placed in the answer, causing an incorrect total.",
+            "root_cause": "The student misunderstood place value and the carrying process required in column addition.",
+            "how_to_avoid": "Always carry over the tens to the next place when the sum in any place exceeds 9. Double-check your column addition steps and practice carrying properly."
+        }
+    },
+    "P1AddSub": {},
+    "P1MulDiv": {}
+}

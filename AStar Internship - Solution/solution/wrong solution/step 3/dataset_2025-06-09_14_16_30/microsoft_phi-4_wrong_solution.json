@@ -1,0 +1,800 @@
+{
+    "P1AddSub": {
+        "Contradictory Step": {
+            "question": "Amir has 8 toy cars. His friend gives him 6 more toy cars. How many toy cars does Amir have now?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, find out how many toy cars Amir had at the start.\n\n\\[\n\\text{Number of toy cars Amir had at first} = 8\n\\]",
+                "Step 2": "Next, find out how many toy cars his friend gave him.\n\n\\[\n\\text{Number of toy cars his friend gave him} = 6\n\\]",
+                "Step 3": "To find the total number of toy cars Amir has now, subtract the number of toy cars his friend gave him from the number of toy cars Amir had at the start.\n\n\\[\n8 - 6 = 2\n\\]",
+                "Step 4": "So, Amir has 2 toy cars now."
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "The error occurs because instead of adding the number of toy cars Amir's friend gave him, the student incorrectly subtracts it, contradicting the requirement to find the total number of toy cars by summing the quantities."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        },
+        "Missing Step": {
+            "question": "Amir has 8 toy cars. His friend gives him 6 more toy cars. How many toy cars does Amir have now?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "To find out how many toy cars Amir has now, add the two numbers together from nowhere and assume their sum is correct.\n\n\\[8 + 6 = 14\\]",
+                "Step 2": "So, Amir has 14 toy cars now."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The solution is flawed because it skips the necessary steps of identifying the initial number of toy cars and the number of additional toy cars Amir received. Instead, it jumps directly to adding these numbers together without showing any intermediate understanding or calculations."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Amir has 8 toy cars. His friend gives him 6 more toy cars. How many toy cars does Amir have now?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, find out how many toy cars Amir had at the start.\n\n\\[\n\\text{Number of toy cars Amir had at first} = 7\n\\]",
+                "Step 2": "Next, find out how many toy cars his friend gave him.\n\n\\[\n\\text{Number of toy cars his friend gave him} = 5\n\\]",
+                "Step 3": "To find the total number of toy cars Amir has now, add the two numbers together.\n\n\\[\n7 + 5 = 12\n\\]",
+                "Step 4": "So, Amir has 12 toy cars now."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The original problem states that Amir had 8 toy cars, not 7."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "Amir has 8 toy cars. His friend gives him 6 more toy cars. How many toy cars does Amir have now?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, find out how many toy cars Amir gave away.\n\n\\[\n\\text{Number of toy cars Amir gave away} = 0\n\\]",
+                "Step 2": "Next, realize that Amir's friend only asked for some details about the cars.\n\n\\[\n\\text{Total number of cars Amir has} = 8 + 0\n\\]",
+                "Step 3": "So, Amir still has 8 toy cars now."
+            },
+            "wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 1": "The student focused on what Amir gave away instead of what was received, ignoring the central part of the question about the addition of toy cars."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Amir has 8 toy cars. His friend gives him 6 more toy cars. How many toy cars does Amir have now?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "First, find out how many toy cars Amir had at the start.\n\n\\[\n\\text{Number of toy cars Amir had at first} = 8\n\\]",
+                "Step 2": "Next, assume that Amir lost 2 toy cars before his friend gave him more.\n\n\\[\n\\text{Number of toy cars Amir had before his friend gave him more} = 8 - 2\n\\]",
+                "Step 3": "Find out how many toy cars his friend gave him.\n\n\\[\n\\text{Number of toy cars his friend gave him} = 6\n\\]",
+                "Step 4": "To find the total number of toy cars Amir has now, add the two numbers together.\n\n\\[\n(8 - 2) + 6 = 12\n\\]",
+                "Step 5": "So, Amir has 12 toy cars now."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The student introduced an assumption that Amir lost 2 toy cars, which is missing information in the original problem statement. The problem does not indicate any loss of toy cars, so this additional aspect leads to an incorrect solution."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        }
+    },
+    "O1RatSpd": {
+        "Lack Common Sense Knowledge": {
+            "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\n\\[\n\\text{Average speed} = \\text{Total distance} - \\text{Total time}\n\\]",
+                "Step 2": "Substitute the values given in the question:\n\n\\[\n\\text{Average speed} = 144\\ \\text{km} - 2\\ \\text{hours}\n\\]",
+                "Step 3": "Calculate the subtraction:\n\n\\[\n\\text{Average speed} = 142\\ \\text{km}\n\\]",
+                "Step 4": "So, the average speed of the bus is \\( 142\\ \\text{km} \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly used subtraction instead of division, which indicates a lack of understanding of the formula for average speed."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            }
+        },
+        "Missing Key Information": {
+            "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "First, let's find the average speed of the bus using the total time and distance it travels.",
+                "Step 2": "We know the bus travels 144 km in 2 hours as it says in the question.",
+                "Step 3": "However, to make sure the calculation reflects all necessary dynamics such as speed variations due to traffic, let's assume an adjustment factor based on traffic conditions. Taking a typical urban speed reduction of 10% as an average factor.",
+                "Step 4": "Find the adjusted total time; 10% increase on time implies: \\[\\text{Adjusted time} = 2\\ \\text{hours} + (0.1 \\times 2\\ \\text{hours}) = 2.2\\ \\text{hours}\\]",
+                "Step 5": "Now we calculate the average speed using the adjusted time: \\[\\text{Average speed} = \\frac{144\\ \\text{km}}{2.2\\ \\text{hours}}\\]",
+                "Step 6": "Calculate the division:\\[\\text{Average speed} = 65.45\\ \\text{km/h}\\]",
+                "Step 7": "So, the average speed of the bus, considering traffic variation, is \\( 65.45\\ \\text{km/h} \\)."
+            },
+            "wrong_steps": {
+                "Step 3": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 3": "The problem did not specify any adjustments for traffic or other factors affecting speed, leading to an unwarranted inclusion of an adjustment factor not mentioned in the question."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Missing Key Information"
+            }
+        },
+        "Missing Step": {
+            "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the average speed using the given information:",
+                "Step 2": "\\[\n\\text{Average speed} = 72\\ \\text{km/h}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The student skipped the crucial step of identifying and writing down the formula for average speed, as well as substituting the values into the formula. This leads to a sudden appearance of the correct answer without any calculation."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Calculation Error": {
+            "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]",
+                "Step 2": "Substitute the values given in the question:\n\n\\[\n\\text{Average speed} = \\frac{144\\ \\text{km}}{2\\ \\text{hours}}\n\\]",
+                "Step 3": "Calculate the division:\n\n\\[\n\\text{Average speed} = 76\\ \\text{km/h}\n\\]",
+                "Step 4": "So, the average speed of the bus is \\( 76\\ \\text{km/h} \\)."
+            },
+            "wrong_steps": {
+                "Step 3": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 3": "The division \\( \\frac{144}{2} \\) was incorrectly calculated as 76 instead of the correct result, which is 72. The arithmetic operation was performed incorrectly."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Calculation Error"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for calculating speed using the wrong method:\n\n\\[\n\\text{Speed} = \\text{Total distance} \\times \\text{Total time}\n\\]",
+                "Step 2": "Substitute the values given in the question:\n\n\\[\n\\text{Speed} = 144\\ \\text{km} \\times 2\\ \\text{hours}\n\\]",
+                "Step 3": "Calculate the multiplication:\n\n\\[\n\\text{Speed} = 288\\ \\text{km} \\cdot \\text{hours}\n\\]",
+                "Step 4": "So, the average speed of the bus is \\( 288\\ \\text{km} \\cdot \\text{hours} \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 1": "The formula used is incorrect. Average speed should be calculated by dividing the total distance by the total time, not multiplying them."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            }
+        }
+    },
+    "O2Prob": {
+        "Invalid Assumption": {
+            "question": "$$ \\text{A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?} $$",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "$$ \\text{First, we assume that Bryan has a preference for red pens, so the chance of picking a red pen is doubled. Therefore, we calculate the effective number of red pens as:} $$ \\[ 5 \\times 2 = 10 \\text{ (effective red pens)} \\]",
+                "Step 2": "$$ \\text{The total number of effective pens in the box is then:} $$ \\[ 10 \\text{ (effective red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 15 \\text{ effective pens} \\]",
+                "Step 3": "$$ \\text{Next, we find the number of blue pens in the box:} $$ \\[ 3 \\text{ blue pens} \\]",
+                "Step 4": "$$ \\text{The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of effective pens:} $$ \\[ \\text{Probability} = \\frac{3}{15} = \\frac{1}{5} \\]",
+                "Step 5": "$$ \\text{So, the probability that Bryan picks a blue pen is:} $$ \\[ \\boxed{\\frac{1}{5}} \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The assumption that Bryan has a preference for red pens introduces additional information that affects the outcome, which was not mentioned in the problem statement."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        },
+        "Calculation Error": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]",
+                "Step 2": "Next, we find the number of blue pens in the box:\n\\[\n3 \\text{ blue pens}\n\\]",
+                "Step 3": "The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{3}{10} = 0.35\n\\]",
+                "Step 4": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{0.35}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 3": "The division was calculated incorrectly. \\(\\frac{3}{10}\\) is actually 0.3, not 0.35."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Calculation Error"
+            }
+        },
+        "Contradictory Step": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of pens in the box:\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]",
+                "Step 2": "Next, we find the number of blue pens in the box:\\[\n3 \\text{ blue pens}\n\\]",
+                "Step 3": "The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens. Since he might pick a green pen first, the formula changes:\\[\n\\text{Probability} = \\frac{2}{10}\n\\]",
+                "Step 4": "So, the probability that Bryan picks a blue pen is:\\[\n\\boxed{\\frac{2}{10}}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "The student incorrectly changes the logic by suggesting that picking a green pen first affects the probability calculation of picking a blue pen, leading to the use of 2 instead of 3 in the numerator."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "A box contains 5 red pens, 3 blue pens and 2 green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 2 \\text{ (blue)} + 3 \\text{ (green)} = 10 \\text{ pens}\n\\]",
+                "Step 2": "Next, we find the number of blue pens in the box:\n\\[\n2 \\text{ blue pens}\n\\]",
+                "Step 3": "The probability that Bryan picks a blue pen is the number of blue pens divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{2}{10}\n\\]",
+                "Step 4": "So, the probability that Bryan picks a blue pen is:\n\\[\n\\boxed{\\frac{2}{10}}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The wrong solution incorrectly copies the number of blue pens as 2 instead of 3 from the question. This error leads to an incorrect calculation of the probability."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A box contains $5$ red pens, $3$ blue pens and $2$ green pens. Bryan takes a pen at random from the box. What is the probability that he picks a blue pen?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, we find the total number of pens in the box:\n\\[\n5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10 \\text{ pens}\n\\]",
+                "Step 2": "Next, we mistakenly find the product of the total pens and blue pens instead of just the number of blue pens:\n\\[\n10 \\times 3 = 30 \\text{ blue pens-like value}\n\\]",
+                "Step 3": "The probability that Bryan picks a blue pen is this mistaken value divided by the total number of pens:\n\\[\n\\text{Probability} = \\frac{30}{10}\n\\]",
+                "Step 4": "So, the incorrect probability that Bryan picks a blue pen is:\n\\[\n\\boxed{3}\n\\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 2": "The operation performed in this step is incorrect because it multiplies the number of blue pens by the total number of pens. The correct operation is simply to identify the count of blue pens, which is $3$, not $30$. This results in an incorrect probability calculation."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            }
+        }
+    },
+    "P1N100": {
+        "Misinterpreting Question Requirements": {
+            "question": "Sarah has 37 stickers and Ben has 48 stickers. How many stickers do they have altogether?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "We need to find the total number of stickers Sarah and Ben have. We do this by subtracting the number of stickers Sarah has from the number of stickers Ben has because the question asks for the difference.",
+                "Step 2": "Sarah has 37 stickers. Ben has 48 stickers.",
+                "Step 3": "Subtract the number of stickers Sarah has from Ben's stickers: \n\\[ 48 - 37 = 11 \\]",
+                "Step 4": "So, Sarah and Ben have 11 stickers altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 1": "The mistake is in misunderstanding the question requirement. The solution incorrectly assumes the question asks for the difference in the number of stickers rather than the total combined amount."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            }
+        },
+        "Missing Step": {
+            "question": "Sarah has 37 stickers and Ben has 48 stickers. How many stickers do they have altogether?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "We need to find out how many stickers Sarah and Ben have altogether.",
+                "Step 2": "Sarah has 37 stickers.",
+                "Step 4": "\\[ 85 \\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 3": "Step 3 is missing the crucial addition process: adding 37 and 48 to find the total. This omission skips directly to the total without showing the calculation, potentially confusing students about how the answer was derived."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Missing Step"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "The question is: Sarah has 37 stickers and Ben has 48 stickers. How many stickers do they have altogether?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "We need to find the total number of stickers Sarah and Ben have. We do this by adding the number of stickers Sarah has to the number of stickers Ben has.",
+                "Step 2": "Sarah has 37 stickers. Ben has 48 stickers.",
+                "Step 3": "Since Sarah and Ben are sharing their stickers with their friend, let's assume they gave away 10 stickers in total.",
+                "Step 4": "Subtract the number of stickers given away from the total: \\[ 37 + 48 - 10 = 75 \\]",
+                "Step 5": "So, Sarah and Ben have 75 stickers altogether."
+            },
+            "wrong_steps": {
+                "Step 3": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 3": "The solution incorrectly assumes that Sarah and Ben gave away 10 stickers, which was not mentioned in the question statement. This introduces irrelevant information and affects the final total."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Invalid Assumption"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "(The question is: Sarah has 37 stickers and Ben has 48 stickers. How many stickers do they have altogether?)",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "We need to find the total number of stickers Sarah and Ben have. We do this by adding the number of stickers Sarah has to the number of stickers Ben has.",
+                "Step 2": "Sarah has 37 stickers. Ben has 42 stickers.",
+                "Step 3": "Add the two numbers together: \n\\[ 37 + 42 = 79 \\]",
+                "Step 4": "So, Sarah and Ben have 79 stickers altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 2": "In Step 2, the number of stickers Ben has was incorrectly copied as 42 instead of 48 from the question."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            }
+        },
+        "Calculation Error": {
+            "question": "(\\text{Sarah has } 37 \\text{ stickers and Ben has } 48 \\text{ stickers. How many stickers do they have altogether?})",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "We need to find the total number of stickers Sarah and Ben have. We do this by adding the number of stickers Sarah has to the number of stickers Ben has.",
+                "Step 2": "Sarah has 37 stickers. Ben has 48 stickers.",
+                "Step 3": "Add the two numbers together: \\[ 37 + 48 = 78 \\]",
+                "Step 4": "So, Sarah and Ben have 78 stickers altogether."
+            },
+            "wrong_steps": {
+                "Step 3": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 3": "The calculation \\(37 + 48 = 78\\) is incorrect because the correct sum of 37 and 48 is 85. This is a typical calculation error where the student has incorrectly added the numbers."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Calculation Error"
+            }
+        }
+    },
+    "P6ratio": {
+        "Misinterpreting Question Requirements": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is \\(3 : 5\\). If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as \\(3 : 5\\). This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "We are told there are 18 apples. To find the number of oranges, we will assume 18 apples means 18 groups.",
+                "Step 3": "\\[ 18 \\times 5 = 90 \\]",
+                "Step 4": "So, there are 90 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 2": "The student misunderstood the ratio by mistakenly multiplying the total number of apples as the number of groups instead of finding how many groups of 3 apples are in 18 apples."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            }
+        },
+        "Missing Key Information": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "We are told there are 18 apples. Without using the ratio, let's assume each apple corresponds to one orange.",
+                "Step 3": "\\[ 18 \\times 1 = 18 \\]",
+                "Step 4": "So, there are 18 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The wrong solution assumes each apple corresponds to one orange, ignoring the given ratio of 3:5. This leads to an incorrect calculation of the number of oranges."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        },
+        "Missing Step": {
+            "question": "\\text{The ratio of the number of apples to the number of oranges in a fruit basket is } 3 : 5. \\text{ If there are 18 apples, how many oranges are there in the basket?}",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "\\[ 18 \\div 3 = 6 \\]",
+                "Step 3": "So, there are 6 groups of 3 apples.",
+                "Step 4": "Since the ratio is 3 apples to 5 oranges, each group of 3 apples matches with 5 oranges.",
+                "Step 5": "To find the total number of oranges, directly multiply 18 by 5/3 because \\(5/3\\) is the ratio of oranges to apples.",
+                "Step 6": "\\[ 18 \\times \\frac{5}{3} = 30 \\]",
+                "Step 7": "Therefore, there are 30 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 5": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 5": "The solution skips the step of calculating the number of groups of apples (Step 4 in the correct solution). Instead, it incorrectly jumps to using a direct multiplication of 18 by the ratio 5/3, which might confuse students about why the multiplication ratio is used."
+            },
+            "all_wrong_steps": {
+                "Step 5": "Missing Step"
+            }
+        },
+        "Misreading or Misunderstanding the Ratio": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Misreading or Misunderstanding the Ratio",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 5 : 3. This means for every 5 apples, there are 3 oranges.",
+                "Step 2": "We are told there are 18 apples. To find out how many groups of 5 apples there are in 18 apples, we divide 18 by 5.",
+                "Step 3": "\\[ 18 \\div 5 = 3.6 \\]",
+                "Step 4": "Since we cannot have a fraction of a group, we round down to 3 groups of 5 apples.",
+                "Step 5": "Since the ratio is 5 apples to 3 oranges, each group of 5 apples matches with 3 oranges. So, there are 3 groups of 3 oranges.",
+                "Step 6": "To find the total number of oranges, we multiply 3 by 3.",
+                "Step 7": "\\[ 3 \\times 3 = 9 \\]",
+                "Step 8": "Therefore, there are 9 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 1": "Misreading or Misunderstanding the Ratio"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly reversed the ratio of apples to oranges, treating it as 5 : 3 instead of 3 : 5. This misunderstanding led to incorrect calculations and an incorrect final answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misreading or Misunderstanding the Ratio"
+            }
+        },
+        "Contradictory Step": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "We are told there are 18 apples. To find out how many groups of 3 apples there are in 18 apples, we divide 18 by 3.",
+                "Step 3": "\\[ 18 \\div 3 = 6 \\]",
+                "Step 4": "So, there are 6 groups of 3 apples.",
+                "Step 5": "Since the ratio is 3 apples to 5 oranges, each group of 3 apples matches with 5 oranges. So, there are 6 groups of 5 oranges.",
+                "Step 6": "To find the total number of oranges, mistakenly assume there should be 6 less due to an unmentioned adjustment.",
+                "Step 7": "\\[ 30 - 6 = 24 \\]",
+                "Step 8": "Therefore, there are 24 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 6": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 6": "The student erroneously reduces the number of groups by 6 without any logical basis, contradicting the proper counting of groups according to the ratio."
+            },
+            "all_wrong_steps": {
+                "Step 6": "Contradictory Step"
+            }
+        }
+    },
+    "P2FracAS": {
+        "Value Context Error": {
+            "question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, we need to find out how much cake Siti ate in total. She ate one quarter in the morning and another one quarter in the afternoon. We can write this as: \n\\[ \\frac{1}{4} \\times \\frac{1}{4} \\]",
+                "Step 2": "To find the total, we multiply the fractions: \n\\[ \\frac{1 \\times 1}{4 \\times 4} = \\frac{1}{16} \\]",
+                "Step 3": "So, Siti ate one sixteenth of the cake altogether. \n\\[ \\boxed{\\frac{1}{16}} \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 1": "The student misunderstood the context of 'another' and incorrectly used multiplication instead of addition for combining fractions."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Value Context Error"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, we need to find out how much cake Siti ate in total. She ate one quarter in the morning and another one quarter in the afternoon. We can write this as: \n\\[ \\frac{1}{4} + \\frac{1}{4} \\]",
+                "Step 2": "Assuming that Siti\u2019s sister also ate half of what was left in the morning, we consider this in our calculation. Let's calculate how much is left after Siti eats in the morning: \n\\[ 1 - \\frac{1}{4} = \\frac{3}{4} \\], and then her sister ate \n\\[ \\frac{1}{2} \\times \\frac{3}{4} = \\frac{3}{8} \\]. So, the remaining cake after Siti's sister ate in the morning is \n\\[ \\frac{3}{4} - \\frac{3}{8} = \\frac{3}{8} \\].",
+                "Step 3": "Now, Siti eats another quarter of the remaining cake in the afternoon: \n\\[ \\frac{1}{4} \\times \\frac{3}{8} = \\frac{3}{32} \\]",
+                "Step 4": "To find the total amount Siti ate, we add what she ate in the morning and the afternoon: \n\\[ \\frac{1}{4} + \\frac{3}{32} = \\frac{8}{32} + \\frac{3}{32} = \\frac{11}{32} \\]",
+                "Step 5": "Therefore, Siti ate \\[ \\boxed{\\frac{11}{32}} \\] of the cake altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "The solution assumes extra information about Siti's sister eating part of the cake, which was not mentioned in the problem statement. This invalid assumption changes the total fraction of the cake that Siti eats."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Contradictory Step": {
+            "question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, we need to find out how much cake Siti ate in total. She ate one quarter in the morning and another one quarter in the afternoon. We can write this as: \n\\[ \\frac{1}{4} + \\frac{1}{4} \\]",
+                "Step 2": "Since the denominators are the same, let's add the denominators instead: \n\\[ \\frac{1}{4+4} = \\frac{1}{8} \\]",
+                "Step 3": "So, Siti ate one eighth of the cake altogether. \n\\[ \\boxed{\\frac{1}{8}} \\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 2": "The error occurs because the student incorrectly adds the denominators instead of the numerators. Instead of adding the parts of the cake, the student treats the fractions as if they were part of a single unit."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Contradictory Step"
+            }
+        },
+        "Missing Key Information": {
+            "question": "\\text{Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?}",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "First, let's assume Siti could have had another bit of cake at some other time. But since we don't know how much, let's ignore how much she ate in the morning and afternoon for now. We can assume she might have eaten: \\[ \\frac{1}{3} + \\frac{1}{6} \\]",
+                "Step 2": "Since the denominators are different, we can calculate the total eaten by adjusting the fractions: \\[ \\frac{2}{6} + \\frac{1}{6} = \\frac{3}{6} \\]",
+                "Step 3": "Now, we simplify the fraction. Both the numerator and denominator can be divided by 3: \\[ \\frac{3}{6} = \\frac{1}{2} \\]",
+                "Step 4": "So, Siti might have eaten half of the cake altogether, but it's unclear how much she actually ate from the morning and afternoon. Let's say \\[ \\boxed{\\frac{1}{3}} \\] in doubt."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The solution introduced assumptions about additional cake consumption without evidence from the question. The correct approach directly uses the given fractions of the cake consumed in the morning and afternoon, which were ignored or altered."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "Siti ate one quarter of a cake in the morning and another one quarter of the cake in the afternoon. What fraction of the cake did Siti eat altogether?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, we need to find out how much cake Siti ate in total. She ate one quarter in the morning and another one quarter in the afternoon. We can write this as: \n\\[ \\frac{1}{4} \\times \\frac{1}{4} \\]",
+                "Step 2": "Since we are multiplying fractions, we multiply the numerators and the denominators: \n\\[ \\frac{1 \\times 1}{4 \\times 4} = \\frac{1}{16} \\]",
+                "Step 3": "So, Siti ate one sixteenth of the cake altogether. \n\\[ \\boxed{\\frac{1}{16}} \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 1": "The error is in using multiplication instead of addition when combining fractions with the same denominator. The fractions should be added, not multiplied."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            }
+        }
+    },
+    "P4DeciMD": {
+        "Calculation Error": {
+            "question": "\\text{A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?}",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total weight by multiplying the weight of one packet by the number of packets.",
+                "Step 2": "Weight of one packet = 0.45 \\ kg",
+                "Step 3": "Number of packets = 6",
+                "Step 4": "Total weight = 0.45 \\times 6",
+                "Step 5": "Let us multiply 0.45 by 6. \\newline \\ 0.45 \\times 6 = 2.85",
+                "Step 6": "So, the total weight of 6 packets is \\boxed{2.85 \\ kg}"
+            },
+            "wrong_steps": {
+                "Step 5": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 5": "The error lies in the multiplication of 0.45 by 6. The correct product of 0.45 and 6 is 2.70, not 2.85. This suggests a miscalculation."
+            },
+            "all_wrong_steps": {
+                "Step 5": "Calculation Error"
+            }
+        },
+        "Decimal Misconception": {
+            "question": "A packet of biscuits weighs \\(0.45 \\text{ kg}\\). What is the total weight of 6 such packets?",
+            "type_of_error": "Decimal Misconception",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total weight by multiplying the weight of one packet by the number of packets.",
+                "Step 2": "Weight of one packet = 45 \\(\\text{ kg}\\), because 0.45 is treated as 45.",
+                "Step 3": "Number of packets = 6",
+                "Step 4": "Total weight = 45 \\times 6",
+                "Step 5": "Let us multiply 45 by 6. \\newline 45 \\times 6 = 270",
+                "Step 6": "So, the total weight of 6 packets is \\boxed{270 \\text{ kg}}"
+            },
+            "wrong_steps": {
+                "Step 2": "Decimal Misconception"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly converted the decimal 0.45 to 45, misunderstanding how to handle the decimal point, which led to a significantly larger and incorrect total weight."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Decimal Misconception"
+            }
+        },
+        "Missing Step": {
+            "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total weight by multiplying the weight of one packet by the number of packets.",
+                "Step 2": "Weight of one packet = 0.45 \\ kg",
+                "Step 3": "Number of packets = 6",
+                "Step 4": "Total weight = 2.70 \\ kg"
+            },
+            "wrong_steps": {
+                "Step 4": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 4": "Step involving the multiplication (Step 4) is skipped, and the number 2.70 \\ kg appears without showing the calculation."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Missing Step"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "What is the total weight of 6 packets if a packet of biscuits weighs 0.45 kg?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, we need to consider the weight of one packet and any additional packaging weight.",
+                "Step 2": "Weight of one packet = 0.45 \\ kg",
+                "Step 3": "Assume each packet has an additional packaging weight of 0.05 \\ kg",
+                "Step 4": "Total weight of one packet including packaging = 0.45 + 0.05 = 0.50 \\ kg",
+                "Step 5": "Number of packets = 6",
+                "Step 6": "Total weight = 0.50 \\times 6",
+                "Step 7": "Let us multiply 0.50 by 6. \\newline \\ 0.50 \\times 6 = 3.00",
+                "Step 8": "So, the total weight of 6 packets including packaging is \\boxed{3.00 \\ kg}"
+            },
+            "wrong_steps": {
+                "Step 3": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 3": "The assumption of additional packaging weight is incorrect because the problem does not mention any extra weight beyond the weight of the biscuits."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Invalid Assumption"
+            }
+        },
+        "Missing Key Information": {
+            "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total weight by dividing the weight of one packet by the number of packets.",
+                "Step 2": "Weight of one packet = 0.45 \\ kg",
+                "Step 3": "Number of packets = 6",
+                "Step 4": "Total weight = 0.45 \\div 6",
+                "Step 5": "Let us divide 0.45 by 6. \\newline \\ 0.45 \\div 6 = 0.075",
+                "Step 6": "So, the total weight of 6 packets is \\boxed{0.075 \\ kg}"
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The wrong solution involves dividing the weight of one packet by the number of packets instead of multiplying, which leads to an incorrect calculation of the total weight."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        }
+    },
+    "O1AgbrEF": {
+        "Order of Operations Error": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Order of Operations Error",
+            "wrong_solution": {
+                "Step 1": "Recall that the perimeter of a rectangle is found by adding up all the sides. A rectangle has two lengths and two widths.",
+                "Step 2": "So, the perimeter is: \\[ \\text{Perimeter} = \\text{length} + \\text{width} + \\text{length} + \\text{width} \\]",
+                "Step 3": "Using x for length and y for width, we can write: \\[ \\text{Perimeter} = x + y + x + y \\]",
+                "Step 4": "Combine and multiply differently: \\[ \\text{Perimeter} = (x + y) \\times 2 \\]",
+                "Step 5": "Distribute the 2: \\[ \\text{Perimeter} = 2x + 2y \\]"
+            },
+            "wrong_steps": {
+                "Step 4": "Order of Operations Error"
+            },
+            "error_explanation": {
+                "Step 4": "The student incorrectly modified the operation by combining terms first with parentheses, potentially confusing the order in which operations should be executed. This mistake creates redundancy, as the multiplication is unnecessary before combining like terms."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Order of Operations Error"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A rectangle has a length of $x$ cm and a width of $y$ cm. Write down an expression, in terms of $x$ and $y$, for the perimeter of the rectangle.",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "Recall that the perimeter of a rectangle is found by multiplying the length by the width.",
+                "Step 2": "\\[ \\text{Perimeter} = \\text{length} \\times \\text{width} \\]",
+                "Step 3": "Using $x$ for length and $y$ for width, we can write: \n\\[ \\text{Perimeter} = x \\times y \\]",
+                "Step 4": "So, the expression for the perimeter of the rectangle, in terms of $x$ and $y$, is: \n\\[ xy \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 1": "The initial formula is incorrect. The perimeter of a rectangle is not found by multiplying the length by the width; it is found by adding up all the sides."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            }
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "\\text{A rectangle has a length of } x \\text{ cm and a width of } y \\text{ cm. Write down an expression, in terms of } x \\text{ and } y, \\text{ for the perimeter of the rectangle.}",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "Recall that the perimeter of a rectangle is found by subtracting one side from another.",
+                "Step 2": "So, the perimeter is: \\[ \\text{Perimeter} = \\text{length} - \\text{width} \\]",
+                "Step 3": "Using x for length and y for width, we can write: \\[ \\text{Perimeter} = x - y \\]",
+                "Step 4": "This means if we double this difference, we get the perimeter: \\[ \\text{Perimeter} = 2(x - y) \\]",
+                "Step 5": "So, the expression for the perimeter of the rectangle, in terms of x and y, is: \\[ 2(x - y) \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly assumes that the perimeter is found by subtracting one side from another, which is not how the perimeter is calculated. The perimeter should be calculated by adding all the sides together, not subtracting."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "Recall that the perimeter of a rectangle is found by adding up all the sides. A rectangle has two lengths and two widths.",
+                "Step 2": "So, the perimeter is: \n\\[ \\text{Perimeter} = \\text{length} + \\text{width} + \\text{length} + \\text{length} \\]",
+                "Step 3": "Using x for length and y for width, we can write: \n\\[ \\text{Perimeter} = x + y + x + x \\]",
+                "Step 4": "Combine like terms: \n\\[ \\text{Perimeter} = 3x + y \\]",
+                "Step 5": "So, the expression for the perimeter of the rectangle, in terms of x and y, is: \n\\[ 3x + y \\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly copied the number of widths, using 'length' instead of 'width' again, leading to an incorrect expression for the perimeter by adding three lengths instead of two lengths and two widths."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "The problem is asking for the area of the rectangle, which is calculated by multiplying the length by the width.",
+                "Step 2": "So the required expression is: \\[ \\text{Area} = \\text{length} \\times \\text{width} \\]",
+                "Step 3": "Using x for length and y for width, we can write: \\[ \\text{Area} = x \\times y \\]",
+                "Step 4": "Thus, the expression for the area of the rectangle, in terms of x and y, is: \\[ xy \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 1": "The student confused the perimeter with the area. The question specifically asked for an expression for the perimeter, not the area of the rectangle. This led to an incorrect focus on calculating area instead."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            }
+        }
+    }
+}

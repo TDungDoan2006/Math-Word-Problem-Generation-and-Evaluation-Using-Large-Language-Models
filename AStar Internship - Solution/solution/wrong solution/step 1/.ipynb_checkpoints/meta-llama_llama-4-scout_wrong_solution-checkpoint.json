@@ -1,0 +1,125 @@
+{
+    "1": {
+        "question": "6. Find the value of $ 2 \\div \\frac{1}{4} $",
+        "type_of_error": [
+            "Misunderstanding Division by Fraction",
+            "Arithmetic Error",
+            "Incorrect Application of Formula"
+        ],
+        "error_explanation": {
+            "Misunderstanding Division by Fraction": "This error occurs when a student does not understand that dividing by a fraction is the same as multiplying by its reciprocal.",
+            "Arithmetic Error": "This error happens when a student makes a calculation mistake, such as incorrect multiplication or addition.",
+            "Incorrect Application of Formula": "This error occurs when a student applies the wrong mathematical operation or formula to solve the problem."
+        },
+        "root_cause": {
+            "Misunderstanding Division by Fraction": "The root cause is a lack of understanding of the concept of division by a fraction and not being able to recall that division by a fraction is equivalent to multiplication by its reciprocal.",
+            "Arithmetic Error": "The root cause is carelessness or lack of attention to detail during calculations.",
+            "Incorrect Application of Formula": "The root cause is either a lack of understanding of the relevant mathematical concepts or not being able to identify the correct formula to apply."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Division by Fraction": "To avoid this error, students should practice and reinforce their understanding of the concept that dividing by a fraction is the same as multiplying by its reciprocal. They should also review examples and practice problems.",
+            "Arithmetic Error": "To avoid this error, students should double-check their calculations and use a calculator to verify their answers when possible.",
+            "Incorrect Application of Formula": "To avoid this error, students should carefully read the problem, identify the relevant mathematical concepts, and make sure they are applying the correct formula."
+        }
+    },
+    "2": {
+        "question": "Express 0.965 as a percentage.",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding of Conversion Process",
+            "Incorrect Placement of Decimal Point"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "This occurs when a student incorrectly performs the arithmetic operation required to convert the decimal to a percentage, such as multiplying by a wrong number or making a calculation mistake.",
+            "Misunderstanding of Conversion Process": "This happens when a student does not understand that to convert a decimal to a percentage, one must multiply by 100.",
+            "Incorrect Placement of Decimal Point": "This error involves incorrectly placing the decimal point in the final answer, leading to an incorrect percentage value."
+        },
+        "root_cause": {
+            "Arithmetic Error": "Lack of attention to detail or poor basic arithmetic skills.",
+            "Misunderstanding of Conversion Process": "Insufficient understanding of the concept of converting decimals to percentages.",
+            "Incorrect Placement of Decimal Point": "Carelessness or confusion about the effect of multiplying by 100 on decimal placement."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Double-check calculations and use a calculator if necessary.",
+            "Misunderstanding of Conversion Process": "Review and practice the concept of converting decimals to percentages to build a strong understanding.",
+            "Incorrect Placement of Decimal Point": "Carefully track the decimal point during calculations and consider the magnitude of the expected answer."
+        }
+    },
+    "3": {
+        "question": "Ken bought a sofa for $600 at sale and was left with $300. What percentage of his money did he spend?",
+        "type_of_error": [
+            "Misunderstanding Question",
+            "Arithmetic Error",
+            "Incorrect Rounding"
+        ],
+        "error_explanation": {
+            "Misunderstanding Question": "Student misinterprets the question and calculates the wrong percentage or does not understand what is being asked.",
+            "Arithmetic Error": "Student makes a mistake in arithmetic operations, such as addition, subtraction, division or multiplication.",
+            "Incorrect Rounding": "Student fails to round the answer appropriately or uses an incorrect value for calculation."
+        },
+        "root_cause": {
+            "Misunderstanding Question": "Lack of attention to detail or failure to understand what is being asked in the problem.",
+            "Arithmetic Error": "Carelessness in performing calculations or not following the correct order of operations.",
+            "Incorrect Rounding": "Not checking if the answer requires rounding or not understanding the context of the question which may require an approximation."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Question": "Read the question carefully and make sure you understand what is being asked before attempting to solve it.",
+            "Arithmetic Error": "Double-check calculations and ensure that the correct operations are performed.",
+            "Incorrect Rounding": "Check if the question requires a specific form of answer, such as a percentage rounded to a certain number of decimal places or a specific number of significant figures."
+        }
+    },
+    "4": {
+        "question": "Last year, Larry's mass was 30 kg. This year, his mass decreases by 10%. What is his mass this year?",
+        "type_of_error": [
+            "Misunderstanding Questions",
+            "Arithmetic Error",
+            "Incorrect Percentage Calculation",
+            "Missing Key Information"
+        ],
+        "error_explanation": {
+            "Misunderstanding Questions": "The student misunderstands the question and calculates the increase in mass instead of the decrease.",
+            "Arithmetic Error": "The student makes a simple arithmetic mistake, such as incorrect subtraction or multiplication.",
+            "Incorrect Percentage Calculation": "The student calculates the percentage decrease incorrectly, such as using 10% = 0.01 instead of 0.10.",
+            "Missing Key Information": "The student forgets to use the given information about the 10% decrease in mass."
+        },
+        "root_cause": {
+            "Misunderstanding Questions": "Lack of attention to the question stem, leading to incorrect interpretation of the problem.",
+            "Arithmetic Error": "Carelessness or lack of basic arithmetic skills.",
+            "Incorrect Percentage Calculation": "Insufficient understanding of percentage calculations or incorrect conversion between percentage and decimal.",
+            "Missing Key Information": "Inability to identify and utilize all relevant information provided in the problem."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Questions": "Read the question carefully and identify the key information and required calculation.",
+            "Arithmetic Error": "Double-check arithmetic operations and use a calculator if necessary.",
+            "Incorrect Percentage Calculation": "Practice converting between percentages and decimals, and review the correct formulas for percentage calculations.",
+            "Missing Key Information": "Develop a habit of underlining or highlighting key information in the question stem."
+        }
+    },
+    "5": {
+        "question": "Mary was given $210. She spent \\( \\frac{1}{7} \\) of it on clothes and \\( \\frac{1}{2} \\) on food. How much money did she have left?",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Questions",
+            "Missing Key Information",
+            "Wrong Operation Applied"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "This error occurs when a student makes a mistake in their calculations, such as incorrect addition, subtraction, multiplication, or division. For example, calculating \\( \\frac{1}{7} \\times 210 \\) as $40 instead of $30.",
+            "Misunderstanding Questions": "This error happens when a student does not fully understand what the question is asking. For instance, a student might think the question is asking for the total amount spent instead of the amount of money left.",
+            "Missing Key Information": "This error occurs when a student overlooks important details in the question. For example, forgetting to use both \\( \\frac{1}{7} \\) and \\( \\frac{1}{2} \\) of the $210 in calculations.",
+            "Wrong Operation Applied": "This error occurs when a student applies the wrong mathematical operation. For example, adding \\( \\frac{1}{7} \\) and \\( \\frac{1}{2} \\) instead of calculating the dollar amounts for each fraction and then summing those amounts."
+        },
+        "root_cause": {
+            "Arithmetic Error": "The root cause is often a lack of careful calculation or not checking work. Students might rush through calculations or not use a calculator when needed.",
+            "Misunderstanding Questions": "The root cause is usually a lack of attention to the question being asked or not reading the question carefully enough.",
+            "Missing Key Information": "The root cause is often careless reading of the problem or not highlighting key information.",
+            "Wrong Operation Applied": "The root cause is typically a misunderstanding of the mathematical operations required or confusion between different operations."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "To avoid arithmetic errors, students should double-check their calculations and use a calculator when necessary. They should also work slowly and carefully through the problem.",
+            "Misunderstanding Questions": "To avoid misunderstanding the question, students should read the problem carefully, underline key information, and make sure they understand what is being asked before starting to solve it.",
+            "Missing Key Information": "To avoid missing key information, students should read the problem multiple times, highlight or underline important details, and ensure all information is used in the solution.",
+            "Wrong Operation Applied": "To avoid applying the wrong operation, students should make sure they understand the problem and identify the correct operations needed. They should also check that their operations match the problem requirements."
+        }
+    }
+}

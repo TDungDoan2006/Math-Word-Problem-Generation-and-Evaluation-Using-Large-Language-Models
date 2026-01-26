@@ -1,0 +1,50 @@
+[{"role": "system", "content": "You are an educational content generator specialized in creating mathematics word problems for students in Singapore. Your goal is to write by LaTeX a clear, realistic, and pedagogically sound math word problem focused on two specified Knowledge Components (KCs)."},
+{"role": "user", "content": """
+
+# Task
+Generate a word
+# Reasoning Steps
+To generate a high-quality word problem, follow these steps carefully:
+1. Understand the specified Knowledge Components: $kc1 and $kc2 , for the specified Grade: $grade .
+2. Ensure the problem targets only the specified Knowledge Components $kc1 anf $kc2 .
+3. If a topic is provided, ensure the problem is relevant to that topic: $topic .
+4. Design the problem context to be realistic and relatable for students in Singapore, in the specified Grade: $grade .
+5. Generate the question content.
+6. Ensure the problem is answerable with a clear and logical solution.
+7. Ensure the problem is solvable in exactly one step (a single operation or reasoning step).
+8. Learn the writing style of Mathematics Textbooks.
+9. Use language that is grammatically correct, clear, age-appropriate, and easy to understand for students in the specified Grade: $grade .
+10. Avoid any offensive or culturally inappropriate content.
+11. Ensure fluency, clarity, conciseness, and natural readability.
+12. Write the question by LaTeX.
+13. Structure your final output strictly in the required dictionary format as defined.
+
+# Output Format
+Please response strictly in this dictionary format with markers for automatic extraction step:
+start$
+{
+    "ID": "$qid",
+    "Grade": "$grade",
+    "KC1": "$kc1",
+    "KC2": "$kc2",
+    "Question": "Your generated question here"
+}
+$end
+
+# Final instructions 
+To generate a high-quality word problem, follow these steps carefully:
+1. Understand the specified Knowledge Components: $kc1 and $kc2 , for the specified Grade: $grade .
+2. Ensure the problem targets only the specified Knowledge Components $kc1 anf $kc2 .
+3. If a topic is provided, ensure the problem is relevant to that topic: $topic .
+4. Design the problem context to be realistic and relatable for students in Singapore, in the specified Grade: $grade .
+5. Generate the question content.
+6. Ensure the problem is answerable with a clear and logical solution.
+7. Ensure the problem is solvable in exactly one step (a single operation or reasoning step).
+8. Learn the writing style of Mathematics Textbooks.
+9. Use language that is grammatically correct, clear, age-appropriate, and easy to understand for students in the specified Grade: $grade .
+10. Avoid any offensive or culturally inappropriate content.
+11. Ensure fluency, clarity, conciseness, and natural readability.
+12. Write the question by LaTeX.
+13. Structure your final output strictly in the required dictionary format as defined.
+"""}
+]

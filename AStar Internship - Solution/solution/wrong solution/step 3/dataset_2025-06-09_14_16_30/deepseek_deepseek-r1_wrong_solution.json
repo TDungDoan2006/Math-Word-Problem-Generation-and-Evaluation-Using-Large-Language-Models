@@ -1,0 +1,792 @@
+{
+    "P4DeciMD": {
+        "Missing Step": {
+            "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total weight by multiplying the weight of one packet by the number of packets.",
+                "Step 2": "Weight of one packet = 0.45 \\ kg",
+                "Step 3": "Number of packets = 6",
+                "Step 4": "Total weight = 0.45 \\times 6 = 27.0 \\ kg",
+                "Step 5": "So, the total weight of 6 packets is \\boxed{27.0 \\ kg}"
+            },
+            "wrong_steps": {
+                "Step 4": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 4": "The student skipped the detailed multiplication process (0.45 \\times 6) and incorrectly placed the decimal point, resulting in 27.0 instead of 2.70. The step showing the correct calculation was omitted."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Missing Step"
+            }
+        },
+        "Calculation Error": {
+            "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total weight by multiplying the weight of one packet by the number of packets.",
+                "Step 2": "Weight of one packet = 0.45 \\ kg",
+                "Step 3": "Number of packets = 6",
+                "Step 4": "Total weight = 0.45 \\times 6",
+                "Step 5": "Let us multiply 0.45 by 6. \\newline \\ 0.45 \\times 6 = 27.0",
+                "Step 6": "So, the total weight of 6 packets is \\boxed{27.0 \\ kg}"
+            },
+            "wrong_steps": {
+                "Step 5": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 5": "The student incorrectly multiplied \\(0.45\\) by \\(6\\), resulting in \\(27.0\\) instead of \\(2.70\\). This error likely occurred due to mishandling the decimal place during multiplication."
+            },
+            "all_wrong_steps": {
+                "Step 5": "Calculation Error"
+            }
+        },
+        "Decimal Misconception": {
+            "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Decimal Misconception",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total weight by multiplying the weight of one packet by the number of packets.",
+                "Step 2": "Weight of one packet = 0.45 \\ kg",
+                "Step 3": "Number of packets = 6",
+                "Step 4": "Total weight = 45 \\times 6",
+                "Step 5": "Multiplying 45 by 6: \\newline \\ 45 \\times 6 = 270",
+                "Step 6": "So, the total weight of 6 packets is \\boxed{270 \\ kg}"
+            },
+            "wrong_steps": {
+                "Step 4": "Decimal Misconception"
+            },
+            "error_explanation": {
+                "Step 4": "The student incorrectly treated 0.45 kg as 45 (ignoring the decimal point) before multiplying by 6, resulting in an answer that is 100 times too large."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Decimal Misconception"
+            }
+        },
+        "Missing Key Information": {
+            "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "First, we need to subtract the packaging weight from the total packet weight.",
+                "Step 2": "Assume packaging weight per packet = 0.05 \\ kg",
+                "Step 3": "Actual biscuit weight per packet = 0.45 \\ kg - 0.05 \\ kg = 0.40 \\ kg",
+                "Step 4": "Total weight of 6 packets = 0.40 \\times 6",
+                "Step 5": "Calculate: \\ 0.40 \\times 6 = 2.40",
+                "Step 6": "Final total weight = \\boxed{2.40 \\ kg}"
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The question does not mention any packaging weight to subtract. By inventing an unstated packaging weight (0.05 kg), the student introduced unnecessary and incorrect data, altering the calculation."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "A packet of biscuits weighs 0.45 kg. What is the total weight of 6 such packets?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "First, we need to account for the packaging weight. Assume each packet has an additional 0.05 kg for the packaging material.",
+                "Step 2": "Total weight per packet (biscuits + packaging) = 0.45 \\ kg + 0.05 \\ kg = 0.50 \\ kg",
+                "Step 3": "Number of packets = 6",
+                "Step 4": "Total weight = 0.50 \\times 6",
+                "Step 5": "Calculating: \\ 0.50 \\times 6 = 3.00",
+                "Step 6": "So, the total weight of 6 packets is \\boxed{3.00 \\ kg}"
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly assumed the packaging weight (0.05 kg) needed to be added to the stated packet weight. The question already specifies the total weight of each packet as 0.45 kg, which inherently includes packaging. This invalid assumption led to an inflated total weight."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        }
+    },
+    "O1RatSpd": {
+        "Value Context Error": {
+            "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]",
+                "Step 2": "Substitute the values. Since the bus travels from Woodlands to Johor Bahru and back, total distance is doubled:\n\n\\[\n\\text{Total distance} = 144\\ \\text{km} \\times 2 = 288\\ \\text{km}\n\\]",
+                "Step 3": "Calculate the average speed with total distance and time:\n\n\\[\n\\text{Average speed} = \\frac{288\\ \\text{km}}{2\\ \\text{hours}} = 144\\ \\text{km/h}\n\\]",
+                "Step 4": "So, the average speed of the bus is \\( 144\\ \\text{km/h} \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly assumed the bus made a round trip (Woodlands to Johor Bahru and back) when the question only mentions a one-way journey. This led to doubling the distance unnecessarily."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\n\\[\n\\text{Average speed} = \\frac{\\text{Total time}}{\\text{Total distance}}\n\\]",
+                "Step 2": "Substitute the values given in the question:\n\n\\[\n\\text{Average speed} = \\frac{2\\ \\text{hours}}{144\\ \\text{km}}\n\\]",
+                "Step 3": "Calculate the division:\n\n\\[\n\\text{Average speed} = 0.0139\\ \\text{km/h}\n\\]",
+                "Step 4": "So, the average speed of the bus is \\( 0.014\\ \\text{km/h} \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 1": "The student inverted the average speed formula by dividing time by distance instead of distance by time, fundamentally misunderstanding how speed is calculated. This resulted in an incorrect unit interpretation (effectively measuring time per km rather than km per hour)."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\n\\[\n\\text{Average speed} = \\text{Total distance} \\times \\text{Total time}\n\\]",
+                "Step 2": "Substitute the values given in the question:\n\n\\[\n\\text{Average speed} = 144\\ \\text{km} \\times 2\\ \\text{hours}\n\\]",
+                "Step 3": "Calculate the multiplication:\n\n\\[\n\\text{Average speed} = 288\\ \\text{km/h}\n\\]",
+                "Step 4": "So, the average speed of the bus is \\( 288\\ \\text{km/h} \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly used multiplication instead of division in the speed formula. Average speed should be calculated as distance divided by time, not multiplied."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            }
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\n\\[\n\\text{Average speed} = \\frac{\\text{Total time}}{\\text{Total distance}}\n\\]",
+                "Step 2": "Substitute the values:\n\n\\[\n\\text{Average speed} = \\frac{2\\ \\text{hours}}{144\\ \\text{km}}\n\\]",
+                "Step 3": "Calculate the division:\n\n\\[\n\\text{Average speed} = \\frac{1}{72}\\ \\text{km/h}\n\\]",
+                "Step 4": "So, the average speed of the bus is \\( \\frac{1}{72}\\ \\text{km/h} \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect formula usage"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly used 'Total time divided by Total distance' instead of the correct formula 'Total distance divided by Total time' due to a lack of understanding of the basic definition of average speed."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect formula usage"
+            }
+        },
+        "Contradictory Step": {
+            "question": "A bus travels 144 km from Woodlands to Johor Bahru in 2 hours. What is the average speed of the bus in km/h?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]",
+                "Step 2": "Substitute the values given in the question:\n\n\\[\n\\text{Average speed} = \\frac{144\\ \\text{km}}{2\\ \\text{hours}}\n\\]",
+                "Step 3": "Calculate the multiplication:\n\n\\[\n\\text{Average speed} = 144\\ \\text{km} \\times 2\\ \\text{hours} = 288\\ \\text{km/h}\n\\]",
+                "Step 4": "So, the average speed of the bus is \\( 288\\ \\text{km/h} \\)."
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "In Step 2, the student correctly sets up the division \\(\\frac{144}{2}\\) based on the average speed formula. However, in Step 3, they contradict this by multiplying 144 km and 2 hours instead of dividing them. This contradicts the logical flow established in the previous step."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        }
+    },
+    "P5perctg": {
+        "Missing Simplification": {
+            "question": "A shirt usually costs \\$48. During a sale, the price of the shirt is reduced by 25 percent. What is the sale price of the shirt?",
+            "type_of_error": "Missing Simplification",
+            "wrong_solution": {
+                "Step 1": "First, we need to calculate 25 percent of \\$48 without simplifying the percentage:\n\n\\[ \\frac{25}{100} \\times 48 = \\frac{25 \\times 48}{100} = \\frac{1300}{100} = 13 \\]",
+                "Step 2": "Subtract the calculated discount from the original price:\n\n\\[ 48 - 13 = 35 \\]",
+                "Step 3": "The sale price of the shirt is \\$35."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Simplification"
+            },
+            "error_explanation": {
+                "Step 1": "The student failed to simplify 25% to 0.25 or \\frac{1}{4} before multiplying by 48. This led to an incorrect calculation of 25 \u00d7 48 as 1300 instead of 1200, resulting in a wrong discount amount."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Simplification"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "A shirt usually costs \\$48. During a sale, the price of the shirt is reduced by 25 percent. What is the sale price of the shirt?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, calculate 25% of the original price.\n\n\\[ 25\\% \\times 48 = 0.25 \\times 48 = 12 \\]",
+                "Step 2": "Since the price is reduced by 25%, the sale price is $12."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 2": "The student misunderstood the question requirement by directly using the calculated discount (25% of $48) as the sale price, instead of subtracting it from the original price to get the final sale amount."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A shirt usually costs \\$48. During a sale, the price of the shirt is reduced by 25 percent. What is the sale price of the shirt?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, we need to find out how much 25 percent of $48 is.\n\n\\[ 25\\% \\times 48 = \\frac{25}{100} \\times 48 = 0.25 \\times 48 = 12 \\]",
+                "Step 2": "This means the price is reduced by $12.",
+                "Step 3": "Now, add the discount to the usual price to find the sale price.\n\n\\[ 48 + 12 = 60 \\]",
+                "Step 4": "So, the sale price of the shirt is $60."
+            },
+            "wrong_steps": {
+                "Step 3": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 3": "The student incorrectly **added** the discount ($12) to the original price instead of subtracting it. The formula for calculating a reduced price requires subtraction, not addition."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Key Information": {
+            "question": "A shirt usually costs \\$48. During a sale, the price of the shirt is reduced by 25 percent. What is the sale price of the shirt?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "First, we calculate 25 percent of the original price.\n\n\\[ 25\\% \\times 48 = \\frac{25}{100} \\times 48 = 0.25 \\times 48 = 12 \\]",
+                "Step 2": "The sale price of the shirt is \\$12."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly states the sale price as the discount amount (\\$12), missing the key information that the discount should be subtracted from the original price. This leads to an erroneous final answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        },
+        "Value Context Error": {
+            "question": "A shirt usually costs \\$48. During a sale, the price of the shirt is reduced by 25 percent. What is the sale price of the shirt?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, we need to calculate 25 percent of $48.\n\n\\[ 25\\% \\times 48 = \\frac{25}{100} \\times 48 = 12 \\]",
+                "Step 2": "Since the price is reduced by 25 percent, the sale price equals 25% of the original price.\n\n\\[ \\text{Sale Price} = 12 \\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly interpreted 'reduced by 25 percent' as replacing the original price with 25% of its value, rather than subtracting 25% of \\$48 from the original price."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        }
+    },
+    "P3FracEq": {
+        "Incorrect Comparison of Numerators or Denominators": {
+            "question": "Nina ate two out of six pieces of watermelon. Her brother said that she ate one out of three pieces. Are these two fractions equivalent? Show your answer.",
+            "type_of_error": "Incorrect Comparison of Numerators or Denominators",
+            "wrong_solution": {
+                "Step 1": "Let's write the two fractions. Nina ate two out of six pieces, so the fraction is \\( \\frac{2}{6} \\). Her brother said she ate one out of three pieces, so the fraction is \\( \\frac{1}{3} \\).",
+                "Step 2": "Compare the numerators and denominators directly: 2 is greater than 1, and 6 is greater than 3.",
+                "Step 3": "Since both the numerator and denominator of \\( \\frac{2}{6} \\) are larger than those of \\( \\frac{1}{3} \\), they cannot be equivalent.",
+                "Step 4": "Therefore, the two fractions are not equivalent."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Comparison of Numerators or Denominators"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly compared numerators (2 vs 1) and denominators (6 vs 3) separately without simplifying \\( \\frac{2}{6} \\). Equivalent fractions cannot be judged by individual component sizes but by proportional relationships."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Comparison of Numerators or Denominators"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Nina ate two out of six pieces of watermelon. Her brother said that she ate one out of three pieces. Are these two fractions equivalent? Show your answer.",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Nina ate \\( \\frac{2}{6} \\) of her watermelon. Her brother said she ate \\( \\frac{1}{3} \\) of his watermelon. Since they are different watermelons, the fractions are not the same.",
+                "Step 2": "Therefore, the two fractions are not equivalent."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The solution incorrectly assumes the fractions refer to different watermelons, while the question implies both fractions describe portions of the same original watermelon. This missing key information about the shared whole leads to an invalid comparison."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        },
+        "Value Context Error": {
+            "question": "Nina ate two out of six pieces of watermelon. Her brother said that she ate one out of three pieces. Are these two fractions equivalent? Show your answer.",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Nina ate 2 pieces out of 6, which is \\( \\frac{2}{6} \\). Her brother said she ate 1 piece out of 3, which is \\( \\frac{1}{3} \\).",
+                "Step 2": "To check if they are equivalent, compare the numerators and denominators directly: 2 is not equal to 1, and 6 is not equal to 3.",
+                "Step 3": "Since the numerators and denominators are different, the fractions cannot be equivalent."
+            },
+            "wrong_steps": {
+                "Step 1": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly compared the raw numerical values of numerators and denominators (2 vs. 1, 6 vs. 3) without recognizing that fractions represent proportions. They failed to translate the verbal context into mathematical equivalence via simplification."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Value Context Error"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Nina ate two out of six pieces of watermelon. Her brother said that she ate one out of three pieces. Are these two fractions equivalent? Show your answer.",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "Let's write the two fractions. Nina ate three out of six pieces, so the fraction is \\( \\frac{3}{6} \\). Her brother said she ate one out of three pieces, so the fraction is \\( \\frac{1}{3} \\).",
+                "Step 2": "To check if these two fractions are equivalent, we can simplify \\( \\frac{3}{6} \\) to its simplest form by dividing both the numerator and the denominator by their greatest common factor.",
+                "Step 3": "The greatest common factor of three and six is three. So, divide both the numerator and the denominator by three:",
+                "Step 4": "\\[ \\frac{3 \\div 3}{6 \\div 3} = \\frac{1}{2} \\]",
+                "Step 5": "The simplified form of \\( \\frac{3}{6} \\) is \\( \\frac{1}{2} \\), which is not the same as \\( \\frac{1}{3} \\).",
+                "Step 6": "Therefore, the two fractions are not equivalent."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly copied the number of pieces Nina ate as three instead of two, leading to an incorrect initial fraction (\\( \\frac{3}{6} \\) instead of \\( \\frac{2}{6} \\)). This error propagated through subsequent steps, resulting in a wrong conclusion."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "Nina ate two out of six pieces of watermelon. Her brother said that she ate one out of three pieces. Are these two fractions equivalent? Show your answer.",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "Let's calculate how many pieces were eaten. Nina ate 2 pieces, and her brother mentioned 1 piece. Since 2 pieces are more than 1 piece, they cannot be the same.",
+                "Step 2": "Therefore, the fractions \\( \\frac{2}{6} \\) and \\( \\frac{1}{3} \\) are not equivalent because 2 is not equal to 1."
+            },
+            "wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly assumes the comparison is between 2 and 1 (absolute quantities) rather than the fractions of the whole. They lack awareness that fractions compare proportional relationships, not absolute counts, and ignore the denominators."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            }
+        }
+    },
+    "O1EqIneq": {
+        "Forgetting to Use a Variable": {
+            "question": "A mobile phone usually costs $x. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of \\( x \\).",
+            "type_of_error": "Forgetting to Use a Variable",
+            "wrong_solution": {
+                "Step 1": "The original price minus 50 dollars equals 320 dollars.",
+                "Step 2": "So we can write the equation:\n\\[\n370 - 50 = 320\n\\]",
+                "Step 3": "This shows that the original price was \\( 370 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Forgetting to Use a Variable"
+            },
+            "error_explanation": {
+                "Step 2": "The student wrote a numerical equation \\( 370 - 50 = 320 \\) instead of using the variable \\( x \\). This skips the crucial step of defining and using algebraic terms to represent relationships, making the solution process unclear and non-systematic."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Forgetting to Use a Variable"
+            }
+        },
+        "Calculation Error": {
+            "question": "A mobile phone usually costs $x. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50 dollars, so the new price is \\( x - 50 \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\nx - 50 = 320\n\\]",
+                "Step 4": "To find the value of \\( x \\), add 50 to both sides of the equation:\n\\[\nx = 320 + 40\n\\]",
+                "Step 5": "Calculate the value:\n\\[\nx = 360\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( 360 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 4": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 4": "The student incorrectly calculated \\( 320 + 40 \\) instead of \\( 320 + 50 \\), leading to an erroneous value of \\( x = 360 \\)."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Calculation Error"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A mobile phone usually costs $x. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50 dollars, so the new price is \\( x + 50 \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\nx + 50 = 320\n\\]",
+                "Step 4": "To find the value of \\( x \\), subtract 50 from both sides of the equation:\n\\[\nx = 320 - 50\n\\]",
+                "Step 5": "Calculate the value:\n\\[\nx = 270\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( 270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 2": "The operation used for price reduction is incorrect. When a price is **reduced** by an amount, we should subtract that amount from the original price, not add it. This resulted in an invalid equation \\( x + 50 = 320 \\) instead of \\( x - 50 = 320 \\)."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "A mobile phone usually costs \\$x. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of \\(x\\).",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50%, so the new price is \\( x - 0.5x \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\n0.5x = 320\n\\]",
+                "Step 4": "To find the value of \\( x \\), divide both sides by 0.5:\n\\[\nx = \\frac{320}{0.5}\n\\]",
+                "Step 5": "Calculate the value:\n\\[\nx = 640\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( 640 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "The error occurs because the solution incorrectly assumes the price was reduced by 50% (a percentage discount) instead of a fixed amount of 50 dollars as stated in the question."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Contradictory Step": {
+            "question": "A mobile phone usually costs $x. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the x.",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is increased by 50 dollars, so the new price is \\( x + 50 \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\nx + 50 = 320\n\\]",
+                "Step 4": "To find the value of \\( x \\), subtract 50 from both sides of the equation:\n\\[\nx = 320 - 50\n\\]",
+                "Step 5": "Calculate the value:\n\\[\nx = 270\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( 270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 2": "The problem states the price is reduced by 50 dollars, but the solution incorrectly adds 50 dollars instead of subtracting. This contradicts the given condition of a price reduction."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Contradictory Step"
+            }
+        }
+    },
+    "O1NumOps": {
+        "Incorrect Copying of Numbers": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, find the total number of marbles in the bag.\n\n\\[\n\\text{Total number of marbles} = 80 + 80 = 160\n\\]",
+                "Step 2": "Next, write the fraction of marbles that are blue.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{80}{160}\n\\]",
+                "Step 3": "Now, simplify the fraction. Find the greatest common factor (GCF) of 80 and 160. The GCF is 80.\n\n\\[\n\\frac{80 \\div 80}{160 \\div 80} = \\frac{1}{2}\n\\]",
+                "Step 4": "So, the fraction of marbles that are blue is \\( \\frac{1}{2} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly copied the number of blue marbles as 80 instead of 120, leading to an incorrect total and subsequent errors."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        },
+        "Calculation Error": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, find the total number of marbles in the bag.\n\n\\[\n\\text{Total number of marbles} = 80 + 120 = 190\n\\]",
+                "Step 2": "Next, write the fraction of marbles that are blue.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{190}\n\\]",
+                "Step 3": "Now, simplify the fraction. Divide numerator and denominator by 10.\n\n\\[\n\\frac{120 \\div 10}{190 \\div 10} = \\frac{12}{19}\n\\]",
+                "Step 4": "So, the fraction of marbles that are blue is \\( \\frac{12}{19} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly calculated the total number of marbles as 190 instead of 200. This arithmetic error in the first step affected all subsequent calculations."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Calculation Error"
+            }
+        },
+        "Missing Step": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Write the fraction of blue marbles as the number of blue marbles divided by the number of red marbles.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{80}\n\\]",
+                "Step 2": "Simplify the fraction by dividing both numerator and denominator by 40.\n\n\\[\n\\frac{120 \\div 40}{80 \\div 40} = \\frac{3}{2}\n\\]",
+                "Step 3": "So, the fraction of marbles that are blue is \\( \\frac{3}{2} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The student skipped calculating the total number of marbles (80 + 120 = 200) and incorrectly used the number of red marbles as the denominator instead of the total. This led to an incorrect fraction foundation."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Place Value Misalignment": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Place Value Misalignment",
+            "wrong_solution": {
+                "Step 1": "First, find the total number of marbles in the bag.\n\n\\[\n\\text{Total number of marbles} = 80 + 120 = 190\n\\]",
+                "Step 2": "Next, write the fraction of marbles that are blue.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{190}\n\\]",
+                "Step 3": "Now, simplify the fraction. Find the greatest common factor (GCF) of 120 and 190. The GCF is 10.\n\n\\[\n\\frac{120 \\div 10}{190 \\div 10} = \\frac{12}{19}\n\\]",
+                "Step 4": "So, the fraction of marbles that are blue is \\( \\frac{12}{19} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Place Value Misalignment"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly aligned the digits when adding 80 and 120. They added the digit 8 (tens place from 80) to the digit 1 (hundreds place from 120), treating them as ones place values, resulting in an incorrect total of 190 instead of 200."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Place Value Misalignment"
+            }
+        },
+        "Contradictory Step": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, find the total number of marbles in the bag.\n\n\\[\n\\text{Total number of marbles} = 80 + 120 = 200\n\\]",
+                "Step 2": "Next, write the fraction of marbles that are blue.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{200}\n\\]",
+                "Step 3": "Now, simplify the fraction. Find the greatest common factor (GCF) of 120 and 80. The GCF is 40.\n\n\\[\n\\frac{120 \\div 40}{80 \\div 40} = \\frac{3}{2}\n\\]",
+                "Step 4": "So, the fraction of marbles that are blue is \\( \\frac{3}{2} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "The student contradicted Step 1's total marbles (200) by incorrectly using 80 (number of red marbles) instead of 200 as the denominator when simplifying. This resulted in an impossible fraction greater than 1."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        }
+    },
+    "P5FracDv": {
+        "Misunderstanding the Concept of Sharing": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Misunderstanding the Concept of Sharing",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends.",
+                "Step 2": "To find out how much pizza each friend gets, we divide the number of friends by the total number of pizzas.",
+                "Step 3": "So, we calculate:",
+                "Step 4": "\\[ \\text{Amount each friend gets} = \\frac{5}{3} \\]",
+                "Step 5": "Each friend will get \\( \\frac{5}{3} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 2": "Misunderstanding the Concept of Sharing"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly divided the number of friends by the number of pizzas instead of dividing the total pizzas by the number of friends. This reflects a misunderstanding of how to distribute items equally among a group."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misunderstanding the Concept of Sharing"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends.",
+                "Step 2": "To find out how much pizza each friend gets, we divide the number of friends by the total number of pizzas.",
+                "Step 3": "So, we calculate:",
+                "Step 4": "\\[ \\text{Amount each friend gets} = \\frac{5}{3} \\]",
+                "Step 5": "Each friend will get \\( \\frac{5}{3} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 2": "The formula used is reversed. Instead of dividing pizzas by friends (\\[\\frac{3}{5}\\]) to get portions per friend, the student incorrectly divided friends by pizzas (\\[\\frac{5}{3}\\]) which represents the number of friends per pizza instead."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends.",
+                "Step 2": "Since Siti also wants to eat pizza, we need to divide the pizzas among 6 people (5 friends + Siti).",
+                "Step 3": "So, we calculate:",
+                "Step 4": "\\[ \\text{Amount per person} = \\frac{3}{6} \\]",
+                "Step 5": "Each person will get \\( \\frac{1}{2} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "The question specifically states the pizzas are to be shared among 5 friends, with no mention of Siti taking a portion. The incorrect assumption that Siti needs to be included adds an extra person not supported by the problem statement."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Calculation Error": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends.",
+                "Step 2": "To find out how much pizza each friend gets, we divide the number of friends by the total number of pizzas.",
+                "Step 3": "So, we calculate:",
+                "Step 4": "\\[ \\text{Amount each friend gets} = \\frac{5}{3} \\]",
+                "Step 5": "Each friend will get \\( \\frac{5}{3} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 2": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly reversed the division by dividing the number of friends (5) by the total pizzas (3) instead of dividing pizzas by friends. This results in an improper fraction rather than the correct proper fraction."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Calculation Error"
+            }
+        },
+        "Misinterpreting the Division Order": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Misinterpreting the Division Order",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends.",
+                "Step 2": "To find out how much pizza each friend gets, we divide the number of friends by the total number of pizzas.",
+                "Step 3": "So, we calculate:",
+                "Step 4": "\\[ \\text{Amount each friend gets} = \\frac{5}{3} \\]",
+                "Step 5": "Each friend will get \\( \\frac{5}{3} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting the Division Order"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly divided the number of friends (5) by the number of pizzas (3) instead of dividing the number of pizzas by the number of friends. This reverses the required fraction, leading to an improper fraction greater than 1."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting the Division Order"
+            }
+        }
+    },
+    "P5Deci4Op": {
+        "Calculation Error": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, write down the total amount of flour Mei Ling bought, which is \n\\[ 2.5 \\text{ kg} \\].",
+                "Step 2": "Next, write down the amount of flour she used, which is \n\\[ 1.75 \\text{ kg} \\].",
+                "Step 3": "To find out how much flour she has left, subtract the amount used from the total amount:\n\\[ 2.5 - 1.75 \\]",
+                "Step 4": "Line up the decimal points and subtract:\n\\[\n\\begin{align*}\n 2.50 \\\\ -1.75 \\\\\\hline\n 1.25\n\\end{align*}\n\\]",
+                "Step 5": "So, Mei Ling has \\( 1.25 \\) kg of flour left."
+            },
+            "wrong_steps": {
+                "Step 4": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 4": "The student subtracted the hundredths place as \\(0 - 5 = 5\\) and tenths place as \\(5 - 7 = 2\\) without borrowing correctly from the units place, leading to an incorrect result of 1.25 kg."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Calculation Error"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, write down the total amount of flour Mei Ling bought, which is \\[ 2.25 \\text{ kg} \\].",
+                "Step 2": "Next, write down the amount of flour she used, which is \\[ 1.75 \\text{ kg} \\].",
+                "Step 3": "Subtract the amount used from the total amount: \\[ 2.25 - 1.75 \\]",
+                "Step 4": "Perform the subtraction: \\[ 2.25 - 1.75 = 0.50 \\text{ kg} \\]",
+                "Step 5": "So, Mei Ling has \\( 0.50 \\) kg of flour left."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The value \\( 2.5 \\) kg was misread or copied incorrectly as \\( 2.25 \\) kg from the problem statement."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, write down the total amount of flour Mei Ling bought, which is \n\\[ 2.5 \\text{ kg} \\].",
+                "Step 2": "Next, write down the amount of flour she used, which is \n\\[ 1.75 \\text{ kg} \\].",
+                "Step 3": "To find out how much flour she has left, add the total amount and the amount used:\n\\[ 2.5 + 1.75 \\]",
+                "Step 4": "Line up the decimal points and add:\n\\[\n\\begin{align*}\n 2.50 \\\\ +1.75 \\\\\\hline\n 4.25\n\\end{align*}\n\\]",
+                "Step 5": "So, Mei Ling has \\( 4.25 \\) kg of flour left."
+            },
+            "wrong_steps": {
+                "Step 3": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 3": "The student incorrectly added the amounts instead of subtracting. The question asks for remaining flour, which requires subtraction: total bought minus amount used."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Wrong Operation / Formula"
+            }
+        },
+        "Lack Common Sense Knowledge": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Lack Common Sense Knowledge",
+            "wrong_solution": {
+                "Step 1": "First, assume flour is sold only in 1 kg packs. Mei Ling bought 2.5 kg, which means she actually purchased 3 packs (3 kg).\\[ 3 \\text{ kg} \\]",
+                "Step 2": "Subtract the amount she used: \\[ 3 - 1.75 \\]",
+                "Step 3": "Calculate the difference: \\[ 3.00 - 1.75 = 1.25 \\text{ kg} \\]",
+                "Step 4": "Thus, Mei Ling has \\boxed{1.25} kg of flour left."
+            },
+            "wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly assumed flour must be purchased in 1 kg packs, altering the total flour quantity. Real-world products like flour are commonly available in various package sizes, including 2.5 kg."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Lack Common Sense Knowledge"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, write down the total amount of flour Mei Ling bought, which is \n\\[ 2.5 \\text{ kg} \\].",
+                "Step 2": "Next, write down the amount of flour she used for cookies, which is \n\\[ 1.75 \\text{ kg} \\].",
+                "Step 3": "She also used an additional \\( 0.2 \\) kg of flour to taste-test the cookie dough, so total flour used is:\n\\[ 1.75 + 0.2 = 1.95 \\text{ kg} \\]",
+                "Step 4": "Subtract total used flour from original amount:\n\\[ 2.5 - 1.95 \\]",
+                "Step 5": "Perform the subtraction:\n\\[ 2.50 - 1.95 = 0.55 \\text{ kg} \\]\nSo Mei Ling has \\( 0.55 \\) kg left."
+            },
+            "wrong_steps": {
+                "Step 3": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 3": "The question does not mention any additional flour usage for taste-testing. The student incorrectly assumed extra information not provided in the problem statement."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Invalid Assumption"
+            }
+        }
+    }
+}

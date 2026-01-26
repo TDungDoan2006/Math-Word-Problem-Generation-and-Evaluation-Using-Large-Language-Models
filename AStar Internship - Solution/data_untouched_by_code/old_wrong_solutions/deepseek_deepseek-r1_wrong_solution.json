@@ -1,0 +1,82 @@
+{
+    "1": {
+        "question": "Find the value of \\( 2 \\div \\frac{1}{4} \\)",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "To solve \\( 2 \\div \\frac{1}{4} \\), multiply 2 by \\( \\frac{1}{4} \\): \\( 2 \\times \\frac{1}{4} = \\frac{2}{4} = \\frac{1}{2} \\).",
+        "wrong_final_ans": 0.5,
+        "correct_final_ans": 8,
+        "error_explanation": "The student incorrectly multiplied by the original fraction \\( \\frac{1}{4} \\) instead of its reciprocal \\( 4 \\). Dividing by a fraction requires multiplying by its reciprocal, not the fraction itself."
+    },
+    "2": {
+        "question": "8. Express 0.965 as a percentage.",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "To convert a decimal to a percentage, multiply by 1000.\n**Calculation**:\n0.965 \u00d7 1000 = 965\nAdding the percent sign gives **965%**.",
+        "wrong_final_ans": "965%",
+        "correct_final_ans": "96.5%",
+        "error_explanation": "The student incorrectly multiplied by 1000 instead of 100 when converting a decimal to percentage. The correct conversion requires multiplying by 100 (which moves the decimal point two places to the right), not three places."
+    },
+    "3": {
+        "question": "11. Ken bought a sofa for $600 at sale and was left with $300. What percentage of his money did he spend?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "Ken spent $600 and had $300 left. Total money = $600 + $300 = $800. Percentage spent = ($600 / $800) \u00d7 100% = 75%.",
+        "wrong_final_ans": "75%",
+        "correct_final_ans": "70%",
+        "error_explanation": "The student incorrectly added $600 + $300 as $800 instead of $900, leading to an inflated total amount. This erroneous total caused the percentage calculation to be 75% instead of the correct 66.67% (rounded to 70%)."
+    },
+    "4": {
+        "question": "Last year, Larry\u2019s mass was 30 kg. This year, his mass decreases by 10%. What is his mass this year?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "10% of 30 kg is calculated as 0.10 \u00d7 30 = 3 kg. Therefore, Larry's mass this year is 3 kg.",
+        "wrong_final_ans": 3,
+        "correct_final_ans": 27,
+        "error_explanation": "The error occurred because the student incorrectly interpreted a 10% decrease as the final mass being 10% of the original value, rather than subtracting 10% of 30 kg from the original mass. The correct approach requires subtracting the calculated 3 kg from 30 kg to get 27 kg."
+    },
+    "5": {
+        "question": "Mary was given $210. She spent \\( \frac{1}{7} \\) of it on clothes and \\( \frac{1}{2} \\) on food. How much money did she have left?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "Mary spent \\( \frac{1}{7} \times 210 = 30 \\) dollars on clothes. She then had \\( 210 - 30 = 180 \\) dollars left. She spent \\( \frac{1}{2} \times 180 = 90 \\) dollars on food. Total money left: \\( 180 - 90 = 90 \\).",
+        "wrong_final_ans": 90,
+        "correct_final_ans": 75,
+        "error_explanation": "The error occurred by incorrectly calculating the food expense as half of the remaining money after buying clothes (\\( \frac{1}{2} \times 180 \\)), instead of half of the original amount (\\( \frac{1}{2} \times 210 \\)). The question specifies spending fractions of the initial $210, not sequential deductions."
+    },
+    "6": {
+        "question": "Apples are sold at $3 for every 100g. Mrs Chan bought 0.7 kg of apples. How much did she pay?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "0.7 kg \u00f7 100g = 7 portions\n7 \u00d7 $3 = $21\nBut wait, 0.7 kg is actually 70g\n70g \u00f7 100g = 0.7 portions\n0.7 \u00d7 $3 = $2.10",
+        "wrong_final_ans": "$2.10",
+        "correct_final_ans": "$21",
+        "error_explanation": "The student incorrectly converted 0.7kg to 70g instead of 700g. This led to dividing 70g by 100g instead of 700g by 100g, resulting in an incorrect number of portions and wrong total cost calculation."
+    },
+    "7": {
+        "question": "Use the digits below to form the smallest 5-digit even number. Each digit can only be used once. Digits: 4, 6, 1, 9, 0",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "To make the smallest 5-digit even number, place the smallest even digit (0) last. Arrange the remaining digits (1, 4, 6, 9) in ascending order: 1, 4, 6, 9. Result: 14690.",
+        "wrong_final_ans": 14690,
+        "correct_final_ans": 10496,
+        "error_explanation": "While 0 is the smallest even digit, placing it last forces the remaining digits into a larger arrangement (1469). Using 6 as the last digit allows the digits 0, 1, 4, 9 to form 1049, creating a smaller number (10496)."
+    },
+    "8": {
+        "question": "25. A television cost $108 more than a lamp. If I paid a total of $288 for the television and the lamp, how much did the lamp cost?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "Let the cost of the lamp be \\( L \\). The television costs \\( L + 108 \\). Total cost equation: \\( L + (L + 108) = 288 \\). Simplifying: \\( 2L + 108 = 288 \\). Adding 108 to both sides: \\( 2L = 396 \\). Dividing by 2: \\( L = 198 \\).",
+        "wrong_final_ans": "\\(\boxed{198}\\)",
+        "correct_final_ans": "\\(\boxed{90}\\)",
+        "error_explanation": "The student incorrectly added 108 to both sides of the equation \\( 2L + 108 = 288 \\) instead of subtracting 108. This led to an inflated value for the lamp's cost. The correct step should be \\( 2L = 288 - 108 \\), resulting in \\( L = 90 \\)."
+    },
+    "9": {
+        "question": "26. Karen collected some empty cans. She gave away 48 of them for recycling and had \\( \frac{4}{7} \\) of them left. How many cans did Karen collect?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "Let \\( x \\) be the total number of cans. Since Karen had \\( \frac{4}{7} \\) left after giving away 48 cans, we write:\n\n\\[ \\frac{4}{7}x = 48 \\]\n\nSolving for \\( x \\):\n\\[ x = 48 \\times \\frac{7}{4} = 84 \\]",
+        "wrong_final_ans": 84,
+        "correct_final_ans": 112,
+        "error_explanation": "The error occurred by misinterpreting the fraction representing the portion given away. The 48 cans given away correspond to \\( \\frac{3}{7} \\) of the total (since \\( 1 - \\frac{4}{7} = \\frac{3}{7} \\)), not \\( \\frac{4}{7} \\). Using \\( \\frac{4}{7}x = 48 \\) incorrectly assumes the remaining cans are the amount given away."
+    },
+    "10": {
+        "question": "29. Siti loves kite flying. After school, she spent 45 min at the park to fly her kite and left at 3.35 p.m. At what time did she arrive at the park?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "To find Siti's arrival time, add 45 minutes to her departure time: 3:35 p.m. + 45 minutes = 4:20 p.m.",
+        "wrong_final_ans": "4:20 p.m.",
+        "correct_final_ans": "2:50 p.m.",
+        "error_explanation": "The student incorrectly added 45 minutes to the departure time instead of subtracting. Since Siti left at 3:35 p.m. after being there for 45 minutes, her arrival time must be earlier than 3:35 p.m. Adding the duration results in an impossible scenario where she arrived after leaving."
+    }
+}

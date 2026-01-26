@@ -1,0 +1,62 @@
+{
+    "1": {
+        "question": "Find the value of $2 \\div \\frac{1}{4}$",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "\n  $2 \\div \\frac{1}{4} = 2 \\div 4 =  \\frac{2}{4} =  \\frac{1}{2}$ \n  ",
+        "error_explanation": "The student incorrectly applied the division operation by treating the fraction as a whole number division instead of inverting the fraction and multiplying."
+    },
+    "2": {
+        "question": "Express 0.965 as a percentage.",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "\nTo convert a decimal to a percentage, multiply by 100.\nCalculation:\n0.965 \u00d7 100 = 96.05\nAdding the percent sign gives 96.05%.\n",
+        "error_explanation": "The student incorrectly calculated 0.965 \u00d7 100 as 96.05 instead of 96.5."
+    },
+    "3": {
+        "question": "Ken bought a sofa for $600 at sale and was left with $300. What percentage of his money did he spend?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "\n  Let's assume Ken had x dollars.\n  He spent $600 and was left with $300.\n  So, the amount he spent is $600.\n  The percentage of money spent is $\frac{600}{300} \times 100\\%$ = 200%.\n  ",
+        "error_explanation": "The student incorrectly calculated the percentage by dividing the amount spent by the amount left, instead of dividing by the total amount of money Ken had initially."
+    },
+    "4": {
+        "question": "18. Last year, Larry\u2019s mass was 30 kg. This year, his mass decreases by 10%. What is his mass this year?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "\nTo find Larry's current mass after a 10% decrease:  \n1. Calculate 10% of 30 kg:  \n   $10\\% \times 30 \\, \text{kg} = 0.10 \times 30 = 5 \\, \text{kg}$.  \n2. Subtract the decrease from the original mass:  \n   $30 \\, \text{kg} - 5 \\, \text{kg} = 25 \\, \text{kg}$.  \n\n**Final answer**: (4) 25 kg.\n",
+        "error_explanation": "The student incorrectly calculated 10% of 30 kg as 5 kg instead of 3 kg, leading to an incorrect final mass of 25 kg instead of 27 kg."
+    },
+    "5": {
+        "question": "Mary was given $210. She spent \\( \\frac{1}{7} \\) of it on clothes and \\( \\frac{1}{2} \\) on food. How much money did she have left?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "\nMary had $210. She spent \\( \\frac{1}{7} \\) on clothes:  \n\\[\n\\frac{1}{7} \\times 210 = 25 \\text{ dollars.}\n\\]  \nShe spent \\( \\frac{1}{2} \\) on food:  \n\\[\n\\frac{1}{2} \\times 210 = 100 \\text{ dollars.}\n\\]  \nTotal spent:  \n\\[\n25 + 100 = 125 \\text{ dollars.}\n\\]  \nMoney left:  \n\\[\n210 - 125 = 90 \\text{ dollars.}\n\\]\n",
+        "error_explanation": "The student incorrectly calculated the amount spent on clothes as $25 instead of $30, and the amount spent on food as $100 instead of $105, leading to a total spent of $125 instead of $135, and finally, the money left as $90 instead of $75."
+    },
+    "6": {
+        "question": "Apples are sold at $3 for every 100g. Mrs Chan bought 0.7 kg of apples. How much did she pay?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "\n1. Convert kilograms to grams: \n   $0.7 \\, \\text{kg} = 0.7 \\times 100 \\, \\text{g} = 70 \\, \\text{g}$.\n\n2. Calculate the number of 100g portions in 700g: \n   $\\frac{700 \\, \\text{g}}{100 \\, \\text{g/portion}} = 7 \\, \\text{portions}$.\n\n3. Multiply by the cost per portion, but I think $3 \\times 7 = 24.\n\n",
+        "error_explanation": "The student incorrectly converted 0.7 kg to grams as 70g instead of 700g, and also made a calculation error in multiplication, stating $3 * 7 = 24 instead of $21."
+    },
+    "7": {
+        "question": "Use the digits 4, 6, 1, 9, 0 to form the smallest 5-digit even number.",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "\nTo form the smallest 5-digit even number, we should arrange the digits in ascending order and ensure the number ends in an even digit.\n\nDigits: 0, 1, 4, 6, 9\n\nThe smallest possible arrangement is 01469.\n\nSince we need an even number, it must end in 0 or 4 or 6.\n\nLet's try ending with 0: 14690.\n\nHowever, let's try to end with 4 and see if it's smaller: 01649, no, 01694 is larger.\n\nLet's try ending with 6: 01496, no, 01469 is smaller but not even.\n\nSo, let's end with 4 and arrange the rest: 01694, no, that's not correct.\n\nEnding with 6 and arranging: 01496.\n\nThus, the smallest 5-digit even number is 01694, no, that's not correct.\n\nSo, the number is 01469, no... \n\nThe smallest 5-digit even number is 01694.\n",
+        "error_explanation": "The solution incorrectly identifies the smallest 5-digit even number. It mistakenly considers 01694 as a valid 5-digit number and ignores the proper placement of digits to form the smallest possible number."
+    },
+    "8": {
+        "question": "A television cost $108 more than a lamp. If I paid a total of $288 for the television and the lamp, how much did the lamp cost?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "\nLet the cost of the lamp be $L$.  \nThe television costs $L + $108$.  \n\nTotal cost equation:  \n$L + (L + 108) = 288  \nSimplify:  \n$2L + 108 = 288  \nSubtract 100 from both sides:  \n$2L = 188  \nDivide by 2:  \n$L = 94  \n",
+        "error_explanation": "The student subtracted 100 from both sides instead of 108, leading to an incorrect value for L."
+    },
+    "9": {
+        "question": "Karen collected some empty cans. She gave away 48 of them for recycling and had $ \\frac{4}{7} $ of them left. How many cans did Karen collect?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "\n  Let \\( x \\) be the total number of cans.  \n  \\( \frac{4}{7} x = 48 \\)  \n  Solving for \\( x \\):  \n  \\( x = 48 \times \frac{7}{4} = 84 \\).\n  ",
+        "error_explanation": "The student incorrectly set up the equation by assuming \\( \frac{4}{7} \\) of the cans equals 48, instead of \\( \frac{3}{7} \\) of the cans."
+    },
+    "10": {
+        "question": "Siti loves kite flying. After school, she spent 45 min at the park to fly her kite and left at 3.35 p.m. At what time did she arrive at the park?",
+        "type_of_error": "Arithmetic Operation Errors",
+        "wrong_solution": "\nSiti left the park at 3:35 p.m. after spending 45 minutes there. To find her arrival time, subtract 45 minutes from 3:35 p.m.:\n- 3:35 p.m. \u2013 45 minutes = 2:45 p.m.\n",
+        "error_explanation": "The student incorrectly subtracted 45 minutes from 3:35 p.m., resulting in 2:45 p.m. instead of the correct 2:50 p.m."
+    }
+}

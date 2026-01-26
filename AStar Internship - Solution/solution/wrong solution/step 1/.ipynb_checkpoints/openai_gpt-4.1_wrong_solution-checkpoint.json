@@ -1,0 +1,133 @@
+{
+    "1": {
+        "question": "6. Find the value of \\( 2 \\div \\frac{1}{4} \\)",
+        "type_of_error": [
+            "Wrong Operation (Misunderstanding Division by Fraction)",
+            "Arithmetic Error",
+            "Ignoring the Reciprocal",
+            "Wrong Formula Applied"
+        ],
+        "error_explanation": {
+            "Wrong Operation (Misunderstanding Division by Fraction)": "Some students might mistakenly divide 2 by 1 and then divide by 4, or simply divide 2 by 4 directly, giving an answer of 0.5 instead of multiplying by the reciprocal.",
+            "Arithmetic Error": "Students might multiply 2 by 1/4 instead of dividing by 1/4, resulting in 0.5.",
+            "Ignoring the Reciprocal": "Students may not realise that dividing by a fraction means multiplying by its reciprocal, leading to an incorrect calculation.",
+            "Wrong Formula Applied": "Some students may incorrectly recall or apply the rule for dividing fractions (for example, adding or subtracting instead of multiplying by the reciprocal)."
+        },
+        "root_cause": {
+            "Wrong Operation (Misunderstanding Division by Fraction)": "Students may not fully understand what it means to divide by a fraction, and treat it as ordinary division, or they may interpret the division sign as meaning 'find one-fourth of 2'.",
+            "Arithmetic Error": "Students may have practised multiplying fractions and apply that method to this question without considering the operation (division).",
+            "Ignoring the Reciprocal": "A lack of familiarity with the rule for dividing by fractions\u2014the need to multiply by the reciprocal\u2014leads to skipping this step.",
+            "Wrong Formula Applied": "Students may confuse different fraction operations or misremember the formula needed for division by a fraction."
+        },
+        "how_to_avoid": {
+            "Wrong Operation (Misunderstanding Division by Fraction)": "Carefully read and analyse the question, and remember that dividing by a fraction is the same as multiplying by its reciprocal. Visualise what happens when you divide by a fraction (e.g., how many times does 1/4 fit into 2?).",
+            "Arithmetic Error": "Check what the operation is\u2014division or multiplication. Review the difference between '2 divided by 1/4' and '2 times 1/4'. Practise sample problems to reinforce the correct operation.",
+            "Ignoring the Reciprocal": "Recall the rule: dividing by a fraction = multiplying by its reciprocal. Write this out for every division by fraction problem until it becomes a habit.",
+            "Wrong Formula Applied": "Review the different rules for fraction operations (addition, subtraction, multiplication, division) and explicitly write out the steps for division, i.e., change division to multiplication by reciprocal before solving."
+        }
+    },
+    "2": {
+        "question": "Express 0.965 as a percentage.",
+        "type_of_error": [
+            "Wrong Formula Applied",
+            "Arithmetic Error",
+            "Misunderstanding Questions",
+            "Missing Key Information"
+        ],
+        "error_explanation": {
+            "Wrong Formula Applied": "The student might divide by 100 instead of multiplying, or use an inappropriate formula (e.g., multiplying by 10). This leads to an incorrect answer such as 0.965 \u00d7 10 = 9.65%.",
+            "Arithmetic Error": "The student may multiply incorrectly, such as 0.965 \u00d7 100 = 965%.",
+            "Misunderstanding Questions": "The student may not realize that converting to percentage means multiplying by 100, or might think that 0.965 is already a percentage, so leave the answer as 0.965%.",
+            "Missing Key Information": "The student may forget to add the percent sign (%) after the calculation, so the answer is just 96.5, which is incomplete."
+        },
+        "root_cause": {
+            "Wrong Formula Applied": "The student might confuse rules for converting decimals to percentages and vice versa, or memorise the wrong operation.",
+            "Arithmetic Error": "The student may make a basic multiplication error or press the wrong button on a calculator.",
+            "Misunderstanding Questions": "The student may not fully understand what the question is asking, or think that no calculation is necessary.",
+            "Missing Key Information": "The student might be in a hurry or forget that answers involving percentages must include the % symbol."
+        },
+        "how_to_avoid": {
+            "Wrong Formula Applied": "Remember: To convert a decimal to a percentage, always multiply by 100. Check the operation before calculating.",
+            "Arithmetic Error": "Double-check calculations, especially when multiplying by 100. Work out the calculation step-by-step to prevent careless mistakes.",
+            "Misunderstanding Questions": "Read the question carefully and note the required form of the answer (percentage). Understand what 'express as a percentage' means.",
+            "Missing Key Information": "Always check that your final answer includes units or symbols required by the question. Make it a habit to look back at the question before submitting your answer."
+        }
+    },
+    "3": {
+        "question": "Ken bought a sofa for \\$600 at sale and was left with \\$300. What percentage of his money did he spend?",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Question",
+            "Wrong Formula Applied"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "This error occurs when a student makes a calculation mistake, such as adding, subtracting, multiplying, or dividing incorrectly. For example, adding 600 and 300 and getting a value other than 900.",
+            "Misunderstanding Question": "This happens when a student misunderstands what is being asked. For instance, some students might calculate the percentage of money left instead of the percentage spent, or use the $300 as the amount spent, rather than $600.",
+            "Wrong Formula Applied": "A student might use the wrong formula for percentage calculation. For example, using (amount left / total amount) \u00d7 100% or (amount spent / amount left) \u00d7 100% instead of (amount spent / total amount) \u00d7 100%."
+        },
+        "root_cause": {
+            "Arithmetic Error": "The student may be rushing, not checking their work, or is unsure about basic arithmetic operations.",
+            "Misunderstanding Question": "The wording of the problem may confuse the student, especially if they focus on the amount left rather than the amount spent. Some students may not clearly identify which value represents the total money.",
+            "Wrong Formula Applied": "The student may have memorised formulas without understanding their correct usage, or they might be unclear which number belongs in the numerator and denominator."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Always double-check your calculations. Write out each step clearly and use estimation to see if your answer is reasonable.",
+            "Misunderstanding Question": "Read the question carefully at least twice. Highlight or underline the key information, like what is being spent and what is left. Make sure you understand what the question is asking before doing any calculations.",
+            "Wrong Formula Applied": "Understand the logic behind the formula before using it. Remember: percentage spent is (amount spent \u00f7 total amount before spending) \u00d7 100%. Practice with similar questions to reinforce correct usage."
+        }
+    },
+    "4": {
+        "question": "18. \\text{ Last year, Larry\u2019s mass was 30 kg. This year, his mass decreases by 10\\%. What is his mass this year? }",
+        "type_of_error": [
+            "Misunderstanding Percentage Decrease",
+            "Arithmetic Error",
+            "Misreading Question",
+            "Wrong Formula Applied"
+        ],
+        "error_explanation": {
+            "Misunderstanding Percentage Decrease": "The student subtracts 10 from 30 instead of finding 10\\% of 30. For example, 30 kg - 10 kg = 20 kg.",
+            "Arithmetic Error": "The student calculates 10\\% of 30 incorrectly, such as using 0.01 instead of 0.10, or making a mistake when multiplying (e.g., 0.10 x 30 = 0.3).",
+            "Misreading Question": "The student adds 10\\% to 30 instead of subtracting, or finds Larry's previous mass assuming the 30 kg is the decreased value.",
+            "Wrong Formula Applied": "The student uses an incorrect method, like multiplying 30 kg by 10 instead of 0.10, or divides 30 by 10."
+        },
+        "root_cause": {
+            "Misunderstanding Percentage Decrease": "The student confuses percentage value with absolute value, or doesn't understand that 10\\% means 10 out of 100 parts of 30.",
+            "Arithmetic Error": "The student is careless with decimal multiplication or has not memorized how to convert percent to decimal form.",
+            "Misreading Question": "The student reads too quickly or assumes it is a percentage increase or interprets the time sequence incorrectly.",
+            "Wrong Formula Applied": "The student forgets the correct steps to calculate percentage decrease, or recalls a similar but unrelated formula."
+        },
+        "how_to_avoid": {
+            "Misunderstanding Percentage Decrease": "Carefully read the question. Remember: '10\\% of 30' means 0.10 multiplied by 30. Use the formula: Original Amount - (Percentage \u00d7 Original Amount).",
+            "Arithmetic Error": "Double check your calculations and remember that 10\\% = 0.10. Practice multiplying decimals and percent conversions.",
+            "Misreading Question": "Underline keywords like 'decreases by' and 'this year'. Read the problem twice to ensure you understand what is being asked.",
+            "Wrong Formula Applied": "Write down the formula for percentage increase/decrease before starting. Compare your formula with worked examples if unsure."
+        }
+    },
+    "5": {
+        "question": "Mary was given $210. She spent \\( \\frac{1}{7} \\) of it on clothes and \\( \\frac{1}{2} \\) on food. How much money did she have left?",
+        "type_of_error": [
+            "Arithmetic Error",
+            "Misunderstanding Fraction Application",
+            "Misreading the Question",
+            "Wrong Operation"
+        ],
+        "error_explanation": {
+            "Arithmetic Error": "This occurs when the student makes a calculation mistake, such as multiplying or subtracting incorrectly, even if the steps are correct.",
+            "Misunderstanding Fraction Application": "The student may add the fractions together and then multiply the total by $210, rather than calculating each portion separately.",
+            "Misreading the Question": "The student might think that Mary spent 1/7 and 1/2 of the remaining money rather than 1/7 and 1/2 of the total $210.",
+            "Wrong Operation": "The student might incorrectly add the two fractions first, then multiply by the total; or they might subtract the spent amount in the wrong order (e.g., 135 - 210)."
+        },
+        "root_cause": {
+            "Arithmetic Error": "The student may rush when adding, subtracting, or multiplying, or may not check their work.",
+            "Misunderstanding Fraction Application": "The student might not be clear whether the fractions apply to the same original total or to the remaining amount after the first spending.",
+            "Misreading the Question": "The student may not carefully read that both fractions refer to the original sum, not sequentially.",
+            "Wrong Operation": "The student may have difficulty distinguishing between operations (e.g., adding fractions before multiplication, or subtracting wrong values)."
+        },
+        "how_to_avoid": {
+            "Arithmetic Error": "Work slowly and carefully. Double-check each calculation step before moving on to the next. Use rough paper to verify the arithmetic if needed.",
+            "Misunderstanding Fraction Application": "Underline key phrases in the question. Remember that 'of it' refers to the original amount unless stated otherwise.",
+            "Misreading the Question": "Read the question twice before starting. If needed, rewrite the information given to clarify for yourself.",
+            "Wrong Operation": "Plan your steps before solving. Write out what each number or fraction means in words, and check if your operations make sense in the context of the question."
+        }
+    }
+}

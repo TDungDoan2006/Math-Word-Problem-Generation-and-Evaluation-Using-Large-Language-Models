@@ -1,0 +1,58 @@
+{
+    "openai/gpt-4.1": {
+        "P4DeciMD": {
+            "Correct Solution": {
+                "question": "A packet of biscuits weighs 0.45 \\ kg. What is the total weight of 6 such packets?",
+                "correct": "yes"
+            }
+        },
+        "P5N1m": {
+            "Correct Solution": {
+                "question": "A library in Singapore has 6,250,430 books. If 2,317,549 books are borrowed, how many books are left in the library?",
+                "correct": "yes"
+            }
+        },
+        "P5FracDv": {
+            "Correct Solution": {
+                "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+                "correct": "yes"
+            }
+        },
+        "P5Frac4Op": {
+            "Correct Solution": {
+                "question": "Mrs Lim baked 2 and \\( \\frac{1}{4} \\) trays of cookies. She divided the cookies equally among her 3 children. How much of a tray of cookies did each child get?",
+                "correct": "yes"
+            }
+        },
+        "P5Deci4Op": {
+            "Correct Solution": {
+                "question": "Mei Ling bought 2.5 \\text{ kg} of flour and used 1.75 \\text{ kg} to bake cookies. How much flour does she have left?",
+                "correct": "yes"
+            }
+        },
+        "P5perctg": {
+            "Correct Solution": {
+                "question": "A shirt usually costs \\$48. During a sale, the price of the shirt is reduced by 25\\%. What is the sale price of the shirt?",
+                "correct": "yes"
+            }
+        },
+        "P5rate": {
+            "Correct Solution": {
+                "question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?",
+                "correct": "yes"
+            }
+        },
+        "P6ratio": {
+            "Correct Solution": {
+                "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+                "correct": "yes"
+            }
+        },
+        "P6algebr": {
+            "Correct Solution": {
+                "question": "Tom has 3m + 8 marbles. He gives away 5 marbles to his friend and now has 20 marbles left. What is the value of m?",
+                "correct": "yes"
+            }
+        }
+    }
+}

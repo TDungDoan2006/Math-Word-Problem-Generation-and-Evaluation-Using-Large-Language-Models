@@ -1,0 +1,2600 @@
+{
+    "P6ratio": {
+        "Calculation Error": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "We are told there are 18 apples. To find out how many groups of 3 apples there are in 18 apples, we divide 18 by 3.",
+                "Step 3": "\\[ 18 \\div 3 = 5 \\]",
+                "Step 4": "So, there are 5 groups of 3 apples.",
+                "Step 5": "Since the ratio is 3 apples to 5 oranges, each group of 3 apples matches with 5 oranges. So, there are 5 groups of 5 oranges.",
+                "Step 6": "To find the total number of oranges, we multiply 5 by 5.",
+                "Step 7": "\\[ 5 \\times 5 = 25 \\]",
+                "Step 8": "Therefore, there are 25 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 3": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 3": "The student made a calculation error in dividing 18 by 3. The correct result should be 6, not 5. This leads to an incorrect number of groups and thus the final answer is wrong."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 oranges, there are 5 apples.",
+                "Step 2": "We are told there are 18 apples. To find out how many groups of 5 apples there are in 18 apples, we divide 18 by 5.",
+                "Step 3": "\\[ 18 \\div 5 = 3.6 \\]",
+                "Step 4": "So, there are 3.6 groups of 5 apples.",
+                "Step 5": "Since the ratio is 3 oranges to 5 apples, each group of 5 apples matches with 3 oranges. So, there are 3.6 groups of 3 oranges.",
+                "Step 6": "To find the total number of oranges, we multiply 3.6 by 3.",
+                "Step 7": "\\[ 3.6 \\times 3 = 10.8 \\]",
+                "Step 8": "Therefore, there are 10.8 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 1": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 1": "The student misunderstood the context of the ratio and swapped the values. The question states the ratio is apples to oranges (3:5), but the student interpreted it as oranges to apples (3:5), leading to the wrong calculation."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Value Context Error"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "Since there are 18 apples, I will assume that there are the same number of oranges as apples because sometimes the question gives equal numbers of fruits.",
+                "Step 3": "So, there are 18 oranges."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly assumes that the number of oranges is equal to the number of apples without using the given ratio of 3:5. The question does not state that the numbers are equal, so this assumption leads to the wrong answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "We are told there are 18 apples. To find the number of oranges, we use the ratio directly.",
+                "Step 3": "Since apples : oranges = 3 : 5, for 18 apples, we calculate \\[ 18 \\div 5 = 3.6 \\]",
+                "Step 4": "Therefore, there are 3.6 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 3": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 3": "The student divided the number of apples by the oranges part of the ratio instead of finding how many groups of 3 apples there are, then multiplying by 5. This leads to an incorrect answer and does not correctly use the concept of ratios."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "There are 6 groups of apples.",
+                "Step 3": "So, there are 6 groups of 5 oranges.",
+                "Step 4": "To find the total number of oranges, we multiply 6 by 5.",
+                "Step 5": "\\[ 6 \\times 5 = 30 \\]",
+                "Step 6": "Therefore, there are 30 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 2": "The error is that Step 2 skips the calculation to show how '6 groups of apples' is obtained from 18 apples. The student should have divided 18 by 3, but this calculation is left out, making the reasoning unclear."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "We are told there are 18 apples. To find out how many groups of 3 apples there are in 18 apples, we divide 18 by 3.",
+                "Step 3": "\\[ 18 \\div 3 = 6 \\]",
+                "Step 4": "So, there are 6 groups of 3 apples.",
+                "Step 5": "Since the ratio is 3 apples to 5 oranges, each group of 3 apples matches with 5 oranges. But since we already have 18 apples, let's use 18 instead of 6 groups.",
+                "Step 6": "To find the total number of oranges, we multiply 18 by 5.",
+                "Step 7": "\\[ 18 \\times 5 = 90 \\]",
+                "Step 8": "Therefore, there are 90 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 5": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 5": "Instead of using the number of groups (6) found from the previous step, the student wrongly used the total number of apples (18) as the number of groups, contradicting the results and leading to the wrong calculation for the total number of oranges."
+            },
+            "all_wrong_steps": {
+                "Step 5": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "We are told there are 18 apples. To find out the total number of fruits, we add the apples and oranges parts of the ratio.",
+                "Step 3": "3 + 5 = 8",
+                "Step 4": "Since there are 18 apples (which is the 'apples' part of the ratio), the total number of apples and oranges must be 18 \\times 8 = 144.",
+                "Step 5": "Therefore, there are 144 fruits in the basket."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly finds the total number of fruits instead of the number of oranges as asked in the question. The requirement was to find how many oranges are there, not the total fruits."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "The ratio of the number of apples to the number of oranges in a fruit basket is 3 : 5. If there are 18 apples, how many oranges are there in the basket?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "Let us write the ratio of apples to oranges as 3 : 5. This means for every 3 apples, there are 5 oranges.",
+                "Step 2": "We are told there are 15 apples. To find out how many groups of 3 apples there are in 15 apples, we divide 15 by 3.",
+                "Step 3": "\\[ 15 \\div 3 = 5 \\]",
+                "Step 4": "So, there are 5 groups of 3 apples.",
+                "Step 5": "Since the ratio is 3 apples to 5 oranges, each group of 3 apples matches with 5 oranges. So, there are 5 groups of 5 oranges.",
+                "Step 6": "To find the total number of oranges, we multiply 5 by 5.",
+                "Step 7": "\\[ 5 \\times 5 = 25 \\]",
+                "Step 8": "Therefore, there are 25 oranges in the basket."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly copied the number of apples as 15 instead of 18 from the question, which led to the wrong calculation for the number of oranges."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "O3NumOps": {
+        "Calculation Error": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has 25 oranges. \n\n\\[ 3 \\times 25 = 65 \\]\nSo, Shaun had 65 oranges at first.",
+                "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. We subtract the number of oranges he gave away from the total.\n\n\\[ 65 - 18 = 47 \\]\nSo, Shaun has 47 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 1": "The multiplication of 3 and 25 was calculated incorrectly as 65 instead of 75, which affected the final answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start in one box after giving away 18 oranges.\n\n\\[ 25 - 18 = 7 \\]\nSo, there are 7 oranges left in one box.",
+                "Step 2": "Now, we find the total number of oranges left by multiplying by the number of boxes.\n\n\\[ 3 \\times 7 = 21 \\]\nSo, Shaun has 21 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 1": "The mistake is that the subtraction was only applied to one box, and then the result was multiplied by the total number of boxes. But in reality, only 18 oranges are taken away from the total, not from every box. This misunderstands what the values represent in the context."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Shaun gives away 18 oranges.\n\n\\[ 25 - 18 = 7 \\]\nSo, there are 7 oranges left in that one box."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The solution only considers one box and ignores that Shaun actually has 3 boxes in total. It misses the key information about the total number of boxes, so it does not calculate the total oranges left."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, Shaun has 3 boxes and each has 25 oranges.\n\n\\[3 \\times 25 = 75\\]\nSo, Shaun had 75 oranges at the start.",
+                "Step 2": "Assume that after giving away 18 oranges from one box, Shaun throws away the rest of that box as well because the box is incomplete.\n\n\\[75 - 25 = 50\\]\nShaun now has 50 oranges left in 2 boxes.",
+                "Step 3": "So, Shaun has 50 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "The solution assumes that Shaun throws away the rest of the box after giving away 18 oranges, which is not stated in the question. The correct method is only to subtract the 18 oranges that Shaun gave away."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has 25 oranges. \n\n\\[ 3 + 25 = 28 \\]\nSo, Shaun had 28 oranges at first.",
+                "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. We subtract the number of oranges he gave away from the total.\n\n\\[ 28 - 18 = 10 \\]\nSo, Shaun has 10 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of multiplying 3 by 25 to find the total number of oranges, addition was used (3 + 25), which does not give the correct total amount of oranges. The correct operation is multiplication when calculating equal groups."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Shaun gives away 18 oranges from one of the boxes. \n\n\\[ 75 - 18 = 57 \\]\nSo, Shaun has 57 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The solution skips the step to find out how many oranges Shaun had at the start. It immediately uses 75 as the total number of oranges without showing the calculation (3 x 25 = 75), which can cause confusion and does not demonstrate understanding of the problem-solving process."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has 25 oranges. \n\n\\[ 3 \\times 25 = 75 \\]\nSo, Shaun had 75 oranges at first.",
+                "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. Since one box now has 7 oranges left, the total number of oranges is:\n\n\\[ (2 \\times 25) + 7 = 50 + 7 = 57 \\]\nSo, Shaun has 57 oranges left in total.",
+                "Step 3": "However, since he gave away 18 oranges, I subtract 18 from 57: \n\n\\[ 57 - 18 = 39 \\]\nSo, Shaun has 39 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "The student made a contradictory step by subtracting 18 oranges again after already accounting for them in the previous step, resulting in 18 oranges being counted as given away twice. This leads to an incorrect and inconsistent final answer."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun gave away in total. He gave away 18 oranges from one box.\n\n\\[ 18 \\]\nSo, Shaun gave away 18 oranges."
+            },
+            "wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 1": "The solution answers how many oranges Shaun gave away, but the question is asking for how many oranges Shaun has left in total. The student misunderstood what the question required."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Shaun has 3 boxes of oranges. Each box contains 25 oranges. If he gives away 18 oranges from one of the boxes, how many oranges does he have left in total?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, we find out how many oranges Shaun had at the start. He has 3 boxes, and each box has 28 oranges.\n\n\\[ 3 \\times 28 = 84 \\]\nSo, Shaun had 84 oranges at first.",
+                "Step 2": "Next, Shaun gives away 18 oranges from one of the boxes. We subtract the number of oranges he gave away from the total.\n\n\\[ 84 - 18 = 66 \\]\nSo, Shaun has 66 oranges left in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The number of oranges in each box was incorrectly copied as 28 instead of the correct number, 25. This led to the wrong total number of oranges being used in all calculations."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "P5Deci4Op": {
+        "Calculation Error": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, write down the total amount of flour Mei Ling bought, which is \n\\[ 2.5 \\text{ kg} \\].",
+                "Step 2": "Next, write down the amount of flour she used, which is \n\\[ 1.75 \\text{ kg} \\].",
+                "Step 3": "To find out how much flour she has left, subtract the amount used from the total amount:\n\\[ 2.5 - 1.75 \\]",
+                "Step 4": "Line up the decimal points and subtract:\n\\[\n\\begin{align*}\n 2.50 \\\\ -1.75 \\\\\\hline\n 0.85\n\\end{align*}\n\\]",
+                "Step 5": "So, Mei Ling has \\( 0.85 \\) kg of flour left."
+            },
+            "wrong_steps": {
+                "Step 4": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 4": "The subtraction was performed incorrectly. The calculation of \\( 2.50 - 1.75 \\) should give \\( 0.75 \\), not \\( 0.85 \\)."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, write down the total amount of flour Mei Ling bought, which is \n\\[ 2.5 \\text{ kg} \\].",
+                "Step 2": "Next, write down the amount of flour she used, which is \n\\[ 1.75 \\text{ kg} \\].",
+                "Step 3": "To find how much flour she has left, add the amount used to the amount bought:\n\\[ 2.5 + 1.75 \\]",
+                "Step 4": "Line up the decimal points and add:\n\\[\n\\begin{align*}\n2.50 \\\\\n+1.75 \\\\\\hline\n4.25\n\\end{align*}\n\\]",
+                "Step 5": "So, Mei Ling has \\( 4.25 \\) kg of flour left."
+            },
+            "wrong_steps": {
+                "Step 3": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 3": "Instead of subtracting the amount of flour used from the total (to find the remaining amount), the solution incorrectly adds the two values. This shows a misunderstanding of what the values represent in context\u2014adding the amount used does not make sense when finding how much is left."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Write down the amount of flour she used to bake cookies: \n\\[ 1.75 \\text{ kg} \\].",
+                "Step 2": "Since Mei Ling used 1.75 kg of flour, this is the amount she has left."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The student did not use the total amount of flour Mei Ling bought (2.5 kg). They only stated or used the amount used (1.75 kg) as the answer, missing the key information required to solve the question."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, write down the total amount of flour Mei Ling bought, which is \n\\[ 2.5 \\text{ kg} \\].",
+                "Step 2": "Next, assume that after baking, Mei Ling dropped 0.5~\\text{kg} of flour accidentally (even though this is not stated in the question).",
+                "Step 3": "Write down the amount of flour she used for baking, which is \n\\[ 1.75 \\text{ kg} \\].",
+                "Step 4": "To find how much flour she has left, subtract both the used and the dropped amount from the total:\n\\[ 2.5 - 1.75 - 0.5 \\]",
+                "Step 5": "Solve the subtraction step by step:\n\\[ 2.5 - 1.75 = 0.75 \\]\n\\[ 0.75 - 0.5 = 0.25 \\]",
+                "Step 6": "So, Mei Ling has \\( 0.25 \\) kg of flour left."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "Step 2 introduces extra information by assuming that Mei Ling dropped 0.5 kg of flour, which was not mentioned in the question. This invalid assumption changes the outcome and does not follow the information given."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, write down the total amount of flour Mei Ling bought, which is \n\\[ 2.5 \\text{ kg} \\].",
+                "Step 2": "Next, write down the amount of flour she used, which is \n\\[ 1.75 \\text{ kg} \\].",
+                "Step 3": "To find out how much flour she has left, add the amount used to the total amount:\n\\[ 2.5 + 1.75 \\]",
+                "Step 4": "Line up the decimal points and add:\n\\[\n\\begin{align*}\n 2.50 \\\\ +1.75 \\\\\\hline\n 4.25\n\\end{align*}\n\\]",
+                "Step 5": "So, Mei Ling has \\( 4.25 \\) kg of flour left."
+            },
+            "wrong_steps": {
+                "Step 3": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 3": "Instead of subtracting the amount used from the total, addition is used. This mistake gives the total weight of flour and flour used, not the amount left."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "To find how much flour Mei Ling has left, subtract the amount used from the total amount:\n\\[2.5 - 1.75\\]",
+                "Step 2": "Line up the decimal points and subtract:\n\\[\n\\begin{align*}\n2.50 \\\\ -1.75 \\\\\\hline\n0.75\n\\end{align*}\n\\]",
+                "Step 3": "So, Mei Ling has \\(0.75\\) kg of flour left."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The solution skips explicitly stating the values given in the question (total flour bought and amount used) before performing the subtraction. This is a missing step, as it does not show how the numbers were identified and used, possibly confusing the reader or examiner."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, write down the total amount of flour Mei Ling bought, which is \n\\[ 2.5 \\text{ kg} \\].",
+                "Step 2": "Next, write down the amount of flour she used, which is \n\\[ 1.75 \\text{ kg} \\].",
+                "Step 3": "To find out how much flour she has left, subtract the amount used from the total amount:\n\\[ 2.5 - 1.75 \\]",
+                "Step 4": "Line up the decimal points and subtract:\n\\[\n\\begin{align*}\n 2.50 \\\\ -1.75 \\\\\\hline\n 1.25\n\\end{align*}\n\\]",
+                "Step 5": "So, Mei Ling has \\( 1.25 \\) kg of flour left."
+            },
+            "wrong_steps": {
+                "Step 4": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 4": "In Step 4, the subtraction is done incorrectly. The correct subtraction for \\(2.5 - 1.75\\) is \\(0.75\\), but here it is written as \\(1.25\\), contradicting the correct result for this arithmetic operation."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, write down the total amount of flour Mei Ling bought, which is \n\\[ 2.5 \\text{ kg} \\].",
+                "Step 2": "Next, write down the amount of flour she used, which is \n\\[ 1.75 \\text{ kg} \\].",
+                "Step 3": "Add the amounts together to find the total after baking:\n\\[ 2.5 + 1.75 = 4.25 \\]",
+                "Step 4": "Mei Ling has \\( 4.25 \\) kg of flour."
+            },
+            "wrong_steps": {
+                "Step 3": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 3": "Instead of subtracting the amount used from the total to find how much flour is left, the student added the two numbers together. This shows they misunderstood that the question asked for the remaining flour, not the combined total."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Mei Ling bought 2.5 kg of flour and used 1.75 kg to bake cookies. How much flour does she have left?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, write down the total amount of flour Mei Ling bought, which is \n\\[ 2.5 \\text{ kg} \\].",
+                "Step 2": "Next, write down the amount of flour she used, which is \n\\[ 1.57 \\text{ kg} \\].",
+                "Step 3": "To find out how much flour she has left, subtract the amount used from the total amount:\n\\[ 2.5 - 1.57 \\]",
+                "Step 4": "Line up the decimal points and subtract:\n\\[\n\\begin{align*}\n2.50 \\\\ -1.57 \\\\\\hline\n0.93\n\\end{align*}\n\\]",
+                "Step 5": "So, Mei Ling has \\( 0.93 \\) kg of flour left."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 2": "The student incorrectly copied the amount of flour used as 1.57 kg instead of 1.75 kg, leading to an incorrect subtraction and final answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "P5rate": {
+        "Calculation Error": {
+            "question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]",
+                "Step 2": "The total distance covered is 30 kilometres and the total time taken is 2 hours.",
+                "Step 3": "Substitute the values into the formula:\n\\[\n\\text{Average speed} = \\frac{30}{2}\n\\]",
+                "Step 4": "Calculate the answer:\n\\[\n\\frac{30}{2} = 12\n\\]",
+                "Step 5": "So, the average speed of the bicycle is \\(12\\) kilometres per hour."
+            },
+            "wrong_steps": {
+                "Step 4": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 4": "The calculation \\(\\frac{30}{2}\\) was done incorrectly. The correct result should be 15, not 12."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\\[\n\\text{Average speed} = \\frac{\\text{Total time}}{\\text{Total distance}}\n\\]",
+                "Step 2": "The total distance covered is 30 kilometres and the total time taken is 2 hours.",
+                "Step 3": "Substitute the values into the formula:\n\\[\n\\text{Average speed} = \\frac{2}{30}\n\\]",
+                "Step 4": "Calculate the answer:\n\\[\n\\frac{2}{30} = 0.0667\n\\]",
+                "Step 5": "So, the average speed of the bicycle is \\(0.067\\) kilometres per hour."
+            },
+            "wrong_steps": {
+                "Step 1": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 1": "The formula was written wrongly by swapping the numerator and denominator. Average speed should be total distance divided by total time, not the other way around. This shows a misunderstanding of what the numbers represent in the context of the question."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "The total distance covered is 30 kilometres.",
+                "Step 2": "Since the question asks for average speed, I just write:\n\\[\n\\text{Average speed} = 30 \\text{ km/h}\n\\]",
+                "Step 3": "So, the average speed of the bicycle is \\(30\\) kilometres per hour."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The student did not use the total time of 2 hours at all, which is essential for calculating average speed. Instead, the student just wrote the total distance as the speed, missing the key information needed to solve the question correctly."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, I will assume that the rider took a 30-minute break during the 2 hours, so the actual riding time is only 1.5 hours.",
+                "Step 2": "Recall the formula for average speed:\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]",
+                "Step 3": "The total distance covered is 30 kilometres and I will use 1.5 hours as the riding time.",
+                "Step 4": "Substitute the values into the formula:\n\\[\n\\text{Average speed} = \\frac{30}{1.5}\n\\]",
+                "Step 5": "Calculate the answer:\n\\[\n\\frac{30}{1.5} = 20\n\\]",
+                "Step 6": "So, the average speed of the bicycle is \\(20\\) kilometres per hour."
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The question does not mention any breaks or rest period. The average speed should be calculated using the total distance and the total time given in the question. Adding assumptions not stated in the question leads to an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\\[\n\\text{Average speed} = \\text{Total distance} \\times \\text{Total time}\n\\]",
+                "Step 2": "The total distance covered is 30 kilometres and the total time taken is 2 hours.",
+                "Step 3": "Substitute the values into the formula:\n\\[\n\\text{Average speed} = 30 \\times 2\n\\]",
+                "Step 4": "Calculate the answer:\n\\[\n30 \\times 2 = 60\n\\]",
+                "Step 5": "So, the average speed of the bicycle is \\(60\\) kilometres per hour."
+            },
+            "wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 1": "In Step 1, the student used an incorrect formula. The correct formula for average speed is Total distance divided by Total time, not multiplied. This mistake leads to the wrong answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "The total distance covered is 30 kilometres and the total time taken is 2 hours.",
+                "Step 2": "Substitute the values:\n\\[\n\\text{Average speed} = \\frac{30}{2}\n\\]",
+                "Step 3": "Calculate the answer:\n\\[\n\\frac{30}{2} = 15\n\\]",
+                "Step 4": "So, the average speed of the bicycle is \\(15\\) kilometres per hour."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The formula for average speed was not written before the calculation began. This skipped step makes the solution less clear, especially for someone checking how the answer was derived."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]",
+                "Step 2": "The total distance covered is 30 kilometres and the total time taken is 2 hours.",
+                "Step 3": "Substitute the values into the formula:\n\\[\n\\text{Average speed} = \\frac{30}{2}\n\\]",
+                "Step 4": "Calculate the answer:\n\\[\n\\frac{30}{2} = 60\n\\]",
+                "Step 5": "So, the average speed of the bicycle is \\(60\\) kilometres per hour."
+            },
+            "wrong_steps": {
+                "Step 4": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 4": "In Step 4, instead of dividing 30 by 2, the student wrongly states the answer as 60, which contradicts the actual calculation. This shows a contradiction to the numerical result that should have been obtained from the previous calculation step."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for time:\n\\[\n\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}}\n\\]",
+                "Step 2": "The total distance covered is 30 kilometres and the time taken is 2 hours.",
+                "Step 3": "If we use the formula: \\[\n\\text{Time} = \\frac{30}{2}\n\\]",
+                "Step 4": "Calculate the answer:\n\\[\n\\frac{30}{2} = 15\n\\]",
+                "Step 5": "So, the time taken is \\(15\\) hours."
+            },
+            "wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 1": "The student used the formula for time and found the time, rather than using the correct formula for average speed and actually answering the question asked. The question specifically asks for average speed in kilometres per hour, not the time taken."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "A bicycle covers a distance of 30 kilometres in 2 hours. What is the average speed of the bicycle in kilometres per hour?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, recall the formula for average speed:\n\\[\n\\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n\\]",
+                "Step 2": "The total distance covered is 20 kilometres and the total time taken is 2 hours.",
+                "Step 3": "Substitute the values into the formula:\n\\[\n\\text{Average speed} = \\frac{20}{2}\n\\]",
+                "Step 4": "Calculate the answer:\n\\[\n\\frac{20}{2} = 10\n\\]",
+                "Step 5": "So, the average speed of the bicycle is \\(10\\) kilometres per hour."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 2": "The student copied the total distance incorrectly as 20 kilometres instead of the correct 30 kilometres from the question, which leads to an incorrect calculation of average speed."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "P2FracW": {
+        "Calculation Error": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, we are told that the cake was cut into 8 equal pieces. This means the whole cake is divided into 8 parts.",
+                "Step 2": "Mdm Lim gave away 3 out of the 8 pieces to her neighbour.",
+                "Step 3": "To write this as a fraction, we put the number of pieces given away over the total number of pieces. So, the fraction is \\[ \\frac{5}{8} \\].",
+                "Step 4": "Therefore, Mdm Lim gave away \\( \\frac{5}{8} \\) of the cake to her neighbour."
+            },
+            "wrong_steps": {
+                "Step 3": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 3": "The numerator should be the number of pieces given away, which is 3, not 5. Writing \\frac{5}{8} is incorrect because it does not match the number of pieces given. The calculation of the fraction is wrong."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, we are told that the cake was cut into 8 equal pieces. This means the whole cake is divided into 8 parts.",
+                "Step 2": "Mdm Lim gave away 3 pieces to her neighbour.",
+                "Step 3": "To find the fraction, I will put the number of pieces she kept over the total number of pieces: \\[ 8 - 3 = 5 \\] pieces kept.",
+                "Step 4": "The fraction she gave away is \\[ \\frac{5}{8} \\].",
+                "Step 5": "Therefore, Mdm Lim gave away \\( \\frac{5}{8} \\) of the cake to her neighbour."
+            },
+            "wrong_steps": {
+                "Step 3": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 3": "The student mistakenly finds the number of pieces Mdm Lim kept instead of the number she gave away. The question asks for the fraction given away, which should be based on the number of pieces she gave away (3), not the number she kept (5)."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Mdm Lim gave 3 pieces to her neighbour.",
+                "Step 2": "Therefore, she gave away 3 of the cake."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The fraction must be calculated out of the total of 8 pieces, but this step skips that and does not use the information about how many pieces the cake was cut into."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "The cake was cut into 8 equal pieces, so there are 8 pieces in total.",
+                "Step 2": "Assume that Mdm Lim ate 2 pieces herself before giving any away.",
+                "Step 3": "Now there are only 6 pieces left.",
+                "Step 4": "Mdm Lim gave 3 of the remaining pieces to her neighbour.",
+                "Step 5": "The fraction given away is \\[ \\frac{3}{6} = \\frac{1}{2} \\].",
+                "Step 6": "Therefore, Mdm Lim gave away \\( \\frac{1}{2} \\) of the cake to her neighbour."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "Step 2 introduces an assumption (that Mdm Lim ate 2 pieces herself) which was not stated in the question. This invalid assumption changes the total number of pieces considered, leading to a wrong answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "The cake was cut into 8 equal pieces.",
+                "Step 2": "To find the fraction of the cake given away, we need to subtract the number of pieces given away from the total number of pieces.",
+                "Step 3": "8 - 3 = 5.",
+                "Step 4": "So the fraction of the cake given away is \\[ \\frac{5}{8} \\].",
+                "Step 5": "Therefore, Mdm Lim gave away \\( \\frac{5}{8} \\) of the cake to her neighbour."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of subtracting the number of pieces given away from the total, the correct operation is to form a fraction with the number of pieces given away as the numerator and the total number of pieces as the denominator."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Mdm Lim gave away \\( \\frac{3}{8} \\) of the cake to her neighbour."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The solution skips the explanation and calculation steps of how the fraction is formed from the information given in the question. The answer \\( \\frac{3}{8} \\) is stated directly without showing the reader how 3 and 8 are derived from the context."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, we are told that the cake was cut into 8 equal pieces. This means the whole cake is divided into 8 parts.",
+                "Step 2": "Mdm Lim gave away 3 out of the 8 pieces to her neighbour.",
+                "Step 3": "To write this as a fraction, we put the number of pieces she kept over the total number of pieces. So, the fraction is \\[ \\frac{5}{8} \\].",
+                "Step 4": "Therefore, Mdm Lim gave away \\( \\frac{5}{8} \\) of the cake to her neighbour."
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "Instead of finding the fraction given away, the student found the fraction of cake that was NOT given away and presented it as the answer. This contradicts the information in the question, where the correct answer should be based on the pieces given away."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "The cake was cut into 8 equal pieces.",
+                "Step 2": "Mdm Lim gave 3 pieces to her neighbour.",
+                "Step 3": "To find out how many pieces Mdm Lim has left, calculate: \n\\[ 8 - 3 = 5 \\]",
+                "Step 4": "Therefore, Mdm Lim has \\( \\frac{5}{8} \\) of the cake left."
+            },
+            "wrong_steps": {
+                "Step 4": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 4": "The solution gives the fraction of the cake Mdm Lim has left, not the fraction she gave away as the question asked. The answer should be the fraction given away (\\( \\frac{3}{8} \\)), not what remains."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Mdm Lim baked a cake and cut it into 8 equal pieces. She gave 3 pieces to her neighbour. What fraction of the cake did she give away?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, we are told that the cake was cut into 8 equal pieces. This means the whole cake is divided into 8 parts.",
+                "Step 2": "Mdm Lim gave away 2 out of the 8 pieces to her neighbour.",
+                "Step 3": "To write this as a fraction, we put the number of pieces given away over the total number of pieces. So, the fraction is \\[ \\frac{2}{8} \\].",
+                "Step 4": "Therefore, Mdm Lim gave away \\( \\frac{2}{8} \\) of the cake to her neighbour."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 2": "The solution incorrectly copied the number of pieces Mdm Lim gave away as 2 instead of 3 as stated in the question. This leads to an incorrect fraction for the answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "P4FctorM": {
+        "Calculation Error": {
+            "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "To solve this problem, we need to find all the possible numbers of chairs that can be in each row. This means we need to find all the factors of 28.",
+                "Step 2": "A factor is a number that divides exactly into another number with no remainder.",
+                "Step 3": "Let us start by dividing 28 by numbers starting from 1.",
+                "Step 4": "28 \\div 1 = 28 \\quad \\Rightarrow 1 \\text{ and } 28 \\text{ are factors.}",
+                "Step 5": "28 \\div 2 = 13 \\quad \\Rightarrow 2 \\text{ and } 13 \\text{ are factors.}",
+                "Step 6": "28 \\div 3 = 9\\text{ remainder }1 \\quad \\Rightarrow 3 \\text{ is not a factor.}",
+                "Step 7": "28 \\div 4 = 7 \\quad \\Rightarrow 4 \\text{ and } 7 \\text{ are factors.}",
+                "Step 8": "28 \\div 5 = 5\\text{ remainder }3 \\quad \\Rightarrow 5 \\text{ is not a factor.}",
+                "Step 9": "Now we have checked all numbers from 1 to 7 (since 7 \\times 4 = 28).",
+                "Step 10": "So, the factors of 28 are: 1, 2, 4, 7, 13, and 28.",
+                "Step 11": "Therefore, all the possible numbers of chairs that can be in each row are: \\[ 1,\\ 2,\\ 4,\\ 7,\\ 13,\\ 28 \\]"
+            },
+            "wrong_steps": {
+                "Step 5": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 5": "The calculation 28 \\div 2 = 13 is incorrect. The correct answer is 28 \\div 2 = 14. This caused the student to wrongly identify 13 as a factor of 28 instead of 14."
+            },
+            "all_wrong_steps": {
+                "Step 5": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "To solve this problem, we need to find all the possible ways to divide 28 chairs into any number of rows.",
+                "Step 2": "This means we should find all the numbers we can get if we divide 28 by any number.",
+                "Step 3": "Let us divide 28 by numbers from 1 to 7.",
+                "Step 4": "28 \\div 1 = 28,\\ 28 \\div 2 = 14,\\ 28 \\div 3 = 9.33...,\\ 28 \\div 4 = 7,\\ 28 \\div 5 = 5.6,\\ 28 \\div 6 = 4.67,\\ 28 \\div 7 = 4",
+                "Step 5": "So, the possible numbers of chairs in each row are: 28, 14, 9.33, 7, 5.6, 4.67, and 4.",
+                "Step 6": "Therefore, all the possible numbers of chairs that can be in each row are: \\[ 28,\\ 14,\\ 9.33,\\ 7,\\ 5.6,\\ 4.67,\\ 4 \\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "The error here is misunderstanding what the numbers represent. The question asks for all the possible numbers of chairs that can be in each row, which means finding all the factors of 28. The student instead listed the results of dividing 28 by numbers 1 to 7, including non-integer (decimal) values, which are not valid counts for equal arrangement of chairs."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "To solve this problem, I will just find how many times 2 and 4 go into 28.",
+                "Step 2": "28 \\div 2 = 14, so 2 and 14 are possible numbers of chairs in each row.",
+                "Step 3": "28 \\div 4 = 7, so 4 and 7 are possible numbers of chairs in each row.",
+                "Step 4": "Therefore, the possible numbers of chairs in each row are: \\[ 2,\\ 4,\\ 7,\\ 14 \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The solution misses the key instruction to find all the factors of 28, which means all the possible numbers that can divide 28 exactly. Only some factors are found, so the answer is incomplete."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "To solve this problem, we need to find all possible numbers of chairs in each row. Since Mr Lim wants the rows to look neat, let's assume he does not want any row to have less than 5 chairs.",
+                "Step 2": "So, we will only consider the factors of 28 that are greater than or equal to 5.",
+                "Step 3": "The factors of 28 are: 1, 2, 4, 7, 14, and 28.",
+                "Step 4": "But since we are only considering factors that are 5 or more, we leave out 1, 2, and 4.",
+                "Step 5": "Therefore, the possible numbers of chairs in each row are: \\[ 7,\\ 14,\\ 28 \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The solution assumes that there must be at least 5 chairs in each row, but the question does not mention any such restriction. This additional assumption changes the set of possible answers and causes some correct possibilities to be wrongly excluded."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "To solve this problem, we need to find all the possible numbers of chairs that can be arranged in each row. I will use multiplication instead of division to find the answers.",
+                "Step 2": "Let us multiply numbers to see which ones I can use to get 28.",
+                "Step 3": "1 \\times 28 = 28 \\quad \\Rightarrow 1 \\text{ and } 28 \\text{ are possible.}",
+                "Step 4": "2 \\times 28 = 56 \\quad \\Rightarrow 2 \\text{ is not possible.}",
+                "Step 5": "4 \\times 28 = 112 \\quad \\Rightarrow 4 \\text{ is not possible.}",
+                "Step 6": "7 \\times 28 = 196 \\quad \\Rightarrow 7 \\text{ is not possible.}",
+                "Step 7": "So, the only possible numbers of chairs in each row are: 1 and 28."
+            },
+            "wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of finding the factors of 28 by dividing 28 by each number, the solution uses multiplication, which does not correctly identify the numbers that divide 28 exactly. The question requires finding factors (numbers that divide 28 with no remainder), not multiples."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "To solve this problem, we need to find all the possible numbers of chairs that can be in each row. This means we need to find all the factors of 28.",
+                "Step 2": "A factor is a number that divides exactly into another number with no remainder.",
+                "Step 3": "So, the factors of 28 are: 1, 2, 4, 7, 14, and 28.",
+                "Step 4": "Therefore, all the possible numbers of chairs that can be in each row are: \\[ 1,\\ 2,\\ 4,\\ 7,\\ 14,\\ 28 \\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 3": "The solution skipped the process of checking each number to see if it is a factor of 28. The answer is presented without showing the actual division or reasoning for how each factor was determined, making it unclear how the list of factors was found."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "To solve this problem, we need to find all the possible numbers of chairs that can be in each row. This means we need to find all the factors of 28.",
+                "Step 2": "A factor is a number that divides exactly into another number with no remainder.",
+                "Step 3": "Let us start by dividing 28 by numbers starting from 1.",
+                "Step 4": "28 \\div 1 = 28 \\quad \\Rightarrow 1 \\text{ and } 28 \\text{ are factors.}",
+                "Step 5": "28 \\div 2 = 14 \\quad \\Rightarrow 2 \\text{ and } 14 \\text{ are factors.}",
+                "Step 6": "28 \\div 3 = 9\\text{ remainder }1 \\quad \\Rightarrow 3 \\text{ is not a factor.}",
+                "Step 7": "28 \\div 4 = 7 \\quad \\Rightarrow 4 \\text{ and } 7 \\text{ are factors.}",
+                "Step 8": "28 \\div 5 = 5\\text{ remainder }3 \\quad \\Rightarrow 5 \\text{ is not a factor.}",
+                "Step 9": "Now we have checked all numbers from 1 to 7 (since 7 \\times 4 = 28).",
+                "Step 10": "So, the factors of 28 are: 1, 2, 4, 7, 14, and 28.",
+                "Step 11": "Therefore, all the possible numbers of chairs that can be in each row are: \\[ 1,\\ 2,\\ 3,\\ 4,\\ 7,\\ 14,\\ 28 \\]"
+            },
+            "wrong_steps": {
+                "Step 11": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 11": "Although Step 10 correctly states that the factors of 28 are 1, 2, 4, 7, 14, and 28, in Step 11, 3 was incorrectly included as a possible number of chairs. 3 is not a factor of 28, so it is a contradiction to the previously obtained correct information."
+            },
+            "all_wrong_steps": {
+                "Step 11": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "To find the possible number of rows, we divide 28 by different numbers.",
+                "Step 2": "Let's try some values: If each row has 1 chair, there are 28 rows. If each row has 2 chairs, there are 14 rows. If each row has 4 chairs, there are 7 rows. If each row has 7 chairs, there are 4 rows. If each row has 14 chairs, there are 2 rows. If each row has 28 chairs, there is 1 row.",
+                "Step 3": "Therefore, the possible numbers of rows are: \\[ 1,\\ 2,\\ 4,\\ 7,\\ 14,\\ 28 \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of listing all the possible numbers of chairs that can be in each row as asked, the student listed all the possible numbers of rows. This shows a misunderstanding of what the question requires."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Mr Lim arranged 28 chairs equally in each row for a class event. What are all the possible numbers of chairs that can be in each row?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "To solve this problem, we need to find all the possible numbers of chairs that can be in each row. This means we need to find all the factors of 26.",
+                "Step 2": "A factor is a number that divides exactly into another number with no remainder.",
+                "Step 3": "Let us start by dividing 26 by numbers starting from 1.",
+                "Step 4": "26 \\div 1 = 26 \\quad \\Rightarrow 1 \\text{ and } 26 \\text{ are factors.}",
+                "Step 5": "26 \\div 2 = 13 \\quad \\Rightarrow 2 \\text{ and } 13 \\text{ are factors.}",
+                "Step 6": "26 \\div 3 = 8\\text{ remainder }2 \\quad \\Rightarrow 3 \\text{ is not a factor.}",
+                "Step 7": "26 \\div 4 = 6\\text{ remainder }2 \\quad \\Rightarrow 4 \\text{ is not a factor.}",
+                "Step 8": "26 \\div 5 = 5\\text{ remainder }1 \\quad \\Rightarrow 5 \\text{ is not a factor.}",
+                "Step 9": "26 \\div 6 = 4\\text{ remainder }2 \\quad \\Rightarrow 6 \\text{ is not a factor.}",
+                "Step 10": "Now we have checked all numbers from 1 to 6 (since 6 \\times 4 = 24 < 26).",
+                "Step 11": "So, the factors of 26 are: 1, 2, 13, and 26.",
+                "Step 12": "Therefore, all the possible numbers of chairs that can be in each row are: \\[ 1,\\ 2,\\ 13,\\ 26 \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The student mistakenly used 26 instead of 28 from the question, so all factors calculated are for 26 and not for 28. This changes the answer and does not answer the original question."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "P3N10k": {
+        "Calculation Error": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823\nNumber of reference books = 2,156",
+                "Step 2": "Add the number of storybooks and reference books to find the total number of books.\n\n\\[\n7,823 + 2,156 = 9,879\n\\]",
+                "Step 3": "So, the total number of books in the library is \\( 9,879 \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 2": "The error occurred during addition. The student added 7,823 and 2,156 incorrectly and got 9,879 instead of the correct sum, 9,979."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823\nNumber of reference books = 2,156",
+                "Step 2": "Subtract the number of reference books from the number of storybooks to find the total number of books.\n\n\\[\n7,823 - 2,156 = 5,667\n\\]",
+                "Step 3": "So, the total number of books in the library is \\( 5,667 \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of adding the number of storybooks and reference books to find the total number of books, subtraction was used. This shows a misunderstanding of what 'total' means in the context of the question."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Identify only the number of storybooks in the library.\n\nNumber of storybooks = 7,823",
+                "Step 2": "Since the number of storybooks is given, the total number of books in the library is:\n\n\\[\n7,823\n\\]",
+                "Step 3": "So, the total number of books in the library is \\( 7,823 \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The solution only used the number of storybooks and completely ignored the number of reference books. The total number of books in the library must include both storybooks and reference books."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Assume that 500 of the storybooks are not counted because they are being repaired.\n\\[\n\\text{Number of storybooks considered} = 7,823 - 500 = 7,323\n\\]\nNumber of reference books = 2,156",
+                "Step 2": "Add the number of remaining storybooks and reference books.\n\\[\n7,323 + 2,156 = 9,479\n\\]",
+                "Step 3": "So, the total number of books in the library is \\( 9,479 \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The solution assumes that 500 storybooks are not counted due to being repaired, but the question does not mention this. All storybooks and reference books should be included in the total unless stated otherwise."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823\nNumber of reference books = 2,156",
+                "Step 2": "Subtract the number of reference books from the number of storybooks to find the total number of books.\n\n\\[\n7,823 - 2,156 = 5,667\n\\]",
+                "Step 3": "So, the total number of books in the library is \\( 5,667 \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of adding the number of storybooks and reference books to get the total, subtraction was used. This is incorrect because total requires addition, not subtraction."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Add the two numbers to find the total number of books.\n\n\\[\n7,823 + 2,156 = 9,979\n\\]",
+                "Step 2": "So, the total number of books in the library is \\( 9,979 \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The solution skipped the important step of identifying the numbers of storybooks and reference books given in the question. This makes the answer appear without referencing the source of the numbers, which may confuse the reader or examiner."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823\nNumber of reference books = 2,156",
+                "Step 2": "Add the number of storybooks and reference books to find the total number of books.\n\n\\[\n7,823 + 2,156 = 8,023\n\\]",
+                "Step 3": "So, the total number of books in the library is \\( 8,023 \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 2": "The result of adding 7,823 and 2,156 was incorrectly stated as 8,023 in Step 2, which contradicts the actual sum. The student used an incorrect result from the previous calculation, showing a contradiction in their solution."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,823\nNumber of reference books = 2,156",
+                "Step 2": "Subtract the number of reference books from the number of storybooks to find the difference.\n\n\\[\n7,823 - 2,156 = 5,667\n\\]",
+                "Step 3": "So, the answer is \\( 5,667 \\)."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of adding the number of storybooks and reference books to find the total, subtraction was used to find the difference. This answer does not address the question's requirement to find the total number of books."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "A library has 7,823 storybooks and 2,156 reference books. What is the total number of books in the library?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, identify the number of storybooks and reference books in the library.\n\nNumber of storybooks = 7,283\nNumber of reference books = 2,156",
+                "Step 2": "Add the number of storybooks and reference books to find the total number of books.\n\n\\[\n7,283 + 2,156 = 9,439\n\\]",
+                "Step 3": "So, the total number of books in the library is \\( 9,439 \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly copied the number of storybooks as 7,283 instead of 7,823 from the question. This mistake led to the wrong total in the subsequent steps."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "P5FracDv": {
+        "Calculation Error": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends.",
+                "Step 2": "To find out how much pizza each friend gets, we divide the total number of pizzas by the number of friends.",
+                "Step 3": "So, we calculate:",
+                "Step 4": "\\[ \\text{Amount each friend gets} = \\frac{3}{5} = \\frac{5}{3} \\]",
+                "Step 5": "Each friend will get \\( \\frac{5}{3} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 4": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 4": "Dividing 3 by 5 should give \\( \\frac{3}{5} \\), not \\( \\frac{5}{3} \\). The numerator and denominator have been swapped, resulting in the wrong fraction."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends.",
+                "Step 2": "To find out how much pizza each friend gets, we need to divide the number of friends by the number of pizzas.",
+                "Step 3": "So, we calculate:",
+                "Step 4": "\\[ \\text{Amount each friend gets} = \\frac{5}{3} \\]",
+                "Step 5": "Each friend will get \\( \\frac{5}{3} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "The division is set up incorrectly because the number of friends is divided by the number of pizzas, instead of dividing the number of pizzas by the number of friends. This leads to a fraction greater than 1, which does not make sense in the context of sharing 3 pizzas among 5 friends."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "There is 1 pizza to be shared equally among 5 friends.",
+                "Step 2": "To find the amount each friend gets, divide 1 by 5.",
+                "Step 3": "\\[ \\text{Amount each friend gets} = \\frac{1}{5} \\]",
+                "Step 4": "Each friend will get \\( \\frac{1}{5} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The solution ignored the information that there are 3 pizzas in total and only used the value '1' in the calculation, leading to the wrong answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends, but Siti also wants to keep 1 pizza for herself.",
+                "Step 2": "So, only 2 pizzas are shared among 5 friends.",
+                "Step 3": "To find out how much pizza each friend gets, we divide the number of pizzas being shared by the number of friends.",
+                "Step 4": "\\[ \\text{Amount each friend gets} = \\frac{2}{5} \\]",
+                "Step 5": "Each friend will get \\( \\frac{2}{5} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The solution incorrectly assumed that Siti keeps 1 pizza for herself, but the question only says the 3 pizzas are to be shared among 5 friends. No pizza should be kept for Siti unless stated, so all 3 should be divided."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends.",
+                "Step 2": "To find out how much pizza each friend gets, we need to multiply the total number of pizzas by the number of friends.",
+                "Step 3": "So, we calculate:",
+                "Step 4": "\\[ \\text{Amount each friend gets} = 3 \\times 5 = 15 \\]",
+                "Step 5": "Each friend will get 15 pizzas."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of dividing the total number of pizzas by the number of friends, the solution multiplies them, which does not make sense in the context of sharing. This leads to an illogical result that each friend gets more pizzas than available, instead of a fraction."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "To find out how much pizza each friend gets, we divide the total number of pizzas by the number of friends.",
+                "Step 2": "So, we calculate:",
+                "Step 3": "\\[ \\text{Amount each friend gets} = \\frac{3}{5} \\]",
+                "Step 4": "Each friend will get \\( \\frac{3}{5} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The solution skips stating how many pizzas there are and how many friends there are before performing the calculation. This missing step can make it unclear where the numbers come from."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas to be shared equally among 5 friends.",
+                "Step 2": "To find out how much pizza each friend gets, we divide the total number of pizzas by the number of friends.",
+                "Step 3": "So, we calculate:",
+                "Step 4": "\\[ \\text{Amount each friend gets} = \\frac{5}{3} \\]",
+                "Step 5": "Each friend will get \\( \\frac{5}{3} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 4": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 4": "In Step 4, the student wrongly divided the number of friends by the number of pizzas, instead of dividing pizzas by friends. This gives the incorrect answer \\( \\frac{5}{3} \\), suggesting that each friend receives more pizza than actually available, which is not possible."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "There are 3 whole pizzas and 5 friends.",
+                "Step 2": "To find out how many friends there are per pizza, divide 5 by 3.",
+                "Step 3": "\\[ \\text{Number of friends per pizza} = \\frac{5}{3} \\]",
+                "Step 4": "Each pizza is shared among \\( \\frac{5}{3} \\) friends."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 2": "The question asks for the fraction of a pizza each friend gets, but this solution finds the number of friends per pizza instead. The answer should be the amount each friend receives, not how many friends share each pizza."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Siti has 3 whole pizzas. She wants to share them equally among 5 friends. What fraction of a pizza will each friend get?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "There are 5 whole pizzas to be shared equally among 3 friends.",
+                "Step 2": "To find out how much pizza each friend gets, we divide the total number of pizzas by the number of friends.",
+                "Step 3": "So, we calculate:",
+                "Step 4": "\\[ \\text{Amount each friend gets} = \\frac{5}{3} \\]",
+                "Step 5": "Each friend will get \\( \\frac{5}{3} \\) of a pizza."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The numbers of pizzas and friends were accidentally swapped. The question states there are 3 pizzas and 5 friends, but the solution uses 5 pizzas and 3 friends, leading to an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "O1AgbrEF": {
+        "Calculation Error": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "Recall that the perimeter of a rectangle is found by adding up all the sides. A rectangle has two lengths and two widths.",
+                "Step 2": "So, the perimeter is: \n\\[ \\text{Perimeter} = \\text{length} + \\text{width} + \\text{length} + \\text{width} \\]",
+                "Step 3": "Using x for length and y for width, we can write: \n\\[ \\text{Perimeter} = x + y + x + y \\]",
+                "Step 4": "Combine like terms: \n\\[ \\text{Perimeter} = 2x + y \\]",
+                "Step 5": "So, the expression for the perimeter of the rectangle, in terms of x and y, is: \n\\[ 2x + y \\]"
+            },
+            "wrong_steps": {
+                "Step 4": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 4": "Instead of correctly adding all the terms together (which should result in 2x + 2y), only one y was added, omitting one width. This is a calculation error since the correct sum of x + y + x + y is 2x + 2y, not 2x + y."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "A rectangle has a length of \\( x \\) cm and a width of \\( y \\) cm. Write down an expression, in terms of \\( x \\) and \\( y \\), for the perimeter of the rectangle.",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Perimeter means adding up all the sides of the rectangle.",
+                "Step 2": "A rectangle has a length and a width, so the perimeter should be: \n\\[ \\text{Perimeter} = x \\times y \\times 2 \\]",
+                "Step 3": "So, the expression for the perimeter of the rectangle in terms of \\( x \\) and \\( y \\) is: \n\\[ 2xy \\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "The student confused the formula for perimeter with the formula for area. Instead of adding the lengths of all sides (which is \\( 2x + 2y \\)), the student multiplied \\( x \\) and \\( y \\) together and then doubled the result. This does not represent the perimeter of a rectangle."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Recall that the perimeter of a rectangle is found by adding up all the sides. A rectangle has two lengths and two widths.",
+                "Step 2": "The perimeter is given as: \n\\[ \\text{Perimeter} = 2 \\times \\text{length} \\]",
+                "Step 3": "Using x for length, we can write: \n\\[ \\text{Perimeter} = 2x \\]",
+                "Step 4": "So, the expression for the perimeter of the rectangle, in terms of x and y, is: \n\\[ 2x \\]"
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The width (y) is not included in the calculation, even though the question states the rectangle has both length and width. Only using \\(2 \\times \\text{length}\\) ignores the width, resulting in an incorrect formula for the perimeter."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Assume that the length is twice as long as the width, so \\( x = 2y \\).",
+                "Step 2": "The perimeter of a rectangle is \\( \\text{length} + \\text{width} + \\text{length} + \\text{width} \\).",
+                "Step 3": "Substitute \\( x = 2y \\) and width as \\( y \\): \\[ \\text{Perimeter} = 2y + y + 2y + y \\]",
+                "Step 4": "Add up the terms: \\[ \\text{Perimeter} = 6y \\]",
+                "Step 5": "So, the expression for the perimeter of the rectangle is \\( 6y \\)."
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The solution incorrectly assumes that the length is twice the width. There is no information in the question that allows for this assumption, so the answer does not correctly represent the general case."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "Recall that the area of a rectangle is found by multiplying the length by the width.",
+                "Step 2": "So, the perimeter is: \n\\[ \\text{Perimeter} = x \\times y \\]",
+                "Step 3": "So, the expression for the perimeter of the rectangle, in terms of x and y, is: \n\\[ x y \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 1": "The student used the formula for area (length \u00d7 width) instead of the correct formula for perimeter (2 \u00d7 length + 2 \u00d7 width)."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "The perimeter is:\n\\[ \\text{Perimeter} = 2x + 2y \\]\n"
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The explanation or breakdown of how the formula for perimeter is derived is skipped. The student jumps straight to writing the formula without showing how x and y relate to the sides or adding them before combining like terms."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "A rectangle has a length of \\( x \\) cm and a width of \\( y \\) cm. Write down an expression, in terms of \\( x \\) and \\( y \\), for the perimeter of the rectangle.",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "Recall that the perimeter of a rectangle is found by adding up all the sides. A rectangle has two lengths and two widths.",
+                "Step 2": "So, the perimeter is: \n\\[ \\text{Perimeter} = \\text{length} + \\text{width} + \\text{length} + \\text{width} \\]",
+                "Step 3": "Using \\( x \\) for length and \\( y \\) for width, we can write: \n\\[ \\text{Perimeter} = x + y + x + y \\]",
+                "Step 4": "From above, we see \\( x + y + x + y = 2x + y \\)",
+                "Step 5": "So, the expression for the perimeter of the rectangle, in terms of \\( x \\) and \\( y \\), is: \n\\[ 2x + y \\]"
+            },
+            "wrong_steps": {
+                "Step 4": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 4": "The student incorrectly combined the terms from the previous step. Instead of adding both \\( y \\) terms together, only one \\( y \\) was included, resulting in an inconsistent expression. This gives a perimeter that does not match the sum from the previous step."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "Recall the formula for the area of a rectangle is:\n\\[ \\text{Area} = \\text{length} \\times \\text{width} \\]",
+                "Step 2": "Using x for length and y for width, the area is:\n\\[ \\text{Area} = x \\times y \\]",
+                "Step 3": "So, the expression for the perimeter of the rectangle, in terms of x and y, is:\n\\[ x \\times y \\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 1": "The question asks for an expression for the perimeter, but the solution gives the area instead. This shows a misunderstanding of what the question requires."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "A rectangle has a length of x cm and a width of y cm. Write down an expression, in terms of x and y, for the perimeter of the rectangle.",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "Recall that the perimeter of a rectangle is found by adding up all the sides. A rectangle has two lengths and two widths.",
+                "Step 2": "So, the perimeter is: \n\\[ \\text{Perimeter} = \\text{length} + \\text{width} + \\text{length} + \\text{width} \\]",
+                "Step 3": "Using x for length and y for width, we can write: \n\\[ \\text{Perimeter} = x + y + x + x \\]",
+                "Step 4": "Combine like terms: \n\\[ \\text{Perimeter} = 3x + y \\]",
+                "Step 5": "So, the expression for the perimeter of the rectangle, in terms of x and y, is: \n\\[ 3x + y \\]"
+            },
+            "wrong_steps": {
+                "Step 3": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 3": "Instead of copying the width value twice, the student copied the length value three times and the width only once, resulting in the wrong sum for the perimeter."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "O1NumOps": {
+        "Calculation Error": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, find the total number of marbles in the bag.\n\n\\[\n\\text{Total number of marbles} = 80 + 120 = 210\n\\]",
+                "Step 2": "Next, write the fraction of marbles that are blue.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{210}\n\\]",
+                "Step 3": "Now, simplify the fraction. Find the greatest common factor (GCF) of 120 and 210. The GCF is 30.\n\n\\[\n\\frac{120 \\div 30}{210 \\div 30} = \\frac{4}{7}\n\\]",
+                "Step 4": "So, the fraction of marbles that are blue is \\( \\frac{4}{7} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 1": "The error occurred in calculating the total number of marbles. 80 + 120 was incorrectly calculated as 210, instead of the correct total 200. This led to the wrong fraction and simplified answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Find the total number of blue marbles and use the number of red marbles as the denominator.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{80}\n\\]",
+                "Step 2": "Simplify the fraction by dividing both numerator and denominator by 40.\n\n\\[\n\\frac{120 \\div 40}{80 \\div 40} = \\frac{3}{2}\n\\]",
+                "Step 3": "So, the fraction of marbles that are blue is \\( \\frac{3}{2} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 1": "The denominator should be the total number of marbles, not just the number of red marbles. This misinterprets what the denominator represents in the context of the question."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Write the number of blue marbles as a fraction of 100, since 100 is an easy number to work with.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{100}\n\\]",
+                "Step 2": "Simplify the fraction.\n\n\\[\n\\frac{120 \\div 20}{100 \\div 20} = \\frac{6}{5}\n\\]",
+                "Step 3": "So, the fraction of marbles that are blue is \\( \\frac{6}{5} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The student ignored the total number of marbles (80 red + 120 blue = 200). Instead, the student used 100 as the denominator, which is not relevant to the question. This led to an incorrect fraction that does not represent the proportion of blue marbles in the actual bag."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Assume that there are also 50 green marbles in the bag, so add this to the total.\n\n\\[\n\\text{Total number of marbles} = 80 + 120 + 50 = 250\n\\]",
+                "Step 2": "Write the fraction of marbles that are blue.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{250}\n\\]",
+                "Step 3": "Simplify the fraction.\nThe GCF of 120 and 250 is 10.\n\n\\[\n\\frac{120 \\div 10}{250 \\div 10} = \\frac{12}{25}\n\\]",
+                "Step 4": "So, the fraction of marbles that are blue is \\( \\frac{12}{25} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The solution incorrectly assumed there were extra green marbles in the bag, which was not stated in the question. This changes the total number of marbles and leads to the wrong fraction."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, find the total number of marbles in the bag.\n\n\\[\n\\text{Total number of marbles} = 80 \\times 120 = 9600\n\\]",
+                "Step 2": "Next, write the fraction of marbles that are blue.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{9600}\n\\]",
+                "Step 3": "Now, simplify the fraction. Find the greatest common factor (GCF) of 120 and 9600. The GCF is 120.\n\n\\[\n\\frac{120 \\div 120}{9600 \\div 120} = \\frac{1}{80}\n\\]",
+                "Step 4": "So, the fraction of marbles that are blue is \\( \\frac{1}{80} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly multiplied the number of red marbles and blue marbles (80 \u00d7 120) instead of adding them to find the total number of marbles. The total should be 80 + 120. This wrong operation led to all subsequent steps being incorrect."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "The fraction of blue marbles is \\( \\frac{120}{200} \\).",
+                "Step 2": "Now, simplify the fraction:\n\n\\[\n\\frac{120}{200} = \\frac{3}{5}\n\\]\n",
+                "Step 3": "So, the fraction of marbles that are blue is \\( \\frac{3}{5} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The solution skips the step of finding the total number of marbles. The total should be calculated explicitly as 80 + 120 = 200 before writing the fraction. Skipping this step may confuse readers as the value 200 appears without explanation."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, find the total number of marbles in the bag.\n\n\\[\n\\text{Total number of marbles} = 80 + 120 = 200\n\\]",
+                "Step 2": "Next, write the fraction of marbles that are blue.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{120}{200}\n\\]",
+                "Step 3": "Now, simplify the fraction. Since 80 was the number of red marbles, use that to simplify the blue fraction:\n\n\\[\n\\frac{120}{200 - 80} = \\frac{120}{120} = 1\n\\]",
+                "Step 4": "So, the fraction of marbles that are blue is \\( 1 \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "In Step 3, the student wrongly uses the number of red marbles (80) to subtract from the total, then uses that as the new denominator, which contradicts the correctly established denominator of 200. The denominator must remain as the total number of marbles. This error shows a misunderstanding of how to properly simplify a fraction."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, find the total number of marbles in the bag.\n\n\\[\n\\text{Total number of marbles} = 80 + 120 = 200\n\\]",
+                "Step 2": "Next, write the fraction of marbles that are red.\n\n\\[\n\\text{Fraction of red marbles} = \\frac{80}{200}\n\\]",
+                "Step 3": "Now, simplify the fraction. Find the greatest common factor (GCF) of 80 and 200. The GCF is 40.\n\n\\[\n\\frac{80 \\div 40}{200 \\div 40} = \\frac{2}{5}\n\\]",
+                "Step 4": "So, the fraction of marbles that are blue is \\( \\frac{2}{5} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 2": "The student has misunderstood the question by calculating the fraction of red marbles instead of blue marbles as asked. The question specifically asks for the fraction of blue marbles, but the student answered with the fraction of red marbles, which is not what the question required."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "A bag contains 80 red marbles and 120 blue marbles. What fraction of the marbles in the bag are blue? Give your answer in its simplest form.",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, find the total number of marbles in the bag.\n\n\\[\n\\text{Total number of marbles} = 80 + 100 = 180\n\\]",
+                "Step 2": "Next, write the fraction of marbles that are blue.\n\n\\[\n\\text{Fraction of blue marbles} = \\frac{100}{180}\n\\]",
+                "Step 3": "Now, simplify the fraction. Find the greatest common factor (GCF) of 100 and 180. The GCF is 20.\n\n\\[\n\\frac{100 \\div 20}{180 \\div 20} = \\frac{5}{9}\n\\]",
+                "Step 4": "So, the fraction of marbles that are blue is \\( \\frac{5}{9} \\), in its simplest form."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of using the correct numbers from the question (80 red and 120 blue marbles), the solution incorrectly copied the number of blue marbles as 100 instead of 120. This led to an incorrect total and wrong fraction."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "P4Deci3d": {
+        "Calculation Error": {
+            "question": "Muthu bought a pencil for \\$2.450 and an eraser for \\$0.650. How much did he spend altogether?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, write down the cost of the pencil and the eraser:\n\\[\n\\text{Cost of pencil} = 2.450\n\\]\n\\[\n\\text{Cost of eraser} = 0.650\n\\]",
+                "Step 2": "Add the two amounts together. Line up the decimal points:\n\\[\n2.450 + 0.650\n\\]",
+                "Step 3": "Add the digits in each place value:\n\\[\n\\begin{align*}\n&\\phantom{+}2.450 \\\\\n+\\ &0.650 \\\\\n\\hline\n&2.510\n\\end{align*}\n\\]",
+                "Step 4": "So, Muthu spent \\(2.510\\) altogether."
+            },
+            "wrong_steps": {
+                "Step 3": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 3": "Instead of correctly adding 2.450 and 0.650, which should give 3.100, a calculation mistake was made and the result was incorrectly written as 2.510."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "Muthu bought a pencil for \\$2.450 and an eraser for \\$0.650. How much did he spend altogether?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, write down the cost of the pencil and the eraser:\n\\[\n\\text{Cost of pencil} = 2.450\n\\]\n\\[\n\\text{Cost of eraser} = 0.650\n\\]",
+                "Step 2": "Instead of adding, subtract the cost of the eraser from the cost of the pencil:\n\\[\n2.450 - 0.650\n\\]",
+                "Step 3": "Subtract the digits in each place value:\n\\[\n\\begin{align*}\n&2.450 \\\\\n-&0.650 \\\\\n\\hline\n&1.800\n\\end{align*}\n\\]",
+                "Step 4": "So, Muthu spent \\(1.800\\) altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of adding the costs to find the total amount spent, subtraction was used. The question asks for the total money spent, so the correct operation should be addition, not subtraction."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Muthu bought a pencil for \\$2.450 and an eraser for \\$0.650. How much did he spend altogether?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Write down the cost of the pencil: \n\\[\n\\text{Cost of pencil} = 2.450\n\\]",
+                "Step 2": "State the answer as just the cost of the pencil:\n\\[\n\\text{Total amount spent} = 2.450\n\\]"
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The student only used the cost of the pencil and completely missed out the cost of the eraser, so the answer is not the total amount spent."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Muthu bought a pencil for \\$2.450 and an eraser for \\$0.650. How much did he spend altogether?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, write down the cost of the pencil and the eraser:\n\\[\n\\text{Cost of pencil} = 2.450\n\\]\n\\[\n\\text{Cost of eraser} = 0.650\n\\]",
+                "Step 2": "Assume that Muthu got a discount of \\$0.500 on the total amount.\n",
+                "Step 3": "Add the two amounts and subtract the discount:\n\\[\n2.450 + 0.650 - 0.500\n\\]",
+                "Step 4": "Calculate the total:\n\\[\n2.450 + 0.650 = 3.100\n\\]\n\\[\n3.100 - 0.500 = 2.600\n\\]",
+                "Step 5": "So, Muthu spent \\(2.600\\) altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "Step 2 introduces an additional assumption (a \\$0.500 discount) not mentioned in the question. The question only asks for the total cost of the pencil and eraser purchased, so adding a discount changes the actual answer and is not justified by the information given."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "Muthu bought a pencil for \\$2.450 and an eraser for \\$0.650. How much did he spend altogether?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, write down the cost of the pencil and the eraser:\n\\[\n\\text{Cost of pencil} = 2.450\n\\]\n\\[\n\\text{Cost of eraser} = 0.650\n\\]",
+                "Step 2": "Subtract the cost of the eraser from the pencil instead of adding:\n\\[\n2.450 - 0.650\n\\]",
+                "Step 3": "Do the subtraction:\n\\[\n\\begin{align*}\n2.450 - 0.650 &= 1.800\n\\end{align*}\n\\]",
+                "Step 4": "So, Muthu spent \\(1.800\\) altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of adding the costs to find the total amount spent, the subtraction operation was used. This is incorrect because the problem asks for the total spent, which should be the sum of both items."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "Muthu bought a pencil for \\$2.450 and an eraser for \\$0.650. How much did he spend altogether?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Add the two amounts together directly:\n\\[\n2.450 + 0.650 = 3.100\n\\]",
+                "Step 2": "So, Muthu spent \\(3.100\\) altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The solution skips writing out the costs of the pencil and eraser as separate amounts before calculation. It does not show the information being taken from the question and misses the step of clearly stating what is being added."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "Muthu bought a pencil for \\$2.450 and an eraser for \\$0.650. How much did he spend altogether?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, write down the cost of the pencil and the eraser:\n\\[\n\\text{Cost of pencil} = 2.450\n\\]\n\\[\n\\text{Cost of eraser} = 0.650\n\\]",
+                "Step 2": "Add the two amounts together. Line up the decimal points:\n\\[\n2.450 + 0.650\n\\]",
+                "Step 3": "Add the digits in each place value:\n\\[\n\\begin{align*}\n&\\phantom{+}2.450 \\\\\n+\\ &0.650 \\\\\n\\hline\n&2.100\n\\end{align*}\n\\]",
+                "Step 4": "So, Muthu spent \\(2.100\\) altogether."
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "The student claims that 2.450 + 0.650 = 2.100, which directly contradicts the values given in the previous steps and the rules of addition. The correct sum should be larger than both addends, so this is impossible."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "Muthu bought a pencil for \\$2.450 and an eraser for \\$0.650. How much did he spend altogether?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, write down the cost of the pencil:\n\\[\n\\text{Cost of pencil} = 2.450\n\\]\n",
+                "Step 2": "Write down the cost of the eraser:\n\\[\n\\text{Cost of eraser} = 0.650\n\\]\n",
+                "Step 3": "State the cost of the eraser as the answer:\n\\[\n\\text{Muthu spent } 0.650 \\text{ altogether.}\n\\]\n"
+            },
+            "wrong_steps": {
+                "Step 3": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 3": "The student only wrote the cost of the eraser as the answer instead of finding the total amount spent on both the pencil and the eraser. This shows a misunderstanding of the question, which asked for the total amount spent, not just the cost of one item."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Muthu bought a pencil for \\$2.450 and an eraser for \\$0.650. How much did he spend altogether?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, write down the cost of the pencil and the eraser:\n\\[\n\\text{Cost of pencil} = 2.540\n\\]\n\\[\n\\text{Cost of eraser} = 0.650\n\\]",
+                "Step 2": "Add the two amounts together. Line up the decimal points:\n\\[\n2.540 + 0.650\n\\]",
+                "Step 3": "Add the digits in each place value:\n\\[\n\\begin{align*}\n&\\phantom{+}2.540 \\\\\n+\\ &0.650 \\\\\n\\hline\n&3.190\n\\end{align*}\n\\]",
+                "Step 4": "So, Muthu spent \\(3.190\\) altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The amount for the pencil was incorrectly copied as 2.540 instead of 2.450. This leads to an incorrect total."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "P4N100k": {
+        "Calculation Error": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total number of books after adding the new books. We do this by adding 85,960 and 9,380.",
+                "Step 2": "Let us write the addition in columns:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n+  9,380 \\\\\n\\hline\n\\end{array}\n\\]",
+                "Step 3": "We add the digits starting from the rightmost column:\n\nUnits: 0 + 0 = 0\n\nTens: 6 + 8 = 14 (write 4, carry over 1)\n\nHundreds: 9 + 3 = 12, plus 1 carried over = 13 (write 3, carry over 1)\n\nThousands: 5 + 9 = 14, plus 1 carried over = 15 (write 5, carry over 1)\n\nTen Thousands: 8 + 0 = 8, plus 1 carried over = 9",
+                "Step 4": "Now, write the answer:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n+  9,380 \\\\\n\\hline\n  94,340\n\\end{array}\n\\]",
+                "Step 5": "So, the library will have 94,340 books in total after adding the new books."
+            },
+            "wrong_steps": {
+                "Step 4": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 4": "Although the addition setup and process are correct, the total written is incorrect. The correct sum of 85,960 and 9,380 is 95,340, not 94,340. This is an error in the final calculation."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, we need to find out how many books were added this month. The question says 9,380 new books are added.",
+                "Step 2": "We subtract the number of new books from the total number of books already on the shelves:\n\n\\[\n85,960 - 9,380 = ?\n\\]",
+                "Step 3": "Let's do the subtraction in columns:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n-  9,380 \\\\\n\\hline\n\\end{array}\n\\]",
+                "Step 4": "Subtract the digits starting from the rightmost column:\n\nUnits: 0 - 0 = 0\n\nTens: 6 - 8 (not enough, borrow 1 from hundreds): 16 - 8 = 8\n\nHundreds: 9 (now 8 because borrowed) - 3 = 5\n\nThousands: 5 - 9 (not enough, borrow 1 from ten thousands): 15 - 9 = 6\n\nTen Thousands: 8 (now 7 because borrowed) - 0 = 7",
+                "Step 5": "So, the answer is:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n-  9,380 \\\\\n\\hline\n  76,580\n\\end{array}\n\\]",
+                "Step 6": "Therefore, the library will have 76,580 books in total after adding the new books."
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of adding the new books to the current total, subtraction was performed. This shows a misunderstanding of what the values represent in the context\u2014the student should have added the number of new books to the existing collection, not subtracted."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "There are 9,380 new books added this month.",
+                "Step 2": "So, the library will have 9,380 books in total after adding the new books."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The student ignored the original number of books (85,960) and only considered the new books added, missing a key piece of information from the question. This leads to an incorrect answer because the total should include both the original and the new books."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total number of books. Let's assume that 2,000 old books were removed from the shelves before the new books were added.",
+                "Step 2": "So, we subtract the removed books first:\n\n\\[\n85,960 - 2,000 = 83,960\n\\]",
+                "Step 3": "Now, we add the new books:\n\n\\[\n83,960 + 9,380 = 93,340\n\\]",
+                "Step 4": "So, the library will have 93,340 books in total after adding the new books."
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The solution adds an extra assumption that 2,000 books were removed, but the question does not mention any books being removed. This leads to the wrong total, as only addition of new books should be considered."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "We need to find the total number of books, so we subtract the number of new books from the original number of books: \n\n\\[85,960 - 9,380\\]",
+                "Step 2": "Let us write the subtraction in columns:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n-  9,380 \\\\\n\\hline\n\\end{array}\n\\]",
+                "Step 3": "We subtract the digits starting from the rightmost column:\n\nUnits: 0 - 0 = 0\n\nTens: 6 - 8 = Can't do, borrow 1 (16 - 8 = 8)\n\nHundreds: 9 - 3 = 6\n\nThousands: 5 - 9 = Can't do, borrow 1 (15 - 9 = 6)\n\nTen Thousands: 8 - 0 = 8",
+                "Step 4": "Now, write the answer:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n-  9,380 \\\\\n\\hline\n  76,580\n\\end{array}\n\\]",
+                "Step 5": "So, the library will have 76,580 books in total after adding the new books."
+            },
+            "wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of adding the number of new books to the existing total, subtraction is used. This is incorrect as the question requires finding a new total after an addition, not a reduction."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "To find the total number of books, add 85,960 and 9,380 together.",
+                "Step 2": "The total number of books is 95,340."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 2": "The solution skips the important step of showing the column addition and carrying method, as well as the breakdown of how the digits are added together. This makes it unclear how the total was calculated and does not show the process required for full marks in a written exam."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total number of books after adding the new books. We do this by adding 85,960 and 9,380.",
+                "Step 2": "Let us write the addition in columns:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n+  9,380 \\\\\n\\hline\n\\end{array}\n\\]",
+                "Step 3": "We add the digits starting from the rightmost column:\n\nUnits: 0 + 0 = 0\n\nTens: 6 + 8 = 14 (write 4, carry over 1)\n\nHundreds: 9 + 3 = 12, plus 1 carried over = 13 (write 3, carry over 1)\n\nThousands: 5 + 9 = 14, plus 1 carried over = 15 (write 5, carry over 1)\n\nTen Thousands: 8 + 0 = 8, plus 1 carried over = 9",
+                "Step 4": "Now, write the answer:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n+  9,380 \\\\\n\\hline\n  75,340\n\\end{array}\n\\]",
+                "Step 5": "So, the library will have 75,340 books in total after adding the new books."
+            },
+            "wrong_steps": {
+                "Step 4": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 4": "The answer written (75,340) contradicts the result obtained from the addition done in Step 3. The answer should reflect the total calculated, not a completely different number."
+            },
+            "all_wrong_steps": {
+                "Step 4": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, we need to find out how many books were added this month, so we subtract 9,380 from 85,960.",
+                "Step 2": "Let us write the subtraction in columns:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n-  9,380 \\\\\n\\hline\n\\end{array}\n\\]",
+                "Step 3": "We subtract the digits starting from the rightmost column:\n\nUnits: 0 - 0 = 0\n\nTens: 6 - 8 cannot, so borrow 1 from hundreds: 16 - 8 = 8\n\nHundreds: 8 (after borrowing) - 3 = 5\n\nThousands: 5 - 9 cannot, borrow 1 from ten thousands: 15 - 9 = 6\n\nTen Thousands: 7 (after borrowing) - 0 = 7",
+                "Step 4": "Now, write the answer:\n\n\\[\n\\begin{array}{r}\n  85,960 \\\\\n-  9,380 \\\\\n\\hline\n  76,580\n\\end{array}\n\\]",
+                "Step 5": "So, the library will have 76,580 books after adding the new books."
+            },
+            "wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 1": "Instead of adding the number of new books to the existing books as the question required, the student subtracted the number of new books from the total. This misinterprets the question's requirement and leads to an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "The library has 85,960 books on its shelves. If 9,380 new books are added this month, how many books will the library have in total?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, we need to find the total number of books after adding the new books. We do this by adding 85,690 and 9,380.",
+                "Step 2": "Let us write the addition in columns:\n\n\\[\n\\begin{array}{r}\n  85,690 \\\\\n+  9,380 \\\\\n\\hline\n\\end{array}\n\\]",
+                "Step 3": "We add the digits starting from the rightmost column:\n\nUnits: 0 + 0 = 0\n\nTens: 9 + 8 = 17 (write 7, carry over 1)\n\nHundreds: 6 + 3 = 9, plus 1 carried over = 10 (write 0, carry over 1)\n\nThousands: 5 + 9 = 14, plus 1 carried over = 15 (write 5, carry over 1)\n\nTen Thousands: 8 + 0 = 8, plus 1 carried over = 9",
+                "Step 4": "Now, write the answer:\n\n\\[\n\\begin{array}{r}\n  85,690 \\\\\n+  9,380 \\\\\n\\hline\n  95,070\n\\end{array}\n\\]",
+                "Step 5": "So, the library will have 95,070 books in total after adding the new books."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The number of books originally on the shelves was incorrectly copied as 85,690 instead of 85,960. This led to an incorrect calculation for the total number of books."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "O1EqIneq": {
+        "Calculation Error": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of \\( x \\).",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50 dollars, so the new price is \\( x - 50 \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\nx - 50 = 320\n\\]",
+                "Step 4": "To find the value of \\( x \\), add 50 to both sides of the equation:\n\\[\nx = 320 + 50\n\\]",
+                "Step 5": "Calculate the value:\n\\[\nx = 360\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( 360 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 5": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 5": "The addition in this step is incorrect. The student added 320 and 50, but wrongly calculated it as 360 instead of the correct sum of 370."
+            },
+            "all_wrong_steps": {
+                "Step 5": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50 dollars, so the new price is \\( x + 50 \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\nx + 50 = 320\n\\]",
+                "Step 4": "To find the value of \\( x \\), subtract 50 from both sides of the equation:\n\\[\nx = 320 - 50\n\\]",
+                "Step 5": "Calculate the value:\n\\[\nx = 270\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( 270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 2": "The error occurs because the student added 50 to \\( x \\), instead of subtracting 50. When the price is reduced by 50 dollars, it should be represented as \\( x - 50 \\), not \\( x + 50 \\)."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of \\( x \\).",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "We are told that the new price is 320 dollars.",
+                "Step 3": "So, \\( x = 320 \\)",
+                "Step 4": "Therefore, the usual price of the mobile phone is \\( 320 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 2": "The solution did not use the information that the mobile phone's price was reduced by 50 dollars. By ignoring this information, the equation formed is incorrect and does not represent the actual situation described in the question."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "Assume there is an extra 10\\% discount during the sale in addition to the 50 dollar reduction.",
+                "Step 3": "So, the new price after both reductions is \\( (x - 50) \\times 0.9 \\) dollars.",
+                "Step 4": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\n(x - 50) \\times 0.9 = 320\n\\]",
+                "Step 5": "Divide both sides by 0.9:\n\\[\nx - 50 = \\frac{320}{0.9}\n\\]",
+                "Step 6": "Calculate the value:\n\\[\nx - 50 = 355.56\n\\]",
+                "Step 7": "Add 50 to both sides:\n\\[\nx = 355.56 + 50\n\\]",
+                "Step 8": "So, \\( x = 405.56 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "The solution incorrectly assumes there is an additional 10\\% discount during the sale, even though the question only states a reduction of 50 dollars. This inserted information changes the equation and leads to a wrong answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of \\( x \\).",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50 dollars, so the new price is \\( x \\times 50 \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\nx \\times 50 = 320\n\\]",
+                "Step 4": "To find the value of \\( x \\), divide both sides of the equation by 50:\n\\[\nx = \\frac{320}{50}\n\\]",
+                "Step 5": "Calculate the value:\n\\[\nx = 6.4\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( 6.4 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of subtracting 50 from \\( x \\) to represent a $50 reduction, the student multiplied \\( x \\) by 50, which does not match the scenario described. This misuse of operation leads to an incorrect equation and answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of \\( x \\).",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "To find the value of \\( x \\), add 50 to 320:\n\\[\nx = 320 + 50\n\\]",
+                "Step 3": "Calculate the value:\n\\[\nx = 370\n\\]",
+                "Step 4": "So, the usual price of the mobile phone is \\( 370 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 2": "The solution skips forming the proper equation \\( x - 50 = 320 \\) and directly adds 50 to 320. This misses the step where the relationship between the usual price, discount, and sale price is explicitly set up as an equation."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "A mobile phone usually costs \\(x\\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50 dollars, so the new price is \\( x - 50 \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. Instead, write \\( x + 50 = 320 \\) as the equation.",
+                "Step 4": "To find the value of \\( x \\), subtract 50 from both sides of the equation:\n\\[\nx = 320 - 50\n\\]",
+                "Step 5": "Calculate the value:\n\\[\nx = 270\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( 270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "The student wrote the equation as \\( x + 50 = 320 \\) which contradicts the earlier step that shows the price should be reduced by 50. This error comes from incorrectly referencing the relationship between the usual price, the discount, and the sale price."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of \\( x \\).",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50 dollars, so the new price is \\( x - 50 \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, the equation is:\n\\[\n320 - 50 = x\n\\]",
+                "Step 4": "Calculate the value:\n\\[\n320 - 50 = 270\n\\]",
+                "Step 5": "So, \\( x = 270 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 3": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 3": "The student wrote the equation as \\( 320 - 50 = x \\), incorrectly treating 320 as the original price and subtracting the discount, instead of representing the reduced price as \\( x - 50 = 320 \\). This misinterprets the requirement and leads to the wrong answer."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "A mobile phone usually costs \\( x \\) dollars. During a sale, its price is reduced by 50 dollars and the new price is 320 dollars. Write down an equation to represent this situation and find the value of x.",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "Let the usual price of the mobile phone be \\( x \\) dollars.",
+                "Step 2": "The price is reduced by 50 dollars, so the new price is \\( x - 30 \\) dollars.",
+                "Step 3": "We are told that the new price is 320 dollars. So, we can write the equation:\n\\[\nx - 30 = 320\n\\]",
+                "Step 4": "To find the value of \\( x \\), add 30 to both sides of the equation:\n\\[\nx = 320 + 30\n\\]",
+                "Step 5": "Calculate the value:\n\\[\nx = 350\n\\]",
+                "Step 6": "So, the usual price of the mobile phone is \\( 350 \\) dollars."
+            },
+            "wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of subtracting 50 dollars as stated in the question, 30 dollars was subtracted. This is a copying error where the wrong number from the question is used in the calculation, leading to an incorrect equation and answer."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "P1Money": {
+        "Calculation Error": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, find the total value of the two 20-cent coins.\n\n\\[\n20\\text{ cents} + 20\\text{ cents} = 30\\text{ cents}\n\\]",
+                "Step 2": "Next, add the value of the 50-cent coin to the 30 cents from the two 20-cent coins.\n\n\\[\n50\\text{ cents} + 30\\text{ cents} = 80\\text{ cents}\n\\]",
+                "Step 3": "So, Shawn has 80 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 1": "The student added 20 cents and 20 cents and wrote 30 cents, which is wrong. The sum should be 40 cents."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, add the number of coins together.\n\n\\[\n1 \\text{ (50-cent coin)} + 2 \\text{ (20-cent coins)} = 3 \\text{ coins}\n\\]",
+                "Step 2": "Shawn has 3 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 1": "The solution adds the number of coins instead of their values. The question asks for the total amount of money, not the total number of coins. The units were misunderstood, resulting in an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Find the total value of the two 20-cent coins only.\n\n\\[\n20\\text{ cents} + 20\\text{ cents} = 40\\text{ cents}\n\\]",
+                "Step 2": "So, Shawn has 40 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The solution only added the values of the two 20-cent coins and completely left out the 50-cent coin, which is a key part of the question. Without considering the 50-cent coin, the final total is incorrect."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "First, find the value of the two 20-cent coins.\n\n\\[\n20\\text{ cents} + 20\\text{ cents} = 40\\text{ cents}\n\\]",
+                "Step 2": "Assume that one of the 20-cent coins is lost, so only one 20-cent coin is counted.\n\n\\[\n\\text{Only one 20-cent coin is counted, so:}\n\\]",
+                "Step 3": "Add the value of the 50-cent coin and one 20-cent coin.\n\n\\[\n50\\text{ cents} + 20\\text{ cents} = 70\\text{ cents}\n\\]",
+                "Step 4": "So, Shawn has 70 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 2": "Step 2 makes an incorrect assumption that one 20-cent coin is lost, even though the question says Shawn has two 20-cent coins. This changes the actual amount of money Shawn has and leads to the wrong conclusion."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "First, find the total value of the two 20-cent coins.\n\n\\[\n20\\text{ cents} \\times 2 = 40\\text{ cents}\n\\]",
+                "Step 2": "Next, subtract the value of the 50-cent coin from the 40 cents from the two 20-cent coins.\n\n\\[\n50\\text{ cents} - 40\\text{ cents} = 10\\text{ cents}\n\\]",
+                "Step 3": "So, Shawn has 10 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 2": "Instead of adding the value of the 50-cent coin to the total from the 20-cent coins, the solution subtracts 40 cents from 50 cents. This is a wrong operation because to find the total amount, the amounts should be added, not subtracted."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "Add the value of the 50-cent coin and the two 20-cent coins directly.\n\n\\[\n50\\text{ cents} + 40\\text{ cents} = 90\\text{ cents}\n\\]",
+                "Step 2": "So, Shawn has 90 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The solution skipped the calculation of the total value of the two 20-cent coins before adding to the 50-cent coin. The answer is given without showing all necessary working steps."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, find the total value of the two 20-cent coins.\n\n\\[\n20\\text{ cents} + 20\\text{ cents} = 40\\text{ cents}\n\\]",
+                "Step 2": "Next, add the value of the 50-cent coin to the 40 cents from the two 20-cent coins.\n\n\\[\n50\\text{ cents} + 40\\text{ cents} = 70\\text{ cents}\n\\]",
+                "Step 3": "So, Shawn has 70 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 2": "In Step 2, instead of correctly adding 50 cents and 40 cents to get 90 cents, the student contradicts the earlier calculation and writes 50 + 40 as 70 cents, which is mathematically incorrect."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, write down the value of each coin.\n\n\\[\n50\\text{ cents},\\ 20\\text{ cents},\\ 20\\text{ cents}\n\\]",
+                "Step 2": "Next, find out how many coins Shawn has in total.\n\n\\[\n1 + 2 = 3 \\text{ coins}\n\\]",
+                "Step 3": "So, Shawn has 3 coins altogether."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 2": "The question asks for the total amount of money Shawn has, not the number of coins. The student answered with the quantity of coins instead of their combined value."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Shawn has a 50-cent coin and two 20-cent coins. How much money does he have altogether?",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, find the total value of the two coins (mistakenly using two 10-cent coins instead of two 20-cent coins).\n\n\\[\n10\\text{ cents} + 10\\text{ cents} = 20\\text{ cents}\n\\]",
+                "Step 2": "Next, add the value of the 50-cent coin to the 20 cents from Step 1.\n\n\\[\n50\\text{ cents} + 20\\text{ cents} = 70\\text{ cents}\n\\]",
+                "Step 3": "So, Shawn has 70 cents altogether."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The student incorrectly copied the value of the two 20-cent coins as two 10-cent coins, leading to the wrong calculation of the total amount."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        }
+    },
+    "P4FracMI": {
+        "Calculation Error": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Calculation Error",
+            "wrong_solution": {
+                "Step 1": "First, we write the total amount of cake as a mixed number:\n\n\\[ 2 \\frac{3}{4} \\]",
+                "Step 2": "To change the mixed number to an improper fraction, we multiply the whole number by the denominator and add the numerator:\n\n\\[ (2 \\times 4) + 3 = 8 + 3 = 10 \\]",
+                "Step 3": "So, the improper fraction is:\n\n\\[ \\frac{10}{4} \\]",
+                "Step 4": "Mrs Lee baked \\( \\frac{10}{4} \\) cakes in total."
+            },
+            "wrong_steps": {
+                "Step 2": "Calculation Error"
+            },
+            "error_explanation": {
+                "Step 2": "The calculation of (2 \u00d7 4) + 3 was done incorrectly as 8 + 3 = 10 instead of the correct 8 + 3 = 11. This resulted in the wrong improper fraction."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Calculation Error"
+            }
+        },
+        "Value Context Error": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Value Context Error",
+            "wrong_solution": {
+                "Step 1": "First, add the numbers 2 and 3 to get 5, then keep the denominator 4 as in the fraction part. So, \\[ 2 + 3 = 5 \\], so the total is \\frac{5}{4} \\].",
+                "Step 2": "Mrs Lee baked \\( \\frac{5}{4} \\) cakes in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Value Context Error"
+            },
+            "error_explanation": {
+                "Step 1": "The student added only the numerator part (3) to the whole number (2) and ignored how to properly convert a mixed number to an improper fraction. The student misunderstood how to represent the total amount as an improper fraction, resulting in an incorrect answer."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Value Context Error"
+            }
+        },
+        "Missing Key Information": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Missing Key Information",
+            "wrong_solution": {
+                "Step 1": "Write down only the whole cakes Mrs Lee baked:\n\n\\[ 2 \\]",
+                "Step 2": "Convert 2 to an improper fraction with denominator 4:\n\n\\[ \\frac{8}{4} \\]",
+                "Step 3": "Mrs Lee baked \\( \\frac{8}{4} \\) cakes in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Key Information"
+            },
+            "error_explanation": {
+                "Step 1": "The student forgot to include the three quarters of another cake that Mrs Lee baked, and only considered the 2 whole cakes. As a result, the total is incorrect."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Key Information"
+            }
+        },
+        "Invalid Assumption": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Invalid Assumption",
+            "wrong_solution": {
+                "Step 1": "Since the question says she baked 2 whole cakes and 3 quarters of another, I assume that one of the cakes was not finished, so she only baked the full ones. So, total amount of cake baked is:\n\n\\[2\\]",
+                "Step 2": "To express this as an improper fraction, we write:\n\n\\[\\frac{2}{1}\\]",
+                "Step 3": "Mrs Lee baked \\( \\frac{2}{1} \\) cakes in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            },
+            "error_explanation": {
+                "Step 1": "The student wrongly assumes that Mrs Lee only baked the 2 full cakes, ignoring the three quarters of another cake. The question clearly states she baked both the full cakes and three quarters of an additional cake."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Invalid Assumption"
+            }
+        },
+        "Wrong Operation / Formula": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Wrong Operation / Formula",
+            "wrong_solution": {
+                "Step 1": "Write the total amount as a mixed number:\n\n\\[ 2 \\frac{3}{4} \\]",
+                "Step 2": "To change the mixed number to an improper fraction, we multiply the whole number by the numerator instead of the denominator:\n\n\\[ (2 \\times 3) + 4 = 6 + 4 = 10 \\]",
+                "Step 3": "So, the improper fraction is:\n\n\\[ \\frac{10}{4} \\]",
+                "Step 4": "Mrs Lee baked \\( \\frac{10}{4} \\) cakes in total."
+            },
+            "wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            },
+            "error_explanation": {
+                "Step 2": "The student used the wrong formula to convert a mixed number to an improper fraction. Instead of multiplying the whole number by the denominator, the student multiplied it by the numerator and then added the denominator, which is incorrect."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Wrong Operation / Formula"
+            }
+        },
+        "Missing Step": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Missing Step",
+            "wrong_solution": {
+                "Step 1": "We write the improper fraction directly:\n\n\\[ \\frac{11}{4} \\]",
+                "Step 2": "Mrs Lee baked \\( \\frac{11}{4} \\) cakes in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Missing Step"
+            },
+            "error_explanation": {
+                "Step 1": "The solution skips the explanation and calculation of how to convert the mixed number (2\\( \\frac{3}{4} \\)) to an improper fraction. The answer is given without showing the necessary working steps."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Missing Step"
+            }
+        },
+        "Contradictory Step": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Contradictory Step",
+            "wrong_solution": {
+                "Step 1": "First, we write the total amount of cake as a mixed number: \n\n\\[ 2 \\frac{3}{4} \\]",
+                "Step 2": "To change the mixed number to an improper fraction, we multiply the whole number by the denominator and add the numerator:\n\n\\[ (2 \\times 4) + 3 = 8 + 3 = 11 \\]",
+                "Step 3": "So, the improper fraction is:\n\n\\[ \\frac{7}{4} \\]",
+                "Step 4": "Mrs Lee baked \\( \\frac{7}{4} \\) cakes in total."
+            },
+            "wrong_steps": {
+                "Step 3": "Contradictory Step"
+            },
+            "error_explanation": {
+                "Step 3": "The student correctly calculated the numerator as 11 in Step 2, but then contradicts this by writing the improper fraction as \\( \\frac{7}{4} \\) instead of \\( \\frac{11}{4} \\). This is a contradictory step as the answer does not follow from the calculation just done."
+            },
+            "all_wrong_steps": {
+                "Step 3": "Contradictory Step"
+            }
+        },
+        "Misinterpreting Question Requirements": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Misinterpreting Question Requirements",
+            "wrong_solution": {
+                "Step 1": "First, add the whole cakes to the fractional part: \n\n\\[ 2 + \\frac{3}{4} = 2.75 \\]",
+                "Step 2": "So, Mrs Lee baked 2.75 cakes in total."
+            },
+            "wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            },
+            "error_explanation": {
+                "Step 2": "The solution gives the final answer as a decimal (2.75) instead of an improper fraction, which does not match the question's requirement to express the total amount as an improper fraction."
+            },
+            "all_wrong_steps": {
+                "Step 2": "Misinterpreting Question Requirements"
+            }
+        },
+        "Incorrect Copying of Numbers": {
+            "question": "Mrs Lee baked 2 whole cakes and three quarters of another cake for a party. Express the total amount of cake she baked as an improper fraction.",
+            "type_of_error": "Incorrect Copying of Numbers",
+            "wrong_solution": {
+                "Step 1": "First, we write the total amount of cake as a mixed number:\n\n\\[ 3 \\frac{2}{4} \\]",
+                "Step 2": "To change the mixed number to an improper fraction, we multiply the whole number by the denominator and add the numerator:\n\n\\[ (3 \\times 4) + 2 = 12 + 2 = 14 \\]",
+                "Step 3": "So, the improper fraction is:\n\n\\[ \\frac{14}{4} \\]",
+                "Step 4": "Mrs Lee baked \\( \\frac{14}{4} \\) cakes in total."
+            },
+            "wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            },
+            "error_explanation": {
+                "Step 1": "The numbers from the question were copied incorrectly. The question states that there are 2 whole cakes and three quarters of another cake, which should be written as \\(2\\frac{3}{4}\\), not \\(3\\frac{2}{4}\\)."
+            },
+            "all_wrong_steps": {
+                "Step 1": "Incorrect Copying of Numbers"
+            }
+        }
+    }
+}

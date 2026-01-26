@@ -1,0 +1,27 @@
+Knowledge: Questions include "State the definition”, ”State the theorem”,
+or ”Use the specified method."
+E.g., Take the derivative of the following rational function using quotient rule.
+
+Comprehension: Questions ask the student to use definitions or methods
+to calculate something.
+E.g., Find the slope of the tangent line to the following function at a given point.
+
+Application: Questions which require the usage of more than one definition, theorem, and/or algorithm.
+E.g., Find the derivative of the following implicitly defined function. (This
+question could be used to test logarithmic differentiation as well, for instance)
+
+Analysis: Questions require the student to identify the appropriate theorem and use it to arrive at the given conclusion or classification. Alternatively,
+these questions can provide a scenario and ask the student to generate a certain
+type of conclusion.
+E.g., Let f(x) be a fourth-degree polynomial. How many roots can f(x) have?
+Explain.
+
+Synthesis: Questions are similar to Analysis questions, but the conclusion
+to be reached by the student is an algorithm for solving the given question.
+This also includes questions which ask the student to develop their own classification system
+E.g., optimization word problems where student generates the function to be
+differentiated.
+
+Evaluation: Questions are similar to Synthesis questions, except the student is required to make judgements about which information should be used.
+E.g., related rate word problem where student decides which formulae are to be
+used and which of the given numbers are constants or instantaneous values.

@@ -1,0 +1,262 @@
+{
+  "P5-DcMul3dK_P4-DcCnv2Fr_GPT4.1_Services_01": {
+    "Primary_kc": "DECIMALS | Multiplication | multiplying decimals (up to 3 decimal places) by 10, 100, 1000 and their multiples",
+    "Secondary_kc": "DECIMALS | Conversion from decimals to fraction | expressing decimals as fractions",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 5",
+    "QID": "P5-DcMul3dK_P4-DcCnv2Fr_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning service company charges \\$0.275 per square metre to clean offices. Mr. Lim wants to clean an office space that is 1200 square metres large. \n\n(a) What is the total cleaning cost Mr. Lim has to pay? \n\n(b) Express the cost per square metre, $0.275, as a fraction in its simplest form.",
+      "solution": "Part (a): \n\nTotal cleaning cost = cost per square metre $\\times$ number of square metres \n\nTotal cost = $0.275 \\times 1200$\n\n$0.275 \\times 1200 = 330$\n\nSo, Mr. Lim has to pay \\$330.\n\nPart (b): \n\n$0.275 = \\frac{275}{1000}$\n\nSimplifying by dividing both the numerator and the denominator by 25,\n\n$\\frac{275 \\div 25}{1000 \\div 25} = \\frac{11}{40}$\n\nSo, $0.275$ as a fraction in simplest form is $\\frac{11}{40}$.",
+      "response_time": 4.589960336685181
+    }
+  },
+  "P6-RoFndRoWN_P1-WNDiv2nd_GPT4.1_Services_01": {
+    "Primary_kc": "RATIO | Finding ratio | finding the ratio of two or three given whole numbers",
+    "Secondary_kc": "WHOLE NUMBERS | Division | dividing whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 6",
+    "QID": "P6-RoFndRoWN_P1-WNDiv2nd_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company sends 15 workers to clean three office buildings. The number of workers sent to Building A, Building B, and Building C are in the ratio 2 : 3 : 5. \n\n(a) Find the number of workers sent to each building.\n\n(b) If the number of workers sent to Building C is equally divided into 5 cleaning teams, how many workers are there in each team?",
+      "solution": "(a) Let the number of workers sent to Building A, B, and C be 2x, 3x, and 5x respectively.\n\nThe total ratio parts = 2 + 3 + 5 = 10 parts\n\nSince 15 workers in total = 10 parts,\n\n1 part = 15 \\div 10 = 1.5 workers\n\n\\text{Number of workers in Building A} = 2 \\times 1.5 = 3\n\n\\text{Number of workers in Building B} = 3 \\times 1.5 = 4.5\n\n\\text{Number of workers in Building C} = 5 \\times 1.5 = 7.5\n\nHowever, since the number of workers must be whole numbers, the possible distribution could be:\n\n- A: 3 workers\n- B: 4 or 5 workers (assigning the half worker to B)\n- C: 8 workers\n\nBut based on the strict ratio division with whole numbers, the closest numbers that fit the total and maintain ratio are A: 3, B: 4, C: 8.\n\n(b) Number of workers in Building C = 8. The workers are divided equally into 5 cleaning teams:\n\nNumber of workers in each team = 8 \\div 5 = 1.6 workers.\n\nSince we cannot have a fraction of a worker, the problem may intend that 3 teams have 2 workers and 2 teams have 1 worker each. So, each team has either 1 or 2 workers.",
+      "response_time": 4.846396446228027
+    }
+  },
+  "P5-DcDiv3dK_P4-DcAdd2nd_GPT4.1_Services_01": {
+    "Primary_kc": "DECIMALS | Division | dividing decimals (up to 3 decimal places) by 10, 100, 1000 and their multiples",
+    "Secondary_kc": "DECIMALS | Addition | adding decimals",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 5",
+    "QID": "P5-DcDiv3dK_P4-DcAdd2nd_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A laundry company charged $12.75 to clean 5 shirts. Another customer brought in 13 shirts and paid the same rate per shirt. \n\n(a) How much did it cost to clean 1 shirt? \n\n(b) What was the total cost for cleaning 13 shirts at this rate?\n\n(c) If the customer also paid an additional $2.40 for express service, what was the total amount the customer paid for 13 shirts, including the express fee?",
+      "solution": "**(a) Cost to clean 1 shirt:**\n\n\\[ \\text{Cost per shirt} = \\frac{12.75}{5} = 2.55 \\]\n\n**(b) Total cost for 13 shirts:**\n\n\\[ \\text{Total cost for 13 shirts} = 13 \\times 2.55 = 33.15 \\]\n\n**(c) Total amount including express fee:**\n\n\\[ 33.15 + 2.40 = 35.55 \\]\n\n**Final Answer:**\n\n(a) $2.55  \n(b) $33.15  \n(c) $35.55",
+      "response_time": 14.249267339706421
+    }
+  },
+  "P3-WNAdd4d_P1-WNAdd2nd_GPT4.1_Services_02": {
+    "Primary_kc": "WHOLE NUMBERS | Addition | adding whole numbers up to 4 digits",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | adding whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 3",
+    "QID": "P3-WNAdd4d_P1-WNAdd2nd_GPT4.1_Services_02",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "Mr. Lim runs a cleaning service. On Monday, he cleaned 1,236 offices. On Tuesday, he cleaned 2,405 offices. On Wednesday, he cleaned 789 offices. How many offices did Mr. Lim clean altogether from Monday to Wednesday?",
+      "solution": "Add the number of offices cleaned each day:\n\n\\[\n\\begin{align*}\n\\text{Total offices cleaned} &= 1,236 + 2,405 + 789 \\\\\n&= (1,236 + 2,405) + 789 \\\\\n&= 3,641 + 789 \\\\\n&= 4,430 \\\\\n\\end{align*}\n\\]\n\nMr. Lim cleaned \\(4,430\\) offices altogether from Monday to Wednesday.",
+      "response_time": 2.6963000297546387
+    }
+  },
+  "P6-FrDivPP_P2-FrSub2nd_GPT4.1_Services_01": {
+    "Primary_kc": "FRACTIONS | Division | dividing a whole number/proper fraction by a proper fraction",
+    "Secondary_kc": "FRACTIONS | Subtraction | subtracting fractions",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPP_P2-FrSub2nd_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company uses $\\frac{2}{3}$ litres of cleaning solution for each classroom they clean. They have a total of 8 litres of cleaning solution in stock. \n\n(a) How many classrooms can they clean with the solution they currently have?\n\nAfter using some of the solution to clean a certain number of classrooms, they realise they need to save $1\\frac{1}{3}$ litres for an emergency.\n\n(b) How many more litres of cleaning solution can they use before reaching the emergency reserve?\n\n(c) With the remaining usable solution, how many more classrooms can they clean?",
+      "solution": "(a) To find out how many classrooms can be cleaned with 8 litres of solution, divide 8 by $\\frac{2}{3}$:\n\n$8 \\div \\frac{2}{3} = 8 \\times \\frac{3}{2} = 12$\n\nSo, they can clean 12 classrooms.\n\n(b) To find out how much solution they can still use before reaching the emergency reserve, subtract the amount reserved from the total:\n\n$8 - 1\\frac{1}{3} = 8 - \\frac{4}{3} = \\frac{24}{3} - \\frac{4}{3} = \\frac{20}{3} = 6\\frac{2}{3}$ litres\n\nSo, they can use $6\\frac{2}{3}$ litres before reaching the reserve.\n\n(c) With $6\\frac{2}{3}$ litres, the number of classrooms they can clean is:\n\n$6\\frac{2}{3} \\div \\frac{2}{3} = \\frac{20}{3} \\div \\frac{2}{3} = \\frac{20}{3} \\times \\frac{3}{2} = \\frac{20 \\times 3}{3 \\times 2} = \\frac{60}{6} = 10$\n\nSo, with the remaining usable solution, they can clean 10 more classrooms.",
+      "response_time": 4.3959784507751465
+    }
+  },
+  "P6-PcFndChg_P1-WNAdd2nd_GPT4.1_Services_01": {
+    "Primary_kc": "PERCENTAGE | Finding change | finding percentage increase/decrease",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | adding whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 6",
+    "QID": "P6-PcFndChg_P1-WNAdd2nd_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A washing machine repair service charges $120 for a basic repair. If additional parts are needed, each part costs $30. Mrs Tan\u2019s washing machine needed two additional parts for the repair. After the service, the company informed Mrs Tan that there would be a 15\\% increase in the total cost due to an urgent service request. \n\n(a) What is the total cost before the percentage increase?\n\n(b) What is the total cost after the 15\\% increase?",
+      "solution": "Let\u2019s solve step-by-step:\n\n(a) To find the total cost before the percentage increase:\n\nCost of basic repair = $120 \n\nNumber of parts needed = 2 \n\nCost of additional parts = $30 \\times 2 = $60 \n\nTotal cost before increase = $120 + $60 = $180\n\n(b) To find the total cost after a 15\\% increase:\n\nPercentage increase = 15\\% of $180 = \\frac{15}{100} \\times 180 = $27\n\nTotal cost after increase = $180 + $27 = $207\n\n**Final Answers:**\n\n(a) $180\n\n(b) $207",
+      "response_time": 3.5109610557556152
+    }
+  },
+  "P5-FrMulImIm_P5-FrCnv2Dc_GPT4.1_Services_01": {
+    "Primary_kc": "FRACTIONS | Multiplication | multiplying two improper fractions",
+    "Secondary_kc": "FRACTIONS | Conversion to decimals | expressing fractions as decimals",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 5",
+    "QID": "P5-FrMulImIm_P5-FrCnv2Dc_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning service uses $\\dfrac{9}{4}$ litres of cleaning solution for each large room and $\\dfrac{7}{3}$ litres for each small room. If on Saturday, a customer booked the cleaning of one large room and one small room, how many litres of cleaning solution were used in total? Express your answer as a decimal.\n",
+      "solution": "First, we need to find the total amount of cleaning solution used by adding the amount used for one large room and one small room:\n\n$\\dfrac{9}{4} + \\dfrac{7}{3}$\n\nFind a common denominator (12):\n\n$\\dfrac{9}{4} = \\dfrac{27}{12}$\n\n$\\dfrac{7}{3} = \\dfrac{28}{12}$\n\nAdd:\n\n$\\dfrac{27}{12} + \\dfrac{28}{12} = \\dfrac{55}{12}$\n\nNow, convert $\\dfrac{55}{12}$ to a decimal:\n\n$55 \\div 12 = 4.583...$\n\nCorrect to 2 decimal places (as is common for litres):\n\n$\\dfrac{55}{12} = 4.58$ litres (rounded to 2 decimal places)\n\n**Answer: 4.58 litres of cleaning solution were used in total.**\n",
+      "response_time": 3.6606433391571045
+    }
+  },
+  "P4-WNMul4d1d_P1-WNAdd2nd_GPT4.1_Services_01": {
+    "Primary_kc": "WHOLE NUMBERS | Multiplication | multiplying whole numbers up to 4 digits by 1 digit or up to 3 digits by 2 digits",
+    "Secondary_kc": "WHOLE NUMBERS | Addition | adding whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 4",
+    "QID": "P4-WNMul4d1d_P1-WNAdd2nd_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A laundry shop received 126 bags of clothes from a hotel for cleaning. Each bag contains 38 shirts. The shop also received 1,275 shirts from another hotel. How many shirts in total did the laundry shop receive from both hotels?",
+      "solution": "First, find the number of shirts in the 126 bags:\n\n$126 \\times 38 = 4,788$ shirts\n\nThe number of shirts from the other hotel is $1,275$.\n\nTotal number of shirts received:\n\n$4,788 + 1,275 = 6,063$\n\n**Final answer:** The laundry shop received a total of $6,063$ shirts from both hotels.",
+      "response_time": 2.210826873779297
+    }
+  },
+  "O3-STOprUn_O3-STOprIns_GPT4.1_Services_01": {
+    "Primary_kc": "SET | Set operations | union of two sets",
+    "Secondary_kc": "SET | Set operations | intersection of two sets",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Secondary O-level 3/4",
+    "QID": "O3-STOprUn_O3-STOprIns_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A company offers two types of home services: aircon maintenance and aircon cleaning. In a particular week, 70 households engaged the company for aircon maintenance, 50 households engaged the company for aircon cleaning, and 30 households engaged the company for both services.\n\n(a) How many households engaged the company for at least one of the two services that week?\n\n(b) How many households engaged the company for only one type of service?\n\n(c) If the total number of unique households served that week is 90, how many households did not engage the company for either aircon maintenance or cleaning?",
+      "solution": "(a) Let $A$ be the set of households that engaged aircon maintenance, and $B$ be the set of households that engaged aircon cleaning. We are asked for $|A \\cup B|$.\n\nBy the principle of inclusion-exclusion:\n\n$$|A \\cup B| = |A| + |B| - |A \\cap B|$$\n$$|A \\cup B| = 70 + 50 - 30 = 90$$\n\nSo, 90 households engaged the company for at least one of the two services.\n\n(b) Households that engaged only one type of service: \\newline\nThose who engaged only maintenance: $|A| - |A \\cap B| = 70 - 30 = 40$ \\newline\nThose who engaged only cleaning: $|B| - |A \\cap B| = 50 - 30 = 20$\\newline\nThus, the number of households that engaged the company for only one type of service is:\n$$40 + 20 = 60$$\n\n(c) If the total number of unique households served that week is 90, and all these engaged at least one service, then $90 - 90 = 0$ households did not engage either service. If, however, the total population of possible households is greater than 90, let us say $N$ households, the number that did not engage is $N - 90$. But as phrased, with 'unique households served is 90' and $|A \\cup B| = 90$, all served households took at least one service, so the answer is zero.",
+      "response_time": 8.870864152908325
+    }
+  },
+  "O3-MXSub_O3-MXAdd_GPT4.1_Services_01": {
+    "Primary_kc": "MATRICES | Subtraction | subtraction of matrices",
+    "Secondary_kc": "MATRICES | Addition | addition of matrices",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Secondary O-level 3/4",
+    "QID": "O3-MXSub_O3-MXAdd_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company records the number of different types of cleaning jobs completed in two different weeks. The numbers are shown in matrices below, where the columns represent 'Office Cleaning', 'Home Cleaning', and 'Carpet Cleaning' jobs:\n\nIn Week 1: \\[\nA = \\begin{bmatrix} 12 & 9 & 5 \\\\ 8 & 6 & 7 \\end{bmatrix}\n\\]\nIn Week 2: \\[\nB = \\begin{bmatrix} 10 & 7 & 6 \\\\ 9 & 8 & 5 \\end{bmatrix}\n\\]\n\n(a) Calculate the total number of each type of cleaning job completed in the two weeks combined.\n\n(b) Calculate the change in the number of each type of cleaning job from Week 1 to Week 2.",
+      "solution": "(a) To find the total number of each type of cleaning job completed in the two weeks combined, we add the two matrices:\n\n\\[\nA + B = \\begin{bmatrix} 12 & 9 & 5 \\\\ 8 & 6 & 7 \\end{bmatrix} + \\begin{bmatrix} 10 & 7 & 6 \\\\ 9 & 8 & 5 \\end{bmatrix} = \\begin{bmatrix} 12+10 & 9+7 & 5+6 \\\\ 8+9 & 6+8 & 7+5 \\end{bmatrix} = \\begin{bmatrix} 22 & 16 & 11 \\\\ 17 & 14 & 12 \\end{bmatrix}\n\\]\n\n(b) To calculate the change in the number of each type of job from Week 1 to Week 2, subtract the Week 1 matrix from the Week 2 matrix:\n\n\\[\nB - A = \\begin{bmatrix} 10 & 7 & 6 \\\\ 9 & 8 & 5 \\end{bmatrix} - \\begin{bmatrix} 12 & 9 & 5 \\\\ 8 & 6 & 7 \\end{bmatrix} = \\begin{bmatrix} 10-12 & 7-9 & 6-5 \\\\ 9-8 & 8-6 & 5-7 \\end{bmatrix} = \\begin{bmatrix} -2 & -2 & 1 \\\\ 1 & 2 & -2 \\end{bmatrix}\n\\]\n\nSo, for each job type in each row, this matrix shows the increase (+) or decrease (\u2212) in the number of jobs from Week 1 to Week 2.",
+      "response_time": 16.0803542137146
+    }
+  },
+  "O1-RoRepFr_P2-FrSub2nd_GPT4.1_Services_01": {
+    "Primary_kc": "RATIO | Representation and concept | ratios involving fractions",
+    "Secondary_kc": "FRACTIONS | Subtraction | subtracting fractions",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-RoRepFr_P2-FrSub2nd_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A washing service offers two types of laundry detergents: Premium and Standard. For a certain load of laundry, the recommended amount of detergent to use is given in the ratio $\\frac{2}{3} : \\frac{1}{3}$ (Premium : Standard) by volume. If a total of $\\frac{4}{5}$ litres of detergent is to be used for a load, and the amount of Premium detergent used is $\\frac{1}{2}$ litre more than the amount of Standard detergent used, how many litres of Standard detergent are needed for the load?\n",
+      "solution": "Let the amount of Premium detergent used be $P$ litres and the amount of Standard detergent used be $S$ litres.\n\nThe ratio $P : S = \\frac{2}{3} : \\frac{1}{3}$. This means:\n$$\n\\frac{P}{S} = \\frac{\\frac{2}{3}}{\\frac{1}{3}} = 2\n$$\nSo $P = 2S$.\n\nWe know that the total amount is:\n$$\nP + S = \\frac{4}{5}\n$$\nAnd also,\n$$\nP = S + \\frac{1}{2}\n$$\n\nSubstitute $P = 2S$ into $P = S + \\frac{1}{2}$:\n$$\n2S = S + \\frac{1}{2} \\\\\n2S - S = \\frac{1}{2} \\\\\nS = \\frac{1}{2}\n$$\n\nTherefore, the amount of Standard detergent used is $\\boxed{\\frac{1}{2}}$ litres.",
+      "response_time": 9.405858755111694
+    }
+  },
+  "O2-RoRepIvP_P1-WNDiv2nd_GPT4.1_Services_01": {
+    "Primary_kc": "RATIO | Representation and concept | inverse proportion",
+    "Secondary_kc": "WHOLE NUMBERS | Division | dividing whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Secondary O-level 2",
+    "QID": "O2-RoRepIvP_P1-WNDiv2nd_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company is hired to clean 320 identical classrooms in a school. If 8 cleaners can finish cleaning all the classrooms in 20 hours, how many hours will it take 10 cleaners to finish cleaning the same number of classrooms, assuming they all work at the same rate and the work is shared equally? \n\nAdditionally, how many classrooms will each cleaner clean if the 10 cleaners work together in that time?",
+      "solution": "Since the number of cleaners and the time taken are inversely proportional (more cleaners means less time needed), we set up the equation:\n\n\\[\n8 \\text{ cleaners} \\times 20 \\text{ hours} = 10 \\text{ cleaners} \\times x \\text{ hours}\n\\]\n\nSo,\n\\[\n8 \\times 20 = 10x \\\\\n160 = 10x \\\\\nx = \\frac{160}{10} = 16\n\\]\n\nTherefore, it will take 10 cleaners 16 hours to clean all the classrooms.\n\nNow, to find the number of classrooms each cleaner will clean:\n\n\\[\n\\text{Total classrooms} = 320 \\\\\n\\text{Total cleaners} = 10 \\\\\n\\text{Each cleaner cleans: } \\frac{320}{10} = 32 \\text{ classrooms}\n\\]\n\n**Final answers:**\n- It will take 16 hours for 10 cleaners to clean all 320 classrooms.\n- Each cleaner will clean 32 classrooms.",
+      "response_time": 3.8378806114196777
+    }
+  },
+  "P3-WNDiv3d1d_P1-WNCmp_GPT4.1_Services_01": {
+    "Primary_kc": "WHOLE NUMBERS | Division | dividing whole numbers up to 3 digits by 1 digit",
+    "Secondary_kc": "WHOLE NUMBERS | Comparison and ordering | comparing and ordering whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 3",
+    "QID": "P3-WNDiv3d1d_P1-WNCmp_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company needs to clean 624 classrooms in a school. Each team of cleaners can clean 8 classrooms in one day. \n\n(a) How many teams are needed if the work must be done in one day?\n\n(b) All the teams are given one classroom each to start with on the first hour. List the room numbers in order from the smallest to the largest that are cleaned by the first five teams in the first hour.",
+      "solution": "(a) To find the number of teams needed, divide 624 classrooms by 8 classrooms per team:\n\\[\n\\frac{624}{8} = 78\n\\]\nSo, 78 teams are needed to clean all the classrooms in one day.\n\n(b) The first five teams will clean classrooms numbered 1, 2, 3, 4, and 5 in the first hour. Arranged from smallest to largest, the room numbers are: 1, 2, 3, 4, 5.",
+      "response_time": 23.642767190933228
+    }
+  },
+  "P5-FrMulImIm_P2-FrCmp_GPT4.1_Services_01": {
+    "Primary_kc": "FRACTIONS | Multiplication | multiplying two improper fractions",
+    "Secondary_kc": "FRACTIONS | Comparison and ordering | comparing and ordering fractions",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 5",
+    "QID": "P5-FrMulImIm_P2-FrCmp_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning service offers two types of large mop packages for offices. \n\nPackage A uses $\\frac{7}{3}$ litres of cleaning solution for each room and cleans $\\frac{10}{4}$ rooms per floor in a building. Package B uses $\\frac{5}{2}$ litres of solution for each room and cleans $\\frac{11}{4}$ rooms per floor. \n\nFor one floor, calculate the total amount of cleaning solution used by each package. Then, compare the total amounts and state which package uses more cleaning solution per floor.",
+      "solution": "For Package A:\n\\[\n\\text{Total solution used} = \\frac{7}{3} \\times \\frac{10}{4} = \\frac{7 \\times 10}{3 \\times 4} = \\frac{70}{12} = \\frac{35}{6} \\text{ litres}\n\\]\n\nFor Package B:\n\\[\n\\text{Total solution used} = \\frac{5}{2} \\times \\frac{11}{4} = \\frac{5 \\times 11}{2 \\times 4} = \\frac{55}{8} \\text{ litres}\n\\]\n\nTo compare $\\frac{35}{6}$ and $\\frac{55}{8}$, find a common denominator:\n\n$\\frac{35}{6} = \\frac{35 \\times 4}{6 \\times 4} = \\frac{140}{24}$\n\n$\\frac{55}{8} = \\frac{55 \\times 3}{8 \\times 3} = \\frac{165}{24}$\n\nSince $140 < 165$, $\\frac{35}{6} < \\frac{55}{8}$.\n\nTherefore, **Package B uses more cleaning solution per floor.**",
+      "response_time": 8.602911710739136
+    }
+  },
+  "O1-FDMul_O1-FDAdd_GPT4.1_Services_02": {
+    "Primary_kc": "FRACTIONS AND DECIMALS | Multiplication | Multiplication involving one fraction and one decimal number",
+    "Secondary_kc": "FRACTIONS AND DECIMALS | Addition | Addition involving one fraction and one decimal number",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Secondary O-level 1",
+    "QID": "O1-FDMul_O1-FDAdd_GPT4.1_Services_02",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A window cleaning company charges \\( \\frac{2}{3} \\) times the base rate for cleaning windows that are above the second floor. The base rate per window is \\$5.80. If Anna wants to clean 4 windows above the second floor and also wants an additional ground floor window cleaned, which costs \\$3.50, what is the total amount she will have to pay for all the cleaning? Give your answer in dollars and cents.",
+      "solution": "First, calculate the cost for one window above the second floor: \n\n\\[\n\\text{Cost per window above 2nd floor} = \\frac{2}{3} \\times 5.80 = \\frac{2 \\times 5.80}{3}\n\\]\n\nCalculate \\(2 \\times 5.80 = 11.60\\). So,\n\\[\n\\frac{11.60}{3} = 3.8666... \\approx \\$3.87\n\\]\n\nThere are 4 such windows:\n\\[\n4 \\times 3.87 = \\$15.48\n\\]\n\nCost for the additional ground floor window: \\$3.50.\n\nTotal cost:\n\\[\n\\$15.48 + \\$3.50 = \\$18.98\n\\]\n\nSo, Anna will have to pay \\$18.98 in total for all the cleaning.",
+      "response_time": 7.902355194091797
+    }
+  },
+  "P6-FrDivPN_P5-FrCnv2Dc_GPT4.1_Services_06": {
+    "Primary_kc": "FRACTIONS | Division | dividing a proper fraction by a whole number",
+    "Secondary_kc": "FRACTIONS | Conversion to decimals | expressing fractions as decimals",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 6",
+    "QID": "P6-FrDivPN_P5-FrCnv2Dc_GPT4.1_Services_06",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company uses $\\frac{3}{4}$ litres of detergent to clean 6 identical offices.\\\n\n(a) How much detergent, in litres, is used to clean each office?\\\n\n(b) Express the answer from part (a) as a decimal.",
+      "solution": "(a) Amount of detergent used for each office = $\\frac{3}{4} \\div 6 = \\frac{3}{4} \\times \\frac{1}{6} = \\frac{3}{24} = \\frac{1}{8}$ litres.\\\n\n(b) $\\frac{1}{8} = 0.125$ litres.\\\n\nFinal answer: Each office uses $\\frac{1}{8}$ litres, which is $0.125$ litres.",
+      "response_time": 2.5569705963134766
+    }
+  },
+  "P3-WNDiv3d1d_P1-WNMul2nd_GPT4.1_Services_01": {
+    "Primary_kc": "WHOLE NUMBERS | Division | dividing whole numbers up to 3 digits by 1 digit",
+    "Secondary_kc": "WHOLE NUMBERS | Multiplication | multiplying whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 3",
+    "QID": "P3-WNDiv3d1d_P1-WNMul2nd_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A laundry company receives 216 shirts to wash. The shirts are to be packed equally into boxes, with each box containing 6 shirts. \n\n(a) How many boxes does the company need to pack all the shirts? \n\n(b) If one of their workers can carry 4 boxes at a time, how many shirts can the worker carry in one trip?",
+      "solution": "(a) To find out how many boxes are needed, divide 216 by 6:\n\n$$\n216 \\div 6 = 36\n$$\n\nSo, the company needs **36 boxes**.\n\n(b) One box contains 6 shirts. If the worker carries 4 boxes, the total number of shirts is:\n\n$$\n4 \\times 6 = 24\n$$\n\nSo, the worker can carry **24 shirts** in one trip.",
+      "response_time": 2.2071192264556885
+    }
+  },
+  "O3-BPRepPosI_O3-BPRepNegI_GPT4.1_Services_01": {
+    "Primary_kc": "BASE AND POWER | Representation and concept  | positive indices that is not 1",
+    "Secondary_kc": "BASE AND POWER | Representation and concept  | negative indices",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Secondary O-level 3/4",
+    "QID": "O3-BPRepPosI_O3-BPRepNegI_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A company provides regular air-conditioner cleaning services. For each cleaning session, the company uses a special disinfectant that is effective for $2^3$ days. However, if the cleaning is not done regularly, the effectiveness of the disinfectant decreases, and every time the cleaning interval doubles, the effectiveness period of the disinfectant is halved, following the rule $2^{-n}$, where $n$ is the number of times the interval is doubled.\n\n(a) What is the effectiveness period in days after the cleaning interval has been doubled twice?\n\n(b) If the company originally offers a cleaning package every $2^3$ days, but a customer chooses to clean every $2^5$ days instead, what is the new effectiveness period of the disinfectant?",
+      "solution": "Let us use the rules of indices to solve the problems.\n\n(a) The initial effectiveness period: $2^3 = 8$ days.\nEach time the interval is doubled, the period is multiplied by $2^{-1}$ (halved). After doubling twice: $2^{-2} = \\dfrac{1}{2^2} = \\dfrac{1}{4}$.\nSo, new effectiveness period $= 8 \\times \\dfrac{1}{4} = 2$ days.\n\n(b) To go from every $2^3$ days to every $2^5$ days, the interval is doubled $2$ times ($2^5 / 2^3 = 2^{5-3} = 2^2 = 4$ times, or doubled twice).\nSo, as above, effectiveness period $= 8 \\times \\dfrac{1}{4} = 2$ days.\n\n**Answers:**\n(a) 2 days\n(b) 2 days",
+      "response_time": 4.612142324447632
+    }
+  },
+  "P3-WNDivRmd3d_P1-WNSub2nd_GPT4.1_Services_01": {
+    "Primary_kc": "WHOLE NUMBERS | Division | dividing whole numbers up to 3 digits by 1 digit with remainder ",
+    "Secondary_kc": "WHOLE NUMBERS | Subtraction | subtracting whole numbers",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 3",
+    "QID": "P3-WNDivRmd3d_P1-WNSub2nd_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A laundry shop received 153 dirty shirts to wash in one day. The staff must divide the shirts equally into baskets, and each basket can hold 4 shirts. After all the baskets are filled, the staff realise that some shirts are left without a basket. Later in the day, 8 more shirts are collected from another customer and need to be washed as well. \n\n(a) How many baskets will be completely filled? How many shirts will be left without a basket after dividing?\n\n(b) After washing the shirts from part (a) and the 8 extra shirts, how many shirts in total does the laundry shop have left to wash?\n",
+      "solution": "Let us solve each part step by step.\n\n(a) To find how many baskets are completely filled, divide 153 by 4:\n\n153 \\div 4 = 38\\text{ remainder }1\n\nSo, 38 baskets are completely filled and 1 shirt is left without a basket.\n\n(b) Next, 8 more shirts arrive. The staff needs to wash the 1 leftover shirt from part (a) and the 8 new shirts, totaling:\n\n1 + 8 = 9\n\nTherefore, the laundry shop has 9 shirts left to wash after the first round.",
+      "response_time": 4.18612813949585
+    }
+  },
+  "P3-FrSubRl12_P3-FrSmp_GPT4.1_Services_01": {
+    "Primary_kc": "FRACTIONS | Subtraction | subtracting two related fractions within one whole with denominators of given fractions not exceeding 12",
+    "Secondary_kc": "FRACTIONS | Simplifying | expressing a fraction in its simplest form",
+    "Topic": "Services such as installation, maintenance, repairing, cleaning, laundry, e-commerce",
+    "Grade": "Primary 3",
+    "QID": "P3-FrSubRl12_P3-FrSmp_GPT4.1_Services_01",
+    "response_dict": {
+      "status": 0,
+      "word_problem": "A cleaning company completed \\( \\frac{7}{12} \\) of a school's annual cleaning tasks by the end of June. By the end of September, they have completed \\( \\frac{11}{12} \\) of the tasks for the year. \n\nHow much more of the annual cleaning tasks did the company complete from the end of June to the end of September? Express your answer in its simplest form.",
+      "solution": "To find out how much more of the tasks were completed, subtract the fraction completed by June from the fraction completed by September:\n\n\\[\n\\frac{11}{12} - \\frac{7}{12} = \\frac{11 - 7}{12} = \\frac{4}{12}\n\\]\n\nSimplify \\( \\frac{4}{12} \\):\n\n\\[\n\\frac{4}{12} = \\frac{1}{3}\n\\]\n\nSo, the company completed \\( \\frac{1}{3} \\) more of the annual cleaning tasks from the end of June to the end of September.",
+      "response_time": 18.730021715164185
+    }
+  }
+}
